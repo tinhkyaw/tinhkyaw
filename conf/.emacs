@@ -46,49 +46,6 @@
 
 (display-time)
 
-(add-to-list 'load-path "~/.emacs.d/custom-modes/")
-(add-to-list 'load-path "~/.emacs.d/custom-modes/color-theme-6.6.0")
-(add-to-list 'load-path "~/.emacs.d/custom-modes/groovy-mode")
-(add-to-list 'load-path "~/.emacs.d/custom-modes/nxml-mode")
-(add-to-list 'load-path "~/.emacs.d/custom-modes/thrift-mode")
-(load-file "~/.emacs.d/custom-modes/piglatin-mode/piglatin.el")
-
-(require 'color-theme)
-(eval-after-load "color-theme"
-  '(progn
-     (color-theme-initialize)
-     (color-theme-dark-laptop)))
-
-(setq auto-mode-alist
-      (cons '("\\.\\(php\\|inc\\)$" . php-mode) auto-mode-alist))
-(autoload 'php-mode "php-mode" "PHP mode." t)
-
-(load "thrift")
-(require 'thrift-mode)
-
-(load "rng-auto")
-(setq nxml-slash-auto-complete-flag t)
-(add-to-list 'auto-mode-alist 
-             '("\.\(xml\|svg\|wsdl\|xslt\|wsdd\|xsl\|rng\|xhtml\)\'" . nxml-mode) nil)
-
-
-(add-to-list 'auto-mode-alist '("\\.m$" . octave-mode))
-
-;;; use groovy-mode when file ends in .groovy or has #!/bin/groovy at start
-(autoload 'groovy-mode "groovy-mode" "Major mode for editing Groovy code." t)
-(add-to-list 'auto-mode-alist '("\\.\\(gradle\\|groovy\\)$" . groovy-mode))
-(add-to-list 'interpreter-mode-alist '("groovy" . groovy-mode))
-(add-to-list 'interpreter-mode-alist '("gradle" . groovy-mode))
-
-;;; make Groovy mode electric by default.
-(add-hook 'groovy-mode-hook
-          '(lambda ()
-             (require 'groovy-electric)
-             (groovy-electric-mode)))
-
-(autoload 'js2-mode "js2" nil t)
-(add-to-list 'auto-mode-alist '("\\.\\(js\\|json\\)$" . js2-mode))
-
 ;; can replace selected text with typing
 (delete-selection-mode t)
 
@@ -124,3 +81,6 @@
 ;; via hooks.
 
 (setq auto-fill-mode 1)
+
+;; load packages
+(load "~/.emacs.d/my-loadpackages.el")
