@@ -9,6 +9,8 @@
 (require 'gradle-mode)
 (require 'hive)
 (require 'pig-mode)
+(require 'scala-mode2)
+(require 'sbt-mode)
 (require 'thrift)
 
 (add-to-list 'auto-mode-alist '("\\.\\(php\\|inc\\)$" . php-mode))

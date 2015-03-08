@@ -13,6 +13,8 @@
     gradle-mode
     hive
     pig-mode
+    sbt-mode
+    scala-mode2
     thrift
   ) "a list of packages to ensure are installed at launch.")
 
