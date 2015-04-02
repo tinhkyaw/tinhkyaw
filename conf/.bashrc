@@ -13,3 +13,5 @@ export PS1='[\[\033[01;33m\]\u\[\033[36m\]@\h\[\033[31m\]:\[\033[01;34m\]\W$(__g
 export HISTCONTROL=erasedups
 export HISTSIZE= HISTFILESIZE=
 shopt -s histappend
+
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
