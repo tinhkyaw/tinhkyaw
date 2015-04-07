@@ -2,6 +2,17 @@
 brew update;
 brew upgrade;
 brew upgrade brew-cask;
+for cask in $(brew cask list);
+do
+    ver=$(brew cask info $cask | head -1 | cut -d ' ' -f 2);
+    if [ $ver == 'latest' ];
+    then
+        echo reinstalling $ver $cask;
+        brew cask install $cask --force --download;
+    else
+        brew cask install $cask;
+    fi;
+done
 brew cleanup --force;
 brew cask cleanup;
 brew doctor;
