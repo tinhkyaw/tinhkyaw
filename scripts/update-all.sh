@@ -8,7 +8,7 @@ do
     if [ $ver == 'latest' ];
     then
         echo reinstalling $ver $cask;
-        brew cask install $cask --force --download;
+#        brew cask install $cask --force --download;
     else
         brew cask install $cask;
     fi;
