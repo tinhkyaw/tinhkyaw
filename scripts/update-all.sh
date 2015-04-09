@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+DIR=$(dirname "$(greadlink -f "$0")")
 brew update;
 brew upgrade;
 brew upgrade brew-cask;
@@ -7,8 +8,13 @@ do
     ver=$(brew cask info $cask | head -1 | cut -d ' ' -f 2);
     if [ $ver == 'latest' ];
     then
-        echo reinstalling $ver $cask;
-#        brew cask install $cask --force --download;
+        if grep -Fxq $cask $DIR/latest
+        then
+            echo Reinstalling latest $cask
+            brew cask install $cask --force --download;
+        else
+            echo Ignoring $cask
+        fi
     else
         brew cask install $cask;
     fi;
