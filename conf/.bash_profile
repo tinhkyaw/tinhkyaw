@@ -2,4 +2,4 @@
 
 [[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load .profile
 
-if which jenv > /dev/null; then eval "$(jenv init -)"; fi
+if which jenv > /dev/null; then eval "$(jenv init - bash)"; fi

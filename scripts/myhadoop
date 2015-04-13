@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+: ${JAVA_HOME:?"not set!"}
+: ${HADOOP_CONF_DIR:?"not set!"}
+
+
+self=$(basename $0)
+
+function usage() {
+    echo "Usage: $self start|stop"
+}
+
+if [ $# -lt 1 ]; then
+    usage
+    exit
+fi
+
+case $1 in
+    start)
+        start-dfs.sh && start-yarn.sh && mr-jobhistory-daemon.sh start historyserver;
+        ;;
+    stop)
+        mr-jobhistory-daemon.sh stop historyserver && stop-yarn.sh && stop-dfs.sh;
+        ;;
+    *)
+        usage
+        ;;
+esac
+    
