@@ -20,7 +20,10 @@ case $1 in
         start-dfs.sh && start-yarn.sh && mr-jobhistory-daemon.sh start historyserver && oozied.sh start;
         ;;
     stop)
-        mr-jobhistory-daemon.sh stop historyserver && stop-yarn.sh && stop-dfs.sh && oozied.sh stop;
+        oozied.sh stop;
+        mr-jobhistory-daemon.sh stop historyserver;
+        stop-yarn.sh;
+        stop-dfs.sh;
         ;;
     *)
         usage
