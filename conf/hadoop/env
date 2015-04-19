@@ -1,0 +1,9 @@
+# HADOOP setup
+#export JAVA_HOME=$(/usr/libexec/java_home -v 1.7) # no need if managed by jenv with 'jenv enable-plugin export'
+export HADOOP_CONF_DIR="/usr/local/hadoop/etc/hadoop"
+export HADOOP_LOG_DIR="/usr/local/hadoop/ops/logs/hadoop"
+export YARN_LOG_DIR="/usr/local/hadoop/ops/logs/yarn"
+export HADOOP_PID_DIR="/usr/local/hadoop/ops/pids"
+export OOZIE_URL="http://localhost:11000/oozie"
+export HIVE_HOME="/usr/local/hive"
+export PATH=${PATH}:${HIVE_HOME}/bin
