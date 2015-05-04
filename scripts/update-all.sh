@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 DIR=$(dirname "$(greadlink -f "$0")")
 brew update;
-brew upgrade;
+brew upgrade --all;
 brew upgrade brew-cask;
 for cask in $(brew cask list);
 do
