@@ -8,12 +8,12 @@ do
     ver=$(brew cask info $cask | head -1 | cut -d ' ' -f 2);
     if [ $ver == 'latest' ];
     then
-        if grep -Fxq $cask $DIR/latest
+        if grep -Fxq $cask $DIR/ignored
         then
+            echo Ignoring $cask
+        else
             echo Reinstalling latest $cask
             brew cask install $cask --force --download;
-        else
-            echo Ignoring $cask
         fi
     else
         brew cask install $cask;
