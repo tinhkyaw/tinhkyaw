@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-DIR=$(dirname "$(greadlink -f "$0")")
+DIR=$(dirname "$(greadlink -f "$0")");
 brew update;
 brew upgrade --all;
 brew upgrade brew-cask;
@@ -8,11 +8,11 @@ do
     ver=$(brew cask info $cask | head -1 | cut -d ' ' -f 2);
     if [ $ver == 'latest' ];
     then
-        if grep -Fxq $cask $DIR/ignored
+        if grep -Fxq $cask $DIR/ignored;
         then
-            echo Ignoring $cask
+            echo Ignoring $cask;
         else
-            echo Reinstalling latest $cask
+            echo Reinstalling latest $cask;
             brew cask install $cask --force --download;
         fi
     else
@@ -21,6 +21,7 @@ do
 done
 brew cleanup --force;
 brew cask cleanup;
+cleanup-homebrew-cask.sh;
 brew doctor;
 gem update --system;
 gem update;

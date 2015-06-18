@@ -1,24 +1,23 @@
 #!/usr/bin/env bash
-p='/opt/homebrew-cask/Caskroom'
-for d in $(ls $p)
+p='/opt/homebrew-cask/Caskroom';
+echo 'Begin Caskroom cleanup...';
+for d in $(ls $p);
 do
-    a="$p/$d"
-    n=$(ls -t $a | wc -l)
-    if [ $n -gt 1 ]
+    a="$p/$d";
+    n=$(ls -t $a | wc -l);
+    if [ $n -gt 1 ];
     then
-        i=0
-        for sd in $(ls -t $a)
+        i=0;
+        for sd in $(ls -t $a);
         do
-            if [ $i -gt 0 ]
+            if [ $i -gt 0 ];
             then
-                b="$a/$sd"
-                echo "removing $b"
-                rm -rf $b
+                b="$a/$sd";
+                echo "removing $b";
+                rm -rf $b;
             fi
-            (( i++ ))
+            (( i++ ));
         done
-    else
-        sd=$(ls -t $a)
-        echo "$a/$sd clean"
     fi
 done
+echo 'Caskroom cleanup completed...';
