@@ -21,7 +21,7 @@ do
 done
 brew cleanup --force;
 brew cask cleanup;
-cleanup-homebrew-cask.sh;
+cleanup-caskroom.sh;
 brew doctor;
 gem update --system;
 gem update;
