@@ -20,6 +20,7 @@ do
     fi;
 done
 brew cleanup --force;
+brew linkapps;
 brew cask cleanup;
 cleanup-caskroom.sh;
 brew doctor;
