@@ -2,7 +2,7 @@
 DIR=$(dirname "$(greadlink -f "$0")");
 brew update;
 brew upgrade --all;
-brew upgrade brew-cask;
+brew upgrade cask;
 for cask in $(brew cask list);
 do
     ver=$(brew cask info $cask | head -1 | cut -d ' ' -f 2);
