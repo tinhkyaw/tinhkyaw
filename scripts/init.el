@@ -33,8 +33,18 @@
 ;; Scroll only 1 line
 (setq scroll-step 1)
 (custom-set-variables
- '(frame-background-mode nil))
-(custom-set-faces)
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(frame-background-mode nil)
+ '(inhibit-startup-screen t))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
 
 ;; Set up the keyboard so the delete key on both the regular keyboard
 ;; and the keypad delete the character under the cursor and to the right
@@ -91,40 +101,57 @@
 (when window-system (set-exec-path-from-shell-PATH))
 
 ;; packages
-(require 'cl)
 (require 'package)
-(setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
-                         ("marmalade" . "https://marmalade-repo.org/packages/")
-                         ("melpa" . "http://melpa.milkbox.net/packages/")))
 (package-initialize)
+(setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
+                         ("marmalade" . "https://marmalade-repo.org/packages/")
+                         ("melpa" . "https://melpa.milkbox.net/packages/")
+                         ("org" . "http://orgmode.org/elpa/")))
+(when (not package-archive-contents)
+  (package-refresh-contents))
 
-(defvar my-packages
-  '(
-    better-defaults
-    cider
-    clojure-mode
-    color-theme
-    exec-path-from-shell
-    gradle-mode
-    hive
-    pig-mode
-    projectile
-    sbt-mode
-    scala-mode2
-    thrift))
-
-(defun my-packages-installed-p ()
-  (loop for p in my-packages
-        when (not (package-installed-p p)) do (return nil)
-        finally (return t)))
- 
-(unless (my-packages-installed-p)
-  ;; check for new packages (package versions)
+(unless (package-installed-p 'use-package)
   (package-refresh-contents)
-  ;; install the missing packages
-  (dolist (p my-packages)
-    (when (not (package-installed-p p))
-      (package-install p))))
+  (package-install 'use-package))
+
+(eval-when-compile
+  (require 'use-package))
+
+(use-package better-defaults
+             :ensure t)
+
+;(use-package cider
+;             :ensure t)
+
+(use-package clojure-mode
+             :ensure t)
+
+(use-package color-theme
+             :ensure t)
+
+(use-package exec-path-from-shell
+             :ensure t)
+
+(use-package gradle-mode
+             :ensure t)
+
+(use-package hive
+             :ensure t)
+
+(use-package pig-mode
+             :ensure t)
+
+(use-package projectile
+             :ensure t)
+
+(use-package sbt-mode
+             :ensure t)
+
+(use-package scala-mode2
+             :ensure t)
+
+(use-package thrift
+             :ensure t)
 
 (require 'color-theme)
 (color-theme-initialize)

@@ -3,7 +3,7 @@
 [branch]
 	autosetuprebase = always
 [core]
-	excludesfile = /Users/tinkyaw/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [credential]
 	helper = osxkeychain
 	useHttpPath = true
@@ -23,7 +23,7 @@
 	clean = git media clean %f
 	smudge = git media smudge %f
 [mergetool "sourcetree"]
-	cmd = /opt/homebrew-cask/Caskroom/sourcetree/2.1/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [user]
 	name = Tin H Kyaw
