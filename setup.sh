@@ -20,7 +20,7 @@ fi
 if ! brew list cask &> /dev/null
 then
   brew install cask
-  cat ${DIR}/conf/casks | xargs brew cask install
+  cat ${DIR}/packages/casks | xargs brew cask install
 fi
 function install_file() {
   local file_name="${1}"
@@ -48,13 +48,15 @@ do
   install_file ${conf_file} ${DIR}/conf ${HOME}
 done
 mkdir -p ${HOME}/bin
-for scr in cleanup-caskroom.sh emacs ignored update-all.sh
+for scr in emacs cleanup-caskroom.sh update-all.sh
 do
   install_file ${scr} ${DIR}/scripts ${HOME}/bin
 done
+install_file ignored ${DIR}/packages ${HOME}/bin
 mkdir -p ${HOME}/.emacs.d
-install_file init.el ${DIR}/scripts ${HOME}/.emacs.d
+install_file init.el ${DIR}/conf ${HOME}/.emacs.d
 if ! diff ${DIR}/conf/paths /etc/paths &> /dev/null
 then
   sudo cp ${DIR}/conf/paths /etc/
 fi
+cat ${DIR}/packages/casks | xargs brew cask install
