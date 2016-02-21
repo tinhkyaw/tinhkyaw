@@ -120,8 +120,8 @@
 (use-package better-defaults
              :ensure t)
 
-;(use-package cider
-;             :ensure t)
+(use-package cider
+             :ensure t)
 
 (use-package clojure-mode
              :ensure t)
@@ -171,3 +171,8 @@
 
 (when (memq window-system '(mac ns))
   (exec-path-from-shell-initialize))
+
+(add-hook 'sh-mode-hook
+          (lambda ()
+            (setq sh-basic-offset 2
+                  sh-indentation 2)))
