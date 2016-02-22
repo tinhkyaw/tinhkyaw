@@ -1,6 +1,7 @@
 ack
-automake
 apache-spark
+automake
+awscli
 bash
 binutils
 boost
@@ -27,6 +28,7 @@ neo4j
 netcat
 perf
 pidof
+protobuf
 redis
 rename
 renameutils

@@ -37,7 +37,10 @@ for script_file in emacs cleanup-caskroom.sh update-all.sh
 do
   install_file ${script_file} ${DIR}/scripts ${HOME}/bin
 done
-install_file ignored ${DIR}/packages ${HOME}/bin
+for package_file in ignored slow
+do
+  install_file ${package_file} ${DIR}/packages ${HOME}/bin
+done
 mkdir -p ${HOME}/.emacs.d
 install_file init.el ${DIR}/conf ${HOME}/.emacs.d
 if ! diff ${DIR}/conf/paths /etc/paths &> /dev/null
@@ -96,6 +99,7 @@ cat ${DIR}/packages/brews | xargs brew install
 if ! brew list cask &> /dev/null
 then
   brew install cask
+  brew tap caskroom/versions
   cat ${DIR}/packages/casks | xargs brew cask install
 fi
 pip install --no-use-wheel --upgrade scipy

@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 DIR=$(dirname "$(type -a "$0" | cut -d ' ' -f 3)")
 is_quick=false
-while getopts q flag; do
-  case $flag in
+while getopts q flag
+do
+  case ${flag} in
     q)
       is_quick=true
       ;;
@@ -17,23 +18,23 @@ brew upgrade --all
 brew upgrade cask
 for package in $(brew cask list)
 do
-  ver=$(brew cask info $package | head -1 | cut -d ' ' -f 2)
+  ver=$(brew cask info ${package} | head -1 | cut -d ' ' -f 2)
   if [ $ver == 'latest' ]
   then
-    if grep -Fxq $package "$(readlink $DIR/ignored)"
+    if grep -Fxq ${package} "$(readlink ${DIR}/ignored)"
     then
-      echo "Ignoring $package"
+      echo "Ignoring ${package}"
     else
-      if $is_quick
+      if ${is_quick} && grep -Fxq ${package} "$(readlink ${DIR}/slow)"
       then
-        echo "Skipping $package update for speed"
+        echo "Skipping ${package} update for speed"
       else
-        echo "Reinstalling latest $package"
-        brew cask install --force --download $package
+        echo "Reinstalling latest ${package}"
+        brew cask install --force --download ${package}
       fi
     fi
   else
-    brew cask install $package
+    brew cask install ${package}
   fi
 done
 brew cleanup --force
