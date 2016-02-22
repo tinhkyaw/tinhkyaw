@@ -1,3 +1,3 @@
 # tinhkyaw
 
-personal collection of scripts and configurations
+collection of configurations, scripts and packages to help set up a new computer.
