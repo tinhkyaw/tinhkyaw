@@ -6,47 +6,12 @@ then
   brew install --with-gmp coreutils
   brew install --with-doc --with-gdbm --with-gmp --with-libffi ruby
 fi
+PWD=$(pwd)
 DIR=$(dirname "$(greadlink -f "$0")")
-function install_file() {
-  local file_name="${1}"
-  local src_dir="${2}"
-  local dst_dir="${3}"
-  local src="${src_dir}/${file_name}"
-  local dst="${dst_dir}/${file_name}"
-  if [ -e ${dst} ]
-  then
-    if ! diff ${src} ${dst} &> /dev/null
-    then
-      mv ${dst} ${dst}.BAK
-      ln -s ${src} ${dst_dir}/
-    fi
-  elif [ -L ${dst} ]
-  then
-    mv ${dst} ${dst}.BAK
-    ln -s ${src} ${dst_dir}/
-  else
-    ln -s ${src} ${dst_dir}/
-  fi  
-}
-for conf_file in .bashrc .bash_profile .gitconfig
-do
-  install_file ${conf_file} ${DIR}/conf ${HOME}
-done
-mkdir -p ${HOME}/bin
-for script_file in emacs cleanup-caskroom.sh update-all.sh
-do
-  install_file ${script_file} ${DIR}/scripts ${HOME}/bin
-done
-for package_file in ignored slow
-do
-  install_file ${package_file} ${DIR}/packages ${HOME}/bin
-done
-mkdir -p ${HOME}/.emacs.d
-install_file init.el ${DIR}/conf ${HOME}/.emacs.d
-if ! diff ${DIR}/conf/paths /etc/paths &> /dev/null
-then
-  sudo cp ${DIR}/conf/paths /etc/
-fi
+echo ${DIR}
+cd ${DIR}
+GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
+${GIT_ROOT_DIR}/scripts/setup-conf.sh
 if ! brew list emacs &> /dev/null
 then
   brew install --with-cocoa --with-glib --with-gnutls --with-imagemagick --with-librsvg --with-mailutils emacs
@@ -95,12 +60,13 @@ if ! brew list ffmpeg &> /dev/null
 then
   brew install --with-dcadec --with-faac --with-fdk-aac --with-ffplay --with-fontconfig --with-freetype --with-frei0r --with-libass --with-libbluray --with-libbs2b --with-libcaca --with-libquvi --with-libsoxr --with-libssh --with-libvidstab --with-libvorbis --with-libvpx --with-opencore-amr --with-openjpeg --with-openssl --with-opus --with-rtmpdump --with-schroedinger --with-snappy --with-speex --with-theora --with-tools --with-webp --with-x265 --with-zeromq ffmpeg
 fi
-cat ${DIR}/packages/brews | xargs brew install
+cat ${GIT_ROOT_DIR}/packages/brews | xargs brew install
 if ! brew list cask &> /dev/null
 then
   brew install cask
   brew tap caskroom/versions
-  cat ${DIR}/packages/casks | xargs brew cask install
+  cat ${GIT_ROOT_DIR}/packages/casks | xargs brew cask install
 fi
 pip install --no-use-wheel --upgrade scipy
-cat ${DIR}/packages/pips | xargs pip install --no-use-wheel --upgrade
+cat ${GIT_ROOT_DIR}/packages/pips | xargs pip install --no-use-wheel --upgrade
+cd ${PWD}
