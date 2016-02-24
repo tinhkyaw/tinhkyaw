@@ -67,6 +67,5 @@ then
   brew tap caskroom/versions
   cat ${GIT_ROOT_DIR}/packages/casks | xargs brew cask install
 fi
-pip install --no-use-wheel --upgrade scipy
-cat ${GIT_ROOT_DIR}/packages/pips | xargs pip install --no-use-wheel --upgrade
+pip install --no-use-wheel --upgrade -r ${GIT_ROOT_DIR}/packages/pips
 cd ${PWD}
