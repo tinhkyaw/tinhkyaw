@@ -24,7 +24,29 @@ function install_file() {
     ln -s ${src} ${dst_dir}/
   fi  
 }
-for conf_file in .bashrc .bash_profile .gitconfig
+function replace_file() {
+  local file_name="${1}"
+  local src_dir="${2}"
+  local dst_dir="${3}"
+  local src="${src_dir}/${file_name}"
+  local dst="${dst_dir}/${file_name}"
+  if [ -e ${dst} ]
+  then
+    if ! diff ${src} ${dst} &> /dev/null
+    then
+      mv ${dst} ${dst}.BAK
+      cp ${src} ${dst_dir}/
+    fi
+  elif [ -L ${dst} ]
+  then
+    mv ${dst} ${dst}.BAK
+    cp ${src} ${dst_dir}/
+  else
+    cp ${src} ${dst_dir}/    
+  fi  
+}
+replace_file .gitconfig ${GIT_ROOT_DIR}/conf ${HOME}
+for conf_file in .bashrc .bash_profile
 do
   install_file ${conf_file} ${GIT_ROOT_DIR}/conf ${HOME}
 done
