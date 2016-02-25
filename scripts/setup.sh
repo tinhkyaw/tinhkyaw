@@ -6,9 +6,8 @@ then
   brew install --with-gmp coreutils
   brew install --with-doc --with-gdbm --with-gmp --with-libffi ruby
 fi
-PWD=$(pwd)
+WD=$(pwd)
 DIR=$(dirname "$(greadlink -f "$0")")
-echo ${DIR}
 cd ${DIR}
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 ${GIT_ROOT_DIR}/scripts/setup-conf.sh
@@ -19,14 +18,6 @@ fi
 if ! brew list macvim &> /dev/null
 then
   brew install --with-lua --with-luajit --with-override-system-vim macvim
-fi
-if ! brew list gnuplot &> /dev/null
-then
-  brew install --with-aquaterm --with-cairo --with-latex --with-qt --with-wxmac gnuplot
-fi
-if ! brew list octave &> /dev/null
-then
-  brew install --with-audio --with-gui octave
 fi
 if ! brew list graphviz &> /dev/null
 then
@@ -67,5 +58,14 @@ then
   brew tap caskroom/versions
   cat ${GIT_ROOT_DIR}/packages/casks | xargs brew cask install
 fi
-pip install --no-use-wheel --upgrade -r ${GIT_ROOT_DIR}/packages/pips
-cd ${PWD}
+if ! brew list gnuplot &> /dev/null
+then
+  brew install --with-aquaterm --with-cairo --with-latex --with-qt --with-wxmac gnuplot
+fi
+if ! brew list octave &> /dev/null
+then
+  brew install --with-audio --with-gui octave
+fi
+pip install --no-use-wheel --upgrade scipy
+cat ${GIT_ROOT_DIR}/packages/pips | xargs pip install --no-use-wheel --upgrade
+cd ${WD}
