@@ -19,7 +19,7 @@ brew reinstall --with-dcadec --with-faac --with-fdk-aac --with-ffplay --with-fon
 cat ${GIT_ROOT_DIR}/packages/brews | xargs brew install
 brew install cask
 brew tap caskroom/versions
-cat ${GIT_ROOT_DIR}/packages/casks | xargs brew cask install
+cat ${GIT_ROOT_DIR}/packages/min_casks | xargs brew cask install
 brew reinstall --with-aquaterm --with-cairo --with-latex --with-qt --with-wxmac gnuplot
 brew reinstall --with-audio --with-gui octave
 cd ${WD}
