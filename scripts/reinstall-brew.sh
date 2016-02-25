@@ -8,6 +8,8 @@ cd ${DIR}
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 brew reinstall --with-cocoa --with-glib --with-gnutls --with-imagemagick --with-librsvg --with-mailutils emacs
 brew reinstall --with-lua --with-luajit --with-override-system-vim macvim
+brew reinstall --with-app --with-bindings --with-reetype --with-gts --with-librsvg --with-pango graphviz
+brew reinstall --with-graphviz qcachegrind
 brew reinstall --with-plugins jmeter
 brew reinstall --with-gunzip --with-libressl --with-passenger --with-spdy --with-webdav nginx
 brew reinstall --with-openssl node
@@ -20,6 +22,4 @@ brew tap caskroom/versions
 cat ${GIT_ROOT_DIR}/packages/casks | xargs brew cask install
 brew reinstall --with-aquaterm --with-cairo --with-latex --with-qt --with-wxmac gnuplot
 brew reinstall --with-audio --with-gui octave
-brew reinstall --with-app --with-bindings --with-reetype --with-gts --with-librsvg --with-pango graphviz
-brew reinstall --with-graphviz qcachegrind
 cd ${WD}
