@@ -66,6 +66,6 @@ if ! brew list octave &> /dev/null
 then
   brew install --with-audio --with-gui octave
 fi
-pip install --no-use-wheel --upgrade scipy
-cat ${GIT_ROOT_DIR}/packages/pips | xargs pip install --no-use-wheel --upgrade
+pip install --no-binary :all: --upgrade scipy
+pip install --no-binary :all: --upgrade -r ${GIT_ROOT_DIR}/packages/pips
 cd ${WD}
