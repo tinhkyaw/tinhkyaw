@@ -19,22 +19,6 @@ if ! brew list macvim &> /dev/null
 then
   brew install --with-lua --with-luajit --with-override-system-vim macvim
 fi
-if ! brew list gnuplot &> /dev/null
-then
-  brew install --with-aquaterm --with-cairo --with-latex --with-qt --with-wxmac gnuplot
-fi
-if ! brew list octave &> /dev/null
-then
-  brew install --with-audio --with-gui octave
-fi
-if ! brew list graphviz &> /dev/null
-then
-  brew install --with-app --with-bindings --with-reetype --with-gts --with-librsvg --with-pango graphviz
-fi
-if ! brew list qcachegrind &> /dev/null
-then
-  brew install --with-graphviz qcachegrind
-fi
 if ! brew list jmeter &> /dev/null
 then
   brew install --with-plugins jmeter
@@ -65,6 +49,22 @@ then
   brew install cask
   brew tap caskroom/versions
   cat ${GIT_ROOT_DIR}/packages/casks | xargs brew cask install
+fi
+if ! brew list gnuplot &> /dev/null
+then
+  brew install --with-aquaterm --with-cairo --with-latex --with-qt --with-wxmac gnuplot
+fi
+if ! brew list octave &> /dev/null
+then
+  brew install --with-audio --with-gui octave
+fi
+if ! brew list graphviz &> /dev/null
+then
+  brew install --with-app --with-bindings --with-reetype --with-gts --with-librsvg --with-pango graphviz
+fi
+if ! brew list qcachegrind &> /dev/null
+then
+  brew install --with-graphviz qcachegrind
 fi
 pip install --no-use-wheel --upgrade scipy
 cat ${GIT_ROOT_DIR}/packages/pips | xargs pip install --no-use-wheel --upgrade
