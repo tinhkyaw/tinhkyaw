@@ -6,9 +6,8 @@ then
   brew install --with-gmp coreutils
   brew install --with-doc --with-gdbm --with-gmp --with-libffi ruby
 fi
-PWD=$(pwd)
+WD=$(pwd)
 DIR=$(dirname "$(greadlink -f "$0")")
-echo ${DIR}
 cd ${DIR}
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 ${GIT_ROOT_DIR}/scripts/setup-conf.sh
@@ -69,4 +68,4 @@ then
 fi
 pip install --no-use-wheel --upgrade scipy
 cat ${GIT_ROOT_DIR}/packages/pips | xargs pip install --no-use-wheel --upgrade
-cd ${PWD}
+cd ${WD}

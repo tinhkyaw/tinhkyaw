@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-PWD=$(pwd)
+WD=$(pwd)
 DIR=$(dirname "$(greadlink -f "$0")")
 cd ${DIR}
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
@@ -43,4 +43,4 @@ if ! diff ${GIT_ROOT_DIR}/conf/paths /etc/paths &> /dev/null
 then
   sudo cp ${GIT_ROOT_DIR}/conf/paths /etc/
 fi
-cd ${PWD}
+cd ${WD}
