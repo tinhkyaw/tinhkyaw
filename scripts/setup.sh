@@ -60,7 +60,7 @@ then
 fi
 if ! brew list gnuplot &> /dev/null
 then
-  brew install --with-aquaterm --with-cairo --with-latex --with-qt --with-wxmac gnuplot
+  brew install --with-cairo --with-qt --with-tex --with-wxmac gnuplot
 fi
 if ! brew list octave &> /dev/null
 then
