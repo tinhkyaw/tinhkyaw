@@ -9,7 +9,11 @@ fi
 cd ${DIR}
 for d in $(ls)
 do
-  cd ${DIR}/$d
-  [ -d .git ] && echo "Attempting to pull $d" && git pull
+  if [ -d ${DIR}/$d ]
+  then
+    cd ${DIR}/$d
+    [ -d .git ] && echo "Attempting to pull $d" && git pull
+    cd ${DIR}
+  fi
 done
 cd ${P}
