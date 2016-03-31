@@ -7,12 +7,14 @@ awscli
 bash
 binutils
 boost
+boot2docker
 c-ares
 couchdb
 csshx
 dateutils
 diff-so-fancy
 direnv
+docker
 erlang
 findutils
 gawk
