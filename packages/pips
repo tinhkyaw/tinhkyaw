@@ -13,7 +13,7 @@ cycler==0.10.0
 decorator==4.0.9
 docutils==0.12
 ecdsa==0.13
-Fabric==1.10.2
+Fabric==1.11.1
 funcsigs==1.0.0
 futures==3.0.5
 gnureadline==6.3.3
@@ -40,7 +40,7 @@ pathlib2==2.1.0
 pbr==1.8.1
 pexpect==4.0.1
 pickleshare==0.7.2
-pipdeptree==0.5.0
+pipdeptree==0.6.0
 protobuf==2.6.1
 pssh==2.3.1
 ptyprocess==0.5.1
