@@ -10,6 +10,7 @@ WD=$(pwd)
 DIR=$(dirname "$(greadlink -f "$0")")
 cd ${DIR}
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
+${GIT_ROOT_DIR}/scripts/setup-bin.sh
 ${GIT_ROOT_DIR}/scripts/setup-conf.sh
 if ! brew list emacs &> /dev/null
 then
