@@ -3,7 +3,7 @@ WD=$(pwd)
 DIR=$(dirname "$(greadlink -f "$0")")
 cd ${DIR}
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
-source ${GIT_ROOT_DIR}/scripts/common.sh
+source ${GIT_ROOT_DIR}/scripts/setup-common.sh
 mkdir -p ${HOME}/bin
 for script_file in emacs cleanup-caskroom.sh git-pull-all.sh snapshot.sh update-all.sh
 do
