@@ -15,7 +15,8 @@ brew list > ${SNAPSHOT_DIR}/brew${SUFFIX}.txt
 brew cask list > ${SNAPSHOT_DIR}/cask${SUFFIX}.txt
 if [ "${SUFFIX}" = "d" ]
 then
-elif ["${SUFFIX}" = "m" ]
+  :
+elif [ "${SUFFIX}" = "m" ]
 then
   brew cask list > ${PKG_DIR}/min_casks
 else
