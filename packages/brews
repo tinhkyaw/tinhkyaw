@@ -26,13 +26,16 @@ gradle
 httpie
 hub
 jq
+jsonpp
 leiningen
 memcached
+metis
 neo4j
 netcat
 perf
 pidof
 protobuf
+python3
 redis
 rename
 renameutils
@@ -44,4 +47,5 @@ trash
 tree
 webkit2png
 wget
+yajl
 zopfli

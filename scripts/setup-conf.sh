@@ -51,7 +51,7 @@ do
   install_file ${conf_file} ${GIT_ROOT_DIR}/conf ${HOME}
 done
 mkdir -p ${HOME}/bin
-for script_file in emacs cleanup-caskroom.sh git-pull-all.sh update-all.sh
+for script_file in emacs cleanup-caskroom.sh git-pull-all.sh snapshot.sh update-all.sh
 do
   install_file ${script_file} ${GIT_ROOT_DIR}/scripts ${HOME}/bin
 done
