@@ -3,7 +3,7 @@ WD=$(pwd)
 DIR=$(dirname "$(greadlink -f "$0")")
 cd ${DIR}
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
-source ${GIT_ROOT_DIR}/scripts/common.sh
+source ${GIT_ROOT_DIR}/scripts/setup-common.sh
 replace_file .gitconfig ${GIT_ROOT_DIR}/conf ${HOME}
 for conf_file in .bashrc .bash_profile
 do
