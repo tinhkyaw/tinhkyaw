@@ -12,7 +12,15 @@ do
   if [ -d ${DIR}/$d ]
   then
     cd ${DIR}/$d
-    [ -d .git ] && echo "Attempting to pull $d" && git pull
+    if [ -d .git ]
+    then
+      echo "Attempting to pull $d"
+      if ! git pull
+      then
+        echo "Retrying with git pull --no-rebase"
+        git pull --no-rebase
+      fi
+    fi
     cd ${DIR}
   fi
 done
