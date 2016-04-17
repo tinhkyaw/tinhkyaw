@@ -20,7 +20,7 @@ gnureadline==6.3.3
 ipython==4.1.2
 ipython-genutils==0.1.0
 Jinja2==2.8
-Keras==1.0.0
+Keras==1.0.1
 kombu==3.0.35
 lockfile==0.12.2
 luigi==2.1.1
