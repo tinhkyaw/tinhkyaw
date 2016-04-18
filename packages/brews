@@ -42,6 +42,7 @@ renameutils
 riak
 sbt
 scala
+stow
 suite-sparse
 trash
 tree
