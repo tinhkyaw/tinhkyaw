@@ -16,6 +16,7 @@ shift $(( OPTIND - 1 ));
 brew update
 brew upgrade --all
 brew upgrade cask
+brew cask update
 for package in $(brew cask list)
 do
   ver=$(brew cask info ${package} | head -1 | cut -d ' ' -f 2)
@@ -33,14 +34,13 @@ do
         brew cask install --force --download ${package}
       fi
     fi
-  else
-    brew cask install ${package}
   fi
 done
 brew cleanup --force
 brew linkapps
 brew cask cleanup
 cleanup-caskroom.sh
+brew cask doctor
 brew doctor
 gem update --system
 gem update
