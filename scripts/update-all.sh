@@ -34,6 +34,8 @@ do
         brew cask install --force --download ${package}
       fi
     fi
+  else
+    brew cask install ${package}
   fi
 done
 brew cleanup --force
