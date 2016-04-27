@@ -64,6 +64,10 @@ if ! brew list gnuplot &> /dev/null
 then
   brew install --with-cairo --with-qt --with-tex --with-wxmac gnuplot
 fi
+if ! brew list neo4j &> /dev/null
+then
+  brew install neo4j
+fi
 if ! brew list octave &> /dev/null
 then
   brew install --with-audio --with-gui octave

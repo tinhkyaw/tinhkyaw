@@ -30,7 +30,6 @@ jsonpp
 leiningen
 memcached
 metis
-neo4j
 netcat
 perf
 pidof
