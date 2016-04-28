@@ -13,6 +13,7 @@ cd ${DIR}
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 ${GIT_ROOT_DIR}/scripts/setup-bin.sh
 ${GIT_ROOT_DIR}/scripts/setup-conf.sh
+source ${HOME}/.bashrc
 if ! brew list emacs &> /dev/null
 then
   brew install --with-cocoa --with-glib --with-gnutls --with-imagemagick --with-librsvg --with-mailutils emacs
