@@ -13,7 +13,6 @@ cd ${DIR}
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 ${GIT_ROOT_DIR}/scripts/setup-bin.sh
 ${GIT_ROOT_DIR}/scripts/setup-conf.sh
-source ${HOME}/.bashrc
 if ! brew list emacs &> /dev/null
 then
   brew install --with-cocoa --with-glib --with-gnutls --with-imagemagick --with-librsvg --with-mailutils emacs
@@ -51,6 +50,7 @@ then
   brew install --with-dcadec --with-faac --with-fdk-aac --with-ffplay --with-fontconfig --with-freetype --with-frei0r --with-libass --with-libbluray --with-libbs2b --with-libcaca --with-libquvi --with-libsoxr --with-libssh --with-libvidstab --with-libvorbis --with-libvpx --with-opencore-amr --with-openjpeg --with-openssl --with-opus --with-rtmpdump --with-schroedinger --with-snappy --with-speex --with-theora --with-tools --with-webp --with-x265 --with-zeromq ffmpeg
 fi
 cat ${GIT_ROOT_DIR}/packages/brews | xargs brew install
+source ${HOME}/.bashrc
 if ! brew list cask &> /dev/null
 then
   brew install cask
