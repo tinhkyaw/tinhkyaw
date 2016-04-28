@@ -21,10 +21,6 @@ if ! brew list macvim &> /dev/null
 then
   brew install --with-lua --with-luajit --with-override-system-vim macvim
 fi
-if ! brew list graphviz &> /dev/null
-then
-  brew install --with-app --with-bindings --with-reetype --with-gts --with-librsvg --with-pango graphviz
-fi
 if ! brew list qcachegrind &> /dev/null
 then
   brew install --with-graphviz qcachegrind
@@ -63,6 +59,14 @@ fi
 if ! brew list gnuplot &> /dev/null
 then
   brew install --with-cairo --with-qt --with-tex --with-wxmac gnuplot
+fi
+if ! brew list graphviz &> /dev/null
+then
+  brew install --with-app --with-bindings --with-freetype --with-gts --with-librsvg --with-pango graphviz
+fi
+if ! brew list neo4j &> /dev/null
+then
+  brew install neo4j
 fi
 if ! brew list octave &> /dev/null
 then
