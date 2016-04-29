@@ -26,7 +26,7 @@ ipaddress==1.0.16
 ipython==4.2.0
 ipython-genutils==0.1.0
 Jinja2==2.8
-Keras==1.0.1
+Keras==1.0.2
 kombu==3.0.35
 lockfile==0.12.2
 luigi==2.1.1
