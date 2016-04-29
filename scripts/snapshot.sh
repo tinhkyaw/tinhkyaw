@@ -13,10 +13,7 @@ GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 PKG_DIR="${GIT_ROOT_DIR}/packages"
 brew list > ${SNAPSHOT_DIR}/brew${SUFFIX}.txt
 brew cask list > ${SNAPSHOT_DIR}/cask${SUFFIX}.txt
-if [ "${SUFFIX}" = "d" ]
-then
-  :
-elif [ "${SUFFIX}" = "m" ]
+if [ "${SUFFIX}" = "d" ] || [ "${SUFFIX}" = "m" ]
 then
   brew cask list > ${PKG_DIR}/min_casks
 else
