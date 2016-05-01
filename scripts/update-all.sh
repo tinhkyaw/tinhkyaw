@@ -42,7 +42,6 @@ brew cleanup --force
 brew linkapps
 brew cask cleanup
 cleanup-caskroom.sh
-brew cask doctor
 brew doctor
 gem update --system
 gem update
