@@ -46,5 +46,6 @@ brew doctor
 gem update --system
 gem update
 gem cleanup
+npm update -g
 pip install --upgrade pip setuptools
 pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs pip install --no-binary :all: --upgrade

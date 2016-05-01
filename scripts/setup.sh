@@ -36,6 +36,10 @@ fi
 if ! brew list node &> /dev/null
 then
   brew install --with-openssl node
+  for package in $(cat ${GIT_ROOT_DIR}/packages/npms)
+  do
+    npm install -g $package
+  done
 fi
 if ! brew list geoip &> /dev/null
 then
