@@ -7,6 +7,10 @@
 [credential]
 	helper = osxkeychain
 	useHttpPath = true
+[diff]
+        tool = opendiff
+[difftool]
+        prompt = false
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
