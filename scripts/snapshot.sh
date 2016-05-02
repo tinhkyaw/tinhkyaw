@@ -20,6 +20,7 @@ else
   brew cask list > ${PKG_DIR}/casks
 fi
 gem list > ${SNAPSHOT_DIR}/gem${SUFFIX}.txt
+npm ls -g --depth 0 > ${SNAPSHOT_DIR}/npm${SUFFIX}.txt
 pip freeze --local > ${SNAPSHOT_DIR}/pip${SUFFIX}.txt
 pip freeze --local > ${PKG_DIR}/pips
 cd ${WD}
