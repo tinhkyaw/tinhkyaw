@@ -4,3 +4,4 @@ grunt
 gulp
 jake
 jshint
+nodeunit
