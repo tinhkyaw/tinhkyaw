@@ -64,7 +64,7 @@ pyzmq==15.2.0
 requests==2.10.0
 salt==2015.8.8.2
 scikit-learn==0.17.1
-scipy==0.17.0
+scipy==0.17.1
 seaborn==0.7.0
 simplegeneric==0.8.1
 singledispatch==3.4.0.3
