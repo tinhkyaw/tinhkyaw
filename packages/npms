@@ -5,3 +5,4 @@ gulp
 jake
 jshint
 nodeunit
+strongloop
