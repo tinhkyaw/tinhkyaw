@@ -45,7 +45,7 @@ pandas==0.18.1
 paramiko==2.0.0
 path.py==8.2.1
 pathlib2==2.1.0
-pbr==1.9.1
+pbr==1.10.0
 pexpect==4.1.0
 pickleshare==0.7.2
 pipdeptree==0.6.0
