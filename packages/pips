@@ -33,7 +33,7 @@ luigi==2.1.1
 M2Crypto==0.24.0
 MarkupSafe==0.23
 matplotlib==1.5.1
-mercurial==3.8.2
+mercurial==3.8.3
 mock==2.0.0
 msgpack-python==0.4.7
 MySQL-python==1.2.5
