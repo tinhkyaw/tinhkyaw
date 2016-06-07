@@ -13,7 +13,7 @@ certifi==2016.2.28
 cffi==1.6.0
 cryptography==1.4
 cycler==0.10.0
-decorator==4.0.9
+decorator==4.0.10
 docutils==0.12
 ecdsa==0.13
 enum34==1.1.6
@@ -26,7 +26,7 @@ ipaddress==1.0.16
 ipython==4.2.0
 ipython-genutils==0.1.0
 Jinja2==2.8
-Keras==1.0.3
+Keras==1.0.4
 kombu==3.0.35
 lockfile==0.12.2
 luigi==2.1.1
