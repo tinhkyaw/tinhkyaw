@@ -55,7 +55,7 @@ ptyprocess==0.5.1
 pyasn1==0.1.9
 pycparser==2.14
 pycrypto==2.6.1
-pyparsing==2.1.4
+pyparsing==2.1.5
 python-daemon==2.1.1
 python-dateutil==2.5.3
 pytz==2016.4
