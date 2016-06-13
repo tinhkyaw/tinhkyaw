@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-p='/opt/homebrew-cask/Caskroom';
+p='/usr/local/Caskroom';
 echo 'Begin Caskroom cleanup...';
 for d in $(ls $p);
 do
