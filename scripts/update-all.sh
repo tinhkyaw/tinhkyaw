@@ -17,25 +17,31 @@ brew update
 brew upgrade --all
 brew upgrade cask
 brew cask update
-for package in $(brew cask list)
+caskroom_path='/usr/local/Caskroom'
+for app in $(brew cask list)
 do
-  ver=$(brew cask info ${package} | head -1 | cut -d ' ' -f 2)
+  ver=$(brew cask info ${app} | head -1 | cut -d ' ' -f 2)
   if [ $ver == 'latest' ]
   then
-    if grep -Fxq ${package} "$(readlink ${DIR}/ignored)"
+    if grep -Fxq ${app} "$(readlink ${DIR}/ignored)"
     then
-      echo "Ignoring ${package}"
+      echo "Ignoring ${app}"
     else
-      if ${is_quick} && grep -Fxq ${package} "$(readlink ${DIR}/slow)"
+      if ${is_quick} && grep -Fxq ${app} "$(readlink ${DIR}/slow)"
       then
-        echo "Skipping ${package} update for speed"
+        echo "Skipping ${app} update for speed"
       else
-        echo "Reinstalling latest ${package}"
-        brew cask install --force --download ${package}
+        echo "Reinstalling latest ${app}"
+        brew cask install --force --download ${app}
       fi
     fi
   else
-    brew cask install ${package}
+    if [ -d "$caskroom_path/${app}/.metadata/${ver}" ]
+    then
+      echo "Latest ${app}: ${ver} already installed"
+    else
+      brew cask install --force ${app}
+    fi
   fi
 done
 brew cleanup --force
