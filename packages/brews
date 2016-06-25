@@ -43,6 +43,7 @@ renameutils
 riak
 sbt
 scala
+sqoop
 stow
 suite-sparse
 trash
