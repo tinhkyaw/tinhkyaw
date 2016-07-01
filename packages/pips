@@ -91,7 +91,7 @@ stevedore==1.15.0
 Theano==0.8.2
 thrift==0.9.3
 tornado==4.3
-traitlets==4.2.1
+traitlets==4.2.2
 vboxapi==1.0
 vine==1.1.1
 virtualenv==15.0.2
