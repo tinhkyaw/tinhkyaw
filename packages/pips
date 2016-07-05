@@ -59,7 +59,7 @@ paramiko==2.0.1
 path.py==8.2.1
 pathlib2==2.1.0
 pbr==1.10.0
-pexpect==4.1.0
+pexpect==4.2.0
 pickleshare==0.7.2
 pipdeptree==0.6.0
 prompt-toolkit==1.0.3
@@ -75,7 +75,7 @@ python-daemon==2.1.1
 python-dateutil==2.5.3
 pytz==2016.4
 PyYAML==3.11
-pyzmq==15.2.0
+pyzmq==15.3.0
 requests==2.10.0
 rsa==3.4.2
 s3transfer==0.0.1
