@@ -60,7 +60,7 @@ path.py==8.2.1
 pathlib2==2.1.0
 pbr==1.10.0
 pexpect==4.2.0
-pickleshare==0.7.2
+pickleshare==0.7.3
 pipdeptree==0.6.0
 prompt-toolkit==1.0.3
 protobuf==2.6.1
@@ -90,7 +90,7 @@ SQLAlchemy==1.0.14
 stevedore==1.16.0
 Theano==0.8.2
 thrift==0.9.3
-tornado==4.3
+tornado==4.4
 traitlets==4.2.2
 vboxapi==1.0
 vine==1.1.1
