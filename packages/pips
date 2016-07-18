@@ -38,7 +38,7 @@ ipython-genutils==0.1.0
 itsdangerous==0.24
 Jinja2==2.8
 jmespath==0.9.0
-Keras==1.0.5
+Keras==1.0.6
 kombu==3.0.35
 lockfile==0.12.2
 locustio==0.7.5
