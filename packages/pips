@@ -90,7 +90,7 @@ SQLAlchemy==1.0.14
 stevedore==1.16.0
 Theano==0.8.2
 thrift==0.9.3
-tornado==4.4
+tornado==4.4.1
 traitlets==4.2.2
 typing==3.5.2.2
 vboxapi==1.0
