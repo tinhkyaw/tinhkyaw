@@ -33,7 +33,7 @@ gnureadline==6.3.3
 greenlet==0.4.10
 idna==2.1
 ipaddress==1.0.16
-ipython==5.0.0
+ipython==5.1.0
 ipython-genutils==0.1.0
 itsdangerous==0.24
 Jinja2==2.8
@@ -60,7 +60,7 @@ path.py==8.2.1
 pathlib2==2.1.0
 pbr==1.10.0
 pexpect==4.2.0
-pickleshare==0.7.3
+pickleshare==0.7.4
 pipdeptree==0.6.0
 prompt-toolkit==1.0.5
 protobuf==3.0.0
