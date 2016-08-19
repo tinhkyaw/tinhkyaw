@@ -30,7 +30,7 @@ google-drive
 google-hangouts
 google-nik-collection
 handbrake
-intellij-idea
+intellij-idea-ce
 iterm2
 itsycal
 java
@@ -43,6 +43,7 @@ macdown
 mactex
 maintenance
 meteorologist
+mysqlworkbench
 netbeans
 numi
 nvalt
@@ -51,6 +52,7 @@ opera
 packet-peeper
 pycharm-ce
 rstudio
+sequel-pro
 silverlight
 skype
 sourcetree
