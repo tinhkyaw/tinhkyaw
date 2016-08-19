@@ -25,6 +25,7 @@ diff-so-fancy
 direnv
 docker
 docker-machine
+doxygen
 ec2-ami-tools
 ec2-api-tools
 elasticsearch
