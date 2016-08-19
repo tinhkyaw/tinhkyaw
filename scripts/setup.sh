@@ -61,7 +61,7 @@ then
 fi
 if ! brew list wireshark &> /dev/null
 then
-  brew install --with-libsmi --with-lua --with-portaudio --with-qt --with-qt5 wireshark
+  brew install --with-libsmi --with-lua --with-portaudio --with-qt5 wireshark
 fi
 if ! brew list ffmpeg &> /dev/null
 then
@@ -75,7 +75,7 @@ source ${HOME}/.bashrc
 cat ${GIT_ROOT_DIR}/packages/${CASKS} | xargs brew cask install
 if ! brew list gnuplot &> /dev/null
 then
-  brew install --with-cairo --with-qt --with-tex --with-wxmac gnuplot
+  brew install --with-cairo --with-qt5 --with-tex --with-wxmac gnuplot
 fi
 if ! brew list graphviz &> /dev/null
 then
