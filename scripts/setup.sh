@@ -1,4 +1,18 @@
 #!/usr/bin/env bash
+if [[ $# -ne 1 ]]
+then
+  echo "Usage: $0 <suffix>"
+  exit 1
+fi
+SUFFIX="${1}"
+if [ "${SUFFIX}" = "w" ]
+then
+  BREWS="min_brews"
+  CASKS="min_casks"
+else
+  BREWS="brews"
+  CASKS="casks"
+fi
 if ! command -v brew &> /dev/null
 then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -53,14 +67,12 @@ if ! brew list ffmpeg &> /dev/null
 then
   brew install --with-faac --with-fdk-aac --wtih-ffplay --with-fontconfig --with-freetype --with-frei0r --with-libass -with-libbluray --with-libbs2b --with-libcaca --with-libsoxr --with-libssh --with-libvidstab --with-libvorbis --withlibvpx --with-opencore-amr --with-openh264 --withopenjpeg --withopenssl --with-opus --with-rtmpdump --withrubberband --with-schroedinger --with-snappy --with-speex --with-theora --with-tools --with-webp --with-x265 --with-xz --with-zeromq ffmpeg
 fi
-cat ${GIT_ROOT_DIR}/packages/brews | xargs brew install
+brew install cask
+brew tap caskroom/versions
+brew cask install java xquartz mactex
+cat ${GIT_ROOT_DIR}/packages/${BREWS} | xargs brew install
 source ${HOME}/.bashrc
-if ! brew list cask &> /dev/null
-then
-  brew install cask
-  brew tap caskroom/versions
-  cat ${GIT_ROOT_DIR}/packages/casks | xargs brew cask install
-fi
+cat ${GIT_ROOT_DIR}/packages/${CASKS} | xargs brew cask install
 if ! brew list gnuplot &> /dev/null
 then
   brew install --with-cairo --with-qt --with-tex --with-wxmac gnuplot

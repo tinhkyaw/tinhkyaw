@@ -105,7 +105,7 @@
 (package-initialize)
 (setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
                          ("marmalade" . "https://marmalade-repo.org/packages/")
-                         ("melpa" . "https://melpa.milkbox.net/packages/")
+                         ("melpa" . "https://melpa.org/packages/")
                          ("org" . "http://orgmode.org/elpa/")))
 (when (not package-archive-contents)
   (package-refresh-contents))
@@ -145,9 +145,16 @@
              :ensure t)
 
 (use-package sbt-mode
-             :ensure t)
+  :commands sbt-start sbt-command
+  :config
+  ;; WORKAROUND: https://github.com/ensime/emacs-sbt-mode/issues/31
+  ;; allows using SPACE when in the minibuffer
+  (substitute-key-definition
+   'minibuffer-complete-word
+   'self-insert-command
+   minibuffer-local-completion-map))
 
-(use-package scala-mode2
+(use-package scala-mode
              :ensure t)
 
 (use-package thrift
@@ -160,8 +167,8 @@
 (require 'gradle-mode)
 (require 'hive)
 (require 'pig-mode)
-(require 'scala-mode2)
 (require 'sbt-mode)
+(require 'scala-mode)
 (require 'thrift)
 
 (add-to-list 'auto-mode-alist '("\\.\\(php\\|inc\\)$" . php-mode))

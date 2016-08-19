@@ -1,8 +1,5 @@
 babel-eslint
 eslint
-grunt
-gulp
-jake
 jshint
 nodeunit
-strongloop
+pm2
