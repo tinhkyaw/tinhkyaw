@@ -56,8 +56,6 @@ redis
 rename
 renameutils
 riak
-s3cmd
-s3sync
 sbt
 scala
 sqoop
