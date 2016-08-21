@@ -61,7 +61,7 @@ pathlib2==2.1.0
 pbr==1.10.0
 pexpect==4.2.0
 pickleshare==0.7.4
-pipdeptree==0.6.0
+pipdeptree==0.7.0
 prompt-toolkit==1.0.6
 protobuf==3.0.0
 pssh==2.3.1
