@@ -1,16 +1,18 @@
 [alias]
-        dsf = "!git diff --color $@ | diff-so-fancy"
+	dsf = "!git diff --color $@ | diff-so-fancy"
 [branch]
 	autosetuprebase = always
+[color]
+	ui = true
 [core]
 	excludesfile = ~/.gitignore_global
 [credential]
 	helper = osxkeychain
 	useHttpPath = true
 [diff]
-        tool = opendiff
+	tool = opendiff
 [difftool]
-        prompt = false
+	prompt = false
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
