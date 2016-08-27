@@ -18,7 +18,7 @@ cffi==1.7.0
 click==6.6
 colorama==0.3.7
 configobj==5.0.6
-cryptography==1.4
+cryptography==1.5
 cycler==0.10.0
 decorator==4.0.10
 docutils==0.12
@@ -79,7 +79,7 @@ pyzmq==15.4.0
 requests==2.11.1
 rsa==3.4.2
 s3transfer==0.1.2
-salt==2016.3.2
+salt==2016.3.3
 scikit-learn==0.17.1
 scipy==0.18.0
 seaborn==0.7.1
