@@ -4,13 +4,13 @@ anyjson==0.3.3
 apache-libcloud==1.1.0
 appnope==0.1.0
 aws-shell==0.1.1
-awscli==1.10.62
+awscli==1.10.63
 backports-abc==0.4
 backports.shutil-get-terminal-size==1.0.0
 backports.ssl-match-hostname==3.5.0.1
 billiard==3.5.0.1
 boto3==1.4.0
-botocore==1.4.52
+botocore==1.4.53
 cached-property==1.3.0
 celery==3.1.23
 certifi==2016.8.31
@@ -32,7 +32,7 @@ gevent==1.1.2
 gnureadline==6.3.3
 greenlet==0.4.10
 idna==2.1
-ipaddress==1.0.16
+ipaddress==1.0.17
 ipython==5.1.0
 ipython-genutils==0.1.0
 itsdangerous==0.24
@@ -45,7 +45,7 @@ locustio==0.7.5
 luigi==2.3.1
 M2Crypto==0.25.1
 MarkupSafe==0.23
-matplotlib==1.5.2
+matplotlib==1.5.3
 mercurial==3.9.1
 mock==2.0.0
 msgpack-python==0.4.8
@@ -70,7 +70,7 @@ pyasn1==0.1.9
 pycparser==2.14
 pycrypto==2.6.1
 Pygments==2.1.3
-pyparsing==2.1.8
+pyparsing==2.1.9
 python-daemon==2.1.1
 python-dateutil==2.5.3
 pytz==2016.6.1
@@ -91,7 +91,7 @@ stevedore==1.17.1
 Theano==0.8.2
 thrift==0.9.3
 tornado==4.4.1
-traitlets==4.2.2
+traitlets==4.3.0
 typing==3.5.2.2
 vboxapi==1.0
 vine==1.1.2
