@@ -81,7 +81,7 @@ rsa==3.4.2
 s3transfer==0.1.4
 salt==2016.3.3
 scikit-learn==0.17.1
-scipy==0.18.0
+scipy==0.18.1
 seaborn==0.7.1
 simplegeneric==0.8.1
 singledispatch==3.4.0.3
