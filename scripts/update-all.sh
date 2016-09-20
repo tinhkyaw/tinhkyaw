@@ -17,7 +17,7 @@ brew update
 brew upgrade --all
 brew upgrade cask
 brew cask update
-caskroom_path='/usr/local/Homebrew/Caskroom'
+caskroom_path='/usr/local/Caskroom'
 for app in $(brew cask list)
 do
   ver=$(brew cask info ${app} | head -1 | cut -d ' ' -f 2)
