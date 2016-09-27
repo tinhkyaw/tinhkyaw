@@ -18,7 +18,7 @@ cffi==1.8.3
 click==6.6
 colorama==0.3.7
 configobj==5.0.6
-cryptography==1.5.1
+cryptography==1.5.2
 cycler==0.10.0
 decorator==4.0.10
 docutils==0.12
@@ -66,7 +66,7 @@ pexpect==4.2.1
 pickleshare==0.7.4
 pipdeptree==0.7.0
 prompt-toolkit==1.0.7
-protobuf==3.0.0
+protobuf==3.1.0
 pssh==2.3.1
 ptyprocess==0.5.1
 pyasn1==0.1.9
