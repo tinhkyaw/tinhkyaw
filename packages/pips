@@ -1,5 +1,5 @@
 amqp==2.1.0
-ansible==2.1.1.0
+ansible==2.1.2.0
 anyjson==0.3.3
 apache-libcloud==1.2.1
 appnope==0.1.0
