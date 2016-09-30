@@ -1,5 +1,7 @@
 babel-eslint
+cordova
 eslint
+ios-deploy
 jshint
 nodeunit
 npm-check-updates
