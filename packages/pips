@@ -90,7 +90,7 @@ seaborn==0.7.1
 simplegeneric==0.8.1
 singledispatch==3.4.0.3
 six==1.10.0
-SQLAlchemy==1.0.15
+SQLAlchemy==1.1.0
 stevedore==1.17.1
 TBB==0.1
 Theano==0.8.2
