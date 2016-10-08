@@ -21,5 +21,5 @@ brew install cask
 brew tap caskroom/versions
 cat ${GIT_ROOT_DIR}/packages/min_casks | xargs brew cask install
 brew reinstall --with-cairo --with-qt --with-tex --with-wxmac gnuplot
-brew reinstall --with-audio --with-gui octave
+brew reinstall --with-audio --with-docs --with-qt5 octave
 cd ${WD}
