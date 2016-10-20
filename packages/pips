@@ -91,7 +91,7 @@ simplegeneric==0.8.1
 singledispatch==3.4.0.3
 six==1.10.0
 SQLAlchemy==1.1.2
-stevedore==1.17.1
+stevedore==1.18.0
 TBB==0.1
 Theano==0.8.2
 thrift==0.9.3

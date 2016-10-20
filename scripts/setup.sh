@@ -87,7 +87,7 @@ then
 fi
 if ! brew list octave &> /dev/null
 then
-  brew install --with-audio --with-docs --with-qt5 octave
+  brew install --with-docs octave
 fi
 pip install --no-binary :all: --upgrade scipy
 pip install --no-binary :all: --upgrade -r ${GIT_ROOT_DIR}/packages/pips
