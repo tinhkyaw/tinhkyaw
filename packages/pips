@@ -4,13 +4,13 @@ anyjson==0.3.3
 apache-libcloud==1.3.0
 appnope==0.1.0
 aws-shell==0.1.1
-awscli==1.11.9
+awscli==1.11.10
 backports-abc==0.4
 backports.shutil-get-terminal-size==1.0.0
 backports.ssl-match-hostname==3.5.0.1
 billiard==3.5.0.1
 boto3==1.4.1
-botocore==1.4.66
+botocore==1.4.67
 cached-property==1.3.0
 celery==3.1.24
 certifi==2016.9.26
@@ -20,7 +20,7 @@ colorama==0.3.7
 configobj==5.0.6
 cryptography==1.5.2
 cycler==0.10.0
-Cython==0.24.1
+Cython==0.25
 decorator==4.0.10
 docutils==0.12
 ecdsa==0.13

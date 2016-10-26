@@ -4,5 +4,6 @@ eslint
 ios-deploy
 jshint
 nodeunit
+npm-check
 npm-check-updates
 pm2
