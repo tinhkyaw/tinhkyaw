@@ -18,7 +18,7 @@ cffi==1.8.3
 click==6.6
 colorama==0.3.7
 configobj==5.0.6
-cryptography==1.5.2
+cryptography==1.5.3
 cycler==0.10.0
 Cython==0.25.1
 decorator==4.0.10
