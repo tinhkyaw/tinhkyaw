@@ -61,6 +61,7 @@ scala
 sqoop
 stow
 suite-sparse
+tmux-cssh
 trash
 tree
 webkit2png
