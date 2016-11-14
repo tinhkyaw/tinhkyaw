@@ -3,9 +3,11 @@ ansible==2.2.0.0
 anyjson==0.3.3
 apache-libcloud==1.3.0
 appnope==0.1.0
+astroid==1.4.8
 aws-shell==0.1.1
 awscli==1.11.14
 backports-abc==0.5
+backports.functools-lru-cache==1.3
 backports.shutil-get-terminal-size==1.0.0
 backports.ssl-match-hostname==3.5.0.1
 billiard==3.5.0.2
@@ -18,6 +20,7 @@ cffi==1.9.1
 click==6.6
 colorama==0.3.7
 configobj==5.0.6
+configparser==3.5.0
 cryptography==1.5.3
 cycler==0.10.0
 Cython==0.25.1
@@ -38,17 +41,20 @@ idna==2.1
 ipaddress==1.0.17
 ipython==5.1.0
 ipython-genutils==0.1.0
+isort==4.2.5
 itsdangerous==0.24
 Jinja2==2.8
 jmespath==0.9.0
 Keras==1.1.1
 kombu==4.0.0
+lazy-object-proxy==1.2.2
 lockfile==0.12.2
 locustio==0.7.5
 luigi==2.3.3
 M2Crypto==0.25.1
 MarkupSafe==0.23
 matplotlib==1.5.3
+mccabe==0.5.2
 mercurial==4.0
 mock==2.0.0
 msgpack-python==0.4.8
@@ -74,6 +80,7 @@ pyasn1==0.1.9
 pycparser==2.17
 pycrypto==2.6.1
 Pygments==2.1.3
+pylint==1.6.4
 pyparsing==2.1.10
 python-daemon==2.1.2
 python-dateutil==2.6.0
@@ -84,7 +91,7 @@ requests==2.11.1
 rsa==3.4.2
 s3transfer==0.1.9
 salt==2016.3.4
-scikit-learn==0.18
+scikit-learn==0.18.1
 scipy==0.18.1
 seaborn==0.7.1
 simplegeneric==0.8.1
@@ -106,4 +113,5 @@ virtualenv-clone==0.2.6
 virtualenvwrapper==4.7.2
 wcwidth==0.1.7
 Werkzeug==0.11.11
+wrapt==1.10.8
 xdot==0.7
