@@ -17,6 +17,7 @@ bash
 binutils
 boost
 c-ares
+carthage
 cmake
 couchdb
 csshx
