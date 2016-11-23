@@ -20,6 +20,7 @@ then
   brew install git mysql python swig
   brew install --with-gmp coreutils
   brew install --with-doc --with-gdbm --with-gmp --with-libffi ruby
+  gem install cocoapods
 fi
 WD=$(pwd)
 DIR=$(dirname "$(greadlink -f "$0")")
