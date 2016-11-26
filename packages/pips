@@ -45,7 +45,7 @@ isort==4.2.5
 itsdangerous==0.24
 Jinja2==2.8
 jmespath==0.9.0
-Keras==1.1.1
+Keras==1.1.2
 kombu==4.0.0
 lazy-object-proxy==1.2.2
 lockfile==0.12.2
