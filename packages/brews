@@ -20,6 +20,7 @@ c-ares
 carthage
 cmake
 couchdb
+cromwell
 csshx
 dateutils
 diff-so-fancy
