@@ -32,7 +32,7 @@ do
         echo "Skipping ${app} update for speed"
       else
         echo "Reinstalling latest ${app}"
-        brew cask install --force --download ${app}
+        brew cask reinstall ${app}
       fi
     fi
   else
@@ -40,7 +40,7 @@ do
     then
       echo "Latest ${app}: ${ver} already installed"
     else
-      brew cask install --force ${app}
+      brew cask reinstall ${app}
     fi
   fi
 done
