@@ -28,14 +28,6 @@ cd ${DIR}
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 ${GIT_ROOT_DIR}/scripts/setup-bin.sh
 ${GIT_ROOT_DIR}/scripts/setup-conf.sh
-if ! brew list emacs &> /dev/null
-then
-  brew install --with-cocoa --with-glib --with-gnutls --with-imagemagick --with-librsvg --with-mailutils emacs
-fi
-if ! brew list macvim &> /dev/null
-then
-  brew install --with-lua --with-luajit --with-override-system-vim macvim
-fi
 if ! brew list qcachegrind &> /dev/null
 then
   brew install --with-graphviz qcachegrind
@@ -59,10 +51,6 @@ fi
 if ! brew list geoip &> /dev/null
 then
   brew install --with-geoipupdate geoip
-fi
-if ! brew list wireshark &> /dev/null
-then
-  brew install --with-libsmi --with-lua --with-portaudio --with-qt5 wireshark
 fi
 if ! brew list ffmpeg &> /dev/null
 then

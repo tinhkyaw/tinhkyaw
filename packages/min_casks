@@ -20,6 +20,7 @@ diffmerge
 disk-inventory-x
 dterm
 eclipse-installer
+emacs
 firefox
 flux
 geany
@@ -40,6 +41,7 @@ keepingyouawake
 keka
 macdown
 mactex
+macvim
 maintenance
 meteorologist
 mysqlworkbench

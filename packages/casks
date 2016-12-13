@@ -28,6 +28,7 @@ diffmerge
 disk-inventory-x
 dterm
 eclipse-installer
+emacs
 firefox
 flux
 geany
@@ -64,6 +65,7 @@ komodo-edit
 lastpass
 macdown
 mactex
+macvim
 maintenance
 marp
 meteorologist
