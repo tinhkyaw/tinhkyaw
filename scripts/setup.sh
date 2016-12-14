@@ -17,11 +17,12 @@ if ! command -v brew &> /dev/null
 then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   brew tap homebrew/science 
-  brew install git mysql python swig zsh
+  brew install git mysql python swig tmux-cssh zsh
   sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
   brew install --with-gmp coreutils
   brew install --with-doc --with-gdbm --with-gmp --with-libffi ruby
   gem install cocoapods
+  pip install --no-binary :all: --upgrade virtualenvwrapper
 fi
 WD=$(pwd)
 DIR=$(dirname "$(greadlink -f "${0}")")
