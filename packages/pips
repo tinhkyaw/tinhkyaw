@@ -54,7 +54,7 @@ luigi==2.4.0
 M2Crypto==0.25.1
 MarkupSafe==0.23
 matplotlib==1.5.3
-mccabe==0.5.2
+mccabe==0.5.3
 mercurial==4.0.1
 mock==2.0.0
 msgpack-python==0.4.8
@@ -87,7 +87,7 @@ python-dateutil==2.6.0
 pytz==2016.10
 PyYAML==3.12
 pyzmq==16.0.2
-requests==2.12.3
+requests==2.12.4
 rsa==3.4.2
 s3transfer==0.1.9
 salt==2016.11.1
