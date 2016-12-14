@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 if [[ $# -ne 1 ]]
 then
-  echo -e "\e[91mUsage: \e[39m$0 <suffix>"
+  echo -e "\e[91mUsage:\e[0m ${0} <suffix>"
   exit 1
 fi
 SUFFIX="${1}"
@@ -24,7 +24,7 @@ then
   gem install cocoapods
 fi
 WD=$(pwd)
-DIR=$(dirname "$(greadlink -f "$0")")
+DIR=$(dirname "$(greadlink -f "${0}")")
 cd ${DIR}
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 ${GIT_ROOT_DIR}/scripts/setup-bin.sh
@@ -46,7 +46,7 @@ then
   brew install --with-openssl node
   for package in $(cat ${GIT_ROOT_DIR}/packages/npms)
   do
-    npm install -g $package
+    npm install -g ${package}
   done
 fi
 if ! brew list geoip &> /dev/null

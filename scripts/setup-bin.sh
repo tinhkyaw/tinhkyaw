@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 WD=$(pwd)
-DIR=$(dirname "$(greadlink -f "$0")")
+DIR=$(dirname "$(greadlink -f "${0}")")
 cd ${DIR}
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 source ${GIT_ROOT_DIR}/scripts/setup-common.sh
 mkdir -p ${HOME}/bin
-for script_file in emacs cleanup-caskroom.sh git-pull-all.sh snapshot.sh update-all.sh
+for script_file in emacs cleanup-caskroom.zsh git-pull-all.zsh snapshot.zsh update-all.zsh
 do
   install_file ${script_file} ${GIT_ROOT_DIR}/scripts ${HOME}/bin
 done

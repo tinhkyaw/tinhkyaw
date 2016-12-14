@@ -70,4 +70,5 @@ webkit2png
 wget
 yajl
 zopfli
-zsh
+zsh-autosuggestions
+zsh-syntax-highlighting

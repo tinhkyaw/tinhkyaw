@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 WD=$(pwd)
-DIR=$(dirname "$(greadlink -f "$0")")
+DIR=$(dirname "$(greadlink -f "${0}")")
 cd ${DIR}
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 source ${GIT_ROOT_DIR}/scripts/setup-common.sh

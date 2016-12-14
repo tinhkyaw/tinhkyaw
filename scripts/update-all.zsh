@@ -1,5 +1,5 @@
-#!/usr/bin/env bash
-DIR=$(dirname $(type -a "$0" | cut -d " " -f 3))
+#!/usr/bin/env zsh
+DIR=$(dirname $(type -a "${0}" | cut -d " " -f 3))
 is_quick=false
 while getopts q flag
 do
@@ -21,24 +21,24 @@ caskroom_path="/usr/local/Caskroom"
 for app in $(brew cask list)
 do
   ver=$(brew cask info ${app} | head -1 | cut -d " " -f 2)
-  if [ $ver == "latest" ]
+  if [ ${ver} == "latest" ]
   then
     if grep -Fxq ${app} "$(readlink ${DIR}/ignored)"
     then
-      echo -e "\e[93mIgnoring \e[96m${app}\e[39m"
+      print -P "%F{yellow}Ignoring %F{cyan}${app}%f"
     else
       if ${is_quick} && grep -Fxq ${app} "$(readlink ${DIR}/slow)"
       then
-        echo -e "\e[93mSkipping \e[96m${app} \e[39mupdate for speed"
+        print -P "%F{yellow}Skipping %F{cyan}${app}%f update for speed"
       else
-        echo -e "\e[93mReinstalling \e[39mlatest \e[96m${app}\e[39m"
+        print -P "%F{yellow}Reinstalling%f ${ver} %F{cyan}${app}%f"
         brew cask reinstall ${app}
       fi
     fi
   else
-    if [ -d "$caskroom_path/${app}/.metadata/${ver}" ]
+    if [ -d "${caskroom_path}/${app}/.metadata/${ver}" ]
     then
-      echo -e "\e[94mLatest \e[96m${app}: ${ver} \e[39malready installed"
+      print -P "%F{blue}Latest %F{cyan}${app}: ${ver}%f already installed"
     else
       brew cask reinstall ${app}
     fi

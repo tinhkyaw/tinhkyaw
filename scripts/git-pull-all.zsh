@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 P=$(pwd)
 if [ "$#" -lt 1 ]
 then
@@ -9,15 +9,15 @@ fi
 cd ${DIR}
 for d in $(ls)
 do
-  if [ -d ${DIR}/$d ]
+  if [ -d ${DIR}/${d} ]
   then
-    cd ${DIR}/$d
+    cd ${DIR}/${d}
     if [ -d .git ]
     then
-      echo -e "\e[94mAttempting \e[39mgit pull \e[96m$d\e[39m"
+      print -P "%F{blue}Attempting%f git pull %F{cyan}${d}%f"
       if ! git pull
       then
-        echo -e "\e[91mRetrying \e[39mgit pull --no-rebase \e[96m$d\e[39m"
+        print -P "%F{red}Retrying%f git pull --no-rebase %F{cyan}${d}%f"
         git pull --no-rebase
       fi
     fi
