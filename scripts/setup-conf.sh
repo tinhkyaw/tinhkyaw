@@ -15,4 +15,6 @@ if ! diff ${GIT_ROOT_DIR}/conf/paths /etc/paths &> /dev/null
 then
   sudo cp ${GIT_ROOT_DIR}/conf/paths /etc/
 fi
+mkdir -p ${HOME}/.ssh
+cp ssh_config ${HOME}/.ssh/config
 cd ${WD}

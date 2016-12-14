@@ -21,11 +21,11 @@ click==6.6
 colorama==0.3.7
 configobj==5.0.6
 configparser==3.5.0
-cryptography==1.7
+cryptography==1.7.1
 cycler==0.10.0
 Cython==0.25.2
 decorator==4.0.10
-docutils==0.12
+docutils==0.13.1
 ecdsa==0.13
 enum34==1.1.6
 Fabric==1.13.1
@@ -90,7 +90,7 @@ pyzmq==16.0.2
 requests==2.12.3
 rsa==3.4.2
 s3transfer==0.1.9
-salt==2016.11.0
+salt==2016.11.1
 scikit-learn==0.18.1
 scipy==0.18.1
 seaborn==0.7.1
