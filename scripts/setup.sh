@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 if [[ $# -ne 1 ]]
 then
-  echo "Usage: $0 <suffix>"
+  echo -e "\e[91mUsage:\e[0m ${0} <suffix>"
   exit 1
 fi
 SUFFIX="${1}"
@@ -17,13 +17,15 @@ if ! command -v brew &> /dev/null
 then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   brew tap homebrew/science 
-  brew install git mysql python swig
+  brew install git mysql python swig tmux-cssh zsh
+  sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
   brew install --with-gmp coreutils
   brew install --with-doc --with-gdbm --with-gmp --with-libffi ruby
   gem install cocoapods
+  pip install --no-binary :all: --upgrade virtualenvwrapper
 fi
 WD=$(pwd)
-DIR=$(dirname "$(greadlink -f "$0")")
+DIR=$(dirname "$(greadlink -f "${0}")")
 cd ${DIR}
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 ${GIT_ROOT_DIR}/scripts/setup-bin.sh
@@ -45,7 +47,7 @@ then
   brew install --with-openssl node
   for package in $(cat ${GIT_ROOT_DIR}/packages/npms)
   do
-    npm install -g $package
+    npm install -g ${package}
   done
 fi
 if ! brew list geoip &> /dev/null
@@ -60,7 +62,7 @@ brew install cask
 brew tap caskroom/versions
 brew cask install java xquartz mactex
 cat ${GIT_ROOT_DIR}/packages/${BREWS} | xargs brew install
-source ${HOME}/.bashrc
+source ${HOME}/.zshrc
 cat ${GIT_ROOT_DIR}/packages/${CASKS} | xargs brew cask install
 if ! brew list gnuplot &> /dev/null
 then

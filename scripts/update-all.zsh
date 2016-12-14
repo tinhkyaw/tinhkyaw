@@ -1,5 +1,5 @@
-#!/usr/bin/env bash
-DIR=$(dirname "$(type -a "$0" | cut -d ' ' -f 3)")
+#!/usr/bin/env zsh
+DIR=$(dirname $(type -a "${0}" | cut -d " " -f 3))
 is_quick=false
 while getopts q flag
 do
@@ -12,33 +12,33 @@ do
     ;;
   esac
 done
-shift $(( OPTIND - 1 ));
+shift $(( OPTIND - 1 ))
 brew update
 brew upgrade
 brew upgrade cask
 brew cask update
-caskroom_path='/usr/local/Caskroom'
+caskroom_path="/usr/local/Caskroom"
 for app in $(brew cask list)
 do
-  ver=$(brew cask info ${app} | head -1 | cut -d ' ' -f 2)
-  if [ $ver == 'latest' ]
+  ver=$(brew cask info ${app} | head -1 | cut -d " " -f 2)
+  if [ ${ver} = "latest" ]
   then
     if grep -Fxq ${app} "$(readlink ${DIR}/ignored)"
     then
-      echo "Ignoring ${app}"
+      print -P "%F{yellow}Ignoring %F{cyan}${app}%f"
     else
       if ${is_quick} && grep -Fxq ${app} "$(readlink ${DIR}/slow)"
       then
-        echo "Skipping ${app} update for speed"
+        print -P "%F{yellow}Skipping %F{cyan}${app}%f update for speed"
       else
-        echo "Reinstalling latest ${app}"
+        print -P "%F{yellow}Reinstalling%f ${ver} %F{cyan}${app}%f"
         brew cask reinstall ${app}
       fi
     fi
   else
-    if [ -d "$caskroom_path/${app}/.metadata/${ver}" ]
+    if [ -d "${caskroom_path}/${app}/.metadata/${ver}" ]
     then
-      echo "Latest ${app}: ${ver} already installed"
+      print -P "%F{blue}Latest %F{cyan}${app}: ${ver}%f already installed"
     else
       brew cask reinstall ${app}
     fi
@@ -47,7 +47,7 @@ done
 brew cleanup --force
 brew linkapps
 brew cask cleanup
-cleanup-caskroom.sh
+cleanup-caskroom.zsh
 brew doctor
 gem update --system
 gem update
@@ -55,4 +55,4 @@ gem cleanup
 npm update -g
 npm-check -u -g
 pip install --upgrade pip setuptools
-pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs pip install --no-binary :all: --upgrade
+pip freeze --local | grep -v "^\-e" | cut -d = -f 1  | xargs pip install --no-binary :all: --upgrade

@@ -21,11 +21,11 @@ click==6.6
 colorama==0.3.7
 configobj==5.0.6
 configparser==3.5.0
-cryptography==1.7
+cryptography==1.7.1
 cycler==0.10.0
 Cython==0.25.2
 decorator==4.0.10
-docutils==0.12
+docutils==0.13.1
 ecdsa==0.13
 enum34==1.1.6
 Fabric==1.13.1
@@ -54,7 +54,7 @@ luigi==2.4.0
 M2Crypto==0.25.1
 MarkupSafe==0.23
 matplotlib==1.5.3
-mccabe==0.5.2
+mccabe==0.5.3
 mercurial==4.0.1
 mock==2.0.0
 msgpack-python==0.4.8
@@ -87,10 +87,10 @@ python-dateutil==2.6.0
 pytz==2016.10
 PyYAML==3.12
 pyzmq==16.0.2
-requests==2.12.3
+requests==2.12.4
 rsa==3.4.2
 s3transfer==0.1.9
-salt==2016.11.0
+salt==2016.11.1
 scikit-learn==0.18.1
 scipy==0.18.1
 seaborn==0.7.1

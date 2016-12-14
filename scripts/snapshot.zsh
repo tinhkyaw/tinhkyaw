@@ -1,13 +1,13 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 if [[ $# -ne 1 ]]
 then
-  echo "Usage: $0 <suffix>"
+  print -P "%F{red}Usage:%f ${0} <suffix>"
   exit 1
 fi
 SUFFIX="${1}"
 SNAPSHOT_DIR="${HOME}/Dropbox/Shared/Snapshots"
 WD=$(pwd)
-DIR=$(dirname "$(greadlink -f "$0")")
+DIR=$(dirname "$(greadlink -f "${0}")")
 cd ${DIR}
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 PKG_DIR="${GIT_ROOT_DIR}/packages"
