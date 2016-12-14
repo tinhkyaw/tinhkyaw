@@ -10,7 +10,7 @@ if [ -f /usr/local/bin/virtualenvwrapper.sh ]
 then
   source /usr/local/bin/virtualenvwrapper.sh
 fi
-if which jenv > /dev/null
+if which jenv &> /dev/null
 then
   eval "$(jenv init - bash)"
 fi
@@ -21,3 +21,4 @@ export HISTCONTROL=erasedups
 export HISTSIZE= HISTFILESIZE=
 shopt -s histappend
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+ssh-add -A &> /dev/null
