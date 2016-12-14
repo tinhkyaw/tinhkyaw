@@ -21,7 +21,7 @@ caskroom_path="/usr/local/Caskroom"
 for app in $(brew cask list)
 do
   ver=$(brew cask info ${app} | head -1 | cut -d " " -f 2)
-  if [ ${ver} == "latest" ]
+  if [ ${ver} = "latest" ]
   then
     if grep -Fxq ${app} "$(readlink ${DIR}/ignored)"
     then
@@ -47,7 +47,7 @@ done
 brew cleanup --force
 brew linkapps
 brew cask cleanup
-cleanup-caskroom.sh
+cleanup-caskroom.zsh
 brew doctor
 gem update --system
 gem update
