@@ -11,7 +11,6 @@ do
 done
 mkdir -p ${HOME}/.emacs.d
 install_file init.el ${GIT_ROOT_DIR}/conf ${HOME}/.emacs.d
-echo "${HOME}/bin" | sudo tee /etc/paths.d/Homebin
 mkdir -p ${HOME}/.ssh
 cp ssh_config ${HOME}/.ssh/config
 cd ${WD}
