@@ -5,7 +5,7 @@ cd ${DIR}
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 source ${GIT_ROOT_DIR}/scripts/setup-common.sh
 replace_file .gitconfig ${GIT_ROOT_DIR}/conf ${HOME}
-for conf_file in .bashrc .bash_profile
+for conf_file in .zshrc
 do
   install_file ${conf_file} ${GIT_ROOT_DIR}/conf ${HOME}
 done

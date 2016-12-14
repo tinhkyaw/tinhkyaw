@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 if [[ $# -ne 1 ]]
 then
-  echo "Usage: $0 <suffix>"
+  echo -e "\e[91mUsage: \e[39m$0 <suffix>"
   exit 1
 fi
 SUFFIX="${1}"
@@ -17,7 +17,8 @@ if ! command -v brew &> /dev/null
 then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   brew tap homebrew/science 
-  brew install git mysql python swig
+  brew install git mysql python swig zsh
+  sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
   brew install --with-gmp coreutils
   brew install --with-doc --with-gdbm --with-gmp --with-libffi ruby
   gem install cocoapods
@@ -60,7 +61,7 @@ brew install cask
 brew tap caskroom/versions
 brew cask install java xquartz mactex
 cat ${GIT_ROOT_DIR}/packages/${BREWS} | xargs brew install
-source ${HOME}/.bashrc
+source ${HOME}/.zshrc
 cat ${GIT_ROOT_DIR}/packages/${CASKS} | xargs brew cask install
 if ! brew list gnuplot &> /dev/null
 then

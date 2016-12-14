@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 if [[ $# -ne 1 ]]
 then
-  echo "Usage: $0 <suffix>"
+  echo -e "\e[91mUsage: \e[39m$0 <suffix>"
   exit 1
 fi
 SUFFIX="${1}"
