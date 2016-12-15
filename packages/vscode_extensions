@@ -1,3 +1,4 @@
+cordova-tools
 cpptools
 debugger-for-chrome
 debugger-for-ios-web
@@ -9,3 +10,5 @@ MagicPython
 python
 vscode-docker
 vscode-eslint
+vscode-npm-script
+vscode-react-native
