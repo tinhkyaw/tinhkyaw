@@ -4,8 +4,10 @@ apache-spark
 autoenv
 automake
 bash
+bazel
 binutils
 boost
+buck
 c-ares
 cmake
 couchdb
