@@ -14,8 +14,10 @@ aws-mon
 aws-sns-cli
 awscli
 bash
+bazel
 binutils
 boost
+buck
 c-ares
 carthage
 cmake
