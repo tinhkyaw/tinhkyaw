@@ -117,4 +117,6 @@ export PATH=${HOME}/bin:/usr/local/sbin:$PATH
 
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
+export BYOBU_PREFIX=/usr/local
+
 ssh-add -A &> /dev/null
