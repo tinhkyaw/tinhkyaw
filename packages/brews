@@ -18,6 +18,7 @@ bazel
 binutils
 boost
 buck
+byobu
 c-ares
 carthage
 cmake
