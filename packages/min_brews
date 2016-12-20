@@ -8,6 +8,7 @@ bazel
 binutils
 boost
 buck
+byobu
 c-ares
 cmake
 couchdb
