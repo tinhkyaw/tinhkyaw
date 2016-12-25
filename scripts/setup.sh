@@ -22,7 +22,6 @@ then
   sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
   brew install --with-gmp coreutils
   brew install --with-doc --with-gdbm --with-gmp --with-libffi ruby
-  gem install cocoapods
   pip install --no-binary :all: --upgrade virtualenvwrapper
 fi
 WD=$(pwd)
