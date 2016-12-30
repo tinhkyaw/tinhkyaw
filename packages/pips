@@ -5,14 +5,14 @@ apache-libcloud==1.5.0
 appnope==0.1.0
 astroid==1.4.9
 aws-shell==0.1.1
-awscli==1.11.34
+awscli==1.11.35
 backports-abc==0.5
 backports.functools-lru-cache==1.3
 backports.shutil-get-terminal-size==1.0.0
 backports.ssl-match-hostname==3.5.0.1
 billiard==3.5.0.2
 boto3==1.4.3
-botocore==1.4.91
+botocore==1.4.92
 cached-property==1.3.0
 celery==4.0.2
 certifi==2016.9.26
@@ -43,7 +43,7 @@ ipython==5.1.0
 ipython-genutils==0.1.0
 isort==4.2.5
 itsdangerous==0.24
-Jinja2==2.8
+Jinja2==2.8.1
 jmespath==0.9.0
 Keras==1.2.0
 kombu==4.0.2
