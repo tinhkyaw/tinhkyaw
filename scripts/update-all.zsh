@@ -44,7 +44,7 @@ do
     fi
   fi
 done
-brew cleanup --force
+brew cleanup -s
 brew linkapps
 brew cask cleanup
 cleanup-caskroom.zsh
