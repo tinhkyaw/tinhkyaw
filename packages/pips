@@ -55,7 +55,7 @@ M2Crypto==0.25.1
 MarkupSafe==0.23
 matplotlib==1.5.3
 mccabe==0.5.3
-mercurial==4.0.1
+mercurial==4.0.2
 mock==2.0.0
 msgpack-python==0.4.8
 mysql-connector==2.1.4
