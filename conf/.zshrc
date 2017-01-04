@@ -115,6 +115,11 @@ fi
 
 export PATH=${HOME}/bin:/usr/local/sbin:$PATH
 
+if [ -d ${HOME}/anaconda3/bin ]
+then
+  export PATH=$PATH:${HOME}/anaconda3/bin
+fi
+
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 export BYOBU_PREFIX=/usr/local
