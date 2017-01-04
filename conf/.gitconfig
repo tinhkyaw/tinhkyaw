@@ -1,5 +1,27 @@
 [alias]
+	br = branch
+	ci = commit
+	ciam = commit --amend
+	co = checkout
+	cpa = cherry-pick --abort
+	cpc = cherry-pick --continue
+	cpk = cherry-pick
+	cpq = cherry-pick --quit
 	dsf = "!git diff --color $@ | diff-so-fancy"
+	f = fetch
+	mr = merge
+	rb = rebase
+	rba = rebase --abort
+	rbc = rebase --continue
+	rbi = rebase -i
+	rbih = "!f() { n=$1; shift; git rebase -i HEAD~$n $*; }; f"
+	rbim = rebase -i origin/master
+	rbm = rebase origin/master
+	rbs = rebase --skip
+	st = status
+	up = fetch origin
+	upa = fetch --all
+	to = push
 [branch]
 	autosetuprebase = always
 [color]
