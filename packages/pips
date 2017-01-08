@@ -43,7 +43,7 @@ ipython==5.1.0
 ipython-genutils==0.1.0
 isort==4.2.5
 itsdangerous==0.24
-Jinja2==2.9.1
+Jinja2==2.9.2
 jmespath==0.9.0
 Keras==1.2.0
 kombu==4.0.2
