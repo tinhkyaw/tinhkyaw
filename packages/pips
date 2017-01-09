@@ -43,7 +43,7 @@ ipython==5.1.0
 ipython-genutils==0.1.0
 isort==4.2.5
 itsdangerous==0.24
-Jinja2==2.9.2
+Jinja2==2.9.3
 jmespath==0.9.0
 Keras==1.2.0
 kombu==4.0.2
@@ -68,7 +68,7 @@ ordereddict==1.1
 pandas==0.19.2
 paramiko==2.1.1
 path.py==10.0
-pathlib2==2.1.0
+pathlib2==2.2.0
 pbr==1.10.0
 pexpect==4.2.1
 pickleshare==0.7.4
@@ -92,6 +92,7 @@ requests==2.12.4
 rsa==3.4.2
 s3transfer==0.1.10
 salt==2016.11.1
+scandir==1.4
 scikit-learn==0.18.1
 scipy==0.18.1
 seaborn==0.7.1
