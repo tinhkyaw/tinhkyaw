@@ -38,7 +38,7 @@ gevent==1.2.0
 gnureadline==6.3.3
 greenlet==0.4.11
 idna==2.2
-ipaddress==1.0.17
+ipaddress==1.0.18
 ipython==5.1.0
 ipython-genutils==0.1.0
 isort==4.2.5
