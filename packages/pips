@@ -89,7 +89,7 @@ python-dateutil==2.6.0
 pytz==2016.10
 PyYAML==3.12
 pyzmq==16.0.2
-requests==2.12.4
+requests==2.12.5
 rsa==3.4.2
 s3transfer==0.1.10
 salt==2016.11.1
@@ -101,7 +101,7 @@ simplegeneric==0.8.1
 singledispatch==3.4.0.3
 six==1.10.0
 SQLAlchemy==1.1.5
-stevedore==1.19.1
+stevedore==1.20.0
 subprocess32==3.2.7
 TBB==0.1
 Theano==0.8.2
