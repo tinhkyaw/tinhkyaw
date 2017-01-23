@@ -18,11 +18,14 @@ deco
 deeper
 diffmerge
 disk-inventory-x
+dropbox-beta
 dterm
 eclipse-installer
 emacs
 filezilla
 firefox
+flash-npapi
+flash-ppapi
 flux
 geany
 gimp
@@ -60,6 +63,8 @@ skype
 sourcetree
 spyder
 sqlitebrowser
+synergy
+teleport
 textwrangler
 tigervnc-viewer
 typora
