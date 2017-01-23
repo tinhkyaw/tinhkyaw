@@ -44,7 +44,6 @@ do
   fi
 done
 brew cleanup -s
-brew linkapps
 brew cask cleanup
 cleanup-caskroom.zsh
 brew doctor

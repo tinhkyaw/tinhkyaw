@@ -28,11 +28,14 @@ deco
 deeper
 diffmerge
 disk-inventory-x
+dropbox-beta
 dterm
 eclipse-installer
 emacs
 filezilla
 firefox
+flash-npapi
+flash-ppapi
 flux
 geany
 gimp
@@ -91,8 +94,10 @@ sourcetree
 spectacle
 spyder
 sqlitebrowser
-sqlpro-for-postgres
+standard-notes
 steam
+synergy
+teleport
 textwrangler
 tigervnc-viewer
 typora
