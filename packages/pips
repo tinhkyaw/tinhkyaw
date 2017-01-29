@@ -19,6 +19,7 @@ celery==4.0.2
 certifi==2017.1.23
 cffi==1.9.1
 click==6.7
+click-completion==0.2.1
 colorama==0.3.7
 configobj==5.0.6
 configparser==3.5.0
@@ -47,7 +48,7 @@ ipython==5.1.0
 ipython-genutils==0.1.0
 isort==4.2.5
 itsdangerous==0.24
-Jinja2==2.9.4
+Jinja2==2.9.5
 jmespath==0.9.1
 Keras==1.2.1
 kombu==4.0.2
@@ -79,7 +80,7 @@ pbr==1.10.0
 pexpect==4.2.1
 pickleshare==0.7.4
 pipdeptree==0.9.0
-pipenv==3.2.4
+pipenv==3.2.10
 pipfile==0.0.1
 prompt-toolkit==1.0.9
 protobuf==3.1.0.post1
