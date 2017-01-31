@@ -1,6 +1,7 @@
 Clojure
 Checkstyle
 Color Theme
+DLTK ShellEd
 EclEmma
 FindBugs
 InstaSearch
@@ -12,6 +13,5 @@ PyDev
 Scala-IDE
 Scalastyle
 StatET
+Terminal
 TestNG
-
-ShellEd -       http://sourceforge.net/projects/shelled/files/shelled/update
