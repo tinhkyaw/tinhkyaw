@@ -82,8 +82,8 @@ pickleshare==0.7.4
 pipdeptree==0.9.0
 pipenv==3.2.11
 pipfile==0.0.1
-prompt-toolkit==1.0.9
-protobuf==3.1.0.post1
+prompt-toolkit==1.0.10
+protobuf==3.2.0
 pssh==2.3.1
 ptyprocess==0.5.1
 pyasn1==0.1.9
@@ -101,7 +101,7 @@ requests==2.13.0
 requirements-parser==0.1.0
 rsa==3.4.2
 s3transfer==0.1.10
-salt==2016.11.1
+salt==2016.11.2
 scandir==1.4
 scikit-learn==0.18.1
 scipy==0.18.1
