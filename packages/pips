@@ -75,12 +75,14 @@ pandas==0.19.2
 paramiko==2.1.1
 parse==1.6.6
 path.py==10.1
+pathlib==1.0.1
 pathlib2==2.2.1
 pbr==1.10.0
+pew==0.1.26
 pexpect==4.2.1
 pickleshare==0.7.4
 pipdeptree==0.9.0
-pipenv==3.2.11
+pipenv==3.3.1
 pipfile==0.0.1
 prompt-toolkit==1.0.10
 protobuf==3.2.0
@@ -94,6 +96,7 @@ pylint==1.6.5
 pyparsing==2.1.10
 python-daemon==2.1.2
 python-dateutil==2.6.0
+pythonz-bd==1.11.3
 pytz==2016.10
 PyYAML==3.12
 pyzmq==16.0.2
@@ -106,6 +109,7 @@ scandir==1.4
 scikit-learn==0.18.1
 scipy==0.18.1
 seaborn==0.7.1
+shutilwhich==1.1.0
 simplegeneric==0.8.1
 singledispatch==3.4.0.3
 six==1.10.0
