@@ -28,8 +28,6 @@ WD=$(pwd)
 DIR=$(dirname "$(greadlink -f "${0}")")
 cd ${DIR}
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
-${GIT_ROOT_DIR}/scripts/setup-bin.sh
-${GIT_ROOT_DIR}/scripts/setup-conf.sh
 if ! brew list qcachegrind &> /dev/null
 then
   brew install --with-graphviz qcachegrind
@@ -79,4 +77,6 @@ then
 fi
 pip install --no-binary :all: --upgrade scipy
 pip install --no-binary :all: --upgrade -r ${GIT_ROOT_DIR}/packages/pips
+${GIT_ROOT_DIR}/scripts/setup-bin.sh
+${GIT_ROOT_DIR}/scripts/setup-conf.sh
 cd ${WD}

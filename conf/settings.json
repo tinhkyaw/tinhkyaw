@@ -1,0 +1,10 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.formatOnSave": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "matlab.lintOnSave": false,
+    "files.associations": {
+        "*.m": "matlab"
+    }
+}
