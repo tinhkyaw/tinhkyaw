@@ -7,6 +7,7 @@ java
 jshint
 latex
 MagicPython
+Matlab
 python
 vscode-docker
 vscode-eslint
