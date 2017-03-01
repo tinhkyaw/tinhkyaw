@@ -45,7 +45,7 @@ futures==3.0.5
 gevent==1.2.1
 gnureadline==6.3.3
 greenlet==0.4.12
-idna==2.3
+idna==2.4
 ipaddress==1.0.18
 ipython==5.3.0
 ipython-genutils==0.1.0
@@ -81,7 +81,7 @@ parse==1.8.0
 path.py==10.1
 pathlib==1.0.1
 pathlib2==2.2.1
-pbr==1.10.0
+pbr==2.0.0
 pew==0.1.26
 pexpect==4.2.1
 pickleshare==0.7.4
