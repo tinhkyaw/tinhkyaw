@@ -98,7 +98,7 @@ pycparser==2.17
 pycrypto==2.6.1
 Pygments==2.2.0
 pylint==1.6.5
-pyparsing==2.1.10
+pyparsing==2.2.0
 python-daemon==2.1.2
 python-dateutil==2.6.0
 pythonz-bd==1.11.4
