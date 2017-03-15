@@ -138,5 +138,5 @@ virtualenv-clone==0.2.6
 virtualenvwrapper==4.7.2
 wcwidth==0.1.7
 Werkzeug==0.12
-wrapt==1.10.8
+wrapt==1.10.10
 xdot==0.7
