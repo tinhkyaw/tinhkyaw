@@ -7,7 +7,7 @@ appnope==0.1.0
 asn1crypto==0.22.0
 astroid==1.4.9
 aws-shell==0.1.1
-awscli==1.11.69
+awscli==1.11.70
 backports-abc==0.5
 backports.functools-lru-cache==1.3
 backports.shutil-get-terminal-size==1.0.0
@@ -16,7 +16,7 @@ beautifulsoup4==4.5.3
 billiard==3.5.0.2
 blindspin==2.0.1
 boto3==1.4.4
-botocore==1.5.32
+botocore==1.5.33
 cached-property==1.3.0
 celery==4.0.2
 certifi==2017.1.23
@@ -37,7 +37,7 @@ docutils==0.13.1
 ecdsa==0.13
 enum34==1.1.6
 Fabric==1.13.1
-Flask==0.12
+Flask==0.12.1
 Flask-Cache==0.13.1
 Flask-Hashing==1.1
 funcsigs==1.0.2
@@ -119,7 +119,7 @@ shutilwhich==1.1.0
 simplegeneric==0.8.1
 singledispatch==3.4.0.3
 six==1.10.0
-SQLAlchemy==1.1.7
+SQLAlchemy==1.1.8
 stevedore==1.21.0
 subprocess32==3.2.7
 TBB==0.1
