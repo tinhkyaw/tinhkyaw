@@ -5,7 +5,7 @@ apache-libcloud==1.5.0
 appdirs==1.4.3
 appnope==0.1.0
 asn1crypto==0.22.0
-astroid==1.4.9
+astroid==1.5.1
 aws-shell==0.1.1
 awscli==1.11.76
 backports-abc==0.5
@@ -35,6 +35,7 @@ decorator==4.0.11
 delegator.py==0.0.9
 docutils==0.13.1
 ecdsa==0.13
+editdistance==0.3.1
 enum34==1.1.6
 Fabric==1.13.1
 Flask==0.12.1
@@ -98,7 +99,7 @@ pyasn1==0.2.3
 pycparser==2.17
 pycrypto==2.6.1
 Pygments==2.2.0
-pylint==1.6.5
+pylint==1.7.0
 pyparsing==2.2.0
 python-daemon==2.1.2
 python-dateutil==2.6.0
