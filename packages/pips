@@ -43,7 +43,7 @@ Flask-Cache==0.13.1
 Flask-Hashing==1.1
 funcsigs==1.0.2
 functools32==3.2.3.post2
-futures==3.0.5
+futures==3.1.1
 gevent==1.2.1
 gnureadline==6.3.3
 greenlet==0.4.12
