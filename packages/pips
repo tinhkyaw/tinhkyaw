@@ -1,13 +1,13 @@
 amqp==2.1.4
 ansible==2.3.0.0
 anyjson==0.3.3
-apache-libcloud==1.5.0
+apache-libcloud==2.0.0
 appdirs==1.4.3
 appnope==0.1.0
 asn1crypto==0.22.0
 astroid==1.5.2
 aws-shell==0.1.1
-awscli==1.11.80
+awscli==1.11.81
 backports-abc==0.5
 backports.functools-lru-cache==1.3
 backports.shutil-get-terminal-size==1.0.0
@@ -16,7 +16,7 @@ beautifulsoup4==4.5.3
 billiard==3.5.0.2
 blindspin==2.0.1
 boto3==1.4.4
-botocore==1.5.43
+botocore==1.5.44
 cached-property==1.3.0
 celery==4.0.2
 certifi==2017.4.17
@@ -88,7 +88,7 @@ pew==0.1.26
 pexpect==4.2.1
 pickleshare==0.7.4
 pipdeptree==0.10.1
-pipenv==3.5.6
+pipenv==3.6.0
 pipfile==0.0.2
 prompt-toolkit==1.0.14
 protobuf==3.2.0
