@@ -64,7 +64,7 @@ locustio==0.7.5
 luigi==2.6.1
 M2Crypto==0.26.0
 MarkupSafe==1.0
-matplotlib==2.0.1
+matplotlib==2.0.2
 mccabe==0.6.1
 mercurial==4.2
 mock==2.0.0
