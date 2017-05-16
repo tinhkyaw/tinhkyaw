@@ -88,7 +88,7 @@ pew==0.1.26
 pexpect==4.2.1
 pickleshare==0.7.4
 pipdeptree==0.10.1
-pipenv==3.6.2
+pipenv==4.0.0
 pipfile==0.0.2
 prompt-toolkit==1.0.14
 protobuf==3.3.0
