@@ -109,7 +109,7 @@ pythonz-bd==1.11.4
 pytz==2017.2
 PyYAML==3.12
 pyzmq==16.0.2
-requests==2.16.4
+requests==2.16.5
 requirements-parser==0.1.0
 rsa==3.4.2
 s3transfer==0.1.10
