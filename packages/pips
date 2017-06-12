@@ -86,7 +86,7 @@ paramiko==2.2.0
 parse==1.8.2
 path.py==10.3.1
 pathlib==1.0.1
-pathlib2==2.2.1
+pathlib2==2.3.0
 pbr==3.0.1
 pew==0.1.26
 pexpect==4.2.1
