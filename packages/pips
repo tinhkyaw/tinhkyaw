@@ -92,7 +92,7 @@ pew==0.1.26
 pexpect==4.2.1
 pickleshare==0.7.4
 pipdeptree==0.10.1
-pipenv==5.0.0
+pipenv==5.1.1
 pipfile==0.0.2
 prompt-toolkit==1.0.14
 protobuf==3.3.0
@@ -112,7 +112,7 @@ pythonz-bd==1.11.4
 pytz==2017.2
 PyYAML==3.12
 pyzmq==16.0.2
-requests==2.18.0
+requests==2.18.1
 requirements-parser==0.1.0
 rsa==3.4.2
 s3transfer==0.1.10
