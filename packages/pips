@@ -125,7 +125,7 @@ shutilwhich==1.1.0
 simplegeneric==0.8.1
 singledispatch==3.4.0.3
 six==1.10.0
-SQLAlchemy==1.1.10
+SQLAlchemy==1.1.11
 stevedore==1.23.0
 subprocess32==3.2.7
 TBB==0.1
