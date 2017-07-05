@@ -19,7 +19,7 @@ brew upgrade cask
 caskroom_path="/usr/local/Caskroom"
 for app in $(brew cask list)
 do
-  ver=$(brew cask info ${app} | head -1 | cut -d " " -f 2)
+  ver=$(brew cask info ${app} | cut -d " " -f 2 | head -1)
   if [ ${ver} = "latest" ]
   then
     if grep -Fxq ${app} "$(readlink ${DIR}/ignored)"
