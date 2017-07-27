@@ -7,7 +7,7 @@ appnope==0.1.0
 asn1crypto==0.22.0
 astroid==1.5.3
 aws-shell==0.1.1
-awscli==1.11.125
+awscli==1.11.126
 backports-abc==0.5
 backports.functools-lru-cache==1.4
 backports.shutil-get-terminal-size==1.0.0
@@ -17,10 +17,10 @@ beautifulsoup4==4.6.0
 billiard==3.5.0.3
 blindspin==2.0.1
 boto3==1.4.4
-botocore==1.5.88
+botocore==1.5.89
 cached-property==1.3.0
 celery==4.1.0
-certifi==2017.4.17
+certifi==2017.7.27.1
 cffi==1.10.0
 chardet==3.0.4
 click==6.7
@@ -31,7 +31,7 @@ configobj==5.0.6
 configparser==3.5.0
 coursera-dl==0.9.0
 crayons==0.1.2
-cryptography==2.0
+cryptography==2.0.2
 cycler==0.10.0
 Cython==0.26
 decorator==4.1.2
@@ -94,12 +94,12 @@ pickleshare==0.7.4
 pipdeptree==0.10.1
 pipenv==5.1.2
 pipfile==0.0.2
-prompt-toolkit==1.0.14
+prompt-toolkit==1.0.15
 protobuf==3.3.0
 pssh==2.3.1
 psutil==5.2.2
 ptyprocess==0.5.2
-pyasn1==0.2.3
+pyasn1==0.3.1
 pycparser==2.18
 pycrypto==2.6.1
 Pygments==2.2.0
