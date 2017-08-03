@@ -36,7 +36,7 @@ cycler==0.10.0
 Cython==0.26
 decorator==4.1.2
 delegator.py==0.0.13
-docutils==0.13.1
+docutils==0.14
 ecdsa==0.13
 editdistance==0.3.1
 enum34==1.1.6
@@ -125,7 +125,7 @@ shutilwhich==1.1.0
 simplegeneric==0.8.1
 singledispatch==3.4.0.3
 six==1.10.0
-SQLAlchemy==1.1.12
+SQLAlchemy==1.1.13
 stevedore==1.25.0
 subprocess32==3.2.7
 TBB==0.1
