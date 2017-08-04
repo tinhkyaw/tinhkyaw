@@ -36,6 +36,7 @@ ec2-ami-tools
 ec2-api-tools
 elasticsearch
 erlang
+exa
 findutils
 gawk
 gcc
@@ -62,6 +63,7 @@ redis
 rename
 renameutils
 riak
+rust
 sbt
 scala
 sqoop
