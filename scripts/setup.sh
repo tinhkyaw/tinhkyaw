@@ -5,14 +5,8 @@ then
   exit 1
 fi
 SUFFIX="${1}"
-if [ "${SUFFIX}" = "w" ]
-then
-  BREWS="min_brews"
-  CASKS="min_casks"
-else
-  BREWS="brews"
-  CASKS="casks"
-fi
+BREWS="brews"
+CASKS="casks"
 if ! command -v brew &> /dev/null
 then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
