@@ -1,5 +1,18 @@
 (autoload 'inquir "inquir" "The inquir front-end" t)'
 
+;; global variables
+(setq
+ inhibit-startup-screen t
+ create-lockfiles nil
+ column-number-mode t
+ scroll-error-top-bottom t
+ show-paren-delay 0.5
+ use-package-always-ensure t
+ sentence-end-double-space nil)
+
+;; modes
+(electric-indent-mode 0)
+
 ;;; stop creating backup files
 (setq make-backup-files nil)
 
@@ -38,7 +51,10 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(frame-background-mode nil)
- '(inhibit-startup-screen t))
+ '(inhibit-startup-screen t)
+ '(package-selected-packages
+   (quote
+    (use-package thrift scala-mode sbt-mode projectile pig-mode hive gradle-mode exec-path-from-shell color-theme cider better-defaults))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -103,14 +119,15 @@
 ;; packages
 (require 'package)
 (package-initialize)
-(setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
-                         ("marmalade" . "https://marmalade-repo.org/packages/")
-                         ("melpa" . "https://melpa.org/packages/")
-                         ("org" . "http://orgmode.org/elpa/")))
-(when (not package-archive-contents)
-  (package-refresh-contents))
+(setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
+                         ("marmalade" . "http://marmalade-repo.org/packages/")
+                         ("melpa" . "http://melpa.org/packages/")
+                         ("melpa-stable" . "http://stable.melpa.org/packages/")
+                         ("org" . "http://orgmode.org/elpa/"))
+package-archive-priorities '(("melpa-stable" . 1)))
 
-(unless (package-installed-p 'use-package)
+(package-initialize)
+(when (not package-archive-contents)
   (package-refresh-contents)
   (package-install 'use-package))
 
