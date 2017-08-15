@@ -8,10 +8,17 @@ fi
 brew tap facebook/fb
 brew tap homebrew/science
 brew install git mysql python swig tmux-cssh zsh
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+if [ ! -n "$ZSH" ]
+then
+  ZSH=~/.oh-my-zsh
+fi
+if [ ! -d "$ZSH" ]
+then
+  sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+fi
 brew install --with-gmp coreutils
 brew install --with-doc --with-gdbm --with-gmp --with-libffi ruby
-pip install --no-binary :all: --upgrade virtualenvwrapper
+pip2 install --no-binary :all: --upgrade virtualenvwrapper
 WD=$(pwd)
 DIR=$(dirname "$(greadlink -f "${0}")")
 cd ${DIR}
@@ -63,8 +70,8 @@ if ! brew list octave &> /dev/null
 then
   brew install --with-docs octave
 fi
-pip install --no-binary :all: --upgrade scipy
-pip install --no-binary :all: --upgrade -r ${GIT_ROOT_DIR}/packages/pips
+pip2 install --no-binary :all: --upgrade scipy
+pip2 install --no-binary :all: --upgrade -r ${GIT_ROOT_DIR}/packages/pips
 ${GIT_ROOT_DIR}/scripts/setup-bin.sh
 ${GIT_ROOT_DIR}/scripts/setup-conf.sh
 cd ${WD}
