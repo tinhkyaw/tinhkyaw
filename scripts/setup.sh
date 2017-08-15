@@ -8,14 +8,6 @@ fi
 brew tap facebook/fb
 brew tap homebrew/science
 brew install git mysql python swig tmux-cssh zsh
-if [ ! -n "$ZSH" ]
-then
-  ZSH=~/.oh-my-zsh
-fi
-if [ ! -d "$ZSH" ]
-then
-  sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-fi
 brew install --with-gmp coreutils
 brew install --with-doc --with-gdbm --with-gmp --with-libffi ruby
 pip2 install --no-binary :all: --upgrade virtualenvwrapper
@@ -53,7 +45,6 @@ brew tap caskroom/versions
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 brew cask install java xquartz mactex
 cat ${GIT_ROOT_DIR}/packages/${BREWS} | xargs brew install
-#source ${HOME}/.zshrc
 cat ${GIT_ROOT_DIR}/packages/${CASKS} | xargs brew cask install
 if ! brew list gnuplot &> /dev/null
 then
@@ -75,4 +66,12 @@ pip2 install --no-binary :all: --upgrade scipy
 pip2 install --no-binary :all: --upgrade -r ${GIT_ROOT_DIR}/packages/pips
 ${GIT_ROOT_DIR}/scripts/setup-bin.sh
 ${GIT_ROOT_DIR}/scripts/setup-conf.sh
+if [ ! -n "$ZSH" ]
+then
+  ZSH=~/.oh-my-zsh
+fi
+if [ ! -d "$ZSH" ]
+then
+  sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh); git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k; git clone git@github.com:powerline/fonts ${GIT_ROOT_DIR}/fonts; cd ${GIT_ROOT_DIR}/fonts; ./install.sh; cd ${GIT_ROOT_DIR}; rm -r ${GIT_ROOT_DIR}/fonts; source ${HOME}/.zshrc"
+fi
 cd ${WD}
