@@ -12,6 +12,6 @@ done
 mkdir -p ${HOME}/.emacs.d
 install_file init.el ${GIT_ROOT_DIR}/conf ${HOME}/.emacs.d
 mkdir -p ${HOME}/.ssh
-cp ssh_config ${HOME}/.ssh/config
-install_file settings.json ${GIT_ROOT_DIR}/conf ${HOME}"/Library/Application\ Support/Code/User"
+cp ${GIT_ROOT_DIR}/conf/ssh_config ${HOME}/.ssh/config
+install_file settings.json ${GIT_ROOT_DIR}/conf ${HOME}"/Library/Application Support/Code/User"
 cd ${WD}

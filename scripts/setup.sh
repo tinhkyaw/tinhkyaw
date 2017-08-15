@@ -53,7 +53,7 @@ brew tap caskroom/versions
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 brew cask install java xquartz mactex
 cat ${GIT_ROOT_DIR}/packages/${BREWS} | xargs brew install
-source ${HOME}/.zshrc
+#source ${HOME}/.zshrc
 cat ${GIT_ROOT_DIR}/packages/${CASKS} | xargs brew cask install
 if ! brew list gnuplot &> /dev/null
 then
