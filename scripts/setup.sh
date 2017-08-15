@@ -1,10 +1,4 @@
 #!/usr/bin/env bash
-if [[ $# -ne 1 ]]
-then
-  echo -e "\e[91mUsage:\e[0m ${0} <suffix>"
-  exit 1
-fi
-SUFFIX="${1}"
 BREWS="brews"
 CASKS="casks"
 if ! command -v brew &> /dev/null
