@@ -45,11 +45,14 @@ git-lfs
 gnupg
 go
 gradle
+hr
 httpie
 hub
 jenv
 jq
 leiningen
+luajit
+lzip
 memcached
 metis
 neo4j
@@ -70,8 +73,12 @@ scala
 sqoop
 stow
 suite-sparse
+texinfo
+tidy-html5
+tokyo-cabinet
 trash
 tree
+utf8proc
 webkit2png
 wget
 yajl
