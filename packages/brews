@@ -42,6 +42,7 @@ gawk
 gcc
 git-flow
 git-lfs
+glide
 gnupg
 go
 gradle
