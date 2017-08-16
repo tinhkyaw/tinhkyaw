@@ -35,11 +35,16 @@ do
       fi
     fi
   else
-    if [ -d "${caskroom_path}/${app}/.metadata/${ver}" ]
+    if grep -Fxq ${app} "$(readlink ${DIR}/ignored)"
     then
-      print -P "%F{blue}Latest %F{cyan}${app}: ${ver}%f already installed"
+      print -P "%F{yellow}Ignoring %F{cyan}${app}%f"
     else
-      brew cask reinstall ${app}
+      if [ -d "${caskroom_path}/${app}/.metadata/${ver}" ]
+      then
+        print -P "%F{blue}Latest %F{cyan}${app}: ${ver}%f already installed"
+      else
+        brew cask reinstall ${app}
+      fi
     fi
   fi
 done
