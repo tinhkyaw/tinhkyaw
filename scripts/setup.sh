@@ -54,13 +54,9 @@ if ! brew list graphviz &> /dev/null
 then
   brew install --with-app --with-bindings --with-freetype --with-gts --with-librsvg --with-pango graphviz
 fi
-if ! brew list neo4j &> /dev/null
-then
-  brew install neo4j
-fi
 if ! brew list octave &> /dev/null
 then
-  brew install --with-docs octave
+  brew install octave
 fi
 pip2 install --no-binary :all: --upgrade scipy
 pip2 install --no-binary :all: --upgrade -r ${GIT_ROOT_DIR}/packages/pips
