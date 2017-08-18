@@ -73,7 +73,7 @@ lockfile==0.12.2
 locustio==0.7.5
 luigi==2.6.2
 M2Crypto==0.26.0
-Markdown==2.6.8
+Markdown==2.6.9
 MarkupSafe==1.0
 matplotlib==2.0.2
 mccabe==0.6.1
