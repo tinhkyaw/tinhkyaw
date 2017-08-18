@@ -11,6 +11,7 @@ jshint
 matlab
 npm-intellisense
 python
+rls
 tslint
 vscode-docker
 vscode-eslint
