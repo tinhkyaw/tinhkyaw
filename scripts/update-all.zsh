@@ -58,4 +58,4 @@ gem cleanup
 npm update -g
 npm-check -u -g
 pip2 install --upgrade pip setuptools
-pip2 freeze --local | cut -d = -f 1  | xargs pip2 install --no-binary :all: --upgrade
+pip2 freeze --local | cut -d = -f 1  | egrep -vi 'gdal' | xargs pip2 install --no-binary :all: --upgrade

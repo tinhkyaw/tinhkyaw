@@ -60,6 +60,7 @@ neo4j
 netcat
 perf
 pidof
+postgresql
 protobuf
 python3
 r
