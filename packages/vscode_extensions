@@ -1,11 +1,12 @@
 beautify
-cpptools
 cordova-tools
+cpptools
 debugger-for-chrome
 debugger-for-ios-web
 gitblame
 githistory
 gitignore
+gitlens
 java
 jshint
 matlab
