@@ -9,7 +9,8 @@
     "matlab.lintOnSave": false,
     "python.linting.pylintPath": "/usr/local/bin/pylint",
     "python.pythonPath": "/usr/local/bin/python",
-    "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular'",
+    "terminal.integrated.fontFamily": "'Knack Nerd Font'",
+    "terminal.integrated.fontSize": 14,
     "workbench.colorTheme": "Solarized Dark",
     "workbench.editor.enablePreview": false
 }
