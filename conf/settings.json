@@ -3,10 +3,12 @@
     "editor.formatOnSave": true,
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
-    "matlab.lintOnSave": false,
     "files.associations": {
         "*.m": "matlab"
     },
+    "matlab.lintOnSave": false,
+    "python.linting.pylintPath": "/usr/local/bin/pylint",
     "python.pythonPath": "/usr/local/bin/python",
-    "python.linting.pylintPath": "/usr/local/bin/pylint"
+    "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular'",
+    "workbench.editor.enablePreview": false
 }
