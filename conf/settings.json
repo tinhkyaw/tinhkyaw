@@ -1,14 +1,15 @@
 // Place your settings in this file to overwrite the default settings
 {
     "editor.formatOnSave": true,
-    "files.insertFinalNewline": true,
-    "files.trimTrailingWhitespace": true,
     "files.associations": {
         "*.m": "matlab"
     },
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
     "matlab.lintOnSave": false,
     "python.linting.pylintPath": "/usr/local/bin/pylint",
     "python.pythonPath": "/usr/local/bin/python",
     "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular'",
+    "workbench.colorTheme": "Solarized Dark",
     "workbench.editor.enablePreview": false
 }
