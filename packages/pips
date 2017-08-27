@@ -105,7 +105,7 @@ protobuf==3.4.0
 pssh==2.3.1
 psutil==5.2.2
 ptyprocess==0.5.2
-pyasn1==0.3.2
+pyasn1==0.3.3
 pycparser==2.18
 pycrypto==2.6.1
 Pygments==2.2.0
