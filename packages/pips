@@ -137,7 +137,7 @@ singledispatch==3.4.0.3
 six==1.10.0
 smmap2==2.0.3
 SQLAlchemy==1.1.14
-stevedore==1.25.0
+stevedore==1.26.0
 subprocess32==3.2.7
 tensorflow==1.2.1
 Theano==0.9.0
