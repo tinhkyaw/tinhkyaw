@@ -1,4 +1,4 @@
-amqp==2.2.1
+amqp==2.2.2
 ansible==2.3.2.0
 anyjson==0.3.3
 apache-libcloud==2.2.0
