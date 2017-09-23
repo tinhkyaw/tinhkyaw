@@ -38,7 +38,7 @@ coursera-dl==0.9.0
 crayons==0.1.2
 cryptography==2.0.3
 cycler==0.10.0
-Cython==0.26.1
+Cython==0.27
 decorator==4.1.2
 delegator.py==0.0.13
 docutils==0.14
@@ -103,7 +103,7 @@ pexpect==4.2.1
 pickleshare==0.7.4
 pip-tools==1.9.0
 pipdeptree==0.10.1
-pipenv==7.6.3
+pipenv==7.6.8
 pipfile==0.0.2
 prompt-toolkit==1.0.15
 protobuf==3.4.0
