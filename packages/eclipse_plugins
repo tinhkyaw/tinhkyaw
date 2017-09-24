@@ -1,6 +1,5 @@
 Checkstyle
 Clojure
-Color Theme
 DLTK ShellEd
 Darkest Dark Theme
 EclEmma
@@ -8,13 +7,16 @@ Eclipse DTP (Data Tools Platform)
 FindBugs
 GitHub Flavored Markdown Viewer
 InstaSearch
+Java9
 Json Editor
 Json Tools
 Markdown Text Editor
 Minimalist Gradle Editor
+Protobuf-dt
 PyDev
 Scala-IDE
 Scalastyle
+SpotBugs
 StatET
 Terminal
 TestNG
