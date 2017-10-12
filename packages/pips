@@ -36,7 +36,7 @@ configobj==5.0.6
 configparser==3.5.0
 coursera-dl==0.9.0
 crayons==0.1.2
-cryptography==2.1
+cryptography==2.1.1
 cycler==0.10.0
 Cython==0.27.1
 decorator==4.1.2
@@ -108,7 +108,7 @@ pipfile==0.0.2
 prompt-toolkit==1.0.15
 protobuf==3.4.0
 pssh==2.3.1
-psutil==5.3.1
+psutil==5.4.0
 ptyprocess==0.5.2
 pyasn1==0.3.7
 pycodestyle==2.3.1
