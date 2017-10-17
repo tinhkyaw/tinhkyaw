@@ -17,6 +17,7 @@ rls
 tslint
 vscode-ai
 vscode-azureextensionpack
+vscode-devskim
 vscode-eslint
 vscode-java-pack
 vscode-js-css-html-formatter
