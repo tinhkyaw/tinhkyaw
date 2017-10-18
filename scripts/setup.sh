@@ -25,7 +25,7 @@ then
 fi
 if ! brew list nginx &> /dev/null
 then
-  brew install --with-gunzip --with-libressl --with-passenger --with-spdy --with-webdav nginx
+  brew install --with-gunzip --with-passenger --with-webdav nginx
 fi
 if ! brew list node &> /dev/null
 then
