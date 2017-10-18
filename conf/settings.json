@@ -15,6 +15,7 @@
     "terminal.integrated.fontSize": 14,
     "workbench.colorTheme": "Solarized Dark",
     "workbench.editor.enablePreview": false,
+    "azure-iot-toolkit.showConnectionStringInputBox": false,
     "azure-iot-toolkit.showIoTHubInfo": false,
     "team.showWelcomeMessage": false
 }
