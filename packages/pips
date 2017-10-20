@@ -57,7 +57,7 @@ futures==3.1.1
 gevent==1.2.2
 gitdb2==2.0.3
 GitPython==2.1.7
-gnureadline==6.3.3
+gnureadline==6.3.8
 graphviz==0.8.1
 greenlet==0.4.12
 html5lib==0.999999999
