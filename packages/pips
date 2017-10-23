@@ -47,7 +47,7 @@ editdistance==0.3.1
 enum34==1.1.6
 Fabric==1.14.0
 first==2.0.1
-flake8==3.4.1
+flake8==3.5.0
 Flask==0.12.2
 Flask-Cache==0.13.1
 Flask-Hashing==1.1
@@ -131,7 +131,7 @@ rsa==3.4.2
 s3transfer==0.1.11
 salt==2017.7.2
 scandir==1.6
-scikit-learn==0.19.0
+scikit-learn==0.19.1
 scipy==0.19.1
 seaborn==0.8.1
 semver==2.7.9
