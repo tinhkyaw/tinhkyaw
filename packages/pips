@@ -132,7 +132,7 @@ s3transfer==0.1.11
 salt==2017.7.2
 scandir==1.6
 scikit-learn==0.19.1
-scipy==0.19.1
+scipy==1.0.0
 seaborn==0.8.1
 semver==2.7.9
 shutilwhich==1.1.0
