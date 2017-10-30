@@ -103,7 +103,7 @@ pexpect==4.2.1
 pickleshare==0.7.4
 pip-tools==1.10.1
 pipdeptree==0.10.1
-pipenv==8.3.0
+pipenv==8.3.1
 pipfile==0.0.2
 prompt-toolkit==1.0.15
 protobuf==3.4.0
@@ -122,9 +122,9 @@ pyparsing==2.2.0
 python-daemon==2.1.2
 python-dateutil==2.6.1
 pythonz-bd==1.11.4
-pytz==2017.2
+pytz==2017.3
 PyYAML==3.12
-pyzmq==16.0.2
+pyzmq==16.0.3
 requests==2.18.4
 requirements-parser==0.1.0
 rsa==3.4.2
