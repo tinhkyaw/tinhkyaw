@@ -120,9 +120,9 @@ fi
 
 export PATH=${HOME}/bin:/usr/local/sbin:$PATH
 
-if [ -d ${HOME}/anaconda3/bin ]
+if [ -d /usr/local/anaconda3/bin ]
 then
-  export PATH=$PATH:${HOME}/anaconda3/bin
+  export PATH=$PATH:/usr/local/anaconda3/bin
 fi
 
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
