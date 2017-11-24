@@ -1,6 +1,9 @@
 // Place your settings in this file to overwrite the default settings
 {
+    "azure-iot-toolkit.showConnectionStringInputBox": false,
+    "azure-iot-toolkit.showIoTHubInfo": false,
     "editor.formatOnSave": true,
+    "extensions.autoUpdate": true,
     "files.associations": {
         "*.m": "matlab"
     },
@@ -15,7 +18,5 @@
     "terminal.integrated.fontSize": 14,
     "workbench.colorTheme": "Solarized Dark",
     "workbench.editor.enablePreview": false,
-    "azure-iot-toolkit.showConnectionStringInputBox": false,
-    "azure-iot-toolkit.showIoTHubInfo": false,
     "team.showWelcomeMessage": false
 }
