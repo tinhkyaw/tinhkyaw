@@ -60,7 +60,7 @@ GitPython==2.1.7
 gnureadline==6.3.8
 graphviz==0.8.1
 greenlet==0.4.12
-html5lib==0.999999999
+html5lib==1.0.1
 idna==2.6
 ipaddress==1.0.18
 ipython==5.5.0
@@ -108,7 +108,7 @@ pipfile==0.0.2
 prompt-toolkit==1.0.15
 protobuf==3.5.0.post1
 pssh==2.3.1
-psutil==5.4.1
+psutil==5.4.2
 ptyprocess==0.5.2
 py4j==0.10.6
 pyarrow==0.7.1
@@ -147,7 +147,7 @@ SQLAlchemy==1.1.15
 stevedore==1.28.0
 subprocess32==3.2.7
 tensorflow==1.2.1
-Theano==1.0.0
+Theano==1.0.1
 thrift==0.10.0
 toml==0.9.3
 tornado==4.5.2
