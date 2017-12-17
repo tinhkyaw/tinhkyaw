@@ -62,7 +62,7 @@ graphviz==0.8.1
 greenlet==0.4.12
 html5lib==1.0.1
 idna==2.6
-ipaddress==1.0.18
+ipaddress==1.0.19
 ipython==5.5.0
 ipython-genutils==0.2.0
 isort==4.2.15
