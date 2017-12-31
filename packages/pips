@@ -91,7 +91,7 @@ nose==1.3.7
 numpy==1.13.3
 ordereddict==1.1
 packaging==16.8
-pandas==0.21.1
+pandas==0.22.0
 paramiko==2.4.0
 parse==1.8.2
 path.py==10.5
@@ -161,6 +161,6 @@ virtualenv-clone==0.2.6
 virtualenvwrapper==4.8.2
 wcwidth==0.1.7
 webencodings==0.5.1
-Werkzeug==0.13
+Werkzeug==0.14
 wrapt==1.10.11
 xdot==0.8
