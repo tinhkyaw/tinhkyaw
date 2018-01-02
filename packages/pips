@@ -108,7 +108,7 @@ pipfile==0.0.2
 prompt-toolkit==1.0.15
 protobuf==3.5.1
 pssh==2.3.1
-psutil==5.4.2
+psutil==5.4.3
 ptyprocess==0.5.2
 py4j==0.10.6
 pyarrow==0.7.1
