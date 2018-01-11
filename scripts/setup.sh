@@ -59,6 +59,7 @@ if ! brew list octave &> /dev/null
 then
   brew install octave
 fi
+export LDFLAGS="-L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/system"
 pip2 install -U python-daemon scipy tensorflow
 pip2 install --no-binary :all: -U -r ${GIT_ROOT_DIR}/packages/pips
 ${GIT_ROOT_DIR}/scripts/setup-bin.sh
