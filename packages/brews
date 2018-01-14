@@ -57,6 +57,7 @@ luajit
 lzip
 memcached
 metis
+mypy
 neo4j
 netcat
 perf
