@@ -145,7 +145,7 @@ simplegeneric==0.8.1
 singledispatch==3.4.0.3
 six==1.11.0
 smmap2==2.0.3
-SQLAlchemy==1.2.0
+SQLAlchemy==1.2.1
 stevedore==1.28.0
 subprocess32==3.2.7
 tensorflow==1.4.1
