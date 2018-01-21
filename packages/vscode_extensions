@@ -12,6 +12,7 @@ gitlens
 jshint
 matlab
 npm-intellisense
+org-mode
 python
 rls
 tslint
