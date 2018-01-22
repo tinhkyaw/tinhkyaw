@@ -79,7 +79,7 @@ luigi==2.7.1
 M2Crypto==0.27.0
 Markdown==2.6.11
 MarkupSafe==1.0
-matplotlib==2.1.1
+matplotlib==2.1.2
 mccabe==0.6.1
 memory-profiler==0.51.0
 mercurial==4.4.2
