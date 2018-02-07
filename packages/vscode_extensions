@@ -23,7 +23,6 @@ vscode-java-pack
 vscode-js-css-html-formatter
 vscode-markdownlint
 vscode-mono-debug
-vscode-npm
 vscode-npm-script
 vscode-react-native
 vsliveshare
