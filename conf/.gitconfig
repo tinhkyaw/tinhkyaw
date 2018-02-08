@@ -37,7 +37,7 @@
 	prompt = false
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path =
+	path = 
 [filter "hawser"]
 	clean = git hawser clean %f
 	smudge = git hawser smudge %f
