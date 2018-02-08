@@ -4,10 +4,9 @@ DIR=$(dirname "$(greadlink -f "${0}")")
 cd ${DIR}
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 source ${GIT_ROOT_DIR}/scripts/setup-common.sh
-replace_file .gitconfig ${GIT_ROOT_DIR}/conf ${HOME}
-for conf_file in .zshrc
+for conf_file in .gitconfig .zshrc
 do
-  install_file ${conf_file} ${GIT_ROOT_DIR}/conf ${HOME}
+  replace_file ${conf_file} ${GIT_ROOT_DIR}/conf ${HOME}
 done
 mkdir -p ${HOME}/.emacs.d
 install_file init.el ${GIT_ROOT_DIR}/conf ${HOME}/.emacs.d

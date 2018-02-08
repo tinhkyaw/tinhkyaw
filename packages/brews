@@ -52,6 +52,7 @@ httpie
 hub
 jenv
 jq
+kubernetes-cli
 leiningen
 luajit
 lzip
