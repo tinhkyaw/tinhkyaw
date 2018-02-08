@@ -126,6 +126,7 @@ then
 fi
 
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+export HOMEBREW_GITHUB_API_TOKEN="57d96e442e4acfb912ae150a30f99b5ebda7ce46"
 
 export BYOBU_PREFIX=/usr/local
 
