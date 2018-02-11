@@ -96,7 +96,7 @@ packaging==16.8
 pandas==0.22.0
 paramiko==2.4.0
 parse==1.8.2
-path.py==10.5
+path.py==11.0
 pathlib==1.0.1
 pathlib2==2.3.0
 pbr==3.1.1
