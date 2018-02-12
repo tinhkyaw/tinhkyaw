@@ -11,6 +11,7 @@ brew install git mysql python swig tmux-cssh zsh
 brew install --with-gmp coreutils
 brew install --with-doc --with-gdbm --with-gmp --with-libffi ruby
 pip2 install --no-binary :all: -U virtualenvwrapper
+pip3 install --no-binary :all: -U virtualenvwrapper
 WD=$(pwd)
 DIR=$(dirname "$(greadlink -f "${0}")")
 cd ${DIR}
@@ -62,6 +63,8 @@ fi
 export LDFLAGS="-L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/system"
 pip2 install -U python-daemon scipy tensorflow
 pip2 install --no-binary :all: -U -r ${GIT_ROOT_DIR}/packages/pips
+pip3 install -U python-daemon scipy tensorflow
+pip3 install --no-binary :all: -U -r ${GIT_ROOT_DIR}/packages/pips
 ${GIT_ROOT_DIR}/scripts/setup-bin.sh
 ${GIT_ROOT_DIR}/scripts/setup-conf.sh
 if [ ! -n "$ZSH" ]

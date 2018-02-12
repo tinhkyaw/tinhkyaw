@@ -59,3 +59,5 @@ npm update -g
 npm-check -u -g
 pip2 install --upgrade pip setuptools
 pip2 freeze --local | cut -d = -f 1  | egrep -vi 'gdal' | xargs pip2 install --no-binary :all: --upgrade
+pip3 install --upgrade pip setuptools
+pip3 freeze --local | cut -d = -f 1  | egrep -vi 'gdal' | xargs pip3 install --no-binary :all: --upgrade
