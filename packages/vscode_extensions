@@ -13,6 +13,7 @@ donjayamanne.githistory
 eamodio.gitlens
 eg2.tslint
 eg2.vscode-npm-script
+lightbend.vscode-sbt-scala
 lonefy.vscode-JS-CSS-HTML-formatter
 ms-kubernetes-tools.vscode-kubernetes-tools
 ms-python.python
