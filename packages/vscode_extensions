@@ -3,6 +3,7 @@ DotJoshJohnson.xml
 Gimly81.matlab
 HookyQR.beautify
 MS-DevSkim.vscode-devskim
+ms-vsliveshare.vsliveshare
 PeterJausovec.vscode-docker
 christian-kohler.npm-intellisense
 codezombiech.gitignore
@@ -21,7 +22,6 @@ ms-vscode.cpptools
 ms-vscode.github-issues-prs
 ms-vscode.mono-debug
 ms-vscode.node-debug2
-ms-vsliveshare.vsliveshare
 msjsdiag.debugger-for-chrome
 msjsdiag.debugger-for-edge
 msjsdiag.debugger-for-ios-web
