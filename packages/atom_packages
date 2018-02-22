@@ -1,5 +1,6 @@
-atom-clock
-atom-ide-ui
-hydrogen
-ide-java
-teletype
+Hydrogen@2.2.3
+atom-clock@0.1.16
+atom-ide-ui@0.9.1
+ide-java@0.7.0
+teletype@0.8.0
+

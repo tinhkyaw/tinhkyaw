@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-BREWS="brews"
-CASKS="casks"
 if ! command -v brew &> /dev/null
 then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -46,8 +44,13 @@ brew tap caskroom/fonts
 brew tap caskroom/versions
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 brew cask install java xquartz mactex
-cat ${GIT_ROOT_DIR}/packages/${BREWS} | xargs brew install
-cat ${GIT_ROOT_DIR}/packages/${CASKS} | xargs brew cask install
+cat ${GIT_ROOT_DIR}/packages/brews | xargs brew install
+cat ${GIT_ROOT_DIR}/packages/casks | xargs brew cask install
+apm install --packages-file ${GIT_ROOT_DIR}/packages/atom_packages
+for extension in $(cat ${GIT_ROOT_DIR}/packages/vscode_extensions)
+do
+  code --install-extension ${extension}
+done
 if ! brew list gnuplot &> /dev/null
 then
   brew install --with-cairo --with-qt5 --with-tex --with-wxmac gnuplot
