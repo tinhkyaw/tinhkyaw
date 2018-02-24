@@ -2,7 +2,6 @@ DavidAnson.vscode-markdownlint
 DotJoshJohnson.xml
 Gimly81.matlab
 HookyQR.beautify
-MS-DevSkim.vscode-devskim
 PeterJausovec.vscode-docker
 christian-kohler.npm-intellisense
 codezombiech.gitignore
@@ -14,7 +13,9 @@ eg2.tslint
 eg2.vscode-npm-script
 lightbend.vscode-sbt-scala
 lonefy.vscode-JS-CSS-HTML-formatter
+ms-docfx.DocFX
 ms-kubernetes-tools.vscode-kubernetes-tools
+ms-python.anaconda-extension-pack
 ms-python.python
 ms-toolsai.vscode-ai
 ms-vscode.cpptools

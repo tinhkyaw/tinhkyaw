@@ -6,3 +6,5 @@ jshint
 npm-check
 npm-check-updates
 pm2
+tslint
+typescript
