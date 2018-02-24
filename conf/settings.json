@@ -1,7 +1,5 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "azure-iot-toolkit.showConnectionStringInputBox": false,
-    "azure-iot-toolkit.showIoTHubInfo": false,
     "editor.formatOnSave": true,
     "extensions.autoUpdate": true,
     "files.associations": {
@@ -10,13 +8,20 @@
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "matlab.lintOnSave": false,
-    "python.formatting.autopep8Args": ["--max-line-length", "180"],
-    "python.linting.pylintArgs": ["--max-line-length", "120"],
-    "python.linting.pylintPath": "/usr/local/bin/pylint",
+    "python.formatting.autopep8Args": [
+        "--global-config",
+        "${workspaceRoot}/setup.cfg"
+    ],
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--config",
+        "${workspaceRoot}/setup.cfg"
+    ],
+    "python.linting.flake8Path": "/usr/local/bin/flake8",
+    "python.linting.pylintEnabled": false,
     "python.pythonPath": "/usr/local/bin/python",
     "terminal.integrated.fontFamily": "'Knack Nerd Font'",
     "terminal.integrated.fontSize": 14,
     "workbench.colorTheme": "Solarized Dark",
     "workbench.editor.enablePreview": false,
-    "team.showWelcomeMessage": false
 }
