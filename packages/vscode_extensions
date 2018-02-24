@@ -16,7 +16,6 @@ lonefy.vscode-JS-CSS-HTML-formatter
 ms-docfx.DocFX
 ms-kubernetes-tools.vscode-kubernetes-tools
 ms-python.anaconda-extension-pack
-ms-python.python
 ms-toolsai.vscode-ai
 ms-vscode.cpptools
 ms-vscode.github-issues-prs
@@ -26,7 +25,6 @@ ms-vsliveshare.vsliveshare
 msjsdiag.debugger-for-chrome
 msjsdiag.debugger-for-edge
 msjsdiag.debugger-for-ios-web
-redhat.vscode-yaml
 rust-lang.rust
 tootone.org-mode
 vscjava.vscode-java-pack
