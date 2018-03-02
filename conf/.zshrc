@@ -4,7 +4,7 @@ export TERM="xterm-256color"
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
-export VIRTUALENVWRAPPER_PYTHON="/usr/local/bin/python2"
+export VIRTUALENVWRAPPER_PYTHON="/usr/local/bin/python"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.

@@ -17,8 +17,6 @@ brew cask list > ${PKG_DIR}/casks
 gem list > ${SNAPSHOT_DIR}/gem${SUFFIX}.txt
 npm ls -g --depth 0 > ${SNAPSHOT_DIR}/npm${SUFFIX}.txt
 PIP_EXCLUSIONS='gdal|tbb'
-pip2 freeze --local > ${SNAPSHOT_DIR}/pip2${SUFFIX}.txt
-pip2 freeze --local | egrep -vi ${PIP_EXCLUSIONS} > ${PKG_DIR}/pip2s
 pip3 freeze --local > ${SNAPSHOT_DIR}/pip3${SUFFIX}.txt
 pip3 freeze --local | egrep -vi ${PIP_EXCLUSIONS} > ${PKG_DIR}/pip3s
 apm list --installed --bare > ${SNAPSHOT_DIR}/atom${SUFFIX}.txt
