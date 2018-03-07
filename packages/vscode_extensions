@@ -13,12 +13,14 @@ eg2.tslint
 eg2.vscode-npm-script
 lightbend.vscode-sbt-scala
 lonefy.vscode-JS-CSS-HTML-formatter
+ms-devlabs.extension-manifest-editor
 ms-docfx.DocFX
 ms-kubernetes-tools.vscode-kubernetes-tools
 ms-python.anaconda-extension-pack
 ms-toolsai.vscode-ai
 ms-vscode.cpptools
 ms-vscode.github-issues-prs
+ms-vscode.jscs
 ms-vscode.mono-debug
 ms-vscode.node-debug2
 ms-vsliveshare.vsliveshare
