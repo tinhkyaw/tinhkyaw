@@ -4,7 +4,7 @@ export TERM="xterm-256color"
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
-export VIRTUALENVWRAPPER_PYTHON="/usr/local/bin/python3"
+export VIRTUALENVWRAPPER_PYTHON="/usr/local/opt/python/libexec/bin/python"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -118,7 +118,7 @@ then
   eval "$(jenv init -)"
 fi
 
-export PATH=${HOME}/bin:/usr/local/sbin:$PATH
+export PATH=${HOME}/bin:/usr/local/opt/python/libexec/bin:/usr/local/sbin:$PATH
 
 if [ -d /usr/local/anaconda3/bin ]
 then
