@@ -107,15 +107,7 @@ pexpect==4.4.0
 pickleshare==0.7.4
 pip-tools==1.11.0
 pipdeptree==0.11.0
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-pipenv==11.6.9
-=======
 pipenv==11.7.1
->>>>>>> Stashed changes
-=======
-pipenv==11.7.1
->>>>>>> Stashed changes
 pipfile==0.0.2
 prompt-toolkit==1.0.15
 protobuf==3.5.2
