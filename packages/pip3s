@@ -82,7 +82,7 @@ luigi==2.7.3
 M2Crypto==0.29.0
 Markdown==2.6.11
 MarkupSafe==1.0
-matplotlib==2.2.0
+matplotlib==2.2.2
 mccabe==0.6.1
 memory-profiler==0.52.0
 mock==2.0.0
@@ -156,7 +156,7 @@ tensorflow-tensorboard==1.5.1
 Theano==1.0.1
 thrift==0.11.0
 toml==0.9.4
-tornado==5.0
+tornado==5.0.1
 traitlets==4.3.2
 typing==3.6.4
 urllib3==1.22
