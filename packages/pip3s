@@ -40,7 +40,7 @@ coursera-dl==0.10.0
 crayons==0.1.2
 cryptography==2.1.4
 cycler==0.10.0
-Cython==0.28
+Cython==0.28.1
 decorator==4.2.1
 delegator.py==0.1.0
 docutils==0.14
