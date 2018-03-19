@@ -38,7 +38,7 @@ configobj==5.0.6
 configparser==3.5.0
 coursera-dl==0.10.0
 crayons==0.1.2
-cryptography==2.1.4
+cryptography==2.2
 cycler==0.10.0
 Cython==0.28.1
 decorator==4.2.1
@@ -107,7 +107,7 @@ pexpect==4.4.0
 pickleshare==0.7.4
 pip-tools==1.11.0
 pipdeptree==0.11.0
-pipenv==11.8.0
+pipenv==11.8.3
 pipfile==0.0.2
 prompt-toolkit==1.0.15
 protobuf==3.5.2.post1
