@@ -54,6 +54,7 @@ jenv
 jq
 kotlin
 kubernetes-cli
+kubernetes-helm
 leiningen
 luajit
 lzip
