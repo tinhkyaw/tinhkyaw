@@ -139,7 +139,7 @@ resumable-urlretrieve==0.1.5
 rope==0.10.7
 rsa==3.4.2
 s3transfer==0.1.13
-salt==2017.7.5
+salt==2018.3.0
 scandir==1.7
 scikit-learn==0.19.1
 scipy==1.0.1
