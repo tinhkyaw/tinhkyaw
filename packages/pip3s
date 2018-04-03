@@ -103,7 +103,7 @@ parso==0.1.1
 path.py==11.0.1
 pathlib==1.0.1
 pathlib2==2.3.0
-pbr==4.0.0
+pbr==4.0.1
 pew==1.1.2
 pexpect==4.4.0
 pickleshare==0.7.4
