@@ -37,6 +37,9 @@ flash-npapi
 flash-ppapi
 flux
 font-hack-nerd-font
+font-hack-nerd-font-mono
+font-liberationmono-nerd-font
+font-liberationmono-nerd-font-mono
 geany
 gimp
 github-desktop
