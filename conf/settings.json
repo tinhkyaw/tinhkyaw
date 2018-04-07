@@ -31,6 +31,8 @@
     "python.linting.flake8Path": "/usr/local/bin/flake8",
     "python.linting.pylintEnabled": false,
     "python.pythonPath": "/usr/local/bin/python",
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
     "terminal.integrated.fontFamily": "'Hack Nerd Font'",
     "terminal.integrated.fontSize": 14,
     "workbench.colorTheme": "Solarized Dark",
