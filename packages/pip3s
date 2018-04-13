@@ -41,7 +41,7 @@ coursera-dl==0.10.0
 crayons==0.1.2
 cryptography==2.2.2
 cycler==0.10.0
-Cython==0.28.1
+Cython==0.28.2
 decorator==4.2.1
 delegator.py==0.1.0
 docutils==0.14
@@ -114,7 +114,7 @@ pipfile==0.0.2
 prompt-toolkit==1.0.15
 protobuf==3.5.2.post1
 pssh==2.3.1
-psutil==5.4.3
+psutil==5.4.4
 ptyprocess==0.5.2
 py4j==0.10.6
 pyarrow==0.9.0.post1
