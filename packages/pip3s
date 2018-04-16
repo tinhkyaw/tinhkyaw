@@ -42,7 +42,7 @@ crayons==0.1.2
 cryptography==2.2.2
 cycler==0.10.0
 Cython==0.28.2
-decorator==4.2.1
+decorator==4.3.0
 delegator.py==0.1.0
 docutils==0.14
 ecdsa==0.13
@@ -65,12 +65,12 @@ graphviz==0.8.2
 greenlet==0.4.13
 html5lib==1.0.1
 idna==2.6
-ipaddress==1.0.19
+ipaddress==1.0.22
 ipython==6.3.1
 ipython-genutils==0.2.0
 isort==4.3.4
 itsdangerous==0.24
-jedi==0.11.1
+jedi==0.12.0
 Jinja2==2.10
 jmespath==0.9.3
 Keras==2.1.5
@@ -99,7 +99,7 @@ packaging==17.1
 pandas==0.22.0
 paramiko==2.4.1
 parse==1.8.2
-parso==0.1.1
+parso==0.2.0
 path.py==11.0.1
 pathlib==1.0.1
 pathlib2==2.3.0
@@ -107,7 +107,7 @@ pbr==4.0.2
 pew==1.1.2
 pexpect==4.5.0
 pickleshare==0.7.4
-pip-tools==1.11.0
+pip-tools==2.0.1
 pipdeptree==0.11.0
 pipenv==11.10.0
 pipfile==0.0.2
