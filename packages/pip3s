@@ -1,6 +1,6 @@
 absl-py==0.2.0
 amqp==2.2.2
-ansible==2.5.0
+ansible==2.5.1
 anyjson==0.3.3
 apache-libcloud==2.3.0
 appdirs==1.4.3
@@ -105,7 +105,7 @@ parse==1.8.2
 parso==0.2.0
 path.py==11.0.1
 pathlib==1.0.1
-pathlib2==2.3.0
+pathlib2==2.3.2
 pbr==4.0.2
 pew==1.1.5
 pexpect==4.5.0
