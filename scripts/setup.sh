@@ -27,7 +27,7 @@ then
 fi
 if ! brew list node &> /dev/null
 then
-  brew install --with-openssl node
+  brew install node
   cat ${GIT_ROOT_DIR}/packages/npms | xargs npm install -g
 fi
 if ! brew list geoip &> /dev/null
