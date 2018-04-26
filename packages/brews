@@ -63,6 +63,7 @@ metis
 mypy
 neo4j
 netcat
+osquery
 perf
 pidof
 postgresql
