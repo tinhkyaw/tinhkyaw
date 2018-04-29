@@ -61,7 +61,7 @@ gevent==1.2.2
 gitdb2==2.0.3
 GitPython==2.1.9
 gnureadline==6.3.8
-graphviz==0.8.2
+graphviz==0.8.3
 greenlet==0.4.13
 grpcio==1.11.0
 h5py==2.7.1
@@ -110,7 +110,7 @@ pbr==4.0.2
 pew==1.1.5
 pexpect==4.5.0
 pickleshare==0.7.4
-pip-tools==2.0.1
+pip-tools==2.0.2
 pipdeptree==0.12.1
 pipenv==11.10.1
 pipfile==0.0.2
