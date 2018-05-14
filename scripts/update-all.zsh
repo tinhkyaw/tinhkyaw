@@ -63,5 +63,5 @@ then
   pip2 freeze --local | cut -d = -f 1  | egrep -vi 'gdal' | xargs pip2 install --no-binary :all: --no-cache-dir --upgrade
 fi
 pip3 install --no-binary :all: --no-cache-dir --upgrade pip setuptools
-pip3 freeze --local | cut -d = -f 1  | egrep -vi 'gdal' | xargs pip3 install --no-binary :all: --no-cache-dir --upgrade
+pip3 freeze --local | cut -d = -f 1  | egrep -vi 'gdal|futures' | xargs pip3 install --no-binary :all: --no-cache-dir --upgrade
 apm upgrade
