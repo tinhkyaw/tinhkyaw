@@ -37,4 +37,5 @@
     "terminal.integrated.fontSize": 14,
     "workbench.colorTheme": "Solarized Dark",
     "workbench.editor.enablePreview": false,
+    "gitlens.historyExplorer.enabled": true,
 }
