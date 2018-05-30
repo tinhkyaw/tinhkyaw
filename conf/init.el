@@ -95,7 +95,7 @@
 ;; Use (setq ...) to set value locally to a buffer
 ;; Use (setq-default ...) to set value globally
 ;;
-(setq-default indent-tabs-mode nil)
+(setq-default indent-tabs-mode nil default-tab-width 2)
 
 ;; ===== Turn on Auto Fill mode automatically in all modes =====
 
