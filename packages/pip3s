@@ -38,7 +38,7 @@ colorama==0.3.9
 ConfigArgParse==0.13.0
 configobj==5.0.6
 configparser==3.5.0
-coursera-dl==0.11.1
+coursera-dl==0.11.2
 crayons==0.1.2
 cryptography==2.2.2
 cycler==0.10.0
@@ -117,7 +117,7 @@ pip-tools==2.0.2
 pipdeptree==0.12.1
 pipenv==2018.5.18
 pipfile==0.0.2
-prompt-toolkit==2.0.1
+prompt-toolkit==2.0.2
 protobuf==3.5.2.post1
 pssh==2.3.1
 psutil==5.4.5
