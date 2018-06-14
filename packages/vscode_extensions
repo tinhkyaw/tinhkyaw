@@ -18,10 +18,10 @@ ms-devlabs.extension-manifest-editor
 ms-kubernetes-tools.vscode-kubernetes-tools
 ms-python.anaconda-extension-pack
 ms-toolsai.vscode-ai
+ms-vscode.Go
 ms-vscode.cpptools
 ms-vscode.csharp
 ms-vscode.github-issues-prs
-ms-vscode.Go
 ms-vscode.jscs
 ms-vscode.mono-debug
 ms-vscode.node-debug2
