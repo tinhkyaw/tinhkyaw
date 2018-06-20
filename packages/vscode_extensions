@@ -6,7 +6,9 @@ christian-kohler.npm-intellisense
 codezombiech.gitignore
 dbaeumer.jshint
 dbaeumer.vscode-eslint
+docsmsft.docs-article-templates
 docsmsft.docs-authoring-pack
+docsmsft.docs-preview
 donjayamanne.githistory
 eamodio.gitlens
 eg2.tslint
@@ -30,6 +32,7 @@ msjsdiag.debugger-for-chrome
 msjsdiag.debugger-for-edge
 msjsdiag.debugger-for-ios-web
 rust-lang.rust
+streetsidesoftware.code-spell-checker
 tootone.org-mode
 vscjava.vscode-java-pack
 vscjava.vscode-java-test
