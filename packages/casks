@@ -95,6 +95,7 @@ osxfuse
 packet-peeper
 paintbrush
 postgres
+protonvpn
 pycharm-ce
 rstudio
 santa
@@ -114,6 +115,7 @@ teleport
 texpad
 tigervnc-viewer
 torguard
+tunnelbear
 typora
 vagrant
 viber
