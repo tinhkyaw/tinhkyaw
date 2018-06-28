@@ -84,6 +84,7 @@ rustup-init
 saltstack
 sbt
 scala
+scipy
 sqoop
 sshfs
 stow
