@@ -62,6 +62,14 @@ if ! brew list octave &> /dev/null
 then
   brew install octave
 fi
+if ! brew list thrift &> /dev/null
+then
+  brew reinstall --with-erlang --with-java --with-libevent --with-python@2 thrift
+fi
+if ! brew list uWSGI &> /dev/null
+then
+  brew install --with-geoip --with-libyaml --with-mono --with-nagios --with-postgresql --with-python --with-ruby --with-zeromq uWSGI
+fi
 export LDFLAGS="-L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/system"
 pip3 install -U python-daemon scipy tensorflow
 pip3 install --no-binary :all: -U -r ${GIT_ROOT_DIR}/packages/pips

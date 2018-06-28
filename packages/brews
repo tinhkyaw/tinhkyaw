@@ -1,9 +1,11 @@
 ack
 amazon-ecs-cli
+ansible
 ant
 apache-spark
 autoenv
 automake
+autopep8
 aws-shell
 awscli
 bash
@@ -30,8 +32,10 @@ ec2-api-tools
 elasticsearch
 erlang
 exa
+fabric
 findutils
 fish
+flake8
 gawk
 gcc
 git-flow
@@ -43,6 +47,7 @@ gradle
 hr
 httpie
 hub
+ipython
 jenv
 jq
 kotlin
@@ -62,8 +67,10 @@ netcat
 osquery
 perf
 pidof
+pipenv
 postgresql
 protobuf
+pssh
 python3
 r
 rds-command-line-tools
@@ -74,6 +81,7 @@ riak
 rsync
 rust
 rustup-init
+saltstack
 sbt
 scala
 sqoop
@@ -86,8 +94,10 @@ tokyo-cabinet
 trash
 tree
 utf8proc
+v8
 webkit2png
 wget
+xdot
 yajl
 zopfli
 zsh-autosuggestions
