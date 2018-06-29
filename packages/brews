@@ -61,6 +61,7 @@ lzip
 memcached
 mercurial
 metis
+msgpack
 mypy
 neo4j
 netcat
@@ -71,6 +72,7 @@ pipenv
 postgresql
 protobuf
 pssh
+pycodestyle
 python3
 r
 rds-command-line-tools

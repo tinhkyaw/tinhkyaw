@@ -13,6 +13,10 @@ WD=$(pwd)
 DIR=$(dirname "$(greadlink -f "${0}")")
 cd ${DIR}
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
+if ! brew list graphviz &> /dev/null
+then
+  brew install --with-app --with-bindings --with-freetype --with-gts --with-librsvg --with-pango graphviz
+fi
 if ! brew list qcachegrind &> /dev/null
 then
   brew install --with-graphviz qcachegrind
@@ -54,17 +58,13 @@ if ! brew list gnuplot &> /dev/null
 then
   brew install --with-cairo --with-qt5 --with-tex --with-wxmac gnuplot
 fi
-if ! brew list graphviz &> /dev/null
-then
-  brew install --with-app --with-bindings --with-freetype --with-gts --with-librsvg --with-pango graphviz
-fi
 if ! brew list octave &> /dev/null
 then
   brew install octave
 fi
 if ! brew list thrift &> /dev/null
 then
-  brew reinstall --with-erlang --with-java --with-libevent --with-python@2 thrift
+  brew install --with-erlang --with-java --with-libevent --with-python@2 thrift
 fi
 if ! brew list uWSGI &> /dev/null
 then

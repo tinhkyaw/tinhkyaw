@@ -1,6 +1,5 @@
 absl-py==0.2.2
 amqp==2.3.2
-ansible==2.5.5
 anyjson==0.3.3
 apache-libcloud==2.3.0
 appdirs==1.4.3
@@ -9,9 +8,6 @@ asn1crypto==0.24.0
 astor==0.6.2
 astroid==1.6.5
 attrs==18.1.0
-autopep8==1.3.5
-aws-shell==0.2.0
-awscli==1.15.47
 awsebcli==3.14.1
 backcall==0.1.0
 background==0.1.1
@@ -59,9 +55,7 @@ ecdsa==0.13
 editdistance==0.4
 entrypoints==0.2.3
 enum34==1.1.6
-fabric==2.1.3
 first==2.0.1
-flake8==3.5.0
 Flask==1.0.2
 Flask-Cache==0.13.1
 Flask-Hashing==1.1
@@ -72,7 +66,6 @@ gevent==1.3.4
 gitdb2==2.0.3
 GitPython==2.1.10
 gnureadline==6.3.8
-graphviz==0.8.3
 greenlet==0.4.13
 grpcio==1.12.1
 h5py==2.8.0
@@ -80,7 +73,6 @@ html5lib==1.0.1
 idna==2.7
 invoke==1.0.0
 ipaddress==1.0.22
-ipython==6.4.0
 ipython-genutils==0.2.0
 isort==4.3.4
 itsdangerous==0.24
@@ -106,7 +98,6 @@ matplotlib==2.2.2
 mccabe==0.6.1
 memory-profiler==0.52.0
 mock==2.0.0
-msgpack==0.5.6
 msgpack-python==0.5.6
 mysqlclient==1.3.13
 nltk==3.3
@@ -128,18 +119,15 @@ pexpect==4.6.0
 pickleshare==0.7.4
 pip-tools==2.0.2
 pipdeptree==0.12.1
-pipenv==2018.6.25
 pipfile==0.0.2
 prompt-toolkit==2.0.3
 protobuf==3.6.0
-pssh==2.3.1
 psutil==5.4.6
 ptyprocess==0.6.0
 py4j==0.10.7
 pyarrow==0.9.0.post1
 pyasn1==0.4.3
 pycairo==1.17.0
-pycodestyle==2.4.0
 pycparser==2.18
 pycrypto==2.6.1
 pyflakes==2.0.0
@@ -161,7 +149,6 @@ resumable-urlretrieve==0.1.5
 rope==0.10.7
 rsa==3.4.2
 s3transfer==0.1.13
-salt==2018.3.2
 scandir==1.7
 scikit-learn==0.19.1
 scipy==1.1.0
@@ -182,13 +169,11 @@ tensorflow-tensorboard==1.5.1
 termcolor==1.1.0
 texttable==1.4.0
 Theano==1.0.2
-thrift==0.11.0
 toml==0.9.4
 tornado==5.0.2
 traitlets==4.3.2
 typing==3.6.4
 urllib3==1.23
-uWSGI==2.0.17
 vine==1.1.4
 virtualenv==16.0.0
 virtualenv-clone==0.3.0
@@ -198,4 +183,3 @@ webencodings==0.5.1
 websocket-client==0.48.0
 Werkzeug==0.14.1
 wrapt==1.10.11
-xdot==0.9
