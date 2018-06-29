@@ -23,8 +23,8 @@ billiard==3.5.0.3
 bleach==2.1.3
 blessed==1.15.0
 blindspin==2.0.1
-boto3==1.7.47
-botocore==1.10.47
+boto3==1.7.48
+botocore==1.10.48
 bottle==0.12.13
 cached-property==1.4.3
 celery==4.2.0
@@ -67,7 +67,7 @@ gitdb2==2.0.3
 GitPython==2.1.10
 gnureadline==6.3.8
 greenlet==0.4.13
-grpcio==1.12.1
+grpcio==1.13.0
 h5py==2.8.0
 html5lib==1.0.1
 idna==2.7
