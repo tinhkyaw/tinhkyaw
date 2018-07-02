@@ -41,7 +41,7 @@ cycler==0.10.0
 Cython==0.28.3
 decorator==4.3.0
 delegator.py==0.1.0
-docker==3.4.0
+docker==3.4.1
 docker-compose==1.21.2
 docker-pycreds==0.3.0
 dockerpty==0.4.1
@@ -73,7 +73,7 @@ ipaddress==1.0.22
 ipython-genutils==0.2.0
 isort==4.3.4
 itsdangerous==0.24
-jedi==0.12.0
+jedi==0.12.1
 Jinja2==2.10
 jmespath==0.9.3
 jsonschema==2.6.0
@@ -105,7 +105,7 @@ packaging==17.1
 pandas==0.23.1
 paramiko==2.4.1
 parse==1.8.4
-parso==0.2.1
+parso==0.3.0
 path.py==11.0.1
 pathlib==1.0.1
 pathlib2==2.3.2
@@ -115,7 +115,7 @@ pew==1.1.5
 pexpect==4.6.0
 pickleshare==0.7.4
 pip-tools==2.0.2
-pipdeptree==0.12.1
+pipdeptree==0.13.0
 pipfile==0.0.2
 prompt-toolkit==2.0.3
 protobuf==3.6.0
@@ -136,7 +136,7 @@ pyspark==2.3.1
 python-daemon==2.1.2
 python-dateutil==2.7.3
 pythonz-bd==1.11.4
-pytz==2018.4
+pytz==2018.5
 PyYAML==4.1
 pyzmq==17.0.0
 requests==2.19.1
@@ -156,7 +156,7 @@ simplegeneric==0.8.1
 singledispatch==3.4.0.3
 six==1.11.0
 smmap2==2.0.3
-SQLAlchemy==1.2.8
+SQLAlchemy==1.2.9
 stevedore==1.28.0
 subprocess32==3.5.2
 tabulate==0.8.2
