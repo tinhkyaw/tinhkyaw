@@ -71,7 +71,7 @@ then
   brew install --with-geoip --with-libyaml --with-mono --with-nagios --with-postgresql --with-python --with-ruby --with-zeromq uWSGI
 fi
 export LDFLAGS="-L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/system"
-pip3 install -U python-daemon scipy tensorflow
+pip3 install -U cython python-daemon scipy tensorflow
 pip3 install --no-binary :all: -U -r ${GIT_ROOT_DIR}/packages/pips
 ${GIT_ROOT_DIR}/scripts/setup-bin.sh
 ${GIT_ROOT_DIR}/scripts/setup-conf.sh
