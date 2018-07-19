@@ -5,9 +5,8 @@ then
 fi
 brew tap facebook/fb
 brew tap homebrew/science
-brew install git mysql python swig tmux-cssh zsh
+brew install git mysql python ruby swig tmux-cssh zsh
 brew install --with-gmp coreutils
-brew install --with-doc --with-gdbm --with-gmp --with-libffi ruby
 pip3 install --no-binary :all: -U virtualenvwrapper
 WD=$(pwd)
 DIR=$(dirname "$(greadlink -f "${0}")")
@@ -68,10 +67,10 @@ then
 fi
 if ! brew list uWSGI &> /dev/null
 then
-  brew install --with-geoip --with-libyaml --with-mono --with-nagios --with-postgresql --with-python --with-ruby --with-zeromq uWSGI
+  brew install --with-geoip --with-libyaml --with-mono --with-nagios --with-postgresql --with-python --with-ruby --with-zeromq uwsgi
 fi
 export LDFLAGS="-L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/system"
-pip3 install -U cython python-daemon scipy tensorflow
+pip3 install --no-binary :all: -U cython pyyaml
 pip3 install --no-binary :all: -U -r ${GIT_ROOT_DIR}/packages/pips
 ${GIT_ROOT_DIR}/scripts/setup-bin.sh
 ${GIT_ROOT_DIR}/scripts/setup-conf.sh
