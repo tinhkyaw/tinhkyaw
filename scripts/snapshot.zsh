@@ -25,6 +25,7 @@ then
 fi
 pip3 freeze --local > ${SNAPSHOT_DIR}/pip3${SUFFIX}.txt
 pip3 freeze --local | egrep -vi ${PIP_EXCLUSIONS} > ${PKG_DIR}/pip3s
+conda list > ${SNAPSHOT_DIR}/conda${SUFFIX}.txt
 apm list --installed --bare > ${SNAPSHOT_DIR}/atom${SUFFIX}.txt
 apm list --installed --bare > ${PKG_DIR}/atom_packages
 code --list-extensions --show-versions | sort > ${SNAPSHOT_DIR}/code${SUFFIX}.txt

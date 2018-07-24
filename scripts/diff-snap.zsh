@@ -7,7 +7,7 @@ fi
 SUFFIX1=$1
 SUFFIX2=$2
 SNAPSHOT_DIR="${HOME}/Dropbox/Shared/Snapshots"
-for snapshot in brew cask code eclipse gem intellij npm pip3 pycharm
+for snapshot in brew cask code eclipse gem intellij npm pip2 pip3 conda pycharm
 do
   FILE1="${snapshot}${SUFFIX1}.txt"
   FILE2="${snapshot}${SUFFIX2}.txt"

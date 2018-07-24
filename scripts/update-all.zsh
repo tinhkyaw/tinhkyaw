@@ -64,4 +64,5 @@ then
 fi
 pip3 install --no-binary :all: --no-cache-dir --upgrade pip setuptools
 pip3 freeze --local | cut -d = -f 1  | egrep -vi 'gdal|futures' | xargs pip3 install --no-binary :all: --no-cache-dir --upgrade
+conda update --all
 apm upgrade
