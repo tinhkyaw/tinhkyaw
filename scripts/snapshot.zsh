@@ -31,4 +31,5 @@ apm list --installed --bare > ${PKG_DIR}/atom_packages
 code --list-extensions --show-versions | sort > ${SNAPSHOT_DIR}/code${SUFFIX}.txt
 VSCODE_EXCLUSIONS='ms-python.python|redhat.java|redhat.vscode-yaml|vscjava.vscode-java-debug|ms-docfx.docfx|docsmsft.docs-markdown|DavidAnson.vscode-markdownlint'
 code --list-extensions | egrep -vi ${VSCODE_EXCLUSIONS} | sort > ${PKG_DIR}/vscode_extensions
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --version > ${SNAPSHOT_DIR}/chrome${SUFFIX}.txt
 cd ${WD}
