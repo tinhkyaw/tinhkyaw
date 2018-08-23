@@ -29,7 +29,7 @@ conda list > ${SNAPSHOT_DIR}/conda${SUFFIX}.txt
 apm list --installed --bare > ${SNAPSHOT_DIR}/atom${SUFFIX}.txt
 apm list --installed --bare > ${PKG_DIR}/atom_packages
 code --list-extensions --show-versions | sort > ${SNAPSHOT_DIR}/code${SUFFIX}.txt
-VSCODE_EXCLUSIONS='ms-python.python|redhat.java|redhat.vscode-yaml|vscjava.vscode-java-debug|ms-docfx.docfx|docsmsft.docs-markdown|DavidAnson.vscode-markdownlint'
+VSCODE_EXCLUSIONS='DavidAnson.vscode-markdownlint|VisualStudioExptTeam.vscodeintellicode|alefragnani.project-manager|batisteo.vscode-django|codezombiech.gitignore|docsmsft.docs-markdown|donjayamanne.githistory|donjayamanne.jupyter|eamodio.gitlens|karigari.chat|magicstack.MagicPython|ms-docfx.docfx|ms-python.python|ms-vsliveshare.vsliveshare$|ms-vsliveshare.vsliveshare-audio|redhat.java|redhat.vscode-yaml|vscjava.vscode-java-debug|wholroyd.jinja|ziyasal.vscode-open-in-github'
 code --list-extensions | egrep -vi ${VSCODE_EXCLUSIONS} | sort > ${PKG_DIR}/vscode_extensions
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --version > ${SNAPSHOT_DIR}/chrome${SUFFIX}.txt
 cd ${WD}
