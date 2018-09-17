@@ -49,7 +49,6 @@ do
   fi
 done
 brew cleanup -s
-brew cask cleanup
 cleanup-caskroom.zsh
 brew doctor
 gem update --system
