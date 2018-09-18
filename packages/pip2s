@@ -1,4 +1,6 @@
 absl-py==0.4.1
+airflow==1.8.0
+alembic==1.0.0
 amqp==2.3.2
 anyjson==0.3.3
 apache-libcloud==2.3.0
@@ -21,7 +23,7 @@ bleach==2.1.4
 blessed==1.15.0
 blindspin==2.0.1
 boto3==1.9.4
-botocore==1.12.4
+botocore==1.12.5
 cached-property==1.5.1
 celery==4.2.1
 certifi==2018.8.24
@@ -34,11 +36,13 @@ ConfigArgParse==0.13.0
 configobj==5.0.6
 configparser==3.5.0
 crayons==0.1.2
+croniter==0.3.25
 cryptography==2.3.1
 cycler==0.10.0
 Cython==0.28.5
 decorator==4.3.0
-delegator.py==0.1.0
+delegator.py==0.1.1
+dill==0.2.8.2
 docopt==0.6.2
 docutils==0.14
 ecdsa==0.13
@@ -47,10 +51,15 @@ entrypoints==0.2.3
 enum34==1.1.6
 first==2.0.1
 Flask==1.0.2
+Flask-Admin==1.5.2
 Flask-Cache==0.13.1
 Flask-Hashing==1.1
+Flask-Login==0.4.1
+flask-swagger==0.2.13
+Flask-WTF==0.14.2
 funcsigs==1.0.2
 functools32==3.2.3.post2
+future==0.16.0
 futures==3.2.0
 gast==0.2.0
 gevent==1.3.6
@@ -59,6 +68,7 @@ GitPython==2.1.11
 gnureadline==6.3.8
 greenlet==0.4.15
 grpcio==1.15.0
+gunicorn==19.9.0
 h5py==2.8.0
 html5lib==1.0.1
 idna==2.7
@@ -84,6 +94,7 @@ locustio==0.9.0
 luigi==2.7.8
 lxml==4.2.5
 M2Crypto==0.30.1
+Mako==1.0.7
 Markdown==2.6.11
 MarkupSafe==1.0
 matplotlib==2.2.3
@@ -106,7 +117,7 @@ parso==0.3.1
 path.py==11.2.0
 pathlib==1.0.1
 pathlib2==2.3.2
-pathspec==0.5.8
+pathspec==0.5.9
 pbr==4.2.0
 pew==1.1.5
 pexpect==4.6.0
@@ -120,6 +131,7 @@ psutil==5.4.7
 ptyprocess==0.6.0
 py4j==0.10.7
 PyAFF==0.1
+pyarrow==0.10.0
 pyasn1==0.4.4
 pycparser==2.18
 pycrypto==2.6.1
@@ -132,6 +144,9 @@ pyparsing==2.2.0
 pyspark==2.3.1
 python-daemon==2.2.0
 python-dateutil==2.7.3
+python-editor==1.0.3
+python-nvd3==0.15.0
+python-slugify==1.2.6
 pythonz-bd==1.11.4
 pytz==2018.5
 PyYAML==4.1
@@ -140,7 +155,7 @@ requests==2.19.1
 requirements-parser==0.2.0
 resumable-urlretrieve==0.1.5
 rope==0.11.0
-rsa==3.4.2
+rsa==4.0
 s3transfer==0.1.13
 scandir==1.9.0
 scikit-learn==0.19.2
@@ -148,6 +163,7 @@ scipy==1.1.0
 seaborn==0.9.0
 semantic-version==2.6.0
 semver==2.8.1
+setproctitle==1.1.10
 shellingham==1.2.6
 shutilwhich==1.1.0
 simplegeneric==0.8.1
@@ -164,10 +180,12 @@ tensorflow-tensorboard==1.5.1
 termcolor==1.1.0
 texttable==1.4.0
 Theano==1.0.2
+thrift==0.11.0
 toml==0.9.6
-tornado==5.1
+tornado==5.1.1
 traitlets==4.3.2
 typing==3.6.6
+Unidecode==1.0.22
 urllib3==1.23
 vine==1.1.4
 virtualenv==16.0.0
@@ -178,3 +196,7 @@ webencodings==0.5.1
 websocket-client==0.53.0
 Werkzeug==0.14.1
 wrapt==1.10.11
+WTForms==2.2.1
+yapf==0.24.0
+yolk==0.4.3
+zope.deprecation==4.3.0

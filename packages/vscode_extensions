@@ -21,6 +21,7 @@ korekontrol.saltstack
 lightbend.vscode-sbt-scala
 lonefy.vscode-JS-CSS-HTML-formatter
 mathiasfrohlich.Kotlin
+mitaki28.vscode-clang
 ms-devlabs.extension-manifest-editor
 ms-kubernetes-tools.vscode-kubernetes-tools
 ms-python.anaconda-extension-pack
@@ -38,6 +39,7 @@ msjsdiag.debugger-for-edge
 msjsdiag.debugger-for-ios-web
 rust-lang.rust
 streetsidesoftware.code-spell-checker
+tcwalther.cython
 tootone.org-mode
 vscjava.vscode-java-pack
 vscjava.vscode-java-test
