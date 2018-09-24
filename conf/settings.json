@@ -1,5 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
+    "bazel.buildifierPath": "/usr/local/bin/buildifier",
     "editor.formatOnSave": true,
     "extensions.autoUpdate": true,
     "files.associations": {
@@ -18,11 +19,13 @@
         "suppressResultsExplorerNotice": false,
         "suppressShowKeyBindingsNotice": true
     },
+    "gitlens.historyExplorer.enabled": true,
     "matlab.lintOnSave": false,
     "python.formatting.autopep8Args": [
         "--global-config",
         "${workspaceRoot}/setup.cfg"
     ],
+    "python.jediEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Args": [
         "--config",
@@ -37,5 +40,4 @@
     "terminal.integrated.fontSize": 14,
     "workbench.colorTheme": "Solarized Dark",
     "workbench.editor.enablePreview": false,
-    "gitlens.historyExplorer.enabled": true,
 }

@@ -13,6 +13,7 @@ bazel
 binutils
 boost
 buck
+buildifier
 byobu
 c-ares
 carthage
