@@ -73,7 +73,6 @@ Pillow==5.2.0
 pip-tools==3.0.0
 pipdeptree==0.13.0
 pipfile==0.0.2
-prometheus-client==0.3.1
 prompt-toolkit==2.0.4
 protobuf==3.6.1
 pss==1.42
