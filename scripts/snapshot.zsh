@@ -17,14 +17,13 @@ CASK_EXCLUSIONS='google-drive-file-stream'
 brew cask list | egrep -vi ${CASK_EXCLUSIONS} > ${PKG_DIR}/casks
 gem list > ${SNAPSHOT_DIR}/gem${SUFFIX}.txt
 npm ls -g --depth 0 > ${SNAPSHOT_DIR}/npm${SUFFIX}.txt
-PIP_EXCLUSIONS='gdal|tbb'
 if command -v pip2 &> /dev/null
 then
   pip2 freeze --local > ${SNAPSHOT_DIR}/pip2${SUFFIX}.txt
-  pip2 freeze --local | egrep -vi ${PIP_EXCLUSIONS} > ${PKG_DIR}/pip2s
+  pip2 freeze --local > ${PKG_DIR}/pip2s
 fi
 pip3 freeze --local > ${SNAPSHOT_DIR}/pip3${SUFFIX}.txt
-pip3 freeze --local | egrep -vi ${PIP_EXCLUSIONS} > ${PKG_DIR}/pip3s
+pip3 freeze --local > ${PKG_DIR}/pip3s
 conda list > ${SNAPSHOT_DIR}/conda${SUFFIX}.txt
 apm list --installed --bare > ${SNAPSHOT_DIR}/atom${SUFFIX}.txt
 apm list --installed --bare > ${PKG_DIR}/atom_packages
