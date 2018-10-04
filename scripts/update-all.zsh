@@ -26,13 +26,8 @@ do
     then
       print -P "%F{yellow}Ignoring %F{cyan}${app}%f"
     else
-      if ${is_quick} && grep -Fxq ${app} "$(readlink ${DIR}/slow)"
-      then
-        print -P "%F{yellow}Skipping %F{cyan}${app}%f update for speed"
-      else
-        print -P "%F{yellow}Reinstalling%f ${ver} %F{cyan}${app}%f"
-        brew cask reinstall ${app}
-      fi
+      print -P "%F{yellow}Reinstalling%f ${ver} %F{cyan}${app}%f"
+      brew cask reinstall ${app}
     fi
   else
     if grep -Fxq ${app} "$(readlink ${DIR}/ignored)"

@@ -9,8 +9,8 @@ for script_file in emacs diff-snap.zsh cleanup-caskroom.zsh find-broken-casks.sh
 do
   install_file ${script_file} ${GIT_ROOT_DIR}/scripts ${HOME}/bin
 done
-for package_file in ignored slow
+for package_file in ignored
 do
-  install_file ${package_file} ${GIT_ROOT_DIR}/packages ${HOME}/bin
+  replace_file ${package_file} ${GIT_ROOT_DIR}/packages ${HOME}/bin
 done
 cd ${WD}
