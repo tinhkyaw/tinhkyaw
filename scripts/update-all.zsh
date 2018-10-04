@@ -22,7 +22,7 @@ do
   ver=$(brew cask info ${app} | cut -d " " -f 2 | head -1)
   if [ ${ver} = "latest" ]
   then
-    if grep -Fxq ${app} "$(readlink ${DIR}/ignored)"
+    if grep -Fxq ${app} "${DIR}/ignored"
     then
       print -P "%F{yellow}Ignoring %F{cyan}${app}%f"
     else
@@ -30,7 +30,7 @@ do
       brew cask reinstall ${app}
     fi
   else
-    if grep -Fxq ${app} "$(readlink ${DIR}/ignored)"
+    if grep -Fxq ${app} "${DIR}/ignored"
     then
       print -P "%F{yellow}Ignoring %F{cyan}${app}%f"
     else
