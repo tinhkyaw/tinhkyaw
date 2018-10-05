@@ -8,8 +8,8 @@ bandit==1.5.1
 beautifulsoup4==4.6.3
 billiard==3.5.0.4
 bleach==3.0.0
-boto3==1.9.16
-botocore==1.12.16
+boto3==1.9.17
+botocore==1.12.17
 bottle==0.12.13
 celery==4.2.1
 cement==3.0.0
@@ -71,7 +71,7 @@ pbr==4.3.0
 pexpect==4.6.0
 pickleshare==0.7.5
 Pillow==5.3.0
-pip-tools==3.0.0
+pip-tools==3.1.0
 pipdeptree==0.13.0
 pipfile==0.0.2
 prompt-toolkit==2.0.5
