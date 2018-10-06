@@ -1,2 +1,14 @@
+UseKeychain yes
 AddKeysToAgent yes
 ForwardAgent yes
+KeepAlive yes
+
+
+# Host <alias>
+# HostName <fully-qualified-hostname>
+# ProxyCommand ssh <gateway> <command>
+# ForwardAgent yes
+# ForwardX11 yes
+# ForwardX11Trusted yes
+# XAuthLocation /opt/X11/bin/xauth
+ 
