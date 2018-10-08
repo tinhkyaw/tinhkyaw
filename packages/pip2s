@@ -136,7 +136,6 @@ pss==1.42
 psutil==5.4.7
 ptyprocess==0.6.0
 py4j==0.10.7
-PyAFF==0.1
 pyarrow==0.11.0
 pyasn1==0.4.4
 pycparser==2.19
@@ -155,7 +154,7 @@ python-nvd3==0.15.0
 python-slugify==1.2.6
 pythonz-bd==1.11.4
 pytz==2018.5
-PyYAML==4.1
+PyYAML==3.13
 pyzmq==17.1.2
 requests==2.19.1
 requirements-parser==0.2.0
