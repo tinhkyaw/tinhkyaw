@@ -22,8 +22,8 @@ billiard==3.5.0.4
 bleach==3.0.1
 blessed==1.15.0
 blindspin==2.0.1
-boto3==1.9.19
-botocore==1.12.19
+boto3==1.9.20
+botocore==1.12.20
 cached-property==1.5.1
 celery==4.2.1
 certifi==2018.8.24
@@ -177,7 +177,7 @@ six==1.11.0
 smmap2==2.0.4
 SQLAlchemy==1.2.12
 stevedore==1.29.0
-subprocess32==3.5.2
+subprocess32==3.5.3
 tabulate==0.8.2
 tensorboard==1.7.0
 tensorflow==1.7.0
