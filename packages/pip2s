@@ -31,7 +31,7 @@ cffi==1.11.5
 chardet==3.0.4
 Click==7.0
 click-completion==0.4.1
-colorama==0.3.9
+colorama==0.4.0
 ConfigArgParse==0.13.0
 configobj==5.0.6
 configparser==3.5.0
