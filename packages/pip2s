@@ -26,7 +26,7 @@ boto3==1.9.23
 botocore==1.12.23
 cached-property==1.5.1
 celery==4.2.1
-certifi==2018.8.24
+certifi==2018.10.15
 cffi==1.11.5
 chardet==3.0.4
 Click==7.0
@@ -169,7 +169,7 @@ seaborn==0.9.0
 semantic-version==2.6.0
 semver==2.8.1
 setproctitle==1.1.10
-shellingham==1.2.6
+shellingham==1.2.7
 shutilwhich==1.1.0
 simplegeneric==0.8.1
 singledispatch==3.4.0.3
