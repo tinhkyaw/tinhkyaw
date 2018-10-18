@@ -163,7 +163,7 @@ pythonz-bd==1.11.4
 pytz==2018.5
 PyYAML==3.13
 pyzmq==17.1.2
-requests==2.19.1
+requests==2.20.0
 requirements-parser==0.2.0
 resumable-urlretrieve==0.1.5
 rope==0.11.0

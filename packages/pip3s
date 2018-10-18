@@ -98,7 +98,7 @@ python-dateutil==2.7.3
 pytz==2018.5
 PyYAML==3.13
 pyzmq==17.1.2
-requests==2.19.1
+requests==2.20.0
 requirements-parser==0.2.0
 rope==0.11.0
 s3transfer==0.1.13
