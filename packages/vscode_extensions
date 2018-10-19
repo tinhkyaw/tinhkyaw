@@ -1,3 +1,4 @@
+2gua.rainbow-brackets
 christian-kohler.npm-intellisense
 dbaeumer.jshint
 dbaeumer.vscode-eslint
@@ -19,6 +20,7 @@ korekontrol.saltstack
 lightbend.vscode-sbt-scala
 lonefy.vscode-JS-CSS-HTML-formatter
 mathiasfrohlich.Kotlin
+mechatroner.rainbow-csv
 mitaki28.vscode-clang
 ms-devlabs.extension-manifest-editor
 msjsdiag.debugger-for-chrome
@@ -34,6 +36,7 @@ ms-vscode.jscs
 ms-vscode.mono-debug
 ms-vscode.node-debug2
 ms-vsliveshare.vsliveshare-pack
+oderwat.indent-rainbow
 PeterJausovec.vscode-docker
 rust-lang.rust
 streetsidesoftware.code-spell-checker

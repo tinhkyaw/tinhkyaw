@@ -24,8 +24,8 @@ billiard==3.5.0.4
 bleach==3.0.2
 blessed==1.15.0
 blindspin==2.0.1
-boto3==1.9.26
-botocore==1.12.26
+boto3==1.9.27
+botocore==1.12.27
 cached-property==1.5.1
 celery==4.2.1
 certifi==2018.10.15
@@ -81,7 +81,7 @@ invoke==1.2.0
 ipaddress==1.0.22
 ipython-genutils==0.2.0
 isort==4.3.4
-itsdangerous==0.24
+ItsDangerous==1.0.0
 jedi==0.13.1
 Jinja2==2.10
 jmespath==0.9.3
