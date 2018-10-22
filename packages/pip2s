@@ -1,4 +1,4 @@
-absl-py==0.5.0
+absl-py==0.6.0
 airflow==1.8.0
 alembic==1.0.1
 amqp==2.3.2
