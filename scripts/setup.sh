@@ -72,6 +72,8 @@ fi
 export LDFLAGS="-L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/system"
 pip3 install --no-binary :all: -U cython pyyaml
 pip3 install --no-binary :all: -U -r ${GIT_ROOT_DIR}/packages/pip3s
+conda install pyarrow
+conda install pytorch torchvision -c pytorch
 ${GIT_ROOT_DIR}/scripts/setup-bin.sh
 ${GIT_ROOT_DIR}/scripts/setup-conf.sh
 if [ ! -n "$ZSH" ]
