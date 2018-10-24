@@ -69,7 +69,7 @@ gevent==1.3.7
 gitdb2==2.0.5
 GitPython==2.1.11
 gnureadline==6.3.8
-graphviz==0.10
+graphviz==0.10.1
 greenlet==0.4.15
 grpcio==1.16.0
 gunicorn==19.9.0
@@ -159,7 +159,7 @@ python-editor==1.0.3
 python-nvd3==0.15.0
 python-slugify==1.2.6
 pythonz-bd==1.11.4
-pytz==2018.5
+pytz==2018.6
 PyYAML==3.13
 pyzmq==17.1.2
 requests==2.20.0
