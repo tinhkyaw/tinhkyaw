@@ -81,7 +81,7 @@ invoke==1.2.0
 ipaddress==1.0.22
 ipython-genutils==0.2.0
 isort==4.3.4
-ItsDangerous==1.0.0
+itsdangerous==1.1.0
 jedi==0.13.1
 Jinja2==2.10
 jmespath==0.9.3
