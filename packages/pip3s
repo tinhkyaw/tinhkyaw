@@ -10,8 +10,8 @@ bandit==1.5.1
 beautifulsoup4==4.6.3
 billiard==3.5.0.4
 bleach==3.0.2
-boto3==1.9.33
-botocore==1.12.33
+boto3==1.9.34
+botocore==1.12.34
 bottle==0.12.13
 celery==4.2.1
 cement==3.0.0
@@ -78,7 +78,7 @@ pip-tools==3.1.0
 pipdeptree==0.13.1
 pipfile==0.0.2
 pluggy==0.8.0
-prompt-toolkit==2.0.6
+prompt-toolkit==2.0.7
 protobuf==3.6.1
 pss==1.42
 psutil==5.4.8
@@ -90,7 +90,7 @@ pycairo==1.17.1
 Pygments==2.2.0
 PyGObject==3.30.1
 pylint==2.1.1
-pyparsing==2.2.2
+pyparsing==2.3.0
 pyspark==2.3.2
 pytest==3.9.3
 python-daemon==2.2.0
