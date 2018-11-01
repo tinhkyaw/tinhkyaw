@@ -1,6 +1,6 @@
 absl-py==0.6.1
 airflow==1.8.0
-alembic==1.0.1
+alembic==1.0.2
 amqp==2.3.2
 anyjson==0.3.3
 apache-libcloud==2.3.0
@@ -24,8 +24,8 @@ billiard==3.5.0.4
 bleach==3.0.2
 blessed==1.15.0
 blindspin==2.0.1
-boto3==1.9.34
-botocore==1.12.34
+boto3==1.9.35
+botocore==1.12.35
 cached-property==1.5.1
 celery==4.2.1
 certifi==2018.10.15
@@ -181,7 +181,7 @@ simplegeneric==0.8.1
 singledispatch==3.4.0.3
 six==1.11.0
 smmap2==2.0.5
-SQLAlchemy==1.2.12
+SQLAlchemy==1.2.13
 stevedore==1.30.0
 subprocess32==3.5.3
 tabulate==0.8.2
@@ -199,7 +199,7 @@ typing==3.6.6
 Unidecode==1.0.22
 urllib3==1.24
 vine==1.1.4
-virtualenv==16.0.0
+virtualenv==16.1.0
 virtualenv-clone==0.3.0
 virtualenvwrapper==4.8.2
 wcwidth==0.1.7
