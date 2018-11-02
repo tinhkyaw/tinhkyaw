@@ -24,8 +24,8 @@ billiard==3.5.0.4
 bleach==3.0.2
 blessed==1.15.0
 blindspin==2.0.1
-boto3==1.9.36
-botocore==1.12.36
+boto3==1.9.37
+botocore==1.12.37
 cached-property==1.5.1
 celery==4.2.1
 certifi==2018.10.15
@@ -197,7 +197,7 @@ tornado==5.1.1
 traitlets==4.3.2
 typing==3.6.6
 Unidecode==1.0.22
-urllib3==1.24
+urllib3==1.24.1
 vine==1.1.4
 virtualenv==16.1.0
 virtualenv-clone==0.3.0
