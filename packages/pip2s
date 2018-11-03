@@ -39,7 +39,7 @@ configobj==5.0.6
 configparser==3.5.0
 contextlib2==0.5.5
 crayons==0.1.2
-croniter==0.3.25
+croniter==0.3.26
 cryptography==2.3.1
 cycler==0.10.0
 Cython==0.29
@@ -104,6 +104,7 @@ MarkupSafe==1.0
 matplotlib==2.2.3
 mccabe==0.6.1
 memory-profiler==0.54.0
+mercurial==4.8
 mistune==0.8.4
 mock==2.0.0
 more-itertools==4.3.0
