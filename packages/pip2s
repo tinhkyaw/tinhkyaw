@@ -100,7 +100,7 @@ lxml==4.2.5
 M2Crypto==0.30.1
 Mako==1.0.7
 Markdown==3.0.1
-MarkupSafe==1.0
+MarkupSafe==1.1.0
 matplotlib==2.2.3
 mccabe==0.6.1
 memory-profiler==0.54.0

@@ -119,6 +119,11 @@ then
   eval "$(jenv init -)"
 fi
 
+if [ -d /usr/local/opt/ruby/bin ]
+then
+  export PATH=/usr/local/opt/ruby/bin:$PATH
+fi
+
 export PATH=${HOME}/bin:/usr/local/sbin:$PATH
 
 if [ -d /usr/local/anaconda3/bin ]
