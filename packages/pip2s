@@ -125,7 +125,7 @@ path.py==11.5.0
 pathlib==1.0.1
 pathlib2==2.3.2
 pathspec==0.5.9
-pbr==5.1.0
+pbr==5.1.1
 pew==1.1.5
 pexpect==4.6.0
 pickleshare==0.7.5
