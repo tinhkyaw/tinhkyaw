@@ -97,7 +97,7 @@ lockfile==0.12.2
 locustio==0.9.0
 luigi==2.8.0
 lxml==4.2.5
-M2Crypto==0.30.1
+M2Crypto==0.31.0
 Mako==1.0.7
 Markdown==3.0.1
 MarkupSafe==1.1.0
