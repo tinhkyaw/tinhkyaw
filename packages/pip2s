@@ -40,7 +40,7 @@ configparser==3.5.0
 contextlib2==0.5.5
 crayons==0.1.2
 croniter==0.3.26
-cryptography==2.4
+cryptography==2.4.1
 cycler==0.10.0
 Cython==0.29
 decorator==4.3.0
