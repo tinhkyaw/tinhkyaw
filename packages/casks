@@ -9,15 +9,18 @@ android-file-transfer
 android-studio
 anki
 appcleaner
+aquamacs
 atom
 avidemux
 aws-vault
 betterzip
+bibdesk
 bitbar
 brackets
 broomstick
 ccleaner
 cocoapods-app
+cocoaspell
 coconutbattery
 colloquy
 commandq
@@ -65,6 +68,7 @@ insomnia
 intellij-idea-ce
 iterm2
 itsycal
+jabref
 java
 java8
 jd-gui
@@ -75,7 +79,9 @@ keepingyouawake
 keka
 komodo-edit
 lastpass
+latexit
 laverna
+lyx
 macdown
 mactex
 macvim
@@ -102,6 +108,7 @@ sequel-pro
 sequential
 silverlight
 simple-comic
+skim
 skype
 skypewebplugin
 sourcetree
@@ -111,7 +118,10 @@ sqlitebrowser
 standard-notes
 steam
 teleport
+tex-live-utility
+texmaker
 texpad
+texshop
 tigervnc-viewer
 torguard
 tunnelbear
@@ -130,4 +140,5 @@ wireshark
 xld
 xquartz
 yacreader
+yujitach-menumeters
 zoomus
