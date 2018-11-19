@@ -15,7 +15,6 @@ done
 shift $(( OPTIND - 1 ))
 brew update
 brew upgrade
-brew upgrade cask
 caskroom_path="/usr/local/Caskroom"
 for app in $(brew cask list)
 do
