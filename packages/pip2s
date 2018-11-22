@@ -24,8 +24,8 @@ billiard==3.5.0.4
 bleach==3.0.2
 blessed==1.15.0
 blindspin==2.0.1
-boto3==1.9.48
-botocore==1.12.48
+boto3==1.9.50
+botocore==1.12.50
 cached-property==1.5.1
 celery==4.2.1
 certifi==2018.10.15
@@ -40,7 +40,7 @@ configparser==3.5.0
 contextlib2==0.5.5
 crayons==0.1.2
 croniter==0.3.26
-cryptography==2.4.1
+cryptography==2.4.2
 cycler==0.10.0
 Cython==0.29
 decorator==4.3.0
