@@ -131,7 +131,7 @@ parse==1.9.0
 parso==0.3.1
 path.py==11.5.0
 pathlib==1.0.1
-pathlib2==2.3.2
+pathlib2==2.3.3
 pathspec==0.5.9
 pbr==5.1.1
 pendulum==2.0.4
