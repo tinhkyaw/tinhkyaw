@@ -13,8 +13,8 @@ bandit==1.5.1
 beautifulsoup4==4.6.3
 billiard==3.5.0.4
 bleach==3.0.2
-boto3==1.9.54
-botocore==1.12.54
+boto3==1.9.55
+botocore==1.12.55
 bottle==0.12.14
 celery==4.2.1
 cement==3.0.2
