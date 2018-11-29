@@ -25,8 +25,8 @@ billiard==3.5.0.4
 bleach==3.0.2
 blessed==1.15.0
 blindspin==2.0.1
-boto3==1.9.53
-botocore==1.12.53
+boto3==1.9.54
+botocore==1.12.54
 cached-property==1.5.1
 celery==4.2.1
 certifi==2018.10.15
@@ -215,7 +215,7 @@ Unidecode==1.0.23
 urllib3==1.24.1
 vine==1.1.4
 virtualenv==16.1.0
-virtualenv-clone==0.3.0
+virtualenv-clone==0.4.0
 virtualenvwrapper==4.8.2
 wcwidth==0.1.7
 webencodings==0.5.1
