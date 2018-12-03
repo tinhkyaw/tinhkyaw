@@ -21,7 +21,7 @@ backports.weakref==1.0.post1
 bandit==1.5.1
 bcrypt==3.1.4
 beautifulsoup4==4.6.3
-billiard==3.5.0.4
+billiard==3.5.0.5
 bleach==3.0.2
 blessed==1.15.0
 blindspin==2.0.1
@@ -225,4 +225,4 @@ wrapt==1.10.11
 WTForms==2.2.1
 yapf==0.25.0
 yolk==0.4.3
-zope.deprecation==4.3.0
+zope.deprecation==4.4.0
