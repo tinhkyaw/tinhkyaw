@@ -42,4 +42,7 @@
     "workbench.editor.enablePreview": false,
     "gitlens.views.fileHistory.enabled": true,
     "gitlens.views.lineHistory.enabled": true,
+    "markdownlint.customRules": [
+        "{docsmsft.docs-markdown}/markdownlint-custom-rules/rules.js"
+    ],
 }
