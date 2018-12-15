@@ -13,8 +13,8 @@ bandit==1.5.1
 beautifulsoup4==4.6.3
 billiard==3.5.0.5
 bleach==3.0.2
-boto3==1.9.65
-botocore==1.12.65
+boto3==1.9.66
+botocore==1.12.66
 bottle==0.12.16
 celery==4.2.1
 cement==3.0.2
@@ -128,7 +128,7 @@ python-slugify==1.2.6
 python3-openid==3.1.0
 pytz==2018.7
 pytzdata==2018.7
-PyYAML==4.1
+PyYAML==3.13
 pyzmq==17.1.2
 requests==2.21.0
 requirements-parser==0.2.0
@@ -154,7 +154,6 @@ torch==1.0.0
 torchvision==0.2.1
 tornado==5.1.1
 traitlets==4.3.2
-typed-ast==1.1.0
 tzlocal==1.5.1
 unicodecsv==0.14.1
 Unidecode==1.0.23
