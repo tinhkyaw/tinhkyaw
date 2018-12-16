@@ -89,7 +89,7 @@ ipython-genutils==0.2.0
 iso8601==0.1.12
 isort==4.3.4
 itsdangerous==1.1.0
-jedi==0.13.1
+jedi==0.13.2
 Jinja2==2.10
 jmespath==0.9.3
 jsonschema==2.6.0
@@ -187,7 +187,7 @@ seaborn==0.9.0
 semantic-version==2.6.0
 semver==2.8.1
 setproctitle==1.1.10
-shellingham==1.2.7
+shellingham==1.2.8
 shutilwhich==1.1.0
 simplegeneric==0.8.1
 singledispatch==3.4.0.3
