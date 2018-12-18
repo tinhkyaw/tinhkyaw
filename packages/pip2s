@@ -25,8 +25,8 @@ billiard==3.5.0.5
 bleach==3.0.2
 blessed==1.15.0
 blindspin==2.0.1
-boto3==1.9.66
-botocore==1.12.66
+boto3==1.9.67
+botocore==1.12.67
 cached-property==1.5.1
 celery==4.2.1
 certifi==2018.11.29
@@ -182,7 +182,7 @@ rsa==4.0
 s3transfer==0.1.13
 scandir==1.9.0
 scikit-learn==0.20.1
-scipy==1.1.0
+scipy==1.2.0
 seaborn==0.9.0
 semantic-version==2.6.0
 semver==2.8.1
