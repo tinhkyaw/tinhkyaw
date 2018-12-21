@@ -13,8 +13,8 @@ bandit==1.5.1
 beautifulsoup4==4.6.3
 billiard==3.5.0.5
 bleach==3.0.2
-boto3==1.9.67
-botocore==1.12.67
+boto3==1.9.70
+botocore==1.12.70
 bottle==0.12.16
 celery==4.2.1
 cement==3.0.2
@@ -36,7 +36,7 @@ editdistance==0.5.2
 entrypoints==0.2.3
 first==2.0.1
 Flask==1.0.2
-Flask-Admin==1.5.2
+Flask-Admin==1.5.3
 Flask-AppBuilder==1.12.2
 Flask-Babel==0.12.2
 Flask-Caching==1.4.0
@@ -54,7 +54,7 @@ graphviz==0.10.1
 greenlet==0.4.15
 grpcio==1.17.1
 gunicorn==19.9.0
-h5py==2.8.0
+h5py==2.9.0
 html5lib==1.0.1
 idna==2.8
 invoke==1.2.0
@@ -101,7 +101,7 @@ pendulum==2.0.4
 pexpect==4.6.0
 pickleshare==0.7.5
 Pillow==5.3.0
-pip-tools==3.1.0
+pip-tools==3.2.0
 pipdeptree==0.13.1
 pipfile==0.0.2
 pluggy==0.8.0
@@ -134,7 +134,7 @@ requests==2.21.0
 requirements-parser==0.2.0
 rope==0.11.0
 s3transfer==0.1.13
-scikit-learn==0.20.1
+scikit-learn==0.20.2
 scipy==1.2.0
 seaborn==0.9.0
 setproctitle==1.1.10
