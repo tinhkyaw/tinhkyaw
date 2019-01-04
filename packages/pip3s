@@ -13,8 +13,8 @@ bandit==1.5.1
 beautifulsoup4==4.7.0
 billiard==3.5.0.5
 bleach==3.0.2
-boto3==1.9.72
-botocore==1.12.72
+boto3==1.9.73
+botocore==1.12.73
 bottle==0.12.16
 celery==4.2.1
 cement==3.0.2
@@ -124,7 +124,7 @@ python-daemon==2.2.0
 python-dateutil==2.7.5
 python-editor==1.0.3
 python-nvd3==0.15.0
-python-slugify==2.0.0
+python-slugify==2.0.1
 python3-openid==3.1.0
 pytz==2018.7
 pytzdata==2018.7
@@ -143,7 +143,7 @@ simplegeneric==0.8.1
 singledispatch==3.4.0.3
 six==1.12.0
 smmap2==2.0.5
-soupsieve==1.6.1
+soupsieve==1.6.2
 SQLAlchemy==1.2.15
 stevedore==1.30.0
 tabulate==0.8.2
