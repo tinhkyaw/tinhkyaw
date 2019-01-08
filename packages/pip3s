@@ -13,8 +13,8 @@ bandit==1.5.1
 beautifulsoup4==4.7.1
 billiard==3.5.0.5
 bleach==3.0.2
-boto3==1.9.74
-botocore==1.12.74
+boto3==1.9.75
+botocore==1.12.75
 bottle==0.12.16
 celery==4.2.1
 cement==3.0.2
@@ -33,7 +33,7 @@ dill==0.2.8.2
 docopt==0.6.2
 docutils==0.14
 editdistance==0.5.2
-entrypoints==0.2.3
+entrypoints==0.3
 first==2.0.1
 Flask==1.0.2
 Flask-Admin==1.5.3
