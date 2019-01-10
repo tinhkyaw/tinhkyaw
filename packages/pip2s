@@ -25,8 +25,8 @@ billiard==3.5.0.5
 bleach==3.1.0
 blessed==1.15.0
 blindspin==2.0.1
-boto3==1.9.75
-botocore==1.12.75
+boto3==1.9.76
+botocore==1.12.76
 cached-property==1.5.1
 celery==4.2.1
 certifi==2018.11.29
@@ -142,7 +142,7 @@ Pillow==5.4.1
 pip-tools==3.2.0
 pipdeptree==0.13.1
 pipfile==0.0.2
-pluggy==0.8.0
+pluggy==0.8.1
 prompt-toolkit==2.0.7
 protobuf==3.6.1
 pss==1.42
@@ -193,7 +193,7 @@ simplegeneric==0.8.1
 singledispatch==3.4.0.3
 six==1.12.0
 smmap2==2.0.5
-soupsieve==1.6.2
+soupsieve==1.7
 SQLAlchemy==1.2.15
 stevedore==1.30.0
 subprocess32==3.5.3
@@ -222,7 +222,7 @@ wcwidth==0.1.7
 webencodings==0.5.1
 websocket-client==0.54.0
 Werkzeug==0.14.1
-wrapt==1.10.11
+wrapt==1.11.0
 WTForms==2.2.1
 yapf==0.25.0
 yolk==0.4.3
