@@ -13,8 +13,8 @@ bandit==1.5.1
 beautifulsoup4==4.7.1
 billiard==3.5.0.5
 bleach==3.1.0
-boto3==1.9.76
-botocore==1.12.76
+boto3==1.9.77
+botocore==1.12.77
 bottle==0.12.16
 celery==4.2.1
 cement==3.0.2
@@ -144,7 +144,7 @@ singledispatch==3.4.0.3
 six==1.12.0
 smmap2==2.0.5
 soupsieve==1.7
-SQLAlchemy==1.2.15
+SQLAlchemy==1.2.16
 stevedore==1.30.0
 tabulate==0.8.2
 tenacity==5.0.2
