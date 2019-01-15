@@ -1,4 +1,4 @@
-absl-py==0.6.1
+absl-py==0.7.0
 alembic==1.0.6
 amqp==2.4.0
 anyjson==0.3.3
@@ -77,7 +77,7 @@ GitPython==2.1.11
 gnureadline==6.3.8
 graphviz==0.10.1
 greenlet==0.4.15
-grpcio==1.17.1
+grpcio==1.18.0
 gunicorn==19.9.0
 h5py==2.9.0
 html5lib==1.0.1
