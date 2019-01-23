@@ -104,7 +104,7 @@ pexpect==4.6.0
 pickleshare==0.7.5
 Pillow==5.4.1
 pip-tools==3.2.0
-pipdeptree==0.13.1
+pipdeptree==0.13.2
 pipfile==0.0.2
 pluggy==0.8.1
 prompt-toolkit==2.0.7
