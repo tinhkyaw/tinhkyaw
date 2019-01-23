@@ -50,13 +50,8 @@ gem update
 gem cleanup
 npm update -g
 npm-check -u -g
-if command -v pip2 &> /dev/null
-then
-  pip2 install --no-binary :all: --no-cache-dir --upgrade pip setuptools
-  pip2 freeze --local | cut -d = -f 1 | xargs pip2 install --no-cache-dir --upgrade
-fi
-pip3 install --no-binary :all: --no-cache-dir --upgrade pip setuptools
-pip3 freeze --local | cut -d = -f 1 | xargs pip3 install --no-cache-dir --upgrade
+pip3 install --upgrade pip setuptools
+pip3 freeze --local | cut -d = -f 1 | xargs pip3 install --upgrade
 conda update --all
 apm upgrade
 env ZSH=$ZSH sh $ZSH/tools/upgrade.sh
