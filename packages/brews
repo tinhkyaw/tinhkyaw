@@ -65,7 +65,6 @@ mypy
 neo4j
 netcat
 osquery
-perf
 pidof
 pipenv
 postgresql
@@ -90,6 +89,7 @@ sqoop
 sshfs
 stow
 suite-sparse
+teleport
 textql
 tidy-html5
 tokyo-cabinet

@@ -28,6 +28,7 @@ cord
 corretto
 cyberduck
 dash
+db-browser-for-sqlite
 deco
 deeper
 diffmerge
@@ -35,7 +36,6 @@ disk-inventory-x
 docker-edge
 eclipse-platform
 emacs
-filezilla
 firefox
 flash-npapi
 flash-ppapi
@@ -46,18 +46,16 @@ font-liberationmono-nerd-font
 font-liberationmono-nerd-font-mono
 geany
 gimp
-github-desktop
+github
 gitx
 google-adwords-editor
 google-backup-and-sync
 google-chrome
 google-cloud-sdk
 google-earth-pro
-google-earth-web-plugin
 google-featured-photos
 google-hangouts
 google-nik-collection
-google-play-music-desktop-player
 google-trends
 google-web-designer
 googleappengine
@@ -78,7 +76,6 @@ kdiff3
 keepingyouawake
 keka
 komodo-edit
-lastpass
 latexit
 laverna
 lyx
@@ -116,10 +113,8 @@ skypewebplugin
 sourcetree
 spectacle
 spyder-py2
-sqlitebrowser
 standard-notes
 steam
-teleport
 tex-live-utility
 texmaker
 texpad

@@ -4,10 +4,10 @@ then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 brew tap facebook/fb
-brew tap homebrew/science
-brew install git mysql python ruby swig tmux-cssh zsh
+brew install git mysql python ruby swig zsh
 brew install --with-gmp coreutils
-pip3 install --no-binary :all: -U virtualenvwrapper
+export SLUGIFY_USES_TEXT_UNIDECODE=yes
+pip3 install -U virtualenvwrapper
 WD=$(pwd)
 DIR=$(dirname "$(greadlink -f "${0}")")
 cd ${DIR}
@@ -45,7 +45,7 @@ brew install cask
 brew tap caskroom/fonts
 brew tap caskroom/versions
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-brew cask install java xquartz mactex
+brew cask install java8 java mactex osxfuse xquartz
 cat ${GIT_ROOT_DIR}/packages/brews | xargs brew install
 cat ${GIT_ROOT_DIR}/packages/casks | xargs brew cask install
 apm install --packages-file ${GIT_ROOT_DIR}/packages/atom_packages
@@ -70,8 +70,8 @@ then
   brew install --with-geoip --with-libyaml --with-mono --with-nagios --with-postgresql --with-python --with-ruby --with-zeromq uwsgi
 fi
 export LDFLAGS="-L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/system"
-pip3 install --no-binary :all: -U cython pyyaml
-pip3 install --no-binary :all: -U -r ${GIT_ROOT_DIR}/packages/pip3s
+pip3 install -U cython pyyaml
+pip3 install -U -r ${GIT_ROOT_DIR}/packages/pip3s
 conda install pyarrow
 conda install pytorch torchvision -c pytorch
 ${GIT_ROOT_DIR}/scripts/setup-bin.sh
