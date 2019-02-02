@@ -76,7 +76,6 @@ postgresql
 protobuf
 pssh
 pycodestyle
-python
 qcachegrind
 r
 rds-command-line-tools
