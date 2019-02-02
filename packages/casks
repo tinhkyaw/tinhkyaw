@@ -26,6 +26,7 @@ colloquy
 commandq
 cord
 corretto
+coteditor
 cyberduck
 dash
 db-browser-for-sqlite
@@ -36,6 +37,7 @@ disk-inventory-x
 docker-edge
 eclipse-platform
 emacs
+evernote
 firefox
 flash-npapi
 flash-ppapi
@@ -75,12 +77,14 @@ kap
 kdiff3
 keepingyouawake
 keka
+kindle
 komodo-edit
 latexit
 laverna
 lyx
 macdown
 mactex
+mactracker
 macvim
 maintenance
 marp
@@ -108,8 +112,10 @@ sequential
 silverlight
 simple-comic
 skim
+skitch
 skype
 skypewebplugin
+slack
 sourcetree
 spectacle
 spyder-py2
