@@ -32,11 +32,13 @@ elasticsearch
 erlang
 exa
 fabric
+ffmpeg
 findutils
 fish
 flake8
 gawk
 gcc
+geoip
 git-flow
 git-lfs
 glide
@@ -48,6 +50,7 @@ httpie
 hub
 ipython
 jenv
+jmeter
 jq
 kotlin
 kube-ps1
@@ -64,6 +67,8 @@ msgpack
 mypy
 neo4j
 netcat
+nginx
+octave
 osquery
 pidof
 pipenv
@@ -71,7 +76,8 @@ postgresql
 protobuf
 pssh
 pycodestyle
-python3
+python
+qcachegrind
 r
 rds-command-line-tools
 redis
@@ -91,11 +97,13 @@ stow
 suite-sparse
 teleport
 textql
+thrift
 tidy-html5
 tokyo-cabinet
 trash
 tree
 utf8proc
+uwsgi
 v8
 webkit2png
 wget
