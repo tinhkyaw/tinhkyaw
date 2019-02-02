@@ -54,7 +54,7 @@
  '(inhibit-startup-screen t)
  '(package-selected-packages
    (quote
-    (use-package thrift scala-mode sbt-mode projectile pig-mode hive gradle-mode exec-path-from-shell color-theme cider better-defaults))))
+    (use-package thrift projectile pig-mode hive gradle-mode exec-path-from-shell color-theme cider better-defaults))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -108,6 +108,8 @@
 
 (setq auto-fill-mode 1)
 
+(setq warning-minimum-level :emergency)
+
 ;; fix the PATH variable
 (defun set-exec-path-from-shell-PATH ()
   (let ((path-from-shell (shell-command-to-string "TERM=vt100 $SHELL -i -c 'echo $PATH'")))
@@ -120,7 +122,6 @@
 (require 'package)
 (package-initialize)
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
-                         ("marmalade" . "http://marmalade-repo.org/packages/")
                          ("melpa" . "http://melpa.org/packages/")
                          ("melpa-stable" . "http://stable.melpa.org/packages/")
                          ("org" . "http://orgmode.org/elpa/"))
@@ -161,19 +162,6 @@ package-archive-priorities '(("melpa-stable" . 1)))
 (use-package projectile
              :ensure t)
 
-(use-package sbt-mode
-  :commands sbt-start sbt-command
-  :config
-  ;; WORKAROUND: https://github.com/ensime/emacs-sbt-mode/issues/31
-  ;; allows using SPACE when in the minibuffer
-  (substitute-key-definition
-   'minibuffer-complete-word
-   'self-insert-command
-   minibuffer-local-completion-map))
-
-(use-package scala-mode
-             :ensure t)
-
 (use-package thrift
              :ensure t)
 
@@ -184,8 +172,6 @@ package-archive-priorities '(("melpa-stable" . 1)))
 (require 'gradle-mode)
 (require 'hive)
 (require 'pig-mode)
-(require 'sbt-mode)
-(require 'scala-mode)
 (require 'thrift)
 
 (add-to-list 'auto-mode-alist '("\\.\\(php\\|inc\\)$" . php-mode))
