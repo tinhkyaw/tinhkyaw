@@ -14,8 +14,8 @@ bandit==1.5.1
 beautifulsoup4==4.7.1
 billiard==3.6.0.0
 bleach==3.1.0
-boto3==1.9.90
-botocore==1.12.90
+boto3==1.9.91
+botocore==1.12.91
 bottle==0.12.16
 celery==4.2.1
 cement==3.0.2
@@ -27,7 +27,7 @@ colorama==0.4.1
 configparser==3.7.1
 croniter==0.3.27
 cycler==0.10.0
-Cython==0.29.4
+Cython==0.29.5
 decorator==4.3.2
 defusedxml==0.5.0
 dill==0.2.9
@@ -140,7 +140,7 @@ requirements-parser==0.2.0
 rope==0.11.0
 s3transfer==0.2.0
 scikit-learn==0.20.2
-scipy==1.2.0
+scipy==1.2.1
 seaborn==0.9.0
 setproctitle==1.1.10
 shellingham==1.2.8
@@ -156,7 +156,7 @@ tenacity==5.0.3
 tensorboard==1.12.2
 thrift==0.11.0
 toml==0.10.0
-torch==1.0.1
+torch==1.0.1.post2
 torchvision==0.2.1
 tornado==5.1.1
 traitlets==4.3.2
