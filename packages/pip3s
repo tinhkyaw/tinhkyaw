@@ -14,8 +14,8 @@ bandit==1.5.1
 beautifulsoup4==4.7.1
 billiard==3.6.0.0
 bleach==3.1.0
-boto3==1.9.92
-botocore==1.12.92
+boto3==1.9.93
+botocore==1.12.93
 bottle==0.12.16
 celery==4.2.1
 cement==3.0.2
@@ -98,7 +98,7 @@ numpy==1.16.1
 ordereddict==1.1
 packaging==19.0
 pandas==0.24.1
-parso==0.3.3
+parso==0.3.4
 pbr==5.1.2
 pendulum==2.0.4
 pexpect==4.6.0
