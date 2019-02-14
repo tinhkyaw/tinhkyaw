@@ -14,8 +14,8 @@ bandit==1.5.1
 beautifulsoup4==4.7.1
 billiard==3.6.0.0
 bleach==3.1.0
-boto3==1.9.93
-botocore==1.12.93
+boto3==1.9.94
+botocore==1.12.94
 bottle==0.12.16
 celery==4.2.1
 cement==3.0.2
@@ -72,7 +72,7 @@ jsonschema==2.6.0
 Keras==2.2.4
 Keras-Applications==1.0.7
 Keras-Preprocessing==1.0.9
-keyring==17.1.1
+keyring==18.0.0
 kiwisolver==1.0.1
 kombu==4.3.0
 lazy-object-proxy==1.3.1
@@ -124,7 +124,7 @@ PyGObject==3.30.4
 pylint==2.2.2
 pyparsing==2.3.1
 pyspark==2.4.0
-pytest==4.2.0
+pytest==4.2.1
 python-daemon==2.2.3
 python-dateutil==2.8.0
 python-editor==1.0.4
