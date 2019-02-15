@@ -1,0 +1,18 @@
+#!/usr/bin/env zsh
+
+for a in "$@"
+do
+    if [[ "$a" == s3://* ]]
+    then
+        p="$a"
+    else
+        p="s3://$a"
+    fi
+    bucket=$(echo $p | cut -d '/' -f 3)
+    for k in $(aws s3 ls --recursive $p | cut -c 32-)
+    do
+        s3_path="s3://$bucket/$k"
+        print -P "%F{blue}${s3_path}%f"
+        aws s3 cp $s3_path - | cat
+    done
+done
