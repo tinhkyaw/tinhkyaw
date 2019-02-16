@@ -26,7 +26,7 @@ do
       print -P "%F{yellow}Ignoring %F{cyan}${app}%f"
     else
       print -P "%F{yellow}Reinstalling%f ${ver} %F{cyan}${app}%f"
-      brew cask reinstall ${app}
+      brew cask reinstall --force ${app}
     fi
   else
     if grep -Fxq ${app} "${DIR}/ignored"
@@ -37,7 +37,7 @@ do
       then
         print -P "%F{blue}Latest %F{cyan}${app}: ${ver}%f already installed"
       else
-        brew cask reinstall ${app}
+        brew cask reinstall --force ${app}
       fi
     fi
   fi
