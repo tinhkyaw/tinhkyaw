@@ -24,7 +24,7 @@ chardet==3.0.4
 Click==7.0
 click-completion==0.5.0
 colorama==0.4.1
-configparser==3.7.2
+configparser==3.7.3
 croniter==0.3.27
 cycler==0.10.0
 Cython==0.29.5
@@ -41,7 +41,7 @@ Flask==1.0.2
 Flask-Admin==1.5.3
 Flask-AppBuilder==1.12.3
 Flask-Babel==0.12.2
-Flask-Caching==1.4.0
+Flask-Caching==1.5.0
 Flask-Login==0.4.1
 Flask-OpenID==1.2.5
 Flask-SQLAlchemy==2.3.2
@@ -68,7 +68,7 @@ jedi==0.13.2
 Jinja2==2.10
 jmespath==0.9.3
 json-merge-patch==0.2
-jsonschema==2.6.0
+jsonschema==3.0.0
 Keras==2.2.4
 Keras-Applications==1.0.7
 Keras-Preprocessing==1.0.9
@@ -82,7 +82,7 @@ luigi==2.8.3
 lxml==4.3.1
 Mako==1.0.7
 Markdown==3.0.1
-MarkupSafe==1.1.0
+MarkupSafe==1.1.1
 matplotlib==3.0.2
 mccabe==0.6.1
 memory-profiler==0.55.0
@@ -123,6 +123,7 @@ Pygments==2.3.1
 PyGObject==3.30.4
 pylint==2.2.2
 pyparsing==2.3.1
+pyrsistent==0.14.11
 pyspark==2.4.0
 pytest==4.3.0
 python-daemon==2.2.3
