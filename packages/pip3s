@@ -1,6 +1,6 @@
 absl-py==0.7.0
 alembic==1.0.7
-amqp==2.4.1
+amqp==2.4.2
 apache-airflow==1.10.2
 apache-libcloud==2.4.0
 appdirs==1.4.3
