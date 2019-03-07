@@ -15,8 +15,8 @@ bandit==1.5.1
 beautifulsoup4==4.7.1
 billiard==3.6.0.0
 bleach==3.1.0
-boto3==1.9.108
-botocore==1.12.108
+boto3==1.9.109
+botocore==1.12.109
 bottle==0.12.16
 celery==4.2.1
 cement==3.0.2
@@ -43,7 +43,7 @@ Flask==1.0.2
 Flask-Admin==1.5.3
 Flask-AppBuilder==1.12.3
 Flask-Babel==0.12.2
-Flask-Caching==1.5.0
+Flask-Caching==1.6.0
 Flask-Login==0.4.1
 Flask-OpenID==1.2.5
 Flask-SQLAlchemy==2.3.2
