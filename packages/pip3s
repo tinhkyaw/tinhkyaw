@@ -38,7 +38,7 @@ editdistance==0.5.2
 entrypoints==0.3
 enum34==1.1.6
 filelock==3.0.10
-first==2.0.1
+first==2.0.2
 Flask==1.0.2
 Flask-Admin==1.5.3
 Flask-AppBuilder==1.12.3
