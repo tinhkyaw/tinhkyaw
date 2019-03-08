@@ -45,4 +45,6 @@
     "markdownlint.customRules": [
         "{docsmsft.docs-markdown}/markdownlint-custom-rules/rules.js"
     ],
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 }
