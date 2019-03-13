@@ -15,8 +15,8 @@ bandit==1.5.1
 beautifulsoup4==4.7.1
 billiard==3.6.0.0
 bleach==3.1.0
-boto3==1.9.112
-botocore==1.12.112
+boto3==1.9.113
+botocore==1.12.113
 bottle==0.12.16
 celery==4.2.1
 cement==3.0.2
@@ -128,7 +128,7 @@ pylint==2.3.1
 pyparsing==2.3.1
 pyrsistent==0.14.11
 pyspark==2.4.0
-pytest==4.3.0
+pytest==4.3.1
 python-daemon==2.2.3
 python-dateutil==2.8.0
 python-editor==1.0.4
