@@ -3,6 +3,7 @@ carbon-now-cli
 cordova
 eslint
 ios-deploy
+jscs
 jshint
 npm-check
 npm-check-updates
