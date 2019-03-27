@@ -1,12 +1,11 @@
 Buildship Gradle Integration
-Checkstyle
 Corrosion
 Counterclockwise
 Darkest Dark Theme
 EclEmma
 Eclipse TeXlipse
+eclipse-pmd
 Enhanced Class Decompiler
-InstaSearch
 Json Editor
 Kotlin
 OS X Eclipse Launcher
@@ -17,7 +16,4 @@ Scalastyle
 Shell Script (DLTK)
 SonarLint
 SpotBugs
-StatET
-TestNG
-TM Terminal
-YEdit
+Yaml Editor
