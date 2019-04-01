@@ -51,7 +51,7 @@ geany
 gimp
 github
 gitx
-google-adwords-editor
+google-ads-editor
 google-backup-and-sync
 google-chrome
 google-cloud-sdk
@@ -92,6 +92,7 @@ marp
 meteorologist
 minikube
 mono-mdk
+mono-mdk516
 mysqlworkbench
 netbeans
 notion
