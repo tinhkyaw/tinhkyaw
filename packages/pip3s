@@ -109,7 +109,7 @@ pbr==5.1.3
 pendulum==2.0.4
 pexpect==4.6.0
 pickleshare==0.7.5
-Pillow==5.4.1
+Pillow==6.0.0
 pip-tools==3.5.0
 pipdeptree==0.13.2
 pipfile==0.0.2
@@ -183,7 +183,7 @@ virtualenv-clone==0.5.2
 virtualenvwrapper==4.8.4
 wcwidth==0.1.7
 webencodings==0.5.1
-Werkzeug==0.15.1
+Werkzeug==0.15.2
 whichcraft==0.5.2
 wrapt==1.11.1
 WTForms==2.2.1
