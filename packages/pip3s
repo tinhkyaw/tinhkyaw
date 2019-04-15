@@ -147,7 +147,7 @@ pyppeteer==0.0.25
 pyquery==1.4.0
 pyrsistent==0.14.11
 pyspark==2.4.1
-pytest==4.4.0
+pytest==4.4.1
 python-daemon==2.2.3
 python-dateutil==2.8.0
 python-editor==1.0.4
