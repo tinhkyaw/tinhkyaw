@@ -65,7 +65,7 @@ gitdb2==2.0.5
 GitPython==2.1.11
 graphviz==0.10.1
 greenlet==0.4.15
-grpcio==1.19.0
+grpcio==1.20.0
 gunicorn==19.9.0
 h5py==2.9.0
 html5lib==1.0.1
