@@ -31,7 +31,7 @@ click-completion==0.5.1
 colorama==0.4.1
 configparser==3.7.4
 cookiecutter==1.6.0
-croniter==0.3.29
+croniter==0.3.30
 cssselect==1.0.3
 cycler==0.10.0
 Cython==0.29.7
@@ -139,7 +139,7 @@ pycairo==1.18.1
 pycodestyle==2.5.0
 pyee==6.0.0
 Pygments==2.3.1
-PyGObject==3.32.0
+PyGObject==3.32.1
 PyJWT==1.7.1
 pylint==2.3.1
 pyparsing==2.4.0
