@@ -18,8 +18,8 @@ beautifulsoup4==4.7.1
 billiard==3.6.0.0
 binaryornot==0.4.4
 bleach==3.1.0
-boto3==1.9.135
-botocore==1.12.135
+boto3==1.9.136
+botocore==1.12.136
 bottle==0.12.16
 bs4==0.0.1
 celery==4.3.0
@@ -65,7 +65,7 @@ gitdb2==2.0.5
 GitPython==2.1.11
 graphviz==0.10.1
 greenlet==0.4.15
-grpcio==1.20.0
+grpcio==1.20.1
 gunicorn==19.9.0
 h5py==2.9.0
 html5lib==1.0.1
@@ -129,7 +129,7 @@ prison==0.1.0
 prompt-toolkit==2.0.9
 protobuf==3.7.1
 pss==1.42
-psutil==5.6.1
+psutil==5.6.2
 ptyprocess==0.6.0
 py==1.8.0
 py4j==0.10.8.1
@@ -145,7 +145,7 @@ pylint==2.3.1
 pyparsing==2.4.0
 pyppeteer==0.0.25
 pyquery==1.4.0
-pyrsistent==0.14.11
+pyrsistent==0.15.0
 pyspark==2.4.2
 pytest==4.4.1
 python-daemon==2.2.3
