@@ -1,4 +1,5 @@
 Andmore
+AWS Toolkit
 Buildship Gradle Integration
 Checkstyle
 Corrosion
@@ -8,6 +9,7 @@ EclEmma
 Eclipse TeXlipse
 eclipse-pmd
 Enhanced Class Decompiler
+Google CLoud Tools
 Json Editor
 Kotlin
 OS X Eclipse Launcher
@@ -15,7 +17,7 @@ pmd-eclipse-plugin
 PyDev
 Scala-IDE
 Scalastyle
-Shell Script (DLTK)
+ShellWax
 SonarLint
 SpotBugs
 Yaml Editor
