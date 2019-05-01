@@ -18,8 +18,8 @@ beautifulsoup4==4.7.1
 billiard==3.6.0.0
 binaryornot==0.4.4
 bleach==3.1.0
-boto3==1.9.138
-botocore==1.12.138
+boto3==1.9.139
+botocore==1.12.139
 bottle==0.12.16
 bs4==0.0.1
 celery==4.3.0
@@ -181,7 +181,7 @@ tensorboard==1.13.1
 text-unidecode==1.2
 thrift==0.11.0
 toml==0.10.0
-torch==1.0.1.post2
+torch==1.1.0
 torchvision==0.2.2.post3
 tornado==6.0.2
 tox==3.9.0
