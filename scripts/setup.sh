@@ -21,7 +21,7 @@ brew install cask
 brew tap caskroom/fonts
 brew tap caskroom/versions
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-brew cask install google-chrome java8 java mactex osxfuse xquartz
+brew cask install google-chrome java mactex osxfuse xquartz
 cat ${GIT_ROOT_DIR}/packages/brews | xargs brew install
 cat ${GIT_ROOT_DIR}/packages/casks | xargs brew cask install
 apm install --packages-file ${GIT_ROOT_DIR}/packages/atom_packages

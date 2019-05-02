@@ -61,6 +61,7 @@ kubernetes-helm
 leiningen
 luajit
 lzip
+maven
 memcached
 mercurial
 metis
