@@ -1,3 +1,2 @@
 #!/usr/bin/env bash
-PORT=$(shuf -i 2000-65000 -n 1)
-ssh -fND $PORT hadoop@"$@"
+ssh -fND 8157 hadoop@"$@"
