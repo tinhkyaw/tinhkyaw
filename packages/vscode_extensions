@@ -13,7 +13,6 @@ ericadamski.carbon-now-sh
 fwcd.kotlin
 fwcd.kotlindebug
 Gimly81.matlab
-GitHub.vscode-pull-request-github
 HookyQR.beautify
 korekontrol.saltstack
 lightbend.vscode-sbt-scala
@@ -28,7 +27,6 @@ msjsdiag.debugger-for-edge
 ms-kubernetes-tools.vscode-kubernetes-tools
 ms-python.anaconda-extension-pack
 ms-python.python
-ms-toolsai.vscode-ai
 ms-vscode.cpptools
 ms-vscode.csharp
 ms-vscode.github-issues-prs
@@ -36,7 +34,6 @@ ms-vscode.Go
 ms-vscode.jscs
 ms-vscode.mono-debug
 ms-vscode.vscode-typescript-tslint-plugin
-ms-vsliveshare.vsliveshare-pack
 oderwat.indent-rainbow
 PeterJausovec.vscode-docker
 rust-lang.rust
