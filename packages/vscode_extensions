@@ -23,10 +23,8 @@ mathiasfrohlich.Kotlin
 mechatroner.rainbow-csv
 mitaki28.vscode-clang
 ms-devlabs.extension-manifest-editor
-msjsdiag.cordova-tools
 msjsdiag.debugger-for-chrome
 msjsdiag.debugger-for-edge
-msjsdiag.vscode-react-native
 ms-kubernetes-tools.vscode-kubernetes-tools
 ms-python.anaconda-extension-pack
 ms-python.python
@@ -48,7 +46,6 @@ tootone.org-mode
 vscjava.vscode-java-dependency
 vscjava.vscode-java-pack
 vscoss.vscode-ansible
-vsmobile.vscode-react-native
 waderyan.gitblame
 wholroyd.jinja
 zxh404.vscode-proto3

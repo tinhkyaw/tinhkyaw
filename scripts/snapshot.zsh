@@ -23,7 +23,7 @@ conda list > ${SNAPSHOT_DIR}/conda${SUFFIX}.txt
 apm list --installed --bare > ${SNAPSHOT_DIR}/atom${SUFFIX}.txt
 apm list --installed --bare > ${PKG_DIR}/atom_packages
 code --list-extensions --show-versions | sort -d -f > ${SNAPSHOT_DIR}/code${SUFFIX}.txt
-VSCODE_EXCLUSIONS='DavidAnson.vscode-markdownlint|VisualStudioExptTeam.vscodeintellicode|alefragnani.project-manager|codezombiech.gitignore|docsmsft.docs-article-templates|docsmsft.docs-markdown|docsmsft.docs-preview|docsmsft.docs-yaml|donjayamanne.githistory|eamodio.gitlens|karigari.chat|ms-vscode.azure-account|ms-vsliveshare.vsliveshare$|ms-vsliveshare.vsliveshare-audio|msjsdiag.debugger-for-ios-web|redhat.java|redhat.vscode-yaml|vscjava.vscode-java-debug|vscjava.vscode-java-test|vscjava.vscode-maven|ziyasal.vscode-open-in-github'
+VSCODE_EXCLUSIONS='DavidAnson.vscode-markdownlint|VisualStudioExptTeam.vscodeintellicode|alefragnani.project-manager|codezombiech.gitignore|docsmsft.docs-article-templates|docsmsft.docs-markdown|docsmsft.docs-preview|docsmsft.docs-yaml|donjayamanne.githistory|eamodio.gitlens|karigari.chat|ms-vscode.azure-account|ms-vsliveshare.vsliveshare$|ms-vsliveshare.vsliveshare-audio|msjsdiag.debugger-for-ios-web|redhat.java|redhat.vscode-yaml|vscjava.vscode-java-debug|vscjava.vscode-java-test|vscjava.vscode-maven|ziyasal.vscode-open-in-github|vsmobile.*'
 code --list-extensions | egrep -vi ${VSCODE_EXCLUSIONS} | sort -d -f > ${PKG_DIR}/vscode_extensions
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --version > ${SNAPSHOT_DIR}/chrome${SUFFIX}.txt
 cd ${WD}
