@@ -18,8 +18,8 @@ beautifulsoup4==4.7.1
 billiard==3.6.0.0
 binaryornot==0.4.4
 bleach==3.1.0
-boto3==1.9.147
-botocore==1.12.147
+boto3==1.9.148
+botocore==1.12.148
 bottle==0.12.16
 bs4==0.0.1
 celery==4.3.0
@@ -49,7 +49,7 @@ filelock==3.0.10
 first==2.0.2
 Flask==1.0.2
 Flask-Admin==1.5.3
-Flask-AppBuilder==2.1.2
+Flask-AppBuilder==2.1.3
 Flask-Babel==0.12.2
 Flask-Caching==1.7.1
 Flask-JWT-Extended==3.18.2
@@ -202,7 +202,7 @@ w3lib==1.20.0
 wcwidth==0.1.7
 webencodings==0.5.1
 websockets==7.0
-Werkzeug==0.15.2
+Werkzeug==0.15.3
 whichcraft==0.5.2
 wrapt==1.11.1
 WTForms==2.2.1
