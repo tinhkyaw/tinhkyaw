@@ -74,7 +74,7 @@ importlib-metadata==0.12
 invoke==1.2.0
 ipython-genutils==0.2.0
 iso8601==0.1.12
-isort==4.3.19
+isort==4.3.20
 itsdangerous==1.1.0
 jedi==0.13.3
 Jinja2==2.10.1
@@ -202,7 +202,7 @@ w3lib==1.20.0
 wcwidth==0.1.7
 webencodings==0.5.1
 websockets==7.0
-Werkzeug==0.15.3
+Werkzeug==0.15.4
 whichcraft==0.5.2
 wrapt==1.11.1
 WTForms==2.2.1
