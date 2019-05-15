@@ -24,6 +24,7 @@ mitaki28.vscode-clang
 ms-devlabs.extension-manifest-editor
 msjsdiag.debugger-for-chrome
 msjsdiag.debugger-for-edge
+msjsdiag.vscode-react-native
 ms-kubernetes-tools.vscode-kubernetes-tools
 ms-python.anaconda-extension-pack
 ms-python.python
