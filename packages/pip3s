@@ -93,7 +93,7 @@ kombu==4.5.0
 lazy-object-proxy==1.4.1
 lockfile==0.12.2
 locustio==0.11.0
-luigi==2.8.5
+luigi==2.8.6
 lxml==4.3.3
 Mako==1.0.10
 Markdown==3.1.1
@@ -125,6 +125,7 @@ pickleshare==0.7.5
 Pillow==6.0.0
 pip-tools==3.7.0
 pipdeptree==0.13.2
+pipenv==2018.11.26
 pipfile==0.0.2
 pluggy==0.11.0
 poyo==0.4.2
