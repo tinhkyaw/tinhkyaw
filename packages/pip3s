@@ -34,7 +34,7 @@ cookiecutter==1.6.0
 croniter==0.3.30
 cssselect==1.0.3
 cycler==0.10.0
-Cython==0.29.8
+Cython==0.29.9
 dask==1.2.2
 decorator==4.4.0
 defusedxml==0.6.0
