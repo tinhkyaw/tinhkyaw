@@ -18,8 +18,8 @@ beautifulsoup4==4.7.1
 billiard==3.6.0.0
 binaryornot==0.4.4
 bleach==3.1.0
-boto3==1.9.159
-botocore==1.12.159
+boto3==1.9.160
+botocore==1.12.160
 bottle==0.12.16
 bs4==0.0.1
 celery==4.3.0
@@ -64,7 +64,7 @@ future==0.17.1
 gevent==1.4.0
 gitdb2==2.0.5
 GitPython==2.1.11
-graphviz==0.10.1
+graphviz==0.11
 greenlet==0.4.15
 grpcio==1.21.1
 gunicorn==19.9.0
@@ -151,7 +151,7 @@ pyppeteer==0.0.25
 pyquery==1.4.0
 pyrsistent==0.15.2
 pyspark==2.4.3
-pytest==4.6.1
+pytest==4.6.2
 python-daemon==2.2.3
 python-dateutil==2.8.0
 python-editor==1.0.4
