@@ -34,7 +34,7 @@ cookiecutter==1.6.0
 croniter==0.3.30
 cssselect==1.0.3
 cycler==0.10.0
-Cython==0.29.9
+Cython==0.29.10
 dask==1.2.2
 decorator==4.4.0
 defusedxml==0.6.0
@@ -151,7 +151,7 @@ pyppeteer==0.0.25
 pyquery==1.4.0
 pyrsistent==0.15.2
 pyspark==2.4.3
-pytest==4.5.0
+pytest==4.6.1
 python-daemon==2.2.3
 python-dateutil==2.8.0
 python-editor==1.0.4
