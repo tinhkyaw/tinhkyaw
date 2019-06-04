@@ -5,7 +5,7 @@ then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 brew tap facebook/fb
-brew install coreutils git mysql python ruby swig zsh
+brew install coreutils git mysql python ruby swig
 export SLUGIFY_USES_TEXT_UNIDECODE=yes
 pip3 install -U virtualenvwrapper
 DIR=$(dirname "$(greadlink -f "${0}")")
