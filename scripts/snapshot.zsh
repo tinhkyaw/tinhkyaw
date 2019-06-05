@@ -22,9 +22,28 @@ pip3 freeze --local > ${PKG_DIR}/pip3s
 conda list > ${SNAPSHOT_DIR}/conda${SUFFIX}.txt
 apm list --installed --bare > ${SNAPSHOT_DIR}/atom${SUFFIX}.txt
 apm list --installed --bare > ${PKG_DIR}/atom_packages
-code --list-extensions --show-versions | sort -d -f > ${SNAPSHOT_DIR}/code${SUFFIX}.txt
-VSCODE_EXCLUSIONS='^docsmsft.docs.*|^donjayamanne.*|^redhat.*|^vscjava.vscode.*|.*code-spell-checker$|.*django$|.*gitignore$|.*gitlens$|.*intellicode$|.*jinja$|.*markdownlint$|.*open-in-github$|.*project-manager$|.*python$'
-VSCODE_INCLUSIONS='.*-pack$'
-sort -d -f <(code --list-extensions | egrep ${VSCODE_INCLUSIONS}) <(code --list-extensions | egrep -vi ${VSCODE_EXCLUSIONS}) > ${PKG_DIR}/vscode_extensions
-/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --version > ${SNAPSHOT_DIR}/chrome${SUFFIX}.txt
+code --list-extensions --show-versions | sort -d -f \
+> ${SNAPSHOT_DIR}/code${SUFFIX}.txt
+VSCODE_EXCLUSIONS="\
+^docsmsft.docs.*|\
+^donjayamanne.*|\
+^redhat.*|\
+^vscjava.vscode.*|\
+.*code-spell-checker$|\
+.*django$|\
+.*gitignore$|\
+.*gitlens$|\
+.*intellicode$|\
+.*jinja$|\
+.*markdownlint$|\
+.*open-in-github$|\
+.*project-manager$|\
+.*python$\
+"
+VSCODE_INCLUSIONS=".*-pack$"
+sort -d -f <(code --list-extensions | egrep ${VSCODE_INCLUSIONS}) \
+<(code --list-extensions | egrep -vi ${VSCODE_EXCLUSIONS}) \
+> ${PKG_DIR}/vscode_extensions
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --version > \
+${SNAPSHOT_DIR}/chrome${SUFFIX}.txt
 cd ${WD}
