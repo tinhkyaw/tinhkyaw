@@ -95,7 +95,7 @@ lockfile==0.12.2
 locustio==0.11.0
 luigi==2.8.6
 lxml==4.3.3
-Mako==1.0.11
+Mako==1.0.12
 Markdown==3.1.1
 MarkupSafe==1.1.1
 marshmallow==2.19.2
