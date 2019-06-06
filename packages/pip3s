@@ -50,7 +50,7 @@ filelock==3.0.12
 first==2.0.2
 Flask==1.0.3
 Flask-Admin==1.5.3
-Flask-AppBuilder==2.1.3
+Flask-AppBuilder==2.1.4
 Flask-Babel==0.12.2
 Flask-Caching==1.7.2
 Flask-JWT-Extended==3.18.2
@@ -178,6 +178,7 @@ six==1.12.0
 smmap2==2.0.5
 soupsieve==1.9.1
 SQLAlchemy==1.3.4
+SQLAlchemy-Utils==0.33.11
 stevedore==1.30.1
 tabulate==0.8.3
 tenacity==5.0.4
