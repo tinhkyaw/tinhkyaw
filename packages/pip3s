@@ -18,8 +18,8 @@ beautifulsoup4==4.7.1
 billiard==3.6.0.0
 binaryornot==0.4.4
 bleach==3.1.0
-boto3==1.9.168
-botocore==1.12.168
+boto3==1.9.169
+botocore==1.12.169
 bottle==0.12.16
 bs4==0.0.1
 celery==4.3.0
@@ -89,7 +89,7 @@ Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.0
 keyring==19.0.2
 kiwisolver==1.1.0
-kombu==4.6.1
+kombu==4.6.2
 lazy-object-proxy==1.4.1
 lockfile==0.12.2
 locustio==0.11.0
