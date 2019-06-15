@@ -13,7 +13,7 @@ attrs==19.1.0
 autopep8==1.4.4
 Babel==2.7.0
 backcall==0.1.0
-bandit==1.6.0
+bandit==1.6.1
 beautifulsoup4==4.7.1
 billiard==3.6.0.0
 binaryornot==0.4.4
@@ -89,7 +89,7 @@ Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.0
 keyring==19.0.2
 kiwisolver==1.1.0
-kombu==4.6.2
+kombu==4.6.3
 lazy-object-proxy==1.4.1
 lockfile==0.12.2
 locustio==0.11.0
