@@ -18,8 +18,8 @@ beautifulsoup4==4.7.1
 billiard==3.6.0.0
 binaryornot==0.4.4
 bleach==3.1.0
-boto3==1.9.169
-botocore==1.12.169
+boto3==1.9.170
+botocore==1.12.170
 bottle==0.12.16
 bs4==0.0.1
 celery==4.3.0
@@ -98,7 +98,7 @@ lxml==4.3.4
 Mako==1.0.12
 Markdown==3.1.1
 MarkupSafe==1.1.1
-marshmallow==2.19.4
+marshmallow==2.19.5
 marshmallow-enum==1.4.1
 marshmallow-sqlalchemy==0.16.4
 matplotlib==3.1.0
@@ -177,7 +177,7 @@ singledispatch==3.4.0.3
 six==1.12.0
 smmap2==2.0.5
 soupsieve==1.9.1
-SQLAlchemy==1.3.4
+SQLAlchemy==1.3.5
 SQLAlchemy-Utils==0.34.0
 stevedore==1.30.1
 tabulate==0.8.3
@@ -207,7 +207,7 @@ webencodings==0.5.1
 websockets==7.0
 Werkzeug==0.15.4
 whichcraft==0.5.2
-wrapt==1.11.1
+wrapt==1.11.2
 WTForms==2.2.1
 yapf==0.27.0
 yolk==0.4.3
