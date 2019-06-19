@@ -19,6 +19,7 @@ lonefy.vscode-JS-CSS-HTML-formatter
 mathiasfrohlich.Kotlin
 mechatroner.rainbow-csv
 mitaki28.vscode-clang
+ms-azuretools.vscode-docker
 ms-devlabs.extension-manifest-editor
 msjsdiag.cordova-tools
 msjsdiag.debugger-for-chrome
@@ -35,7 +36,6 @@ ms-vscode.jscs
 ms-vscode.mono-debug
 ms-vscode.vscode-typescript-tslint-plugin
 oderwat.indent-rainbow
-PeterJausovec.vscode-docker
 rust-lang.rust
 tcwalther.cython
 tootone.org-mode
