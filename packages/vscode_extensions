@@ -1,5 +1,6 @@
 2gua.rainbow-brackets
 christian-kohler.npm-intellisense
+christian-kohler.path-intellisense
 dbaeumer.jshint
 dbaeumer.vscode-eslint
 DevonDCarew.bazel-code
@@ -9,6 +10,7 @@ donjayamanne.python-extension-pack
 DotJoshJohnson.xml
 eg2.vscode-npm-script
 ericadamski.carbon-now-sh
+formulahendry.code-runner
 fwcd.kotlin
 fwcd.kotlindebug
 Gimly81.matlab
