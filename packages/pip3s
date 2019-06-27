@@ -161,7 +161,7 @@ python3-openid==3.1.0
 pytz==2019.1
 pytzdata==2019.1
 PyYAML==5.1.1
-pyzmq==18.0.1
+pyzmq==18.0.2
 requests==2.22.0
 requests-html==0.10.0
 requirements-parser==0.2.0
