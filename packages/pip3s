@@ -34,7 +34,7 @@ cookiecutter==1.6.0
 croniter==0.3.30
 cssselect==1.0.3
 cycler==0.10.0
-Cython==0.29.11
+Cython==0.29.12
 dask==2.0.0
 decorator==4.4.0
 defusedxml==0.6.0
@@ -50,7 +50,7 @@ filelock==3.0.12
 first==2.0.2
 Flask==1.1.0
 Flask-Admin==1.5.3
-Flask-AppBuilder==2.1.5
+Flask-AppBuilder==2.1.6
 Flask-Babel==0.12.2
 Flask-Caching==1.7.2
 Flask-JWT-Extended==3.20.0
@@ -149,7 +149,7 @@ pylint==2.3.1
 pyparsing==2.4.0
 pyppeteer==0.0.25
 pyquery==1.4.0
-pyrsistent==0.15.2
+pyrsistent==0.15.3
 pyspark==2.4.3
 pytest==5.0.1
 python-daemon==2.2.3
@@ -204,12 +204,12 @@ virtualenvwrapper==4.8.4
 w3lib==1.20.0
 wcwidth==0.1.7
 webencodings==0.5.1
-websockets==7.0
+websockets==8.0
 Werkzeug==0.15.4
 whichcraft==0.5.2
 wrapt==1.11.2
 WTForms==2.2.1
 yapf==0.27.0
 yolk==0.4.3
-zipp==0.5.1
+zipp==0.5.2
 zope.deprecation==4.4.0
