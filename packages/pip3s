@@ -209,7 +209,7 @@ Werkzeug==0.15.4
 whichcraft==0.5.2
 wrapt==1.11.2
 WTForms==2.2.1
-yapf==0.27.0
+yapf==0.28.0
 yolk==0.4.3
 zipp==0.5.2
 zope.deprecation==4.4.0
