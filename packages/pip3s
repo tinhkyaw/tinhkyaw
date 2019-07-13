@@ -18,8 +18,8 @@ beautifulsoup4==4.7.1
 billiard==3.6.0.0
 binaryornot==0.4.4
 bleach==3.1.0
-boto3==1.9.187
-botocore==1.12.187
+boto3==1.9.188
+botocore==1.12.188
 bottle==0.12.17
 bs4==0.0.1
 celery==4.3.0
@@ -206,7 +206,7 @@ wcwidth==0.1.7
 webencodings==0.5.1
 websockets==8.0
 Werkzeug==0.15.4
-whichcraft==0.5.2
+whichcraft==0.6.0
 wrapt==1.11.2
 WTForms==2.2.1
 yapf==0.28.0
