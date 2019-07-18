@@ -18,8 +18,8 @@ beautifulsoup4==4.7.1
 billiard==3.6.0.0
 binaryornot==0.4.4
 bleach==3.1.0
-boto3==1.9.188
-botocore==1.12.188
+boto3==1.9.189
+botocore==1.12.189
 bottle==0.12.17
 bs4==0.0.1
 celery==4.3.0
@@ -118,12 +118,12 @@ packaging==19.0
 pandas==0.24.2
 parse==1.12.0
 parso==0.5.1
-pbr==5.4.0
+pbr==5.4.1
 pendulum==2.0.5
 pexpect==4.7.0
 pickleshare==0.7.5
 Pillow==6.1.0
-pip-tools==3.8.0
+pip-tools==3.9.0
 pipdeptree==0.13.2
 pipenv==2018.11.26
 pipfile==0.0.2
@@ -205,7 +205,7 @@ w3lib==1.20.0
 wcwidth==0.1.7
 webencodings==0.5.1
 websockets==8.0
-Werkzeug==0.15.4
+Werkzeug==0.15.5
 whichcraft==0.6.0
 wrapt==1.11.2
 WTForms==2.2.1
