@@ -18,8 +18,8 @@ beautifulsoup4==4.8.0
 billiard==3.6.0.0
 binaryornot==0.4.4
 bleach==3.1.0
-boto3==1.9.192
-botocore==1.12.192
+boto3==1.9.193
+botocore==1.12.193
 bottle==0.12.17
 bs4==0.0.1
 celery==4.3.0
@@ -139,7 +139,7 @@ psutil==5.6.3
 ptyprocess==0.6.0
 py==1.8.0
 py4j==0.10.8.1
-pyarrow==0.14.0
+pyarrow==0.14.1
 pybind11==2.3.0
 pycairo==1.18.1
 pycodestyle==2.5.0
