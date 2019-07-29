@@ -65,7 +65,7 @@ future==0.17.1
 gevent==1.4.0
 gitdb==0.6.4
 gitdb2==2.0.5
-GitPython==2.1.12
+GitPython==2.1.13
 graphviz==0.11.1
 greenlet==0.4.15
 grpcio==1.22.0
@@ -73,7 +73,7 @@ gunicorn==19.9.0
 h5py==2.9.0
 html5lib==1.0.1
 idna==2.8
-importlib-metadata==0.18
+importlib-metadata==0.19
 invoke==1.2.0
 ipython-genutils==0.2.0
 iso8601==0.1.12
