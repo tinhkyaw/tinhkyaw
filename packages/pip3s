@@ -51,7 +51,7 @@ filelock==3.0.12
 first==2.0.2
 Flask==1.1.1
 Flask-Admin==1.5.3
-Flask-AppBuilder==2.1.7
+Flask-AppBuilder==2.1.8
 Flask-Babel==0.12.2
 Flask-Caching==1.7.2
 Flask-JWT-Extended==3.21.0
@@ -60,7 +60,7 @@ Flask-OpenID==1.2.5
 Flask-SQLAlchemy==2.4.0
 flask-swagger==0.2.14
 Flask-WTF==0.14.2
-fsspec==0.4.0
+fsspec==0.4.1
 funcsigs==1.0.2
 future==0.17.1
 gevent==1.4.0
@@ -121,7 +121,7 @@ packaging==19.1
 pandas==0.25.0
 parse==1.12.0
 parso==0.5.1
-pbr==5.4.1
+pbr==5.4.2
 pendulum==2.0.5
 pexpect==4.7.0
 pickleshare==0.7.5
