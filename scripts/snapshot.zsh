@@ -46,4 +46,5 @@ sort -d -f <(code --list-extensions | egrep ${VSCODE_INCLUSIONS}) \
 > ${PKG_DIR}/vscode_extensions
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --version > \
 ${SNAPSHOT_DIR}/chrome${SUFFIX}.txt
+gcloud version > ${SNAPSHOT_DIR}/gcloud${SUFFIX}.txt
 cd ${WD}
