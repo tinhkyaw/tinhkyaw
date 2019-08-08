@@ -210,7 +210,7 @@ text-unidecode==1.2
 thrift==0.11.0
 toml==0.10.0
 torch==1.2.0
-torchvision==0.3.0
+torchvision==0.4.0
 tornado==6.0.3
 tox==3.13.2
 tqdm==4.33.0
