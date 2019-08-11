@@ -32,7 +32,7 @@ Click==7.0
 click-completion==0.5.1
 colorama==0.4.1
 colorlog==4.0.2
-configparser==3.7.4
+configparser==3.8.1
 cookiecutter==1.6.0
 croniter==0.3.30
 cssselect==1.1.0
@@ -102,7 +102,7 @@ lazy-object-proxy==1.4.1
 lockfile==0.12.2
 locustio==0.11.0
 luigi==2.8.7
-lxml==4.4.0
+lxml==4.4.1
 Mako==1.1.0
 Markdown==3.1.1
 MarkupSafe==1.1.1
