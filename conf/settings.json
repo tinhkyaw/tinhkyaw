@@ -2,6 +2,7 @@
 {
     "bazel.buildifierPath": "/usr/local/bin/buildifier",
     "editor.formatOnSave": true,
+    "editor.suggestSelection": "first",
     "extensions.autoUpdate": true,
     "files.associations": {
         "*.m": "matlab"
@@ -20,6 +21,11 @@
         "suppressShowKeyBindingsNotice": true
     },
     "gitlens.historyExplorer.enabled": true,
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "markdownlint.customRules": [
+        "{docsmsft.docs-markdown}/markdownlint-custom-rules/rules.js"
+    ],
     "matlab.lintOnSave": false,
     "python.formatting.autopep8Args": [
         "--global-config",
@@ -38,14 +44,8 @@
     "telemetry.enableCrashReporter": false,
     "terminal.integrated.fontFamily": "'Hack Nerd Font'",
     "terminal.integrated.fontSize": 14,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "workbench.colorTheme": "Solarized Dark",
     "workbench.editor.enablePreview": false,
-    "gitlens.views.fileHistory.enabled": true,
-    "gitlens.views.lineHistory.enabled": true,
-    "markdownlint.customRules": [
-        "{docsmsft.docs-markdown}/markdownlint-custom-rules/rules.js"
-    ],
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "yaml.schemaStore.enable": false,
 }
