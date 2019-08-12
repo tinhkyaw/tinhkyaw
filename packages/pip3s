@@ -55,7 +55,7 @@ filelock==3.0.12
 first==2.0.2
 Flask==1.1.1
 Flask-Admin==1.5.3
-Flask-AppBuilder==2.1.9
+Flask-AppBuilder==2.1.10
 Flask-Babel==0.12.2
 Flask-Caching==1.7.2
 Flask-JWT-Extended==3.21.0
@@ -70,7 +70,7 @@ future==0.17.1
 gevent==1.4.0
 gitdb==0.6.4
 gitdb2==2.0.5
-GitPython==2.1.13
+GitPython==3.0.0
 graphviz==0.11.1
 greenlet==0.4.15
 grpcio==1.22.0
@@ -85,7 +85,7 @@ ipython-genutils==0.2.0
 iso8601==0.1.12
 isort==4.3.21
 itsdangerous==1.1.0
-jedi==0.14.1
+jedi==0.15.0
 Jinja2==2.10.1
 jinja2-time==0.2.0
 jmespath==0.9.4
@@ -101,7 +101,7 @@ kombu==4.6.3
 lazy-object-proxy==1.4.1
 lockfile==0.12.2
 locustio==0.11.0
-luigi==2.8.7
+luigi==2.8.8
 lxml==4.4.1
 Mako==1.1.0
 Markdown==3.1.1
