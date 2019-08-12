@@ -47,4 +47,5 @@
     ],
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "yaml.schemaStore.enable": false,
 }
