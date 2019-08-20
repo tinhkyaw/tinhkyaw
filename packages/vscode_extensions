@@ -1,4 +1,5 @@
 2gua.rainbow-brackets
+bungcip.better-toml
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
 dbaeumer.jshint
@@ -14,6 +15,7 @@ formulahendry.code-runner
 fwcd.kotlin
 Gimly81.matlab
 HookyQR.beautify
+i80and.snooty
 korekontrol.saltstack
 lextudio.restructuredtext
 lightbend.vscode-sbt-scala
