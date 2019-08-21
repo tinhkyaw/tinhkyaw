@@ -19,8 +19,8 @@ beautifulsoup4==4.8.0
 billiard==3.6.1.0
 binaryornot==0.4.4
 bleach==3.1.0
-boto3==1.9.211
-botocore==1.12.211
+boto3==1.9.212
+botocore==1.12.212
 bottle==0.12.17
 bs4==0.0.1
 cached-property==1.5.1
@@ -109,7 +109,7 @@ Mako==1.1.0
 Markdown==3.1.1
 MarkupSafe==1.1.1
 marshmallow==3.0.0
-marshmallow-enum==1.4.1
+marshmallow-enum==1.5.1
 marshmallow-sqlalchemy==0.17.0
 matplotlib==3.1.1
 mccabe==0.6.1
@@ -163,7 +163,7 @@ pyppeteer==0.0.25
 pyquery==1.4.0
 pyrsistent==0.15.4
 pyspark==2.4.3
-pytest==5.1.0
+pytest==5.1.1
 python-daemon==2.2.3
 python-dateutil==2.8.0
 python-editor==1.0.4
