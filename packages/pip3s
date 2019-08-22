@@ -72,7 +72,7 @@ future==0.17.1
 gevent==1.4.0
 gitdb==0.6.4
 gitdb2==2.0.5
-GitPython==3.0.1
+GitPython==3.0.2
 graphviz==0.12
 greenlet==0.4.15
 grpcio==1.23.0
@@ -97,7 +97,7 @@ jsonschema==3.0.2
 Keras==2.2.4
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.0
-keyring==19.0.2
+keyring==19.1.0
 kiwisolver==1.1.0
 kombu==4.6.4
 lazy-object-proxy==1.4.2
