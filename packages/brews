@@ -81,6 +81,7 @@ pssh
 pycodestyle
 qcachegrind
 r
+rclone
 rds-command-line-tools
 redis
 rename
