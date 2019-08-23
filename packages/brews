@@ -2,6 +2,7 @@ ack
 amazon-ecs-cli
 ansible
 ant
+apache-flink
 apache-spark
 autoenv
 automake
