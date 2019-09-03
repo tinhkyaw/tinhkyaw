@@ -4,6 +4,7 @@ if ! command -v brew &> /dev/null
 then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
+brew tap adoptopenjdk/openjdk
 brew tap facebook/fb
 brew install coreutils git mysql python ruby swig
 export SLUGIFY_USES_TEXT_UNIDECODE=yes
@@ -18,8 +19,8 @@ then
   cat ${GIT_ROOT_DIR}/packages/npms | xargs npm install -g
 fi
 brew install cask
-brew tap caskroom/fonts
-brew tap caskroom/versions
+brew tap homebrew/cask-fonts
+brew tap homebrew/cask-versions
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 brew cask install google-chrome java mactex osxfuse xquartz
 cat ${GIT_ROOT_DIR}/packages/brews | xargs brew install

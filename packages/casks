@@ -2,6 +2,8 @@ adium
 adobe-acrobat-reader
 adobe-air
 adobe-digital-editions
+adoptopenjdk
+adoptopenjdk8
 alfred
 amazon-music
 anaconda
@@ -46,6 +48,7 @@ firefox
 flash-npapi
 flash-ppapi
 flux
+flycut
 font-hack-nerd-font
 font-hack-nerd-font-mono
 font-liberationmono-nerd-font
@@ -74,7 +77,6 @@ iterm2
 itsycal
 jabref
 java
-java8
 jd-gui
 jumpcut
 kap
