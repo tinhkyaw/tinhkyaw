@@ -19,8 +19,8 @@ beautifulsoup4==4.8.0
 billiard==3.6.1.0
 binaryornot==0.4.4
 bleach==3.1.0
-boto3==1.9.222
-botocore==1.12.222
+boto3==1.9.223
+botocore==1.12.223
 bottle==0.12.17
 bs4==0.0.1
 cached-property==1.5.1
@@ -193,7 +193,7 @@ singledispatch==3.4.0.3
 six==1.12.0
 smmap==0.9.0
 smmap2==2.0.5
-snowballstemmer==1.9.0
+snowballstemmer==1.9.1
 soupsieve==1.9.3
 Sphinx==2.2.0
 sphinx-rtd-theme==0.4.3
