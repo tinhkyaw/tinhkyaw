@@ -19,8 +19,8 @@ beautifulsoup4==4.8.0
 billiard==3.6.1.0
 binaryornot==0.4.4
 bleach==3.1.0
-boto3==1.9.224
-botocore==1.12.224
+boto3==1.9.225
+botocore==1.12.225
 bottle==0.12.17
 bs4==0.0.1
 cached-property==1.5.1
@@ -156,7 +156,6 @@ pycairo==1.18.1
 pycodestyle==2.5.0
 pyee==6.0.0
 Pygments==2.4.2
-PyGObject==3.32.2
 PyJWT==1.7.1
 pylint==2.3.1
 pyparsing==2.4.2
