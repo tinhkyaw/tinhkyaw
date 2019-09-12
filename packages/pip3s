@@ -19,14 +19,14 @@ beautifulsoup4==4.8.0
 billiard==3.6.1.0
 binaryornot==0.4.4
 bleach==3.1.0
-boto3==1.9.226
-botocore==1.12.226
+boto3==1.9.227
+botocore==1.12.227
 bottle==0.12.17
 bs4==0.0.1
 cached-property==1.5.1
 celery==4.3.0
 cement==3.0.4
-certifi==2019.6.16
+certifi==2019.9.11
 chardet==3.0.4
 Click==7.0
 click-completion==0.5.1
@@ -108,7 +108,7 @@ lxml==4.4.1
 Mako==1.1.0
 Markdown==3.1.1
 MarkupSafe==1.1.1
-marshmallow==3.0.3
+marshmallow==3.0.4
 marshmallow-enum==1.5.1
 marshmallow-sqlalchemy==0.19.0
 matplotlib==3.1.1
