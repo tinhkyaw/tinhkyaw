@@ -19,8 +19,8 @@ beautifulsoup4==4.8.0
 billiard==3.6.1.0
 binaryornot==0.4.4
 bleach==3.1.0
-boto3==1.9.228
-botocore==1.12.228
+boto3==1.9.229
+botocore==1.12.229
 bottle==0.12.17
 bs4==0.0.1
 cached-property==1.5.1
