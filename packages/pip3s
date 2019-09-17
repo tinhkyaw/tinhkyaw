@@ -4,7 +4,7 @@ alembic==1.1.0
 amqp==2.5.1
 apache-airflow==1.10.5
 apache-libcloud==2.6.0
-apispec==2.0.2
+apispec==3.0.0
 appdirs==1.4.3
 appnope==0.1.0
 arrow==0.15.2
@@ -108,7 +108,7 @@ lxml==4.4.1
 Mako==1.1.0
 Markdown==3.1.1
 MarkupSafe==1.1.1
-marshmallow==3.1.1
+marshmallow==3.2.0
 marshmallow-enum==1.5.1
 marshmallow-sqlalchemy==0.19.0
 matplotlib==3.1.1
