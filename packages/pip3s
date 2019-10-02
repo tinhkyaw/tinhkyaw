@@ -10,7 +10,7 @@ appnope==0.1.0
 arrow==0.15.2
 astroid==2.3.1
 atomicwrites==1.3.0
-attrs==19.1.0
+attrs==19.2.0
 autopep8==1.4.4
 Babel==2.7.0
 backcall==0.1.0
@@ -19,8 +19,8 @@ beautifulsoup4==4.8.0
 billiard==3.6.1.0
 binaryornot==0.4.4
 bleach==3.1.0
-boto3==1.9.239
-botocore==1.12.239
+boto3==1.9.240
+botocore==1.12.240
 bottle==0.12.17
 bs4==0.0.1
 cached-property==1.5.1
@@ -43,7 +43,7 @@ ddt==1.2.1
 decorator==4.4.0
 defusedxml==0.6.0
 dill==0.3.1.1
-Django==2.2.5
+Django==2.2.6
 doc8==0.8.0
 docopt==0.6.2
 docsend==0.1.3
@@ -91,7 +91,7 @@ jedi==0.15.1
 Jinja2==2.10.1
 jinja2-time==0.2.0
 jmespath==0.9.4
-joblib==0.13.2
+joblib==0.14.0
 json-merge-patch==0.2
 jsonschema==3.0.2
 Keras==2.3.0
@@ -108,7 +108,7 @@ lxml==4.4.1
 Mako==1.1.0
 Markdown==3.1.1
 MarkupSafe==1.1.1
-marshmallow==3.2.0
+marshmallow==3.2.1
 marshmallow-enum==1.5.1
 marshmallow-sqlalchemy==0.19.0
 matplotlib==3.1.1
@@ -119,7 +119,7 @@ monotonic==1.5
 more-itertools==7.2.0
 msgpack==0.6.2
 msgpack-python==0.5.6
-mxnet==1.5.1
+mxnet==1.5.1.post0
 nltk==3.4.5
 nose==1.3.7
 numpy==1.17.2
@@ -132,7 +132,7 @@ pbr==5.4.3
 pendulum==2.0.5
 pexpect==4.7.0
 pickleshare==0.7.5
-Pillow==6.1.0
+Pillow==6.2.0
 pip-tools==4.1.0
 pipdeptree==0.13.2
 pipenv==2018.11.26
