@@ -19,8 +19,8 @@ beautifulsoup4==4.8.1
 billiard==3.6.1.0
 binaryornot==0.4.4
 bleach==3.1.0
-boto3==1.9.247
-botocore==1.12.247
+boto3==1.9.248
+botocore==1.12.248
 bottle==0.12.17
 bs4==0.0.1
 cached-property==1.5.1
@@ -134,7 +134,7 @@ pendulum==2.0.5
 pexpect==4.7.0
 pickleshare==0.7.5
 Pillow==6.2.0
-pip-tools==4.1.0
+pip-tools==4.2.0
 pipdeptree==0.13.2
 pipenv==2018.11.26
 pipfile==0.0.2
