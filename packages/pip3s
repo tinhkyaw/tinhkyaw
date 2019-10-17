@@ -56,7 +56,7 @@ fake-useragent==0.1.11
 filelock==3.0.12
 first==2.0.2
 Flask==1.1.1
-Flask-Admin==1.5.3
+Flask-Admin==1.5.4
 Flask-AppBuilder==2.1.13
 Flask-Babel==0.12.2
 Flask-Caching==1.7.2
