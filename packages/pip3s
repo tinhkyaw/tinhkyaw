@@ -134,7 +134,7 @@ pbr==5.4.3
 pendulum==2.0.5
 pexpect==4.7.0
 pickleshare==0.7.5
-Pillow==6.2.0
+Pillow==6.2.1
 pip-tools==4.2.0
 pipdeptree==0.13.2
 pipenv==2018.11.26
