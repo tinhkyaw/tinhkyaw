@@ -4,11 +4,11 @@ alembic==1.3.0
 amqp==2.5.2
 apache-airflow==1.10.6
 apache-libcloud==2.6.0
-apispec==3.0.0
+apispec==3.1.0
 appdirs==1.4.3
 appnope==0.1.0
 argcomplete==1.10.0
-arrow==0.15.3
+arrow==0.15.4
 astroid==2.3.2
 atomicwrites==1.3.0
 attrs==19.3.0
@@ -20,8 +20,8 @@ beautifulsoup4==4.8.1
 billiard==3.6.1.0
 binaryornot==0.4.4
 bleach==3.1.0
-boto3==1.10.8
-botocore==1.13.8
+boto3==1.10.9
+botocore==1.13.9
 bottle==0.12.17
 bs4==0.0.1
 cached-property==1.5.1
@@ -45,7 +45,7 @@ ddt==1.2.1
 decorator==4.4.1
 defusedxml==0.6.0
 dill==0.3.1.1
-Django==2.2.6
+Django==2.2.7
 django-environ==0.4.5
 doc8==0.8.0
 docopt==0.6.2
@@ -77,7 +77,7 @@ geventhttpclient-wheels==1.3.1.dev2
 gitdb==0.6.4
 gitdb2==2.0.6
 GitPython==3.0.4
-google-auth==1.6.3
+google-auth==1.7.0
 google-auth-oauthlib==0.4.1
 graphviz==0.13
 greenlet==0.4.15
@@ -117,7 +117,7 @@ lxml==4.4.1
 Mako==1.1.0
 Markdown==3.1.1
 MarkupSafe==1.1.1
-marshmallow==3.2.1
+marshmallow==3.2.2
 marshmallow-enum==1.5.1
 marshmallow-sqlalchemy==0.19.0
 matplotlib==3.1.1
@@ -154,7 +154,7 @@ prison==0.1.2
 prompt-toolkit==2.0.10
 protobuf==3.10.0
 pss==1.42
-psutil==5.6.3
+psutil==5.6.4
 psycopg2==2.8.4
 ptyprocess==0.6.0
 py==1.8.0
@@ -177,7 +177,7 @@ pyrsistent==0.15.5
 pyspark==2.4.4
 pytest==5.2.2
 python-daemon==2.2.4
-python-dateutil==2.8.0
+python-dateutil==2.8.1
 python-editor==1.0.4
 python-nvd3==0.15.0
 python-slugify==4.0.0
