@@ -79,7 +79,7 @@ gitdb2==2.0.6
 GitPython==3.0.4
 google-auth==1.7.0
 google-auth-oauthlib==0.4.1
-graphviz==0.13.1
+graphviz==0.13.2
 greenlet==0.4.15
 grpcio==1.25.0
 gunicorn==19.9.0
