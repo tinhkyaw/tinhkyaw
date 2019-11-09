@@ -38,7 +38,8 @@ VSCODE_EXCLUSIONS="\
 .*markdownlint$|\
 .*open-in-github$|\
 .*project-manager$|\
-.*python$\
+.*python$|\
+.linkcheckmd$\
 "
 VSCODE_INCLUSIONS=".*-pack$"
 sort -d -f <(code --list-extensions | egrep ${VSCODE_INCLUSIONS}) \
