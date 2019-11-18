@@ -3,11 +3,11 @@ alabaster==0.7.12
 alembic==1.3.1
 amqp==2.5.2
 apache-airflow==1.10.6
-apache-libcloud==2.6.0
+apache-libcloud==2.6.1
 apispec==3.1.0
 appdirs==1.4.3
 appnope==0.1.0
-argcomplete==1.10.0
+argcomplete==1.10.2
 arrow==0.15.4
 astroid==2.3.3
 atomicwrites==1.3.0
@@ -84,7 +84,7 @@ greenlet==0.4.15
 grpcio==1.25.0
 gunicorn==20.0.0
 h5py==2.10.0
-honeycomb-beeline==2.10.1
+honeycomb-beeline==2.11.0
 html5lib==1.0.1
 idna==2.8
 imagesize==1.1.0
@@ -101,7 +101,7 @@ jmespath==0.9.4
 joblib==0.14.0
 js-regex==1.0.1
 json-merge-patch==0.2
-jsonschema==3.1.1
+jsonschema==3.2.0
 Keras==2.3.1
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.0
@@ -111,7 +111,7 @@ kombu==4.6.6
 lazy-object-proxy==1.4.3
 libhoney==1.9.0
 lockfile==0.12.2
-locustio==0.13.0
+locustio==0.13.2
 luigi==2.8.9
 lxml==4.4.1
 Mako==1.1.0
@@ -123,6 +123,7 @@ marshmallow-sqlalchemy==0.19.0
 matplotlib==3.1.1
 mccabe==0.6.1
 memory-profiler==0.56.0
+mercurial==5.2
 mistune==0.8.4
 monotonic==1.5
 more-itertools==7.2.0
@@ -160,7 +161,7 @@ ptyprocess==0.6.0
 py==1.8.0
 py4j==0.10.8.1
 pyarrow==0.15.1
-pyasn1==0.4.7
+pyasn1==0.4.8
 pyasn1-modules==0.2.7
 pybind11==2.4.3
 pycairo==1.18.2
@@ -223,12 +224,12 @@ SQLAlchemy-Utils==0.35.0
 sqlparse==0.3.0
 statsd==3.3.0
 stevedore==1.31.0
-tabulate==0.8.5
+tabulate==0.8.6
 tenacity==6.0.0
 tensorboard==2.0.1
 termcolor==1.1.0
 text-unidecode==1.3
-thrift==0.11.0
+thrift==0.13.0
 toml==0.10.0
 torch==1.3.1
 torchvision==0.4.2
