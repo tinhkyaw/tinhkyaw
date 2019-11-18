@@ -20,8 +20,8 @@ beautifulsoup4==4.8.1
 billiard==3.6.1.0
 binaryornot==0.4.4
 bleach==3.1.0
-boto3==1.10.19
-botocore==1.13.19
+boto3==1.10.20
+botocore==1.13.20
 bottle==0.12.17
 bs4==0.0.1
 cached-property==1.5.1
@@ -237,7 +237,7 @@ tornado==6.0.3
 tox==3.14.1
 tqdm==4.38.0
 traitlets==4.3.3
-twine==2.0.0
+twine==3.0.0
 typed-ast==1.4.0
 tzlocal==2.0.0
 unicodecsv==0.14.1
