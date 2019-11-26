@@ -7,7 +7,7 @@ apache-libcloud==2.6.1
 apispec==3.1.0
 appdirs==1.4.3
 appnope==0.1.0
-argcomplete==1.10.2
+argcomplete==1.10.3
 arrow==0.15.4
 astroid==2.3.3
 atomicwrites==1.3.0
@@ -167,7 +167,7 @@ pybind11==2.4.3
 pycairo==1.18.2
 pycodestyle==2.5.0
 pyee==6.0.0
-Pygments==2.5.0
+Pygments==2.5.1
 PyGObject==3.34.0
 PyJWT==1.7.1
 pylint==2.4.4
