@@ -69,7 +69,7 @@ Flask-OpenID==1.2.5
 Flask-SQLAlchemy==2.4.1
 flask-swagger==0.2.14
 Flask-WTF==0.14.2
-fsspec==0.6.0
+fsspec==0.6.1
 funcsigs==1.0.2
 future==0.18.2
 gevent==1.4.0
