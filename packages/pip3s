@@ -3,7 +3,7 @@ alabaster==0.7.12
 alembic==1.3.1
 amqp==2.5.2
 apache-airflow==1.10.6
-apache-libcloud==2.6.1
+apache-libcloud==2.7.0
 apispec==3.1.0
 appdirs==1.4.3
 appnope==0.1.0
@@ -21,8 +21,8 @@ beautifulsoup4==4.8.1
 billiard==3.6.1.0
 binaryornot==0.4.4
 bleach==3.1.0
-boto3==1.10.34
-botocore==1.13.34
+boto3==1.10.35
+botocore==1.13.35
 bottle==0.12.18
 bs4==0.0.1
 cached-property==1.5.1
@@ -240,6 +240,7 @@ tqdm==4.40.1
 traitlets==4.3.3
 twine==3.1.1
 typed-ast==1.4.0
+typing==3.7.4.1
 tzlocal==2.0.0
 unicodecsv==0.14.1
 Unidecode==1.1.1
