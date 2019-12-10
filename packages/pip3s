@@ -99,7 +99,7 @@ jedi==0.15.1
 Jinja2==2.10.3
 jinja2-time==0.2.0
 jmespath==0.9.4
-joblib==0.14.0
+joblib==0.14.1
 js-regex==1.0.1
 json-merge-patch==0.2
 jsonschema==3.2.0
