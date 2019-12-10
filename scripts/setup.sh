@@ -32,6 +32,7 @@ pip3 install -U cython pyyaml
 pip3 install -U -r ${GIT_ROOT_DIR}/packages/pip3s
 /usr/local/anaconda3/bin/conda install pyarrow
 /usr/local/anaconda3/bin/conda install pytorch torchvision -c pytorch
+curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python
 if [ ! -n "$ZSH" ]
 then
   ZSH=~/.oh-my-zsh
@@ -54,4 +55,6 @@ then
   echo 'You may also want to update .gitconfig'
   printf "${NORMAL}"
   env zsh -l
+  mkdir $ZSH/plugins/poetry
+  poetry completions zsh > $ZSH/plugins/poetry/_poetry
 fi

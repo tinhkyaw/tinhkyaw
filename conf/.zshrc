@@ -57,7 +57,7 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git tmux tmux-cssh virtualenvwrapper)
+plugins=(git poetry tmux tmux-cssh virtualenvwrapper)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -136,3 +136,8 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export BYOBU_PREFIX=/usr/local
 
 ssh-add -A &> /dev/null
+
+GPG_TTY=$(tty)
+export GPG_TTY
+
+export LDFLAGS="-L/usr/local/opt/openssl/lib"

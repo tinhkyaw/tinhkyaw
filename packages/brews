@@ -78,6 +78,7 @@ octave
 osquery
 pidof
 pipenv
+pipx
 postgresql
 protobuf
 pssh
