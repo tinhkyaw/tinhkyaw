@@ -141,3 +141,8 @@ GPG_TTY=$(tty)
 export GPG_TTY
 
 export LDFLAGS="-L/usr/local/opt/openssl/lib"
+
+if [ -f ${HOME}/.poetry/env ]
+then
+  source ${HOME}/.poetry/env
+fi
