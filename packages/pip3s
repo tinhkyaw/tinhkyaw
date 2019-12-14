@@ -21,8 +21,8 @@ beautifulsoup4==4.8.1
 billiard==3.6.1.0
 binaryornot==0.4.4
 bleach==3.1.0
-boto3==1.10.38
-botocore==1.13.38
+boto3==1.10.39
+botocore==1.13.39
 bottle==0.12.18
 bs4==0.0.1
 cached-property==1.5.1
@@ -35,6 +35,7 @@ Click==7.0
 click-completion==0.5.2
 colorama==0.4.3
 colorlog==4.0.2
+ConfigArgParse==0.15.1
 configparser==4.0.2
 cookiecutter==1.6.0
 croniter==0.3.30
@@ -112,7 +113,7 @@ kombu==4.6.7
 lazy-object-proxy==1.4.3
 libhoney==1.9.0
 lockfile==0.12.2
-locustio==0.13.2
+locustio==0.13.3
 luigi==2.8.10
 lxml==4.4.2
 Mako==1.1.0
