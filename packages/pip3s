@@ -35,7 +35,7 @@ Click==7.0
 click-completion==0.5.2
 colorama==0.4.3
 colorlog==4.0.2
-ConfigArgParse==0.15.1
+ConfigArgParse==0.15.2
 configparser==4.0.2
 cookiecutter==1.6.0
 croniter==0.3.30
@@ -178,7 +178,7 @@ pyppeteer==0.0.25
 pyquery==1.4.1
 pyrsistent==0.15.6
 pyspark==2.4.4
-pytest==5.3.1
+pytest==5.3.2
 python-daemon==2.2.4
 python-dateutil==2.8.1
 python-editor==1.0.4
