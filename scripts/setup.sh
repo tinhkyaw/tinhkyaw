@@ -57,4 +57,5 @@ then
   env zsh -l
   mkdir $ZSH/plugins/poetry
   poetry completions zsh > $ZSH/plugins/poetry/_poetry
+  git clone https://github.com/bash-my-aws/bash-my-aws.git ~/.bash-my-aws
 fi
