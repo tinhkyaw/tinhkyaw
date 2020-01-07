@@ -16,7 +16,7 @@ do
   if ! diff "$LHS" "$RHS" &> /dev/null
   then
     print -P "%F{red}diff%f %F{blue}${FILE1} ${FILE2}%f"
-    diff "$LHS" "$RHS"
+    diff --ignore-all-space "$LHS" "$RHS"
   else
     print -P "%F{green}No diff%f for %F{blue}${FILE1} ${FILE2}%f"
   fi
