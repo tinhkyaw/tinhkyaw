@@ -48,6 +48,7 @@ gnu-getplot
 gnupg
 go
 gradle
+helm
 hr
 httpie
 hub
@@ -61,7 +62,6 @@ kotlin
 kube-ps1
 kubeless
 kubernetes-cli
-kubernetes-helm
 leiningen
 luajit
 lzip
