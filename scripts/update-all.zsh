@@ -47,8 +47,9 @@ brew doctor
 gem update --system
 gem update
 gem cleanup
-npm update -g
+npm update -f -g
 npm-check -u -g
+npm-check-updates -g
 pip3 install --upgrade pip setuptools
 pip3 freeze --local | cut -d = -f 1 | xargs pip3 install --upgrade
 conda update --all
