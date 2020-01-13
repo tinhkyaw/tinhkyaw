@@ -21,8 +21,8 @@ beautifulsoup4==4.8.2
 billiard==3.6.1.0
 binaryornot==0.4.4
 bleach==3.1.0
-boto3==1.11.0
-botocore==1.14.0
+boto3==1.11.1
+botocore==1.14.1
 bottle==0.12.18
 bs4==0.0.1
 cached-property==1.5.1
@@ -250,7 +250,7 @@ tox==3.14.3
 tqdm==4.41.1
 traitlets==4.3.3
 twine==3.1.1
-typed-ast==1.4.0
+typed-ast==1.4.1
 typing==3.7.4.1
 typing-extensions==3.7.4.1
 tzlocal==2.0.0
