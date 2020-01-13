@@ -53,7 +53,7 @@ django-environ==0.4.5
 doc8==0.8.0
 docopt==0.6.2
 docsend==0.2.0
-docutils==0.15.2
+docutils==0.16
 dumb-init==1.2.2
 editdistance==0.5.3
 entrypoints==0.3
@@ -114,7 +114,7 @@ jsonschema==3.2.0
 Keras==2.3.1
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.0
-keyring==21.0.0
+keyring==21.1.0
 kiwisolver==1.1.0
 kombu==4.6.7
 lazy-object-proxy==1.4.3
