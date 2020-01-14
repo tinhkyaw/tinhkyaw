@@ -271,5 +271,5 @@ wrapt==1.11.2
 WTForms==2.2.1
 yapf==0.29.0
 yolk==0.4.3
-zipp==0.6.0
+zipp==1.0.0
 zope.deprecation==4.4.0
