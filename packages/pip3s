@@ -150,7 +150,7 @@ parse==1.14.0
 parso==0.5.2
 pbr==5.4.4
 pendulum==2.0.5
-pexpect==4.7.0
+pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==7.0.0
 pip-tools==4.4.0
