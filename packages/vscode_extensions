@@ -2,6 +2,8 @@
 bungcip.better-toml
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
+Dart-Code.dart-code
+Dart-Code.flutter
 dbaeumer.jshint
 dbaeumer.vscode-eslint
 DevonDCarew.bazel-code
@@ -20,6 +22,7 @@ i80and.snooty
 korekontrol.saltstack
 lextudio.restructuredtext
 lightbend.vscode-sbt-scala
+localizely.flutter-intl
 lonefy.vscode-JS-CSS-HTML-formatter
 mathiasfrohlich.Kotlin
 mechatroner.rainbow-csv
