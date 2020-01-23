@@ -63,7 +63,7 @@ filelock==3.0.12
 first==2.0.2
 Flask==1.1.1
 Flask-Admin==1.5.4
-Flask-AppBuilder==2.2.1
+Flask-AppBuilder==2.2.2
 Flask-Babel==0.12.2
 Flask-Caching==1.8.0
 Flask-JWT-Extended==3.24.1
@@ -271,5 +271,5 @@ wrapt==1.11.2
 WTForms==2.2.1
 yapf==0.29.0
 yolk==0.4.3
-zipp==2.0.0
+zipp==2.0.1
 zope.deprecation==4.4.0
