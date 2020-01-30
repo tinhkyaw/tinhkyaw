@@ -91,14 +91,14 @@ h2==3.1.1
 h5py==2.10.0
 honeycomb-beeline==2.11.4
 hpack==3.0.0
-hstspreload==2020.1.22
+hstspreload==2020.1.30
 html5lib==1.0.1
 httpx==0.11.1
 hyperframe==5.2.0
 idna==2.8
 imagesize==1.2.0
 importlib-metadata==1.5.0
-invoke==1.4.0
+invoke==1.4.1
 ipython-genutils==0.2.0
 iso8601==0.1.12
 isort==4.3.21
@@ -185,7 +185,7 @@ pyppeteer==0.0.25
 pyquery==1.4.1
 pyrsistent==0.15.7
 pyspark==2.4.4
-pytest==5.3.4
+pytest==5.3.5
 python-daemon==2.2.4
 python-dateutil==2.8.1
 python-editor==1.0.4
