@@ -1,18 +1,26 @@
 #!/usr/bin/env zsh
-
 for a in "$@"
 do
-    if [[ "$a" == s3://* ]]
+  if [[ "$a" == s3://* ]]
+  then
+    p="$a"
+  else
+    p="s3://$a"
+  fi
+  bucket="s3://$(echo $p | cut -d '/' -f 3)/"
+  key=${p#$bucket}
+  echo $key
+  grep_friendly_key=${key//'*'/'.*'}
+  echo $grep_friendly_key
+  for k in $(aws s3 ls --recursive $bucket | grep $grep_friendly_key | cut -c 32-)
+  do
+    s3_path="$bucket$k"
+    print -P "%F{blue}${s3_path}%f"
+    if [[ "$s3_path" == *.gz ]]
     then
-        p="$a"
+      aws s3 cp $s3_path - | gzcat
     else
-        p="s3://$a"
+      aws s3 cp $s3_path - | cat
     fi
-    bucket=$(echo $p | cut -d '/' -f 3)
-    for k in $(aws s3 ls --recursive $p | cut -c 32-)
-    do
-        s3_path="s3://$bucket/$k"
-        print -P "%F{blue}${s3_path}%f"
-        aws s3 cp $s3_path - | cat
-    done
+  done
 done
