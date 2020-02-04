@@ -9,10 +9,8 @@ do
   fi
   bucket="s3://$(echo $p | cut -d '/' -f 3)/"
   key=${p#$bucket}
-  echo $key
-  grep_friendly_key=${key//'*'/'.*'}
-  echo $grep_friendly_key
-  for k in $(aws s3 ls --recursive $bucket | grep $grep_friendly_key | cut -c 32-)
+  regex_key=${key//'*'/'.*'}
+  for k in $(aws s3 ls --recursive $bucket | grep $regex_key | cut -c 32-)
   do
     s3_path="$bucket$k"
     print -P "%F{blue}${s3_path}%f"
