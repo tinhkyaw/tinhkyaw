@@ -64,7 +64,7 @@ first==2.0.2
 Flask==1.1.1
 Flask-Admin==1.5.4
 Flask-AppBuilder==2.2.2
-Flask-Babel==0.12.2
+Flask-Babel==1.0.0
 Flask-Caching==1.8.0
 Flask-JWT-Extended==3.24.1
 Flask-Login==0.4.1
