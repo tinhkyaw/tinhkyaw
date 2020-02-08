@@ -2,7 +2,7 @@ absl-py==0.9.0
 alabaster==0.7.12
 alembic==1.4.0
 amqp==2.5.2
-apache-airflow==1.10.8
+apache-airflow==1.10.9
 apache-libcloud==2.8.0
 apispec==3.2.0
 appdirs==1.4.3
@@ -21,8 +21,8 @@ beautifulsoup4==4.8.2
 billiard==3.6.2.0
 binaryornot==0.4.4
 bleach==3.1.0
-boto3==1.11.12
-botocore==1.14.12
+boto3==1.11.13
+botocore==1.14.13
 bottle==0.12.18
 bs4==0.0.1
 cached-property==1.5.1
@@ -84,7 +84,7 @@ google-auth==1.11.0
 google-auth-oauthlib==0.4.1
 graphviz==0.13.2
 greenlet==0.4.15
-grpcio==1.27.0
+grpcio==1.27.1
 gunicorn==20.0.4
 h11==0.9.0
 h2==3.1.1
@@ -271,5 +271,5 @@ wrapt==1.11.2
 WTForms==2.2.1
 yapf==0.29.0
 yolk==0.4.3
-zipp==2.1.0
+zipp==2.2.0
 zope.deprecation==4.4.0
