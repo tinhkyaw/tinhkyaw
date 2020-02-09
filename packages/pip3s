@@ -67,7 +67,7 @@ Flask-AppBuilder==2.2.2
 Flask-Babel==1.0.0
 Flask-Caching==1.8.0
 Flask-JWT-Extended==3.24.1
-Flask-Login==0.4.1
+Flask-Login==0.5.0
 Flask-OpenID==1.2.5
 Flask-SQLAlchemy==2.4.1
 flask-swagger==0.2.14
@@ -87,7 +87,7 @@ greenlet==0.4.15
 grpcio==1.27.1
 gunicorn==20.0.4
 h11==0.9.0
-h2==3.1.1
+h2==3.2.0
 h5py==2.10.0
 honeycomb-beeline==2.11.4
 hpack==3.0.0
@@ -222,7 +222,7 @@ smmap2==2.0.5
 sniffio==1.1.0
 snowballstemmer==2.0.0
 soupsieve==1.9.5
-Sphinx==2.3.1
+Sphinx==2.4.0
 sphinx-rtd-theme==0.4.3
 sphinxcontrib-applehelp==1.0.1
 sphinxcontrib-devhelp==1.0.1
