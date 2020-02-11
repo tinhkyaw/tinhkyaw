@@ -222,7 +222,7 @@ smmap2==2.0.5
 sniffio==1.1.0
 snowballstemmer==2.0.0
 soupsieve==1.9.5
-Sphinx==2.4.0
+Sphinx==2.4.1
 sphinx-rtd-theme==0.4.3
 sphinxcontrib-applehelp==1.0.1
 sphinxcontrib-devhelp==1.0.1
@@ -235,7 +235,7 @@ SQLAlchemy-JSONField==0.9.0
 SQLAlchemy-Utils==0.36.1
 sqlparse==0.3.0
 statsd==3.3.0
-stevedore==1.31.0
+stevedore==1.32.0
 tabulate==0.8.6
 tenacity==6.0.0
 tensorboard==2.1.0
