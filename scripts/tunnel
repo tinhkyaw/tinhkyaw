@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-ssh -fND 8157 hadoop@"$@"
+AS_USER=hadoop
+ssh -fND 8157 ${AS_USER}@"$@"

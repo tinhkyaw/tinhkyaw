@@ -14,6 +14,7 @@ do
         s3_path="s3://$bucket/$k"
         print -P "%F{blue}${s3_path}%f"
         if [[ "$s3_path" == *.gz ]]
+        then
           aws s3 cp $s3_path - | gzcat
         else
           aws s3 cp $s3_path - | cat
