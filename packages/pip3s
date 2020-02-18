@@ -137,7 +137,7 @@ mercurial==5.3
 mistune==0.8.4
 monotonic==1.5
 more-itertools==8.2.0
-msgpack==0.6.2
+msgpack==1.0.0
 msgpack-python==0.5.6
 mxnet==1.5.1.post0
 nltk==3.4.5
@@ -165,7 +165,7 @@ prison==0.1.2
 prompt-toolkit==3.0.3
 protobuf==3.11.3
 pss==1.42
-psutil==5.6.7
+psutil==5.7.0
 psycopg2==2.8.4
 ptyprocess==0.6.0
 py==1.8.1
@@ -223,7 +223,7 @@ smmap2==2.0.5
 sniffio==1.1.0
 snowballstemmer==2.0.0
 soupsieve==1.9.5
-Sphinx==2.4.1
+Sphinx==2.4.2
 sphinx-rtd-theme==0.4.3
 sphinxcontrib-applehelp==1.0.1
 sphinxcontrib-devhelp==1.0.1
