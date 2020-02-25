@@ -92,7 +92,7 @@ h2==3.2.0
 h5py==2.10.0
 honeycomb-beeline==2.11.4
 hpack==3.0.0
-hstspreload==2020.2.21
+hstspreload==2020.2.25
 html5lib==1.0.1
 httpx==0.11.1
 hyperframe==5.2.0
@@ -121,7 +121,7 @@ kombu==4.6.7
 lazy-object-proxy==1.4.3
 libhoney==1.9.0
 lockfile==0.12.2
-locustio==0.14.4
+locustio==0.14.5
 luigi==2.8.12
 lxml==4.5.0
 Mako==1.1.1
@@ -196,7 +196,7 @@ python3-openid==3.1.0
 pytz==2019.3
 pytzdata==2019.3
 PyYAML==5.3
-pyzmq==18.1.1
+pyzmq==19.0.0
 readme-renderer==24.0
 requests==2.23.0
 requests-html==0.10.0
