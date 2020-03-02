@@ -28,7 +28,7 @@ bs4==0.0.1
 cached-property==1.5.1
 cachetools==4.0.0
 cattrs==1.0.0
-celery==4.4.0
+celery==4.4.1
 cement==3.0.4
 certifi==2019.11.28
 chardet==3.0.4
@@ -117,7 +117,7 @@ Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.0
 keyring==21.1.0
 kiwisolver==1.1.0
-kombu==4.6.7
+kombu==4.6.8
 lazy-object-proxy==1.4.3
 libhoney==1.9.0
 lockfile==0.12.2
