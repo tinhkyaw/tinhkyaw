@@ -21,8 +21,8 @@ beautifulsoup4==4.8.2
 billiard==3.6.3.0
 binaryornot==0.4.4
 bleach==3.1.1
-boto3==1.12.16
-botocore==1.15.16
+boto3==1.12.17
+botocore==1.15.17
 bottle==0.12.18
 bs4==0.0.1
 cached-property==1.5.1
@@ -32,7 +32,7 @@ celery==4.4.1
 cement==3.0.4
 certifi==2019.11.28
 chardet==3.0.4
-click==7.1
+click==7.1.1
 click-completion==0.5.2
 colorama==0.4.3
 colorlog==4.1.0
