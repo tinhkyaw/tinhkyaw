@@ -9,7 +9,7 @@ appdirs==1.4.3
 appnope==0.1.0
 argcomplete==1.11.1
 arrow==0.15.5
-asgiref==3.2.3
+asgiref==3.2.4
 astroid==2.3.3
 atomicwrites==1.3.0
 attrs==19.3.0
@@ -21,8 +21,8 @@ beautifulsoup4==4.8.2
 billiard==3.6.3.0
 binaryornot==0.4.4
 bleach==3.1.1
-boto3==1.12.17
-botocore==1.15.17
+boto3==1.12.18
+botocore==1.15.18
 bottle==0.12.18
 bs4==0.0.1
 cached-property==1.5.1
@@ -58,7 +58,7 @@ docutils==0.16
 dumb-init==1.2.2
 editdistance==0.5.3
 entrypoints==0.3
-enum34==1.1.9
+enum34==1.1.10
 fake-useragent==0.1.11
 filelock==3.0.12
 first==2.0.2
@@ -231,7 +231,7 @@ sphinxcontrib-htmlhelp==1.0.3
 sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.4
-SQLAlchemy==1.3.13
+SQLAlchemy==1.3.14
 SQLAlchemy-JSONField==0.9.0
 SQLAlchemy-Utils==0.36.1
 sqlparse==0.3.1
@@ -259,7 +259,7 @@ unicodecsv==0.14.1
 Unidecode==1.1.1
 urllib3==1.25.8
 vine==1.3.0
-virtualenv==20.0.9
+virtualenv==20.0.10
 virtualenv-clone==0.5.3
 virtualenvwrapper==4.8.4
 w3lib==1.21.0
