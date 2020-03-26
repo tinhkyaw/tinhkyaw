@@ -20,7 +20,7 @@ bandit==1.6.2
 beautifulsoup4==4.8.2
 billiard==3.6.3.0
 binaryornot==0.4.4
-bleach==3.1.3
+bleach==3.1.4
 boto3==1.12.29
 botocore==1.15.29
 bottle==0.12.18
