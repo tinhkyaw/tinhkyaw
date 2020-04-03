@@ -62,7 +62,7 @@ enum34==1.1.10
 fake-useragent==0.1.11
 filelock==3.0.12
 first==2.0.2
-Flask==1.1.1
+Flask==1.1.2
 Flask-Admin==1.5.5
 Flask-AppBuilder==2.3.1
 Flask-Babel==1.0.0
@@ -85,7 +85,7 @@ google-auth==1.13.1
 google-auth-oauthlib==0.4.1
 graphviz==0.13.2
 greenlet==0.4.15
-grpcio==1.28.0
+grpcio==1.27.2
 gunicorn==20.0.4
 h11==0.9.0
 h2==3.2.0
