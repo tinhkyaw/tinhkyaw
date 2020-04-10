@@ -36,7 +36,7 @@ click==7.1.1
 click-completion==0.5.2
 colorama==0.4.3
 colorlog==4.1.0
-ConfigArgParse==1.2
+ConfigArgParse==1.2.1
 configparser==5.0.0
 cookiecutter==1.7.0
 croniter==0.3.31
@@ -76,7 +76,7 @@ Flask-WTF==0.14.3
 fsspec==0.7.2
 funcsigs==1.0.2
 future==0.18.2
-gevent==1.4.0
+gevent==1.5.0
 geventhttpclient-wheels==1.3.1.dev3
 gitdb==4.0.2
 gitdb2==4.0.2
@@ -222,7 +222,7 @@ smmap2==3.0.1
 sniffio==1.1.0
 snowballstemmer==2.0.0
 soupsieve==2.0
-Sphinx==3.0.0
+Sphinx==3.0.1
 sphinx-rtd-theme==0.4.3
 sphinxcontrib-applehelp==1.0.2
 sphinxcontrib-devhelp==1.0.2
