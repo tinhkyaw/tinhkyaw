@@ -47,6 +47,8 @@ ms-vscode.vscode-typescript-tslint-plugin
 oderwat.indent-rainbow
 prettier.prettier-vscode
 rust-lang.rust
+scala-lang.scala
+scalameta.metals
 syler.sass-indented
 tcwalther.cython
 tootone.org-mode
