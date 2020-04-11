@@ -28,6 +28,7 @@
         "{docsmsft.docs-markdown}/markdownlint-custom-rules/rules.js"
     ],
     "matlab.lintOnSave": false,
+    "metals.javaHome": "/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home",
     "python.formatting.autopep8Args": [
         "--global-config",
         "${workspaceRoot}/setup.cfg"
