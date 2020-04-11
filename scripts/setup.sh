@@ -16,6 +16,7 @@ then
   sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
   cat ${GIT_ROOT_DIR}/packages/npms | xargs npm install -g
 fi
+brew tap buo/cask-upgrade
 brew tap facebook/fb
 brew tap homebrew/cask-fonts
 brew tap homebrew/cask-versions

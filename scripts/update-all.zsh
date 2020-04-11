@@ -1,11 +1,11 @@
 #!/usr/bin/env zsh
 DIR=$(dirname $(type -a "${0}" | cut -d " " -f 3))
-is_quick=false
-while getopts q flag
+is_greedy=false
+while getopts g flag
 do
   case ${flag} in
-    q)
-      is_quick=true
+    g)
+      is_greedy=true
       ;;
     ?)
     exit 1
@@ -14,34 +14,12 @@ do
 done
 shift $(( OPTIND - 1 ))
 brew update
-brew upgrade
-caskroom_path="/usr/local/Caskroom"
-for app in $(brew cask list)
-do
-  ver=$(brew cask info ${app} | cut -d " " -f 2 | head -1)
-  if [ ${ver} = "latest" ]
-  then
-    if grep -Fxq ${app} "${DIR}/ignored"
-    then
-      print -P "%F{yellow}Ignoring %F{cyan}${app}%f"
-    else
-      print -P "%F{yellow}Reinstalling%f ${ver} %F{cyan}${app}%f"
-      brew cask reinstall --force ${app}
-    fi
-  else
-    if grep -Fxq ${app} "${DIR}/ignored"
-    then
-      print -P "%F{yellow}Ignoring %F{cyan}${app}%f"
-    else
-      if [ -d "${caskroom_path}/${app}/.metadata/${ver}" ]
-      then
-        print -P "%F{blue}Latest %F{cyan}${app}: ${ver}%f already installed"
-      else
-        brew cask reinstall --force ${app}
-      fi
-    fi
-  fi
-done
+if ( $is_greedy )
+then
+  brew cask upgrade --greedy
+else
+  brew cu -a
+fi
 brew cleanup -s
 brew doctor
 gem update --system
