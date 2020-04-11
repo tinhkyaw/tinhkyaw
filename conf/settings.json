@@ -1,6 +1,7 @@
 // Place your settings in this file to overwrite the default settings
 {
     "bazel.buildifierPath": "/usr/local/bin/buildifier",
+    "csharp.suppressDotnetInstallWarning": true,
     "editor.formatOnSave": true,
     "editor.suggestSelection": "first",
     "extensions.autoUpdate": true,
@@ -47,5 +48,5 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "workbench.colorTheme": "Solarized Dark",
     "workbench.editor.enablePreview": false,
-    "yaml.schemaStore.enable": false,
+    "yaml.schemaStore.enable": false
 }
