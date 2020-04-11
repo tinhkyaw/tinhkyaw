@@ -48,5 +48,8 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "workbench.colorTheme": "Solarized Dark",
     "workbench.editor.enablePreview": false,
-    "yaml.schemaStore.enable": false
+    "yaml.schemaStore.enable": false,
+    "yaml.schemas": {
+        "file:///toc.schema.json": "/toc\\.yml/i"
+    }
 }
