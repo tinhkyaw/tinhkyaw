@@ -43,6 +43,7 @@ gcc
 geoip
 git-flow
 git-lfs
+git-subrepo
 glide
 gnu-getplot
 gnupg
