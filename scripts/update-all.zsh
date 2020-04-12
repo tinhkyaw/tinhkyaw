@@ -14,6 +14,7 @@ do
 done
 shift $(( OPTIND - 1 ))
 brew update
+brew upgrade
 if ( $is_greedy )
 then
   brew cask upgrade --greedy
