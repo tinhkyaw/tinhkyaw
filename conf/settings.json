@@ -25,8 +25,13 @@
     "gitlens.views.fileHistory.enabled": true,
     "gitlens.views.lineHistory.enabled": true,
     "markdownlint.customRules": [
-        "{docsmsft.docs-markdown}/markdownlint-custom-rules/rules.js"
+        "{docsmsft.docs-linting}/markdownlint-custom-rules/rules.js"
     ],
+    "markdownlint.config": {
+        "MD025": {
+            "front_matter_title": ""
+        }
+    }
     "matlab.lintOnSave": false,
     "metals.javaHome": "/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home",
     "python.formatting.autopep8Args": [

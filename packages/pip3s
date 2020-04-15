@@ -3,7 +3,7 @@ alabaster==0.7.12
 alembic==1.4.2
 amqp==2.5.2
 apache-airflow==1.10.10
-apache-libcloud==2.8.1
+apache-libcloud==3.0.0
 apispec==3.3.0
 appdirs==1.4.3
 appnope==0.1.0
