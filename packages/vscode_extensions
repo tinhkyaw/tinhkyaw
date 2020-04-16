@@ -36,6 +36,7 @@ msjsdiag.debugger-for-chrome
 msjsdiag.debugger-for-edge
 msjsdiag.vscode-react-native
 ms-kubernetes-tools.vscode-kubernetes-tools
+ms-ossdata.vscode-postgresql
 ms-python.anaconda-extension-pack
 ms-python.anaconda-extension-pack
 ms-vscode.cpptools
