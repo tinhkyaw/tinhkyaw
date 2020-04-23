@@ -36,7 +36,7 @@ click==7.1.1
 click-completion==0.5.2
 colorama==0.4.3
 colorlog==4.1.0
-ConfigArgParse==1.2.1
+ConfigArgParse==1.2.2
 configparser==5.0.0
 cookiecutter==1.7.2
 croniter==0.3.31
@@ -92,7 +92,7 @@ h2==3.2.0
 h5py==2.10.0
 honeycomb-beeline==2.12.1
 hpack==3.0.0
-hstspreload==2020.4.21
+hstspreload==2020.4.23
 html5lib==1.0.1
 httpx==0.12.1
 hyperframe==5.2.0
