@@ -42,7 +42,7 @@ cookiecutter==1.7.2
 croniter==0.3.31
 cssselect==1.1.0
 cycler==0.10.0
-Cython==0.29.16
+Cython==0.29.17
 dask==2.15.0
 ddt==1.3.1
 decorator==4.4.2
@@ -129,7 +129,7 @@ Markdown==3.2.1
 MarkupSafe==1.1.1
 marshmallow==3.5.1
 marshmallow-enum==1.5.1
-marshmallow-sqlalchemy==0.22.3
+marshmallow-sqlalchemy==0.23.0
 matplotlib==3.2.1
 mccabe==0.6.1
 memory-profiler==0.57.0
@@ -153,7 +153,7 @@ pbr==5.4.5
 pendulum==2.1.0
 pexpect==4.8.0
 pickleshare==0.7.5
-Pillow==7.1.1
+Pillow==7.1.2
 pip-tools==5.0.0
 pipdeptree==0.13.2
 pipenv==2018.11.26
@@ -223,7 +223,7 @@ smmap2==3.0.1
 sniffio==1.1.0
 snowballstemmer==2.0.0
 soupsieve==2.0
-Sphinx==3.0.2
+Sphinx==3.0.3
 sphinx-rtd-theme==0.4.3
 sphinxcontrib-applehelp==1.0.2
 sphinxcontrib-devhelp==1.0.2
