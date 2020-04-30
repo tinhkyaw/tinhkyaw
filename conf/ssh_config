@@ -1,8 +1,10 @@
-UseKeychain yes
 AddKeysToAgent yes
 ForwardAgent yes
 KeepAlive yes
+UseKeychain yes
 
+ServerAliveCountMax 1
+ServerAliveInterval 5
 
 # Host <alias>
 # HostName <fully-qualified-hostname>
@@ -11,4 +13,4 @@ KeepAlive yes
 # ForwardX11 yes
 # ForwardX11Trusted yes
 # XAuthLocation /opt/X11/bin/xauth
- 
+

@@ -58,7 +58,7 @@ docsend==0.2.0
 docutils==0.16
 dumb-init==1.2.2
 editdistance==0.5.3
-email-validator==1.0.5
+email-validator==1.1.0
 entrypoints==0.3
 enum34==1.1.10
 fake-useragent==0.1.11
