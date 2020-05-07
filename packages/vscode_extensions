@@ -45,6 +45,7 @@ ms-vscode.Go
 ms-vscode.jscs
 ms-vscode.mono-debug
 ms-vscode.vscode-typescript-tslint-plugin
+ms-vsonline.vsonline
 oderwat.indent-rainbow
 prettier.prettier-vscode
 rust-lang.rust
