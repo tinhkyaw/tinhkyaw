@@ -20,6 +20,8 @@ brew tap buo/cask-upgrade
 brew tap facebook/fb
 brew tap homebrew/cask-fonts
 brew tap homebrew/cask-versions
+brew tap weaveworks/tap
+brew install weaveworks/tap/eksctl
 brew cask install adoptopenjdk adoptopenjdk8 google-chrome java mactex osxfuse xquartz
 cat ${GIT_ROOT_DIR}/packages/brews | xargs brew install
 cat ${GIT_ROOT_DIR}/packages/casks | xargs brew cask install
