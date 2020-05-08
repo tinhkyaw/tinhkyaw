@@ -21,8 +21,8 @@ beautifulsoup4==4.9.0
 billiard==3.6.3.0
 binaryornot==0.4.4
 bleach==3.1.5
-boto3==1.13.5
-botocore==1.16.5
+boto3==1.13.6
+botocore==1.16.6
 bottle==0.12.18
 bs4==0.0.1
 cached-property==1.5.1
@@ -43,7 +43,7 @@ croniter==0.3.31
 cssselect==1.1.0
 cycler==0.10.0
 Cython==0.29.17
-dask==2.15.0
+dask==2.16.0
 ddt==1.4.0
 decorator==4.4.2
 defusedxml==0.6.0
@@ -127,9 +127,9 @@ locustio==0.14.6
 luigi==2.8.13
 lxml==4.5.0
 Mako==1.1.2
-Markdown==3.2.1
+Markdown==3.2.2
 MarkupSafe==1.1.1
-marshmallow==3.5.2
+marshmallow==3.6.0
 marshmallow-enum==1.5.1
 marshmallow-sqlalchemy==0.23.0
 matplotlib==3.2.1
