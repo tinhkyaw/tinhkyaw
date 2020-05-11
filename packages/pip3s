@@ -5,7 +5,7 @@ amqp==2.5.2
 apache-airflow==1.10.10
 apache-libcloud==3.0.0
 apispec==3.3.0
-appdirs==1.4.3
+appdirs==1.4.4
 appnope==0.1.0
 argcomplete==1.11.1
 arrow==0.15.6
