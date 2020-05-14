@@ -21,8 +21,8 @@ beautifulsoup4==4.9.0
 billiard==3.6.3.0
 binaryornot==0.4.4
 bleach==3.1.5
-boto3==1.13.9
-botocore==1.16.9
+boto3==1.13.10
+botocore==1.16.10
 bottle==0.12.18
 bs4==0.0.1
 cached-property==1.5.1
@@ -87,7 +87,7 @@ google-auth==1.14.3
 google-auth-oauthlib==0.4.1
 graphviz==0.14
 greenlet==0.4.15
-grpcio==1.28.1
+grpcio==1.29.0
 gunicorn==20.0.4
 h11==0.9.0
 h2==3.2.0
