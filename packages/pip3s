@@ -44,7 +44,7 @@ cssselect==1.1.0
 cycler==0.10.0
 Cython==0.29.17
 dask==2.16.0
-ddt==1.4.0
+ddt==1.4.1
 decorator==4.4.2
 defusedxml==0.6.0
 dill==0.3.1.1
@@ -110,7 +110,7 @@ jedi==0.17.0
 Jinja2==2.11.2
 jinja2-time==0.2.0
 jmespath==0.10.0
-joblib==0.14.1
+joblib==0.15.0
 js-regex==1.0.1
 json-merge-patch==0.2
 jsonschema==3.2.0
