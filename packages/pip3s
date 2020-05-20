@@ -21,8 +21,8 @@ beautifulsoup4==4.9.1
 billiard==3.6.3.0
 binaryornot==0.4.4
 bleach==3.1.5
-boto3==1.13.13
-botocore==1.16.13
+boto3==1.13.14
+botocore==1.16.14
 bottle==0.12.18
 bs4==0.0.1
 cached-property==1.5.1
@@ -42,7 +42,7 @@ cookiecutter==1.7.2
 croniter==0.3.31
 cssselect==1.1.0
 cycler==0.10.0
-Cython==0.29.18
+Cython==0.29.19
 dask==2.16.0
 ddt==1.4.1
 decorator==4.4.2
