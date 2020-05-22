@@ -68,6 +68,7 @@ Flask==1.1.2
 Flask-Admin==1.5.6
 Flask-AppBuilder==2.3.4
 Flask-Babel==1.0.0
+Flask-BasicAuth==0.2.0
 Flask-Caching==1.8.0
 Flask-JWT-Extended==3.24.1
 Flask-Login==0.5.0
@@ -96,7 +97,8 @@ honeycomb-beeline==2.12.1
 hpack==3.0.0
 hstspreload==2020.5.19
 html5lib==1.0.1
-httpx==0.12.1
+httpcore==0.9.0
+httpx==0.13.1
 hyperframe==5.2.0
 idna==2.9
 imagesize==1.2.0
@@ -123,7 +125,7 @@ kombu==4.6.8
 lazy-object-proxy==1.4.3
 libhoney==1.9.0
 lockfile==0.12.2
-locustio==0.14.6
+locust==1.0.1
 luigi==2.8.13
 lxml==4.5.1
 Mako==1.1.2
