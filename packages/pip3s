@@ -73,13 +73,14 @@ Flask-Caching==1.8.0
 Flask-JWT-Extended==3.24.1
 Flask-Login==0.5.0
 Flask-OpenID==1.2.5
-Flask-SQLAlchemy==2.4.1
+Flask-SQLAlchemy==2.4.2
 flask-swagger==0.2.14
 Flask-WTF==0.14.3
 fsspec==0.7.4
 funcsigs==1.0.2
 future==0.18.2
-gevent==20.5.0
+gevent==20.5.1
+geventhttpclient==1.4.2
 geventhttpclient-wheels==1.3.1.dev3
 gitdb==4.0.5
 gitdb2==4.0.2
@@ -125,7 +126,7 @@ kombu==4.6.8
 lazy-object-proxy==1.4.3
 libhoney==1.9.0
 lockfile==0.12.2
-locust==1.0.1
+locust==1.0.2
 luigi==2.8.13
 lxml==4.5.1
 Mako==1.1.2
@@ -237,7 +238,7 @@ sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.4
 SQLAlchemy==1.3.17
 SQLAlchemy-JSONField==0.9.0
-SQLAlchemy-Utils==0.36.5
+SQLAlchemy-Utils==0.36.6
 sqlparse==0.3.1
 statsd==3.3.0
 stevedore==1.32.0
@@ -280,3 +281,5 @@ yapf==0.30.0
 yolk==0.4.3
 zipp==3.1.0
 zope.deprecation==4.4.0
+zope.event==4.4
+zope.interface==5.1.0
