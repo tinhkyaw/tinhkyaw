@@ -21,8 +21,8 @@ beautifulsoup4==4.9.1
 billiard==3.6.3.0
 binaryornot==0.4.4
 bleach==3.1.5
-boto3==1.13.16
-botocore==1.16.16
+boto3==1.13.17
+botocore==1.16.17
 bottle==0.12.18
 bs4==0.0.1
 cached-property==1.5.1
@@ -73,7 +73,7 @@ Flask-Caching==1.8.0
 Flask-JWT-Extended==3.24.1
 Flask-Login==0.5.0
 Flask-OpenID==1.2.5
-Flask-SQLAlchemy==2.4.2
+Flask-SQLAlchemy==2.4.3
 flask-swagger==0.2.14
 Flask-WTF==0.14.3
 fsspec==0.7.4
