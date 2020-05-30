@@ -157,5 +157,3 @@ then
 
   source ~/.bash-my-aws/bash_completion.sh
 fi
-
-export HOMEBREW_GITHUB_API_TOKEN=9c1cbcd145e7562cb4a206920859463500dc79f9
