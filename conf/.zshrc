@@ -147,6 +147,11 @@ then
   source ${HOME}/.poetry/env
 fi
 
+if [ -d /usr/local/opt/python@3.8/libexec/bin ]
+then
+  export PATH="/usr/local/opt/python@3.8/libexec/bin:$PATH"
+fi
+
 if [ -d ${HOME}/.bash-my-aws ]
 then
   export PATH="$PATH:$HOME/.bash-my-aws/bin"
