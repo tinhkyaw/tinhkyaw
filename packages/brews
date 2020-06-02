@@ -81,6 +81,7 @@ octave
 pidof
 pipenv
 pipx
+poetry
 postgresql
 protobuf
 pssh
