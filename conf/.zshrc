@@ -142,14 +142,19 @@ export GPG_TTY
 
 export LDFLAGS="-L/usr/local/opt/openssl/lib"
 
-if [ -f ${HOME}/.poetry/env ]
+if [ -d /usr/local/opt/python@3.8/bin ]
 then
-  source ${HOME}/.poetry/env
+  export PATH="/usr/local/opt/python@3.8/bin:$PATH"
 fi
 
 if [ -d /usr/local/opt/python@3.8/libexec/bin ]
 then
   export PATH="/usr/local/opt/python@3.8/libexec/bin:$PATH"
+fi
+
+if [ -f ${HOME}/.poetry/env ]
+then
+  source ${HOME}/.poetry/env
 fi
 
 if [ -d ${HOME}/.bash-my-aws ]
