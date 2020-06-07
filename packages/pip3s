@@ -204,7 +204,7 @@ pytzdata==2019.3
 PyYAML==5.3.1
 pyzmq==19.0.1
 readme-renderer==26.0
-regex==2020.5.14
+regex==2020.6.7
 requests==2.23.0
 requests-file==1.5.1
 requests-html==0.10.0
