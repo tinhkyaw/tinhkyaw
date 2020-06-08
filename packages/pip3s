@@ -10,7 +10,7 @@ appnope==0.1.0
 argcomplete==1.11.1
 arrow==0.15.6
 asgiref==3.2.7
-astroid==2.4.1
+astroid==2.4.2
 atomicwrites==1.4.0
 attrs==19.3.0
 autopep8==1.5.3
@@ -28,7 +28,7 @@ bs4==0.0.1
 cached-property==1.5.1
 cachetools==4.1.0
 cattrs==1.0.0
-celery==4.4.4
+celery==4.4.5
 cement==3.0.4
 certifi==2020.4.5.2
 chardet==3.0.4
@@ -186,7 +186,7 @@ pyee==7.0.2
 Pygments==2.6.1
 PyGObject==3.36.1
 PyJWT==1.7.1
-pylint==2.5.2
+pylint==2.5.3
 pyparsing==2.4.7
 pyppeteer==0.2.2
 pyquery==1.4.1
@@ -204,7 +204,7 @@ pytzdata==2019.3
 PyYAML==5.3.1
 pyzmq==19.0.1
 readme-renderer==26.0
-regex==2020.6.7
+regex==2020.6.8
 requests==2.23.0
 requests-file==1.5.1
 requests-html==0.10.0
@@ -231,7 +231,7 @@ smmap2==3.0.1
 sniffio==1.1.0
 snowballstemmer==2.0.0
 soupsieve==2.0.1
-Sphinx==3.0.4
+Sphinx==3.1.0
 sphinx-rtd-theme==0.4.3
 sphinxcontrib-applehelp==1.0.2
 sphinxcontrib-devhelp==1.0.2
@@ -273,7 +273,7 @@ virtualenv==20.0.21
 virtualenv-clone==0.5.4
 virtualenvwrapper==4.8.4
 w3lib==1.22.0
-wcwidth==0.2.3
+wcwidth==0.2.4
 webencodings==0.5.1
 websockets==8.1
 Werkzeug==1.0.1
