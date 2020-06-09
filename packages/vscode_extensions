@@ -17,6 +17,7 @@ esbenp.prettier-vscode
 formulahendry.code-runner
 fwcd.kotlin
 Gimly81.matlab
+golang.Go
 googlecloudtools.cloudcode
 HookyQR.beautify
 i80and.snooty
@@ -41,7 +42,6 @@ ms-python.anaconda-extension-pack
 ms-python.anaconda-extension-pack
 ms-vscode.cpptools
 ms-vscode.github-issues-prs
-ms-vscode.Go
 ms-vscode.jscs
 ms-vscode.mono-debug
 ms-vscode.vscode-typescript-tslint-plugin
