@@ -160,7 +160,7 @@ pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==7.1.2
 pip-tools==5.2.1
-pipdeptree==0.13.2
+pipdeptree==1.0.0
 pipenv==2020.6.2
 pipfile==0.0.2
 pkginfo==1.5.0.1
