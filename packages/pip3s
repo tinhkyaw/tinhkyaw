@@ -9,7 +9,7 @@ appdirs==1.4.4
 appnope==0.1.0
 argcomplete==1.11.1
 arrow==0.15.6
-asgiref==3.2.7
+asgiref==3.2.8
 astroid==2.4.2
 atomicwrites==1.4.0
 attrs==19.3.0
@@ -39,7 +39,7 @@ colorlog==4.1.0
 ConfigArgParse==1.2.3
 configparser==5.0.0
 cookiecutter==1.7.2
-croniter==0.3.32
+croniter==0.3.33
 cssselect==1.1.0
 cycler==0.10.0
 Cython==0.29.20
