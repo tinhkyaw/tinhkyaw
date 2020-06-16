@@ -9,7 +9,7 @@ appdirs==1.4.4
 appnope==0.1.0
 argcomplete==1.11.1
 arrow==0.15.6
-asgiref==3.2.8
+asgiref==3.2.9
 astroid==2.4.2
 atomicwrites==1.4.0
 attrs==19.3.0
