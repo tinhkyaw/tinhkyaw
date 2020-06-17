@@ -17,8 +17,11 @@ esbenp.prettier-vscode
 formulahendry.code-runner
 fwcd.kotlin
 Gimly81.matlab
+GitHub.vscode-codeql
+GitHub.vscode-pull-request-github
 golang.Go
 googlecloudtools.cloudcode
+hbenl.vscode-test-explorer
 HookyQR.beautify
 i80and.snooty
 korekontrol.saltstack
