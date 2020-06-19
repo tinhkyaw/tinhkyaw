@@ -40,7 +40,7 @@ colorlog==4.1.0
 ConfigArgParse==1.2.3
 configparser==5.0.0
 cookiecutter==1.7.2
-croniter==0.3.33
+croniter==0.3.34
 cssselect==1.1.0
 cycler==0.10.0
 Cython==0.29.20
@@ -120,7 +120,7 @@ joblib==0.15.1
 js-regex==1.0.1
 json-merge-patch==0.2
 jsonschema==3.2.0
-Keras==2.4.1
+Keras==2.4.2
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.2
 keyring==21.2.1
