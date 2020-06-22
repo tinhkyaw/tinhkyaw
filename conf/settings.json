@@ -39,6 +39,7 @@
         "${workspaceRoot}/setup.cfg"
     ],
     "python.jediEnabled": false,
+    "python.languageServer": "Microsoft",
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Args": [
         "--config",
@@ -57,6 +58,5 @@
     "yaml.schemaStore.enable": false,
     "yaml.schemas": {
         "file:///toc.schema.json": "/toc\\.yml/i"
-    },
-    "python.languageServer": "Microsoft"
+    }
 }
