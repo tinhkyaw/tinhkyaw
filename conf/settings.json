@@ -57,5 +57,6 @@
     "yaml.schemaStore.enable": false,
     "yaml.schemas": {
         "file:///toc.schema.json": "/toc\\.yml/i"
-    }
+    },
+    "python.languageServer": "Microsoft"
 }
