@@ -92,7 +92,7 @@ google-auth-oauthlib==0.4.1
 google-pasta==0.2.0
 graphviz==0.14
 greenlet==0.4.16
-grpcio==1.29.0
+grpcio==1.30.0
 gunicorn==20.0.4
 h11==0.9.0
 h2==3.2.0
@@ -279,7 +279,7 @@ virtualenv==20.0.24
 virtualenv-clone==0.5.4
 virtualenvwrapper==4.8.4
 w3lib==1.22.0
-wcwidth==0.2.4
+wcwidth==0.2.5
 webencodings==0.5.1
 websockets==8.1
 Werkzeug==1.0.1
