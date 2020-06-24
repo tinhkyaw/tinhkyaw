@@ -120,7 +120,7 @@ joblib==0.15.1
 js-regex==1.0.1
 json-merge-patch==0.2
 jsonschema==3.2.0
-Keras==2.4.2
+Keras==2.4.3
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.2
 keyring==21.2.1
