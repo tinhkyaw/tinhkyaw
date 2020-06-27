@@ -22,8 +22,8 @@ beautifulsoup4==4.9.1
 billiard==3.6.3.0
 binaryornot==0.4.4
 bleach==3.1.5
-boto3==1.14.11
-botocore==1.17.11
+boto3==1.14.12
+botocore==1.17.12
 bottle==0.12.18
 bs4==0.0.1
 cached-property==1.5.1
@@ -32,6 +32,7 @@ cattrs==1.0.0
 celery==4.4.6
 cement==3.0.4
 certifi==2020.6.20
+cffi==1.14.0
 chardet==3.0.4
 click==7.1.2
 click-completion==0.5.2
@@ -41,6 +42,7 @@ ConfigArgParse==1.2.3
 configparser==5.0.0
 cookiecutter==1.7.2
 croniter==0.3.34
+cryptography==2.9.2
 cssselect==1.1.0
 cycler==0.10.0
 Cython==0.29.20
@@ -106,7 +108,7 @@ httpx==0.13.3
 hyperframe==5.2.0
 idna==2.9
 imagesize==1.2.0
-importlib-metadata==1.6.1
+importlib-metadata==1.7.0
 invoke==1.4.1
 ipython-genutils==0.2.0
 iso8601==0.1.12
@@ -186,6 +188,7 @@ pyasn1-modules==0.2.8
 pybind11==2.5.0
 pycairo==1.19.1
 pycodestyle==2.6.0
+pycparser==2.20
 pyee==7.0.2
 Pygments==2.6.1
 PyGObject==3.36.1
