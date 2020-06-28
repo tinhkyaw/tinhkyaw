@@ -51,7 +51,7 @@ ddt==1.4.1
 decorator==4.4.2
 defusedxml==0.6.0
 dill==0.3.2
-distlib==0.3.0
+distlib==0.3.1
 Django==3.0.7
 django-environ==0.4.5
 dnspython==1.16.0
