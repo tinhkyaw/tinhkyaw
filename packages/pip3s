@@ -22,8 +22,8 @@ beautifulsoup4==4.9.1
 billiard==3.6.3.0
 binaryornot==0.4.4
 bleach==3.1.5
-boto3==1.14.12
-botocore==1.17.12
+boto3==1.14.13
+botocore==1.17.13
 bottle==0.12.18
 bs4==0.0.1
 cached-property==1.5.1
@@ -267,7 +267,7 @@ toml==0.10.1
 torch==1.5.1
 torchvision==0.6.1
 tornado==6.0.4
-tox==3.16.0
+tox==3.16.1
 tqdm==4.47.0
 traitlets==4.3.3
 twine==3.2.0
