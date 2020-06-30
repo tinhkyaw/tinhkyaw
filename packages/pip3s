@@ -101,7 +101,7 @@ h2==3.2.0
 h5py==2.10.0
 honeycomb-beeline==2.12.1
 hpack==3.0.0
-hstspreload==2020.6.23
+hstspreload==2020.6.30
 html5lib==1.1
 httpcore==0.9.1
 httpx==0.13.3
@@ -204,7 +204,7 @@ python-daemon==2.2.4
 python-dateutil==2.8.1
 python-editor==1.0.4
 python-nvd3==0.15.0
-python-slugify==4.0.0
+python-slugify==4.0.1
 python3-openid==3.2.0
 pytz==2020.1
 pytzdata==2019.3
