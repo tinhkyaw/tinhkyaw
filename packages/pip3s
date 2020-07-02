@@ -59,6 +59,7 @@ doc8==0.8.1
 docopt==0.6.2
 docsend==0.2.0
 docutils==0.16
+dparse==0.5.1
 dumb-init==1.2.2
 editdistance==0.5.3
 email-validator==1.1.1
@@ -226,6 +227,7 @@ rope==0.17.0
 rsa==4.6
 s3fs==0.4.2
 s3transfer==0.3.3
+safety==1.9.0
 scikit-learn==0.23.1
 scipy==1.5.0
 seaborn==0.10.1
