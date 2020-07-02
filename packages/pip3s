@@ -143,6 +143,7 @@ marshmallow-sqlalchemy==0.23.1
 matplotlib==3.2.2
 mccabe==0.6.1
 memory-profiler==0.57.0
+mercurial==5.4.2
 mistune==0.8.4
 monotonic==1.5
 more-itertools==8.4.0
