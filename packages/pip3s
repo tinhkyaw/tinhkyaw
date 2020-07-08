@@ -45,7 +45,7 @@ croniter==0.3.34
 cryptography==2.9.2
 cssselect==1.1.0
 cycler==0.10.0
-Cython==0.29.20
+Cython==0.29.21
 dask==2.20.0
 ddt==1.4.1
 decorator==4.4.2
