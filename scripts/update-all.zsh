@@ -32,6 +32,7 @@ npm-check-updates -g
 pip3 install --upgrade pip setuptools
 pip3 freeze --local | cut -d = -f 1 | xargs pip3 install --upgrade
 conda update --all
+poetry self update
 apm upgrade
 env ZSH=$ZSH sh $ZSH/tools/upgrade.sh
 gcloud components update
