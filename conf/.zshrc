@@ -145,10 +145,15 @@ export LDFLAGS="-L/usr/local/opt/openssl/lib"
 if [ -d ${HOME}/.bash-my-aws ]
 then
   export PATH="$PATH:$HOME/.bash-my-aws/bin"
-  source ~/.bash-my-aws/aliases
+  source ${HOME}/.bash-my-aws/aliases
 
   autoload -U +X compinit && compinit
   autoload -U +X bashcompinit && bashcompinit
 
-  source ~/.bash-my-aws/bash_completion.sh
+  source ${HOME}/.bash-my-aws/bash_completion.sh
+fi
+
+if [ -f ${HOME}/.poetry/env ]
+then
+  source ${HOME}/.poetry/env
 fi
