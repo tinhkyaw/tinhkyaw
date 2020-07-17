@@ -141,7 +141,7 @@ MarkupSafe==1.1.1
 marshmallow==3.7.0
 marshmallow-enum==1.5.1
 marshmallow-sqlalchemy==0.23.1
-matplotlib==3.2.2
+matplotlib==3.3.0
 mccabe==0.6.1
 memory-profiler==0.57.0
 mercurial==5.4.2
@@ -269,7 +269,7 @@ torch==1.5.1
 torchvision==0.6.1
 tornado==6.0.4
 tox==3.17.1
-tqdm==4.47.0
+tqdm==4.48.0
 traitlets==4.3.3
 twine==3.2.0
 typed-ast==1.4.1
