@@ -42,7 +42,7 @@ ConfigArgParse==1.2.3
 configparser==5.0.0
 cookiecutter==1.7.2
 croniter==0.3.34
-cryptography==2.9.2
+cryptography==3.0
 cssselect==1.1.0
 cycler==0.10.0
 Cython==0.29.21
