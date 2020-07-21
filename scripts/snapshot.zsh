@@ -13,7 +13,7 @@ GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 PKG_DIR="${GIT_ROOT_DIR}/packages"
 brew list > ${SNAPSHOT_DIR}/brew${SUFFIX}.txt
 brew cask list > ${SNAPSHOT_DIR}/cask${SUFFIX}.txt
-CASK_EXCLUSIONS='colloquy|google-drive-file-stream|pritunl|silverlight|viscosity|webex-meetings|zoomus'
+CASK_EXCLUSIONS='colloquy|google-drive-file-stream|pritunl|protonvpn|silverlight|tunnelbear|viscosity|webex-meetings|zoomus'
 brew cask list | egrep -vi ${CASK_EXCLUSIONS} > ${PKG_DIR}/casks
 gem list > ${SNAPSHOT_DIR}/gem${SUFFIX}.txt
 npm ls -g --depth 0 > ${SNAPSHOT_DIR}/npm${SUFFIX}.txt
