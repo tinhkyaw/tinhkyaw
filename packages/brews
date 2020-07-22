@@ -107,6 +107,7 @@ sshfs
 stow
 suite-sparse
 teleport
+terraform
 textql
 thrift
 tidy-html5

@@ -20,6 +20,7 @@ npm ls -g --depth 0 > ${SNAPSHOT_DIR}/npm${SUFFIX}.txt
 pip3 freeze --local > ${SNAPSHOT_DIR}/pip3${SUFFIX}.txt
 pip3 freeze --local > ${PKG_DIR}/pip3s
 conda list > ${SNAPSHOT_DIR}/conda${SUFFIX}.txt
+poetry -V > ${SNAPSHOT_DIR}/poetry${SUFFIX}.txt
 apm list --installed --bare > ${SNAPSHOT_DIR}/atom${SUFFIX}.txt
 apm list --installed --bare > ${PKG_DIR}/atom_packages
 code --list-extensions --show-versions | sort -d -f \
