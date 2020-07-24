@@ -46,7 +46,6 @@ git-flow
 git-lfs
 git-subrepo
 glide
-gnu-getplot
 gnupg
 go
 gradle
@@ -72,6 +71,7 @@ maven
 memcached
 mercurial
 metis
+minikube
 msgpack
 mypy
 neo4j
@@ -93,7 +93,6 @@ rds-command-line-tools
 redis
 rename
 renameutils
-riak
 rsync
 rust
 rustup-init

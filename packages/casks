@@ -23,7 +23,7 @@ bitbar
 brackets
 brave-browser
 ccleaner
-cocoapods-app
+cocoapods
 cocoaspell
 coconutbattery
 commandq
@@ -50,9 +50,6 @@ flash-ppapi
 flux
 flycut
 font-hack-nerd-font
-font-hack-nerd-font-mono
-font-liberationmono-nerd-font
-font-liberationmono-nerd-font-mono
 geany
 gimp
 github
@@ -64,7 +61,6 @@ google-chrome
 google-cloud-sdk
 google-earth-pro
 google-featured-photos
-google-nik-collection
 google-trends
 google-web-designer
 googleappengine
@@ -97,13 +93,11 @@ mactex
 mactracker
 macvim
 maintenance
-marp
 meld
 menumeters
 meteorologist
 microsoft-edge
 microsoft-r-open
-minikube
 mono-mdk-for-visual-studio
 mysqlworkbench
 netbeans
