@@ -163,7 +163,7 @@ pandas==1.0.5
 parse==1.15.0
 parso==0.7.1
 pbr==5.4.5
-pendulum==2.1.1
+pendulum==2.1.2
 pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==7.2.0
