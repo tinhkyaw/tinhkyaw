@@ -4,6 +4,7 @@ ansible
 ant
 apache-flink
 apache-spark
+aria2
 autoenv
 automake
 autopep8
@@ -20,7 +21,6 @@ c-ares
 carthage
 cmake
 cocoapods
-couchdb
 cromwell
 crush-tools
 csshx
