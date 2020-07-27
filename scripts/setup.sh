@@ -22,6 +22,7 @@ brew tap homebrew/cask-fonts
 brew tap homebrew/cask-versions
 brew tap weaveworks/tap
 brew install weaveworks/tap/eksctl
+sudo spctl --master-disable
 brew cask install adoptopenjdk adoptopenjdk8 google-chrome java mactex osxfuse xquartz
 cat ${GIT_ROOT_DIR}/packages/brews | xargs brew install
 cat ${GIT_ROOT_DIR}/packages/casks | xargs brew cask install
@@ -33,7 +34,6 @@ done
 export LDFLAGS="-L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/system"
 pip3 install -U cython pyyaml
 pip3 install -U -r ${GIT_ROOT_DIR}/packages/pip3s
-/usr/local/anaconda3/bin/conda install pyarrow
 /usr/local/anaconda3/bin/conda install pytorch torchvision -c pytorch
 curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python
 if [ ! -n "$ZSH" ]

@@ -1,14 +1,17 @@
-Andmore
+Asciidoc Editor
+Avroclipse
 AWS Toolkit
 Buildship Gradle Integration
 Checkstyle
 Counterclockwise
+Cucumber
 Dart Plugin
 Docker Editor
 EclEmma
 Eclipse Corrosion
 Eclipse Docker Tooling
 Eclipse TeXlipse
+Eclipse Thym (Cordova)
 eclipse-pmd
 Enhanced Class Decompiler
 Google Cloud Tools
@@ -22,4 +25,6 @@ Scalastyle
 ShellWax
 SonarLint
 SpotBugs
+SQl Editor
 Yaml Editor
+JGrasp  https://www.jgrasp.org/eclipse_plugin
