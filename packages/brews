@@ -34,6 +34,7 @@ ec2-api-tools
 elasticsearch
 erlang
 exa
+exiftool
 fabric
 ffmpeg
 findutils
@@ -42,10 +43,12 @@ flake8
 gawk
 gcc
 geoip
+gflag
 git-flow
 git-lfs
 git-subrepo
 glide
+glog
 gnupg
 go
 gradle
@@ -79,6 +82,7 @@ netcat
 nginx
 octave
 pidof
+pinentry-mac
 pipenv
 pipx
 poetry
@@ -93,6 +97,7 @@ rds-command-line-tools
 redis
 rename
 renameutils
+rocksdb
 rsync
 rust
 rustup-init
@@ -101,6 +106,7 @@ sbt
 scala
 scipy
 sops
+sphinx-doc
 sqoop
 sshfs
 stow
@@ -116,6 +122,7 @@ tree
 utf8proc
 uwsgi
 v8
+watchman
 webkit2png
 wget
 xdot
