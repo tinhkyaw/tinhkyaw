@@ -6,26 +6,20 @@ then
 else
   DIR="${1}"
 fi
-cd ${DIR}
-for d in $(ls)
+for d in $(find ${DIR} -name '.git' | sort)
 do
-  if [[ -d ${DIR}/${d} && -d ${DIR}/${d}/.git ]]
+  gr=${d%?????}
+  cd ${gr}
+  if [[ $(git remote) ]]
   then
-    cd ${DIR}/${d}
-    if [[ $(git remote) ]]
+    print -P "%F{blue}Attempting%f git pull %F{cyan}${gr}%f"
+    if ! git pull
     then
-      print -P "%F{blue}Attempting%f git pull %F{cyan}${d}%f"
-      if ! git pull
-      then
-        print -P "%F{red}Retrying%f git pull --no-rebase %F{cyan}${d}%f"
-        git pull --no-rebase
-      fi
-    else
-      print -P "%F{yellow}Skipping%f %F{cyan}${d}%f - no remote set"
+      print -P "%F{red}Retrying%f git pull --no-rebase %F{cyan}${gr}%f"
+      git pull --no-rebase
     fi
-    cd ${DIR}
   else
-    print -P "%F{yellow}Skipping%f %F{cyan}${d}%f - not a git directory"
+    print -P "%F{yellow}Skipping%f %F{cyan}${gr}%f - no remote set"
   fi
 done
 cd ${P}
