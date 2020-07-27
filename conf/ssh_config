@@ -7,10 +7,9 @@ ServerAliveCountMax 1
 ServerAliveInterval 5
 
 # Host <alias>
-# HostName <fully-qualified-hostname>
-# ProxyCommand ssh <gateway> <command>
-# ForwardAgent yes
-# ForwardX11 yes
-# ForwardX11Trusted yes
-# XAuthLocation /opt/X11/bin/xauth
-
+#   HostName <fully-qualified-hostname>
+#   ProxyCommand ssh <gateway> <command>
+#   ForwardAgent yes
+#   ForwardX11 yes
+#   ForwardX11Trusted yes
+#   XAuthLocation /opt/X11/bin/xauth
