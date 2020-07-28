@@ -266,8 +266,8 @@ threadpoolctl==2.1.0
 thrift==0.13.0
 tldextract==2.2.2
 toml==0.10.1
-torch==1.5.1
-torchvision==0.6.1
+torch==1.6.0
+torchvision==0.7.0
 tornado==6.0.4
 tox==3.18.1
 tqdm==4.48.0
