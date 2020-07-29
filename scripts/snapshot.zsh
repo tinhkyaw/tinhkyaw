@@ -13,7 +13,15 @@ GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 PKG_DIR="${GIT_ROOT_DIR}/packages"
 brew list > ${SNAPSHOT_DIR}/brew${SUFFIX}.txt
 brew cask list > ${SNAPSHOT_DIR}/cask${SUFFIX}.txt
-CASK_EXCLUSIONS='cocoaspell|colloquy|google-drive-file-stream|pritunl|protonvpn|silverlight|tunnelbear|viscosity|webex-meetings|zoomus'
+CASK_EXCLUSIONS="\
+cocoaspell\
+|colloquy\
+|google-drive-file-stream\
+|pritunl\
+|viscosity\
+|webex-meetings\
+|zoomus\
+"
 brew cask list | egrep -vi ${CASK_EXCLUSIONS} > ${PKG_DIR}/casks
 gem list > ${SNAPSHOT_DIR}/gem${SUFFIX}.txt
 npm ls -g --depth 0 > ${SNAPSHOT_DIR}/npm${SUFFIX}.txt
@@ -26,21 +34,21 @@ apm list --installed --bare > ${PKG_DIR}/atom_packages
 code --list-extensions --show-versions | sort -d -f \
 > ${SNAPSHOT_DIR}/code${SUFFIX}.txt
 VSCODE_EXCLUSIONS="\
-^docsmsft.docs.*|\
-^donjayamanne.*|\
-^redhat.*|\
-^vscjava.vscode.*|\
-.*code-spell-checker$|\
-.*django$|\
-.*gitignore$|\
-.*gitlens$|\
-.*intellicode$|\
-.*jinja$|\
-.*markdownlint$|\
-.*open-in-github$|\
-.*project-manager$|\
-.*python$|\
-.linkcheckmd$\
+^docsmsft.docs.*\
+|^donjayamanne.*\
+|^redhat.*\
+|^vscjava.vscode.*\
+|.*code-spell-checker$\
+|.*django$\
+|.*gitignore$\
+|.*gitlens$\
+|.*intellicode$\
+|.*jinja$\
+|.*markdownlint$\
+|.*open-in-github$\
+|.*project-manager$\
+|.*python$\
+|.linkcheckmd$\
 "
 VSCODE_INCLUSIONS=".*-pack$"
 sort -d -f <(code --list-extensions | egrep ${VSCODE_INCLUSIONS}) \
