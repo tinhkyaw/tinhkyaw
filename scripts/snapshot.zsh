@@ -17,6 +17,7 @@ CASK_EXCLUSIONS="\
 cocoaspell\
 |colloquy\
 |google-drive-file-stream\
+|microsoft-auto-update\
 |pritunl\
 |viscosity\
 |webex-meetings\
