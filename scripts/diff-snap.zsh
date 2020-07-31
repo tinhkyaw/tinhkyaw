@@ -7,7 +7,7 @@ fi
 SUFFIX1=$1
 SUFFIX2=$2
 SNAPSHOT_DIR="${HOME}/Dropbox/Shared/Snapshots"
-for snapshot in atom brew cask chrome code conda eclipse gcloud gem intellij npm pip3 poetry pycharm
+for snapshot in atom brew cask chrome code conda eclipse gcloud gem intellij mas npm pip3 poetry pycharm
 do
   FILE1="${snapshot}${SUFFIX1}.txt"
   FILE2="${snapshot}${SUFFIX2}.txt"

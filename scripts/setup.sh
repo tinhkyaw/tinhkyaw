@@ -4,7 +4,7 @@ if ! command -v brew &> /dev/null
 then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
-brew install coreutils git mysql openjdk python ruby swig
+brew install coreutils git mas openjdk python ruby swig
 export SLUGIFY_USES_TEXT_UNIDECODE=yes
 pip3 install -U virtualenvwrapper
 DIR=$(dirname "$(greadlink -f "${0}")")

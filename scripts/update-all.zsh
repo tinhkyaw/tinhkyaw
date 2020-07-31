@@ -13,8 +13,10 @@ do
   esac
 done
 shift $(( OPTIND - 1 ))
+brew missing
 brew update
 brew upgrade
+brew cask outdated
 if ( $is_greedy )
 then
   brew cask upgrade --greedy
@@ -23,6 +25,8 @@ else
 fi
 brew cleanup -s
 brew doctor
+mas outdated
+mas upgrade
 gem update --system
 gem update
 gem cleanup
