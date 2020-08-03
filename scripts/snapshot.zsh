@@ -15,8 +15,10 @@ brew list > ${SNAPSHOT_DIR}/brew${SUFFIX}.txt
 brew cask list > ${SNAPSHOT_DIR}/cask${SUFFIX}.txt
 CASK_EXCLUSIONS="\
 cocoaspell\
+|blockblock\
 |colloquy\
 |google-drive-file-stream\
+|lulu\
 |microsoft-auto-update\
 |pritunl\
 |viscosity\
