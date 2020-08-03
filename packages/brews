@@ -5,6 +5,7 @@ ant
 apache-flink
 apache-spark
 aria2
+augeas
 autoenv
 automake
 autopep8
@@ -68,6 +69,7 @@ kube-ps1
 kubeless
 kubernetes-cli
 leiningen
+libpq
 luajit
 lzip
 maven
