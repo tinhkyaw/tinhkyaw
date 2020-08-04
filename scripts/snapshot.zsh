@@ -38,21 +38,30 @@ apm list --installed --bare > ${PKG_DIR}/atom_packages
 code --list-extensions --show-versions | sort -d -f \
 > ${SNAPSHOT_DIR}/code${SUFFIX}.txt
 VSCODE_EXCLUSIONS="\
-^docsmsft.docs.*\
+esbenp.prettier-vscode\
+|scala-lang.scala\
+|^dart-code.*\
+|^docsmsft.docs.*\
 |^donjayamanne.*\
+|^ms-vscode-remote.remote*\
 |^redhat.*\
 |^vscjava.vscode.*\
+|.*better-toml$\
 |.*code-spell-checker$\
+|.*cpptools$\
 |.*django$\
 |.*gitignore$\
 |.*gitlens$\
 |.*intellicode$\
 |.*jinja$\
+|.*kubernetes-tools$\
+|.*linkcheckmd$\
 |.*markdownlint$\
+|.*opa$\
 |.*open-in-github$\
 |.*project-manager$\
 |.*python$\
-|.linkcheckmd$\
+|.*vscode-test-explorer$\
 "
 VSCODE_INCLUSIONS=".*-pack$"
 sort -d -f <(code --list-extensions | egrep ${VSCODE_INCLUSIONS}) \
