@@ -41,6 +41,7 @@ ffmpeg
 findutils
 fish
 flake8
+fpc
 gawk
 gcc
 geoip
