@@ -109,6 +109,7 @@ saltstack
 sbt
 scala
 scipy
+simdjson
 sops
 sphinx-doc
 sqoop
