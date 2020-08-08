@@ -22,8 +22,8 @@ beautifulsoup4==4.9.1
 billiard==3.6.3.0
 binaryornot==0.4.4
 bleach==3.1.5
-boto3==1.14.37
-botocore==1.17.37
+boto3==1.14.38
+botocore==1.17.38
 bottle==0.12.18
 bs4==0.0.1
 cached-property==1.5.1
@@ -84,7 +84,7 @@ Flask-WTF==0.14.3
 fsspec==0.8.0
 funcsigs==1.0.2
 future==0.18.2
-gast==0.3.3
+gast==0.4.0
 gevent==20.6.2
 geventhttpclient==1.4.4
 geventhttpclient-wheels==1.3.1.dev3
@@ -103,7 +103,7 @@ h2==3.2.0
 h5py==2.10.0
 honeycomb-beeline==2.12.2
 hpack==3.0.0
-hstspreload==2020.8.5
+hstspreload==2020.8.8
 html5lib==1.1
 httpcore==0.10.1
 httpx==0.14.0
@@ -242,7 +242,7 @@ smmap2==3.0.1
 sniffio==1.1.0
 snowballstemmer==2.0.0
 soupsieve==2.0.1
-Sphinx==3.1.2
+Sphinx==3.2.0
 sphinx-rtd-theme==0.5.0
 sphinxcontrib-applehelp==1.0.2
 sphinxcontrib-devhelp==1.0.2
