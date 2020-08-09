@@ -29,7 +29,6 @@ dateutils
 diff-so-fancy
 direnv
 docker-compose
-doxygen
 ec2-ami-tools
 ec2-api-tools
 elasticsearch
