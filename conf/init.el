@@ -68,7 +68,7 @@
 (global-set-key [delete] 'delete-char)
 (global-set-key [kp-delete] 'delete-char)
 
-(set-default-font "*-courier-medium-r-*-*-*-140-*")
+(set-frame-font "*-courier-medium-r-*-*-*-140-*")
 
 (display-time)
 
