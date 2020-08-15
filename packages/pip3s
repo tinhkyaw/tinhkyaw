@@ -22,8 +22,8 @@ beautifulsoup4==4.9.1
 billiard==3.6.3.0
 binaryornot==0.4.4
 bleach==3.1.5
-boto3==1.14.40
-botocore==1.17.40
+boto3==1.14.43
+botocore==1.17.43
 bottle==0.12.18
 bs4==0.0.1
 cached-property==1.5.1
@@ -32,7 +32,7 @@ cattrs==1.0.0
 celery==4.4.7
 cement==3.0.4
 certifi==2020.6.20
-cffi==1.14.1
+cffi==1.14.2
 chardet==3.0.4
 click==7.1.2
 click-completion==0.5.2
@@ -46,7 +46,7 @@ cryptography==3.0
 cssselect==1.1.0
 cycler==0.10.0
 Cython==0.29.21
-dask==2.22.0
+dask==2.23.0
 dataclasses==0.6
 ddt==1.4.1
 decorator==4.4.2
@@ -99,7 +99,7 @@ graphviz==0.14.1
 greenlet==0.4.16
 grpcio==1.31.0
 gunicorn==20.0.4
-h11==0.9.0
+h11==0.10.0
 h2==3.2.0
 h5py==2.10.0
 honeycomb-beeline==2.12.2
@@ -116,7 +116,7 @@ iniconfig==1.0.1
 invoke==1.4.1
 ipython-genutils==0.2.0
 iso8601==0.1.12
-isort==5.3.2
+isort==5.4.2
 itsdangerous==1.1.0
 jedi==0.17.2
 Jinja2==2.11.2
@@ -145,7 +145,7 @@ MarkupSafe==1.1.1
 marshmallow==3.7.1
 marshmallow-enum==1.5.1
 marshmallow-sqlalchemy==0.23.1
-matplotlib==3.3.0
+matplotlib==3.3.1
 mccabe==0.6.1
 memory-profiler==0.57.0
 mercurial==5.5
@@ -174,14 +174,14 @@ pickleshare==0.7.5
 Pillow==7.2.0
 pip-tools==5.3.1
 pipdeptree==1.0.0
-pipenv==2020.6.2
+pipenv==2020.8.13
 pipfile==0.0.2
 pkginfo==1.5.0.1
 pluggy==0.13.1
 poyo==0.5.0
 prison==0.1.3
 prompt-toolkit==3.0.6
-protobuf==3.12.4
+protobuf==3.13.0
 pss==1.42
 psutil==5.7.2
 psycopg2==2.8.5
@@ -248,7 +248,7 @@ smmap2==3.0.1
 sniffio==1.1.0
 snowballstemmer==2.0.0
 soupsieve==2.0.1
-Sphinx==3.2.0
+Sphinx==3.2.1
 sphinx-rtd-theme==0.5.0
 sphinxcontrib-applehelp==1.0.2
 sphinxcontrib-devhelp==1.0.2
