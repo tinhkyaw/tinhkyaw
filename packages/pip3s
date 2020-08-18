@@ -104,7 +104,7 @@ h2==3.2.0
 h5py==2.10.0
 honeycomb-beeline==2.12.2
 hpack==3.0.0
-hstspreload==2020.8.12
+hstspreload==2020.8.18
 html5lib==1.1
 httpcore==0.10.1
 httpx==0.14.1
