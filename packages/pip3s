@@ -26,8 +26,8 @@ beautifulsoup4==4.9.1
 billiard==3.6.3.0
 binaryornot==0.4.4
 bleach==3.1.5
-boto3==1.14.47
-botocore==1.17.47
+boto3==1.14.48
+botocore==1.17.48
 bottle==0.12.18
 bs4==0.0.1
 cached-property==1.5.1
@@ -108,7 +108,7 @@ h2==3.2.0
 h5py==2.10.0
 honeycomb-beeline==2.12.2
 hpack==3.0.0
-hstspreload==2020.8.18
+hstspreload==2020.8.25
 html5lib==1.1
 httpcore==0.10.2
 httpx==0.14.2
