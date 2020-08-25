@@ -5,7 +5,7 @@ aioitertools==0.7.0
 alabaster==0.7.12
 alembic==1.4.2
 amqp==2.6.1
-apache-airflow==1.10.11
+apache-airflow==1.10.12
 apache-libcloud==3.1.0
 apispec==3.3.1
 appdirs==1.4.4
