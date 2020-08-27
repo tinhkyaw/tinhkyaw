@@ -46,7 +46,7 @@ ConfigArgParse==1.2.3
 configparser==5.0.0
 cookiecutter==1.7.2
 croniter==0.3.34
-cryptography==3.0
+cryptography==3.1
 cssselect==1.1.0
 cycler==0.10.0
 Cython==0.29.21
@@ -77,7 +77,7 @@ first==2.0.2
 Flask==1.1.2
 Flask-Admin==1.5.6
 Flask-AppBuilder==3.0.1
-Flask-Babel==1.0.0
+Flask-Babel==2.0.0
 Flask-BasicAuth==0.2.0
 Flask-Caching==1.9.0
 Flask-JWT-Extended==3.24.1
