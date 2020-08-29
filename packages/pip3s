@@ -26,8 +26,8 @@ beautifulsoup4==4.9.1
 billiard==3.6.3.0
 binaryornot==0.4.4
 bleach==3.1.5
-boto3==1.14.50
-botocore==1.17.50
+boto3==1.14.51
+botocore==1.17.51
 bottle==0.12.18
 bs4==0.0.1
 cached-property==1.5.1
@@ -50,7 +50,7 @@ cryptography==3.1
 cssselect==1.1.0
 cycler==0.10.0
 Cython==0.29.21
-dask==2.24.0
+dask==2.25.0
 dataclasses==0.6
 ddt==1.4.1
 decorator==4.4.2
@@ -170,7 +170,7 @@ opt-einsum==3.3.0
 ordereddict==1.1
 packaging==20.4
 pandas==1.1.1
-parse==1.16.0
+parse==1.17.0
 parso==0.8.0
 pbr==5.4.5
 pendulum==2.1.2
