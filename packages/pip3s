@@ -1,5 +1,5 @@
 absl-py==0.10.0
-aiobotocore==1.1.0
+aiobotocore==1.1.1
 aiohttp==3.6.2
 aioitertools==0.7.0
 alabaster==0.7.12
@@ -57,7 +57,7 @@ decorator==4.4.2
 defusedxml==0.6.0
 dill==0.3.2
 distlib==0.3.1
-Django==3.1
+Django==3.1.1
 django-environ==0.4.5
 dnspython==2.0.0
 doc8==0.8.1
@@ -152,7 +152,7 @@ marshmallow-sqlalchemy==0.23.1
 matplotlib==3.3.1
 mccabe==0.6.1
 memory-profiler==0.57.0
-mercurial==5.5
+mercurial==5.5.1
 mistune==0.8.4
 monotonic==1.5
 more-itertools==8.5.0
