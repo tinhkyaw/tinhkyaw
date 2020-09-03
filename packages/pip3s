@@ -4,7 +4,7 @@ aiohttp==3.6.2
 aioitertools==0.7.0
 alabaster==0.7.12
 alembic==1.4.2
-amqp==2.6.1
+amqp==5.0.0
 apache-airflow==1.10.12
 apache-libcloud==3.1.0
 apispec==3.3.2
@@ -26,8 +26,8 @@ beautifulsoup4==4.9.1
 billiard==3.6.3.0
 binaryornot==0.4.4
 bleach==3.1.5
-boto3==1.14.53
-botocore==1.17.53
+boto3==1.14.54
+botocore==1.17.54
 bottle==0.12.18
 bs4==0.0.1
 cached-property==1.5.1
@@ -120,7 +120,7 @@ iniconfig==1.0.1
 invoke==1.4.1
 ipython-genutils==0.2.0
 iso8601==0.1.12
-isort==5.4.2
+isort==5.5.0
 itsdangerous==1.1.0
 jedi==0.17.2
 Jinja2==2.11.2
@@ -284,7 +284,7 @@ torchvision==0.7.0
 tornado==6.0.4
 tox==3.20.0
 tqdm==4.48.2
-traitlets==5.0.0
+traitlets==5.0.2
 twine==3.2.0
 typed-ast==1.4.1
 typing-extensions==3.7.4.3
