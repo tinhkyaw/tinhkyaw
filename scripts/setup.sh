@@ -25,6 +25,7 @@ brew install weaveworks/tap/eksctl
 sudo spctl --master-disable
 brew cask install adoptopenjdk adoptopenjdk8 google-chrome java mactex osxfuse xquartz
 cat ${GIT_ROOT_DIR}/packages/brews | xargs brew install
+brew tap vitorgalvao/tiny-scripts && brew install cask-repair
 cat ${GIT_ROOT_DIR}/packages/casks | xargs brew cask install
 apm install --packages-file ${GIT_ROOT_DIR}/packages/atom_packages
 for extension in $(cat ${GIT_ROOT_DIR}/packages/vscode_extensions)
