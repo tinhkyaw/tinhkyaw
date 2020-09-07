@@ -29,6 +29,7 @@ dateutils
 diff-so-fancy
 direnv
 docker-compose
+duti
 ec2-ami-tools
 ec2-api-tools
 elasticsearch
@@ -125,6 +126,7 @@ trash
 tree
 utf8proc
 uwsgi
+vips
 v8
 watchman
 webkit2png
