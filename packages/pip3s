@@ -192,7 +192,7 @@ psutil==5.7.2
 psycopg2==2.8.6
 ptyprocess==0.6.0
 py==1.9.0
-py4j==0.10.9
+py4j==0.10.9.1
 pyarrow==1.0.1
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
@@ -211,7 +211,7 @@ pyquery==1.4.1
 pyre-check==0.0.52
 pyre-extensions==0.0.18
 pyrsistent==0.16.0
-pyspark==3.0.0
+pyspark==3.0.1
 pytest==6.0.1
 python-daemon==2.2.4
 python-dateutil==2.8.1
