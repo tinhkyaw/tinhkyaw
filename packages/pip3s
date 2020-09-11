@@ -3,7 +3,7 @@ aiobotocore==1.1.1
 aiohttp==3.6.2
 aioitertools==0.7.0
 alabaster==0.7.12
-alembic==1.4.2
+alembic==1.4.3
 amqp==5.0.1
 apache-airflow==1.10.12
 apache-libcloud==3.1.0
@@ -26,8 +26,8 @@ beautifulsoup4==4.9.1
 billiard==3.6.3.0
 binaryornot==0.4.4
 bleach==3.1.5
-boto3==1.14.58
-botocore==1.17.58
+boto3==1.14.59
+botocore==1.17.59
 bottle==0.12.18
 bs4==0.0.1
 cached-property==1.5.1
@@ -170,7 +170,7 @@ opt-einsum==3.3.0
 ordereddict==1.1
 packaging==20.4
 pandas==1.1.2
-parse==1.17.0
+parse==1.18.0
 parso==0.8.0
 pbr==5.5.0
 pendulum==2.1.2
