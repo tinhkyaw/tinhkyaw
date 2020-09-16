@@ -61,6 +61,7 @@ hr
 httpie
 hub
 ipython
+java
 jenv
 jmeter
 jq
@@ -90,7 +91,6 @@ pidof
 pinentry-mac
 pipenv
 pipx
-poetry
 postgresql
 protobuf
 pssh

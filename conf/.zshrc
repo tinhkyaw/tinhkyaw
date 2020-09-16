@@ -157,3 +157,8 @@ if [ -f ${HOME}/.poetry/env ]
 then
   source ${HOME}/.poetry/env
 fi
+
+if [ -f ${HOME}/.poetry/bin/poetry ]
+then
+  alias poetry="python3 ${HOME}/.poetry/bin/poetry"
+fi
