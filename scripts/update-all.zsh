@@ -17,7 +17,7 @@ shift $(( OPTIND - 1 ))
 brew missing
 brew update
 brew upgrade
-brew cask outdated
+brew outdated --cask
 if ( $is_greedy )
 then
   brew cask upgrade --greedy
