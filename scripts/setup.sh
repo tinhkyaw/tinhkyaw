@@ -6,7 +6,22 @@ then
 fi
 brew install coreutils git mas openjdk python ruby swig
 export SLUGIFY_USES_TEXT_UNIDECODE=yes
-pip3 install -U virtualenvwrapper
+pip3 install -U \
+pip \
+doc8 \
+docsend \
+pip-tools \
+pipdeptree \
+pss \
+pytest \
+safety \
+twine \
+unidecode \
+virtualenvwrapper \
+yolk
+curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python
+export CPATH=$(xcrun --show-sdk-path)/usr/include
+poetry install
 DIR=$(dirname "$(greadlink -f "${0}")")
 cd ${DIR}
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
@@ -36,7 +51,6 @@ export LDFLAGS="-L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/sy
 pip3 install -U cython pyyaml
 pip3 install -U -r ${GIT_ROOT_DIR}/packages/pip3s
 /usr/local/anaconda3/bin/conda install pytorch torchvision -c pytorch
-curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python
 if [ ! -n "$ZSH" ]
 then
   ZSH=~/.oh-my-zsh

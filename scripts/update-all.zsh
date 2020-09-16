@@ -1,4 +1,5 @@
 #!/usr/bin/env zsh
+P=$(pwd)
 DIR=$(dirname $(type -a "${0}" | cut -d " " -f 3))
 is_greedy=false
 while getopts g flag
@@ -37,6 +38,12 @@ pip3 install --upgrade pip setuptools
 pip3 freeze --local | cut -d = -f 1 | xargs pip3 install --upgrade
 conda update --all
 poetry self update
+GIT_DIR=$(dirname "$(greadlink -f "${0}")")
+cd ${GIT_DIR}
+GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
+cd ${GIT_ROOT_DIR}
+poetry update
 apm upgrade
 env ZSH=$ZSH sh $ZSH/tools/upgrade.sh
 gcloud components update
+cd ${P}
