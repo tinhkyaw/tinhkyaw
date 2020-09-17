@@ -34,7 +34,7 @@ pss==1.42
 py==1.9.0
 pycairo==1.19.1
 pyee==7.0.3
-Pygments==2.7.0
+Pygments==2.7.1
 PyGObject==3.38.0
 pyparsing==2.4.7
 pyppeteer==0.2.2
