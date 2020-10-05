@@ -1,7 +1,7 @@
 appdirs==1.4.4
 attrs==20.2.0
 autopep8==1.5.4
-beautifulsoup4==4.9.2
+beautifulsoup4==4.9.3
 bleach==3.2.1
 bs4==0.0.1
 certifi==2020.6.20
@@ -43,7 +43,7 @@ pyppeteer==0.2.2
 PyQt5==5.15.1
 PyQt5-sip==12.8.1
 pyquery==1.4.1
-pytest==6.1.0
+pytest==6.1.1
 PyYAML==5.3.1
 readme-renderer==26.0
 requests==2.24.0
@@ -61,7 +61,7 @@ tqdm==4.50.0
 twine==3.2.0
 Unidecode==1.1.1
 urllib3==1.25.10
-virtualenv==20.0.32
+virtualenv==20.0.33
 virtualenv-clone==0.5.4
 virtualenvwrapper==4.8.4
 w3lib==1.22.0
