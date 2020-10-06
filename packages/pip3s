@@ -33,7 +33,7 @@ pkginfo==1.5.0.1
 pluggy==0.13.1
 pss==1.42
 py==1.9.0
-pycairo==1.19.1
+pycairo==1.20.0
 pycodestyle==2.6.0
 pyee==8.0.1
 Pygments==2.7.1
