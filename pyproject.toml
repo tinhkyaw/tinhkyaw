@@ -75,6 +75,7 @@ tldextract = "^2.2.3"
 torchvision = "^0.7.0"
 traitlets = "^5.0.4"
 typed-ast = "whichcraft"
+ftfy = "^5.8"
 
 [tool.poetry.dev-dependencies]
 

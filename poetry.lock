@@ -315,20 +315,20 @@ python-versions = "*"
 
 [[package]]
 name = "boto3"
-version = "1.15.13"
+version = "1.15.14"
 description = "The AWS SDK for Python"
 category = "main"
 optional = false
 python-versions = "*"
 
 [package.dependencies]
-botocore = ">=1.18.13,<1.19.0"
+botocore = ">=1.18.14,<1.19.0"
 jmespath = ">=0.7.1,<1.0.0"
 s3transfer = ">=0.3.0,<0.4.0"
 
 [[package]]
 name = "botocore"
-version = "1.18.13"
+version = "1.18.14"
 description = "Low-level, data-driven core of boto 3."
 category = "main"
 optional = false
@@ -960,6 +960,17 @@ python-versions = "*"
 Flask = "*"
 itsdangerous = "*"
 WTForms = "*"
+
+[[package]]
+name = "ftfy"
+version = "5.8"
+description = "Fixes some problems with Unicode text after the fact"
+category = "main"
+optional = false
+python-versions = ">=3.5"
+
+[package.dependencies]
+wcwidth = "*"
 
 [[package]]
 name = "funcsigs"
@@ -3167,7 +3178,7 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "b1086ee671a1edb8921a216c9cadcb9c830184962fc4eb7866753fcfb32fda52"
+content-hash = "98da4d72d2f7207275182fa9bdfdef6511a6453d585f93173453af7ef462e9b5"
 
 [metadata.files]
 absl-py = [
@@ -3244,12 +3255,12 @@ billiard = [
     {file = "billiard-3.6.3.0.tar.gz", hash = "sha256:d91725ce6425f33a97dfa72fb6bfef0e47d4652acd98a032bd1a7fbf06d5fa6a"},
 ]
 boto3 = [
-    {file = "boto3-1.15.13-py2.py3-none-any.whl", hash = "sha256:f71ef9005bc49f92e822b3c24d651a9bc2b682a63acdcbbb2bc1d16da39c01ea"},
-    {file = "boto3-1.15.13.tar.gz", hash = "sha256:329178bd505b5d1dbb5eab25e9697c0e592c45548c895f451a91772d0e5a9329"},
+    {file = "boto3-1.15.14-py2.py3-none-any.whl", hash = "sha256:2415549481e446c6809ff7199d8321f976ece7b7b5c18c829bcee3121a784385"},
+    {file = "boto3-1.15.14.tar.gz", hash = "sha256:82b5c608c3d6bb1bd66b3d2a64a31c8a470294fef61c761bf38f2f8fdc905328"},
 ]
 botocore = [
-    {file = "botocore-1.18.13-py2.py3-none-any.whl", hash = "sha256:90e76683807896a28bbefd6e9bc3a2dc44ecd88fc6f6737fa0e3b20d5b7223ea"},
-    {file = "botocore-1.18.13.tar.gz", hash = "sha256:570609095c992732cf6158c3dd0a38619c77818fa700d6779b27277b34f98959"},
+    {file = "botocore-1.18.14-py2.py3-none-any.whl", hash = "sha256:b929e352a6fd4883cae38ba662fbf6ba93a9251acf476aa1e05b0fac1e81c313"},
+    {file = "botocore-1.18.14.tar.gz", hash = "sha256:539aaf805ad8842ee3fb7350e0a4853f3db6a95ea9ffbe92add1ad2a6636ee86"},
 ]
 bottle = [
     {file = "bottle-0.12.18-py3-none-any.whl", hash = "sha256:43157254e88f32c6be16f8d9eb1f1d1472396a4e174ebd2bf62544854ecf37e7"},
@@ -3557,6 +3568,9 @@ flask-swagger = [
 flask-wtf = [
     {file = "Flask-WTF-0.14.3.tar.gz", hash = "sha256:d417e3a0008b5ba583da1763e4db0f55a1269d9dd91dcc3eb3c026d3c5dbd720"},
     {file = "Flask_WTF-0.14.3-py2.py3-none-any.whl", hash = "sha256:57b3faf6fe5d6168bda0c36b0df1d05770f8e205e18332d0376ddb954d17aef2"},
+]
+ftfy = [
+    {file = "ftfy-5.8.tar.gz", hash = "sha256:51c7767f8c4b47d291fcef30b9625fb5341c06a31e6a3b627039c706c42f3720"},
 ]
 funcsigs = [
     {file = "funcsigs-1.0.2-py2.py3-none-any.whl", hash = "sha256:330cc27ccbf7f1e992e69fef78261dc7c6569012cf397db8d3de0234e6c937ca"},
