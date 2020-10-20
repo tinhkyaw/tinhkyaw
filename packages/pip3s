@@ -25,7 +25,7 @@ more-itertools==8.5.0
 numpy==1.19.2
 packaging==20.4
 parse==1.18.0
-pbr==5.5.0
+pbr==5.5.1
 Pillow==8.0.0
 pip-tools==5.3.1
 pipdeptree==1.0.0
@@ -60,7 +60,7 @@ toml==0.10.1
 tqdm==4.50.2
 twine==3.2.0
 Unidecode==1.1.1
-urllib3==1.25.10
+urllib3==1.25.11
 virtualenv==20.0.35
 virtualenv-clone==0.5.4
 virtualenvwrapper==4.8.4
