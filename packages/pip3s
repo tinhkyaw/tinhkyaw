@@ -36,8 +36,7 @@ py==1.9.0
 pycairo==1.20.0
 pycodestyle==2.6.0
 pyee==8.1.0
-Pygments==2.7.1
-PyGObject==3.38.0
+Pygments==2.7.2
 pyparsing==2.4.7
 pyppeteer==0.2.2
 PyQt5==5.15.1
@@ -57,11 +56,11 @@ six==1.15.0
 soupsieve==2.0.1
 stevedore==3.2.2
 toml==0.10.1
-tqdm==4.50.2
+tqdm==4.51.0
 twine==3.2.0
 Unidecode==1.1.1
 urllib3==1.25.11
-virtualenv==20.0.35
+virtualenv==20.1.0
 virtualenv-clone==0.5.4
 virtualenvwrapper==4.8.4
 w3lib==1.22.0

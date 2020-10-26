@@ -31,7 +31,7 @@ mas upgrade
 gem update --system
 gem update
 gem cleanup
-npm update -f -g
+npm update -g
 npm-check -u -g
 npm-check-updates -g
 pip3 install --upgrade pip setuptools

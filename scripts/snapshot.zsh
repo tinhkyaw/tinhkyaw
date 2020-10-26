@@ -11,7 +11,7 @@ DIR=$(dirname "$(greadlink -f "${0}")")
 cd ${DIR}
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 PKG_DIR="${GIT_ROOT_DIR}/packages"
-brew list > ${SNAPSHOT_DIR}/brew${SUFFIX}.txt
+brew list --formula > ${SNAPSHOT_DIR}/brew${SUFFIX}.txt
 brew list --cask > ${SNAPSHOT_DIR}/cask${SUFFIX}.txt
 CASK_EXCLUSIONS="\
 colloquy\
