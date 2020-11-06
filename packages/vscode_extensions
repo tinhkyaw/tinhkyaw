@@ -14,7 +14,6 @@ formulahendry.code-runner
 fwcd.kotlin
 Gimly81.matlab
 GitHub.vscode-codeql
-GitHub.vscode-pull-request-github
 golang.go
 googlecloudtools.cloudcode
 HookyQR.beautify
@@ -48,9 +47,11 @@ ms-python.anaconda-extension-pack
 ms-python.gather
 ms-python.vscode-pylance
 msrvida.vscode-sanddance
-ms-vscode.cmake-tools
+ms-vscode.cpptools-extension-pack
+ms-vscode.cpptools-extension-pack
 ms-vscode.github-browser
 ms-vscode.github-issues-prs
+ms-vscode.github-richnav
 ms-vscode.hexeditor
 ms-vscode.jscs
 ms-vscode.mono-debug
@@ -59,7 +60,6 @@ ms-vscode.vscode-github-issue-notebooks
 ms-vscode.vscode-js-profile-flame
 ms-vscode.vscode-markdown-notebook
 ms-vscode.vscode-typescript-tslint-plugin
-ms-vsonline.vsonline
 oderwat.indent-rainbow
 OpenPAIVSCodeClient.pai-vscode
 prettier.prettier-vscode

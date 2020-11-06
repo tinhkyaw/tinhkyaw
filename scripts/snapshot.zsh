@@ -43,11 +43,16 @@ esbenp.prettier-vscode\
 |^docsmsft.docs.*\
 |^donjayamanne.*\
 |^ms-vscode-remote.remote*\
+|^ms-vsliveshare.*\
 |^redhat.*\
-|^vscjava.vscode.*\
+|^vscjava.vscode*\
+|.*better-cpp-syntax$\
 |.*better-toml$\
+|.*cmake*\
 |.*code-spell-checker$\
 |.*cpptools$\
+|.*cpptools-themes$\
+|.*doxdocgen$\
 |.*django$\
 |.*gitignore$\
 |.*gitlens$\
@@ -60,7 +65,9 @@ esbenp.prettier-vscode\
 |.*open-in-github$\
 |.*project-manager$\
 |.*python$\
+|.*vscode-pull-request-github$\
 |.*vscode-test-explorer$\
+|.*vsonline$\
 "
 VSCODE_INCLUSIONS=".*-pack$"
 sort -d -f <(code --list-extensions | egrep ${VSCODE_INCLUSIONS}) \
