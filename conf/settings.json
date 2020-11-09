@@ -10,6 +10,9 @@
     },
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
+    "files.watcherExclude": {
+        "**/target": true
+    },
     "git.path": "/usr/local/bin/git",
     "gitlens.advanced.messages": {
         "suppressCommitHasNoPreviousCommitWarning": false,
@@ -31,7 +34,7 @@
         "MD025": {
             "front_matter_title": ""
         }
-    }
+    },
     "matlab.lintOnSave": false,
     "metals.javaHome": "/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home",
     "python.formatting.autopep8Args": [
