@@ -36,7 +36,8 @@
     "markdownlint.config": {
         "MD025": {
             "front_matter_title": ""
-        }
+        },
+        "MD028": false
     },
     "matlab.lintOnSave": false,
     "metals.javaHome": "/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home",
