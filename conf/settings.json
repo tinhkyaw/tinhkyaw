@@ -1,6 +1,7 @@
 // Place your settings in this file to overwrite the default settings
 {
     "bazel.buildifierPath": "/usr/local/bin/buildifier",
+    "cmake.configureOnOpen": false,
     "csharp.suppressDotnetInstallWarning": true,
     "editor.formatOnSave": true,
     "editor.suggestSelection": "first",
