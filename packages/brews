@@ -100,7 +100,6 @@ pycodestyle
 pylint
 qcachegrind
 r
-rclone
 rds-command-line-tools
 redis
 rename
@@ -117,7 +116,6 @@ simdjson
 sops
 sphinx-doc
 sqoop
-sshfs
 stow
 suite-sparse
 teleport
