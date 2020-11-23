@@ -140,7 +140,8 @@ ssh-add -A &> /dev/null
 GPG_TTY=$(tty)
 export GPG_TTY
 
-export LDFLAGS="-L/usr/local/opt/openssl/lib"
+export CFLAGS="-I$(brew --prefix zlib)/include"
+export LDFLAGS="-L$(brew --prefix openssl)/lib -L$(brew --prefix zlib)/lib"
 
 if [ -d /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk ]
 then
@@ -162,9 +163,4 @@ fi
 if [ -f ${HOME}/.poetry/env ]
 then
   source ${HOME}/.poetry/env
-fi
-
-if [ -f ${HOME}/.poetry/bin/poetry ]
-then
-  alias poetry="python3 ${HOME}/.poetry/bin/poetry"
 fi

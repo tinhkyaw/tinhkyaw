@@ -36,12 +36,18 @@ npm-check-updates -g
 pip3 install --upgrade pip setuptools
 pip3 freeze --local | cut -d = -f 1 | xargs pip3 install --upgrade
 conda update --all
-python3 ${HOME}/.poetry/bin/poetry self update
+poetry self update
 GIT_DIR=$(dirname "$(greadlink -f "${0}")")
 cd ${GIT_DIR}
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 cd ${GIT_ROOT_DIR}
-python3 ${HOME}/.poetry/bin/poetry update
+if ( $is_greedy )
+then
+  cat pyproject.toml| cut -d '=' -f 1 | egrep -v '^\[|name|version|description|authors|requires|build-backend|^$' | xargs poetry remove
+  xargs < packages/poetry_packages poetry add
+else
+  poetry update
+fi
 apm upgrade
 env ZSH=$ZSH sh $ZSH/tools/upgrade.sh
 gcloud components update

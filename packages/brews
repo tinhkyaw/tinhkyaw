@@ -137,6 +137,7 @@ wget
 xdot
 yajl
 yapf
+zlib
 zopfli
 zsh-autosuggestions
 zsh-syntax-highlighting
