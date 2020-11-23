@@ -142,6 +142,7 @@ export GPG_TTY
 
 export CFLAGS="-I$(brew --prefix zlib)/include"
 export LDFLAGS="-L$(brew --prefix openssl)/lib -L$(brew --prefix zlib)/lib"
+export OPENBLAS="$(brew --prefix openblas)"
 
 if [ -d /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk ]
 then
