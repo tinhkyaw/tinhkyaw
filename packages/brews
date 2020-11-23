@@ -97,6 +97,7 @@ postgresql
 protobuf
 pssh
 pycodestyle
+pyenv
 pylint
 qcachegrind
 r
