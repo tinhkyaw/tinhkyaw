@@ -2635,7 +2635,7 @@ test = ["zope.testrunner"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "7d8c7bcaa3fa70ff74f4b394978f453901200657ab4246c76c30da6e34716fe7"
+content-hash = "1bf15bd5010290fd28ff10fc69b10232084b14a69faf70137166a035a0dbe5da"
 
 [metadata.files]
 alabaster = [
