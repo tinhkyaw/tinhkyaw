@@ -49,6 +49,6 @@ else
   poetry update
 fi
 apm upgrade
-${HOME}/tools/upgrade.sh
+${HOME}/.oh-my-zsh/tools/upgrade.sh
 gcloud components update
 cd ${P}
