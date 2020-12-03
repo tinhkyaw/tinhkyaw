@@ -72,5 +72,9 @@
     "yaml.schemaStore.enable": false,
     "yaml.schemas": {
         "file:///toc.schema.json": "/toc\\.yml/i"
+    },
+    "vs-kubernetes": {
+        "vs-kubernetes.helm-path.mac": "${env:HOME}/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+        "vs-kubernetes.draft-path.mac": "${env:HOME}/tin/.vs-kubernetes/tools/draft/darwin-amd64/draft"
     }
 }
