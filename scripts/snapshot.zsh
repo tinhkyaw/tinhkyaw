@@ -20,7 +20,7 @@ colloquy\
 |microsoft-auto-update\
 |viscosity\
 |webex-meetings\
-|zoomus\
+|zoom\
 "
 brew list --cask | egrep -vi ${CASK_EXCLUSIONS} > ${PKG_DIR}/casks
 mas list > ${SNAPSHOT_DIR}/mas${SUFFIX}.txt
