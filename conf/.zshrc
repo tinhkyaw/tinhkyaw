@@ -113,6 +113,10 @@ export BYOBU_PREFIX=/usr/local
 GPG_TTY=$(tty)
 export GPG_TTY
 
+export CFLAGS="-I/usr/local/opt/zlib/include"
+export LDFLAGS="-L/usr/local/opt/openssl/lib -L/usr/local/opt/zlib/lib"
+export OPENBLAS="/usr/local/opt/openblas"
+
 ssh-add -A &> /dev/null
 
 if [ -x /usr/libexec/path_helper ]
