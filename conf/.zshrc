@@ -104,19 +104,20 @@ setopt share_history # imports new commands and appends typed commands to histor
 
 DEFAULT_USER=${USER}
 
-if [ -f /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]
-then
-  source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-fi
+export PATH=${HOME}/bin:/usr/local/sbin:$PATH
+
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
+export BYOBU_PREFIX=/usr/local
+
+GPG_TTY=$(tty)
+export GPG_TTY
+
+ssh-add -A &> /dev/null
 
 if [ -x /usr/libexec/path_helper ]
 then
   eval $(/usr/libexec/path_helper -s)
-fi
-
-if which jenv &> /dev/null
-then
-  eval "$(jenv init -)"
 fi
 
 if [ -d /usr/local/opt/ruby/bin ]
@@ -124,30 +125,14 @@ then
   export PATH=/usr/local/opt/ruby/bin:$PATH
 fi
 
-export PATH=${HOME}/bin:/usr/local/sbin:$PATH
-
 if [ -d /usr/local/anaconda3/bin ]
 then
   export PATH=$PATH:/usr/local/anaconda3/bin
 fi
 
-export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-
-export BYOBU_PREFIX=/usr/local
-
-ssh-add -A &> /dev/null
-
-GPG_TTY=$(tty)
-export GPG_TTY
-
-export CFLAGS="-I$(brew --prefix zlib)/include"
-export LDFLAGS="-L$(brew --prefix openssl)/lib -L$(brew --prefix zlib)/lib"
-export OPENBLAS="$(brew --prefix openblas)"
-
-if [ -d /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk ]
+if [ -f /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]
 then
-  source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
-  source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+  source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 fi
 
 if [ -d ${HOME}/.bash-my-aws ]
@@ -161,7 +146,18 @@ then
   source ${HOME}/.bash-my-aws/bash_completion.sh
 fi
 
+if [ -d /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk ]
+then
+  source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+  source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+fi
+
 if [ -f ${HOME}/.poetry/env ]
 then
   source ${HOME}/.poetry/env
+fi
+
+if which jenv &> /dev/null
+then
+  eval "$(jenv init -)"
 fi

@@ -18,10 +18,10 @@
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "files.watcherExclude": {
-        "**/target": true,
-        "**/.bloop": true,
-        "**/.metals": true,
-        "**/.ammonite": true
+        "**/target/**": true,
+        "**/.bloop/**": true,
+        "**/.metals/**": true,
+        "**/.ammonite/**": true
     },
     "git.path": "/usr/local/bin/git",
     "gitlens.advanced.messages": {
