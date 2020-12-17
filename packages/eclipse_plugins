@@ -6,7 +6,6 @@ Checkstyle
 Counterclockwise
 Cucumber
 Dart Plugin
-Docker Editor
 EclEmma
 Eclipse Corrosion
 Eclipse Docker Tooling
@@ -16,11 +15,13 @@ eclipse-pmd
 Enhanced Class Decompiler
 Google Cloud Tools
 JDeodorant
+JGrasp  https://www.jgrasp.org/eclipse_plugin
 Json Editor
 Kotlin
 Kubernetes Manifest Editor
-OS X Eclipse Launcher
+macOS Eclipse Launcher
 pmd-eclipse-plugin
+protobuf-dt
 PyDev
 Scalastyle
 ShellWax
@@ -28,4 +29,3 @@ SonarLint
 SpotBugs
 SQl Editor
 Yaml Editor
-JGrasp  https://www.jgrasp.org/eclipse_plugin
