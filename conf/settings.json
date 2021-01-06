@@ -11,17 +11,17 @@
     },
     "files.exclude": {
         "**/.classpath": true,
+        "**/.factorypath": true,
         "**/.project": true,
-        "**/.settings": true,
-        "**/.factorypath": true
+        "**/.settings": true
     },
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "files.watcherExclude": {
-        "**/target/**": true,
+        "**/.ammonite": true,
         "**/.bloop": true,
         "**/.metals": true,
-        "**/.ammonite": true
+        "**/target": true
     },
     "git.path": "/usr/local/bin/git",
     "gitlens.advanced.messages": {
