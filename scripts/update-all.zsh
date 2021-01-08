@@ -20,7 +20,7 @@ brew upgrade
 brew outdated --cask
 if ( $is_greedy )
 then
-  brew cask upgrade --greedy
+  brew upgrade --cask --greedy
 else
   brew cu -a
 fi
