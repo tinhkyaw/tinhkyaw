@@ -38,6 +38,7 @@ erlang
 exa
 exiftool
 fabric
+fbthrift-compiler
 ffmpeg
 findutils
 fish
