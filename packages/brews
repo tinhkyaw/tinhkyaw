@@ -33,7 +33,6 @@ docker-compose
 duti
 ec2-ami-tools
 ec2-api-tools
-elasticsearch
 erlang
 exa
 exiftool
