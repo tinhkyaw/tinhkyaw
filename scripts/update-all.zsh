@@ -34,7 +34,7 @@ gem cleanup
 npm-check -u -g
 npm-check-updates -g
 pip3 install --upgrade pip setuptools
-pip3 freeze --local | cut -d = -f 1 | xargs pip3 install --upgrade
+pip3 freeze --local | cut -d = -f 1 | xargs pip3 install --upgrade --use-deprecated=legacy-resolver
 conda update --all
 poetry self update
 GIT_DIR=$(dirname "$(greadlink -f "${0}")")
