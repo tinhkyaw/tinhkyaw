@@ -1,6 +1,6 @@
 appdirs==1.4.4
 attrs==20.3.0
-autopep8==1.5.4
+autopep8==1.5.5
 beautifulsoup4==4.9.3
 bleach==3.3.0
 bs4==0.0.1
@@ -24,7 +24,6 @@ idna==3.1
 iniconfig==1.1.1
 keyring==22.0.1
 lxml==4.6.2
-mercurial==5.6.1
 more-itertools==8.6.0
 networkx==2.5
 numpy==1.20.0
@@ -46,7 +45,7 @@ pycodestyle==2.6.0
 pyee==8.1.0
 Pygments==2.7.4
 PyGObject==3.38.0
-pymongo==3.11.2
+pymongo==3.11.3
 pyparsing==2.4.7
 pyppeteer==0.2.5
 PyQt5==5.15.2
