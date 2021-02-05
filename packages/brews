@@ -32,7 +32,6 @@ direnv
 docker-compose
 duti
 ec2-ami-tools
-ec2-api-tools
 erlang
 exa
 exiftool
