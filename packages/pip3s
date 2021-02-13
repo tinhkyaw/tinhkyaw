@@ -69,7 +69,7 @@ snooty-lextudio==1.8.7.dev0
 soupsieve==2.2
 stevedore==3.3.0
 toml==0.10.2
-tqdm==4.56.1
+tqdm==4.56.2
 twine==3.3.0
 typing-extensions==3.7.4.3
 ujson==4.0.2
@@ -79,7 +79,7 @@ virtualenv==20.4.2
 virtualenv-clone==0.5.4
 virtualenvwrapper==4.8.4
 w3lib==1.22.0
-watchdog==1.0.2
+watchdog==2.0.0
 webencodings==0.5.1
 websockets==8.1
 yolk==0.4.3
