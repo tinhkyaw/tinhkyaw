@@ -15,7 +15,7 @@ brew list --formula > ${SNAPSHOT_DIR}/brew${SUFFIX}.txt
 brew list --cask > ${SNAPSHOT_DIR}/cask${SUFFIX}.txt
 CASK_EXCLUSIONS="\
 colloquy\
-|google-drive-file-stream\
+|google-drive\
 |lulu\
 |microsoft-auto-update\
 |viscosity\
