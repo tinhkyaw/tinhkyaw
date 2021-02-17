@@ -79,7 +79,7 @@ virtualenv==20.4.2
 virtualenv-clone==0.5.4
 virtualenvwrapper==4.8.4
 w3lib==1.22.0
-watchdog==2.0.0
+watchdog==2.0.1
 webencodings==0.5.1
 websockets==8.1
 yolk==0.4.3
