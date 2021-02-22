@@ -160,8 +160,3 @@ if [ -f ${HOME}/.poetry/env ]
 then
   source ${HOME}/.poetry/env
 fi
-
-if which jenv &> /dev/null
-then
-  eval "$(jenv init -)"
-fi

@@ -37,7 +37,7 @@ pip-tools==5.5.0
 pipdeptree==2.0.0
 pkginfo==1.7.0
 pluggy==0.13.1
-protobuf==3.15.0
+protobuf==3.15.1
 pss==1.43
 py==1.10.0
 pybind11==2.6.2
@@ -65,7 +65,7 @@ rstcheck==3.3.1
 safety==1.10.3
 scipy==1.6.1
 six==1.15.0
-snooty-lextudio==1.8.7.dev0
+snooty-lextudio==1.8.9.dev0
 soupsieve==2.2
 stevedore==3.3.0
 toml==0.10.2
@@ -79,7 +79,7 @@ virtualenv==20.4.2
 virtualenv-clone==0.5.4
 virtualenvwrapper==4.8.4
 w3lib==1.22.0
-watchdog==2.0.1
+watchdog==2.0.2
 webencodings==0.5.1
 websockets==8.1
 yolk==0.4.3
