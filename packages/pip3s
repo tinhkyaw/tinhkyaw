@@ -37,7 +37,7 @@ pip-tools==5.5.0
 pipdeptree==2.0.0
 pkginfo==1.7.0
 pluggy==0.13.1
-protobuf==3.15.1
+protobuf==3.15.2
 pss==1.43
 py==1.10.0
 pybind11==2.6.2
@@ -49,13 +49,14 @@ PyGObject==3.38.0
 pymongo==3.11.3
 pyparsing==2.4.7
 pyppeteer==0.2.5
-PyQt5==5.15.2
+PyQt5==5.15.3
+PyQt5-Qt==5.15.2
 PyQt5-sip==12.8.1
 pyquery==1.4.3
 pytest==6.2.2
 python-jsonrpc-server==0.4.0
 PyYAML==5.4.1
-readme-renderer==28.0
+readme-renderer==29.0
 requests==2.25.1
 requests-html==0.10.0
 requests-toolbelt==0.9.1
