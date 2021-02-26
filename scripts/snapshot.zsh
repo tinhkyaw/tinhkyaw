@@ -61,6 +61,7 @@ esbenp.prettier-vscode\
 |.*kubernetes-tools$\
 |.*linkcheckmd$\
 |.*markdownlint$\
+|.*mindaro$\
 |.*opa$\
 |.*open-in-github$\
 |.*project-manager$\
