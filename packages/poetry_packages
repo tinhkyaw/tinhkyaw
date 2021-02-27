@@ -1,7 +1,5 @@
 apache-airflow
 apache-libcloud
-atomicwrites
-backcall
 bandit
 boto3
 bottle
@@ -53,7 +51,6 @@ retrying
 rope
 simplegeneric
 singledispatch
-smmap2
 sphinx-rtd-theme
 sympy
 tldextract
