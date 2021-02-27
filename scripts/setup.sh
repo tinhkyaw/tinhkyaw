@@ -19,9 +19,7 @@ twine \
 unidecode \
 virtualenvwrapper \
 yolk
-curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python3
 export CPATH=$(xcrun --show-sdk-path)/usr/include
-python3 ${HOME}/.poetry/bin/poetry install
 DIR=$(dirname "$(greadlink -f "${0}")")
 cd ${DIR}
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
@@ -73,7 +71,6 @@ then
   echo 'You may also want to update .gitconfig'
   printf "${NORMAL}"
   env zsh -l
-  mkdir $ZSH/plugins/poetry
-  python3 ${HOME}/.poetry/bin/poetry completions zsh > $ZSH/plugins/poetry/_poetry
   git clone https://github.com/bash-my-aws/bash-my-aws.git ~/.bash-my-aws
+  # xargs < packages/poetry_packages poetry add
 fi
