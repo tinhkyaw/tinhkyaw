@@ -1,3 +1,3 @@
 # tinhkyaw
 
-Collection of configurations, scripts and packages to help set up a new Mac.
+[Résumé](https://raw.githubusercontent.com/tinhkyaw/tinhkyaw/master/tinhkyaw-resume.pdf)
