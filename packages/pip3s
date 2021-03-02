@@ -18,8 +18,8 @@ bandit==1.7.0
 beautifulsoup4==4.9.3
 billiard==3.6.3.0
 bleach==3.3.0
-boto3==1.17.17
-botocore==1.20.17
+boto3==1.17.18
+botocore==1.20.18
 bottle==0.12.19
 bs4==0.0.1
 cached-property==1.5.2
@@ -154,7 +154,7 @@ openapi-schema-validator==0.1.4
 openapi-spec-validator==0.3.0
 ordereddict==1.1
 packaging==20.9
-pandas==1.2.2
+pandas==1.2.3
 parse==1.19.0
 parso==0.8.1
 pathtools==0.1.2
@@ -162,7 +162,7 @@ pbr==5.5.1
 pendulum==2.1.2
 pexpect==4.8.0
 pickleshare==0.7.5
-Pillow==8.1.0
+Pillow==8.1.1
 pip-tools==5.5.0
 pipdeptree==2.0.0
 pipfile==0.0.2
@@ -196,7 +196,7 @@ pyquery==1.4.3
 pyre-check==0.0.60
 pyre-extensions==0.0.20
 pyrsistent==0.17.3
-pyspark==3.0.2
+pyspark==3.1.1
 pytest==6.2.2
 python-daemon==2.3.0
 python-dateutil==2.8.1
@@ -220,7 +220,7 @@ requirements-parser==0.2.0
 restructuredtext-lint==1.3.2
 retrying==1.3.3
 rfc3986==1.4.0
-rich==9.12.3
+rich==9.12.4
 rope==0.18.0
 rstcheck==3.3.1
 s3transfer==0.3.4
