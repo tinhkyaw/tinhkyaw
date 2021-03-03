@@ -18,8 +18,8 @@ bandit==1.7.0
 beautifulsoup4==4.9.3
 billiard==3.6.3.0
 bleach==3.3.0
-boto3==1.17.18
-botocore==1.20.18
+boto3==1.17.19
+botocore==1.20.19
 bottle==0.12.19
 bs4==0.0.1
 cached-property==1.5.2
@@ -40,7 +40,7 @@ colorlog==4.7.2
 commonmark==0.9.1
 ConfigArgParse==1.3
 connexion==2.7.0
-croniter==1.0.6
+croniter==1.0.7
 cryptography==3.4.6
 cssselect==1.1.0
 cycler==0.10.0
@@ -92,7 +92,7 @@ greenlet==1.0.0
 gunicorn==20.0.4
 h11==0.12.0
 h2==4.0.0
-h5py==3.1.0
+h5py==3.2.0
 hpack==4.0.0
 hstspreload==2020.12.22
 html5lib==1.1
@@ -256,7 +256,7 @@ stringcase==1.2.0
 swagger-ui-bundle==0.0.8
 sympy==1.7.1
 tabulate==0.8.9
-tenacity==6.3.1
+tenacity==7.0.0
 termcolor==1.1.0
 text-unidecode==1.3
 threadpoolctl==2.1.0
@@ -282,7 +282,7 @@ w3lib==1.22.0
 watchdog==2.0.2
 wcwidth==0.2.5
 webencodings==0.5.1
-websocket-client==0.57.0
+websocket-client==0.58.0
 websockets==8.1
 Werkzeug==1.0.1
 whichcraft==0.6.1
