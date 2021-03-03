@@ -256,7 +256,7 @@ stringcase==1.2.0
 swagger-ui-bundle==0.0.8
 sympy==1.7.1
 tabulate==0.8.9
-tenacity==6.3.1
+tenacity==7.0.0
 termcolor==1.1.0
 text-unidecode==1.3
 threadpoolctl==2.1.0
