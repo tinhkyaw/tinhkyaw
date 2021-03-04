@@ -77,5 +77,11 @@
         "vs-kubernetes.helm-path.mac": "${env:HOME}/.vs-kubernetes/tools/helm/darwin-amd64/helm",
         "vs-kubernetes.draft-path.mac": "${env:HOME}/tin/.vs-kubernetes/tools/draft/darwin-amd64/draft",
         "vscode-kubernetes.minikube-path.mac": "/Users/tin/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
-    }
+    },
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ]
 }
