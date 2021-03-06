@@ -18,8 +18,8 @@ bandit==1.7.0
 beautifulsoup4==4.9.3
 billiard==3.6.3.0
 bleach==3.3.0
-boto3==1.17.21
-botocore==1.20.21
+boto3==1.17.22
+botocore==1.20.22
 bottle==0.12.19
 bs4==0.0.1
 cached-property==1.5.2
@@ -45,7 +45,7 @@ cryptography==3.4.6
 cssselect==1.1.0
 cycler==0.10.0
 Cython==0.29.22
-dask==2021.2.0
+dask==2021.3.0
 dataclasses-json==0.5.2
 ddt==1.4.1
 decorator==4.4.2
@@ -193,7 +193,7 @@ PyQt5==5.15.3
 PyQt5-Qt==5.15.2
 PyQt5-sip==12.8.1
 pyquery==1.4.3
-pyre-check==0.0.63
+pyre-check==0.9.0
 pyre-extensions==0.0.21
 pyrsistent==0.17.3
 pyspark==3.1.1
