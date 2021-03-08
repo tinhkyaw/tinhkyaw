@@ -3,9 +3,9 @@ alembic==1.5.6
 amqp==5.0.5
 apache-airflow==2.0.1
 apache-airflow-providers-ftp==1.0.1
-apache-airflow-providers-http==1.1.0
+apache-airflow-providers-http==1.1.1
 apache-airflow-providers-imap==1.0.1
-apache-airflow-providers-sqlite==1.0.1
+apache-airflow-providers-sqlite==1.0.2
 apispec==4.3.0
 appdirs==1.4.4
 argcomplete==1.12.2
@@ -18,8 +18,8 @@ bandit==1.7.0
 beautifulsoup4==4.9.3
 billiard==3.6.3.0
 bleach==3.3.0
-boto3==1.17.22
-botocore==1.20.22
+boto3==1.17.23
+botocore==1.20.23
 bottle==0.12.19
 bs4==0.0.1
 cached-property==1.5.2
@@ -49,7 +49,7 @@ dask==2021.3.0
 dataclasses-json==0.5.2
 ddt==1.4.1
 decorator==4.4.2
-defusedxml==0.7.0
+defusedxml==0.7.1
 dill==0.3.3
 distlib==0.3.1
 Django==3.1.7
@@ -101,7 +101,7 @@ httpx==0.17.0
 hyperframe==6.0.0
 idna==3.1
 imagesize==1.2.0
-importlib-metadata==3.7.0
+importlib-metadata==3.7.2
 importlib-resources==5.1.2
 inflection==0.5.1
 iniconfig==1.1.1
@@ -183,7 +183,7 @@ pycairo==1.20.0
 pycodestyle==2.6.0
 pycparser==2.20
 pyee==8.1.0
-Pygments==2.8.0
+Pygments==2.8.1
 PyGObject==3.38.0
 PyJWT==2.0.1
 pymongo==3.11.3
