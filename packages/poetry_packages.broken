@@ -1,9 +1,2 @@
 igel
-keras
-keras-applications
-locust
-nltk
-scikit-learn
-seaborn
 tensorflow
-torchvision
