@@ -18,8 +18,8 @@ bandit==1.7.0
 beautifulsoup4==4.9.3
 billiard==3.6.3.0
 bleach==3.3.0
-boto3==1.17.23
-botocore==1.20.23
+boto3==1.17.24
+botocore==1.20.24
 bottle==0.12.19
 bs4==0.0.1
 cached-property==1.5.2
@@ -189,8 +189,9 @@ PyJWT==2.0.1
 pymongo==3.11.3
 pyparsing==2.4.7
 pyppeteer==0.2.5
-PyQt5==5.15.3
+PyQt5==5.15.4
 PyQt5-Qt==5.15.2
+PyQt5-Qt5==5.15.2
 PyQt5-sip==12.8.1
 pyquery==1.4.3
 pyre-check==0.9.0
