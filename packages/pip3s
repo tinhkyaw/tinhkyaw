@@ -18,8 +18,8 @@ bandit==1.7.0
 beautifulsoup4==4.9.3
 billiard==3.6.3.0
 bleach==3.3.0
-boto3==1.17.26
-botocore==1.20.26
+boto3==1.17.27
+botocore==1.20.27
 bottle==0.12.19
 bs4==0.0.1
 cached-property==1.5.2
@@ -47,7 +47,7 @@ cycler==0.10.0
 Cython==0.29.22
 dask==2021.3.0
 dataclasses-json==0.5.2
-ddt==1.4.1
+ddt==1.4.2
 decorator==4.4.2
 defusedxml==0.7.1
 dill==0.3.3
@@ -193,6 +193,8 @@ PyQt5==5.15.4
 PyQt5-Qt==5.15.2
 PyQt5-Qt5==5.15.2
 PyQt5-sip==12.8.1
+PyQt6==6.0.3
+PyQt6-sip==13.0.1
 pyquery==1.4.3
 pyre-check==0.9.0
 pyre-extensions==0.0.21
@@ -211,6 +213,7 @@ pytzdata==2020.1
 pywatchman==1.4.1
 PyYAML==5.4.1
 pyzmq==22.0.3
+QScintilla==2.12.1
 readme-renderer==29.0
 regex==2020.11.13
 requests==2.25.1
@@ -233,6 +236,7 @@ setproctitle==1.2.2
 shellingham==1.4.0
 simplegeneric==0.8.1
 singledispatch==3.6.1
+sip==6.0.3
 six==1.15.0
 smmap==4.0.0
 sniffio==1.2.0
