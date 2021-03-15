@@ -101,7 +101,7 @@ httpx==0.17.0
 hyperframe==6.0.0
 idna==3.1
 imagesize==1.2.0
-importlib-metadata==3.7.2
+importlib-metadata==3.7.3
 importlib-resources==5.1.2
 inflection==0.5.1
 iniconfig==1.1.1
@@ -180,7 +180,7 @@ py4j==0.10.9.2
 pyarrow==3.0.0
 pybind11==2.6.2
 pycairo==1.20.0
-pycodestyle==2.6.0
+pycodestyle==2.7.0
 pycparser==2.20
 pyee==8.1.0
 Pygments==2.8.1
