@@ -77,7 +77,7 @@ Flask-Caching==1.10.1
 Flask-JWT-Extended==4.1.0
 Flask-Login==0.5.0
 Flask-OpenID==1.2.5
-Flask-SQLAlchemy==2.4.4
+Flask-SQLAlchemy==2.5.0
 Flask-WTF==0.14.3
 ftfy==5.9
 future==0.18.2
