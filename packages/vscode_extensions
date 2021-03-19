@@ -71,6 +71,7 @@ rust-lang.rust
 scalameta.metals
 syler.sass-indented
 tcwalther.cython
+timonwong.shellcheck
 tootone.org-mode
 vsciot-vscode.vscode-arduino
 vscjava.vscode-java-pack
