@@ -113,6 +113,7 @@ saltstack
 sbt
 scala
 scipy
+shellcheck
 simdjson
 sops
 sphinx-doc
