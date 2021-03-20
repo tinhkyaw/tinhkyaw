@@ -18,8 +18,8 @@ bandit==1.7.0
 beautifulsoup4==4.9.3
 billiard==3.6.3.0
 bleach==3.3.0
-boto3==1.17.32
-botocore==1.20.32
+boto3==1.17.33
+botocore==1.20.33
 bottle==0.12.19
 bs4==0.0.1
 cached-property==1.5.2
@@ -244,7 +244,7 @@ sniffio==1.2.0
 snooty-lextudio==1.8.10.dev0
 snowballstemmer==2.1.0
 sortedcontainers==2.3.0
-soupsieve==2.2
+soupsieve==2.2.1
 Sphinx==3.5.2
 sphinx-rtd-theme==0.5.1
 sphinxcontrib-applehelp==1.0.2
