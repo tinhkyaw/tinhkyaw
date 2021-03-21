@@ -245,7 +245,7 @@ snooty-lextudio==1.8.10.dev0
 snowballstemmer==2.1.0
 sortedcontainers==2.3.0
 soupsieve==2.2.1
-Sphinx==3.5.2
+Sphinx==3.5.3
 sphinx-rtd-theme==0.5.1
 sphinxcontrib-applehelp==1.0.2
 sphinxcontrib-devhelp==1.0.2
@@ -296,4 +296,4 @@ WTForms==2.3.3
 yolk==0.4.3
 zipp==3.4.1
 zope.event==4.5.0
-zope.interface==5.2.0
+zope.interface==5.3.0
