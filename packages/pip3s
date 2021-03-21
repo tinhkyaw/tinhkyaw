@@ -127,7 +127,7 @@ lazy-object-proxy==1.5.2
 libcst==0.3.17
 lockfile==0.12.2
 locust==1.4.3
-lxml==4.6.2
+lxml==4.6.3
 Mako==1.1.4
 Markdown==3.3.4
 MarkupSafe==1.1.1
