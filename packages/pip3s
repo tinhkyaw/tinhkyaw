@@ -1,5 +1,5 @@
 alabaster==0.7.12
-alembic==1.5.7
+alembic==1.5.8
 amqp==5.0.5
 apache-airflow==2.0.1
 apache-airflow-providers-ftp==1.0.1
@@ -18,8 +18,8 @@ bandit==1.7.0
 beautifulsoup4==4.9.3
 billiard==3.6.3.0
 bleach==3.3.0
-boto3==1.17.34
-botocore==1.20.34
+boto3==1.17.35
+botocore==1.20.35
 bottle==0.12.19
 bs4==0.0.1
 cached-property==1.5.2
@@ -40,7 +40,7 @@ colorlog==4.8.0
 commonmark==0.9.1
 ConfigArgParse==1.4
 connexion==2.7.0
-croniter==1.0.8
+croniter==1.0.9
 cryptography==3.4.6
 cssselect==1.1.0
 cycler==0.10.0
