@@ -138,6 +138,7 @@ webkit2png
 wget
 xdot
 yajl
+yank
 yapf
 zlib
 zopfli
