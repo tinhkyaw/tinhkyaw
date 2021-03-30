@@ -19,8 +19,8 @@ bandit==1.7.0
 beautifulsoup4==4.9.3
 billiard==3.6.3.0
 bleach==3.3.0
-boto3==1.17.40
-botocore==1.20.40
+boto3==1.17.41
+botocore==1.20.41
 bottle==0.12.19
 bs4==0.0.1
 cached-property==1.5.2
@@ -162,7 +162,7 @@ ordereddict==1.1
 packaging==20.9
 pandas==1.2.3
 parse==1.19.0
-parso==0.8.1
+parso==0.8.2
 partd==1.1.0
 pathtools==0.1.2
 pbr==5.5.1
