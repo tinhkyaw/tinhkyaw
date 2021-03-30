@@ -10,6 +10,7 @@ apispec==4.3.0
 appdirs==1.4.4
 argcomplete==1.12.2
 asgiref==3.3.1
+asttokens==2.0.4
 async-generator==1.10
 attrs==20.3.0
 autopep8==1.5.6
@@ -66,6 +67,7 @@ dparse==0.5.1
 editdistance==0.5.3
 email-validator==1.1.2
 entrypoints==0.3
+executing==0.5.4
 fake-useragent==0.1.11
 fett==0.3.2
 filelock==3.0.12
@@ -101,6 +103,7 @@ html5lib==1.1
 httpcore==0.12.3
 httpx==0.17.1
 hyperframe==6.0.0
+icecream==2.1.0
 idna==3.1
 imagesize==1.2.0
 importlib-metadata==3.10.0
