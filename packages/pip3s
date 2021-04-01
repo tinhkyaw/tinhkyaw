@@ -6,7 +6,7 @@ apache-airflow-providers-ftp==1.0.1
 apache-airflow-providers-http==1.1.1
 apache-airflow-providers-imap==1.0.1
 apache-airflow-providers-sqlite==1.0.2
-apispec==4.3.0
+apispec==4.4.0
 appdirs==1.4.4
 argcomplete==1.12.2
 asgiref==3.3.1
