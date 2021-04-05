@@ -32,7 +32,7 @@ gem update --system
 gem update
 gem cleanup
 npm-check -u -g
-npm-check-updates -g --timeout 90000
+npm-check-updates -g --timeout 150000
 pip3 install --upgrade pip setuptools
 pip3 freeze --local | cut -d = -f 1 | xargs pip3 install --upgrade --use-deprecated=legacy-resolver
 conda update --all
