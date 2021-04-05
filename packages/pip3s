@@ -56,7 +56,7 @@ dill==0.3.3
 distlib==0.3.1
 Django==3.1.7
 django-environ==0.4.5
-django-extensions==3.1.1
+django-extensions==3.1.2
 dnspython==2.1.0
 doc8==0.8.1
 docker==4.4.4
@@ -149,7 +149,7 @@ monotonic==1.5
 more-itertools==8.7.0
 mpmath==1.2.1
 msgpack==1.0.2
-mxnet==1.7.0.post2
+mxnet==1.8.0.post0
 mypy-extensions==0.4.3
 natsort==7.1.1
 networkx==2.5.1
@@ -253,7 +253,7 @@ snowballstemmer==2.1.0
 sortedcontainers==2.3.0
 soupsieve==2.2.1
 Sphinx==3.5.3
-sphinx-rtd-theme==0.5.1
+sphinx-rtd-theme==0.5.2
 sphinxcontrib-applehelp==1.0.2
 sphinxcontrib-devhelp==1.0.2
 sphinxcontrib-htmlhelp==1.0.3
