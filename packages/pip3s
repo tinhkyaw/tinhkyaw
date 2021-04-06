@@ -1,3 +1,4 @@
+absl-py==0.12.0
 alabaster==0.7.12
 alembic==1.5.8
 amqp==5.0.6
@@ -9,8 +10,9 @@ apache-airflow-providers-sqlite==1.0.2
 apispec==4.4.0
 appdirs==1.4.4
 argcomplete==1.12.2
-asgiref==3.3.3
+asgiref==3.3.4
 asttokens==2.0.4
+astunparse==1.6.3
 async-generator==1.10
 attrs==20.3.0
 autopep8==1.5.6
@@ -24,6 +26,7 @@ botocore==1.20.45
 bottle==0.12.19
 bs4==0.0.1
 cached-property==1.5.2
+cachetools==4.2.1
 cattrs==1.4.0
 celery==5.0.5
 cement==3.0.4
@@ -82,17 +85,23 @@ Flask-Login==0.5.0
 Flask-OpenID==1.2.5
 Flask-SQLAlchemy==2.5.1
 Flask-WTF==0.14.3
+flatbuffers==1.12
 fsspec==0.9.0
 ftfy==5.9
 future==0.18.2
+gast==0.4.0
 gevent==21.1.2
 geventhttpclient==1.4.4
 gitdb==4.0.7
 gitdb2==4.0.2
 GitPython==3.1.14
+google-auth==1.28.0
+google-auth-oauthlib==0.4.4
+google-pasta==0.2.0
 graphtage==0.2.5
 graphviz==0.16
 greenlet==1.0.0
+grpcio==1.36.1
 gunicorn==20.1.0
 h11==0.12.0
 h2==4.0.0
@@ -125,6 +134,8 @@ json5==0.9.5
 jsonschema==3.2.0
 Keras==2.4.3
 Keras-Applications==1.0.8
+keras-nightly==2.6.0.dev2021040600
+Keras-Preprocessing==1.1.2
 keyring==23.0.1
 kiwisolver==1.3.1
 kombu==5.0.2
@@ -156,8 +167,10 @@ networkx==2.5.1
 nltk==3.5
 nose==1.3.7
 numpy==1.20.2
+oauthlib==3.1.0
 openapi-schema-validator==0.1.5
 openapi-spec-validator==0.3.0
+opt-einsum==3.3.0
 ordereddict==1.1
 packaging==20.9
 pandas==1.2.3
@@ -186,6 +199,8 @@ ptyprocess==0.7.0
 py==1.10.0
 py4j==0.10.9.2
 pyarrow==3.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
 pybind11==2.6.2
 pycairo==1.20.0
 pycodestyle==2.7.0
@@ -227,6 +242,7 @@ regex==2021.4.4
 requests==2.25.1
 requests-file==1.5.1
 requests-html==0.10.0
+requests-oauthlib==1.3.0
 requests-toolbelt==0.9.1
 requirements-parser==0.2.0
 restructuredtext-lint==1.3.2
@@ -234,6 +250,7 @@ retrying==1.3.3
 rfc3986==1.4.0
 rich==10.1.0
 rope==0.18.0
+rsa==4.7.2
 rstcheck==3.3.1
 s3transfer==0.3.6
 safety==1.10.3
@@ -270,8 +287,12 @@ swagger-ui-bundle==0.0.8
 sympy==1.7.1
 tabulate==0.8.9
 tenacity==7.0.0
+tensorboard==2.4.1
+tensorboard-plugin-wit==1.8.0
+tensorflow==2.5.0rc0
 termcolor==1.1.0
 text-unidecode==1.3
+tf-estimator-nightly==2.6.0.dev2021040601
 threadpoolctl==2.1.0
 tldextract==3.1.0
 toml==0.10.2
@@ -300,6 +321,7 @@ websocket-client==0.58.0
 websockets==8.1
 Werkzeug==1.0.1
 whichcraft==0.6.1
+wrapt==1.12.1
 WTForms==2.3.3
 yolk==0.4.3
 zipp==3.4.1
