@@ -87,7 +87,7 @@ Flask-SQLAlchemy==2.5.1
 Flask-WTF==0.14.3
 flatbuffers==1.12
 fsspec==0.9.0
-ftfy==5.9
+ftfy==6.0
 future==0.18.2
 gast==0.4.0
 gevent==21.1.2
@@ -277,7 +277,7 @@ sphinxcontrib-htmlhelp==1.0.3
 sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.4
-SQLAlchemy==1.4.6
+SQLAlchemy==1.4.7
 SQLAlchemy-JSONField==1.0.0
 SQLAlchemy-Utils==0.36.8
 sqlparse==0.4.1
