@@ -21,8 +21,8 @@ bandit==1.7.0
 beautifulsoup4==4.9.3
 billiard==3.6.4.0
 bleach==3.3.0
-boto3==1.17.48
-botocore==1.20.48
+boto3==1.17.49
+botocore==1.20.49
 bottle==0.12.19
 bs4==0.0.1
 cached-property==1.5.2
@@ -156,7 +156,7 @@ matplotlib==3.4.1
 memory-profiler==0.58.0
 mercurial==5.7.1
 mistune==0.8.4
-monotonic==1.5
+monotonic==1.6
 more-itertools==8.7.0
 mpmath==1.2.1
 msgpack==1.0.2
@@ -284,7 +284,7 @@ sqlparse==0.4.1
 stevedore==3.3.0
 stringcase==1.2.0
 swagger-ui-bundle==0.0.8
-sympy==1.7.1
+sympy==1.8
 tabulate==0.8.9
 tenacity==7.0.0
 tensorboard==2.4.1
