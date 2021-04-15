@@ -21,8 +21,8 @@ bandit==1.7.0
 beautifulsoup4==4.9.3
 billiard==3.6.4.0
 bleach==3.3.0
-boto3==1.17.50
-botocore==1.20.50
+boto3==1.17.51
+botocore==1.20.51
 bottle==0.12.19
 bs4==0.0.1
 cached-property==1.5.2
@@ -49,11 +49,11 @@ croniter==1.0.12
 cryptography==3.4.7
 cssselect==1.1.0
 cycler==0.10.0
-Cython==0.29.22
+Cython==0.29.23
 dask==2021.4.0
 dataclasses-json==0.5.2
 ddt==1.4.2
-decorator==5.0.6
+decorator==5.0.7
 defusedxml==0.7.1
 dill==0.3.3
 distlib==0.3.1
@@ -134,7 +134,7 @@ json5==0.9.5
 jsonschema==3.2.0
 Keras==2.4.3
 Keras-Applications==1.0.8
-keras-nightly==2.6.0.dev2021041300
+keras-nightly==2.6.0.dev2021041400
 Keras-Preprocessing==1.1.2
 keyring==23.0.1
 kiwisolver==1.3.1
@@ -184,7 +184,7 @@ pep517==0.10.0
 pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==8.2.0
-pip-tools==6.0.1
+pip-tools==6.1.0
 pipdeptree==2.0.0
 pipfile==0.0.2
 pkginfo==1.7.0
@@ -252,7 +252,7 @@ rich==10.1.0
 rope==0.18.0
 rsa==4.7.2
 rstcheck==3.3.1
-s3transfer==0.3.6
+s3transfer==0.3.7
 safety==1.10.3
 scikit-learn==0.24.1
 scipy==1.6.2
@@ -293,7 +293,7 @@ tensorflow==2.5.0rc1
 tensorflow-estimator==2.5.0rc0
 termcolor==1.1.0
 text-unidecode==1.3
-tf-estimator-nightly==2.6.0.dev2021041301
+tf-estimator-nightly==2.6.0.dev2021041401
 threadpoolctl==2.1.0
 tldextract==3.1.0
 toml==0.10.2
