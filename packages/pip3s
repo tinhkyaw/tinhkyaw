@@ -65,7 +65,7 @@ doc8==0.8.1
 docker==5.0.0
 docopt==0.6.2
 docsend==0.2.0
-docutils==0.17
+docutils==0.17.1
 dparse==0.5.1
 editdistance==0.5.3
 email-validator==1.1.2
@@ -111,7 +111,7 @@ hstspreload==2020.12.22
 html5lib==1.1
 httpcore==0.12.3
 httpx==0.17.1
-hyperframe==6.0.0
+hyperframe==6.0.1
 icecream==2.1.0
 idna==3.1
 imagesize==1.2.0
@@ -134,7 +134,7 @@ json5==0.9.5
 jsonschema==3.2.0
 Keras==2.4.3
 Keras-Applications==1.0.8
-keras-nightly==2.6.0.dev2021041600
+keras-nightly==2.6.0.dev2021041700
 Keras-Preprocessing==1.1.2
 keyring==23.0.1
 kiwisolver==1.3.1
@@ -277,7 +277,7 @@ sphinxcontrib-htmlhelp==1.0.3
 sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.4
-SQLAlchemy==1.4.8
+SQLAlchemy==1.4.9
 SQLAlchemy-JSONField==1.0.0
 SQLAlchemy-Utils==0.37.0
 sqlparse==0.4.1
@@ -293,7 +293,7 @@ tensorflow==2.5.0rc1
 tensorflow-estimator==2.5.0rc0
 termcolor==1.1.0
 text-unidecode==1.3
-tf-estimator-nightly==2.6.0.dev2021041601
+tf-estimator-nightly==2.6.0.dev2021041701
 threadpoolctl==2.1.0
 tldextract==3.1.0
 toml==0.10.2
