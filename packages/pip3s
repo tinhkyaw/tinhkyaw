@@ -86,7 +86,7 @@ Flask-OpenID==1.2.5
 Flask-SQLAlchemy==2.5.1
 Flask-WTF==0.14.3
 flatbuffers==1.12
-fsspec==0.9.0
+fsspec==2021.4.0
 ftfy==6.0.1
 future==0.18.2
 gast==0.4.0
