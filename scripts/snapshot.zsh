@@ -16,6 +16,7 @@ brew list --cask > ${SNAPSHOT_DIR}/cask${SUFFIX}.txt
 CASK_EXCLUSIONS="\
 colloquy\
 |google-drive\
+|lastpass\
 |lulu\
 |microsoft-auto-update\
 |viscosity\
