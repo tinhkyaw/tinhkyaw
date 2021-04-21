@@ -95,7 +95,7 @@ gevent==21.1.2
 geventhttpclient==1.4.4
 gitdb==4.0.7
 gitdb2==4.0.2
-GitPython==3.1.14
+GitPython==3.1.15
 google-auth==1.29.0
 google-auth-oauthlib==0.4.4
 google-pasta==0.2.0
@@ -110,13 +110,13 @@ h5py==3.2.1
 hpack==4.0.0
 hstspreload==2020.12.22
 html5lib==1.1
-httpcore==0.12.3
+httpcore==0.13.0
 httpx==0.17.1
 hyperframe==6.0.1
 icecream==2.1.0
 idna==3.1
 imagesize==1.2.0
-importlib-metadata==4.0.0
+importlib-metadata==4.0.1
 importlib-resources==5.1.2
 inflection==0.5.1
 iniconfig==1.1.1
@@ -135,7 +135,7 @@ json5==0.9.5
 jsonschema==3.2.0
 Keras==2.4.3
 Keras-Applications==1.0.8
-keras-nightly==2.6.0.dev2021042000
+keras-nightly==2.6.0.dev2021042100
 Keras-Preprocessing==1.1.2
 keyring==23.0.1
 kiwisolver==1.3.1
@@ -278,7 +278,7 @@ sphinxcontrib-htmlhelp==1.0.3
 sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.4
-SQLAlchemy==1.4.9
+SQLAlchemy==1.4.10
 SQLAlchemy-JSONField==1.0.0
 SQLAlchemy-Utils==0.37.0
 sqlparse==0.4.1
@@ -295,7 +295,7 @@ tensorflow==2.5.0rc1
 tensorflow-estimator==2.5.0rc0
 termcolor==1.1.0
 text-unidecode==1.3
-tf-estimator-nightly==2.6.0.dev2021042001
+tf-estimator-nightly==2.6.0.dev2021042101
 threadpoolctl==2.1.0
 tldextract==3.1.0
 toml==0.10.2
