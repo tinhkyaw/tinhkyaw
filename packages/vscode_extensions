@@ -59,6 +59,7 @@ ms-vscode.hexeditor
 ms-vscode.jscs
 ms-vscode.makefile-tools
 ms-vscode.mono-debug
+ms-vscode.remotehub
 ms-vscode-remote.vscode-remote-extensionpack
 ms-vscode.vscode-github-issue-notebooks
 ms-vscode.vscode-js-profile-flame
