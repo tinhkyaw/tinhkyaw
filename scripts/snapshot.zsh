@@ -14,7 +14,9 @@ PKG_DIR="${GIT_ROOT_DIR}/packages"
 brew list --formula > ${SNAPSHOT_DIR}/brew${SUFFIX}.txt
 brew list --cask > ${SNAPSHOT_DIR}/cask${SUFFIX}.txt
 CASK_EXCLUSIONS="\
-colloquy\
+asciidocfx\
+|celldesigner\
+|colloquy\
 |google-drive\
 |lastpass\
 |lulu\
