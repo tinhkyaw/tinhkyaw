@@ -104,7 +104,7 @@ google-pasta==0.2.0
 graphtage==0.2.5
 graphviz==0.16
 greenlet==1.0.0
-grpcio==1.37.0
+grpcio==1.37.1
 gunicorn==20.1.0
 h11==0.12.0
 h2==4.0.0
@@ -281,7 +281,7 @@ sphinxcontrib-htmlhelp==1.0.3
 sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.4
-SQLAlchemy==1.4.11
+SQLAlchemy==1.4.12
 SQLAlchemy-JSONField==1.0.0
 SQLAlchemy-Utils==0.37.0
 sqlparse==0.4.1
