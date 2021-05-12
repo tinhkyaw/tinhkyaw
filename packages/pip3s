@@ -78,7 +78,7 @@ fake-useragent==0.1.11
 fett==0.3.2
 filelock==3.0.12
 first==2.0.2
-Flask==1.1.2
+Flask==2.0.0
 Flask-AppBuilder==3.3.0
 Flask-Babel==2.0.0
 Flask-BasicAuth==0.2.0
