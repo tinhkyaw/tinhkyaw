@@ -23,8 +23,8 @@ beautifulsoup4==4.9.3
 billiard==3.6.4.0
 bleach==3.3.0
 blinker==1.4
-boto3==1.17.72
-botocore==1.20.72
+boto3==1.17.73
+botocore==1.20.73
 bottle==0.12.19
 bs4==0.0.1
 cached-property==1.5.2
@@ -52,7 +52,7 @@ cryptography==3.4.7
 cssselect==1.1.0
 cycler==0.10.0
 Cython==0.29.23
-dask==2021.4.1
+dask==2021.5.0
 dataclasses-json==0.5.3
 ddt==1.4.2
 decorator==5.0.7
