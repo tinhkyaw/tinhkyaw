@@ -23,8 +23,8 @@ beautifulsoup4==4.9.3
 billiard==3.6.4.0
 bleach==3.3.0
 blinker==1.4
-boto3==1.17.76
-botocore==1.20.76
+boto3==1.17.77
+botocore==1.20.77
 bottle==0.12.19
 bs4==0.0.1
 cached-property==1.5.2
@@ -104,7 +104,7 @@ google-pasta==0.2.0
 graphtage==0.2.5
 graphviz==0.16
 greenlet==1.1.0
-grpcio==1.37.1
+grpcio==1.38.0
 gunicorn==20.1.0
 h11==0.12.0
 h2==4.0.0
