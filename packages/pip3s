@@ -137,7 +137,7 @@ json5==0.9.5
 jsonschema==3.2.0
 Keras==2.4.3
 Keras-Applications==1.0.8
-keras-nightly==2.6.0.dev2021051900
+keras-nightly==2.6.0.dev2021052000
 Keras-Preprocessing==1.1.2
 keyring==23.0.1
 kiwisolver==1.3.1
@@ -274,7 +274,7 @@ snooty-lextudio==1.9.2.dev0
 snowballstemmer==2.1.0
 sortedcontainers==2.4.0
 soupsieve==2.2.1
-Sphinx==4.0.1
+Sphinx==4.0.2
 sphinx-rtd-theme==0.5.2
 sphinxcontrib-applehelp==1.0.2
 sphinxcontrib-devhelp==1.0.2
@@ -299,7 +299,7 @@ tensorflow==2.5.0
 tensorflow-estimator==2.5.0
 termcolor==1.1.0
 text-unidecode==1.3
-tf-estimator-nightly==2.6.0.dev2021051901
+tf-estimator-nightly==2.6.0.dev2021052001
 threadpoolctl==2.1.0
 tldextract==3.1.0
 toml==0.10.2
