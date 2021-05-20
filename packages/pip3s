@@ -35,7 +35,7 @@ cement==3.0.4
 certifi==2020.12.5
 cffi==1.14.5
 chardet==4.0.0
-click==8.0.0
+click==8.0.1
 click-completion==0.5.2
 click-didyoumean==0.0.3
 click-plugins==1.1.1
