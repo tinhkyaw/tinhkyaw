@@ -2,7 +2,7 @@ absl-py==0.12.0
 alabaster==0.7.12
 alembic==1.6.2
 amqp==5.0.6
-apache-airflow==2.0.2
+apache-airflow==2.1.0
 apache-airflow-providers-amazon==1.4.0
 apache-airflow-providers-ftp==1.1.0
 apache-airflow-providers-http==1.1.1
@@ -137,7 +137,7 @@ json5==0.9.5
 jsonschema==3.2.0
 Keras==2.4.3
 Keras-Applications==1.0.8
-keras-nightly==2.6.0.dev2021052000
+keras-nightly==2.6.0.dev2021052100
 Keras-Preprocessing==1.1.2
 keyring==23.0.1
 kiwisolver==1.3.1
@@ -160,7 +160,7 @@ memory-profiler==0.58.0
 mercurial==5.8
 mistune==0.8.4
 monotonic==1.6
-more-itertools==8.7.0
+more-itertools==8.8.0
 mpmath==1.2.1
 msgpack==1.0.2
 mxnet==1.8.0.post0
@@ -299,7 +299,7 @@ tensorflow==2.5.0
 tensorflow-estimator==2.5.0
 termcolor==1.1.0
 text-unidecode==1.3
-tf-estimator-nightly==2.6.0.dev2021052001
+tf-estimator-nightly==2.6.0.dev2021052101
 threadpoolctl==2.1.0
 tldextract==3.1.0
 toml==0.10.2
