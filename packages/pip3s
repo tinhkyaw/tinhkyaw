@@ -24,8 +24,8 @@ beautifulsoup4==4.9.3
 billiard==3.6.4.0
 bleach==3.3.0
 blinker==1.4
-boto3==1.17.79
-botocore==1.20.79
+boto3==1.17.80
+botocore==1.20.80
 bottle==0.12.19
 bs4==0.0.1
 cached-property==1.5.2
@@ -88,7 +88,7 @@ Flask-JWT-Extended==4.2.1
 Flask-Login==0.5.0
 Flask-OpenID==1.2.5
 Flask-SQLAlchemy==2.5.1
-Flask-WTF==0.15.0
+Flask-WTF==0.15.1
 flatbuffers==2.0
 fsspec==2021.5.0
 ftfy==6.0.3
