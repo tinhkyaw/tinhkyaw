@@ -1,6 +1,6 @@
 absl-py==0.12.0
 alabaster==0.7.12
-alembic==1.6.4
+alembic==1.6.5
 amqp==5.0.6
 apache-airflow==2.1.0
 apache-airflow-providers-amazon==1.4.0
@@ -24,8 +24,8 @@ beautifulsoup4==4.9.3
 billiard==3.6.4.0
 bleach==3.3.0
 blinker==1.4
-boto3==1.17.82
-botocore==1.20.82
+boto3==1.17.83
+botocore==1.20.83
 bottle==0.12.19
 bs4==0.0.1
 cached-property==1.5.2
@@ -240,7 +240,7 @@ pyquery==1.4.3
 pyre-check==0.9.3
 pyre-extensions==0.0.21
 pyrsistent==0.17.3
-pyspark==3.1.1
+pyspark==3.1.2
 pytest==6.2.4
 python-daemon==2.3.0
 python-dateutil==2.8.1
@@ -340,7 +340,7 @@ watchtower==1.0.6
 wcwidth==0.2.5
 webencodings==0.5.1
 websocket-client==1.0.1
-websockets==9.0.2
+websockets==9.1
 Werkzeug==2.0.1
 whichcraft==0.6.1
 wrapt==1.12.1
