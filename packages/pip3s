@@ -24,8 +24,8 @@ beautifulsoup4==4.9.3
 billiard==3.6.4.0
 bleach==3.3.0
 blinker==1.4
-boto3==1.17.81
-botocore==1.20.81
+boto3==1.17.82
+botocore==1.20.82
 bottle==0.12.19
 bs4==0.0.1
 cached-property==1.5.2
@@ -119,7 +119,7 @@ hyperframe==6.0.1
 icecream==2.1.0
 idna==3.1
 imagesize==1.2.0
-importlib-metadata==4.2.0
+importlib-metadata==4.3.0
 importlib-resources==5.1.4
 inflection==0.5.1
 iniconfig==1.1.1
@@ -138,7 +138,7 @@ json5==0.9.5
 jsonschema==3.2.0
 Keras==2.4.3
 Keras-Applications==1.0.8
-keras-nightly==2.6.0.dev2021052600
+keras-nightly==2.6.0.dev2021052700
 Keras-Preprocessing==1.1.2
 keyring==23.0.1
 kiwisolver==1.3.1
@@ -155,7 +155,7 @@ MarkupSafe==2.0.1
 marshmallow==3.12.1
 marshmallow-enum==1.5.1
 marshmallow-oneofschema==2.1.0
-marshmallow-sqlalchemy==0.25.0
+marshmallow-sqlalchemy==0.26.0
 matplotlib==3.4.2
 memory-profiler==0.58.0
 mercurial==5.8
@@ -278,7 +278,7 @@ seaborn==0.11.1
 setproctitle==1.2.2
 shellingham==1.4.0
 simplegeneric==0.8.1
-singledispatch==3.6.1
+singledispatch==3.6.2
 sip==6.1.0
 six==1.16.0
 smmap==4.0.0
@@ -313,7 +313,7 @@ tensorflow-estimator==2.5.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.1
-tf-estimator-nightly==2.6.0.dev2021052601
+tf-estimator-nightly==2.6.0.dev2021052701
 threadpoolctl==2.1.0
 tldextract==3.1.0
 toml==0.10.2
