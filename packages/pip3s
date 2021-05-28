@@ -313,7 +313,7 @@ tensorflow-estimator==2.5.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.1
-tf-estimator-nightly==2.6.0.dev2021052701
+tf-estimator-nightly==2.6.0.dev2021052801
 threadpoolctl==2.1.0
 tldextract==3.1.0
 toml==0.10.2
