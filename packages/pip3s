@@ -99,7 +99,7 @@ geventhttpclient==1.4.4
 gitdb==4.0.7
 gitdb2==4.0.2
 GitPython==3.1.17
-google-auth==1.30.1
+google-auth==1.30.2
 google-auth-oauthlib==0.4.4
 google-pasta==0.2.0
 graphtage==0.2.5
@@ -138,7 +138,7 @@ json5==0.9.5
 jsonschema==3.2.0
 Keras==2.4.3
 Keras-Applications==1.0.8
-keras-nightly==2.6.0.dev2021060700
+keras-nightly==2.6.0.dev2021060800
 Keras-Preprocessing==1.1.2
 keyring==23.0.1
 kiwisolver==1.3.1
@@ -197,7 +197,7 @@ pkginfo==1.7.0
 pluggy==0.13.1
 prison==0.1.3
 prompt-toolkit==3.0.18
-protobuf==3.17.2
+protobuf==3.17.3
 pss==1.43
 psutil==5.8.0
 psycopg2==2.8.6
@@ -313,7 +313,7 @@ tensorflow-estimator==2.5.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.1
-tf-estimator-nightly==2.6.0.dev2021060701
+tf-estimator-nightly==2.6.0.dev2021060801
 threadpoolctl==2.1.0
 tldextract==3.1.0
 toml==0.10.2
