@@ -2,6 +2,7 @@ absl-py==0.12.0
 alabaster==0.7.12
 alembic==1.6.5
 amqp==5.0.6
+anyio==3.1.0
 apache-airflow==2.1.0
 apache-airflow-providers-amazon==1.4.0
 apache-airflow-providers-ftp==1.1.0
@@ -24,8 +25,8 @@ beautifulsoup4==4.9.3
 billiard==3.6.4.0
 bleach==3.3.0
 blinker==1.4
-boto3==1.17.89
-botocore==1.20.89
+boto3==1.17.90
+botocore==1.20.90
 bottle==0.12.19
 bs4==0.0.1
 cached-property==1.5.2
@@ -113,7 +114,7 @@ h5py==3.2.1
 hpack==4.0.0
 hstspreload==2020.12.22
 html5lib==1.1
-httpcore==0.13.3
+httpcore==0.13.4
 httpx==0.18.1
 hyperframe==6.0.1
 icecream==2.1.0
@@ -138,7 +139,7 @@ json5==0.9.5
 jsonschema==3.2.0
 Keras==2.4.3
 Keras-Applications==1.0.8
-keras-nightly==2.6.0.dev2021060800
+keras-nightly==2.6.0.dev2021060900
 Keras-Preprocessing==1.1.2
 keyring==23.0.1
 kiwisolver==1.3.1
@@ -313,7 +314,7 @@ tensorflow-estimator==2.5.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.1
-tf-estimator-nightly==2.6.0.dev2021060801
+tf-estimator-nightly==2.6.0.dev2021060901
 threadpoolctl==2.1.0
 tldextract==3.1.0
 toml==0.10.2
