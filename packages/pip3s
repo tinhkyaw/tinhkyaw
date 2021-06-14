@@ -1,4 +1,4 @@
-absl-py==0.12.0
+absl-py==0.13.0
 alabaster==0.7.12
 alembic==1.6.5
 amqp==5.0.6
@@ -25,8 +25,8 @@ beautifulsoup4==4.9.3
 billiard==3.6.4.0
 bleach==3.3.0
 blinker==1.4
-boto3==1.17.93
-botocore==1.20.93
+boto3==1.17.94
+botocore==1.20.94
 bottle==0.12.19
 bs4==0.0.1
 cached-property==1.5.2
@@ -114,7 +114,7 @@ h5py==3.2.1
 hpack==4.0.0
 hstspreload==2020.12.22
 html5lib==1.1
-httpcore==0.13.4
+httpcore==0.13.5
 httpx==0.18.1
 hyperframe==6.0.1
 icecream==2.1.0
