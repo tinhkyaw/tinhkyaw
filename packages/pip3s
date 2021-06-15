@@ -114,7 +114,7 @@ h5py==3.2.1
 hpack==4.0.0
 hstspreload==2020.12.22
 html5lib==1.1
-httpcore==0.13.5
+httpcore==0.13.6
 httpx==0.18.1
 hyperframe==6.0.1
 icecream==2.1.0
@@ -139,7 +139,7 @@ json5==0.9.5
 jsonschema==3.2.0
 Keras==2.4.3
 Keras-Applications==1.0.8
-keras-nightly==2.6.0.dev2021061400
+keras-nightly==2.6.0.dev2021061500
 Keras-Preprocessing==1.1.2
 keyring==23.0.1
 kiwisolver==1.3.1
@@ -225,12 +225,16 @@ PyQt5==5.15.4
 PyQt5-Qt==5.15.2
 PyQt5-Qt5==5.15.2
 PyQt5-sip==12.9.0
-PyQt6==6.1.0
-PyQt6-3D==6.1.0
-PyQt6-Charts==6.1.0
-PyQt6-DataVisualization==6.1.0
-PyQt6-NetworkAuth==6.1.0
-PyQt6-Qt6==6.1.0
+PyQt6==6.1.1
+PyQt6-3D==6.1.1
+PyQt6-3D-Qt6==6.1.1
+PyQt6-Charts==6.1.1
+PyQt6-Charts-Qt6==6.1.1
+PyQt6-DataVisualization==6.1.1
+PyQt6-DataVisualization-Qt6==6.1.1
+PyQt6-NetworkAuth==6.1.1
+PyQt6-NetworkAuth-Qt6==6.1.1
+PyQt6-Qt6==6.1.1
 PyQt6-sip==13.1.0
 PyQtChart==5.15.4
 PyQtDataVisualization==5.15.4
@@ -280,7 +284,7 @@ setproctitle==1.2.2
 shellingham==1.4.0
 simplegeneric==0.8.1
 singledispatch==3.6.2
-sip==6.1.0
+sip==6.1.1
 six==1.16.0
 smmap==4.0.0
 sniffio==1.2.0
@@ -298,7 +302,7 @@ sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.5
 SQLAlchemy==1.4.18
 SQLAlchemy-JSONField==1.0.0
-SQLAlchemy-Utils==0.37.6
+SQLAlchemy-Utils==0.37.7
 sqlparse==0.4.1
 stevedore==3.3.0
 stringcase==1.2.0
@@ -314,7 +318,7 @@ tensorflow-estimator==2.5.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.1
-tf-estimator-nightly==2.6.0.dev2021061401
+tf-estimator-nightly==2.6.0.dev2021061501
 threadpoolctl==2.1.0
 tldextract==3.1.0
 toml==0.10.2
