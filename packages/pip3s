@@ -47,7 +47,7 @@ cloudpickle==1.6.0
 colorama==0.4.4
 colorlog==5.0.1
 commonmark==0.9.1
-ConfigArgParse==1.4.1
+ConfigArgParse==1.5
 connexion==2.7.0
 croniter==1.0.13
 cryptography==3.4.7
