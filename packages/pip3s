@@ -139,7 +139,7 @@ json5==0.9.5
 jsonschema==3.2.0
 Keras==2.4.3
 Keras-Applications==1.0.8
-keras-nightly==2.6.0.dev2021062000
+keras-nightly==2.6.0.dev2021062100
 Keras-Preprocessing==1.1.2
 keyring==23.0.1
 kiwisolver==1.3.1
