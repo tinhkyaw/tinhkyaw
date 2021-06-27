@@ -85,6 +85,7 @@ Flask-AppBuilder==3.3.1
 Flask-Babel==2.0.0
 Flask-BasicAuth==0.2.0
 Flask-Caching==1.10.1
+Flask-Cors==3.0.10
 Flask-JWT-Extended==4.2.1
 Flask-Login==0.5.0
 Flask-OpenID==1.2.5
@@ -120,7 +121,7 @@ hyperframe==6.0.1
 icecream==2.1.1
 idna==3.2
 imagesize==1.2.0
-importlib-metadata==4.5.0
+importlib-metadata==4.6.0
 importlib-resources==5.1.4
 inflection==0.5.1
 iniconfig==1.1.1
@@ -139,7 +140,7 @@ json5==0.9.6
 jsonschema==3.2.0
 Keras==2.4.3
 Keras-Applications==1.0.8
-keras-nightly==2.7.0.dev2021062600
+keras-nightly==2.7.0.dev2021062700
 Keras-Preprocessing==1.1.2
 keyring==23.0.1
 kiwisolver==1.3.1
@@ -148,7 +149,7 @@ lazy-object-proxy==1.6.0
 libcst==0.3.19
 locket==0.2.1
 lockfile==0.12.2
-locust==1.5.3
+locust==1.6.0
 lxml==4.6.3
 Mako==1.1.4
 Markdown==3.3.4
@@ -318,7 +319,7 @@ tensorflow-estimator==2.5.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.1
-tf-estimator-nightly==2.7.0.dev2021062601
+tf-estimator-nightly==2.7.0.dev2021062701
 threadpoolctl==2.1.0
 tldextract==3.1.0
 toml==0.10.2
