@@ -139,7 +139,7 @@ json5==0.9.6
 jsonschema==3.2.0
 Keras==2.4.3
 Keras-Applications==1.0.8
-keras-nightly==2.6.0.dev2021062500
+keras-nightly==2.7.0.dev2021062600
 Keras-Preprocessing==1.1.2
 keyring==23.0.1
 kiwisolver==1.3.1
@@ -318,7 +318,7 @@ tensorflow-estimator==2.5.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.1
-tf-estimator-nightly==2.6.0.dev2021062501
+tf-estimator-nightly==2.7.0.dev2021062601
 threadpoolctl==2.1.0
 tldextract==3.1.0
 toml==0.10.2
@@ -340,7 +340,7 @@ virtualenv==20.4.7
 virtualenv-clone==0.5.4
 virtualenvwrapper==4.8.4
 w3lib==1.22.0
-watchdog==2.1.2
+watchdog==2.1.3
 watchtower==1.0.6
 wcwidth==0.2.5
 webencodings==0.5.1
