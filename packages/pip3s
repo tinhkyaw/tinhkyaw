@@ -9,10 +9,10 @@ apache-airflow-providers-ftp==2.0.0
 apache-airflow-providers-http==2.0.0
 apache-airflow-providers-imap==2.0.0
 apache-airflow-providers-sqlite==2.0.0
-apispec==4.6.0
+apispec==4.7.0
 appdirs==1.4.4
 argcomplete==1.12.3
-asgiref==3.3.4
+asgiref==3.4.0
 asttokens==2.0.5
 astunparse==1.6.3
 async-generator==1.10
@@ -32,7 +32,7 @@ bs4==0.0.1
 cached-property==1.5.2
 cachetools==4.2.2
 cattrs==1.7.1
-celery==5.1.1
+celery==5.1.2
 cement==3.0.4
 certifi==2021.5.30
 cffi==1.14.5
@@ -122,7 +122,7 @@ icecream==2.1.1
 idna==3.2
 imagesize==1.2.0
 importlib-metadata==4.6.0
-importlib-resources==5.1.4
+importlib-resources==5.2.0
 inflection==0.5.1
 iniconfig==1.1.1
 intervaltree==3.1.0
@@ -140,7 +140,7 @@ json5==0.9.6
 jsonschema==3.2.0
 Keras==2.4.3
 Keras-Applications==1.0.8
-keras-nightly==2.7.0.dev2021062700
+keras-nightly==2.7.0.dev2021062800
 Keras-Preprocessing==1.1.2
 keyring==23.0.1
 kiwisolver==1.3.1
@@ -303,7 +303,7 @@ sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.5
 SQLAlchemy==1.4.19
 SQLAlchemy-JSONField==1.0.0
-SQLAlchemy-Utils==0.37.7
+SQLAlchemy-Utils==0.37.8
 sqlparse==0.4.1
 stevedore==3.3.0
 stringcase==1.2.0
@@ -319,7 +319,7 @@ tensorflow-estimator==2.5.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.1
-tf-estimator-nightly==2.7.0.dev2021062701
+tf-estimator-nightly==2.7.0.dev2021062801
 threadpoolctl==2.1.0
 tldextract==3.1.0
 toml==0.10.2
