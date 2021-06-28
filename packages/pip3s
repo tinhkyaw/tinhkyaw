@@ -95,7 +95,7 @@ flatbuffers==2.0
 fsspec==2021.6.1
 ftfy==6.0.3
 future==0.18.2
-gast==0.4.0
+gast==0.5.0
 gevent==21.1.2
 geventhttpclient==1.4.4
 gitdb==4.0.7
@@ -301,7 +301,7 @@ sphinxcontrib-htmlhelp==2.0.0
 sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.5
-SQLAlchemy==1.4.19
+SQLAlchemy==1.4.20
 SQLAlchemy-JSONField==1.0.0
 SQLAlchemy-Utils==0.37.8
 sqlparse==0.4.1
