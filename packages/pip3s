@@ -12,7 +12,7 @@ apache-airflow-providers-sqlite==2.0.0
 apispec==4.7.0
 appdirs==1.4.4
 argcomplete==1.12.3
-asgiref==3.4.0
+asgiref==3.4.1
 asttokens==2.0.5
 astunparse==1.6.3
 async-generator==1.10
