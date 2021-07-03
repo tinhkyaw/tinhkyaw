@@ -3,7 +3,7 @@ alabaster==0.7.12
 alembic==1.6.5
 amqp==5.0.6
 anyio==3.2.1
-apache-airflow==2.1.0
+apache-airflow==2.1.1
 apache-airflow-providers-amazon==2.0.0
 apache-airflow-providers-ftp==2.0.0
 apache-airflow-providers-http==2.0.0
@@ -25,8 +25,8 @@ beautifulsoup4==4.9.3
 billiard==3.6.4.0
 bleach==3.3.0
 blinker==1.4
-boto3==1.17.104
-botocore==1.20.104
+boto3==1.17.105
+botocore==1.20.105
 bottle==0.12.19
 bs4==0.0.1
 cached-property==1.5.2
@@ -140,7 +140,7 @@ json5==0.9.6
 jsonschema==3.2.0
 Keras==2.4.3
 Keras-Applications==1.0.8
-keras-nightly==2.7.0.dev2021070200
+keras-nightly==2.7.0.dev2021070300
 Keras-Preprocessing==1.1.2
 keyring==23.0.1
 kiwisolver==1.3.1
@@ -179,7 +179,7 @@ openapi-spec-validator==0.3.1
 openpyxl==3.0.7
 opt-einsum==3.3.0
 ordereddict==1.1
-packaging==20.9
+packaging==21.0
 pandas==1.2.5
 paramiko==2.7.2
 parse==1.19.0
@@ -319,7 +319,7 @@ tensorflow-estimator==2.5.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.1
-tf-estimator-nightly==2.7.0.dev2021070201
+tf-estimator-nightly==2.7.0.dev2021070301
 threadpoolctl==2.1.0
 tldextract==3.1.0
 toml==0.10.2
@@ -352,6 +352,6 @@ whichcraft==0.6.1
 wrapt==1.12.1
 WTForms==2.3.3
 yolk==0.4.3
-zipp==3.4.1
+zipp==3.5.0
 zope.event==4.5.0
 zope.interface==5.4.0
