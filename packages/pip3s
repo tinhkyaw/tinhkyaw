@@ -9,7 +9,7 @@ apache-airflow-providers-ftp==2.0.0
 apache-airflow-providers-http==2.0.0
 apache-airflow-providers-imap==2.0.0
 apache-airflow-providers-sqlite==2.0.0
-apispec==4.7.0
+apispec==4.7.1
 appdirs==1.4.4
 argcomplete==1.12.3
 asgiref==3.4.1
