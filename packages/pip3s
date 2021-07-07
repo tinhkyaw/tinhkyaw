@@ -156,7 +156,7 @@ Markdown==3.3.4
 MarkupSafe==2.0.1
 marshmallow==3.12.2
 marshmallow-enum==1.5.1
-marshmallow-oneofschema==2.1.0
+marshmallow-oneofschema==3.0.0
 marshmallow-sqlalchemy==0.26.1
 matplotlib==3.4.2
 memory-profiler==0.58.0
@@ -191,7 +191,7 @@ pendulum==2.1.2
 pep517==0.10.0
 pexpect==4.8.0
 pickleshare==0.7.5
-Pillow==8.3.0
+Pillow==8.3.1
 pip-tools==6.2.0
 pipdeptree==2.0.0
 pipfile==0.0.2
