@@ -107,7 +107,7 @@ google-auth==1.32.1
 google-auth-oauthlib==0.4.4
 google-pasta==0.2.0
 graphtage==0.2.5
-graphviz==0.16
+graphviz==0.17
 greenlet==1.1.0
 grpcio==1.38.1
 gunicorn==20.1.0
@@ -252,7 +252,7 @@ pyrsistent==0.18.0
 pyspark==3.1.2
 pytest==6.2.4
 python-daemon==2.3.0
-python-dateutil==2.8.1
+python-dateutil==2.8.2
 python-editor==1.0.4
 python-jsonrpc-server==0.4.0
 python-nvd3==0.15.0
@@ -323,7 +323,7 @@ tensorflow-estimator==2.5.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.1
-tf-estimator-nightly==2.7.0.dev2021071301
+tf-estimator-nightly==2.7.0.dev2021071401
 threadpoolctl==2.2.0
 tldextract==3.1.0
 toml==0.10.2

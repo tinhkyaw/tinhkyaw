@@ -17,7 +17,6 @@ CASK_EXCLUSIONS="\
 asciidocfx\
 |celldesigner\
 |colloquy\
-|google-drive\
 |lastpass\
 |lulu\
 |microsoft-auto-update\
