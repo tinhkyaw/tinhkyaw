@@ -305,7 +305,7 @@ sphinxcontrib-htmlhelp==2.0.0
 sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.5
-SQLAlchemy==1.4.21
+SQLAlchemy==1.4.22
 SQLAlchemy-JSONField==1.0.0
 SQLAlchemy-Utils==0.37.8
 sqlparse==0.4.1
