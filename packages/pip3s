@@ -109,7 +109,7 @@ google-pasta==0.2.0
 graphtage==0.2.5
 graphviz==0.17
 greenlet==1.1.0
-grpcio==1.38.1
+grpcio==1.39.0
 gunicorn==20.1.0
 h11==0.12.0
 h2==4.0.0
