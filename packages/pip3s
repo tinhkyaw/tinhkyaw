@@ -2,7 +2,7 @@ absl-py==0.13.0
 alabaster==0.7.12
 alembic==1.6.5
 amqp==5.0.6
-anyio==3.2.1
+anyio==3.3.0
 apache-airflow==2.1.2
 apache-airflow-providers-amazon==2.0.0
 apache-airflow-providers-ftp==2.0.0
@@ -26,8 +26,8 @@ beautifulsoup4==4.9.3
 billiard==3.6.4.0
 bleach==3.3.1
 blinker==1.4
-boto3==1.18.4
-botocore==1.21.4
+boto3==1.18.5
+botocore==1.21.5
 bottle==0.12.19
 bs4==0.0.1
 cached-property==1.5.2
