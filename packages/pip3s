@@ -142,7 +142,7 @@ json5==0.9.6
 jsonschema==3.2.0
 Keras==2.4.3
 Keras-Applications==1.0.8
-keras-nightly==2.7.0.dev2021072400
+keras-nightly==2.7.0.dev2021072500
 Keras-Preprocessing==1.1.2
 keyring==23.0.1
 kiwisolver==1.3.1
@@ -182,7 +182,7 @@ openpyxl==3.0.7
 opt-einsum==3.3.0
 ordereddict==1.1
 packaging==21.0
-pandas==1.3.0
+pandas==1.3.1
 paramiko==2.7.2
 parse==1.19.0
 parso==0.8.2
@@ -323,7 +323,7 @@ tensorflow-estimator==2.5.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.1
-tf-estimator-nightly==2.7.0.dev2021072401
+tf-estimator-nightly==2.7.0.dev2021072501
 threadpoolctl==2.2.0
 tldextract==3.1.0
 toml==0.10.2
