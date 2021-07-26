@@ -67,6 +67,7 @@ ms-vscode.test-adapter-converter
 ms-vscode.vscode-github-issue-notebooks
 ms-vscode.vscode-js-profile-flame
 ms-vscode.vscode-markdown-notebook
+ms-vscode.vscode-marketplace-extension-browser
 ms-vscode.vscode-typescript-tslint-plugin
 oderwat.indent-rainbow
 OpenPAIVSCodeClient.pai-vscode
