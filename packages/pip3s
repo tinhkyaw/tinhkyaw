@@ -83,7 +83,7 @@ fett==0.3.2
 filelock==3.0.12
 first==2.0.2
 Flask==2.0.1
-Flask-AppBuilder==3.3.1
+Flask-AppBuilder==3.3.2
 Flask-Babel==2.0.0
 Flask-BasicAuth==0.2.0
 Flask-Caching==1.10.1
@@ -323,7 +323,7 @@ tensorflow-estimator==2.5.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.1
-tf-estimator-nightly==2.7.0.dev2021072601
+tf-estimator-nightly==2.7.0.dev2021072701
 threadpoolctl==2.2.0
 tldextract==3.1.0
 toml==0.10.2
