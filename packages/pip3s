@@ -327,7 +327,7 @@ tf-estimator-nightly==2.7.0.dev2021072901
 threadpoolctl==2.2.0
 tldextract==3.1.0
 toml==0.10.2
-tomli==1.1.0
+tomli==1.2.0
 toolz==0.11.1
 torch==1.9.0
 torchvision==0.10.0
