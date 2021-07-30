@@ -293,7 +293,7 @@ sip==6.1.1
 six==1.16.0
 smmap==4.0.0
 sniffio==1.2.0
-snooty-lextudio==1.9.2.dev0
+snooty-lextudio==1.11.0.dev0
 snowballstemmer==2.1.0
 sortedcontainers==2.4.0
 soupsieve==2.2.1
