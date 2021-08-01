@@ -26,8 +26,8 @@ beautifulsoup4==4.9.3
 billiard==3.6.4.0
 bleach==3.3.1
 blinker==1.4
-boto3==1.18.10
-botocore==1.21.10
+boto3==1.18.11
+botocore==1.21.11
 bottle==0.12.19
 bs4==0.0.1
 cached-property==1.5.2
@@ -38,7 +38,7 @@ cement==3.0.4
 certifi==2021.5.30
 cffi==1.14.6
 chardet==4.0.0
-charset-normalizer==2.0.3
+charset-normalizer==2.0.4
 click==8.0.1
 click-completion==0.5.2
 click-didyoumean==0.0.3
@@ -56,7 +56,7 @@ cryptography==3.4.7
 cssselect==1.1.0
 cycler==0.10.0
 Cython==0.29.24
-dask==2021.7.1
+dask==2021.7.2
 dataclasses-json==0.5.4
 ddt==1.4.2
 decorator==5.0.9
@@ -77,7 +77,7 @@ editdistance==0.5.3
 email-validator==1.1.3
 entrypoints==0.3
 et-xmlfile==1.1.0
-executing==0.7.0
+executing==0.8.0
 fake-useragent==0.1.11
 fett==0.3.2
 filelock==3.0.12
@@ -115,7 +115,7 @@ h11==0.12.0
 h2==4.0.0
 h5py==3.3.0
 hpack==4.0.0
-hstspreload==2021.7.5
+hstspreload==2021.8.1
 html5lib==1.1
 httpcore==0.13.6
 httpx==0.18.2
@@ -123,8 +123,8 @@ hyperframe==6.0.1
 icecream==2.1.1
 idna==3.2
 imagesize==1.2.0
-importlib-metadata==4.6.1
-importlib-resources==5.2.1
+importlib-metadata==4.6.3
+importlib-resources==5.2.2
 inflection==0.5.1
 iniconfig==1.1.1
 intervaltree==3.1.0
@@ -142,7 +142,7 @@ json5==0.9.6
 jsonschema==3.2.0
 Keras==2.4.3
 Keras-Applications==1.0.8
-keras-nightly==2.7.0.dev2021073000
+keras-nightly==2.7.0.dev2021073100
 Keras-Preprocessing==1.1.2
 keyring==23.0.1
 kiwisolver==1.3.1
@@ -195,7 +195,7 @@ pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==8.3.1
 pip-tools==6.2.0
-pipdeptree==2.0.0
+pipdeptree==2.1.0
 pipfile==0.0.2
 pkginfo==1.7.1
 platformdirs==2.2.0
@@ -323,7 +323,7 @@ tensorflow-estimator==2.5.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.1
-tf-estimator-nightly==2.7.0.dev2021073001
+tf-estimator-nightly==2.7.0.dev2021073101
 threadpoolctl==2.2.0
 tldextract==3.1.0
 toml==0.10.2
@@ -331,7 +331,7 @@ tomli==1.2.0
 toolz==0.11.1
 torch==1.9.0
 torchvision==0.10.0
-tqdm==4.61.2
+tqdm==4.62.0
 traitlets==5.0.5
 twine==3.4.2
 typed-ast==1.4.3
@@ -342,7 +342,7 @@ unicodecsv==0.14.1
 Unidecode==1.2.0
 urllib3==1.26.6
 vine==5.0.0
-virtualenv==20.6.0
+virtualenv==20.7.0
 virtualenv-clone==0.5.6
 virtualenvwrapper==4.8.4
 w3lib==1.22.0
