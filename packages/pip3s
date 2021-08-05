@@ -26,8 +26,8 @@ beautifulsoup4==4.9.3
 billiard==3.6.4.0
 bleach==4.0.0
 blinker==1.4
-boto3==1.18.13
-botocore==1.21.13
+boto3==1.18.14
+botocore==1.21.14
 bottle==0.12.19
 bs4==0.0.1
 cached-property==1.5.2
@@ -142,7 +142,7 @@ json5==0.9.6
 jsonschema==3.2.0
 Keras==2.4.3
 Keras-Applications==1.0.8
-keras-nightly==2.7.0.dev2021080300
+keras-nightly==2.7.0.dev2021080400
 Keras-Preprocessing==1.1.2
 keyring==23.0.1
 kiwisolver==1.3.1
@@ -262,7 +262,7 @@ pytz==2021.1
 pytzdata==2020.1
 pywatchman==1.4.1
 PyYAML==5.4.1
-pyzmq==22.1.0
+pyzmq==22.2.0
 QScintilla==2.13.0
 readme-renderer==29.0
 regex==2021.8.3
@@ -324,7 +324,7 @@ tensorflow-estimator==2.5.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.1
-tf-estimator-nightly==2.7.0.dev2021080301
+tf-estimator-nightly==2.7.0.dev2021080401
 threadpoolctl==2.2.0
 tldextract==3.1.0
 toml==0.10.2
