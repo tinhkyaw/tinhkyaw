@@ -26,8 +26,8 @@ beautifulsoup4==4.9.3
 billiard==3.6.4.0
 bleach==4.0.0
 blinker==1.4
-boto3==1.18.15
-botocore==1.21.15
+boto3==1.18.16
+botocore==1.21.16
 bottle==0.12.19
 bs4==0.0.1
 cached-property==1.5.2
@@ -49,7 +49,7 @@ cloudpickle==1.6.0
 colorama==0.4.4
 colorlog==5.0.1
 commonmark==0.9.1
-ConfigArgParse==1.5.1
+ConfigArgParse==1.5.2
 connexion==2.9.0
 croniter==1.0.15
 cryptography==3.4.7
@@ -316,7 +316,7 @@ swagger-ui-bundle==0.0.8
 sympy==1.8
 tabulate==0.8.9
 tenacity==8.0.1
-tensorboard==2.5.0
+tensorboard==2.6.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.0
 tensorflow==2.5.0
