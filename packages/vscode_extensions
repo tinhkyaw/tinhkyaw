@@ -41,7 +41,6 @@ ms-edgedevtools.network-edge-devtools
 ms-edgedevtools.vscode-edge-devtools
 ms-iot.vscode-ros
 msjsdiag.cordova-tools
-msjsdiag.debugger-for-chrome
 msjsdiag.debugger-for-edge
 msjsdiag.vscode-react-native
 ms-kubernetes-tools.kind-vscode
