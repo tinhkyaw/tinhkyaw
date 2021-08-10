@@ -142,13 +142,13 @@ json5==0.9.6
 jsonschema==3.2.0
 keras==2.6.0
 Keras-Applications==1.0.8
-keras-nightly==2.7.0.dev2021080900
+keras-nightly==2.7.0.dev2021081000
 Keras-Preprocessing==1.1.2
 keyring==23.0.1
 kiwisolver==1.3.1
 kombu==5.1.0
 lazy-object-proxy==1.6.0
-libcst==0.3.19
+libcst==0.3.20
 locket==0.2.1
 lockfile==0.12.2
 locust==2.1.0
@@ -324,7 +324,7 @@ tensorflow-estimator==2.6.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.1
-tf-estimator-nightly==2.7.0.dev2021080901
+tf-estimator-nightly==2.7.0.dev2021081001
 threadpoolctl==2.2.0
 tldextract==3.1.0
 toml==0.10.2
