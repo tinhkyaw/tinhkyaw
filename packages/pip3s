@@ -26,8 +26,8 @@ beautifulsoup4==4.9.3
 billiard==3.6.4.0
 bleach==4.0.0
 blinker==1.4
-boto3==1.18.20
-botocore==1.21.20
+boto3==1.18.21
+botocore==1.21.21
 bottle==0.12.19
 bs4==0.0.1
 cached-property==1.5.2
@@ -57,7 +57,7 @@ cryptography==3.4.7
 cssselect==1.1.0
 cycler==0.10.0
 Cython==0.29.24
-dask==2021.7.2
+dask==2021.8.0
 dataclasses-json==0.5.4
 ddt==1.4.2
 decorator==5.0.9
@@ -124,7 +124,7 @@ hyperframe==6.0.1
 icecream==2.1.1
 idna==3.2
 imagesize==1.2.0
-importlib-metadata==4.6.3
+importlib-metadata==4.6.4
 importlib-resources==5.2.2
 inflection==0.5.1
 iniconfig==1.1.1
@@ -143,7 +143,7 @@ json5==0.9.6
 jsonschema==3.2.0
 keras==2.6.0
 Keras-Applications==1.0.8
-keras-nightly==2.7.0.dev2021081307
+keras-nightly==2.7.0.dev2021081407
 Keras-Preprocessing==1.1.2
 keyring==23.0.1
 kiwisolver==1.3.1
@@ -290,12 +290,12 @@ seaborn==0.11.1
 setproctitle==1.2.2
 shellingham==1.4.0
 simplegeneric==0.8.1
-singledispatch==3.6.2
+singledispatch==3.7.0
 sip==6.1.1
 six==1.16.0
 smmap==4.0.0
 sniffio==1.2.0
-snooty-lextudio==1.11.0.dev0
+snooty-lextudio==1.11.1.dev0
 snowballstemmer==2.1.0
 sortedcontainers==2.4.0
 soupsieve==2.2.1
@@ -325,7 +325,7 @@ tensorflow-estimator==2.6.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.1
-tf-estimator-nightly==2.7.0.dev2021081308
+tf-estimator-nightly==2.7.0.dev2021081408
 threadpoolctl==2.2.0
 tldextract==3.1.0
 toml==0.10.2
