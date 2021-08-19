@@ -26,8 +26,8 @@ beautifulsoup4==4.9.3
 billiard==3.6.4.0
 bleach==4.0.0
 blinker==1.4
-boto3==1.18.24
-botocore==1.21.24
+boto3==1.18.25
+botocore==1.21.25
 bottle==0.12.19
 bs4==0.0.1
 cached-property==1.5.2
@@ -104,7 +104,7 @@ geventhttpclient==1.4.4
 gitdb==4.0.7
 gitdb2==4.0.2
 GitPython==3.1.18
-google-auth==2.0.0
+google-auth==2.0.1
 google-auth-oauthlib==0.4.5
 google-pasta==0.2.0
 graphtage==0.2.5
@@ -311,7 +311,7 @@ SQLAlchemy==1.4.23
 SQLAlchemy-JSONField==1.0.0
 SQLAlchemy-Utils==0.37.8
 sqlparse==0.4.1
-stevedore==3.4.0
+stevedore==3.3.0
 stringcase==1.2.0
 swagger-ui-bundle==0.0.8
 sympy==1.8
@@ -325,7 +325,7 @@ tensorflow-estimator==2.6.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.1
-tf-estimator-nightly==2.7.0.dev2021081908
+tf-estimator-nightly==2.7.0.dev2021081808
 threadpoolctl==2.2.0
 tldextract==3.1.0
 toml==0.10.2
@@ -348,7 +348,7 @@ virtualenv==20.7.2
 virtualenv-clone==0.5.6
 virtualenvwrapper==4.8.4
 w3lib==1.22.0
-watchdog==2.1.4
+watchdog==2.1.3
 watchtower==1.0.6
 wcwidth==0.2.5
 webencodings==0.5.1
