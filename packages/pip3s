@@ -26,8 +26,8 @@ beautifulsoup4==4.9.3
 billiard==3.6.4.0
 bleach==4.0.0
 blinker==1.4
-boto3==1.18.26
-botocore==1.21.26
+boto3==1.18.27
+botocore==1.21.27
 bottle==0.12.19
 Brotli==1.0.9
 bs4==0.0.1
@@ -54,7 +54,7 @@ commonmark==0.9.1
 ConfigArgParse==1.5.2
 connexion==2.9.0
 croniter==1.0.15
-cryptography==3.4.7
+cryptography==3.4.8
 cssselect==1.1.0
 cycler==0.10.0
 Cython==0.29.24
@@ -144,7 +144,7 @@ json5==0.9.6
 jsonschema==3.2.0
 keras==2.6.0
 Keras-Applications==1.0.8
-keras-nightly==2.7.0.dev2021082307
+keras-nightly==2.7.0.dev2021082407
 Keras-Preprocessing==1.1.2
 keyring==23.1.0
 kiwisolver==1.3.1
@@ -326,7 +326,7 @@ tensorflow-estimator==2.6.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.1
-tf-estimator-nightly==2.7.0.dev2021082308
+tf-estimator-nightly==2.7.0.dev2021082408
 threadpoolctl==2.2.0
 tldextract==3.1.0
 toml==0.10.2
