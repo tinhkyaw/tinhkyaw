@@ -144,10 +144,10 @@ json5==0.9.6
 jsonschema==3.2.0
 keras==2.6.0
 Keras-Applications==1.0.8
-keras-nightly==2.7.0.dev2021082607
+keras-nightly==2.7.0.dev2021082707
 Keras-Preprocessing==1.1.2
 keyring==23.1.0
-kiwisolver==1.3.1
+kiwisolver==1.3.2
 kombu==5.1.0
 lazy-object-proxy==1.6.0
 libcst==0.3.20
@@ -267,7 +267,7 @@ PyYAML==5.4.1
 pyzmq==22.2.1
 QScintilla==2.13.0
 readme-renderer==29.0
-regex==2021.8.21
+regex==2021.8.27
 requests==2.26.0
 requests-file==1.5.1
 requests-html==0.10.0
@@ -326,7 +326,7 @@ tensorflow-estimator==2.6.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.1
-tf-estimator-nightly==2.7.0.dev2021082608
+tf-estimator-nightly==2.7.0.dev2021082708
 threadpoolctl==2.2.0
 tldextract==3.1.0
 toml==0.10.2
