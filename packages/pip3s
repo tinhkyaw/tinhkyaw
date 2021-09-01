@@ -26,8 +26,8 @@ beautifulsoup4==4.9.3
 billiard==3.6.4.0
 bleach==4.1.0
 blinker==1.4
-boto3==1.18.33
-botocore==1.21.33
+boto3==1.18.34
+botocore==1.21.34
 bottle==0.12.19
 Brotli==1.0.9
 bs4==0.0.1
@@ -65,12 +65,12 @@ decorator==5.0.9
 defusedxml==0.7.1
 dill==0.3.4
 distlib==0.3.2
-Django==3.2.6
+Django==3.2.7
 django-environ==0.5.0
 django-extensions==3.1.3
 dnspython==2.1.0
 doc8==0.9.0
-docker==5.0.1
+docker==5.0.2
 docopt==0.6.2
 docsend==0.2.0
 docutils==0.17.1
@@ -106,7 +106,7 @@ gitdb==4.0.7
 gitdb2==4.0.2
 GitPython==3.1.18
 google-auth==2.0.2
-google-auth-oauthlib==0.4.5
+google-auth-oauthlib==0.4.6
 google-pasta==0.2.0
 graphtage==0.2.5
 graphviz==0.17
@@ -144,7 +144,7 @@ json5==0.9.6
 jsonschema==3.2.0
 keras==2.6.0
 Keras-Applications==1.0.8
-keras-nightly==2.7.0.dev2021083107
+keras-nightly==2.7.0.dev2021090107
 Keras-Preprocessing==1.1.2
 keyring==23.1.0
 kiwisolver==1.3.2
@@ -153,7 +153,7 @@ lazy-object-proxy==1.6.0
 libcst==0.3.20
 locket==0.2.1
 lockfile==0.12.2
-locust==2.1.0
+locust==2.2.0
 lxml==4.6.3
 Mako==1.1.5
 Markdown==3.3.4
@@ -326,9 +326,9 @@ tensorflow-estimator==2.6.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.1
-tf-estimator-nightly==2.7.0.dev2021083108
+tf-estimator-nightly==2.7.0.dev2021090108
 threadpoolctl==2.2.0
-tldextract==3.1.1
+tldextract==3.1.2
 toml==0.10.2
 tomli==1.2.1
 toolz==0.11.1
