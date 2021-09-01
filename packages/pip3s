@@ -26,8 +26,8 @@ beautifulsoup4==4.9.3
 billiard==3.6.4.0
 bleach==4.1.0
 blinker==1.4
-boto3==1.18.32
-botocore==1.21.32
+boto3==1.18.33
+botocore==1.21.33
 bottle==0.12.19
 Brotli==1.0.9
 bs4==0.0.1
@@ -105,7 +105,7 @@ geventhttpclient==1.5.1
 gitdb==4.0.7
 gitdb2==4.0.2
 GitPython==3.1.18
-google-auth==2.0.1
+google-auth==2.0.2
 google-auth-oauthlib==0.4.5
 google-pasta==0.2.0
 graphtage==0.2.5
@@ -117,7 +117,7 @@ h11==0.12.0
 h2==4.0.0
 h5py==3.4.0
 hpack==4.0.0
-hstspreload==2021.8.1
+hstspreload==2021.9.1
 html5lib==1.1
 httpcore==0.13.6
 httpx==0.19.0
