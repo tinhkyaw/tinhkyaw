@@ -58,8 +58,8 @@
         "--global-config",
         "${workspaceRoot}/setup.cfg"
     ],
+    "python.languageServer": "Pylance",
     "python.jediEnabled": false,
-    "python.languageServer": "Microsoft",
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Args": [
         "--config",

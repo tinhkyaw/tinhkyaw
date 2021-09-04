@@ -4,11 +4,11 @@ alembic==1.7.1
 amqp==5.0.6
 anyio==3.3.0
 apache-airflow==2.1.3
-apache-airflow-providers-amazon==2.1.0
-apache-airflow-providers-ftp==2.0.0
-apache-airflow-providers-http==2.0.0
-apache-airflow-providers-imap==2.0.0
-apache-airflow-providers-sqlite==2.0.0
+apache-airflow-providers-amazon==2.2.0
+apache-airflow-providers-ftp==2.0.1
+apache-airflow-providers-http==2.0.1
+apache-airflow-providers-imap==2.0.1
+apache-airflow-providers-sqlite==2.0.1
 apispec==5.1.0
 appdirs==1.4.4
 argcomplete==1.12.3
@@ -17,7 +17,6 @@ asttokens==2.0.5
 astunparse==1.6.3
 async-generator==1.10
 attrs==21.2.0
-autoflake==1.4
 autopep8==1.5.7
 Babel==2.9.1
 backports.entry-points-selectable==1.1.0
@@ -25,11 +24,10 @@ bandit==1.7.0
 bcrypt==3.2.0
 beautifulsoup4==4.9.3
 billiard==3.6.4.0
-black==21.8b0
 bleach==4.1.0
 blinker==1.4
-boto3==1.18.35
-botocore==1.21.35
+boto3==1.18.36
+botocore==1.21.36
 bottle==0.12.19
 Brotli==1.0.9
 bs4==0.0.1
@@ -60,7 +58,7 @@ cryptography==3.4.8
 cssselect==1.1.0
 cycler==0.10.0
 Cython==0.29.24
-dask==2021.8.1
+dask==2021.9.0
 dataclasses-json==0.5.5
 ddt==1.4.2
 decorator==5.0.9
@@ -143,10 +141,11 @@ jmespath==0.10.0
 joblib==1.0.1
 js-regex==1.0.1
 json5==0.9.6
+jsonpath-ng==1.5.3
 jsonschema==3.2.0
 keras==2.6.0
 Keras-Applications==1.0.8
-keras-nightly==2.7.0.dev2021090207
+keras-nightly==2.7.0.dev2021090307
 Keras-Preprocessing==1.1.2
 keyring==23.1.0
 kiwisolver==1.3.2
@@ -169,7 +168,7 @@ memory-profiler==0.58.0
 mercurial==5.9.1
 mistune==0.8.4
 monotonic==1.6
-more-itertools==8.8.0
+more-itertools==8.9.0
 mpmath==1.2.1
 msgpack==1.0.2
 mxnet==1.8.0.post0
@@ -191,7 +190,6 @@ paramiko==2.7.2
 parse==1.19.0
 parso==0.8.2
 partd==1.2.0
-pathspec==0.9.0
 pathtools==0.1.2
 pbr==5.6.0
 pendulum==2.1.2
@@ -205,6 +203,7 @@ pipfile==0.0.2
 pkginfo==1.7.1
 platformdirs==2.3.0
 pluggy==1.0.0
+ply==3.11
 prison==0.2.1
 prompt-toolkit==3.0.20
 protobuf==3.17.3
@@ -222,7 +221,6 @@ pycairo==1.20.1
 pycodestyle==2.7.0
 pycparser==2.20
 pyee==8.2.2
-pyflakes==2.3.1
 Pygments==2.10.0
 PyGObject==3.40.1
 PyJWT==2.1.0
@@ -330,7 +328,7 @@ tensorflow-estimator==2.6.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.1
-tf-estimator-nightly==2.7.0.dev2021090208
+tf-estimator-nightly==2.7.0.dev2021090308
 threadpoolctl==2.2.0
 tldextract==3.1.2
 toml==0.10.2

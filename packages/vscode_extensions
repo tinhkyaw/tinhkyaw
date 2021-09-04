@@ -53,6 +53,7 @@ ms-python.gather
 ms-python.vscode-pylance
 msrvida.vscode-sanddance
 ms-toolsai.jupyter
+ms-toolsai.jupyter-keymap
 ms-vscode.cpptools-extension-pack
 ms-vscode.cpptools-extension-pack
 ms-vscode.github-browser
@@ -80,6 +81,7 @@ syler.sass-indented
 tcwalther.cython
 timonwong.shellcheck
 tootone.org-mode
+trond-snekvik.simple-rst
 vsciot-vscode.vscode-arduino
 vscjava.vscode-java-pack
 waderyan.gitblame
