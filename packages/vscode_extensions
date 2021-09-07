@@ -23,7 +23,7 @@ HookyQR.beautify
 i80and.snooty
 kiteco.kite
 korekontrol.saltstack
-lextudio.restructuredtext
+lextudio.restructuredtext-pack
 lightbend.vscode-sbt-scala
 localizely.flutter-intl
 lonefy.vscode-JS-CSS-HTML-formatter
@@ -81,7 +81,6 @@ syler.sass-indented
 tcwalther.cython
 timonwong.shellcheck
 tootone.org-mode
-trond-snekvik.simple-rst
 vsciot-vscode.vscode-arduino
 vscjava.vscode-java-pack
 waderyan.gitblame

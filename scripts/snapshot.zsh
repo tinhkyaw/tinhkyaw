@@ -37,7 +37,9 @@ code --list-extensions --show-versions | sort -d -f \
 > ${SNAPSHOT_DIR}/code${SUFFIX}.txt
 VSCODE_EXCLUSIONS="\
 esbenp.prettier-vscode\
+|lextudio.restructuredtext\
 |scala-lang.scala\
+|trond-snekvik.simple-rst\
 |^dart-code.*\
 |^docsmsft.docs.*\
 |^donjayamanne.*\
