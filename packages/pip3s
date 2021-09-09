@@ -147,7 +147,7 @@ jsonpath-ng==1.5.3
 jsonschema==3.2.0
 keras==2.6.0
 Keras-Applications==1.0.8
-keras-nightly==2.7.0.dev2021090807
+keras-nightly==2.7.0.dev2021090907
 Keras-Preprocessing==1.1.2
 keyring==23.1.0
 kiwisolver==1.3.2
@@ -332,7 +332,7 @@ tensorflow-estimator==2.6.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.1
-tf-estimator-nightly==2.7.0.dev2021090808
+tf-estimator-nightly==2.7.0.dev2021090908
 threadpoolctl==2.2.0
 tldextract==3.1.2
 toml==0.10.2
@@ -360,7 +360,7 @@ watchtower==1.0.6
 wcwidth==0.2.5
 webencodings==0.5.1
 websocket-client==1.2.1
-websockets==9.1
+websockets==10.0
 Werkzeug==2.0.1
 whichcraft==0.6.1
 wrapt==1.12.1
