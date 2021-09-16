@@ -209,7 +209,7 @@ pluggy==1.0.0
 ply==3.11
 prison==0.2.1
 prompt-toolkit==3.0.20
-protobuf==3.17.3
+protobuf==3.18.0
 pss==1.43
 psutil==5.8.0
 psycopg2==2.9.1
