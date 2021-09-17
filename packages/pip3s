@@ -28,8 +28,8 @@ billiard==3.6.4.0
 black==21.9b0
 bleach==4.1.0
 blinker==1.4
-boto3==1.18.42
-botocore==1.21.42
+boto3==1.18.43
+botocore==1.21.43
 bottle==0.12.19
 Brotli==1.0.9
 bs4==0.0.1
@@ -254,7 +254,7 @@ PyQtNetworkAuth==5.15.4
 PyQtPurchasing==5.15.4
 PyQtWebEngine==5.15.4
 pyquery==1.4.3
-pyre-check==0.9.3
+pyre-check==0.9.6
 pyre-extensions==0.0.22
 pyrsistent==0.18.0
 pyspark==3.1.2
