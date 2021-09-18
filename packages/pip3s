@@ -28,8 +28,8 @@ billiard==3.6.4.0
 black==21.9b0
 bleach==4.1.0
 blinker==1.4
-boto3==1.18.43
-botocore==1.21.43
+boto3==1.18.44
+botocore==1.21.44
 bottle==0.12.19
 Brotli==1.0.9
 bs4==0.0.1
@@ -41,7 +41,7 @@ cement==3.0.4
 certifi==2021.5.30
 cffi==1.14.6
 chardet==4.0.0
-charset-normalizer==2.0.5
+charset-normalizer==2.0.6
 clang==11.0
 click==8.0.1
 click-completion==0.5.2
