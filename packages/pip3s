@@ -29,8 +29,8 @@ black==21.9b0
 bleach==4.1.0
 blinker==1.4
 borb==2.0.10
-boto3==1.18.45
-botocore==1.21.45
+boto3==1.18.46
+botocore==1.21.46
 bottle==0.12.19
 Brotli==1.0.9
 bs4==0.0.1
@@ -99,7 +99,7 @@ Flask-OpenID==1.3.0
 Flask-SQLAlchemy==2.5.1
 Flask-WTF==0.15.1
 flatbuffers==2.0
-fonttools==4.27.0
+fonttools==4.27.1
 fsspec==2021.8.1
 ftfy==6.0.3
 future==0.18.2
@@ -149,7 +149,7 @@ jsonpath-ng==1.5.3
 jsonschema==3.2.0
 keras==2.6.0
 Keras-Applications==1.0.8
-keras-nightly==2.7.0.dev2021092207
+keras-nightly==2.7.0.dev2021092307
 Keras-Preprocessing==1.1.2
 keyring==23.2.1
 kiwisolver==1.3.2
@@ -317,7 +317,7 @@ sphinxcontrib-htmlhelp==2.0.0
 sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.5
-SQLAlchemy==1.4.24
+SQLAlchemy==1.4.25
 SQLAlchemy-JSONField==1.0.0
 SQLAlchemy-Utils==0.37.8
 sqlparse==0.4.2
@@ -335,7 +335,7 @@ tensorflow-estimator==2.6.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.1
-tf-estimator-nightly==2.7.0.dev2021092208
+tf-estimator-nightly==2.7.0.dev2021092308
 threadpoolctl==2.2.0
 tldextract==3.1.2
 toml==0.10.2
