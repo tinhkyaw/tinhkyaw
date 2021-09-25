@@ -29,8 +29,8 @@ black==21.9b0
 bleach==4.1.0
 blinker==1.4
 borb==2.0.10
-boto3==1.18.47
-botocore==1.21.47
+boto3==1.18.48
+botocore==1.21.48
 bottle==0.12.19
 Brotli==1.0.9
 bs4==0.0.1
@@ -276,7 +276,7 @@ pyzmq==22.3.0
 qrcode==7.3
 QScintilla==2.13.0
 readme-renderer==29.0
-regex==2021.8.28
+regex==2021.9.24
 requests==2.26.0
 requests-file==1.5.1
 requests-html==0.10.0
