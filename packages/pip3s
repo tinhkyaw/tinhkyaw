@@ -2,14 +2,14 @@ absl-py==0.14.0
 alabaster==0.7.12
 alembic==1.7.3
 amqp==5.0.6
-anyio==3.3.1
+anyio==3.3.2
 apache-airflow==2.1.4
 apache-airflow-providers-amazon==2.2.0
 apache-airflow-providers-ftp==2.0.1
 apache-airflow-providers-http==2.0.1
 apache-airflow-providers-imap==2.0.1
 apache-airflow-providers-sqlite==2.0.1
-apispec==5.1.0
+apispec==5.1.1
 appdirs==1.4.4
 argcomplete==1.12.3
 asgiref==3.4.1
@@ -72,7 +72,7 @@ Django==3.2.7
 django-environ==0.7.0
 django-extensions==3.1.3
 dnspython==2.1.0
-doc8==0.9.0
+doc8==0.9.1
 docker==5.0.2
 docopt==0.6.2
 docsend==0.2.0
@@ -85,7 +85,7 @@ et-xmlfile==1.1.0
 executing==0.8.1
 fake-useragent==0.1.11
 fett==0.3.2
-filelock==3.0.12
+filelock==3.1.0
 first==2.0.2
 Flask==2.0.1
 Flask-AppBuilder==3.3.3
@@ -109,7 +109,7 @@ geventhttpclient==1.5.1
 gitdb==4.0.7
 gitdb2==4.0.2
 GitPython==3.1.24
-google-auth==2.1.0
+google-auth==2.2.0
 google-auth-oauthlib==0.4.6
 google-pasta==0.2.0
 graphtage==0.2.5
@@ -149,7 +149,7 @@ jsonpath-ng==1.5.3
 jsonschema==3.2.0
 keras==2.6.0
 Keras-Applications==1.0.8
-keras-nightly==2.7.0.dev2021092407
+keras-nightly==2.7.0.dev2021092707
 Keras-Preprocessing==1.1.2
 keyring==23.2.1
 kiwisolver==1.3.2
@@ -206,7 +206,7 @@ pip-tools==6.3.0
 pipdeptree==2.1.0
 pipfile==0.0.2
 pkginfo==1.7.1
-platformdirs==2.3.0
+platformdirs==2.4.0
 pluggy==1.0.0
 ply==3.11
 prison==0.2.1
@@ -335,7 +335,7 @@ tensorflow-estimator==2.6.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.1
-tf-estimator-nightly==2.7.0.dev2021092408
+tf-estimator-nightly==2.8.0.dev2021092708
 threadpoolctl==2.2.0
 tldextract==3.1.2
 toml==0.10.2
