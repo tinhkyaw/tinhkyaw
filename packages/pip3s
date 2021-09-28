@@ -29,8 +29,8 @@ black==21.9b0
 bleach==4.1.0
 blinker==1.4
 borb==2.0.10
-boto3==1.18.48
-botocore==1.21.48
+boto3==1.18.49
+botocore==1.21.49
 bottle==0.12.19
 Brotli==1.0.9
 bs4==0.0.1
@@ -63,7 +63,7 @@ cycler==0.10.0
 Cython==0.29.24
 dask==2021.9.1
 dataclasses-json==0.5.6
-ddt==1.4.2
+ddt==1.4.3
 decorator==5.1.0
 defusedxml==0.7.1
 dill==0.3.4
@@ -115,7 +115,7 @@ google-pasta==0.2.0
 graphtage==0.2.5
 graphviz==0.17
 greenlet==1.1.1
-grpcio==1.40.0
+grpcio==1.41.0
 gunicorn==20.1.0
 h11==0.12.0
 h2==4.0.0
