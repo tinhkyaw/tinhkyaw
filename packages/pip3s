@@ -35,7 +35,7 @@ bottle==0.12.19
 Brotli==1.0.9
 bs4==0.0.1
 cached-property==1.5.2
-cachetools==4.2.2
+cachetools==4.2.4
 cattrs==1.8.0
 celery==5.1.2
 cement==3.0.4
@@ -57,7 +57,7 @@ commonmark==0.9.1
 ConfigArgParse==1.5.2
 connexion==2.9.0
 croniter==1.0.15
-cryptography==3.4.8
+cryptography==35.0.0
 cssselect==1.1.0
 cycler==0.10.0
 Cython==0.29.24
@@ -85,7 +85,7 @@ et-xmlfile==1.1.0
 executing==0.8.1
 fake-useragent==0.1.11
 fett==0.3.2
-filelock==3.1.0
+filelock==3.2.0
 first==2.0.2
 Flask==2.0.1
 Flask-AppBuilder==3.3.3
@@ -146,10 +146,10 @@ joblib==1.0.1
 js-regex==1.0.1
 json5==0.9.6
 jsonpath-ng==1.5.3
-jsonschema==3.2.0
+jsonschema==4.0.1
 keras==2.6.0
 Keras-Applications==1.0.8
-keras-nightly==2.7.0.dev2021092907
+keras-nightly==2.7.0.dev2021093007
 Keras-Preprocessing==1.1.2
 keyring==23.2.1
 kiwisolver==1.3.2
@@ -276,7 +276,7 @@ PyYAML==5.4.1
 pyzmq==22.3.0
 qrcode==7.3
 QScintilla==2.13.0
-readme-renderer==29.0
+readme-renderer==30.0
 regex==2021.9.24
 requests==2.26.0
 requests-file==1.5.1
@@ -336,7 +336,7 @@ tensorflow-estimator==2.6.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.1
-tf-estimator-nightly==2.8.0.dev2021092908
+tf-estimator-nightly==2.8.0.dev2021093008
 threadpoolctl==2.2.0
 tldextract==3.1.2
 toml==0.10.2
