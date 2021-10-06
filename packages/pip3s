@@ -338,7 +338,7 @@ tensorflow-estimator==2.6.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.1
-tf-estimator-nightly==2.8.0.dev2021100408
+tf-estimator-nightly==2.8.0.dev2021100508
 threadpoolctl==3.0.0
 tldextract==3.1.2
 toml==0.10.2
@@ -367,9 +367,9 @@ wcwidth==0.2.5
 webencodings==0.5.1
 websocket-client==1.2.1
 websockets==10.0
-Werkzeug==2.0.1
+Werkzeug==2.0.2
 whichcraft==0.6.1
-wrapt==1.12.1
+wrapt==1.13.1
 WTForms==2.3.3
 yolk==0.4.3
 zipp==3.6.0
