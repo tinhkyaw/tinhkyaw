@@ -52,7 +52,7 @@ click-repl==0.2.0
 clickclick==20.10.2
 cloudpickle==2.0.0
 colorama==0.4.4
-colorlog==6.4.1
+colorlog==6.5.0
 commonmark==0.9.1
 ConfigArgParse==1.5.3
 configparser==5.0.2
@@ -147,14 +147,14 @@ jedi==0.18.0
 Jinja2==3.0.2
 jinja2-pluralize==0.3.0
 jmespath==0.10.0
-joblib==1.0.1
+joblib==1.1.0
 js-regex==1.0.1
 json5==0.9.6
 jsonpath-ng==1.5.3
 jsonschema==4.0.1
 keras==2.6.0
 Keras-Applications==1.0.8
-keras-nightly==2.7.0.dev2021100607
+keras-nightly==2.8.0.dev2021100707
 Keras-Preprocessing==1.1.2
 keyring==23.2.1
 kiwisolver==1.3.2
@@ -184,7 +184,7 @@ mxnet==1.8.0.post0
 mypy-extensions==0.4.3
 natsort==7.1.1
 networkx==2.6.3
-nltk==3.6.4
+nltk==3.6.3
 nose==1.3.7
 numpy==1.21.2
 oauthlib==3.1.1
@@ -345,7 +345,7 @@ tensorflow-estimator==2.6.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.1
-tf-estimator-nightly==2.8.0.dev2021100608
+tf-estimator-nightly==2.8.0.dev2021100708
 threadpoolctl==3.0.0
 tldextract==3.1.2
 toml==0.10.2
