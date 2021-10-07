@@ -1,22 +1,21 @@
 Asciidoc Editor
 Avroclipse
-AWS Toolkit
+AWS Toolkit (-RDS)
 Buildship Gradle Integration
 Checkstyle
 Cucumber
-Dart Plugin
+-Dart Plugin
 EclEmma
 Eclipse Corrosion
 Eclipse Docker Tooling
 Eclipse TeXlipse
-Eclipse Thym (Cordova)
 eclipse-pmd
 Enhanced Class Decompiler
 Google Cloud Tools
 JDeodorant
 JGrasp  https://www.jgrasp.org/eclipse_plugin
 Json Editor
-Kotlin
+-Kotlin
 Kubernetes Manifest Editor
 macOS Eclipse Launcher
 pmd-eclipse-plugin
