@@ -80,7 +80,7 @@ docopt==0.6.2
 docsend==0.2.0
 docutils==0.17.1
 dparse==0.5.1
-editdistance==0.5.3
+editdistance==0.6.0
 email-validator==1.1.3
 entrypoints==0.3
 et-xmlfile==1.1.0
@@ -151,10 +151,10 @@ joblib==1.1.0
 js-regex==1.0.1
 json5==0.9.6
 jsonpath-ng==1.5.3
-jsonschema==4.0.1
+jsonschema==4.1.0
 keras==2.6.0
 Keras-Applications==1.0.8
-keras-nightly==2.8.0.dev2021100807
+keras-nightly==2.8.0.dev2021100907
 Keras-Preprocessing==1.1.2
 keyring==23.2.1
 kiwisolver==1.3.2
@@ -196,7 +196,7 @@ ordereddict==1.1
 oyaml==1.0
 packaging==21.0
 pandas==1.3.3
-paramiko==2.7.2
+paramiko==2.8.0
 parse==1.19.0
 parso==0.8.2
 partd==1.2.0
@@ -328,7 +328,7 @@ sphinxcontrib-serializinghtml==1.1.5
 SQLAlchemy==1.4.25
 SQLAlchemy-JSONField==1.0.0
 SQLAlchemy-Utils==0.37.8
-sqlfluff==0.6.8
+sqlfluff==0.6.9
 sqlparse==0.4.2
 stevedore==3.4.0
 stringcase==1.2.0
@@ -345,7 +345,7 @@ tensorflow-estimator==2.6.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.1
-tf-estimator-nightly==2.8.0.dev2021100808
+tf-estimator-nightly==2.8.0.dev2021100908
 threadpoolctl==3.0.0
 tldextract==3.1.2
 toml==0.10.2
