@@ -1,6 +1,1 @@
-{
-    "files.watcherExclude": {
-        "**/target": true
-    },
-    "makefile.extensionOutputFolder": "./.vscode"
-}
+{}

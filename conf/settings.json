@@ -39,6 +39,7 @@
     "gitlens.views.lineHistory.enabled": true,
     "go.toolsManagement.autoUpdate": true,
     "kite.showWelcomeNotificationOnStartup": false,
+    "makefile.extensionOutputFolder": "${env:HOME}/.vscode",
     "markdownlint.customRules": [
         "{docsmsft.docs-linting}/markdownlint-custom-rules/rules.js"
     ],
@@ -88,5 +89,6 @@
     },
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook"
-    }
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools"
 }
