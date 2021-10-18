@@ -39,7 +39,7 @@
     "gitlens.views.lineHistory.enabled": true,
     "go.toolsManagement.autoUpdate": true,
     "kite.showWelcomeNotificationOnStartup": false,
-    "makefile.extensionOutputFolder": "${env:HOME}/.vscode",
+    "makefile.extensionOutputFolder": "./.vscode",
     "markdownlint.customRules": [
         "{docsmsft.docs-linting}/markdownlint-custom-rules/rules.js"
     ],
