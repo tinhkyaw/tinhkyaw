@@ -1,4 +1,4 @@
-absl-py==0.14.1
+absl-py==0.15.0
 alabaster==0.7.12
 alembic==1.7.4
 amqp==5.0.6
@@ -29,8 +29,8 @@ black==21.9b0
 bleach==4.1.0
 blinker==1.4
 borb==2.0.12
-boto3==1.18.64
-botocore==1.21.64
+boto3==1.18.65
+botocore==1.21.65
 bottle==0.12.19
 Brotli==1.0.9
 bs4==0.0.1
@@ -151,7 +151,7 @@ joblib==1.1.0
 js-regex==1.0.1
 json5==0.9.6
 jsonpath-ng==1.5.3
-jsonschema==4.1.0
+jsonschema==4.1.1
 keras==2.6.0
 Keras-Applications==1.0.8
 keras-nightly==2.8.0.dev2021101907
@@ -236,7 +236,7 @@ pyflakes==2.4.0
 Pygments==2.10.0
 PyGObject==3.42.0
 PyJWT==2.3.0
-pymongo==3.12.0
+pymongo==3.12.1
 PyNaCl==1.4.0
 pyparsing==2.4.7
 pyppeteer==0.2.6
@@ -327,7 +327,7 @@ sphinxcontrib-htmlhelp==2.0.0
 sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.5
-SQLAlchemy==1.4.25
+SQLAlchemy==1.4.26
 SQLAlchemy-JSONField==1.0.0
 SQLAlchemy-Utils==0.37.9
 sqlfluff==0.7.0
