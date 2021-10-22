@@ -29,8 +29,8 @@ black==21.9b0
 bleach==4.1.0
 blinker==1.4
 borb==2.0.12
-boto3==1.19.0
-botocore==1.22.0
+boto3==1.19.1
+botocore==1.22.1
 bottle==0.12.19
 Brotli==1.0.9
 bs4==0.0.1
@@ -154,7 +154,7 @@ jsonpath-ng==1.5.3
 jsonschema==4.1.2
 keras==2.6.0
 Keras-Applications==1.0.8
-keras-nightly==2.8.0.dev2021102107
+keras-nightly==2.8.0.dev2021102207
 Keras-Preprocessing==1.1.2
 keyring==23.2.1
 kiwisolver==1.3.2
@@ -216,7 +216,7 @@ platformdirs==2.4.0
 pluggy==1.0.0
 ply==3.11
 prison==0.2.1
-prompt-toolkit==3.0.20
+prompt-toolkit==3.0.21
 protobuf==3.19.0
 pss==1.43
 psutil==5.8.0
@@ -330,7 +330,7 @@ sphinxcontrib-serializinghtml==1.1.5
 SQLAlchemy==1.4.26
 SQLAlchemy-JSONField==1.0.0
 SQLAlchemy-Utils==0.37.9
-sqlfluff==0.7.0
+sqlfluff==0.7.1
 sqlparse==0.4.2
 stevedore==3.5.0
 stringcase==1.2.0
@@ -347,7 +347,7 @@ tensorflow-estimator==2.6.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.1
-tf-estimator-nightly==2.8.0.dev2021102108
+tf-estimator-nightly==2.8.0.dev2021102208
 threadpoolctl==3.0.0
 tldextract==3.1.2
 toml==0.10.2
