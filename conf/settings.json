@@ -75,20 +75,21 @@
     "telemetry.enableCrashReporter": false,
     "terminal.integrated.fontFamily": "'Hack Nerd Font'",
     "terminal.integrated.fontSize": 14,
+    "vscode-edge-devtools.mirrorEdits": true,
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "workbench.colorTheme": "Solarized Dark",
-    "workbench.editor.enablePreview": false,
-    "yaml.schemaStore.enable": false,
-    "yaml.schemas": {
-        "file:///toc.schema.json": "/toc\\.yml/i"
-    },
     "vs-kubernetes": {
         "vs-kubernetes.helm-path.mac": "${env:HOME}/.vs-kubernetes/tools/helm/darwin-amd64/helm",
         "vs-kubernetes.draft-path.mac": "${env:HOME}/tin/.vs-kubernetes/tools/draft/darwin-amd64/draft",
         "vscode-kubernetes.minikube-path.mac": "/Users/tin/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
     },
+    "workbench.colorTheme": "Solarized Dark",
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook"
+    },
+    "workbench.editor.enablePreview": false,
+    "yaml.schemaStore.enable": false,
+    "yaml.schemas": {
+        "file:///toc.schema.json": "/toc\\.yml/i"
     },
     "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools"
 }
