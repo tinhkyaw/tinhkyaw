@@ -222,7 +222,7 @@ pss==1.43
 psutil==5.8.0
 psycopg2==2.9.1
 ptyprocess==0.7.0
-py==1.10.0
+py==1.11.0
 py4j==0.10.9.2
 pyarrow==6.0.0
 pyasn1==0.4.8
