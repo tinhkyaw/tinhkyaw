@@ -29,8 +29,8 @@ black==21.10b0
 bleach==4.1.0
 blinker==1.4
 borb==2.0.13
-boto3==1.19.9
-botocore==1.22.9
+boto3==1.19.10
+botocore==1.22.10
 bottle==0.12.19
 Brotli==1.0.9
 bs4==0.0.1
@@ -151,7 +151,7 @@ joblib==1.1.0
 js-regex==1.0.1
 json5==0.9.6
 jsonpath-ng==1.5.3
-jsonschema==4.1.2
+jsonschema==4.2.0
 keras==2.7.0
 Keras-Applications==1.0.8
 keras-nightly==2.8.0.dev2021110307
