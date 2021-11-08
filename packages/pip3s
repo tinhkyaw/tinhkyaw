@@ -101,7 +101,7 @@ Flask-OpenID==1.3.0
 Flask-SQLAlchemy==2.5.1
 Flask-WTF==1.0.0
 flatbuffers==2.0
-fonttools==4.28.0
+fonttools==4.28.1
 fsspec==2021.11.0
 ftfy==6.0.3
 future==0.18.2
@@ -154,7 +154,7 @@ jsonpath-ng==1.5.3
 jsonschema==4.2.1
 keras==2.7.0
 Keras-Applications==1.0.8
-keras-nightly==2.8.0.dev2021110707
+keras-nightly==2.8.0.dev2021110808
 Keras-Preprocessing==1.1.2
 keyring==23.2.1
 kiwisolver==1.3.2
@@ -349,7 +349,7 @@ tensorflow-io-gcs-filesystem==0.21.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.2
-tf-estimator-nightly==2.8.0.dev2021110708
+tf-estimator-nightly==2.8.0.dev2021110809
 threadpoolctl==3.0.0
 tldextract==3.1.2
 toml==0.10.2

@@ -22,6 +22,7 @@ googlecloudtools.cloudcode
 hashicorp.terraform
 HookyQR.beautify
 i80and.snooty
+KevinRose.vsc-python-indent
 kiteco.kite
 korekontrol.saltstack
 lextudio.restructuredtext-pack
@@ -73,6 +74,7 @@ ms-vscode.vscode-js-profile-flame
 ms-vscode.vscode-markdown-notebook
 ms-vscode.vscode-marketplace-extension-browser
 ms-vscode.vscode-typescript-tslint-plugin
+njpwerner.autodocstring
 oderwat.indent-rainbow
 OpenPAIVSCodeClient.pai-vscode
 prettier.prettier-vscode
