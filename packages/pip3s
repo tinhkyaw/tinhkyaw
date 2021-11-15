@@ -3,7 +3,7 @@ alabaster==0.7.12
 alembic==1.7.5
 amqp==5.0.6
 anyio==3.3.4
-apache-airflow==2.2.1
+apache-airflow==2.2.2
 apache-airflow-providers-amazon==2.4.0
 apache-airflow-providers-ftp==2.0.1
 apache-airflow-providers-http==2.0.1
@@ -117,7 +117,7 @@ google-auth==2.3.3
 google-auth-oauthlib==0.4.6
 google-pasta==0.2.0
 graphtage==0.2.5
-graphviz==0.18.1
+graphviz==0.18.2
 greenlet==1.1.2
 grpcio==1.41.1
 gunicorn==20.1.0
