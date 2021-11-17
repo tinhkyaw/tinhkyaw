@@ -26,7 +26,7 @@ bandit==1.7.1
 bcrypt==3.2.0
 beautifulsoup4==4.10.0
 billiard==3.6.4.0
-black==21.10b0
+black==21.11b0
 bleach==4.1.0
 blinker==1.4
 borb==2.0.14
@@ -144,7 +144,7 @@ ipython-genutils==0.2.0
 iso8601==1.0.0
 isodate==0.6.0
 itsdangerous==2.0.1
-jedi==0.18.0
+jedi==0.18.1
 Jinja2==3.0.3
 jinja2-pluralize==0.3.0
 jmespath==0.10.0
