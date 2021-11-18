@@ -26,12 +26,12 @@ bandit==1.7.1
 bcrypt==3.2.0
 beautifulsoup4==4.10.0
 billiard==3.6.4.0
-black==21.11b0
+black==21.11b1
 bleach==4.1.0
 blinker==1.4
 borb==2.0.15
 boto3==1.20.8
-botocore==1.23.8
+botocore==1.23.9
 bottle==0.12.19
 Brotli==1.0.9
 bs4==0.0.1
@@ -155,7 +155,7 @@ jsonpath-ng==1.5.3
 jsonschema==4.2.1
 keras==2.7.0
 Keras-Applications==1.0.8
-keras-nightly==2.8.0.dev2021111708
+keras-nightly==2.8.0.dev2021111808
 Keras-Preprocessing==1.1.2
 keyring==23.2.1
 kiwisolver==1.3.2
@@ -196,7 +196,7 @@ openpyxl==3.0.9
 opt-einsum==3.3.0
 ordereddict==1.1
 oyaml==1.0
-packaging==21.2
+packaging==21.3
 pandas==1.3.4
 paramiko==2.8.0
 parse==1.19.0
@@ -204,7 +204,7 @@ parso==0.8.2
 partd==1.2.0
 pathspec==0.9.0
 pathtools==0.1.2
-pbr==5.7.0
+pbr==5.8.0
 pendulum==2.1.2
 pep517==0.12.0
 pexpect==4.8.0
@@ -226,7 +226,7 @@ psycopg2==2.9.2
 ptyprocess==0.7.0
 py==1.11.0
 py4j==0.10.9.2
-pyarrow==6.0.0
+pyarrow==6.0.1
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pybind11==2.8.1
@@ -354,7 +354,7 @@ tensorflow-io-gcs-filesystem==0.22.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.2
-tf-estimator-nightly==2.8.0.dev2021111709
+tf-estimator-nightly==2.8.0.dev2021111809
 threadpoolctl==3.0.0
 tldextract==3.1.2
 toml==0.10.2
