@@ -213,7 +213,7 @@ Pillow==8.4.0
 pip-tools==6.4.0
 pipdeptree==2.2.0
 pipfile==0.0.2
-pkginfo==1.7.1
+pkginfo==1.8.0
 platformdirs==2.4.0
 pluggy==1.0.0
 ply==3.11
