@@ -287,7 +287,7 @@ pyzmq==22.3.0
 qrcode==7.3.1
 QScintilla==2.13.1
 readme-renderer==30.0
-redshift-connector==2.0.889
+redshift-connector==2.0.900
 regex==2021.11.10
 requests==2.26.0
 requests-file==1.5.1
