@@ -30,8 +30,8 @@ black==21.11b1
 bleach==4.1.0
 blinker==1.4
 borb==2.0.15
-boto3==1.20.8
-botocore==1.23.9
+boto3==1.20.10
+botocore==1.23.10
 bottle==0.12.19
 Brotli==1.0.9
 bs4==0.0.1
@@ -63,7 +63,7 @@ cryptography==35.0.0
 cssselect==1.1.0
 cycler==0.11.0
 Cython==0.29.24
-dask==2021.11.1
+dask==2021.11.2
 dataclasses-json==0.5.6
 ddt==1.4.4
 decorator==5.1.0
