@@ -30,8 +30,8 @@ black==21.11b1
 bleach==4.1.0
 blinker==1.4
 borb==2.0.15
-boto3==1.20.11
-botocore==1.23.11
+boto3==1.20.12
+botocore==1.23.12
 bottle==0.12.19
 Brotli==1.0.9
 bs4==0.0.1
@@ -79,7 +79,7 @@ doc8==0.10.1
 docker==5.0.3
 docopt==0.6.2
 docsend==0.2.0
-docutils==0.18
+docutils==0.18.1
 dparse==0.5.1
 editdistance==0.6.0
 email-validator==1.1.3
@@ -141,7 +141,7 @@ iniconfig==1.1.1
 intervaltree==3.1.0
 invoke==1.6.0
 ipython-genutils==0.2.0
-iso8601==1.0.1
+iso8601==1.0.2
 isodate==0.6.0
 itsdangerous==2.0.1
 jedi==0.18.1
@@ -155,14 +155,14 @@ jsonpath-ng==1.5.3
 jsonschema==4.2.1
 keras==2.7.0
 Keras-Applications==1.0.8
-keras-nightly==2.8.0.dev2021112208
+keras-nightly==2.8.0.dev2021112308
 Keras-Preprocessing==1.1.2
 keyring==23.2.1
 kiwisolver==1.3.2
 kombu==5.2.2
 lazy-object-proxy==1.6.0
 libclang==12.0.0
-libcst==0.3.22
+libcst==0.3.23
 locket==0.2.1
 lockfile==0.12.2
 locust==2.5.0
@@ -176,7 +176,7 @@ marshmallow-oneofschema==3.0.1
 marshmallow-sqlalchemy==0.26.1
 matplotlib==3.5.0
 memory-profiler==0.58.0
-mercurial==5.9.3
+mercurial==6.0
 mistune==0.8.4
 monotonic==1.6
 more-itertools==8.11.0
@@ -358,7 +358,7 @@ tensorflow-io-gcs-filesystem==0.22.0
 termcolor==1.1.0
 text-unidecode==1.3
 textdistance==4.2.2
-tf-estimator-nightly==2.8.0.dev2021112209
+tf-estimator-nightly==2.8.0.dev2021112309
 threadpoolctl==3.0.0
 tldextract==3.1.2
 toml==0.10.2
