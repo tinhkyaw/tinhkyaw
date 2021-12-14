@@ -166,7 +166,7 @@ libcst==0.3.23
 locket==0.2.1
 lockfile==0.12.2
 locust==2.5.1
-lxml==4.6.5
+lxml==4.7.1
 Mako==1.1.6
 Markdown==3.3.6
 MarkupSafe==2.0.1
