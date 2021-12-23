@@ -270,7 +270,7 @@ PyQtPurchasing-Qt5==5.15.2
 PyQtWebEngine==5.15.5
 PyQtWebEngine-Qt5==5.15.2
 pyquery==1.4.3
-pyre-check==0.9.8
+pyre-check==0.9.9
 pyre-extensions==0.0.27
 pyrsistent==0.18.0
 pyspark==3.2.0
@@ -336,7 +336,7 @@ sphinxcontrib-htmlhelp==2.0.0
 sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.5
-SQLAlchemy==1.4.28
+SQLAlchemy==1.4.29
 SQLAlchemy-JSONField==1.0.0
 sqlalchemy-redshift==0.8.9
 SQLAlchemy-Utils==0.38.1
@@ -356,6 +356,7 @@ tensorflow==2.7.0
 tensorflow-estimator==2.7.0
 tensorflow-io-gcs-filesystem==0.23.1
 termcolor==1.1.0
+TestSlide==2.7.0
 text-unidecode==1.3
 textdistance==4.2.2
 tf-estimator-nightly==2.9.0.dev2021122209
@@ -370,6 +371,7 @@ tqdm==4.62.3
 traitlets==5.1.1
 twine==3.7.1
 typed-ast==1.5.1
+typeguard==2.13.3
 types-setuptools==57.4.4
 typing-inspect==0.7.1
 typing_extensions==4.0.1
