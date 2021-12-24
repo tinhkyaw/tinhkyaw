@@ -4,7 +4,7 @@ AWS Toolkit (-RDS)
 Buildship Gradle Integration
 Checkstyle
 Cucumber
--Dart Plugin
+Dart Plugin
 EclEmma
 Eclipse Corrosion
 Eclipse Docker Tooling
@@ -15,7 +15,7 @@ Google Cloud Tools
 JDeodorant
 JGrasp  https://www.jgrasp.org/eclipse_plugin
 Json Editor
--Kotlin
+Kotlin
 Kubernetes Manifest Editor
 macOS Eclipse Launcher
 pmd-eclipse-plugin
@@ -27,5 +27,4 @@ ShellWax
 SonarLint
 SpotBugs
 SQl Editor
-Wild Web Developer
 Yaml Editor
