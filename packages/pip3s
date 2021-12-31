@@ -395,6 +395,6 @@ whichcraft==0.6.1
 wrapt==1.13.3
 WTForms==3.0.1
 yolk==0.4.3
-zipp==3.6.0
+zipp==3.7.0
 zope.event==4.5.0
 zope.interface==5.4.0
