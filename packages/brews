@@ -42,6 +42,7 @@ findutils
 fish
 flake8
 fpc
+fx
 gawk
 gcc
 geoip
