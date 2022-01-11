@@ -241,7 +241,7 @@ PyJWT==2.3.0
 pymongo==4.0.1
 PyNaCl==1.5.0
 pyparsing==3.0.6
-pyppeteer==1.0.0
+pyppeteer==1.0.1
 PyQt3D==5.15.5
 PyQt3D-Qt5==5.15.2
 PyQt5==5.15.6
@@ -324,7 +324,7 @@ six==1.16.0
 smart-open==5.2.1
 smmap==5.0.0
 sniffio==1.2.0
-snooty-lextudio==1.11.5
+snooty-lextudio==1.11.6
 snowballstemmer==2.2.0
 sortedcontainers==2.4.0
 soupsieve==2.3.1
