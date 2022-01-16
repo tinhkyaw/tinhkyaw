@@ -155,7 +155,7 @@ jsonpath-ng==1.5.3
 jsonschema==4.4.0
 keras==2.7.0
 Keras-Applications==1.0.8
-keras-nightly==2.9.0.dev2022011508
+keras-nightly==2.9.0.dev2022011608
 Keras-Preprocessing==1.1.2
 keyring==23.5.0
 kiwisolver==1.3.2
@@ -328,7 +328,7 @@ snooty-lextudio==1.11.6
 snowballstemmer==2.2.0
 sortedcontainers==2.4.0
 soupsieve==2.3.1
-Sphinx==4.3.2
+Sphinx==4.4.0
 sphinx-rtd-theme==1.0.0
 sphinxcontrib-applehelp==1.0.2
 sphinxcontrib-devhelp==1.0.2
@@ -359,7 +359,7 @@ termcolor==1.1.0
 TestSlide==2.7.0
 text-unidecode==1.3
 textdistance==4.2.2
-tf-estimator-nightly==2.9.0.dev2022011509
+tf-estimator-nightly==2.9.0.dev2022011609
 threadpoolctl==3.0.0
 tldextract==3.1.2
 toml==0.10.2
