@@ -12,7 +12,7 @@ apache-airflow-providers-sqlite==2.0.1
 apispec==5.1.1
 appdirs==1.4.4
 argcomplete==2.0.0
-asgiref==3.4.1
+asgiref==3.5.0
 asn1crypto==1.4.0
 asttokens==2.0.5
 astunparse==1.6.3
@@ -30,8 +30,8 @@ black==21.12b0
 bleach==4.1.0
 blinker==1.4
 borb==2.0.17
-boto3==1.20.40
-botocore==1.23.40
+boto3==1.20.41
+botocore==1.23.41
 bottle==0.12.19
 Brotli==1.0.9
 bs4==0.0.1
@@ -155,7 +155,7 @@ jsonpath-ng==1.5.3
 jsonschema==4.4.0
 keras==2.7.0
 Keras-Applications==1.0.8
-keras-nightly==2.9.0.dev2022012108
+keras-nightly==2.9.0.dev2022012208
 Keras-Preprocessing==1.1.2
 keyring==23.5.0
 kiwisolver==1.3.2
@@ -197,7 +197,7 @@ opt-einsum==3.3.0
 ordereddict==1.1
 oyaml==1.0
 packaging==21.3
-pandas==1.3.5
+pandas==1.4.0
 paramiko==2.9.2
 parse==1.19.0
 parso==0.8.3
@@ -359,7 +359,7 @@ termcolor==1.1.0
 TestSlide==2.7.0
 text-unidecode==1.3
 textdistance==4.2.2
-tf-estimator-nightly==2.9.0.dev2022012109
+tf-estimator-nightly==2.9.0.dev2022012209
 threadpoolctl==3.0.0
 tldextract==3.1.2
 toml==0.10.2
