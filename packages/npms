@@ -8,5 +8,6 @@ jshint
 npm-check-updates
 npm-check
 npm
+playwright
 pm2
 typescript
