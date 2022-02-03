@@ -30,8 +30,8 @@ black==22.1.0
 bleach==4.1.0
 blinker==1.4
 borb==2.0.18
-boto3==1.20.47
-botocore==1.23.47
+boto3==1.20.48
+botocore==1.23.48
 bottle==0.12.19
 Brotli==1.0.9
 bs4==0.0.1
@@ -165,7 +165,7 @@ libclang==13.0.0
 libcst==0.4.1
 locket==0.2.1
 lockfile==0.12.2
-locust==2.7.1
+locust==2.7.2
 lxml==4.7.1
 Mako==1.1.6
 Markdown==3.3.6
