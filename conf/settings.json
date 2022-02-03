@@ -71,6 +71,7 @@
     "python.pythonPath": "/usr/local/bin/python3",
     "redhat.telemetry.enabled": false,
     "restructuredtext.confPath": "",
+    "rust-client.disableRustup": true,
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
     "terminal.integrated.fontFamily": "'Hack Nerd Font'",
