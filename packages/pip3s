@@ -127,7 +127,7 @@ h5py==3.6.0
 hpack==4.0.0
 hstspreload==2021.12.1
 html5lib==1.1
-httpcore==0.14.6
+httpcore==0.14.7
 httpx==0.22.0
 hyperframe==6.0.1
 icecream==2.1.1
@@ -155,7 +155,7 @@ jsonpath-ng==1.5.3
 jsonschema==4.4.0
 keras==2.8.0
 Keras-Applications==1.0.8
-keras-nightly==2.9.0.dev2022020308
+keras-nightly==2.9.0.dev2022020408
 Keras-Preprocessing==1.1.2
 keyring==23.5.0
 kiwisolver==1.3.2
@@ -188,7 +188,7 @@ natsort==8.1.0
 networkx==2.6.3
 nltk==3.6.7
 nose==1.3.7
-numpy==1.22.1
+numpy==1.22.2
 oauthlib==3.2.0
 openapi-schema-validator==0.2.3
 openapi-spec-validator==0.4.0
@@ -210,7 +210,7 @@ pep517==0.12.0
 pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==9.0.1
-pip-tools==6.4.0
+pip-tools==6.5.0
 pipdeptree==2.2.1
 pipfile==0.0.2
 pkginfo==1.8.2
@@ -226,7 +226,7 @@ psycopg2==2.9.3
 ptyprocess==0.7.0
 py==1.11.0
 py4j==0.10.9.3
-pyarrow==6.0.1
+pyarrow==7.0.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pybind11==2.9.1
@@ -274,7 +274,7 @@ pyre-check==0.9.10
 pyre-extensions==0.0.27
 pyrsistent==0.18.1
 pyspark==3.2.1
-pytest==6.2.5
+pytest==7.0.0
 python-barcode==0.13.1
 python-daemon==2.3.0
 python-dateutil==2.8.2
@@ -359,7 +359,7 @@ termcolor==1.1.0
 TestSlide==2.7.0
 text-unidecode==1.3
 textdistance==4.2.2
-tf-estimator-nightly==2.9.0.dev2022020309
+tf-estimator-nightly==2.9.0.dev2022020409
 threadpoolctl==3.1.0
 tldextract==3.1.2
 toml==0.10.2
