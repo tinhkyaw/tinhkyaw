@@ -104,7 +104,7 @@ Flask-WTF==1.0.0
 flatbuffers==2.0
 fonttools==4.29.1
 fsspec==2022.1.0
-ftfy==6.0.3
+ftfy==6.1.0.post1
 future==0.18.2
 gast==0.5.3
 gensim==4.1.2
