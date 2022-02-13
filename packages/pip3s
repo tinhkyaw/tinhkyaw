@@ -43,8 +43,8 @@ cement==3.0.6
 certifi==2021.10.8
 cffi==1.15.0
 chardet==4.0.0
-charset-normalizer==2.0.11
-clang==11.0
+charset-normalizer==2.0.12
+clang==14.0
 click==8.0.3
 click-completion==0.5.2
 click-didyoumean==0.3.0
@@ -155,7 +155,7 @@ jsonpath-ng==1.5.3
 jsonschema==4.4.0
 keras==2.8.0
 Keras-Applications==1.0.8
-keras-nightly==2.9.0.dev2022021108
+keras-nightly==2.9.0.dev2022021308
 Keras-Preprocessing==1.1.2
 keyring==23.5.0
 kiwisolver==1.3.2
@@ -165,7 +165,7 @@ libclang==13.0.0
 libcst==0.4.1
 locket==0.2.1
 lockfile==0.12.2
-locust==2.7.3
+locust==2.8.0
 lxml==4.7.1
 Mako==1.1.6
 Markdown==3.3.6
@@ -197,7 +197,7 @@ opt-einsum==3.3.0
 ordereddict==1.1
 oyaml==1.0
 packaging==21.3
-pandas==1.4.0
+pandas==1.4.1
 paramiko==2.9.2
 parse==1.19.0
 parso==0.8.3
@@ -359,7 +359,7 @@ termcolor==1.1.0
 TestSlide==2.7.0
 text-unidecode==1.3
 textdistance==4.2.2
-tf-estimator-nightly==2.9.0.dev2022021109
+tf-estimator-nightly==2.9.0.dev2022021309
 threadpoolctl==3.1.0
 tldextract==3.1.2
 toml==0.10.2
@@ -374,7 +374,7 @@ typed-ast==1.5.2
 typeguard==2.13.3
 types-setuptools==57.4.9
 typing-inspect==0.7.1
-typing_extensions==4.0.1
+typing_extensions==4.1.0
 ujson==5.1.0
 unicodecsv==0.14.1
 Unidecode==1.3.2
