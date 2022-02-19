@@ -29,7 +29,7 @@ billiard==3.6.4.0
 black==22.1.0
 bleach==4.1.0
 blinker==1.4
-borb==2.0.18
+borb==2.0.19
 boto3==1.21.3
 botocore==1.24.3
 bottle==0.12.19
@@ -155,7 +155,7 @@ jsonpath-ng==1.5.3
 jsonschema==4.4.0
 keras==2.8.0
 Keras-Applications==1.0.8
-keras-nightly==2.9.0.dev2022021808
+keras-nightly==2.9.0.dev2022021908
 Keras-Preprocessing==1.1.2
 keyring==23.5.0
 kiwisolver==1.3.2
@@ -214,7 +214,7 @@ pip-tools==6.5.1
 pipdeptree==2.2.1
 pipfile==0.0.2
 pkginfo==1.8.2
-platformdirs==2.5.0
+platformdirs==2.5.1
 pluggy==1.0.0
 ply==3.11
 prison==0.2.1
@@ -324,7 +324,7 @@ six==1.16.0
 smart-open==5.2.1
 smmap==5.0.0
 sniffio==1.2.0
-snooty-lextudio==1.11.6
+snooty-lextudio==1.12.0
 snowballstemmer==2.2.0
 sortedcontainers==2.4.0
 soupsieve==2.3.1
@@ -359,7 +359,7 @@ termcolor==1.1.0
 TestSlide==2.7.0
 text-unidecode==1.3
 textdistance==4.2.2
-tf-estimator-nightly==2.9.0.dev2022021709
+tf-estimator-nightly==2.9.0.dev2022021909
 threadpoolctl==3.1.0
 tldextract==3.1.2
 toml==0.10.2
@@ -377,7 +377,7 @@ typing-inspect==0.7.1
 typing_extensions==4.1.1
 ujson==5.1.0
 unicodecsv==0.14.1
-Unidecode==1.3.2
+Unidecode==1.3.3
 urllib3==1.26.8
 vine==5.0.0
 virtualenv==20.13.1
