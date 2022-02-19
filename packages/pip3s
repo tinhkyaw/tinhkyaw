@@ -30,8 +30,8 @@ black==22.1.0
 bleach==4.1.0
 blinker==1.4
 borb==2.0.18
-boto3==1.21.2
-botocore==1.24.2
+boto3==1.21.3
+botocore==1.24.3
 bottle==0.12.19
 Brotli==1.0.9
 bs4==0.0.1
@@ -45,7 +45,7 @@ cffi==1.15.0
 chardet==4.0.0
 charset-normalizer==2.0.12
 clang==14.0
-click==8.0.3
+click==8.0.4
 click-completion==0.5.2
 click-didyoumean==0.3.0
 click-plugins==1.1.1
