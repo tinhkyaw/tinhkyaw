@@ -30,8 +30,8 @@ black==22.1.0
 bleach==4.1.0
 blinker==1.4
 borb==2.0.19
-boto3==1.21.5
-botocore==1.24.5
+boto3==1.21.6
+botocore==1.24.6
 bottle==0.12.19
 Brotli==1.0.9
 bs4==0.0.1
@@ -117,7 +117,7 @@ gitdb==4.0.9
 gitdb2==4.0.2
 GitPython==3.1.27
 google-auth==2.6.0
-google-auth-oauthlib==0.4.6
+google-auth-oauthlib==0.5.0
 google-pasta==0.2.0
 graphtage==0.2.5
 graphviz==0.19.1
