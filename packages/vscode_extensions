@@ -1,5 +1,6 @@
 2gua.rainbow-brackets
 adpyke.vscode-sql-formatter
+BotBuilder.bot-framework-adaptive-tools
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
 dbaeumer.jshint
@@ -42,6 +43,7 @@ ms-devlabs.extension-manifest-editor
 ms-dotnettools.csharp
 ms-edgedevtools.network-edge-devtools
 ms-edgedevtools.vscode-edge-devtools
+ms-inkling.ms-inkling
 ms-iot.vscode-ros
 msjsdiag.cordova-tools
 msjsdiag.debugger-for-edge
@@ -88,6 +90,7 @@ tcwalther.cython
 timonwong.shellcheck
 tootone.org-mode
 vsciot-vscode.vscode-arduino
+vsciot-vscode.vscode-dtdl
 vscjava.vscode-java-pack
 waderyan.gitblame
 webfreak.debug
