@@ -73,7 +73,7 @@ Deprecated==1.2.13
 diff-cover==6.4.4
 dill==0.3.4
 distlib==0.3.4
-Django==4.0.2
+Django==4.0.3
 django-environ==0.8.1
 django-extensions==3.1.5
 dnspython==2.2.0
@@ -158,7 +158,7 @@ jsonpath-ng==1.5.3
 jsonschema==4.4.0
 keras==2.8.0
 Keras-Applications==1.0.8
-keras-nightly==2.9.0.dev2022022808
+keras-nightly==2.9.0.dev2022030108
 Keras-Preprocessing==1.1.2
 keyring==23.5.0
 kiwisolver==1.3.2
@@ -179,7 +179,7 @@ marshmallow-oneofschema==3.0.1
 marshmallow-sqlalchemy==0.27.0
 matplotlib==3.5.1
 memory-profiler==0.60.0
-mercurial==6.0.3
+mercurial==6.1
 mistune==2.0.2
 monotonic==1.6
 more-itertools==8.12.0
@@ -362,7 +362,7 @@ termcolor==1.1.0
 TestSlide==2.7.0
 text-unidecode==1.3
 textdistance==4.2.2
-tf-estimator-nightly==2.9.0.dev2022022809
+tf-estimator-nightly==2.9.0.dev2022030109
 threadpoolctl==3.1.0
 tldextract==3.2.0
 toml==0.10.2
