@@ -295,7 +295,7 @@ qrcode==7.3.1
 QScintilla==2.13.1
 readme-renderer==32.0
 redshift-connector==2.0.904
-regex==2022.1.18
+regex==2022.3.2
 requests==2.27.1
 requests-file==1.5.1
 requests-html==0.10.0
