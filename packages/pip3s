@@ -1,7 +1,7 @@
 absl-py==1.0.0
 alabaster==0.7.12
 alembic==1.7.6
-amqp==5.0.9
+amqp==5.1.0
 anyio==3.5.0
 apache-airflow==2.2.4
 apache-airflow-providers-amazon==3.0.0
@@ -29,7 +29,7 @@ billiard==3.6.4.0
 black==22.1.0
 bleach==4.1.0
 blinker==1.4
-borb==2.0.20
+borb==2.0.21
 boto3==1.21.13
 botocore==1.24.13
 bottle==0.12.19
@@ -159,11 +159,11 @@ jsonpath-ng==1.5.3
 jsonschema==4.4.0
 keras==2.8.0
 Keras-Applications==1.0.8
-keras-nightly==2.9.0.dev2022030508
+keras-nightly==2.9.0.dev2022030608
 Keras-Preprocessing==1.1.2
 keyring==23.5.0
 kiwisolver==1.3.2
-kombu==5.2.3
+kombu==5.2.4
 lazy-object-proxy==1.7.1
 libclang==13.0.0
 libcst==0.4.1
@@ -351,7 +351,7 @@ sqlparse==0.4.2
 stevedore==3.5.0
 stringcase==1.2.0
 swagger-ui-bundle==0.0.9
-sympy==1.9
+sympy==1.10
 tabulate==0.8.9
 tblib==1.7.0
 tenacity==8.0.1
@@ -365,7 +365,7 @@ termcolor==1.1.0
 TestSlide==2.7.0
 text-unidecode==1.3
 textdistance==4.2.2
-tf-estimator-nightly==2.9.0.dev2022030509
+tf-estimator-nightly==2.9.0.dev2022030609
 threadpoolctl==3.1.0
 tldextract==3.2.0
 toml==0.10.2
