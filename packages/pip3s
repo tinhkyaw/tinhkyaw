@@ -183,7 +183,7 @@ MarkupSafe==2.1.0
 marshmallow==3.14.1
 marshmallow-enum==1.5.1
 marshmallow-oneofschema==3.0.1
-marshmallow-sqlalchemy==0.27.0
+marshmallow-sqlalchemy==0.28.0
 matplotlib==3.5.1
 memory-profiler==0.60.0
 mercurial==6.1
