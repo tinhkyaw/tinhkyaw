@@ -9,10 +9,10 @@ amqp==5.1.0
 anyio==3.5.0
 apache-airflow==2.2.4
 apache-airflow-providers-amazon==3.0.0
-apache-airflow-providers-ftp==2.0.1
-apache-airflow-providers-http==2.0.3
-apache-airflow-providers-imap==2.2.0
-apache-airflow-providers-sqlite==2.1.0
+apache-airflow-providers-ftp==2.1.0
+apache-airflow-providers-http==2.1.0
+apache-airflow-providers-imap==2.2.1
+apache-airflow-providers-sqlite==2.1.1
 apispec==5.1.1
 appdirs==1.4.4
 argcomplete==2.0.0
