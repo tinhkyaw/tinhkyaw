@@ -5,6 +5,7 @@
     "csharp.suppressDotnetInstallWarning": true,
     "editor.formatOnSave": true,
     "editor.suggestSelection": "first",
+    "esbonio.server.enabled": true,
     "extensions.autoUpdate": true,
     "files.associations": {
         "*.m": "matlab"
