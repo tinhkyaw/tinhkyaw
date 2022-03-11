@@ -1,97 +1,94 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "bazel.buildifierPath": "/usr/local/bin/buildifier",
-    "cmake.configureOnOpen": false,
-    "csharp.suppressDotnetInstallWarning": true,
-    "editor.formatOnSave": true,
-    "editor.suggestSelection": "first",
-    "esbonio.server.enabled": true,
-    "extensions.autoUpdate": true,
-    "files.associations": {
-        "*.m": "matlab"
+  "bazel.buildifierPath": "/usr/local/bin/buildifier",
+  "cmake.configureOnOpen": false,
+  "csharp.suppressDotnetInstallWarning": true,
+  "editor.formatOnSave": true,
+  "editor.suggestSelection": "first",
+  "esbonio.server.enabled": true,
+  "extensions.autoUpdate": true,
+  "files.associations": {
+    "*.m": "matlab"
+  },
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.factorypath": true,
+    "**/.project": true,
+    "**/.settings": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.watcherExclude": {
+    "**/.ammonite": true,
+    "**/.bloop": true,
+    "**/.metals": true,
+    "**/target": true
+  },
+  "git.path": "/usr/local/bin/git",
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true
+  },
+  "gitlens.historyExplorer.enabled": true,
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  "go.toolsManagement.autoUpdate": true,
+  "kite.showWelcomeNotificationOnStartup": false,
+  "makefile.extensionOutputFolder": "./.vscode",
+  "markdownlint.customRules": [
+    "{docsmsft.docs-linting}/markdownlint-custom-rules/rules.js"
+  ],
+  "markdownlint.config": {
+    "MD025": {
+      "front_matter_title": ""
     },
-    "files.exclude": {
-        "**/.classpath": true,
-        "**/.factorypath": true,
-        "**/.project": true,
-        "**/.settings": true
-    },
-    "files.insertFinalNewline": true,
-    "files.trimTrailingWhitespace": true,
-    "files.watcherExclude": {
-        "**/.ammonite": true,
-        "**/.bloop": true,
-        "**/.metals": true,
-        "**/target": true
-    },
-    "git.path": "/usr/local/bin/git",
-    "gitlens.advanced.messages": {
-        "suppressCommitHasNoPreviousCommitWarning": false,
-        "suppressCommitNotFoundWarning": false,
-        "suppressFileNotUnderSourceControlWarning": false,
-        "suppressGitVersionWarning": false,
-        "suppressLineUncommittedWarning": false,
-        "suppressNoRepositoryWarning": false,
-        "suppressResultsExplorerNotice": false,
-        "suppressShowKeyBindingsNotice": true
-    },
-    "gitlens.historyExplorer.enabled": true,
-    "gitlens.views.fileHistory.enabled": true,
-    "gitlens.views.lineHistory.enabled": true,
-    "go.toolsManagement.autoUpdate": true,
-    "kite.showWelcomeNotificationOnStartup": false,
-    "makefile.extensionOutputFolder": "./.vscode",
-    "markdownlint.customRules": [
-        "{docsmsft.docs-linting}/markdownlint-custom-rules/rules.js"
-    ],
-    "markdownlint.config": {
-        "MD025": {
-            "front_matter_title": ""
-        },
-        "MD028": false
-    },
-    "matlab.lintOnSave": false,
-    "metals.javaHome": "/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home",
-    "notebook.cellToolbarLocation": {
-        "default": "right",
-        "jupyter-notebook": "left"
-    },
-    "python.formatting.autopep8Args": [
-        "--global-config",
-        "${workspaceRoot}/setup.cfg"
-    ],
-    "python.languageServer": "Pylance",
-    "python.jediEnabled": false,
-    "python.linting.flake8Enabled": true,
-    "python.linting.flake8Args": [
-        "--config",
-        "${workspaceRoot}/setup.cfg"
-    ],
-    "python.linting.flake8Path": "/usr/local/bin/flake8",
-    "python.linting.pylintEnabled": false,
-    "python.pythonPath": "/usr/local/bin/python3",
-    "redhat.telemetry.enabled": false,
-    "restructuredtext.confPath": "",
-    "rust-client.rustupPath": "/Users/tin/.cargo/bin/rustup",
-    "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
-    "terminal.integrated.fontFamily": "'Hack Nerd Font'",
-    "terminal.integrated.fontSize": 14,
-    "vscode-edge-devtools.mirrorEdits": true,
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "vs-kubernetes": {
-        "vs-kubernetes.helm-path.mac": "${env:HOME}/.vs-kubernetes/tools/helm/darwin-amd64/helm",
-        "vs-kubernetes.draft-path.mac": "${env:HOME}/tin/.vs-kubernetes/tools/draft/darwin-amd64/draft",
-        "vscode-kubernetes.minikube-path.mac": "/Users/tin/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
-    },
-    "workbench.colorTheme": "Solarized Dark",
-    "workbench.editorAssociations": {
-        "*.ipynb": "jupyter-notebook"
-    },
-    "workbench.editor.enablePreview": false,
-    "yaml.schemaStore.enable": false,
-    "yaml.schemas": {
-        "file:///toc.schema.json": "/toc\\.yml/i"
-    },
-    "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools"
+    "MD028": false
+  },
+  "matlab.lintOnSave": false,
+  "metals.javaHome": "/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "python.formatting.autopep8Args": [
+    "--global-config",
+    "${workspaceRoot}/setup.cfg"
+  ],
+  "python.languageServer": "Pylance",
+  "python.jediEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8Args": ["--config", "${workspaceRoot}/setup.cfg"],
+  "python.linting.flake8Path": "/usr/local/bin/flake8",
+  "python.linting.pylintEnabled": false,
+  "python.pythonPath": "/usr/local/bin/python3",
+  "redhat.telemetry.enabled": false,
+  "restructuredtext.confPath": "",
+  "rust-client.rustupPath": "/Users/tin/.cargo/bin/rustup",
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "terminal.integrated.fontFamily": "'Hack Nerd Font'",
+  "terminal.integrated.fontSize": 14,
+  "vscode-edge-devtools.mirrorEdits": true,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "vs-kubernetes": {
+    "vs-kubernetes.helm-path.mac": "${env:HOME}/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+    "vs-kubernetes.draft-path.mac": "${env:HOME}/tin/.vs-kubernetes/tools/draft/darwin-amd64/draft",
+    "vscode-kubernetes.minikube-path.mac": "/Users/tin/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
+  },
+  "workbench.colorTheme": "Solarized Dark",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "workbench.editor.enablePreview": false,
+  "yaml.schemaStore.enable": false,
+  "yaml.schemas": {
+    "file:///toc.schema.json": "/toc\\.yml/i"
+  },
+  "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools"
 }
