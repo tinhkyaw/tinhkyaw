@@ -157,7 +157,7 @@ itsdangerous==2.1.1
 jedi==0.18.1
 Jinja2==3.0.3
 jinja2-pluralize==0.3.0
-jmespath==0.10.0
+jmespath==1.0.0
 joblib==1.1.0
 js-regex==1.0.1
 json5==0.9.6
