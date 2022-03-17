@@ -119,6 +119,7 @@ scala
 scipy
 shellcheck
 simdjson
+smartmontools
 sops
 sphinx-doc
 stow
