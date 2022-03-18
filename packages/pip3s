@@ -123,7 +123,7 @@ geventhttpclient==1.5.3
 gitdb==4.0.9
 gitdb2==4.0.2
 GitPython==3.1.27
-google-auth==2.6.0
+google-auth==2.6.2
 google-auth-oauthlib==0.5.1
 google-pasta==0.2.0
 graphtage==0.2.5
@@ -288,7 +288,7 @@ pyre-extensions==0.0.27
 pyrsistent==0.18.1
 pyspark==3.2.1
 pyspellchecker==0.6.3
-pytest==7.1.0
+pytest==7.1.1
 python-barcode==0.13.1
 python-daemon==2.3.0
 python-dateutil==2.8.2
