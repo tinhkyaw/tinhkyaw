@@ -35,8 +35,8 @@ black==22.1.0
 bleach==4.1.0
 blinker==1.4
 borb==2.0.21
-boto3==1.21.21
-botocore==1.24.21
+boto3==1.21.22
+botocore==1.24.22
 bottle==0.12.19
 Brotli==1.0.9
 bs4==0.0.1
@@ -69,7 +69,7 @@ cryptography==36.0.2
 cssselect==1.1.0
 cycler==0.11.0
 Cython==0.29.28
-dask==2022.2.1
+dask==2022.3.0
 dataclasses-json==0.5.6
 ddt==1.4.4
 decorator==5.1.1
@@ -149,7 +149,7 @@ inflect==5.4.0
 inflection==0.5.1
 iniconfig==1.1.1
 intervaltree==3.1.0
-invoke==1.6.0
+invoke==1.7.0
 ipython-genutils==0.2.0
 iso8601==1.0.2
 isodate==0.6.1
@@ -209,7 +209,7 @@ ordereddict==1.1
 oyaml==1.0
 packaging==21.3
 pandas==1.4.1
-paramiko==2.10.2
+paramiko==2.10.3
 parse==1.19.0
 parso==0.8.3
 partd==1.2.0
@@ -395,7 +395,7 @@ unicodecsv==0.14.1
 Unidecode==1.3.4
 urllib3==1.26.9
 vine==5.0.0
-virtualenv==20.13.3
+virtualenv==20.13.4
 virtualenv-clone==0.5.7
 virtualenvwrapper==4.8.4
 w3lib==1.22.0
