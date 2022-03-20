@@ -91,7 +91,7 @@ dparse==0.5.1
 editdistance==0.6.0
 email-validator==1.1.3
 entrypoints==0.4
-esbonio==0.10.0
+esbonio==0.10.1
 et-xmlfile==1.1.0
 executing==0.8.3
 fake-useragent==0.1.11
@@ -165,7 +165,7 @@ jsonpath-ng==1.5.3
 jsonschema==4.4.0
 keras==2.8.0
 Keras-Applications==1.0.8
-keras-nightly==2.9.0.dev2022031807
+keras-nightly==2.9.0.dev2022032007
 Keras-Preprocessing==1.1.2
 keyring==23.5.0
 kiwisolver==1.4.0
@@ -362,7 +362,7 @@ sqlparse==0.4.2
 stevedore==3.5.0
 stringcase==1.2.0
 swagger-ui-bundle==0.0.9
-sympy==1.10
+sympy==1.10.1
 tabulate==0.8.9
 tblib==1.7.0
 tenacity==8.0.1
@@ -376,7 +376,7 @@ termcolor==1.1.0
 TestSlide==2.7.0
 text-unidecode==1.3
 textdistance==4.2.2
-tf-estimator-nightly==2.9.0.dev2022031908
+tf-estimator-nightly==2.9.0.dev2022032008
 threadpoolctl==3.1.0
 tldextract==3.2.0
 toml==0.10.2
