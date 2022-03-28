@@ -168,7 +168,7 @@ Keras-Applications==1.0.8
 keras-nightly==2.9.0.dev2022032707
 Keras-Preprocessing==1.1.2
 keyring==23.5.0
-kiwisolver==1.4.1
+kiwisolver==1.4.2
 kombu==5.2.4
 lazy-object-proxy==1.7.1
 libclang==13.0.0
