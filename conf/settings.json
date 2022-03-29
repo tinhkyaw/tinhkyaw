@@ -2,8 +2,10 @@
 {
   "bazel.buildifierPath": "/usr/local/bin/buildifier",
   "cmake.configureOnOpen": false,
+  "codespaces.accountProvider": "GitHub",
   "csharp.suppressDotnetInstallWarning": true,
   "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true,
   "editor.suggestSelection": "first",
   "esbonio.server.enabled": true,
   "extensions.autoUpdate": true,
@@ -90,6 +92,5 @@
   "yaml.schemas": {
     "file:///toc.schema.json": "/toc\\.yml/i"
   },
-  "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
-  "editor.inlineSuggest.enabled": true
+  "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools"
 }
