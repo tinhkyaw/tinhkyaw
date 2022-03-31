@@ -26,6 +26,7 @@ cookiecutter
 cromwell
 crush-tools
 csshx
+datasette
 dateutils
 diff-so-fancy
 direnv
@@ -74,7 +75,6 @@ kind
 kops
 kotlin
 kube-ps1
-kubeless
 kubernetes-cli
 leiningen
 libpq

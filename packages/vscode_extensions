@@ -72,6 +72,7 @@ ms-vscode.live-server
 ms-vscode.makefile-tools
 ms-vscode.mock-debug
 ms-vscode.mono-debug
+ms-vscode.remote-repositories
 ms-vscode-remote.vscode-remote-extensionpack
 ms-vscode.test-adapter-converter
 ms-vscode.theme-tester
