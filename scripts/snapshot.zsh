@@ -13,19 +13,25 @@ GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 PKG_DIR="${GIT_ROOT_DIR}/packages"
 brew list --formula > ${SNAPSHOT_DIR}/brew${SUFFIX}.txt
 brew list --cask > ${SNAPSHOT_DIR}/cask${SUFFIX}.txt
-CASK_EXCLUSIONS="\
-asciidocfx\
-|celldesigner\
-|colloquy\
+CASKS_PRESENCE_IGNORED="\
+colloquy\
 |lastpass\
 |lulu\
-|microsoft-auto-update\
-|mit-app-inventor\
 |viscosity\
 |webex-meetings\
 |zoom\
 "
-brew list --cask | egrep -vi ${CASK_EXCLUSIONS} > ${PKG_DIR}/casks
+read -r -d '' CASKS_ABSENCE_IGNORED << EOF
+asciidocfx
+celldesigner
+microsoft-auto-update
+mit-app-inventor
+EOF
+{
+brew list --cask\
+ | egrep -vi ${CASKS_PRESENCE_IGNORED};
+echo ${CASKS_ABSENCE_IGNORED};
+} | sort -u > ${PKG_DIR}/casks
 mas list > ${SNAPSHOT_DIR}/mas${SUFFIX}.txt
 gem list > ${SNAPSHOT_DIR}/gem${SUFFIX}.txt
 npm ls -g --depth 0 > ${SNAPSHOT_DIR}/npm${SUFFIX}.txt
