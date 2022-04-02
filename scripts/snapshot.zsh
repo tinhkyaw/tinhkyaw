@@ -20,6 +20,7 @@ asciidocfx\
 |lastpass\
 |lulu\
 |microsoft-auto-update\
+|mit-app-inventor\
 |viscosity\
 |webex-meetings\
 |zoom\
