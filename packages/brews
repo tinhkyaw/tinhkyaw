@@ -81,10 +81,12 @@ libpq
 luajit
 lzip
 maven
+media-info
 memcached
 mercurial
 metis
 minikube
+mkvtoolnix
 msgpack
 mypy
 mysql
@@ -92,6 +94,7 @@ neo4j
 netcat
 nginx
 ninja
+nzbget
 octave
 pidof
 pinentry-mac
