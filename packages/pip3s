@@ -43,8 +43,8 @@ bs4==0.0.1
 cached-property==1.5.2
 cachelib==0.6.0
 cachetools==5.0.0
-cattrs==1.10.0
-celery==5.2.3
+cattrs==22.1.0
+celery==5.2.5
 cement==3.0.6
 certifi==2021.10.8
 cffi==1.15.0
@@ -93,6 +93,7 @@ email-validator==1.1.3
 entrypoints==0.4
 esbonio==0.10.2
 et-xmlfile==1.1.0
+exceptiongroup==1.0.0rc2
 executing==0.8.3
 fake-useragent==0.1.11
 fett==0.3.2
