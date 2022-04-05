@@ -5,6 +5,7 @@ ant
 apache-flink
 apache-spark
 aria2
+asdf
 augeas
 autoenv
 automake

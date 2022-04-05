@@ -139,6 +139,11 @@ then
   source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 fi
 
+if [ -f /usr/local/opt/asdf/libexec/asdf.sh ]
+then
+  . /usr/local/opt/asdf/libexec/asdf.sh
+fi
+
 if [ -d ${HOME}/.bash-my-aws ]
 then
   export PATH="$PATH:$HOME/.bash-my-aws/bin"
