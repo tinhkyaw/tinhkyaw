@@ -161,4 +161,5 @@ then
   source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
 fi
 
-export HOMEBREW_GITHUB_API_TOKEN=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
+# added by Snowflake SnowSQL installer v1.2
+export PATH=/Applications/SnowSQL.app/Contents/MacOS:$PATH

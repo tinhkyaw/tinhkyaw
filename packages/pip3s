@@ -112,7 +112,7 @@ Flask-Session==0.4.0
 Flask-SQLAlchemy==2.5.1
 Flask-WTF==1.0.1
 flatbuffers==2.0
-fonttools==4.31.2
+fonttools==4.32.0
 frozenlist==1.3.0
 fsspec==2022.3.0
 ftfy==6.1.1
@@ -166,7 +166,7 @@ jsonpath-ng==1.5.3
 jsonschema==4.4.0
 keras==2.8.0
 Keras-Applications==1.0.8
-keras-nightly==2.10.0.dev2022040707
+keras-nightly==2.10.0.dev2022040807
 Keras-Preprocessing==1.1.2
 keyring==23.5.0
 kiwisolver==1.4.2
@@ -377,7 +377,7 @@ termcolor==1.1.0
 TestSlide==2.7.0
 text-unidecode==1.3
 textdistance==4.2.2
-tf-estimator-nightly==2.10.0.dev2022040708
+tf-estimator-nightly==2.10.0.dev2022040808
 threadpoolctl==3.1.0
 tldextract==3.2.0
 toml==0.10.2
