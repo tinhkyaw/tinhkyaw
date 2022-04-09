@@ -29,14 +29,14 @@ Babel==2.9.1
 backports.entry-points-selectable==1.1.1
 bandit==1.7.4
 bcrypt==3.2.0
-beautifulsoup4==4.11.0
+beautifulsoup4==4.11.1
 billiard==3.6.4.0
 black==22.3.0
 bleach==5.0.0
 blinker==1.4
 borb==2.0.23
-boto3==1.21.36
-botocore==1.24.36
+boto3==1.21.37
+botocore==1.24.37
 bottle==0.12.19
 Brotli==1.0.9
 bs4==0.0.1
@@ -128,7 +128,7 @@ google-auth==2.6.3
 google-auth-oauthlib==0.5.1
 google-pasta==0.2.0
 graphtage==0.2.5
-graphviz==0.19.1
+graphviz==0.19.2
 greenlet==1.1.2
 grpcio==1.45.0
 gunicorn==20.1.0

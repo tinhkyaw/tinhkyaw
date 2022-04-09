@@ -9,8 +9,6 @@ adium
 adobe-acrobat-reader
 adobe-digital-editions
 adobe-dng-converter
-adoptopenjdk
-adoptopenjdk8
 advancedrestclient
 agenda
 airpass
@@ -19,7 +17,6 @@ alacritty
 aladin
 alfred
 algodoo
-all-in-one-messenger
 alloy
 alpha
 alt-tab
@@ -92,7 +89,6 @@ caffeine
 cakebrew
 calcservice
 calibre
-camed
 canva
 caption
 catch
@@ -109,7 +105,6 @@ cheatsheet
 chessx
 chromedriver
 cinco
-cinder
 cinderella
 cinebench
 circuitjs1
@@ -138,7 +133,6 @@ cr
 cron
 crunch
 cubicsdr
-cuda-z
 customshortcuts
 cutter
 cyberduck
@@ -187,7 +181,6 @@ drawbot
 drawio
 dropbox-beta
 dropbox-capture
-dropbox-passwords
 duckietv
 dupeguru
 dust3d
@@ -197,7 +190,6 @@ eclipse-platform
 edex-ui
 edfbrowser
 elan
-elasticwolf
 electerm
 electron
 electron-api-demos
@@ -220,26 +212,22 @@ extraterm
 falcon-sql-client
 fawkes
 fbreader
-ferdi
 fig
 fiji
 firealpaca
 firefox
 fireworks
 flacon
-flame
 flameshot
 fldigi
 flightgear
 flipper
-flixtools
 flrig
 fluent-reader
 flutter
 flux
 fly
 flycut
-foldingtext
 font-awesome-terminal-fonts
 font-fontawesome
 font-hack-nerd-font
@@ -291,7 +279,6 @@ gitfiend
 github
 gitter
 gitup
-glance
 gltfquicklook
 gluemotion
 gns3
@@ -312,7 +299,6 @@ google-earth-pro
 google-featured-photos
 google-trends
 google-web-designer
-googleappengine
 gopass-ui
 gplates
 gpodder
@@ -328,11 +314,9 @@ gretl
 gridtracker
 grisbi
 gtkwave
-guijs
 hakuneko
 hammerspoon
 handbrake
-hbuilderx
 hdrmerge
 hex-fiend
 hiddenbar
@@ -372,7 +356,6 @@ ipepresenter
 iptvnator
 isabelle
 istumbler
-isubtitle
 isyncer
 iterm2
 itk-snap
@@ -380,7 +363,6 @@ itsycal
 itunes-producer
 jabref
 jalview
-jami
 jamovi
 jamulus
 jasp
@@ -394,9 +376,6 @@ jedit
 jellyfin
 jellyfin-media-player
 jgrasp
-jitsi
-jitsi-meet
-jmc
 joplin
 josm
 jt-bridge
@@ -418,9 +397,6 @@ keeweb
 keka
 kextviewr
 key-codes
-keyboard-cleaner
-keyboard-lock
-keyboardcleantool
 keycastr
 keyman
 keystore-explorer
@@ -439,7 +415,6 @@ knockknock
 knuff
 koa11y
 kodi
-komet
 koodo-reader
 krita
 ksnip
@@ -456,7 +431,6 @@ laverna
 lazarus
 lazpaint
 lazy
-leanote
 leapp
 leela
 leksah
@@ -470,7 +444,6 @@ librepcb
 librewolf
 licecap
 lidarr
-lightproxy
 lighttable
 linearmouse
 liteide
@@ -480,7 +453,6 @@ lmms
 loaf
 localizationeditor
 locationsimulator
-lockdown
 lockrattler
 logisim-evolution
 logseq
@@ -502,7 +474,6 @@ macdependency
 macdown
 macgdbp
 macgesture
-machoexplorer
 machoview
 macjournal
 macpass
@@ -532,7 +503,6 @@ mediaelch
 mediahuman-audio-converter
 megax
 meld
-mellowplayer
 memo
 menu-bar-splitter
 menumeters
@@ -632,7 +602,6 @@ onyx
 open-video-downloader
 openboard
 openboardview
-openconnect-gui
 opencpn
 openframeworks
 openoffice
@@ -664,7 +633,6 @@ panwriter
 paparazzi
 papyrus
 paraview
-parse
 parsify
 pd
 pd-l2ork
@@ -672,7 +640,6 @@ pdfsam-basic
 pencil2d
 persepolis-download-manager
 pext
-pg-commander
 pgadmin4
 phd2
 phew
@@ -721,7 +688,6 @@ puppetry
 pusher
 puzzles
 pycharm-ce
-pycharm-ce-with-anaconda-plugin
 pyzo
 qbittorrent
 qcad
@@ -764,10 +730,8 @@ quicklookapk
 quicknfo
 quicksilver
 quickwords
-quik
 quiterss
 quodlibet
-qv2ray
 qview
 qxmledit
 r
@@ -779,7 +743,6 @@ rar
 raspberry-pi-imager
 raven-reader
 rawtherapee
-rclone-browser
 react-native-debugger
 react-proto
 react-studio
@@ -904,7 +867,6 @@ spaceman
 spaceradar
 sparkle
 sparkleshare
-spectacle
 speedcrunch
 spires
 splitshow
@@ -968,7 +930,6 @@ tabtopus
 tabula
 tad
 tag
-tagger
 tagspaces
 talon
 taskexplorer
