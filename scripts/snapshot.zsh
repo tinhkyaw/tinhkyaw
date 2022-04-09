@@ -19,12 +19,10 @@ colloquy\
 |lulu\
 |viscosity\
 |webex-meetings\
-|zoom\
+|^zoom$\
 "
 read -r -d '' CASKS_ABSENCE_IGNORED << EOF
 asciidocfx
-celldesigner
-microsoft-auto-update
 mit-app-inventor
 EOF
 {

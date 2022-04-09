@@ -93,7 +93,6 @@ canva
 caption
 catch
 celestia
-celldesigner
 cellprofiler
 cemu
 cerebro
@@ -603,7 +602,6 @@ open-video-downloader
 openboard
 openboardview
 opencpn
-openframeworks
 openoffice
 openrefine
 openscad
@@ -759,6 +757,7 @@ remoteviewer
 renpy
 responsively
 retinizer
+rightzoom
 ring
 ripme
 roaringapps
@@ -1050,7 +1049,6 @@ vimr
 vine-server
 virtualbox
 virtualbox-extension-pack
-virtualgl
 visit
 visual
 visual-paradigm-ce
