@@ -8,7 +8,7 @@ alembic==1.7.7
 amqp==5.1.0
 anyio==3.5.0
 apache-airflow==2.2.5
-apache-airflow-providers-amazon==3.2.0
+apache-airflow-providers-amazon==3.3.0
 apache-airflow-providers-ftp==2.1.2
 apache-airflow-providers-http==2.1.2
 apache-airflow-providers-imap==2.2.3
@@ -35,8 +35,8 @@ black==22.3.0
 bleach==5.0.0
 blinker==1.4
 borb==2.0.23
-boto3==1.21.37
-botocore==1.24.37
+boto3==1.21.38
+botocore==1.24.38
 bottle==0.12.19
 Brotli==1.0.9
 bs4==0.0.1
@@ -379,7 +379,7 @@ text-unidecode==1.3
 textdistance==4.2.2
 tf-estimator-nightly==2.10.0.dev2022041108
 threadpoolctl==3.1.0
-tldextract==3.2.0
+tldextract==3.2.1
 toml==0.10.2
 tomli==2.0.1
 toolz==0.11.2
