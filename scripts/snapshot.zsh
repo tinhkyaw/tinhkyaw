@@ -17,6 +17,7 @@ CASKS_PRESENCE_IGNORED="\
 colloquy\
 |lastpass\
 |lulu\
+|ransomwhere\
 |viscosity\
 |webex-meetings\
 |^zoom$\

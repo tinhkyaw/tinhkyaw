@@ -65,7 +65,10 @@
   "python.languageServer": "Pylance",
   "python.jediEnabled": false,
   "python.linting.flake8Enabled": true,
-  "python.linting.flake8Args": ["--config", "${workspaceRoot}/setup.cfg"],
+  "python.linting.flake8Args": [
+    "--config",
+    "${workspaceRoot}/setup.cfg"
+  ],
   "python.linting.flake8Path": "/usr/local/bin/flake8",
   "python.linting.pylintEnabled": false,
   "python.pythonPath": "/usr/local/bin/python3",
