@@ -13,6 +13,7 @@ apache-airflow-providers-ftp==2.1.2
 apache-airflow-providers-http==2.1.2
 apache-airflow-providers-imap==2.2.3
 apache-airflow-providers-sqlite==2.1.3
+apischema==0.17.5
 apispec==5.1.1
 appdirs==1.4.4
 argcomplete==2.0.0
@@ -28,6 +29,7 @@ autopep8==1.6.0
 Babel==2.9.1
 backports.entry-points-selectable==1.1.1
 bandit==1.7.4
+based58==0.1.0
 bcrypt==3.2.0
 beautifulsoup4==4.11.1
 billiard==3.6.4.0
@@ -36,7 +38,7 @@ bleach==5.0.0
 blinker==1.4
 borb==2.0.23
 boto3==1.21.41
-botocore==1.24.41
+botocore==1.24.42
 bottle==0.12.19
 Brotli==1.0.9
 bs4==0.0.1
@@ -64,6 +66,8 @@ commonmark==0.9.1
 ConfigArgParse==1.5.3
 configparser==5.2.0
 connexion==2.13.0
+construct==2.10.68
+construct-typing==0.5.2
 croniter==1.3.4
 cryptography==36.0.2
 cssselect==1.1.0
@@ -163,6 +167,8 @@ joblib==1.1.0
 js-regex==1.0.1
 json5==0.9.6
 jsonpath-ng==1.5.3
+jsonrpcclient==4.0.2
+jsonrpcserver==5.0.7
 jsonschema==4.4.0
 keras==2.8.0
 Keras-Applications==1.0.8
@@ -209,6 +215,7 @@ openapi-spec-validator==0.4.0
 openpyxl==3.0.9
 opt-einsum==3.3.0
 ordereddict==1.1
+OSlash==0.6.3
 oyaml==1.0
 packaging==21.3
 pandas==1.4.2
@@ -308,7 +315,7 @@ pyzmq==22.3.0
 qrcode==7.3.1
 QScintilla==2.13.2
 readme-renderer==34.0
-redshift-connector==2.0.905
+redshift-connector==2.0.906
 regex==2022.3.15
 requests==2.27.1
 requests-file==1.5.1
@@ -344,6 +351,7 @@ smmap==5.0.0
 sniffio==1.2.0
 snooty-lextudio==1.12.0
 snowballstemmer==2.2.0
+solana==0.23.1
 sortedcontainers==2.4.0
 soupsieve==2.3.2.post1
 Sphinx==4.5.0
@@ -390,6 +398,7 @@ traitlets==5.1.1
 twine==4.0.0
 typed-ast==1.5.2
 typeguard==2.13.3
+types-cachetools==5.0.0
 types-setuptools==57.4.12
 typing-inspect==0.7.1
 typing_extensions==4.1.1
