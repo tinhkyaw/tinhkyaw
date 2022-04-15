@@ -95,5 +95,6 @@
   "yaml.schemas": {
     "file:///toc.schema.json": "/toc\\.yml/i"
   },
-  "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools"
+  "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
+  "GitLive.Issue tracker integration": "Disabled"
 }

@@ -24,6 +24,7 @@ colloquy\
 "
 read -r -d '' CASKS_ABSENCE_IGNORED << EOF
 asciidocfx
+fig
 mit-app-inventor
 EOF
 {
