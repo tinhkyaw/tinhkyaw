@@ -35,8 +35,8 @@ black==22.3.0
 bleach==5.0.0
 blinker==1.4
 borb==2.0.23
-boto3==1.21.40
-botocore==1.24.40
+boto3==1.21.41
+botocore==1.24.41
 bottle==0.12.19
 Brotli==1.0.9
 bs4==0.0.1
@@ -124,7 +124,7 @@ geventhttpclient==1.5.3
 gitdb==4.0.9
 gitdb2==4.0.2
 GitPython==3.1.27
-google-auth==2.6.4
+google-auth==2.6.5
 google-auth-oauthlib==0.5.1
 google-pasta==0.2.0
 graphtage==0.2.5
@@ -332,7 +332,7 @@ scikit-learn==1.0.2
 scipy==1.8.0
 scramp==1.4.1
 seaborn==0.11.2
-setproctitle==1.2.2
+setproctitle==1.2.3
 setuptools-scm==6.4.2
 shellingham==1.4.0
 simplegeneric==0.8.1
