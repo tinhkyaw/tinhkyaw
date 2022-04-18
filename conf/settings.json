@@ -65,10 +65,7 @@
   "python.languageServer": "Pylance",
   "python.jediEnabled": false,
   "python.linting.flake8Enabled": true,
-  "python.linting.flake8Args": [
-    "--config",
-    "${workspaceRoot}/setup.cfg"
-  ],
+  "python.linting.flake8Args": ["--config", "${workspaceRoot}/setup.cfg"],
   "python.linting.flake8Path": "/usr/local/bin/flake8",
   "python.linting.pylintEnabled": false,
   "python.pythonPath": "/usr/local/bin/python3",
@@ -79,6 +76,7 @@
   "telemetry.enableCrashReporter": false,
   "terminal.integrated.fontFamily": "'Hack Nerd Font'",
   "terminal.integrated.fontSize": 14,
+  "trunk.trunkGrayOutNonBlockingIssues": false,
   "vscode-edge-devtools.mirrorEdits": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "vs-kubernetes": {
