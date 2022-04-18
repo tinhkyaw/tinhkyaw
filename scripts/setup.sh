@@ -1,30 +1,28 @@
 #!/usr/bin/env bash
 set -e
-if ! command -v brew &> /dev/null
-then
+if ! command -v brew &>/dev/null; then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 brew install coreutils git mas openjdk python ruby swig
 export SLUGIFY_USES_TEXT_UNIDECODE=yes
 pip3 install -U \
-pip \
-doc8 \
-docsend \
-pip-tools \
-pipdeptree \
-pss \
-pytest \
-safety \
-twine \
-unidecode \
-virtualenvwrapper \
-yolk
+  pip \
+  doc8 \
+  docsend \
+  pip-tools \
+  pipdeptree \
+  pss \
+  pytest \
+  safety \
+  twine \
+  unidecode \
+  virtualenvwrapper \
+  yolk
 export CPATH=$(xcrun --show-sdk-path)/usr/include
 DIR=$(dirname "$(greadlink -f "${0}")")
 cd ${DIR}
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
-if ! brew list node &> /dev/null
-then
+if ! brew list node &>/dev/null; then
   brew install node
   sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
   cat ${GIT_ROOT_DIR}/packages/npms | xargs npm install -g
@@ -41,20 +39,15 @@ cat ${GIT_ROOT_DIR}/packages/brews | xargs brew install
 brew tap vitorgalvao/tiny-scripts && brew install cask-repair
 cat ${GIT_ROOT_DIR}/packages/casks | xargs brew install --cask
 apm install --packages-file ${GIT_ROOT_DIR}/packages/atom_packages
-for extension in $(cat ${GIT_ROOT_DIR}/packages/vscode_extensions)
-do
-  code --install-extension ${extension}
-done
+cat packages/vscode_extensions | xargs -I {} code --install-extension {}
 export LDFLAGS="-L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/system"
 pip3 install -U cython pyyaml
 pip3 install -U -r ${GIT_ROOT_DIR}/packages/pip3s
 /usr/local/anaconda3/bin/conda install pytorch torchvision -c pytorch
-if [ ! -n "$ZSH" ]
-then
+if [ ! -n "$ZSH" ]; then
   ZSH=~/.oh-my-zsh
 fi
-if [ ! -d "$ZSH" ]
-then
+if [ ! -d "$ZSH" ]; then
   sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sed 's:env zsh -l::g')"
   git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
   FONTS_DIR=~/.oh-my-zsh/custom/fonts
