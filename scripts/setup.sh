@@ -27,16 +27,11 @@ if ! brew list node &>/dev/null; then
   sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
   cat ${GIT_ROOT_DIR}/packages/npms | xargs npm install -g
 fi
-brew tap buo/cask-upgrade
-brew tap facebook/fb
-brew tap homebrew/cask-fonts
-brew tap homebrew/cask-versions
-brew tap weaveworks/tap
+cat ${GIT_ROOT_DIR}/packages/taps | xargs -I {} brew tap {}
 brew install weaveworks/tap/eksctl
 sudo spctl --master-disable
 brew install --cask adoptopenjdk adoptopenjdk8 google-chrome java mactex osxfuse xquartz
 cat ${GIT_ROOT_DIR}/packages/brews | xargs brew install
-brew tap vitorgalvao/tiny-scripts && brew install cask-repair
 cat ${GIT_ROOT_DIR}/packages/casks | xargs brew install --cask
 apm install --packages-file ${GIT_ROOT_DIR}/packages/atom_packages
 cat packages/vscode_extensions | xargs -I {} code --install-extension {}
