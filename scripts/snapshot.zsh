@@ -11,6 +11,9 @@ cd ${DIR}
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 PKG_DIR="${GIT_ROOT_DIR}/packages"
 brew list --formula >${SNAPSHOT_DIR}/brew${SUFFIX}.txt
+grep -F -x -v -f \
+  <(brew deps --installed | awk -F ':' '{ print $2 }' | sed "s/ /\n/g" | sort -u) \
+  <(brew list --formula --full-name -1 | sort) >${PKG_DIR}/brews
 brew list --cask >${SNAPSHOT_DIR}/cask${SUFFIX}.txt
 CASKS_PRESENCE_IGNORED="\
 colloquy\
