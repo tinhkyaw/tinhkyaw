@@ -385,7 +385,7 @@ termcolor==1.1.0
 TestSlide==2.7.0
 text-unidecode==1.3
 textdistance==4.2.2
-tf-estimator-nightly==2.10.0.dev2022042608
+tf-estimator-nightly==2.10.0.dev2022042708
 threadpoolctl==3.1.0
 tldextract==3.2.1
 toml==0.10.2
