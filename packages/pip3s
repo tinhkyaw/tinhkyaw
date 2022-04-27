@@ -95,7 +95,7 @@ dparse==0.5.1
 editdistance==0.6.0
 email-validator==1.2.0
 entrypoints==0.4
-esbonio==0.11.0
+esbonio==0.11.1
 et-xmlfile==1.1.0
 exceptiongroup==1.0.0rc4
 executing==0.8.3
@@ -362,7 +362,7 @@ sphinxcontrib-htmlhelp==2.0.0
 sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.5
-SQLAlchemy==1.4.35
+SQLAlchemy==1.4.36
 SQLAlchemy-JSONField==1.0.0
 sqlalchemy-redshift==0.8.9
 SQLAlchemy-Utils==0.38.2
