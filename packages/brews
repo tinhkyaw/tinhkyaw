@@ -17,6 +17,8 @@ aws-shell
 awscli
 bazel
 binutils
+brimdata/tap/zed
+brimdata/tap/zq
 buildifier
 byobu
 carthage
