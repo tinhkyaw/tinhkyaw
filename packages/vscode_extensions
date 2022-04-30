@@ -107,8 +107,10 @@ ms-kubernetes-tools.kubernetes-opa-vscode
 ms-ossdata.vscode-postgresql
 ms-playwright.playwright
 ms-python.anaconda-extension-pack
+ms-python.black-formatter
 ms-python.devicesimulatorexpress
 ms-python.gather
+ms-python.pylint
 msrvida.vscode-sanddance
 ms-vscode.cpptools-extension-pack
 ms-vscode.github-issues-prs
