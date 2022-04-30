@@ -62,6 +62,9 @@
     "--global-config",
     "${workspaceRoot}/setup.cfg"
   ],
+  "python.formatting.provider": "yapf",
+  "python.formatting.blackArgs": ["--line-length", "80"],
+  "python.formatting.yapfArgs": ["--style", "{based_on_style: google, column_limit: 79}"],
   "python.languageServer": "Pylance",
   "python.jediEnabled": false,
   "python.linting.flake8Enabled": true,
