@@ -41,7 +41,6 @@ erlang
 exa
 fabric
 facebook/fb/fbthrift-compiler
-fb303
 ffmpeg
 findutils
 fish
@@ -114,7 +113,6 @@ pinentry-mac
 pipenv
 pipx
 poetry
-poppler
 postgresql
 pssh
 pycodestyle
