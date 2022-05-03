@@ -1,6 +1,15 @@
 // Place your settings in this file to overwrite the default settings
 {
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnSave": true
+  },
   "bazel.buildifierPath": "/usr/local/bin/buildifier",
+  "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
   "cmake.configureOnOpen": false,
   "codespaces.accountProvider": "GitHub",
   "csharp.suppressDotnetInstallWarning": true,
@@ -40,66 +49,70 @@
   "gitlens.historyExplorer.enabled": true,
   "gitlens.views.fileHistory.enabled": true,
   "gitlens.views.lineHistory.enabled": true,
+  "GitLive.Issue tracker integration": "Disabled",
   "go.toolsManagement.autoUpdate": true,
   "kite.showWelcomeNotificationOnStartup": false,
   "makefile.extensionOutputFolder": "./.vscode",
-  "markdownlint.customRules": [
-    "{docsmsft.docs-linting}/markdownlint-custom-rules/rules.js"
-  ],
   "markdownlint.config": {
     "MD025": {
       "front_matter_title": ""
     },
     "MD028": false
   },
+  "markdownlint.customRules": [
+    "{docsmsft.docs-linting}/markdownlint-custom-rules/rules.js"
+  ],
   "matlab.lintOnSave": false,
   "metals.javaHome": "/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home",
   "notebook.cellToolbarLocation": {
     "default": "right",
     "jupyter-notebook": "left"
   },
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.python",
-    "editor.formatOnSave": true
-  },
   "python.formatting.autopep8Args": [
     "--global-config",
     "${workspaceRoot}/setup.cfg"
   ],
+  "python.formatting.blackArgs": [
+    "--line-length",
+    "80"
+  ],
   "python.formatting.provider": "yapf",
-  "python.formatting.blackArgs": ["--line-length", "80"],
-  "python.formatting.yapfArgs": ["--style", "{based_on_style: google, column_limit: 79}"],
-  "python.languageServer": "Pylance",
+  "python.formatting.yapfArgs": [
+    "--style",
+    "{based_on_style: google, column_limit: 79}"
+  ],
   "python.jediEnabled": false,
+  "python.languageServer": "Pylance",
+  "python.linting.flake8Args": [
+    "--config",
+    "${workspaceRoot}/setup.cfg"
+  ],
   "python.linting.flake8Enabled": true,
-  "python.linting.flake8Args": ["--config", "${workspaceRoot}/setup.cfg"],
   "python.linting.flake8Path": "/usr/local/bin/flake8",
   "python.linting.pylintEnabled": false,
   "python.pythonPath": "/usr/local/bin/python3",
   "redhat.telemetry.enabled": false,
   "restructuredtext.confPath": "",
   "rust-client.rustupPath": "/Users/tin/.cargo/bin/rustup",
-  "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
   "terminal.integrated.fontFamily": "'Hack Nerd Font'",
   "terminal.integrated.fontSize": 14,
   "trunk.trunkGrayOutNonBlockingIssues": false,
-  "vscode-edge-devtools.mirrorEdits": true,
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "vs-kubernetes": {
-    "vs-kubernetes.helm-path.mac": "${env:HOME}/.vs-kubernetes/tools/helm/darwin-amd64/helm",
     "vs-kubernetes.draft-path.mac": "${env:HOME}/tin/.vs-kubernetes/tools/draft/darwin-amd64/draft",
+    "vs-kubernetes.helm-path.mac": "${env:HOME}/.vs-kubernetes/tools/helm/darwin-amd64/helm",
     "vscode-kubernetes.minikube-path.mac": "/Users/tin/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
   },
+  "vscode-edge-devtools.mirrorEdits": true,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.colorTheme": "Solarized Dark",
+  "workbench.editor.enablePreview": false,
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
   },
-  "workbench.editor.enablePreview": false,
-  "yaml.schemaStore.enable": false,
   "yaml.schemas": {
     "file:///toc.schema.json": "/toc\\.yml/i"
   },
-  "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
-  "GitLive.Issue tracker integration": "Disabled"
+  "yaml.schemaStore.enable": false
 }
