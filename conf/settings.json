@@ -8,6 +8,10 @@
     "editor.defaultFormatter": "ms-python.python",
     "editor.formatOnSave": true
   },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
   "bazel.buildifierPath": "/usr/local/bin/buildifier",
   "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
   "cmake.configureOnOpen": false,
