@@ -58,6 +58,10 @@
     "default": "right",
     "jupyter-notebook": "left"
   },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnSave": true
+  },
   "python.formatting.autopep8Args": [
     "--global-config",
     "${workspaceRoot}/setup.cfg"
