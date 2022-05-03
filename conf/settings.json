@@ -1,5 +1,7 @@
 // Place your settings in this file to overwrite the default settings
 {
+  "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
+  "GitLive.Issue tracker integration": "Disabled",
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features",
     "editor.formatOnSave": true
@@ -13,7 +15,6 @@
     "editor.formatOnSave": true
   },
   "bazel.buildifierPath": "/usr/local/bin/buildifier",
-  "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
   "cmake.configureOnOpen": false,
   "codespaces.accountProvider": "GitHub",
   "csharp.suppressDotnetInstallWarning": true,
@@ -53,7 +54,6 @@
   "gitlens.historyExplorer.enabled": true,
   "gitlens.views.fileHistory.enabled": true,
   "gitlens.views.lineHistory.enabled": true,
-  "GitLive.Issue tracker integration": "Disabled",
   "go.toolsManagement.autoUpdate": true,
   "kite.showWelcomeNotificationOnStartup": false,
   "makefile.extensionOutputFolder": "./.vscode",
@@ -115,8 +115,8 @@
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
   },
+  "yaml.schemaStore.enable": false,
   "yaml.schemas": {
     "file:///toc.schema.json": "/toc\\.yml/i"
-  },
-  "yaml.schemaStore.enable": false
+  }
 }
