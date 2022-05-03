@@ -106,7 +106,7 @@ fett==0.3.2
 filelock==3.6.0
 first==2.0.2
 Flask==2.1.2
-Flask-AppBuilder==4.0.0
+Flask-AppBuilder==4.1.0
 Flask-Babel==2.0.0
 Flask-BasicAuth==0.2.0
 Flask-Caching==1.10.1
@@ -184,7 +184,7 @@ jsonrpcserver==5.0.7
 jsonschema==4.4.0
 keras==2.8.0
 Keras-Applications==1.0.8
-keras-nightly==2.10.0.dev2022050207
+keras-nightly==2.10.0.dev2022050307
 Keras-Preprocessing==1.1.2
 keyring==23.5.0
 kiwisolver==1.4.2
@@ -203,7 +203,7 @@ marshmallow==3.15.0
 marshmallow-enum==1.5.1
 marshmallow-oneofschema==3.0.1
 marshmallow-sqlalchemy==0.28.0
-matplotlib==3.5.1
+matplotlib==3.5.2
 mccabe==0.7.0
 memory-profiler==0.60.0
 mercurial==6.1.1
@@ -400,7 +400,7 @@ termcolor==1.1.0
 TestSlide==2.7.0
 text-unidecode==1.3
 textdistance==4.2.2
-tf-estimator-nightly==2.10.0.dev2022050208
+tf-estimator-nightly==2.10.0.dev2022050308
 threadpoolctl==3.1.0
 tldextract==3.2.1
 toml==0.10.2
