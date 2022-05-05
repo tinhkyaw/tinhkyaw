@@ -2,6 +2,9 @@
 {
   "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
   "GitLive.Issue tracker integration": "Disabled",
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features",
     "editor.formatOnSave": true
