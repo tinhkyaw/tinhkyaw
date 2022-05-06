@@ -177,7 +177,7 @@ jinja2-pluralize==0.3.0
 jmespath==1.0.0
 joblib==1.1.0
 js-regex==1.0.1
-json5==0.9.6
+json5==0.9.7
 jsonpath-ng==1.5.3
 jsonrpcclient==4.0.2
 jsonrpcserver==5.0.7
@@ -261,7 +261,7 @@ psycopg2==2.9.3
 ptyprocess==0.7.0
 py==1.11.0
 py4j==0.10.9.5
-pyarrow==7.0.0
+pyarrow==8.0.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pybind11==2.9.2
