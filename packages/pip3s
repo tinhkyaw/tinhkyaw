@@ -1,5 +1,5 @@
 absl-py==1.0.0
-aiobotocore==2.2.0
+aiobotocore==2.3.0
 aiohttp==3.8.1
 aioitertools==0.10.0
 aiosignal==1.2.0
@@ -181,7 +181,7 @@ json5==0.9.6
 jsonpath-ng==1.5.3
 jsonrpcclient==4.0.2
 jsonrpcserver==5.0.7
-jsonschema==4.5.0
+jsonschema==4.5.1
 keras==2.8.0
 Keras-Applications==1.0.8
 keras-nightly==2.10.0.dev2022050507
