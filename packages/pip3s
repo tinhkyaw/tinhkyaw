@@ -381,7 +381,7 @@ SQLAlchemy==1.4.36
 SQLAlchemy-JSONField==1.0.0
 sqlalchemy-redshift==0.8.9
 SQLAlchemy-Utils==0.38.2
-sqlfluff==0.13.0
+sqlfluff==0.13.1
 sqlparse==0.4.2
 stevedore==3.5.0
 stringcase==1.2.0
