@@ -97,7 +97,7 @@ dparse==0.5.1
 editdistance==0.6.0
 email-validator==1.2.1
 entrypoints==0.4
-esbonio==0.11.1
+esbonio==0.11.2
 et-xmlfile==1.1.0
 exceptiongroup==1.0.0rc5
 executing==0.8.3
