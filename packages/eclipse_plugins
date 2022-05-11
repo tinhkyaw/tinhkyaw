@@ -9,7 +9,6 @@ EclEmma
 Eclipse Corrosion
 Eclipse Docker Tooling
 Eclipse TeXlipse
-eclipse-pmd
 Enhanced Class Decompiler
 Google Cloud Tools
 JDeodorant
@@ -18,11 +17,11 @@ Json Editor
 Kotlin
 Kubernetes Manifest Editor
 macOS Eclipse Launcher
+Markdown Text Editor
 pmd-eclipse-plugin
 protobuf-dt
 PyDev
 ReST Editor
-Scalastyle
 ShellWax
 SonarLint
 SpotBugs

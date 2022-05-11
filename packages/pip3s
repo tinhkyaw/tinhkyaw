@@ -38,8 +38,8 @@ black==22.3.0
 bleach==5.0.0
 blinker==1.4
 borb==2.0.25
-boto3==1.22.11
-botocore==1.25.11
+boto3==1.22.12
+botocore==1.25.12
 bottle==0.12.19
 Brotli==1.0.9
 bs4==0.0.1
@@ -144,8 +144,8 @@ googleapis-common-protos==1.56.0
 graphtage==0.2.5
 graphviz==0.20
 greenlet==1.1.2
-grpcio==1.46.0
-grpcio-status==1.46.0
+grpcio==1.46.1
+grpcio-status==1.46.1
 gunicorn==20.1.0
 h11==0.13.0
 h2==4.1.0
