@@ -108,12 +108,14 @@ nzbget
 octave
 open-babel
 p7zip
+pdfgrep
 pidof
 pinentry-mac
 pipenv
 pipx
 poetry
 postgresql
+psgrep
 pssh
 pycodestyle
 pyenv
