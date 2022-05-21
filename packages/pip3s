@@ -38,8 +38,8 @@ black==22.3.0
 bleach==5.0.0
 blinker==1.4
 borb==2.0.25
-boto3==1.23.4
-botocore==1.26.4
+boto3==1.23.5
+botocore==1.26.5
 bottle==0.12.19
 Brotli==1.0.9
 bs4==0.0.1
@@ -60,7 +60,7 @@ click-didyoumean==0.3.0
 click-plugins==1.1.1
 click-repl==0.2.0
 clickclick==20.10.2
-cloudpickle==2.0.0
+cloudpickle==2.1.0
 colorama==0.4.4
 colorlog==6.6.0
 commonmark==0.9.1
@@ -82,7 +82,7 @@ decorator==5.1.1
 defusedxml==0.7.1
 Deprecated==1.2.13
 diff-cover==6.5.0
-dill==0.3.4
+dill==0.3.5.1
 distlib==0.3.4
 Django==4.0.4
 django-environ==0.8.1
@@ -99,7 +99,7 @@ email-validator==1.2.1
 entrypoints==0.4
 esbonio==0.11.2
 et-xmlfile==1.1.0
-exceptiongroup==1.0.0rc6
+exceptiongroup==1.0.0rc7
 executing==0.8.3
 fake-useragent==0.1.11
 fett==0.3.2
@@ -144,8 +144,8 @@ googleapis-common-protos==1.56.1
 graphtage==0.2.6
 graphviz==0.20
 greenlet==1.1.2
-grpcio==1.46.1
-grpcio-status==1.46.1
+grpcio==1.46.3
+grpcio-status==1.46.3
 gunicorn==20.1.0
 h11==0.13.0
 h2==4.1.0
@@ -184,7 +184,7 @@ jsonrpcserver==5.0.7
 jsonschema==4.5.1
 keras==2.9.0
 Keras-Applications==1.0.8
-keras-nightly==2.10.0.dev2022051907
+keras-nightly==2.10.0.dev2022052007
 Keras-Preprocessing==1.1.2
 keyring==23.5.0
 kiwisolver==1.4.2
@@ -221,7 +221,7 @@ natsort==8.1.0
 networkx==2.8.1
 nltk==3.7
 nose==1.3.7
-numpy==1.22.3
+numpy==1.22.4
 oauthlib==3.2.0
 openapi-schema-validator==0.2.3
 openapi-spec-validator==0.4.0
@@ -256,7 +256,7 @@ prompt-toolkit==3.0.29
 proto-plus==1.20.4
 protobuf==3.20.1
 pss==1.43
-psutil==5.9.0
+psutil==5.9.1
 psycopg2==2.9.3
 ptyprocess==0.7.0
 py==1.11.0
@@ -381,7 +381,7 @@ SQLAlchemy==1.4.36
 SQLAlchemy-JSONField==1.0.0
 sqlalchemy-redshift==0.8.9
 SQLAlchemy-Utils==0.38.2
-sqlfluff==0.13.1
+sqlfluff==0.13.2
 sqlparse==0.4.2
 stevedore==3.5.0
 stringcase==1.2.0
@@ -400,7 +400,7 @@ termcolor==1.1.0
 TestSlide==2.7.0
 text-unidecode==1.3
 textdistance==4.2.2
-tf-estimator-nightly==2.10.0.dev2022051908
+tf-estimator-nightly==2.10.0.dev2022052008
 threadpoolctl==3.1.0
 tldextract==3.3.0
 toml==0.10.2
