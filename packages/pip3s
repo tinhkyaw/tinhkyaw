@@ -38,8 +38,8 @@ black==22.3.0
 bleach==5.0.0
 blinker==1.4
 borb==2.0.25
-boto3==1.23.6
-botocore==1.26.6
+boto3==1.23.7
+botocore==1.26.7
 bottle==0.12.19
 Brotli==1.0.9
 bs4==0.0.1
@@ -184,7 +184,7 @@ jsonrpcserver==5.0.7
 jsonschema==4.5.1
 keras==2.9.0
 Keras-Applications==1.0.8
-keras-nightly==2.10.0.dev2022052407
+keras-nightly==2.10.0
 Keras-Preprocessing==1.1.2
 keyring==23.5.1
 kiwisolver==1.4.2
