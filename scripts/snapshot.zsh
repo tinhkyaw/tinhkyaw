@@ -35,7 +35,7 @@ EOF
 } | sort -u >${PKG_DIR}/casks
 mas list >${SNAPSHOT_DIR}/mas${SUFFIX}.txt
 gem list >${SNAPSHOT_DIR}/gem${SUFFIX}.txt
-npm ls -g --depth 0 >${SNAPSHOT_DIR}/npm${SUFFIX}.txt
+npm ls --location=global --depth 0 >${SNAPSHOT_DIR}/npm${SUFFIX}.txt
 pip3 freeze --local >${SNAPSHOT_DIR}/pip3${SUFFIX}.txt
 pip3 freeze --local >${PKG_DIR}/pip3s
 conda list >${SNAPSHOT_DIR}/conda${SUFFIX}.txt
