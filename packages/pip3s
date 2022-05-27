@@ -95,6 +95,8 @@ docsend==0.2.0
 docutils==0.18.1
 dparse==0.5.1
 editdistance==0.6.0
+elastic-transport==8.1.2
+elasticsearch==8.2.0
 email-validator==1.2.1
 entrypoints==0.4
 esbonio==0.12.0
