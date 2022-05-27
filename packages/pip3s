@@ -39,7 +39,7 @@ bleach==5.0.0
 blinker==1.4
 borb==2.0.26
 boto3==1.23.9
-botocore==1.26.9
+botocore==1.26.10
 bottle==0.12.21
 Brotli==1.0.9
 bs4==0.0.1
