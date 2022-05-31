@@ -6,20 +6,17 @@ function install_file() {
   local src="$src_dir/$file_name"
   local dst="$dst_dir/$file_name"
   mkdir -p "$dst_dir"
-  if [ -e "$dst" ]
-  then
-    if ! diff "$src" "$dst" &> /dev/null
-    then
+  if [ -e "$dst" ]; then
+    if ! diff "$src" "$dst" &>/dev/null; then
       mv "$dst" "$dst".BAK
       ln -s "$src" "$dst_dir"/
     fi
-  elif [ -L "$dst" ]
-  then
+  elif [ -L "$dst" ]; then
     mv "$dst" "$dst".BAK
     ln -s "$src" "$dst_dir"/
   else
     ln -s "$src" "$dst_dir"/
-  fi  
+  fi
 }
 function replace_file() {
   local file_name="$1"
@@ -27,18 +24,15 @@ function replace_file() {
   local dst_dir="$3"
   local src="$src_dir/$file_name"
   local dst="$dst_dir/$file_name"
-  if [ -e "$dst" ]
-  then
-    if ! diff "$src" "$dst" &> /dev/null
-    then
+  if [ -e "$dst" ]; then
+    if ! diff "$src" "$dst" &>/dev/null; then
       mv "$dst" "$dst".BAK
       cp "$src" "$dst_dir"/
     fi
-  elif [ -L "$dst" ]
-  then
+  elif [ -L "$dst" ]; then
     mv "$dst" "$dst".BAK
     cp "$src" "$dst_dir"/
   else
     cp "$src" "$dst_dir"/
-  fi  
+  fi
 }

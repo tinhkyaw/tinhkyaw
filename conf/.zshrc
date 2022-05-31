@@ -90,17 +90,18 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-autoload colors; colors
+autoload colors
+colors
 
-setopt append_history # Allow multiple terminal sessions to all append to one zsh command history
-setopt extended_history # save timestamp of command and duration
-setopt inc_append_history # Add comamnds as they are typed, don't wait until shell exit
+setopt append_history         # Allow multiple terminal sessions to all append to one zsh command history
+setopt extended_history       # save timestamp of command and duration
+setopt inc_append_history     # Add comamnds as they are typed, don't wait until shell exit
 setopt hist_expire_dups_first # when trimming history, lose oldest duplicates first
-setopt hist_ignore_dups # Do not write events to history that are duplicates of previous events
-setopt hist_ignore_space # remove command line from history list when first character on the line is a space
-setopt hist_find_no_dups # When searching history don't display results already cycled through twice
-setopt hist_reduce_blanks # Remove extra blanks from each command line being added to history
-setopt share_history # imports new commands and appends typed commands to history
+setopt hist_ignore_dups       # Do not write events to history that are duplicates of previous events
+setopt hist_ignore_space      # remove command line from history list when first character on the line is a space
+setopt hist_find_no_dups      # When searching history don't display results already cycled through twice
+setopt hist_reduce_blanks     # Remove extra blanks from each command line being added to history
+setopt share_history          # imports new commands and appends typed commands to history
 
 DEFAULT_USER=${USER}
 
@@ -117,35 +118,25 @@ export CFLAGS="-I/usr/local/opt/zlib/include"
 export LDFLAGS="-L/usr/local/opt/openssl/lib -L/usr/local/opt/zlib/lib"
 export OPENBLAS="/usr/local/opt/openblas"
 
-ssh-add -A &> /dev/null
+ssh-add -A &>/dev/null
 
-if [ -x /usr/libexec/path_helper ]
-then
+if [ -x /usr/libexec/path_helper ]; then
   eval $(/usr/libexec/path_helper -s)
 fi
 
-if [ -d /usr/local/opt/ruby/bin ]
-then
+if [ -d /usr/local/opt/ruby/bin ]; then
   export PATH=/usr/local/opt/ruby/bin:$PATH
 fi
 
-if [ -d /usr/local/anaconda3/bin ]
-then
-  export PATH=$PATH:/usr/local/anaconda3/bin
-fi
-
-if [ -f /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]
-then
+if [ -f /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]; then
   source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 fi
 
-if [ -f /usr/local/opt/asdf/libexec/asdf.sh ]
-then
+if [ -f /usr/local/opt/asdf/libexec/asdf.sh ]; then
   . /usr/local/opt/asdf/libexec/asdf.sh
 fi
 
-if [ -d ${HOME}/.bash-my-aws ]
-then
+if [ -d ${HOME}/.bash-my-aws ]; then
   export PATH="$PATH:$HOME/.bash-my-aws/bin"
   source ${HOME}/.bash-my-aws/aliases
 
@@ -155,8 +146,7 @@ then
   source ${HOME}/.bash-my-aws/bash_completion.sh
 fi
 
-if [ -d /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk ]
-then
+if [ -d /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk ]; then
   source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
   source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
 fi
