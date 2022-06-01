@@ -2,24 +2,22 @@
 P=$(pwd)
 DIR=$(dirname $(type -a "${0}" | cut -d " " -f 3))
 is_greedy=false
-while getopts g flag
-do
+while getopts g flag; do
   case ${flag} in
-    g)
-      is_greedy=true
-      ;;
-    ?)
+  g)
+    is_greedy=true
+    ;;
+  ?)
     exit 1
     ;;
   esac
 done
-shift $(( OPTIND - 1 ))
+shift $((OPTIND - 1))
 brew missing
 brew update
 brew upgrade
 brew outdated --cask
-if ( $is_greedy )
-then
+if ($is_greedy); then
   brew upgrade --cask --greedy
 else
   brew cu -a

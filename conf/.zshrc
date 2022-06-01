@@ -124,6 +124,10 @@ if [ -x /usr/libexec/path_helper ]; then
   eval $(/usr/libexec/path_helper -s)
 fi
 
+if [ -d /usr/local/anaconda3/bin ]; then
+  export PATH=$PATH:/usr/local/anaconda3/bin
+fi
+
 if [ -d /usr/local/opt/ruby/bin ]; then
   export PATH=/usr/local/opt/ruby/bin:$PATH
 fi
