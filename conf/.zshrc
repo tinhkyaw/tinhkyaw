@@ -124,6 +124,10 @@ if [ -x /usr/libexec/path_helper ]; then
   eval $(/usr/libexec/path_helper -s)
 fi
 
+if [ -d $(brew --prefix)/opt/python/libexec/bin ]; then
+  export PATH=$PATH:$(brew --prefix)/opt/python/libexec/bin
+fi
+
 if [ -d /usr/local/anaconda3/bin ]; then
   export PATH=$PATH:/usr/local/anaconda3/bin
 fi
