@@ -103,6 +103,7 @@ esbonio==0.13.0
 et-xmlfile==1.1.0
 exceptiongroup==1.0.0rc7
 executing==0.8.3
+fades==9.0.2
 fake-useragent==0.1.11
 fett==0.3.2
 filelock==3.7.1
@@ -196,6 +197,7 @@ libcst==0.4.3
 locket==1.0.0
 lockfile==0.12.2
 locust==2.9.0
+lorem==0.1.1
 lxml==4.9.0
 Mako==1.2.0
 Markdown==3.3.7
