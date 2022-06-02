@@ -17,6 +17,7 @@ aws-shell
 awscli
 bazel
 binutils
+black
 brimdata/tap/zed
 brimdata/tap/zq
 buildifier
@@ -40,6 +41,7 @@ ec2-ami-tools
 erlang
 exa
 fabric
+fades
 ffmpeg
 findutils
 fish
@@ -85,6 +87,7 @@ libmaxminddb
 libpq
 libproxy
 libsmi
+lorem
 luajit
 lzip
 mas
