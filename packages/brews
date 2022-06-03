@@ -41,7 +41,6 @@ ec2-ami-tools
 erlang
 exa
 fabric
-facebook/fb/fbthrift-compiler
 fades
 ffmpeg
 findutils
@@ -100,6 +99,7 @@ minikube
 mkvtoolnix
 mono
 moreutils
+mstch
 mypy
 mysql
 neo4j
