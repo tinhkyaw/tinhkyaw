@@ -56,7 +56,6 @@ haskell.haskell
 helixquar.randomeverything
 herrmannplatz.npm-dependency-links
 heybourn.headwind
-HookyQR.beautify
 humao.rest-client
 i80and.snooty
 IBM.output-colorizer
@@ -76,7 +75,6 @@ lightbend.vscode-sbt-scala
 littlefoxteam.vscode-python-test-adapter
 llvm-vs-code-extensions.vscode-clangd
 localizely.flutter-intl
-lonefy.vscode-JS-CSS-HTML-formatter
 mads-hartmann.bash-ide-vscode
 magicstack.MagicPython
 MariusAlchimavicius.json-to-ts
@@ -110,8 +108,10 @@ ms-python.anaconda-extension-pack
 ms-python.black-formatter
 ms-python.devicesimulatorexpress
 ms-python.gather
+ms-python.isort
 ms-python.pylint
 msrvida.vscode-sanddance
+ms-vscode.brackets-pack
 ms-vscode.cpptools-extension-pack
 ms-vscode.github-issues-prs
 ms-vscode.github-richnav
@@ -128,7 +128,6 @@ ms-vscode.vscode-markdown-notebook
 ms-vscode.vscode-marketplace-extension-browser
 ms-vscode.vscode-selfhost-test-provider
 ms-vscode.vscode-smoketest-check
-ms-vscode.vscode-typescript-tslint-plugin
 ms-vsonline.vsonline
 mushan.vscode-paste-image
 naumovs.color-highlight
@@ -138,7 +137,6 @@ oderwat.indent-rainbow
 OpenPAIVSCodeClient.pai-vscode
 PKief.material-icon-theme
 pnp.polacode
-pranaygp.vscode-css-peek
 prettier.prettier-vscode
 pucelle.vscode-css-navigation
 pustelto.bracketeer
@@ -152,7 +150,7 @@ richie5um2.vscode-sort-json
 ritwickdey.live-sass
 rogalmic.bash-debug
 rubbersheep.gi
-rust-lang.rust
+rust-lang.rust-analyzer
 ryu1kn.edit-with-shell
 ryu1kn.partial-diff
 ryu1kn.text-marker
@@ -189,5 +187,4 @@ xabikos.JavaScriptSnippets
 yatki.vscode-surround
 ybaumes.highlight-trailing-white-spaces
 ysemeniuk.jump-tag
-Zignd.html-css-class-completion
 zxh404.vscode-proto3
