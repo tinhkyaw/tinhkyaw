@@ -3,45 +3,42 @@ set -e
 if ! command -v brew &>/dev/null; then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
-brew install coreutils git mas openjdk python ruby swig
-export SLUGIFY_USES_TEXT_UNIDECODE=yes
-pip3 install -U \
-  pip \
-  doc8 \
-  docsend \
-  pip-tools \
-  pipdeptree \
-  pss \
-  pytest \
-  safety \
-  twine \
-  unidecode \
-  virtualenvwrapper \
-  yolk
+# brew install coreutils git mas openjdk python ruby swig
+# pip3 install -U \
+#   pip \
+#   doc8 \
+#   docsend \
+#   pip-tools \
+#   pipdeptree \
+#   pss \
+#   pytest \
+#   safety \
+#   twine \
+#   unidecode \
+#   virtualenvwrapper \
+#   yolk
 CPATH=$(xcrun --show-sdk-path)/usr/include
 export CPATH
+export LDFLAGS="-L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/system"
+export SLUGIFY_USES_TEXT_UNIDECODE=yes
 DIR=$(dirname "$(greadlink -f "${0}")")
 cd "${DIR}"
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
-if ! brew list node &>/dev/null; then
-  brew install node
-  sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
-  xargs npm install -g <"${GIT_ROOT_DIR}"/packages/npms
-fi
-xargs -I {} brew tap {} <"${GIT_ROOT_DIR}"/packages/taps
-brew install weaveworks/tap/eksctl
-sudo spctl --master-disable
-brew install --cask adoptopenjdk adoptopenjdk8 google-chrome java mactex osxfuse xquartz
+sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+# if ! brew list node &>/dev/null; then
+#   brew install node
+# fi
+# xargs -I {} brew tap {} <"${GIT_ROOT_DIR}"/packages/taps
+# brew install weaveworks/tap/eksctl
+# sudo spctl --master-disable
+# brew install --cask adoptopenjdk adoptopenjdk8 google-chrome java mactex osxfuse xquartz
 xargs brew install <"${GIT_ROOT_DIR}"/packages/brews
 xargs brew install --cask <"${GIT_ROOT_DIR}"/packages/casks
+xargs npm install -g <"${GIT_ROOT_DIR}"/packages/npms
 apm install --packages-file "${GIT_ROOT_DIR}"/packages/atom_packages
 xargs -I {} code --install-extension {} <"${GIT_ROOT_DIR}"/packages/vscode_extensions
-export LDFLAGS="-L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/system"
-pip3 install -U cython pyyaml
+# pip3 install -U cython pyyaml
 pip3 install -U -r "${GIT_ROOT_DIR}"/packages/pip3s
-if [ -z "$ZSH" ]; then
-  ZSH=~/.oh-my-zsh
-fi
 if [ ! -d "$ZSH" ]; then
   sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sed 's:env zsh -l::g')"
   git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
@@ -61,4 +58,7 @@ if [ ! -d "$ZSH" ]; then
   env zsh -l
   git clone https://github.com/bash-my-aws/bash-my-aws.git ~/.bash-my-aws
   # xargs < packages/poetry_packages poetry add
+fi
+if [ -z "$ZSH" ]; then
+  ZSH=~/.oh-my-zsh
 fi
