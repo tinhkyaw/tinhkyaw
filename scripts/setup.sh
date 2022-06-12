@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 if ! command -v brew &>/dev/null; then
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 # brew install coreutils git mas openjdk python ruby swig
 # pip3 install -U \
@@ -40,12 +40,13 @@ xargs -I {} code --install-extension {} <"${GIT_ROOT_DIR}"/packages/vscode_exten
 # pip3 install -U cython pyyaml
 pip3 install -U -r "${GIT_ROOT_DIR}"/packages/pip3s
 if [ ! -d "$ZSH" ]; then
-  sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sed 's:env zsh -l::g')"
+  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
   git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
   FONTS_DIR=~/.oh-my-zsh/custom/fonts
   git clone git@github.com:powerline/fonts ${FONTS_DIR}
   cd ${FONTS_DIR}
   ./install.sh
+  git clone https://github.com/bash-my-aws/bash-my-aws.git ~/.bash-my-aws
   "${GIT_ROOT_DIR}"/scripts/setup-bin.sh
   "${GIT_ROOT_DIR}"/scripts/setup-conf.sh
   GREEN="$(tput setaf 2)"
@@ -56,7 +57,6 @@ if [ ! -d "$ZSH" ]; then
   echo 'You may also want to update .gitconfig'
   printf '%s'"${NORMAL}"
   env zsh -l
-  git clone https://github.com/bash-my-aws/bash-my-aws.git ~/.bash-my-aws
   # xargs < packages/poetry_packages poetry add
 fi
 if [ -z "$ZSH" ]; then
