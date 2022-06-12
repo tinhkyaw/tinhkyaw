@@ -38,6 +38,7 @@ direnv
 dprint
 duti
 ec2-ami-tools
+entr
 erlang
 exa
 fabric
@@ -161,6 +162,7 @@ terraform
 textql
 thrift
 tidy-html5
+tig
 tokyo-cabinet
 tox
 transmission-cli
@@ -179,7 +181,9 @@ wget
 xdot
 yank
 yapf
+youtube-dl
 yq
+z
 zlib
 zookeeper
 zopfli
