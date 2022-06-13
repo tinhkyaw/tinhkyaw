@@ -2,6 +2,8 @@
 set -e
 if ! command -v brew &>/dev/null; then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  eval "$(/opt/homebrew/bin/brew shellenv)"
+  brew install coreutils
 fi
 # brew install coreutils git mas openjdk python ruby swig
 # pip3 install -U \
@@ -24,7 +26,6 @@ export SLUGIFY_USES_TEXT_UNIDECODE=yes
 DIR=$(dirname "$(greadlink -f "${0}")")
 cd "${DIR}"
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
-sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
 # if ! brew list node &>/dev/null; then
 #   brew install node
 # fi
