@@ -38,13 +38,13 @@ black==22.3.0
 bleach==5.0.0
 blinker==1.4
 borb==2.0.27
-boto3==1.24.7
-botocore==1.27.7
+boto3==1.24.8
+botocore==1.27.8
 bottle==0.12.21
 Brotli==1.0.9
 bs4==0.0.1
 cached-property==1.5.2
-cachelib==0.7.0
+cachelib==0.8.0
 cachetools==5.2.0
 cattrs==22.1.0
 celery==5.2.7

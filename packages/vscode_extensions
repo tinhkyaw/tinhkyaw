@@ -111,6 +111,7 @@ ms-python.gather
 ms-python.isort
 ms-python.pylint
 msrvida.vscode-sanddance
+ms-toolsai.vscode-jupyter-powertoys
 ms-vscode.brackets-pack
 ms-vscode.cpptools-extension-pack
 ms-vscode.github-issues-prs
