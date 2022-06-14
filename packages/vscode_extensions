@@ -45,6 +45,7 @@ GitHub.remotehub
 GitHub.vscode-codeql
 GitHub.vscode-pull-request-github
 gizak.shortcuts
+glenn2223.live-sass
 golang.go
 googlecloudtools.cloudcode
 GrapeCity.gc-excelviewer
@@ -148,7 +149,6 @@ redhat.vscode-commons
 RedVanWorkshop.explorer-exclude-vscode-extension
 Remisa.shellman
 richie5um2.vscode-sort-json
-ritwickdey.live-sass
 rogalmic.bash-debug
 rubbersheep.gi
 rust-lang.rust-analyzer
