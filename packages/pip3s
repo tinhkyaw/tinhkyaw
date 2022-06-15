@@ -38,8 +38,8 @@ black==22.3.0
 bleach==5.0.0
 blinker==1.4
 borb==2.0.27
-boto3==1.24.9
-botocore==1.27.9
+boto3==1.24.10
+botocore==1.27.10
 bottle==0.12.21
 Brotli==1.0.9
 bs4==0.0.1
@@ -49,7 +49,7 @@ cachetools==5.2.0
 cattrs==22.1.0
 celery==5.2.7
 cement==3.0.6
-certifi==2022.5.18.1
+certifi==2022.6.15
 cffi==1.15.0
 chardet==4.0.0
 charset-normalizer==2.0.12
