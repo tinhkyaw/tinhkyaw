@@ -96,7 +96,7 @@ docutils==0.18.1
 dparse==0.5.1
 editdistance==0.6.0
 elastic-transport==8.1.2
-elasticsearch==8.2.2
+elasticsearch==8.2.3
 email-validator==1.2.1
 entrypoints==0.4
 esbonio==0.13.0
@@ -133,7 +133,7 @@ geventhttpclient==1.5.3
 gitdb==4.0.9
 gitdb2==4.0.2
 GitPython==3.1.27
-google-api-core==2.8.1
+google-api-core==2.8.2
 google-auth==2.8.0
 google-auth-oauthlib==0.5.2
 google-cloud-bigquery==3.2.0
