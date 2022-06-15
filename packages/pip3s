@@ -85,7 +85,7 @@ diff-cover==6.5.0
 dill==0.3.5.1
 distlib==0.3.4
 Django==4.0.5
-django-environ==0.8.1
+django-environ==0.9.0
 django-extensions==3.1.5
 dnspython==2.2.1
 doc8==0.11.2
@@ -279,7 +279,7 @@ pygls==0.11.3
 Pygments==2.12.0
 PyGObject==3.42.1
 PyJWT==2.4.0
-pylint==2.14.1
+pylint==2.14.2
 pymongo==4.1.1
 PyNaCl==1.5.0
 pyparsing==3.0.9
@@ -315,7 +315,7 @@ pyquery==1.4.3
 pyre-check==0.9.13
 pyre-extensions==0.0.28
 pyrsistent==0.18.1
-pyspark==3.2.1
+pyspark==3.3.0
 pyspellchecker==0.6.3
 pytest==7.1.2
 python-barcode==0.14.0
