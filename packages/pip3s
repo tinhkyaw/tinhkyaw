@@ -27,7 +27,7 @@ async-timeout==4.0.2
 attrs==21.4.0
 autoflake==1.4
 autopep8==1.6.0
-Babel==2.10.2
+Babel==2.10.3
 backports.entry-points-selectable==1.1.1
 bandit==1.7.4
 based58==0.1.1
@@ -61,7 +61,7 @@ click-plugins==1.1.1
 click-repl==0.2.0
 clickclick==20.10.2
 cloudpickle==2.1.0
-colorama==0.4.4
+colorama==0.4.5
 colorlog==6.6.0
 commonmark==0.9.1
 ConfigArgParse==1.5.3
@@ -209,7 +209,7 @@ marshmallow-sqlalchemy==0.28.0
 matplotlib==3.5.2
 mccabe==0.7.0
 memory-profiler==0.60.0
-mercurial==6.1.3
+mercurial==6.1.4
 mistune==2.0.2
 monotonic==1.6
 more-itertools==8.13.0
@@ -416,7 +416,7 @@ torch==1.11.0
 torchaudio==0.11.0
 torchvision==0.12.0
 tqdm==4.64.0
-traitlets==5.2.2.post1
+traitlets==5.3.0
 twine==4.0.1
 typed-ast==1.5.4
 typeguard==2.13.3
