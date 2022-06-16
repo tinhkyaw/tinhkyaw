@@ -313,7 +313,7 @@ PyQtWebEngine==5.15.5
 PyQtWebEngine-Qt5==5.15.2
 pyquery==1.4.3
 pyre-check==0.9.13
-pyre-extensions==0.0.28
+pyre-extensions==0.0.29
 pyrsistent==0.18.1
 pyspark==3.3.0
 pyspellchecker==0.6.3
@@ -375,7 +375,7 @@ solana==0.24.0
 solders==0.2.0
 sortedcontainers==2.4.0
 soupsieve==2.3.2.post1
-Sphinx==5.0.1
+Sphinx==5.0.2
 sphinx-rtd-theme==1.0.0
 sphinxcontrib-applehelp==1.0.2
 sphinxcontrib-devhelp==1.0.2
