@@ -177,7 +177,7 @@ itsdangerous==2.1.2
 jedi==0.18.1
 Jinja2==3.1.2
 jinja2-pluralize==0.3.0
-jmespath==1.0.0
+jmespath==1.0.1
 joblib==1.1.0
 js-regex==1.0.1
 json5==0.9.8
@@ -193,7 +193,7 @@ kiwisolver==1.4.3
 kombu==5.2.4
 lazy-object-proxy==1.7.1
 libclang==14.0.1
-libcst==0.4.4
+libcst==0.4.5
 locket==1.0.0
 lockfile==0.12.2
 locust==2.9.0
@@ -218,7 +218,7 @@ msgpack==1.0.4
 multidict==6.0.2
 mxnet==1.9.1
 mypy-boto3-rds==1.24.0
-mypy-boto3-redshift-data==1.24.0
+mypy-boto3-redshift-data==1.24.11.post3
 mypy-extensions==0.4.3
 natsort==8.1.0
 networkx==2.8.4
@@ -387,7 +387,7 @@ SQLAlchemy==1.4.37
 SQLAlchemy-JSONField==1.0.0
 sqlalchemy-redshift==0.8.9
 SQLAlchemy-Utils==0.38.2
-sqlfluff==0.13.2
+sqlfluff==1.0.0
 sqlparse==0.4.2
 stevedore==3.5.0
 stringcase==1.2.0
