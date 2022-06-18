@@ -11,34 +11,37 @@ cd ${DIR}
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 PKG_DIR="${GIT_ROOT_DIR}/packages"
 brew list --formula >${SNAPSHOT_DIR}/brew${SUFFIX}.txt
-read -r -d '' BREWS_ABSENCE_IGNORED <<EOF
+read -r -d '' BREWS_TO_ADD <<EOF
+fluid_synth
 lepton
 luajit
+katago
+liblinear
 EOF
 {
   grep -F -x -v -f \
     <(brew deps --installed | awk -F ':' '{ print $2 }' | sed "s/ /\n/g" | sort -u) \
     <(brew list --formula --full-name -1 | sort)
-  echo ${BREWS_ABSENCE_IGNORED}
+  echo ${BREWS_TO_ADD}
 } | sort -u >${PKG_DIR}/brews
 brew list --cask >${SNAPSHOT_DIR}/cask${SUFFIX}.txt
-CASKS_PRESENCE_IGNORED="\
+CASKS_TO_IGNORE="\
 colloquy\
 |lastpass\
 |lulu\
+|mit-app-inventor\
 |ransomwhere\
 |viscosity\
 |webex-meetings\
 |^zoom$\
 "
-read -r -d '' CASKS_ABSENCE_IGNORED <<EOF
+read -r -d '' CASKS_TO_ADD <<EOF
 asciidocfx
 fig
-mit-app-inventor
 EOF
 {
-  brew list --cask | egrep -vi ${CASKS_PRESENCE_IGNORED}
-  echo ${CASKS_ABSENCE_IGNORED}
+  brew list --cask | egrep -vi ${CASKS_TO_IGNORE}
+  echo ${CASKS_TO_ADD}
 } | sort -u >${PKG_DIR}/casks
 brew tap >${SNAPSHOT_DIR}/tap${SUFFIX}.txt
 mas list >${SNAPSHOT_DIR}/mas${SUFFIX}.txt

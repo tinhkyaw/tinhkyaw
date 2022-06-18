@@ -1,4 +1,8 @@
 buo/cask-upgrade
+homebrew/aliases
+homebrew/autoupdate
+homebrew/bundle
 homebrew/cask-fonts
 homebrew/cask-versions
 homebrew/command-not-found
+homebrew/services

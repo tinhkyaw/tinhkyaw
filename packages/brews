@@ -50,6 +50,7 @@ ffmpeg
 findutils
 fish
 flake8
+fluid_synth
 fpc
 fx
 fzf

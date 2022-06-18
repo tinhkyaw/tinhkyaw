@@ -11,74 +11,73 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # YADR
-for config_file ($HOME/.yadr/zsh/*.zsh) source $config_file
-
-HOMEBREW_REPO="$(brew --repository)"
-
-# CNF
-HB_CNF_HANDLER="${HOMEBREW_REPO}/Library/Taps/homebrew/homebrew-command-not-found/handler.sh"
-if [ -f "$HB_CNF_HANDLER" ]; then
-source "$HB_CNF_HANDLER";
+if [[ -d ${$HOME}/.yadr ]]; then
+  for config_file ($HOME/.yadr/zsh/*.zsh) source $config_file
 fi
 
-HOMEBREW_PREFIX="$(brew --prefix)"
-
-########
-# asdf #
-########
-
-if [ -f ${HOMEBREW_PREFIX}/opt/asdf/libexec/asdf.sh ]; then
-  . ${HOMEBREW_PREFIX}/opt/asdf/asdf.sh
+if (( $+commands[brew] )); then
+  HOMEBREW_PREFIX="$(brew --prefix)"
+  HOMEBREW_REPO="$(brew --repository)"
+  # CNF
+  HB_CNF_HANDLER="${HOMEBREW_REPO}/Library/Taps/homebrew/homebrew-command-not-found/handler.sh"
+  if [[ -f "$HB_CNF_HANDLER" ]]; then
+    source "$HB_CNF_HANDLER";
+  fi
+  ########
+  # asdf #
+  ########
+  if [[ -f ${HOMEBREW_PREFIX}/opt/asdf/libexec/asdf.sh ]]; then
+    . ${HOMEBREW_PREFIX}/opt/asdf/asdf.sh
+  fi
+  ###########
+  # thefuck #
+  ###########
+  if (( $+commands[thefuck] )); then
+    eval $(thefuck --alias)
+  fi
+  ###########
+  # Aliases #
+  ###########
+  alias fu='fuck'
+  alias ls='exa'
+  alias ll='exa -l'
+  alias cat='bat'
+  alias f='fzf --preview "bat --color \"always\" {}"'
+  alias man='tldr'
+  alias top='glances'
+  ###############
+  # Environment #
+  ###############
+  export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
+  export BYOBU_PREFIX="${HOMEBREW_PREFIX}"
+  export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+  CFLAGS+=" -I${HOMEBREW_PREFIX}/opt/zlib/include"
+  export CFLAGS
+  LDFLAGS+=" -L${HOMEBREW_PREFIX}/opt/openssl/lib -L${HOMEBREW_PREFIX}/opt/zlib/lib"
+  export LDFLAGS
+  export OPENBLAS="${HOMEBREW_PREFIX}/opt/openblas"
+  if [[ -d "${HOMEBREW_PREFIX}/anaconda3/bin" ]]; then
+    export PATH=$PATH:"${HOMEBREW_PREFIX}/anaconda3/bin"
+  fi
+  if [[ -d "${HOMEBREW_PREFIX}/opt/ruby/bin" ]]; then
+    export PATH="${HOMEBREW_PREFIX}/opt/ruby/bin":$PATH
+  fi
+  if [[ -d "${HOMEBREW_PREFIX}/Caskroom/google-cloud-sdk/latest/google-cloud-sdk" ]]; then
+    source "${HOMEBREW_PREFIX}/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+    source "${HOMEBREW_PREFIX}/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+  fi
 fi
 
-###########
-# thefuck #
-###########
-
-eval $(thefuck --alias)
-
-###########
-# Aliases #
-###########
-
-alias fu='fuck'
-alias ls='exa'
-alias ll='exa -l'
-alias cat='bat'
-alias f='fzf --preview "bat --color \"always\" {}"'
-alias man='tldr'
-alias top='glances'
-
-###############
-# Environment #
-###############
-
-export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-export BYOBU_PREFIX="${HOMEBREW_PREFIX}"
-export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
-export CFLAGS="-I${HOMEBREW_PREFIX}/opt/zlib/include"
-export LDFLAGS="-L${HOMEBREW_PREFIX}/opt/openssl/lib -L${HOMEBREW_PREFIX}/opt/zlib/lib"
-export OPENBLAS="${HOMEBREW_PREFIX}/opt/openblas"
-
-if [ -d "${HOMEBREW_PREFIX}/anaconda3/bin" ]; then
-  export PATH=$PATH:"${HOMEBREW_PREFIX}/anaconda3/bin"
-fi
-
-if [ -d "${HOMEBREW_PREFIX}/opt/ruby/bin" ]; then
-  export PATH="${HOMEBREW_PREFIX}/opt/ruby/bin":$PATH
-fi
-
-export PATH="$PATH:${BMA_HOME:-$HOME/.bash-my-aws}/bin"
-if [ -d ${HOME}/.bash-my-aws ]; then
+if [[ -d ${BMA_HOME:-$HOME}/.bash-my-aws ]]; then
+  export PATH="$PATH:${BMA_HOME:-$HOME/.bash-my-aws}/bin"
   source ${BMA_HOME:-$HOME/.bash-my-aws}/aliases
   autoload -U +X compinit && compinit
   autoload -U +X bashcompinit && bashcompinit
   source ${BMA_HOME:-$HOME/.bash-my-aws}/bash_completion.sh
 fi
 
-if [ -d "${HOMEBREW_PREFIX}/Caskroom/google-cloud-sdk/latest/google-cloud-sdk" ]; then
-  source "${HOMEBREW_PREFIX}/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
-  source "${HOMEBREW_PREFIX}/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+if [[ -f ${HOME}/bin/get-cli-sudo-pass.sh ]]; then
+  export SUDO_ASKPASS=${HOME}/bin/get-cli-sudo-pass.sh
 fi
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.

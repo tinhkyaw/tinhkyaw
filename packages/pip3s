@@ -279,7 +279,7 @@ pygls==0.11.3
 Pygments==2.12.0
 PyGObject==3.42.1
 PyJWT==2.4.0
-pylint==2.14.2
+pylint==2.14.3
 pymongo==4.1.1
 PyNaCl==1.5.0
 pyparsing==3.0.9
@@ -289,7 +289,7 @@ PyQt3D-Qt5==5.15.2
 PyQt5==5.15.6
 PyQt5-Qt==5.15.2
 PyQt5-Qt5==5.15.2
-PyQt5-sip==12.10.1
+PyQt5-sip==12.11.0
 PyQt6==6.3.1
 PyQt6-3D==6.3.0
 PyQt6-3D-Qt6==6.3.1
@@ -301,7 +301,7 @@ PyQt6-NetworkAuth==6.3.0
 PyQt6-NetworkAuth-Qt6==6.3.1
 PyQt6-Qt6==6.3.1
 PyQt6-sip==13.4.0
-PyQtChart==5.15.5
+PyQtChart==5.15.6
 PyQtChart-Qt5==5.15.2
 PyQtDataVisualization==5.15.5
 PyQtDataVisualization-Qt5==5.15.2
@@ -309,7 +309,7 @@ PyQtNetworkAuth==5.15.5
 PyQtNetworkAuth-Qt5==5.15.2
 PyQtPurchasing==5.15.5
 PyQtPurchasing-Qt5==5.15.2
-PyQtWebEngine==5.15.5
+PyQtWebEngine==5.15.6
 PyQtWebEngine-Qt5==5.15.2
 pyquery==1.4.3
 pyre-check==0.9.13
