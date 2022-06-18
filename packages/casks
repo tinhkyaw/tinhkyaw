@@ -22,6 +22,7 @@ alpha
 alt-tab
 altair-graphql-client
 altserver
+amazon-music
 amazon-photos
 anaconda
 android-commandlinetools
@@ -118,6 +119,7 @@ cocoaspell
 codelite
 codeql
 cog
+collabshot
 connectmenow
 convert3dgui
 copyq
@@ -168,6 +170,7 @@ digital
 discord
 djv
 djview
+dmidiplayer
 docker
 dockstation
 dotnet-sdk
@@ -292,11 +295,13 @@ google-chrome
 google-cloud-sdk
 google-drive
 google-earth-pro
+google-featured-photos
 google-trends
 google-web-designer
 gopass-ui
 gplates
 gpodder
+gpower
 gpxsee
 gqrx
 grads
@@ -427,6 +432,8 @@ lazpaint
 lazy
 leapp
 leela
+leksah
+lektor
 lens
 lepton
 libcblite-community
@@ -440,6 +447,7 @@ lighttable
 linearmouse
 liteide
 little-navmap
+liya
 lmms
 loaf
 localizationeditor
@@ -491,12 +499,14 @@ mdimagesizemdimporter
 media-converter
 mediaelch
 mediahuman-audio-converter
+megax
 meld
 memo
 menu-bar-splitter
 menumeters
 meshlab
 metaz
+meteorologist
 microsoft-auto-update
 microsoft-edge
 midi-monitor
@@ -538,6 +548,7 @@ mysql-shell
 mysqlworkbench
 nally
 nasas-eyes
+nautilus
 ncar-ncl
 ndm
 neo4j
@@ -580,6 +591,7 @@ omegat
 omnidisksweeper
 onyx
 open-video-downloader
+openboard
 openboardview
 opencpn
 openoffice
@@ -731,6 +743,7 @@ rember
 remoteviewer
 renpy
 responsively
+retinizer
 rightzoom
 ripme
 roaringapps
@@ -798,17 +811,18 @@ simsim
 sioyek
 sitala
 skala-preview
-sketch
 sketchbook
 skim
 skitch
 skychart
 skype
+skypewebplugin
 slack
 sleek
 slic3r
 slicer
 slidepilot
+slik
 slimbatterymonitor
 slimhud
 sloth
@@ -919,6 +933,7 @@ textadept
 textmate
 texts
 texworks
+th-makerx
 the-tagger
 the-unarchiver
 thetimemachinemechanic
@@ -972,6 +987,7 @@ tvrenamer
 tweeten
 twilioquest
 twine
+twitch
 twobird
 tyke
 udig
@@ -990,6 +1006,7 @@ universal-media-server
 unpkg
 upm
 usage
+usbimager
 utm
 uvtools
 vagrant
@@ -1004,10 +1021,14 @@ via
 vial
 viber
 vidcutter
+vidl
+vidyo
 vienna
 vimediamanager
 vimr
 vine-server
+virtualbox
+virtualbox-extension-pack
 visit
 visual
 visual-paradigm-ce
@@ -1043,6 +1064,7 @@ whatroute
 whatsyoursign
 whichspace
 widelands
+windscribe
 wine-stable
 wing-personal
 wings3d

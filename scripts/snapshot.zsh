@@ -11,9 +11,16 @@ cd ${DIR}
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 PKG_DIR="${GIT_ROOT_DIR}/packages"
 brew list --formula >${SNAPSHOT_DIR}/brew${SUFFIX}.txt
-grep -F -x -v -f \
-  <(brew deps --installed | awk -F ':' '{ print $2 }' | sed "s/ /\n/g" | sort -u) \
-  <(brew list --formula --full-name -1 | sort) >${PKG_DIR}/brews
+read -r -d '' BREWS_ABSENCE_IGNORED <<EOF
+lepton
+luajit
+EOF
+{
+  grep -F -x -v -f \
+    <(brew deps --installed | awk -F ':' '{ print $2 }' | sed "s/ /\n/g" | sort -u) \
+    <(brew list --formula --full-name -1 | sort)
+  echo ${BREWS_ABSENCE_IGNORED}
+} | sort -u >${PKG_DIR}/brews
 brew list --cask >${SNAPSHOT_DIR}/cask${SUFFIX}.txt
 CASKS_PRESENCE_IGNORED="\
 colloquy\
@@ -33,14 +40,13 @@ EOF
   brew list --cask | egrep -vi ${CASKS_PRESENCE_IGNORED}
   echo ${CASKS_ABSENCE_IGNORED}
 } | sort -u >${PKG_DIR}/casks
+brew tap >${SNAPSHOT_DIR}/tap${SUFFIX}.txt
 mas list >${SNAPSHOT_DIR}/mas${SUFFIX}.txt
 gem list >${SNAPSHOT_DIR}/gem${SUFFIX}.txt
 npm ls --location=global --depth 0 >${SNAPSHOT_DIR}/npm${SUFFIX}.txt
 pip3 freeze --local >${SNAPSHOT_DIR}/pip3${SUFFIX}.txt
 pip3 freeze --local >${PKG_DIR}/pip3s
 conda list >${SNAPSHOT_DIR}/conda${SUFFIX}.txt
-apm list --installed --bare >${SNAPSHOT_DIR}/atom${SUFFIX}.txt
-apm list --installed --bare >${PKG_DIR}/atom_packages
 code --list-extensions --show-versions | sort -d -f \
   >${SNAPSHOT_DIR}/code${SUFFIX}.txt
 grep -F -x -v -f \

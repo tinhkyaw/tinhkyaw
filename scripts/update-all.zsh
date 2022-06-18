@@ -34,7 +34,7 @@ npm-check-updates -g --timeout 150000
 pip3 install --upgrade pip setuptools
 pip3 freeze --local | cut -d = -f 1 | cut -d ' ' -f 1 | xargs pip3 install --upgrade --use-deprecated=legacy-resolver
 conda update --all
-# apm upgrade
+apm upgrade
 if [[ -d ~/.bash-my-aws ]]; then
   cd ~/.bash-my-aws
   git pull

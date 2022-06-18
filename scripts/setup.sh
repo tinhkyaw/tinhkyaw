@@ -16,7 +16,6 @@ xargs -I {} brew tap {} <"${GIT_ROOT_DIR}"/packages/taps
 xargs brew install <"${GIT_ROOT_DIR}"/packages/brews
 xargs brew install --cask <"${GIT_ROOT_DIR}"/packages/casks
 xargs npm install -g <"${GIT_ROOT_DIR}"/packages/npms
-apm install --packages-file "${GIT_ROOT_DIR}"/packages/atom_packages
 xargs -I {} code --install-extension {} <"${GIT_ROOT_DIR}"/packages/vscode_extensions
 pip3 install -U --use-deprecated=legacy-resolver -r "${GIT_ROOT_DIR}"/packages/pip3s
 "${GIT_ROOT_DIR}"/scripts/setup-bin.sh
