@@ -11,7 +11,7 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # YADR
-if [[ -d ${$HOME}/.yadr ]]; then
+if [[ -d ~/.yadr ]]; then
   for config_file ($HOME/.yadr/zsh/*.zsh) source $config_file
 fi
 
@@ -26,7 +26,7 @@ if (( $+commands[brew] )); then
   ########
   # asdf #
   ########
-  if [[ -f ${HOMEBREW_PREFIX}/opt/asdf/libexec/asdf.sh ]]; then
+  if [[ -f "${HOMEBREW_PREFIX}/opt/asdf/libexec/asdf.sh" ]]; then
     . ${HOMEBREW_PREFIX}/opt/asdf/asdf.sh
   fi
   ###########
@@ -68,7 +68,7 @@ if (( $+commands[brew] )); then
   fi
 fi
 
-if [[ -d ${BMA_HOME:-$HOME}/.bash-my-aws ]]; then
+if [[ -d "${BMA_HOME:-$HOME}/.bash-my-aws" ]]; then
   export PATH="$PATH:${BMA_HOME:-$HOME/.bash-my-aws}/bin"
   source ${BMA_HOME:-$HOME/.bash-my-aws}/aliases
   autoload -U +X compinit && compinit
@@ -76,7 +76,7 @@ if [[ -d ${BMA_HOME:-$HOME}/.bash-my-aws ]]; then
   source ${BMA_HOME:-$HOME/.bash-my-aws}/bash_completion.sh
 fi
 
-if [[ -f ${HOME}/bin/get-cli-sudo-pass.sh ]]; then
+if [[ -f "${HOME}/bin/get-cli-sudo-pass.sh" ]]; then
   export SUDO_ASKPASS=${HOME}/bin/get-cli-sudo-pass.sh
 fi
 
