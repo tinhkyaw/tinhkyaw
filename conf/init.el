@@ -127,7 +127,6 @@
                          ("org" . "http://orgmode.org/elpa/"))
 package-archive-priorities '(("melpa-stable" . 1)))
 
-(package-initialize)
 (when (not package-archive-contents)
   (package-refresh-contents)
   (package-install 'use-package))

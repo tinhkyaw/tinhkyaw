@@ -58,7 +58,6 @@ helixquar.randomeverything
 herrmannplatz.npm-dependency-links
 heybourn.headwind
 humao.rest-client
-i80and.snooty
 IBM.output-colorizer
 idleberg.icon-fonts
 ionutvmi.path-autocomplete
@@ -67,7 +66,6 @@ jakob101.RelativePath
 jasonlhy.hungry-delete
 JoeBerria.statusbarerror
 johnpapa.vscode-peacock
-josetr.cmake-language-support-vscode
 kingwl.ts-react-hooks-tools
 kisstkondoros.vscode-gutter-preview
 korekontrol.saltstack
@@ -81,6 +79,7 @@ mads-hartmann.bash-ide-vscode
 magicstack.MagicPython
 MariusAlchimavicius.json-to-ts
 mathiasfrohlich.Kotlin
+mattn.Lisp
 mattn.Runner
 mechatroner.rainbow-csv
 meganrogge.template-string-converter
@@ -95,29 +94,22 @@ ms-azuretools.vscode-dapr
 ms-azuretools.vscode-docker
 ms-devlabs.extension-manifest-editor
 ms-dotnettools.csharp
-ms-edgedevtools.network-edge-devtools
 ms-edgedevtools.vscode-edge-devtools
 ms-inkling.ms-inkling
 ms-iot.vscode-ros
 msjsdiag.cordova-tools
-msjsdiag.debugger-for-edge
 msjsdiag.vscode-react-native
 ms-kubernetes-tools.kind-vscode
 ms-kubernetes-tools.kubernetes-opa-vscode
 ms-ossdata.vscode-postgresql
 ms-playwright.playwright
-ms-python.anaconda-extension-pack
 ms-python.black-formatter
-ms-python.devicesimulatorexpress
 ms-python.gather
 ms-python.isort
 ms-python.pylint
 msrvida.vscode-sanddance
-ms-toolsai.vscode-jupyter-powertoys
 ms-vscode.brackets-pack
 ms-vscode.cpptools-extension-pack
-ms-vscode.github-issues-prs
-ms-vscode.github-richnav
 ms-vscode.hexeditor
 ms-vscode.live-server
 ms-vscode.makefile-tools
@@ -131,7 +123,6 @@ ms-vscode.vscode-markdown-notebook
 ms-vscode.vscode-marketplace-extension-browser
 ms-vscode.vscode-selfhost-test-provider
 ms-vscode.vscode-smoketest-check
-ms-vsonline.vsonline
 mushan.vscode-paste-image
 naumovs.color-highlight
 nhoizey.gremlins
@@ -140,7 +131,6 @@ oderwat.indent-rainbow
 OpenPAIVSCodeClient.pai-vscode
 PKief.material-icon-theme
 pnp.polacode
-prettier.prettier-vscode
 pucelle.vscode-css-navigation
 pustelto.bracketeer
 qcz.text-power-tools
@@ -182,7 +172,6 @@ waderyan.gitblame
 waderyan.nodejs-extension-pack
 wayou.vscode-todo-highlight
 webfreak.debug
-wix.vscode-import-cost
 wmaurer.change-case
 wwm.better-align
 xabikos.JavaScriptSnippets
