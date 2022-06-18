@@ -3,6 +3,7 @@ WD=$(pwd)
 DIR=$(dirname "$(greadlink -f "${0}")")
 cd "${DIR}" || exit
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
+# shellcheck source=./setup-common.sh
 source "${GIT_ROOT_DIR}"/scripts/setup-common.sh
 for conf_file in .gitconfig .zshrc; do
   replace_file "${conf_file}" "${GIT_ROOT_DIR}"/conf "${HOME}"
