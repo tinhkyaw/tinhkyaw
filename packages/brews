@@ -25,6 +25,7 @@ brimdata/tap/zq
 buildifier
 byobu
 carthage
+chezmoi
 cmake
 cocoapods
 colordiff
@@ -138,6 +139,7 @@ pyqt
 qcachegrind
 r
 rclone
+rcm
 rds-command-line-tools
 reattach-to-user-namespace
 redis
