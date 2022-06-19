@@ -50,7 +50,7 @@ ffmpeg
 findutils
 fish
 flake8
-fluid_synth
+fluid-synth
 fpc
 fx
 fzf
@@ -163,6 +163,7 @@ sops
 sphinx-doc
 spidermonkey
 stow
+subversion
 swiftformat
 swig
 swimat

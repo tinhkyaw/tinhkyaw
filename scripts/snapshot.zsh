@@ -12,7 +12,7 @@ GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 PKG_DIR="${GIT_ROOT_DIR}/packages"
 brew list --formula >${SNAPSHOT_DIR}/brew${SUFFIX}.txt
 read -r -d '' BREWS_TO_ADD <<EOF
-fluid_synth
+fluid-synth
 lepton
 luajit
 katago
