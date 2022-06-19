@@ -37,10 +37,12 @@ conda update --all
 apm upgrade
 if [[ -d ~/.bash-my-aws ]]; then
   cd ~/.bash-my-aws
+  echo "Updating ~/.bash-my-aws"
   git pull
 fi
 if [[ -d ~/.yadr ]]; then
   cd ~/.yadr
+  echo "Updating ~/.yadr"
   git pull
 fi
 gcloud components update
