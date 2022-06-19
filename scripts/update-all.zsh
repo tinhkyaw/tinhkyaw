@@ -34,6 +34,7 @@ npm-check-updates -g --timeout 150000
 pip3 install --upgrade pip setuptools
 pip3 freeze --local | cut -d = -f 1 | cut -d ' ' -f 1 | xargs pip3 install --upgrade --use-deprecated=legacy-resolver
 conda update --all
+gcloud components update
 apm upgrade
 color=green
 if [[ -d ~/.emacs.d ]]; then
@@ -51,10 +52,10 @@ if [[ -d ~/.yadr ]]; then
   print -P "%F{$color}Updating ~/.yadr%f"
   git pull
 fi
-gcloud components update
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
-  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+  color=green
   print -P "%F{$color}Updating ~/.zprezto%f"
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
   zprezto-update
 fi
 cd ${P}
