@@ -53,7 +53,6 @@ if [[ -d ~/.yadr ]]; then
   git pull
 fi
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
-  color=green
   print -P "%F{$color}Updating ~/.zprezto%f"
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
   zprezto-update
