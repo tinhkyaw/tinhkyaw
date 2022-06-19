@@ -26,4 +26,12 @@ for rcfile in "${GIT_ROOT_DIR}"/conf/zsh/*; do
   ln -sf "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
 done
 ln -sf "${GIT_ROOT_DIR}/conf/.gitignore" "${ZDOTDIR:-$HOME}/.gitignore"
+cd ~
+if [[ -d .emacs.d ]]; then
+  mv .emacs.d .emacs.d.bak
+fi
+if [[ -f .emacs ]]; then
+  mv .emacs .emacs.bak
+fi
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 cd "${WD}" || exit

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 pw_name="CLI sudo"
-pw_account="$(whoami)"
+pw_account="$USER"
 if ! cli_sudo_pass=$(security find-generic-password -w -s "$pw_name" -a "$pw_account"); then
     echo "error $?"
     exit 1
