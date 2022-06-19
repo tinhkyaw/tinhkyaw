@@ -18,6 +18,9 @@ fi
 if (( $+commands[brew] )); then
   HOMEBREW_PREFIX="$(brew --prefix)"
   HOMEBREW_REPO="$(brew --repository)"
+  FPATH="${HOMEBREW_PREFIX}/share/zsh/site-functions:${FPATH}"
+  autoload -Uz compinit
+  compinit
   # CNF
   HB_CNF_HANDLER="${HOMEBREW_REPO}/Library/Taps/homebrew/homebrew-command-not-found/handler.sh"
   if [[ -f "$HB_CNF_HANDLER" ]]; then
