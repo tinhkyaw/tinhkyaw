@@ -35,25 +35,26 @@ pip3 install --upgrade pip setuptools
 pip3 freeze --local | cut -d = -f 1 | cut -d ' ' -f 1 | xargs pip3 install --upgrade --use-deprecated=legacy-resolver
 conda update --all
 apm upgrade
+color=green
 if [[ -d ~/.emacs.d ]]; then
   cd ~/.emacs.d
-  echo "Updating spacemacs"
+  print -P "%F{$color}Updating spacemacs%f"
   git pull
 fi
 if [[ -d ~/.bash-my-aws ]]; then
   cd ~/.bash-my-aws
-  echo "Updating ~/.bash-my-aws"
+  print -P "%F{$color}Updating ~/.bash-my-aws%f"
   git pull
 fi
 if [[ -d ~/.yadr ]]; then
   cd ~/.yadr
-  echo "Updating ~/.yadr"
+  print -P "%F{$color}Updating ~/.yadr%f"
   git pull
 fi
 gcloud components update
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
-  echo "Updating ~/.zprezto"
+  print -P "%F{$color}Updating ~/.zprezto%f"
   zprezto-update
 fi
 cd ${P}
