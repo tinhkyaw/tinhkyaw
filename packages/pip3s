@@ -1,7 +1,6 @@
 apache-airflow-providers-amazon
 autoflake
 autopep8
-backports.entry-points-selectable
 bandit
 black
 borb
