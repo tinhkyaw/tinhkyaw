@@ -36,8 +36,18 @@ colloquy\
 |^zoom$\
 "
 read -r -d '' CASKS_TO_ADD <<EOF
+amazon-music
 asciidocfx
+dmidiplayer
 fig
+gpower
+meteorologist
+nautilus
+usbimager
+vidl
+virtualbox
+virtualbox-extension-pack
+windscribe
 EOF
 {
   brew list --cask | egrep -vi ${CASKS_TO_IGNORE}

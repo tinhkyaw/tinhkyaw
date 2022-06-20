@@ -43,6 +43,7 @@
     "**/.metals": true,
     "**/target": true
   },
+  "git.autofetch": true,
   "git.path": "/usr/local/bin/git",
   "gitlens.advanced.messages": {
     "suppressCommitHasNoPreviousCommitWarning": false,
