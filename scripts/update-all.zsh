@@ -20,7 +20,7 @@ brew outdated --cask
 if ($is_greedy); then
   brew upgrade --cask --greedy
 else
-  brew cu -a
+  brew cu -ay
 fi
 brew cleanup -s
 brew doctor
