@@ -41,9 +41,7 @@ asciidocfx
 dmidiplayer
 fig
 gpower
-meteorologist
 nautilus
-usbimager
 vidl
 virtualbox
 virtualbox-extension-pack
