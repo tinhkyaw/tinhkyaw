@@ -84,6 +84,7 @@ pyre-check
 pyspark
 python-editor
 pywatchman
+qscintilla
 requirements-parser
 retry
 retrying
