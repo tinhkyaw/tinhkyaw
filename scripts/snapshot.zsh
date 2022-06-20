@@ -19,7 +19,7 @@ katago
 liblinear
 EOF
 {
-  grep -F -x -v -f \
+  grep -Fvxf \
     <(brew deps --installed | awk -F ':' '{ print $2 }' | sed "s/ /\n/g" | sort -u) \
     <(brew list --formula --full-name -1 | sort)
   echo ${BREWS_TO_ADD}
@@ -59,15 +59,22 @@ gem list >${SNAPSHOT_DIR}/gem${SUFFIX}.txt
 npm ls --location=global --depth 0 >${SNAPSHOT_DIR}/npm${SUFFIX}.txt
 pip3 freeze --local >${SNAPSHOT_DIR}/pip3${SUFFIX}.txt
 pip3 freeze --local >${PKG_DIR}/pip3s
+grep -Fvxf \
+  <(pip3 freeze | cut -d '=' -f1 | xargs pip show | grep -i 'requires' |
+    awk -F ': ' '{ print $2 }' | tr '[:upper:]' '[:lower:]' |
+    sed 's/,/\n/g' | sed 's/ //g' | awk NF | sort -u) \
+  <(pip3 freeze | cut -d '=' -f1 | tr '[:upper:]' '[:lower:]' | sort -u) \
+  >${PKG_DIR}/pips
 conda list >${SNAPSHOT_DIR}/conda${SUFFIX}.txt
 code --list-extensions --show-versions | sort -d -f \
   >${SNAPSHOT_DIR}/code${SUFFIX}.txt
-grep -F -x -v -f \
+grep -Fvxf \
   <(egrep -l 'extensionDependencies|extensionPack' \
     ~/.vscode/extensions/*/package.json |
     xargs -I {} jq '.extensionDependencies, .extensionPack' {} |
     jq -sS 'add|sort|unique' |
-    jq -r '.[]') <(code --list-extensions | sort -d -f) >${PKG_DIR}/vscode_extensions
+    jq -r '.[]') \
+  <(code --list-extensions | sort -d -f) >${PKG_DIR}/vscode_extensions
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --version > \
   ${SNAPSHOT_DIR}/chrome${SUFFIX}.txt
 gcloud version | grep -v gcloud >${SNAPSHOT_DIR}/gcloud${SUFFIX}.txt
