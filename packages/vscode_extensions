@@ -119,13 +119,10 @@ ms-vscode.makefile-tools
 ms-vscode.mock-debug
 ms-vscode.mono-debug
 ms-vscode-remote.vscode-remote-extensionpack
-ms-vscode.theme-tester
 ms-vscode.vscode-github-issue-notebooks
 ms-vscode.vscode-js-profile-flame
 ms-vscode.vscode-markdown-notebook
 ms-vscode.vscode-marketplace-extension-browser
-ms-vscode.vscode-selfhost-test-provider
-ms-vscode.vscode-smoketest-check
 mushan.vscode-paste-image
 naumovs.color-highlight
 nhoizey.gremlins
