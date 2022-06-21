@@ -52,6 +52,7 @@ EOF
   echo ${CASKS_TO_ADD}
 } | sort -u >${PKG_DIR}/casks
 brew tap >${SNAPSHOT_DIR}/tap${SUFFIX}.txt
+brew tap >${PKG_DIR}/taps
 mas list >${SNAPSHOT_DIR}/mas${SUFFIX}.txt
 gem list >${SNAPSHOT_DIR}/gem${SUFFIX}.txt
 npm ls --location=global --depth 0 >${SNAPSHOT_DIR}/npm${SUFFIX}.txt
