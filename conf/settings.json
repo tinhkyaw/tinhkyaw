@@ -22,6 +22,7 @@
   "cmake.configureOnOpen": false,
   "codespaces.accountProvider": "GitHub",
   "csharp.suppressDotnetInstallWarning": true,
+  "debug.terminal.clearBeforeReusing": true,
   "editor.formatOnSave": true,
   "editor.inlineSuggest.enabled": true,
   "editor.suggestSelection": "first",
@@ -111,6 +112,7 @@
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.fontFamily": "'MesloLGS NF'",
   "terminal.integrated.fontSize": 14,
+  "terminal.integrated.persistentSessionReviveProcess": "never",
   "trunk.trunkGrayOutNonBlockingIssues": false,
   "vs-kubernetes": {
     "vs-kubernetes.draft-path.mac": "${env:HOME}/tin/.vs-kubernetes/tools/draft/darwin-amd64/draft",
