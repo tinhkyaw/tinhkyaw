@@ -105,7 +105,6 @@ ms-kubernetes-tools.kind-vscode
 ms-kubernetes-tools.kubernetes-opa-vscode
 ms-ossdata.vscode-postgresql
 ms-playwright.playwright
-ms-python.black-formatter
 ms-python.gather
 ms-python.isort
 ms-python.pylint
@@ -152,7 +151,6 @@ scalameta.metals
 SimonSiefke.svg-preview
 sleistner.vscode-fileutils
 snooty.snooty
-SonarSource.sonarlint-vscode
 spmeesseman.vscode-taskexplorer
 spywhere.guides
 stylelint.vscode-stylelint
