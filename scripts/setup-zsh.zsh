@@ -25,7 +25,10 @@ git clone --recurse-submodules https://github.com/belak/prezto-contrib contrib
 for rcfile in "${GIT_ROOT_DIR}"/conf/zsh/*; do
   ln -sf "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
 done
-ln -sf "${GIT_ROOT_DIR}/conf/.gitignore" "${ZDOTDIR:-$HOME}/.gitignore"
+if [[ -f ${GIT_ROOT_DIR}/conf/.gitconfig ]]; then
+  mv ${GIT_ROOT_DIR}/conf/.gitconfig ${GIT_ROOT_DIR}/conf/.gitconfig.bak
+fi
+ln -s "${GIT_ROOT_DIR}/conf/.gitconfig" "${ZDOTDIR:-$HOME}/.gitconfig"
 cd ~
 if [[ -d .emacs.d ]]; then
   mv .emacs.d .emacs.d.bak
