@@ -32,6 +32,7 @@ xargs brew install --cask <"${GIT_ROOT_DIR}"/packages/casks
 xargs npm install -g <"${GIT_ROOT_DIR}"/packages/npms
 xargs -I {} code --install-extension {} <"${GIT_ROOT_DIR}"/packages/vscode_extensions
 pip3 install -U --use-deprecated=legacy-resolver -r "${GIT_ROOT_DIR}"/packages/pip3s
+xargs gem install <"${GIT_ROOT_DIR}"/packages/npms
 "${GIT_ROOT_DIR}"/scripts/setup-bin.sh
 "${GIT_ROOT_DIR}"/scripts/setup-conf.sh
 "${GIT_ROOT_DIR}"/scripts/setup-sudo-askpass.sh
