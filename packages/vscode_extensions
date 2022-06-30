@@ -40,6 +40,7 @@ formulahendry.auto-rename-tag
 formulahendry.docker-explorer
 foxundermoon.shell-format
 fwcd.kotlin
+GabrielBB.vscode-lombok
 Gimly81.matlab
 GitHub.copilot
 GitHub.copilot-labs
@@ -96,7 +97,8 @@ ms-1es.pull-request-quantifier
 ms-azuretools.vscode-dapr
 ms-azuretools.vscode-docker
 ms-devlabs.extension-manifest-editor
-ms-dotnettools.csharp
+ms-dotnettools.blazorwasm-companion
+ms-dotnettools.vscode-dotnet-pack
 ms-edgedevtools.vscode-edge-devtools
 ms-inkling.ms-inkling
 ms-iot.vscode-ros
@@ -110,15 +112,16 @@ ms-python.gather
 ms-python.isort
 ms-python.pylint
 msrvida.vscode-sanddance
+MS-SarifVSCode.sarif-viewer
 ms-toolsai.vscode-jupyter-powertoys
 ms-vscode.brackets-pack
 ms-vscode.cpptools-extension-pack
 ms-vscode.hexeditor
 ms-vscode.live-server
 ms-vscode.makefile-tools
-ms-vscode.mock-debug
 ms-vscode.mono-debug
 ms-vscode-remote.vscode-remote-extensionpack
+ms-vscode.vscode-embedded-tools
 ms-vscode.vscode-github-issue-notebooks
 ms-vscode.vscode-js-profile-flame
 ms-vscode.vscode-markdown-notebook
