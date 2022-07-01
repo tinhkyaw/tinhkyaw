@@ -95,7 +95,6 @@ leiningen
 lepton
 liblinear
 libmaxminddb
-libnghttp2
 libpq
 libproxy
 libsmi
