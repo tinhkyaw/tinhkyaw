@@ -26,6 +26,7 @@ for rcfile in "${GIT_ROOT_DIR}"/conf/zsh/*; do
   ln -sf "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
 done
 ln -sf "${GIT_ROOT_DIR}/conf/.gitconfig" "${ZDOTDIR:-$HOME}/.gitconfig"
+ln -sf "${GIT_ROOT_DIR}/.gitignore" "${ZDOTDIR:-$HOME}/.gitignore"
 if [[ -f ~/.inputrc ]]; then
   unlink ~/.inputrc
 fi

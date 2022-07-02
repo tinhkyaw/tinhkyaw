@@ -1,5 +1,7 @@
-### MacOS
-*.DS_Store
+# MacOS     src: https://github.com/github/gitignore/blob/main/Global/macOS.gitignore
+# ----------------------------------------------------------------------------------------------
+# General
+.DS_Store
 .AppleDouble
 .LSOverride
 
@@ -25,18 +27,34 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-.metals
+# SASS      src: https://github.com/github/gitignore/blob/main/Sass.gitignore
+# ----------------------------------------------------------------------------------------------
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
 
-.vscode/*
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/settings.json
-*.code-workspace
+# Tags      src: https://github.com/github/gitignore/blob/main/Global/Tags.gitignore
+# ----------------------------------------------------------------------------------------------
+# Ignore tags created by etags, ctags, gtags (GNU global) and cscope
+TAGS
+.TAGS
+!TAGS/
+tags
+.tags
+!tags/
+gtags.files
+GTAGS
+GRTAGS
+GPATH
+GSYMS
+cscope.files
+cscope.out
+cscope.in.out
+cscope.po.out
 
-# Local History for Visual Studio Code
-.history/
-
+# TeX       src: https://github.com/github/gitignore/blob/main/TeX.gitignore
+# ----------------------------------------------------------------------------------------------
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
@@ -150,15 +168,23 @@ acs-*.bib
 *.glsdefs
 *.lzo
 *.lzs
+*.slg
+*.slo
+*.sls
 
 # uncomment this for glossaries-extra (will ignore makeindex's style files!)
 # *.ist
+
+# gnuplot
+*.gnuplot
+*.table
 
 # gnuplottex
 *-gnuplottex-*
 
 # gregoriotex
 *.gaux
+*.glog
 *.gtex
 
 # htlatex
@@ -205,6 +231,9 @@ _minted*
 # morewrites
 *.mw
 
+# newpax
+*.newpax
+
 # nomencl
 *.nlg
 *.nlo
@@ -223,6 +252,9 @@ _minted*
 
 # scrwfile
 *.wrt
+
+# svg
+svg-inkscape/
 
 # sympy
 *.sout
@@ -247,6 +279,9 @@ pythontex-files-*/
 *.dpth
 *.md5
 *.auxlock
+
+# titletoc
+*.ptc
 
 # todonotes
 *.tdo
@@ -321,3 +356,44 @@ TSWLatexianTemp*
 # option is specified. Footnotes are the stored in a file with suffix Notes.bib.
 # Uncomment the next line to have this generated file ignored.
 #*Notes.bib
+
+# Vim       src: https://github.com/github/gitignore/blob/main/Global/Vim.gitignore
+# ----------------------------------------------------------------------------------------------
+# Swap
+[._]*.s[a-v][a-z]
+!*.svg  # comment out if you don't need vector files
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+Sessionx.vim
+
+# Temporary
+.netrwhist
+*~
+# Auto-generated tag files
+tags
+# Persistent undo
+[._]*.un~
+
+# VSCode    src: https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
+# ----------------------------------------------------------------------------------------------
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/settings.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# Extensions
+.fake
+.metals
