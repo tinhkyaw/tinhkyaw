@@ -1,3 +1,4 @@
+altair
 apache-airflow-providers-amazon
 autoflake
 autopep8
@@ -21,7 +22,6 @@ docsend
 dotbot
 editdistance
 elasticsearch
-entrypoints
 esbonio
 fades
 first
@@ -39,14 +39,13 @@ html5lib
 icecream
 importlib-resources
 invoke
-jedi
 jinja2-pluralize
 js-regex
+jupyter
 locust
 lorem
 memory-profiler
 mercurial
-mistune
 monotonic
 more-itertools
 mxnet
@@ -59,8 +58,6 @@ ordereddict
 oyaml
 paramiko
 pathtools
-pexpect
-pickleshare
 pip-tools
 pipdeptree
 pss
@@ -92,11 +89,11 @@ rope
 rstcheck
 s3fs
 safety
-scikit-learn
 seaborn
 setuptools-scm
 simplegeneric
 snooty-lextudio
+snorkel
 solana
 sphinx-rtd-theme
 sqlfluff
@@ -108,7 +105,6 @@ textdistance
 tldextract
 torchaudio
 torchvision
-traitlets
 twine
 typed-ast
 unidecode
