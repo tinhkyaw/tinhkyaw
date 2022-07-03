@@ -10,6 +10,8 @@ DIR=$(dirname "$(greadlink -f "${0}")")
 cd ${DIR}
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 PKG_DIR="${GIT_ROOT_DIR}/packages"
+color=green
+print -P "%F{$color}Taking snapshot...%f"
 brew list --formula >${SNAPSHOT_DIR}/brew${SUFFIX}.txt
 read -r -d '' BREWS_TO_ADD <<EOF
 fluid-synth
