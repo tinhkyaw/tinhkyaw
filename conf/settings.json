@@ -17,12 +17,14 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
+  "aws.profile": "profile:default",
   "aws.telemetry": false,
   "bazel.buildifierPath": "/usr/local/bin/buildifier",
   "carbon.fontFamily": "Source Code Pro",
   "cloudcode.enableTelemetry": false,
   "cmake.configureOnOpen": false,
   "code-runner.enableAppInsights": false,
+  "codeQL.cli.executablePath": "/usr/local/bin/codeql",
   "codespaces.accountProvider": "GitHub",
   "csharp.suppressDotnetInstallWarning": true,
   "debug.terminal.clearBeforeReusing": true,
@@ -135,6 +137,7 @@
     "vscode-kubernetes.minikube-path.mac": "/Users/tin/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
   },
   "vscode-edge-devtools.mirrorEdits": true,
+  "vscode-kubernetes.helm-path": "/usr/local/bin/helm",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.colorTheme": "Solarized Dark",
   "workbench.editor.enablePreview": false,
