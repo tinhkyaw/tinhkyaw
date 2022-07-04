@@ -67,10 +67,8 @@ pycairo
 pygobject
 pylint
 pyqt3d
-pyqt6-3d
 pyqt6-charts
 pyqt6-datavisualization
-pyqt6-networkauth
 pyqt6-webengine
 pyqtchart
 pyqtdatavisualization
