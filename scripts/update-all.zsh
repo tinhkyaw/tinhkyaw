@@ -1,6 +1,5 @@
 #!/usr/bin/env zsh
 P=$(pwd)
-DIR=$(dirname $(type -a "${0}" | cut -d " " -f 3))
 brew missing
 brew update
 brew upgrade
@@ -41,4 +40,5 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
   zprezto-update
 fi
+update-gitignore.zsh
 cd ${P}
