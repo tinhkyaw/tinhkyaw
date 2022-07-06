@@ -11,6 +11,9 @@ fi
 cd gitignore
 git pull
 PREFIX='https://github.com/github/gitignore/blob/main/'
+read -r -d '' GITIGNORE_EXTRAS <<EOF
+.fake
+EOF
 if [[ -f ${GIT_ROOT_DIR}/.gitignore ]]; then
     rm ${GIT_ROOT_DIR}/.gitignore
 fi
@@ -23,4 +26,5 @@ for template in $(cat ${GIT_ROOT_DIR}/packages/gitignore); do
         echo "\n"
     } >>${GIT_ROOT_DIR}/.gitignore
 done
+echo ${GITIGNORE_EXTRAS} >>${GIT_ROOT_DIR}/.gitignore
 cd "${WD}" || exit
