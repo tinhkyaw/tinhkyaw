@@ -135,7 +135,6 @@
   "vscode-edge-devtools.mirrorEdits": true,
   "vscode-kubernetes.helm-path": "/Users/tin/.brew/bin/helm",
   "vscode-kubernetes.minikube-path": "/Users/tin/.brew/bin/minikube",
-  "vscode-kubernetes.minikube-path.mac": "/Users/tin/.brew/bin/minikube",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.colorTheme": "Solarized Dark",
   "workbench.editor.enablePreview": false,
