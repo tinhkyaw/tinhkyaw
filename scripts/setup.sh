@@ -4,6 +4,7 @@ if ! command -v brew &>/dev/null; then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   eval "$(/opt/homebrew/bin/brew shellenv)"
   brew install coreutils git
+  ln -s "$(brew --prefix)" ~/.brew
 fi
 DIR=$(dirname "$(greadlink -f "${0}")")
 cd "${DIR}"

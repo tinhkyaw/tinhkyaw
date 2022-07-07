@@ -19,12 +19,12 @@
   },
   "aws.profile": "profile:default",
   "aws.telemetry": false,
-  "bazel.buildifierPath": "/usr/local/bin/buildifier",
+  "bazel.buildifierPath": "/Users/tin/.brew/bin/buildifier",
   "carbon.fontFamily": "Source Code Pro",
   "cloudcode.enableTelemetry": false,
   "cmake.configureOnOpen": false,
   "code-runner.enableAppInsights": false,
-  "codeQL.cli.executablePath": "/usr/local/bin/codeql",
+  "codeQL.cli.executablePath": "/Users/tin/.brew/bin/codeql",
   "codespaces.accountProvider": "GitHub",
   "csharp.suppressDotnetInstallWarning": true,
   "debug.terminal.clearBeforeReusing": true,
@@ -58,7 +58,7 @@
     "**/target": true
   },
   "git.autofetch": true,
-  "git.path": "/usr/local/bin/git",
+  "git.path": "/Users/tin/.brew/bin/git",
   "gitlens.advanced.messages": {
     "suppressCommitHasNoPreviousCommitWarning": false,
     "suppressCommitNotFoundWarning": false,
@@ -86,7 +86,7 @@
     "{docsmsft.docs-linting}/markdownlint-custom-rules/rules.js"
   ],
   "matlab.lintOnSave": false,
-  "metals.javaHome": "/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home",
+  "metals.javaHome": "/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home",
   "notebook.cellToolbarLocation": {
     "default": "right",
     "jupyter-notebook": "left"
@@ -115,13 +115,14 @@
     "${workspaceRoot}/setup.cfg"
   ],
   "python.linting.flake8Enabled": true,
-  "python.linting.flake8Path": "/usr/local/bin/flake8",
+  "python.linting.flake8Path": "/Users/tin/.brew/bin/flake8",
   "python.linting.pylintEnabled": false,
-  "python.pythonPath": "/usr/local/bin/python3",
+  "python.pythonPath": "/Users/tin/.brew/bin/python3",
   "redhat.telemetry.enabled": false,
   "rest-client.enableTelemetry": false,
   "restructuredtext.confPath": "",
   "rust-client.rustupPath": "/Users/tin/.cargo/bin/rustup",
+  "shellcheck.executablePath": "/Users/tin/.brew/bin/shellcheck",
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
   "telemetry.telemetryLevel": "off",
@@ -131,14 +132,10 @@
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "textmarker.enableTelemetry": false,
   "trunk.trunkGrayOutNonBlockingIssues": false,
-  "vs-kubernetes": {
-    "vs-kubernetes.draft-path.mac": "${env:HOME}/tin/.vs-kubernetes/tools/draft/darwin-amd64/draft",
-    "vs-kubernetes.helm-path.mac": "${env:HOME}/.vs-kubernetes/tools/helm/darwin-amd64/helm",
-    "vscode-kubernetes.minikube-path.mac": "/Users/tin/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
-  },
   "vscode-edge-devtools.mirrorEdits": true,
-  "vscode-kubernetes.helm-path": "/usr/local/bin/helm",
-  "vscode-kubernetes.minikube-path": "/usr/local/bin/minikube",
+  "vscode-kubernetes.helm-path": "/Users/tin/.brew/bin/helm",
+  "vscode-kubernetes.minikube-path": "/Users/tin/.brew/bin/minikube",
+  "vscode-kubernetes.minikube-path.mac": "/Users/tin/.brew/bin/minikube",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.colorTheme": "Solarized Dark",
   "workbench.editor.enablePreview": false,
