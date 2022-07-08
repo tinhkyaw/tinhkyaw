@@ -12,7 +12,10 @@ cd gitignore
 git pull
 PREFIX='https://github.com/github/gitignore/blob/main/'
 read -r -d '' GITIGNORE_EXTRAS <<EOF
+.bsp
 .fake
+.idea
+.vscode
 EOF
 if [[ -f ${GIT_ROOT_DIR}/.gitignore ]]; then
     rm ${GIT_ROOT_DIR}/.gitignore

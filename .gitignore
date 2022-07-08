@@ -1435,4 +1435,7 @@ xcuserdata/
 *.xccheckout
 
 
+.bsp
 .fake
+.idea
+.vscode
