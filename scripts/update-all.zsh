@@ -12,8 +12,8 @@ mas upgrade
 gem update --system
 gem update
 gem cleanup
-npm-check -u -g
-npm-check-updates -g --timeout 150000
+npm-check -g -y
+ncu -g
 pip3 install --upgrade pip setuptools
 pip3 freeze --local | cut -d = -f 1 | cut -d ' ' -f 1 | xargs pip3 install --upgrade --use-deprecated=legacy-resolver
 conda update --all
