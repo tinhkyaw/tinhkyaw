@@ -15,8 +15,8 @@ rba = rebase --abort
 rbc = rebase --continue
 rbi = rebase -i
 rbih = "!f() { n=$1; shift; git rebase -i HEAD~$n $*; }; f"
-rbim = rebase -i origin/master
-rbm = rebase origin/master
+rbim = rebase -i origin/main
+rbm = rebase origin/main
 rbs = rebase --skip
 st = status
 up = fetch origin
