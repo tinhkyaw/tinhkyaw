@@ -95,10 +95,11 @@ if (( $+commands[brew] )); then
   if (( $+commands[tmux] )); then
     alias tmux='tmux a'
   fi
-
   if [[ -d "${HOMEBREW_PREFIX}/opt/openblas" ]]; then
     export OPENBLAS="${HOMEBREW_PREFIX}/opt/openblas"
   fi
+  # openssl
+  # https://openssl.org/
   if [[ -d "${HOMEBREW_PREFIX}/opt/openssl" ]]; then
     CPPFLAGS+=" -I${HOMEBREW_PREFIX}/opt/openssl/include"
     export CPPFLAGS
@@ -114,6 +115,8 @@ if (( $+commands[brew] )); then
     LDFLAGS+=" -L${HOMEBREW_PREFIX}/opt/zlib/lib"
     export LDFLAGS
   fi
+  # Anaconda
+  # https://www.anaconda.com/
   if [[ -d "${HOMEBREW_PREFIX}/anaconda3/bin" ]]; then
     export PATH=$PATH:"${HOMEBREW_PREFIX}/anaconda3/bin"
   fi
@@ -123,6 +126,8 @@ if (( $+commands[brew] )); then
   if [[ -d "${HOMEBREW_PREFIX}/opt/ruby/bin" ]]; then
     export PATH="${HOMEBREW_PREFIX}/opt/ruby/bin":$PATH
   fi
+  # google-cloud-sdk
+  # https://cloud.google.com/sdk/
   if [[ -d "${HOMEBREW_PREFIX}/Caskroom/google-cloud-sdk/latest/google-cloud-sdk" ]]; then
     source "${HOMEBREW_PREFIX}/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
     source "${HOMEBREW_PREFIX}/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
