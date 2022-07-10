@@ -30,21 +30,22 @@ zstyle ':prezto:*:*' color 'yes'
 # Set the Prezto modules to load (browse modules).
 # The order matters.
 zstyle ':prezto:load' pmodule \
+  'archive' \
   'environment' \
   'terminal' \
   'editor' \
   'history' \
   'directory' \
   'spectrum' \
+  'gnu-utility' \
   'utility' \
+  'git' \
   'completion' \
-  'autosuggestions' \
   'command-not-found' \
   'docker' \
   'editor' \
   'emacs' \
   'fasd' \
-  'git' \
   'homebrew' \
   'node' \
   'osx' \
@@ -63,6 +64,7 @@ zstyle ':prezto:load' pmodule \
   'tmux-xpanes' \
   'syntax-highlighting' \
   'history-substring-search' \
+  'autosuggestions' \
   'prompt'
 
 #
@@ -105,7 +107,7 @@ zstyle ':prezto:module:editor' key-bindings 'emacs'
 #
 
 # Set the command prefix on non-GNU systems.
-# zstyle ':prezto:module:gnu-utility' prefix 'g'
+zstyle ':prezto:module:gnu-utility' prefix 'g'
 
 #
 # History
@@ -206,13 +208,13 @@ zstyle ':prezto:module:ssh:load' identities 'id_tin'
 
 # Set syntax highlighters.
 # By default, only the main highlighter is enabled.
-# zstyle ':prezto:module:syntax-highlighting' highlighters \
-#   'main' \
-#   'brackets' \
-#   'pattern' \
-#   'line' \
-#   'cursor' \
-#   'root'
+zstyle ':prezto:module:syntax-highlighting' highlighters \
+  'main' \
+  'brackets' \
+  'pattern' \
+  'line' \
+  'cursor' \
+  'root'
 #
 # Set syntax highlighting styles.
 # zstyle ':prezto:module:syntax-highlighting' styles \
@@ -221,8 +223,8 @@ zstyle ':prezto:module:ssh:load' identities 'id_tin'
 #   'function' 'bg=blue'
 #
 # Set syntax pattern styles.
-# zstyle ':prezto:module:syntax-highlighting' pattern \
-#   'rm*-rf*' 'fg=white,bold,bg=red'
+zstyle ':prezto:module:syntax-highlighting' pattern \
+  'rm*-rf*' 'fg=white,bold,bg=red'
 
 #
 # Terminal
@@ -264,3 +266,5 @@ zstyle ':prezto:module:terminal' auto-title 'yes'
 # before deleting or overwriting files. Set to 'no' to disable this safer
 # behavior.
 # zstyle ':prezto:module:utility' safe-ops 'yes'
+
+zstyle -s ':prezto:module:utility:download' helper 'wget'

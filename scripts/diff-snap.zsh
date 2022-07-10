@@ -6,6 +6,11 @@ fi
 SUFFIX1=$1
 SUFFIX2=$2
 SNAPSHOT_DIR="${HOME}/Dropbox/Shared/Snapshots"
+# pretty diff(need to install diff-so-fancy)
+# brew install diff-so-fancy OR npm i -g diff-so-fancy
+function dsf() {
+  diff -u $@ | diff-so-fancy | less --tabs=4 -RFX
+}
 for snapshot in \
   brew \
   cask \
@@ -27,7 +32,7 @@ for snapshot in \
   RHS="${SNAPSHOT_DIR}/${FILE2}"
   if ! diff "$LHS" "$RHS" &>/dev/null; then
     print -P "%F{red}diff%f %F{blue}${FILE1} ${FILE2}%f"
-    diff --ignore-all-space "$LHS" "$RHS"
+    dsf --ignore-all-space "$LHS" "$RHS"
   else
     print -P "%F{green}No diff%f for %F{blue}${FILE1} ${FILE2}%f"
   fi

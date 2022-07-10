@@ -20,14 +20,14 @@ conda update --all
 gcloud components update
 apm upgrade
 color=green
-if [[ -d ~/.emacs.d ]]; then
-  cd ~/.emacs.d
-  print -P "%F{$color}Updating spacemacs%f"
-  git pull
-fi
 if [[ -d ~/.bash-my-aws ]]; then
   cd ~/.bash-my-aws
   print -P "%F{$color}Updating ~/.bash-my-aws%f"
+  git pull
+fi
+if [[ -d ~/.emacs.d ]]; then
+  cd ~/.emacs.d
+  print -P "%F{$color}Updating spacemacs%f"
   git pull
 fi
 if [[ -d ~/.yadr ]]; then
