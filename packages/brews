@@ -28,12 +28,14 @@ carthage
 chezmoi
 cmake
 cocoapods
+colima
 colordiff
 cookiecutter
 cromwell
 crush-tools
 csshx
 ctags
+curl
 dapr/tap/dapr-cli
 datasette
 dateutils
@@ -91,9 +93,11 @@ katago
 kind
 kops
 kotlin
+krew
 kube-ps1
 leiningen
 lepton
+libfido2
 liblinear
 libmaxminddb
 libpq
@@ -104,6 +108,7 @@ luajit
 lzip
 macvim
 make
+mariadb
 mas
 maven
 media-info
@@ -114,7 +119,7 @@ mkvtoolnix
 moreutils
 mstch
 mypy
-mysql
+ncdu
 neo4j
 netcat
 nghttp2
@@ -131,6 +136,7 @@ pipenv
 pipx
 poetry
 postgresql
+protobuf
 psgrep
 pssh
 pycodestyle
@@ -151,13 +157,13 @@ ripgrep
 rocksdb
 ronn
 rsync
-rtmpdump
 rust
 rustup-init
 salt
 sbt
 scala
 scipy
+screen
 shellcheck
 silicon
 simdjson
@@ -198,6 +204,7 @@ weaveworks/tap/eksctl
 webkit2png
 wget
 xdot
+xh
 yank
 yapf
 youtube-dl
