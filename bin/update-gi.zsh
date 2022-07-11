@@ -8,6 +8,6 @@ GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 template_list=$(awk -vORS=, '{ print $1 }' \
     ${GIT_ROOT_DIR}/packages/gitemplates | sed 's/,$/\n/')
 curl -sLw "\n" \
-    https://www.toptal.com/developers/gitignore/api/${template_list} \
-    >${GIT_ROOT_DIR}/.gitignore
+    https://www.toptal.com/developers/gitignore/api/${template_list} |
+    sed 's/bin\//# bin\//; s/\[Bb\]in/# \[Bb\]in/;' >${GIT_ROOT_DIR}/.gitignore
 cd "${WD}" || exit
