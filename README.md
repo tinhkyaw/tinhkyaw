@@ -4,6 +4,10 @@
 
 [![Tin's Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=tinhkyaw&layout=compact&theme=solarized-dark)](https://github.com/tinhkyaw)
 
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=tinhkyaw)](https://github.com/tinhkyaw)
+
+[![Tin's Repo](https://github-readme-stats.vercel.app/api/pin/?username=tinhkyaw&repo=tinhkyaw&theme=solarized-dark)](https://github.com/tinhkyaw/tinhkyaw)
+
 [![Linkedin Badge](https://img.shields.io/badge/-tinhkyaw-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tinhkyaw/)](https://www.linkedin.com/in/tinhkyaw/)
 
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=tinhkyaw.tinhkyaw)
