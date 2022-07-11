@@ -134,9 +134,12 @@
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "textmarker.enableTelemetry": false,
   "trunk.trunkGrayOutNonBlockingIssues": false,
-  "vs-kubernetes.helm-path": "/Users/tin/.brew/bin/helm",
-  "vs-kubernetes.kubectl-path": "/Users/tin/.brew/bin/kubectl",
-  "vs-kubernetes.minikube-path": "/Users/tin/.brew/bin/minikube",
+  "vs-kubernetes": {
+    "helm-path": "/Users/tin/.brew/bin/helm",
+    "kubectl-path": "/Users/tin/.brew/bin/kubectl",
+    "minikube-path": "/Users/tin/.brew/bin/minikube",
+    "vscode-kubernetes.minikube-path.mac": "/Users/tin/.brew/bin/minikube"
+  },
   "vscode-edge-devtools.mirrorEdits": true,
   "vscode-kubernetes.helm-path": "/Users/tin/.brew/bin/helm",
   "vscode-kubernetes.kubectl-path": "/Users/tin/.brew/bin/kubectl",
