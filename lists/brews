@@ -4,7 +4,6 @@ altinity/clickhouse/clickhouse@22.3
 amazon-ecs-cli
 ansible
 ant
-ant@1.9
 apache-flink
 apache-spark
 argyll-cms
