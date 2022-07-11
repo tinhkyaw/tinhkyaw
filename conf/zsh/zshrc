@@ -154,6 +154,19 @@ function dsf(){
     diff -u $@ | diff-so-fancy | less --tabs=4 -RFX
 }
 
+# gitignore
+# https://docs.gitignore.io/install/command-line
+function gig() {
+  curl -sLw "\n" https://www.toptal.com/developers/gitignore/api/\$@ ;
+}
+
+# rustup
+# https://github.com/rust-lang/rustup
+if [[ -f "$HOME/.cargo/env" ]]; then
+  . "$HOME/.cargo/env"
+fi
+
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 (( ! ${+functions[p10k]} )) || p10k finalize

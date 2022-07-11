@@ -13,7 +13,7 @@ for script_file in \
   snapshot.zsh \
   tunnel \
   update-all.zsh \
-  update-gitignore.zsh; do
+  update-gi.zsh; do
   install_file "${script_file}" "${GIT_ROOT_DIR}"/scripts "${HOME}"/bin
 done
 cd "${WD}" || exit

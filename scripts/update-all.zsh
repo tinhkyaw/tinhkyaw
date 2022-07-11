@@ -16,6 +16,8 @@ npm-check -g -y
 ncu -g
 pip3 install --upgrade pip setuptools
 pip3 freeze --local | cut -d = -f 1 | cut -d ' ' -f 1 | xargs pip3 install --upgrade --use-deprecated=legacy-resolver
+rustup update
+rustup self update
 conda update --all
 gcloud components update
 apm upgrade
@@ -40,5 +42,5 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
   zprezto-update
 fi
-update-gitignore.zsh
+update-gi.zsh
 cd ${P}

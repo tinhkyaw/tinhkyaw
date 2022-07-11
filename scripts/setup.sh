@@ -16,6 +16,7 @@ export LDFLAGS="-L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/sy
 export SLUGIFY_USES_TEXT_UNIDECODE=yes
 xargs -I {} brew tap {} <"${GIT_ROOT_DIR}"/packages/taps
 xargs brew install <"${GIT_ROOT_DIR}"/packages/brews
+rustup-init -y
 SUDO_ASKPASS="$(
   script="$(mktemp).scpt"
 
