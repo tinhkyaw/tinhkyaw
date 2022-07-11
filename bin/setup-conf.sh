@@ -7,5 +7,6 @@ GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 source "${GIT_ROOT_DIR}"/bin/setup-common.sh
 mkdir -p "${HOME}"/.ssh
 cp "${GIT_ROOT_DIR}"/conf/ssh_config "${HOME}"/.ssh/config
-install_file settings.json "${GIT_ROOT_DIR}"/conf "${HOME}"/Library/Application\ Support/Code/User
+install_file settings.json "${GIT_ROOT_DIR}"/conf \
+    "${HOME}"/Library/Application\ Support/Code/User
 cd "${WD}" || exit

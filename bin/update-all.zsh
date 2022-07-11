@@ -15,7 +15,10 @@ gem cleanup
 npm-check -g -y
 ncu -g
 pip3 install --upgrade pip setuptools
-pip3 freeze --local | cut -d = -f 1 | cut -d ' ' -f 1 | xargs pip3 install --upgrade --use-deprecated=legacy-resolver
+pip3 freeze --local |
+  cut -d = -f 1 |
+  cut -d ' ' -f 1 |
+  xargs pip3 install --upgrade --use-deprecated=legacy-resolver
 rustup update
 conda update --all -y
 gcloud components update

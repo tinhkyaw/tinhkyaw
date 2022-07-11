@@ -4,10 +4,13 @@ pw_name='CLI sudo'
 account="$USER"
 echo -n Password:
 read -rs sudo_password
-if security find-generic-password -w -s "$pw_name" -a "$account" &>/dev/null; then
-    security delete-generic-password -s "$pw_name" -a "$account" &>/dev/null
+if security find-generic-password -w -s "$pw_name" -a "$account" \
+    &>/dev/null; then
+    security delete-generic-password -s "$pw_name" -a "$account" \
+        &>/dev/null
 fi
-security add-generic-password -s 'CLI sudo' -a "${account}" -w "${sudo_password}"
+security add-generic-password -s 'CLI sudo' \
+    -a "${account}" -w "${sudo_password}"
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 # shellcheck disable=SC1091
 source "${GIT_ROOT_DIR}"/bin/setup-common.sh
