@@ -5,10 +5,10 @@ cd "${DIR}" || exit
 color=green
 print -P "%F{$color}Updating gitignore%f"
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
-if [[ ! -d gitignore ]]; then
+if [[ ! -d /tmp/gitignore ]]; then
     git clone git@github.com:github/gitignore
 fi
-cd gitignore
+cd /tmp/gitignore
 git pull
 PREFIX='https://github.com/github/gitignore/blob/main/'
 read -r -d '' GITIGNORE_EXTRAS <<EOF
@@ -22,10 +22,10 @@ if [[ -f ${GIT_ROOT_DIR}/.gitignore ]]; then
 fi
 for template in $(cat ${GIT_ROOT_DIR}/lists/ghgis.txt); do
     {
-        echo "# $(basename -s .gitignore $template)"
+        echo "# $(basename $template)"
         echo "# src: $PREFIX$template"
         echo "# ----------------------------------------------------------------------------"
-        cat ${template}
+        cat "${template}.gitignore"
         echo "\n"
     } >>${GIT_ROOT_DIR}/.gitignore
 done
