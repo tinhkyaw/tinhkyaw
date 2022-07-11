@@ -167,6 +167,7 @@ shellcheck
 silicon
 simdjson
 sip
+skaffold
 smartmontools
 sops
 sphinx-doc

@@ -20,7 +20,7 @@ EOF
 if [[ -f ${GIT_ROOT_DIR}/.gitignore ]]; then
     rm ${GIT_ROOT_DIR}/.gitignore
 fi
-for template in $(cat ${GIT_ROOT_DIR}/packages/gitignore); do
+for template in $(cat ${GIT_ROOT_DIR}/lists/ghgis.txt); do
     {
         echo "# $(basename -s .gitignore $template)"
         echo "# src: $PREFIX$template"

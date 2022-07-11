@@ -25,7 +25,7 @@ EOF
     <(brew deps --installed | awk -F ':' '{ print $2 }' | sed "s/ /\n/g" | sort -u) \
     <(brew list --formula --full-name -1 | sort)
   echo ${BREWS_TO_ADD}
-} | sort -u >"${LIST_DIR}/brews"
+} | sort -u >"${LIST_DIR}/brews.txt"
 brew list --cask >"${SNAPSHOT_DIR}/cask${SUFFIX}.txt"
 CASKS_TO_IGNORE="\
 colloquy\
@@ -52,7 +52,7 @@ EOF
 {
   brew list --cask | egrep -vi ${CASKS_TO_IGNORE}
   echo ${CASKS_TO_ADD}
-} | sort -u >"${LIST_DIR}/casks"
+} | sort -u >"${LIST_DIR}/casks.txt"
 brew tap >"${SNAPSHOT_DIR}/tap${SUFFIX}.txt"
 mas list >"${SNAPSHOT_DIR}/mas${SUFFIX}.txt"
 gem list >"${SNAPSHOT_DIR}/gem${SUFFIX}.txt"
@@ -70,7 +70,7 @@ EOF
     <(pip3 freeze | cut -d '=' -f1 | cut -d ' ' -f1 |
       tr '[:upper:]' '[:lower:]' | sort -u)
   echo ${PIPS_TO_ADD}
-} | sort -u >"${LIST_DIR}/pip3s"
+} | sort -u >"${LIST_DIR}/pip3s.txt"
 conda list >"${SNAPSHOT_DIR}/conda${SUFFIX}.txt"
 code --list-extensions --show-versions | sort -d -f \
   >"${SNAPSHOT_DIR}/code${SUFFIX}.txt"
@@ -80,7 +80,7 @@ grep -Fvxf \
     xargs -I {} jq '.extensionDependencies, .extensionPack' {} |
     jq -sS 'add|sort|unique' |
     jq -r '.[]') \
-  <(code --list-extensions | sort -d -f) >"${LIST_DIR}/vscode_extensions"
+  <(code --list-extensions | sort -d -f) >"${LIST_DIR}/codes.txt"
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --version \
   >"${SNAPSHOT_DIR}/chrome${SUFFIX}.txt"
 gcloud version | grep -v gcloud >"${SNAPSHOT_DIR}/gcloud${SUFFIX}.txt"

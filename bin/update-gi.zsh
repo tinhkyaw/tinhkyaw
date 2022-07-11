@@ -6,8 +6,12 @@ color=green
 print -P "%F{$color}Updating gitignore%f"
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 template_list=$(awk -vORS=, '{ print $1 }' \
-    ${GIT_ROOT_DIR}/packages/gitemplates | sed 's/,$/\n/')
+    ${GIT_ROOT_DIR}/lists/gis.txt |
+    sed 's/,$/\n/')
 curl -sLw "\n" \
     https://www.toptal.com/developers/gitignore/api/${template_list} |
-    sed 's/bin\//# bin\//; s/\[Bb\]in/# \[Bb\]in/;' >${GIT_ROOT_DIR}/.gitignore
+    sed \
+        's/bin\//# &/;
+        s/\[Bb\]in/# &/;' \
+        >${GIT_ROOT_DIR}/.gitignore
 cd "${WD}" || exit

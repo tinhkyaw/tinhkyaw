@@ -38,7 +38,7 @@
   "editor.suggest.preview": true,
   "editor.suggest.showMethods": true,
   "editor.suggestSelection": "first",
-  "esbonio.server.enabled": true,
+  "esbonio.server.enabled": false,
   "extensions.autoUpdate": true,
   "files.associations": {
     "*.m": "matlab"
@@ -121,6 +121,8 @@
   "redhat.telemetry.enabled": false,
   "rest-client.enableTelemetry": false,
   "restructuredtext.confPath": "",
+  "restructuredtext.linter.rst-lint.executablePath": "/Users/tin/.brew/bin/doc8",
+  "restructuredtext.linter.rstcheck.executablePath": "/Users/tin/.brew/bin/doc8",
   "rust-client.rustupPath": "/Users/tin/.cargo/bin/rustup",
   "shellcheck.executablePath": "/Users/tin/.brew/bin/shellcheck",
   "telemetry.enableCrashReporter": false,
