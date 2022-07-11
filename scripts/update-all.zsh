@@ -17,7 +17,6 @@ ncu -g
 pip3 install --upgrade pip setuptools
 pip3 freeze --local | cut -d = -f 1 | cut -d ' ' -f 1 | xargs pip3 install --upgrade --use-deprecated=legacy-resolver
 rustup update
-rustup self update
 conda update --all
 gcloud components update
 apm upgrade
