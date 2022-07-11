@@ -42,6 +42,7 @@ dateutils
 deno
 diff-so-fancy
 direnv
+docker-machine
 dprint
 duti
 ec2-ami-tools
@@ -157,7 +158,6 @@ ripgrep
 rocksdb
 ronn
 rsync
-rust
 rustup-init
 salt
 sbt
