@@ -41,7 +41,6 @@ dateutils
 deno
 diff-so-fancy
 direnv
-docker-machine
 dprint
 duti
 ec2-ami-tools

@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/Ansible,ApacheHadoop,Bazel,C++,C,CMake,Clojure,CVS,Diff,Django,Dropbox,Eclipse,Emacs,Executable,Git,Go,Gradle,Helm,Homebrew,JEnv,JMeter,JabRef,Java,Jekyll,JetBrains+all,JupyterNotebooks,KDiff3,Leiningen,LyX,MATLAB,Maven,Mercurial,Metals,NetBeans,Node,Nohup,Objective-C,OpenCV,Python,R,Redis,Ruby,Rust,SBT,SSH,SVN,Sass,Scala,Scheme,Serverless,Sonar,SonarQube,Spark,Swift,Tags,TeX,Terraform,Vagrant,Valgrind,Vim,VirtualEnv,VisualStudioCode,Xcode,Zsh,direnv,dotenv,macOS,pydev,react
-# Edit at https://www.toptal.com/developers/gitignore?templates=Ansible,ApacheHadoop,Bazel,C++,C,CMake,Clojure,CVS,Diff,Django,Dropbox,Eclipse,Emacs,Executable,Git,Go,Gradle,Helm,Homebrew,JEnv,JMeter,JabRef,Java,Jekyll,JetBrains+all,JupyterNotebooks,KDiff3,Leiningen,LyX,MATLAB,Maven,Mercurial,Metals,NetBeans,Node,Nohup,Objective-C,OpenCV,Python,R,Redis,Ruby,Rust,SBT,SSH,SVN,Sass,Scala,Scheme,Serverless,Sonar,SonarQube,Spark,Swift,Tags,TeX,Terraform,Vagrant,Valgrind,Vim,VirtualEnv,VisualStudioCode,Xcode,Zsh,direnv,dotenv,macOS,pydev,react
+# Created by https://www.toptal.com/developers/gitignore/api/Ansible,ApacheHadoop,Bazel,C++,C,CMake,Clojure,CVS,Django,Dropbox,Eclipse,Emacs,Executable,Git,Go,Gradle,Helm,Homebrew,JEnv,JMeter,JabRef,Java,Jekyll,JetBrains+all,JupyterNotebooks,KDiff3,Leiningen,LyX,MATLAB,Maven,Mercurial,Metals,NetBeans,Node,Nohup,Objective-C,OpenCV,Python,R,Redis,Ruby,Rust,SBT,SSH,SVN,Sass,Scala,Scheme,Serverless,Sonar,SonarQube,Spark,Swift,Tags,TeX,Terraform,Vagrant,Valgrind,Vim,VirtualEnv,VisualStudioCode,Xcode,Zsh,direnv,dotenv,macOS,pydev,react
+# Edit at https://www.toptal.com/developers/gitignore?templates=Ansible,ApacheHadoop,Bazel,C++,C,CMake,Clojure,CVS,Django,Dropbox,Eclipse,Emacs,Executable,Git,Go,Gradle,Helm,Homebrew,JEnv,JMeter,JabRef,Java,Jekyll,JetBrains+all,JupyterNotebooks,KDiff3,Leiningen,LyX,MATLAB,Maven,Mercurial,Metals,NetBeans,Node,Nohup,Objective-C,OpenCV,Python,R,Redis,Ruby,Rust,SBT,SSH,SVN,Sass,Scala,Scheme,Serverless,Sonar,SonarQube,Spark,Swift,Tags,TeX,Terraform,Vagrant,Valgrind,Vim,VirtualEnv,VisualStudioCode,Xcode,Zsh,direnv,dotenv,macOS,pydev,react
 
 ### Ansible ###
 *.retry
@@ -148,10 +148,6 @@ _deps
 **/CVS/*
 .cvsignore
 */.cvsignore
-
-### Diff ###
-*.patch
-*.diff
 
 ### direnv ###
 .direnv
@@ -328,6 +324,62 @@ cython_debug/
 
 ### dotenv ###
 
+### Dropbox ###
+# Dropbox settings and caches
+.dropbox
+.dropbox.attr
+.dropbox.cache
+
+### Emacs ###
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Org-mode
+.org-id-locations
+*_archive
+
+# flymake-mode
+*_flymake.*
+
+# eshell files
+/eshell/history
+/eshell/lastdir
+
+# elpa packages
+/elpa/
+
+# reftex files
+*.rel
+
+# AUCTeX auto folder
+/auto/
+
+# cask packages
+.cask/
+
+# Flycheck
+flycheck_*.el
+
+# server auth directory
+/server/
+
+# projectiles files
+.projectile
+
+# directory configuration
+.dir-locals.el
+
+# network security
+/network-security.data
+
+
 ### Eclipse ###
 .metadata
 # bin/
@@ -394,21 +446,6 @@ local.properties
 # Spring Boot Tooling
 .sts4-cache/
 
-### Dropbox ###
-# Dropbox settings and caches
-.dropbox
-.dropbox.attr
-.dropbox.cache
-
-### Executable ###
-*.bat
-*.cgi
-*.com
-*.gadget
-*.pif
-*.vb
-*.wsf
-
 ### Git ###
 # Created by git for backups. To disable backups in Git:
 # $ git config --global mergetool.keepBackup false
@@ -445,55 +482,14 @@ go.work
 /vendor/
 /Godeps/
 
-### Emacs ###
-# -*- mode: gitignore; -*-
-*~
-\#*\#
-/.emacs.desktop
-/.emacs.desktop.lock
-*.elc
-auto-save-list
-tramp
-.\#*
-
-# Org-mode
-.org-id-locations
-*_archive
-
-# flymake-mode
-*_flymake.*
-
-# eshell files
-/eshell/history
-/eshell/lastdir
-
-# elpa packages
-/elpa/
-
-# reftex files
-*.rel
-
-# AUCTeX auto folder
-/auto/
-
-# cask packages
-.cask/
-
-# Flycheck
-flycheck_*.el
-
-# server auth directory
-/server/
-
-# projectiles files
-.projectile
-
-# directory configuration
-.dir-locals.el
-
-# network security
-/network-security.data
-
+### Executable ###
+*.bat
+*.cgi
+*.com
+*.gadget
+*.pif
+*.vb
+*.wsf
 
 ### Helm ###
 # Chart dependencies
@@ -1909,5 +1905,5 @@ gradle-app.setting
 # Eclipse Core
 # JDT-specific (Eclipse Java Development Tools)
 
-# End of https://www.toptal.com/developers/gitignore/api/Ansible,ApacheHadoop,Bazel,C++,C,CMake,Clojure,CVS,Diff,Django,Dropbox,Eclipse,Emacs,Executable,Git,Go,Gradle,Helm,Homebrew,JEnv,JMeter,JabRef,Java,Jekyll,JetBrains+all,JupyterNotebooks,KDiff3,Leiningen,LyX,MATLAB,Maven,Mercurial,Metals,NetBeans,Node,Nohup,Objective-C,OpenCV,Python,R,Redis,Ruby,Rust,SBT,SSH,SVN,Sass,Scala,Scheme,Serverless,Sonar,SonarQube,Spark,Swift,Tags,TeX,Terraform,Vagrant,Valgrind,Vim,VirtualEnv,VisualStudioCode,Xcode,Zsh,direnv,dotenv,macOS,pydev,react
+# End of https://www.toptal.com/developers/gitignore/api/Ansible,ApacheHadoop,Bazel,C++,C,CMake,Clojure,CVS,Django,Dropbox,Eclipse,Emacs,Executable,Git,Go,Gradle,Helm,Homebrew,JEnv,JMeter,JabRef,Java,Jekyll,JetBrains+all,JupyterNotebooks,KDiff3,Leiningen,LyX,MATLAB,Maven,Mercurial,Metals,NetBeans,Node,Nohup,Objective-C,OpenCV,Python,R,Redis,Ruby,Rust,SBT,SSH,SVN,Sass,Scala,Scheme,Serverless,Sonar,SonarQube,Spark,Swift,Tags,TeX,Terraform,Vagrant,Valgrind,Vim,VirtualEnv,VisualStudioCode,Xcode,Zsh,direnv,dotenv,macOS,pydev,react
 

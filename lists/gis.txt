@@ -6,7 +6,6 @@ C
 CMake
 Clojure
 CVS
-Diff
 Django
 Dropbox
 Eclipse
