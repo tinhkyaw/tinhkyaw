@@ -1,3 +1,3 @@
 # tinhkyaw
 
-[Résumé](https://raw.githubusercontent.com/tinhkyaw/tinhkyaw/master/tinhkyaw-resume.pdf)
+[![Tin's GitHub stats](https://github-readme-stats.vercel.app/api?username=tinhkyaw&show_icons=true&theme=dark)](https://github.com/tinhkyaw)
