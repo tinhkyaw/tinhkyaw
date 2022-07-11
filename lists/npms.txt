@@ -2,6 +2,7 @@ acorn
 babel-eslint
 carbon-now-cli
 cordova
+dockly
 eslint
 jscs
 jshint

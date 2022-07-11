@@ -22,7 +22,10 @@ liblinear
 EOF
 {
   grep -Fvxf \
-    <(brew deps --installed | awk -F ':' '{ print $2 }' | sed "s/ /\n/g" | sort -u) \
+    <(brew deps --installed |
+      awk -F ':' '{ print $2 }' |
+      sed "s/ /\n/g" |
+      sort -u) \
     <(brew list --formula --full-name -1 | sort)
   echo ${BREWS_TO_ADD}
 } | sort -u >"${LIST_DIR}/brews.txt"
@@ -57,6 +60,9 @@ brew tap >"${SNAPSHOT_DIR}/tap${SUFFIX}.txt"
 mas list >"${SNAPSHOT_DIR}/mas${SUFFIX}.txt"
 gem list >"${SNAPSHOT_DIR}/gem${SUFFIX}.txt"
 npm ls --location=global --depth 0 >"${SNAPSHOT_DIR}/npm${SUFFIX}.txt"
+npm ls --location=global --depth 0 -p |
+  grep node_modules |
+  xargs basename >"${LIST_DIR}/npms.txt"
 pip3 freeze --local >"${SNAPSHOT_DIR}/pip3${SUFFIX}.txt"
 read -r -d '' PIPS_TO_ADD <<EOF
 tensorflow
