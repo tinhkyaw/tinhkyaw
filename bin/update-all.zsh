@@ -20,7 +20,7 @@ pip3 freeze --local |
   xargs pip3 install --upgrade --use-deprecated=legacy-resolver
 rustup update
 conda update --all -y
-gcloud components update
+gcloud components update -q
 apm upgrade
 color=green
 if [[ -d ~/.bash-my-aws ]]; then
