@@ -13,7 +13,6 @@ gem update --system
 gem update
 gem cleanup
 npm-check -g -y
-ncu -g
 pip3 install --upgrade pip setuptools
 pip3 freeze --local |
   cut -d = -f 1 |

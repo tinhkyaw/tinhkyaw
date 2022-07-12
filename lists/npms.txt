@@ -6,7 +6,6 @@ dockly
 eslint
 jscs
 jshint
-npm-check-updates
 npm-check
 npm
 playwright
