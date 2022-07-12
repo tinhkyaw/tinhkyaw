@@ -38,7 +38,7 @@ curl -sSL ${COMPLETION_DOCKER} \
   >"${ZDOTDIR:-$HOME}/.zprezto/modules/completion/external/src/_docker"
 ln -sf "${GIT_ROOT_DIR}/conf/gitconfig" "${ZDOTDIR:-$HOME}/.gitconfig"
 echo "function gi()
-  { curl -sLw "\n" https://www.toptal.com/developers/gitignore/api/\$@ ;}" \
+  { curl -sLw "\n" https://www.toptal.com/developers/gitignore/api/$@ ;}" \
   >>~/.zshrc
 ln -sf "${GIT_ROOT_DIR}/.gitignore" "${ZDOTDIR:-$HOME}/.gitignore"
 if [[ -f ~/.inputrc ]]; then

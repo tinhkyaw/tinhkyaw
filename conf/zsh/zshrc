@@ -157,7 +157,7 @@ function dsf(){
 # gitignore
 # https://docs.gitignore.io/install/command-line
 function gig() {
-  curl -sLw "\n" https://www.toptal.com/developers/gitignore/api/\$@ ;
+  curl -sLw "\n" https://www.toptal.com/developers/gitignore/api/$@ ;
 }
 
 # rustup

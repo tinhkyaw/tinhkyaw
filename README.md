@@ -1,7 +1,6 @@
 # Tin H Kyaw
 
 [![Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tinhkyaw&theme=solarized_dark)](https://github.com/tinhkyaw)
-
 [![Profile Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tinhkyaw&theme=solarized_dark)](https://github.com/tinhkyaw) [![Most Commit Languages](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tinhkyaw&theme=solarized_dark)](https://github.com/tinhkyaw) [![Repos Per Language](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tinhkyaw&theme=solarized_dark)](https://github.com/tinhkyaw)
 
 [![Stats](https://github-readme-stats.vercel.app/api?username=tinhkyaw&show_icons=true&theme=solarized-dark)](https://github.com/tinhkyaw)[![Streak](https://github-readme-streak-stats.herokuapp.com/?user=tinhkyaw&theme=solarized-dark)](https://github.com/tinhkyaw)
