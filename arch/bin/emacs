@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 function emacs-app {
   # Create the files as needed -- not as good as raw emacs, but acceptable
-  for f in "$@"
-  do
-    test -e $f || touch $f
+  for f in "$@"; do
+    test -e "$f" || touch "$f"
   done
   open -a Emacs "$@"
 }

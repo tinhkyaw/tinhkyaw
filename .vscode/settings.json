@@ -6,8 +6,8 @@
         ".git/objects",
         ".vscode",
         ".vscode-insiders",
-        "lists/**",
-        "conf/**"
+        "**/lists/**",
+        "**/conf/**"
     ],
     "esbonio.sphinx.confDir": ""
 }
