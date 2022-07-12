@@ -1,7 +1,7 @@
-title: tinhkyaw@github
+# title: tinhkyaw@github
 description: Personal collection of code snippets
-google_analytics:
-show_downloads: false
+# google_analytics:
+# show_downloads: false
 theme: jekyll-theme-hacker
 
 gems:
