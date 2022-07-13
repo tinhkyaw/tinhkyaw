@@ -49,6 +49,7 @@ erlang
 exa
 fabric
 fades
+fasd
 ffmpeg
 findutils
 fish
@@ -116,6 +117,7 @@ mercurial
 minikube
 mkvtoolnix
 moreutils
+mr
 mstch
 mypy
 ncdu
