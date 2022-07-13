@@ -1,0 +1,186 @@
+[advice]
+  statusHints = false
+[alias]
+  # add
+  a = add                 # add
+  chunkyadd = add --patch # stage commits chunk by chunk
+  # Shows list of contributors of a repository.
+  contributors = shortlog --summary --numbered --email
+
+  # via http://philjackson.github.io/2013/04/07/handy-git-tips-to-stop-you-getting-fired.html
+  snapshot = !git stash save "snapshot: $(date)" && git stash apply "stash@{0}"
+  snapshots = !git stash list --grep snapshot
+
+  #via http://stackoverflow.com/questions/5188320/how-can-i-get-a-list-of-git-branches-ordered-by-most-recent-commit
+  recent-branches = !git for-each-ref --count=15 --sort=-committerdate refs/heads/ --format='%(refname:short)'
+
+  # branch
+  b = branch -v # branch (verbose)
+
+  # commit
+  c = commit -m           # commit with message
+  ca = commit -am         # commit all with message
+  ci = commit             # commit
+  amend = commit --amend  # ammend your last commit
+  ammend = commit --amend # ammend your last commit
+
+  # checkout
+  co = checkout    # checkout
+  nb = checkout -b # create and switch to a new branch (mnemonic: "git new branch branchname...")
+
+  # cherry-pick
+  cp = cherry-pick -x # grab a change from a branch
+
+  # diff
+  d = diff           # diff unstaged changes
+  dc = diff --cached # diff staged changes
+  last = diff HEAD^  # diff last committed change
+
+  # log
+  l = log --graph --date=short
+  changes = log --pretty=format:\"%h %cr %cn %Cgreen%s%Creset\" --name-status
+  short = log --pretty=format:\"%h %cr %cn %Cgreen%s%Creset\"
+  simple = log --pretty=format:\" * %s\"
+  shortnocolor = log --pretty=format:\"%h %cr %cn %s\"
+
+  # pull
+  pl = pull # pull
+
+  # push
+  ps = push # push
+
+  # rebase
+  rc = rebase --continue # continue rebase
+  rs = rebase --skip     # skip rebase
+
+  # remote
+  r = remote -v # show remotes (verbose)
+
+  # reset
+  unstage = reset HEAD          # remove files from index (tracking)
+  uncommit = reset --soft HEAD^ # go back before last commit, with files in uncommitted state
+  filelog = log -u              # show changes to a file
+  mt = mergetool                # fire up the merge tool
+
+  # stash
+  ss = stash       # stash changes
+  sl = stash list  # list stashes
+  sa = stash apply # apply stash (restore changes)
+  sd = stash drop  # drop stashes (destory changes)
+
+  # status
+  s = status    # status
+  st = status   # status
+  stat = status # status
+
+  # tag
+  t = tag -n # show tags with <n> lines of each tag message
+
+  # svn helpers
+  svnr = svn rebase
+  svnd = svn dcommit
+  svnl = svn log --oneline --show-commit
+
+  br = branch
+  ci = commit
+  ciam = commit --amend
+  co = checkout
+  cpa = cherry-pick --abort
+  cpc = cherry-pick --continue
+  cpk = cherry-pick
+  cpq = cherry-pick --quit
+  dsf = !git diff --color $@ | diff-so-fancy
+  f = fetch
+  mr = merge
+  rb = rebase
+  rba = rebase --abort
+  rbc = rebase --continue
+  rbi = rebase -i
+  rbih = "!f() { n=$1; shift; git rebase -i HEAD~$n $*; }; f"
+  rbim = rebase -i origin/main
+  rbm = rebase origin/main
+  rbs = rebase --skip
+  st = status
+  to = push
+  up = fetch origin
+  upa = fetch --all
+[apply]
+  whitespace = nowarn
+[branch]
+  autosetupmerge = true
+  autosetuprebase = always
+[color]
+  diff = auto
+  ui = auto
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red
+  new = green
+  whitespace = red reverse
+[core]
+  autocrlf = false
+  excludesfile = ~/.gitignore
+  pager = "diff-so-fancy | less --tabs=4 -RFX"
+[credential]
+  helper = osxkeychain
+  useHttpPath = true
+  wsErrorHighlight = all
+[difftool]
+  prompt = false
+[difftool "sourcetree"]
+  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+  trustExitCode = true
+[diff "spaceman-diff"]
+  command = /path/to/spaceman-diff
+[diff]
+  algorithm = patience
+  # Git diff will use (i)ndex, (w)ork tree, (c)ommit and (o)bject
+  # instead of a/b/c/d as prefixes for patches
+  mnemonicprefix = true
+  tool = sourcetree
+[filter "hawser"]
+  clean = git hawser clean %f
+  smudge = git hawser smudge %f
+  required = true
+[filter "lfs"]
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true
+[filter "media"]
+  required = true
+  clean = git media clean %f
+  smudge = git media smudge %f
+[format]
+  pretty = format:%C(blue)%ad%Creset %C(yellow)%h%C(green)%d%Creset %C(blue)%s %C(magenta) [%an]%Creset
+[init]
+defaultBranch = main
+[interactive]
+  diffFilter = "diff-so-fancy --patch"
+[mergetool]
+  prompt = false
+[mergetool "sourcetree"]
+  cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+  trustExitCode = true
+[merge]
+  summary = true
+  verbosity = 1
+  tool = sourcetree
+[pull]
+  rebase = true
+[push]
+  # 'git push' will push the current branch to its tracking branch
+  # the usual default is to push all branches
+  default = upstream
+[rerere]
+  # Remember my merges
+  # http://gitfu.wordpress.com/2008/04/20/git-rerere-rereremember-what-you-did-last-time/
+  enabled = true
+[user]
+  name = Tin Htet Kyaw
+  email = tinhkyaw@gmail.com
