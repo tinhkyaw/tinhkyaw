@@ -29,5 +29,6 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   zprezto-update
 fi
 mr update
+cpan -u
 update-gi.zsh
 cd ${P}

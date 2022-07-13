@@ -40,7 +40,8 @@ xargs npm install -g <"${LIST_DIR}"/npms.txt
 xargs -I {} code --install-extension {} <"${LIST_DIR}"/codes.txt
 pip3 install -U --use-deprecated=legacy-resolver -r "${LIST_DIR}"/pip3s.txt
 xargs gem install <"${LIST_DIR}"/npms.txt
-cpan -i File::HomeDir
+PERL_MM_OPT="INSTALL_BASE=$HOME/perl5" cpan local::lib
+cpan -i File::HomeDir Log::Log4perl
 "${GIT_ROOT_DIR}"/bin/setup-bin.sh
 "${GIT_ROOT_DIR}"/bin/setup-conf.sh
 "${GIT_ROOT_DIR}"/bin/setup-sudo-askpass.sh
