@@ -169,6 +169,7 @@ sip
 skaffold
 smartmontools
 sops
+spaceman-diff
 sphinx-doc
 spidermonkey
 stow
