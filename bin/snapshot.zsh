@@ -90,4 +90,5 @@ grep -Fvxf \
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --version \
   >"${SNAPSHOT_DIR}/chrome${SUFFIX}.txt"
 gcloud version | grep -v gcloud >"${SNAPSHOT_DIR}/gcloud${SUFFIX}.txt"
+cat ~/.mrconfig >"${SNAPSHOT_DIR}/mr${SUFFIX}.txt"
 cd ${WD}

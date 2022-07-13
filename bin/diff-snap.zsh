@@ -22,6 +22,7 @@ for snapshot in \
   gem \
   intellij \
   mas \
+  mr \
   npm \
   pip3 \
   pycharm \
