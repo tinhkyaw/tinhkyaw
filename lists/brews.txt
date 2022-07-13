@@ -49,7 +49,6 @@ erlang
 exa
 fabric
 fades
-fasd
 ffmpeg
 findutils
 fish
