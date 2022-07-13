@@ -3,7 +3,6 @@ ApacheHadoop
 Bazel
 C++
 C
-CMake
 Clojure
 CVS
 Django

@@ -56,4 +56,21 @@ if [[ -f ~/.emacs ]]; then
 fi
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 mr register "${HOME}/.emacs.d"
+mkdir -p "${HOME}/.ssh"
+cp "${GIT_ROOT_DIR}/conf/ssh_config" "${HOME}/.ssh/config"
+for conf_file in \
+  settings.json; do
+  ln -sf "${GIT_ROOT_DIR}/conf/${conf_file}" \
+  "${HOME}/Library/Application Support/Code/User/settings.json"
+done
+for script_file in \
+  diff-snap.zsh \
+  s3cat \
+  snapshot.zsh \
+  tunnel \
+  update-all.zsh \
+  update-gi.zsh; do
+  ln -sf "${GIT_ROOT_DIR}/bin/${script_file}" \
+  "${HOME}/bin"
+done
 cd "${WD}" || exit
