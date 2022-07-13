@@ -7,7 +7,7 @@ if ! command -v brew &>/dev/null; then
       https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
     )"
   eval "$(/opt/homebrew/bin/brew shellenv)"
-  brew install coreutils git
+  brew install coreutils git mr
   ln -s "$(brew --prefix)" ~/.brew
 fi
 DIR=$(dirname "$(greadlink -f "${0}")")

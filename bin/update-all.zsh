@@ -23,25 +23,11 @@ conda update --all -y
 gcloud components update -q
 apm upgrade
 color=green
-if [[ -d ~/.bash-my-aws ]]; then
-  cd ~/.bash-my-aws
-  print -P "%F{$color}Updating ~/.bash-my-aws%f"
-  git pull
-fi
-if [[ -d ~/.emacs.d ]]; then
-  cd ~/.emacs.d
-  print -P "%F{$color}Updating spacemacs%f"
-  git pull
-fi
-if [[ -d ~/.yadr ]]; then
-  cd ~/.yadr
-  print -P "%F{$color}Updating ~/.yadr%f"
-  git pull
-fi
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   print -P "%F{$color}Updating ~/.zprezto%f"
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
   zprezto-update
 fi
+mr update
 update-gi.zsh
 cd ${P}

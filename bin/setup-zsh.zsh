@@ -4,17 +4,19 @@ DIR=$(dirname "$(greadlink -f "${0}")")
 cd "${DIR}" || exit
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 cd "${WD}" || exit
-if [[ -d $HOME/.bash-my-aws ]]; then
-  rm -rf $HOME/.bash-my-aws
+if [[ -d "${HOME}/.bash-my-aws" ]]; then
+  rm -rf "${HOME}/.bash-my-aws"
 fi
 git clone https://github.com/bash-my-aws/bash-my-aws.git \
-  ${BMA_HOME:-$HOME/.bash-my-aws}
+  "${BMA_HOME:-$HOME/.bash-my-aws}"
+mr register "${HOME}/.bash-my-aws"
 sh -c \
   "$(
     curl -fsSL https://raw.githubusercontent.com/skwp/dotfiles/master/install.sh
   )"
-if [[ -d ${ZDOTDIR:-$HOME}/.zprezto ]]; then
-  rm -rf ${ZDOTDIR:-$HOME}/.zprezto
+mr register "${HOME}/.yadr"
+if [[ -d "${ZDOTDIR:-$HOME}/.zprezto" ]]; then
+  rm -rf "${ZDOTDIR:-$HOME}/.zprezto"
 fi
 git clone --recursive \
   https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
@@ -34,7 +36,7 @@ done
 (cd "${ZDOTDIR:-$HOME}/.zprezto/modules/history-substring-search/external" &&
   git checkout master)
 COMPLETION_DOCKER='https://raw.githubusercontent.com/docker/cli/master/contrib/completion/zsh/_docker'
-curl -sSL ${COMPLETION_DOCKER} \
+curl -sSL "${COMPLETION_DOCKER}" \
   >"${ZDOTDIR:-$HOME}/.zprezto/modules/completion/external/src/_docker"
 mkdir -p "${HOME}/.config/git/"
 ln -sf "${GIT_ROOT_DIR}/conf/git/gitattributes" "${HOME}/.config/git/attributes"
@@ -53,4 +55,5 @@ if [[ -f ~/.emacs ]]; then
   mv ~/.emacs ~/.emacs.bak
 fi
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+mr register "${HOME}/.emacs.d"
 cd "${WD}" || exit
