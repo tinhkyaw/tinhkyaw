@@ -21,8 +21,6 @@ if [[ -d ~/.yadr ]]; then
   for config_file ($HOME/.yadr/zsh/*.zsh) source $config_file
 fi
 
-eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"
-
 # Homebrew
 # https://brew.sh/
 if (( $+commands[brew] )); then
@@ -143,6 +141,8 @@ if (( $+commands[brew] )); then
   fi
 fi
 
+eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"
+
 # Bash-my-AWS
 # https://github.com/bash-my-aws/bash-my-aws
 if [[ -d "${BMA_HOME:-$HOME}/.bash-my-aws" ]]; then
@@ -157,11 +157,15 @@ if [[ -f "${HOME}/bin/get-cli-sudo-pass.sh" ]]; then
   export SUDO_ASKPASS=${HOME}/bin/get-cli-sudo-pass.sh
 fi
 
-# pretty diff(need to install diff-so-fancy)
-# brew install diff-so-fancy OR npm i -g diff-so-fancy
-function dsf(){
+# diff-so-fancy
+# https://github.com/so-fancy/diff-so-fancy
+if (( $+commands[diff-so-fancy] )); then
+  # pretty diff(need to install diff-so-fancy)
+  # brew install diff-so-fancy OR npm i -g diff-so-fancy
+  function dsf(){
     diff -u $@ | diff-so-fancy | less --tabs=4 -RFX
-}
+  }
+fi
 
 # gitignore
 # https://docs.gitignore.io/install/command-line
