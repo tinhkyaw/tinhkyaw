@@ -91,4 +91,5 @@ grep -Fvxf \
   >"${SNAPSHOT_DIR}/chrome${SUFFIX}.txt"
 gcloud version | grep -v gcloud >"${SNAPSHOT_DIR}/gcloud${SUFFIX}.txt"
 cat ~/.mrconfig >"${SNAPSHOT_DIR}/mr${SUFFIX}.txt"
+cpan -l >"${SNAPSHOT_DIR}/cpan${SUFFIX}.txt"
 cd ${WD}

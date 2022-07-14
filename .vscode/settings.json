@@ -1,13 +1,14 @@
 {
-    "cSpell.ignorePaths": [
-        "package-lock.json",
-        "node_modules",
-        "vscode-extension",
-        ".git/objects",
-        ".vscode",
-        ".vscode-insiders",
-        "**/lists/**",
-        "**/conf/**"
-    ],
-    "esbonio.sphinx.confDir": ""
+  "cSpell.ignorePaths": [
+    "package-lock.json",
+    "node_modules",
+    "vscode-extension",
+    ".git/objects",
+    ".vscode",
+    ".vscode-insiders",
+    "**/lists/**",
+    "**/conf/**",
+    "resume/**"
+  ],
+  "esbonio.sphinx.confDir": ""
 }

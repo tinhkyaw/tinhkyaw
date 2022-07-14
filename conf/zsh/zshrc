@@ -95,13 +95,6 @@ if (( $+commands[brew] )); then
   if (( $+commands[tmux] )); then
     alias tmux='tmux a'
   fi
-  # berkeley-db
-  if [[ -d "${HOMEBREW_PREFIX}/opt/berkeley-db" ]]; then
-    CPPFLAGS+=" -I${HOMEBREW_PREFIX}/opt/berkeley-db/include"
-    export CPPFLAGS
-    LDFLAGS+=" -L${HOMEBREW_PREFIX}/opt/berkeley-db/lib"
-    export LDFLAGS
-  fi
   if [[ -d "${HOMEBREW_PREFIX}/opt/openblas" ]]; then
     export OPENBLAS="${HOMEBREW_PREFIX}/opt/openblas"
   fi
@@ -114,7 +107,7 @@ if (( $+commands[brew] )); then
     export LDFLAGS
     PKG_CONFIG_PATH+="${HOMEBREW_PREFIX}/opt/openssl/lib/pkgconfig"
     export PKG_CONFIG_PATH
-    export PATH=$PATH:"${HOMEBREW_PREFIX}/opt/openssl/bin"
+    export PATH="${PATH}:${HOMEBREW_PREFIX}/opt/openssl/bin"
   fi
   if [[ -d "${HOMEBREW_PREFIX}/opt/zlib" ]]; then
     CFLAGS+=" -I${HOMEBREW_PREFIX}/opt/zlib/include"
@@ -125,13 +118,13 @@ if (( $+commands[brew] )); then
   # Anaconda
   # https://www.anaconda.com/
   if [[ -d "${HOMEBREW_PREFIX}/anaconda3/bin" ]]; then
-    export PATH=$PATH:"${HOMEBREW_PREFIX}/anaconda3/bin"
+    export PATH="${PATH}:${HOMEBREW_PREFIX}/anaconda3/bin"
   fi
   if [[ -d "${HOMEBREW_PREFIX}/opt/curl/bin" ]]; then
-    export PATH="${HOMEBREW_PREFIX}/opt/curl/bin":$PATH
+    export PATH="${HOMEBREW_PREFIX}/opt/curl/bin:${PATH}"
   fi
   if [[ -d "${HOMEBREW_PREFIX}/opt/ruby/bin" ]]; then
-    export PATH="${HOMEBREW_PREFIX}/opt/ruby/bin":$PATH
+    export PATH="${HOMEBREW_PREFIX}/opt/ruby/bin:${PATH}"
   fi
   # google-cloud-sdk
   # https://cloud.google.com/sdk/
@@ -141,12 +134,19 @@ if (( $+commands[brew] )); then
   fi
 fi
 
-eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"
+eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5 &>/dev/null)"
+if [[ -d "${HOME}/perl5/bin" ]]; then
+  PATH="${PATH:+${PATH}:}${HOME}/perl5/bin"; export PATH;
+  PERL5LIB="${HOME}/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+  PERL_LOCAL_LIB_ROOT="${HOME}/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+  PERL_MB_OPT="--install_base \"${HOME}/perl5\""; export PERL_MB_OPT;
+  PERL_MM_OPT="INSTALL_BASE=${HOME}/perl5"; export PERL_MM_OPT;
+fi
 
 # Bash-my-AWS
 # https://github.com/bash-my-aws/bash-my-aws
 if [[ -d "${BMA_HOME:-$HOME}/.bash-my-aws" ]]; then
-  export PATH="$PATH:${BMA_HOME:-$HOME/.bash-my-aws}/bin"
+  export PATH="${PATH}:${BMA_HOME:-$HOME/.bash-my-aws}/bin"
   source ${BMA_HOME:-$HOME/.bash-my-aws}/aliases
   autoload -U +X compinit && compinit
   autoload -U +X bashcompinit && bashcompinit

@@ -49,13 +49,17 @@ if [[ -f ~/.inputrc ]]; then
   unlink ~/.inputrc
 fi
 if [[ -d ~/.emacs.d ]]; then
-  mv ~/.emacs.d ~/.emacs.d.bak
+  mv ~/.emacs.d ~/.emacs.d.BAK
 fi
 if [[ -f ~/.emacs ]]; then
-  mv ~/.emacs ~/.emacs.bak
+  mv ~/.emacs ~/.emacs.BAK
 fi
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 mr register "${HOME}/.emacs.d"
+if [[ -f ~/.spacemacs ]]; then
+  mv ~/.spacemacs ~/.spacemacs.BAK
+fi
+ln -sf "${GIT_ROOT_DIR}/conf/spacemacs" .spacemacs
 mkdir -p "${HOME}/.ssh"
 cp "${GIT_ROOT_DIR}/conf/ssh_config" "${HOME}/.ssh/config"
 for conf_file in \
