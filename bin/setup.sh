@@ -40,7 +40,7 @@ xargs npm install -g <"${LIST_DIR}"/npms.txt
 xargs -I {} code --install-extension {} <"${LIST_DIR}"/codes.txt
 pip3 install -U --use-deprecated=legacy-resolver -r "${LIST_DIR}"/pip3s.txt
 xargs gem install <"${LIST_DIR}"/npms.txt
-PERL_MM_OPT="INSTALL_BASE=$HOME/perl5" cpan local::lib
+defaults write com.apple.versioner.perl Version -string 5.18 # for csshX
 curl -L https://cpanmin.us | perl - App::cpanminus
-"${HOME}"/perl5/bin/cpanm App::cpanoutdated File::HomeDir Log::Log4perl Term::ReadLine::Perl
+"${HOMEBREW_PREFIX}"/opt/perl/bin/cpanm App::cpanoutdated File::HomeDir Log::Log4perl Term::ReadLine::Perl
 "${GIT_ROOT_DIR}"/bin/setup-sudo-askpass.sh

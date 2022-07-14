@@ -30,4 +30,7 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 mr update
 update-gi.zsh
+color=green
+print -P "%F{$color}Updating cpan packages%f"
+cpan-outdated --exclude-core | cpanm
 cd ${P}

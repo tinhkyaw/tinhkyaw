@@ -17,6 +17,7 @@ for snapshot in \
   chrome \
   code \
   conda \
+  cpan \
   eclipse \
   gcloud \
   gem \

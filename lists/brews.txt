@@ -104,6 +104,7 @@ libproxy
 libsmi
 lorem
 luajit
+luajit-openresty
 lzip
 macvim
 make
