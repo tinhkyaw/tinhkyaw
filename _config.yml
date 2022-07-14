@@ -6,3 +6,6 @@ theme: jekyll-theme-hacker
 
 gems:
   - jekyll-mentions
+
+github_username: tinhkyaw
+baseurl: "/tinhkyaw"
