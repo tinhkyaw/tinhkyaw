@@ -130,6 +130,7 @@ octave
 open-babel
 p7zip
 pdfgrep
+perl
 pidof
 pinentry-mac
 pipenv
