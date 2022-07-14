@@ -43,4 +43,5 @@ xargs gem install <"${LIST_DIR}"/npms.txt
 defaults write com.apple.versioner.perl Version -string 5.18 # for csshX
 curl -L https://cpanmin.us | perl - App::cpanminus
 "${HOMEBREW_PREFIX}"/opt/perl/bin/cpanm App::cpanoutdated File::HomeDir Log::Log4perl Term::ReadLine::Perl
+mkdir -p /usr/local/lib/perl5/site_perl/5.34.0
 "${GIT_ROOT_DIR}"/bin/setup-sudo-askpass.sh
