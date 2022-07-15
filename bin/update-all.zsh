@@ -3,7 +3,6 @@ P=$(pwd)
 brew missing
 brew update
 brew upgrade
-brew outdated --cask
 brew cu -ay
 brew cleanup -s
 brew doctor
@@ -12,7 +11,7 @@ mas upgrade
 gem update --system
 gem update
 gem cleanup
-npm-check -g -y
+timeout 10m npm-check -g -y
 pip3 install --upgrade pip setuptools
 pip3 freeze --local |
   cut -d = -f 1 |
