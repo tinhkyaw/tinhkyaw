@@ -1,6 +1,6 @@
 ack
 adns
-altinity/clickhouse/clickhouse@22.3
+altinity/clickhouse/clickhouse@22.6
 amazon-ecs-cli
 ansible
 ant

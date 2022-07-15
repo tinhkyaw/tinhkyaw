@@ -3,7 +3,7 @@ WD=$(pwd)
 DIR=$(dirname "$(greadlink -f "${0}")")
 cd "${DIR}" || exit
 color=green
-print -P "%F{$color}Updating gitignore%f"
+print -P "%F{${color}}Updating gitignore%f"
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 template_list=$(awk -vORS=, '{ print $1 }' \
   ${GIT_ROOT_DIR}/lists/gis.txt |

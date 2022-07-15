@@ -43,23 +43,23 @@ ln -sf "${GIT_ROOT_DIR}/conf/git/gitattributes" "${HOME}/.config/git/attributes"
 ln -sf "${GIT_ROOT_DIR}/conf/git/gitconfig" "${ZDOTDIR:-$HOME}/.gitconfig"
 echo "function gi()
   { curl -sLw "\n" https://www.toptal.com/developers/gitignore/api/$@ ;}" \
-  >>~/.zshrc
+  >>"${HOME}"/.zshrc
 ln -sf "${GIT_ROOT_DIR}/.gitignore" "${ZDOTDIR:-$HOME}/.gitignore"
-if [[ -f ~/.inputrc ]]; then
-  unlink ~/.inputrc
+if [[ -f "${HOME}"/.inputrc ]]; then
+  unlink "${HOME}"/.inputrc
 fi
-if [[ -d ~/.emacs.d ]]; then
-  mv ~/.emacs.d ~/.emacs.d.BAK
+if [[ -d "${HOME}"/.emacs.d ]]; then
+  mv "${HOME}"/.emacs.d "${HOME}"/.emacs.d.BAK
 fi
-if [[ -f ~/.emacs ]]; then
-  mv ~/.emacs ~/.emacs.BAK
+if [[ -f "${HOME}"/.emacs ]]; then
+  mv "${HOME}"/.emacs "${HOME}"/.emacs.BAK
 fi
-git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+git clone https://github.com/syl20bnr/spacemacs "${HOME}"/.emacs.d
 mr register "${HOME}/.emacs.d"
-if [[ -f ~/.spacemacs ]]; then
-  mv ~/.spacemacs ~/.spacemacs.BAK
+if [[ -f "${HOME}"/.spacemacs ]]; then
+  mv "${HOME}"/.spacemacs "${HOME}"/.spacemacs.BAK
 fi
-ln -sf "${GIT_ROOT_DIR}/conf/spacemacs" .spacemacs
+ln -sf "${GIT_ROOT_DIR}/conf/spacemacs" "${HOME}"/.spacemacs
 mkdir -p "${HOME}/.ssh"
 cp "${GIT_ROOT_DIR}/conf/ssh_config" "${HOME}/.ssh/config"
 for conf_file in \

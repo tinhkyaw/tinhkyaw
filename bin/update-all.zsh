@@ -24,13 +24,13 @@ gcloud components update -q
 apm upgrade
 color=green
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
-  print -P "%F{$color}Updating ~/.zprezto%f"
+  print -P "%F{${color}}Updating ${HOME}/.zprezto%f"
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
   zprezto-update
 fi
 mr update
 update-gi.zsh
 color=green
-print -P "%F{$color}Updating cpan packages%f"
+print -P "%F{${color}}Updating cpan packages%f"
 cpan-outdated --exclude-core | cpanm
 cd ${P}

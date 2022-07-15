@@ -8,7 +8,7 @@ if ! command -v brew &>/dev/null; then
     )"
   eval "$(/opt/homebrew/bin/brew shellenv)"
   brew install coreutils git mr
-  ln -s "$(brew --prefix)" ~/.brew
+  ln -s "$(brew --prefix)" "${HOME}"/.brew
 fi
 DIR=$(dirname "$(greadlink -f "${0}")")
 cd "${DIR}"
@@ -43,5 +43,5 @@ xargs gem install <"${LIST_DIR}"/npms.txt
 defaults write com.apple.versioner.perl Version -string 5.18 # for csshX
 curl -L https://cpanmin.us | perl - App::cpanminus
 "${HOMEBREW_PREFIX}"/opt/perl/bin/cpanm App::cpanoutdated File::HomeDir Log::Log4perl Term::ReadLine::Perl
-mkdir -p /usr/local/lib/perl5/site_perl/5.34.0
+mkdir "${HOMEBREW_PREFIX}"/lib/perl5/site_perl/5.34.0
 "${GIT_ROOT_DIR}"/bin/setup-sudo-askpass.sh

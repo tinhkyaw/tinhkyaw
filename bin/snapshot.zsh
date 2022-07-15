@@ -11,7 +11,7 @@ cd ${DIR}
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 LIST_DIR="${GIT_ROOT_DIR}/lists"
 color=green
-print -P "%F{$color}Taking snapshot...%f"
+print -P "%F{${color}}Taking snapshot...%f"
 brew list --formula >"${SNAPSHOT_DIR}/brew${SUFFIX}.txt"
 read -r -d '' BREWS_TO_ADD <<EOF
 fluid-synth
@@ -82,7 +82,7 @@ code --list-extensions --show-versions | sort -d -f \
   >"${SNAPSHOT_DIR}/code${SUFFIX}.txt"
 grep -Fvxf \
   <(egrep -l 'extensionDependencies|extensionPack' \
-    ~/.vscode/extensions/*/package.json |
+    "${HOME}"/.vscode/extensions/*/package.json |
     xargs -I {} jq '.extensionDependencies, .extensionPack' {} |
     jq -sS 'add|sort|unique' |
     jq -r '.[]') \
@@ -90,6 +90,6 @@ grep -Fvxf \
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --version \
   >"${SNAPSHOT_DIR}/chrome${SUFFIX}.txt"
 gcloud version | grep -v gcloud >"${SNAPSHOT_DIR}/gcloud${SUFFIX}.txt"
-cat ~/.mrconfig >"${SNAPSHOT_DIR}/mr${SUFFIX}.txt"
+cat "${HOME}"/.mrconfig >"${SNAPSHOT_DIR}/mr${SUFFIX}.txt"
 cpan -l >"${SNAPSHOT_DIR}/cpan${SUFFIX}.txt"
 cd ${WD}
