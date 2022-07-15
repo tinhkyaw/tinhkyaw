@@ -36,12 +36,14 @@ export SUDO_ASKPASS
 # shellcheck disable=SC1091
 source "${GIT_ROOT_DIR}"/conf/zsh/zshrc
 xargs brew install --cask <"${LIST_DIR}"/casks.txt
+conda init "$(basename "${SHELL}")"
 xargs npm install -g <"${LIST_DIR}"/npms.txt
 xargs -I {} code --install-extension {} <"${LIST_DIR}"/codes.txt
 pip3 install -U --use-deprecated=legacy-resolver -r "${LIST_DIR}"/pip3s.txt
 xargs gem install <"${LIST_DIR}"/npms.txt
 defaults write com.apple.versioner.perl Version -string 5.18 # for csshX
-curl -L https://cpanmin.us | perl - App::cpanminus
+curl -L https://cpanmin.us |
+  "${HOMEBREW_PREFIX}"/opt/perl/bin/perl - App::cpanminus
 "${HOMEBREW_PREFIX}"/opt/perl/bin/cpanm \
   App::cpanoutdated File::HomeDir \
   Log::Log4perl \

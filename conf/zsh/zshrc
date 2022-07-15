@@ -117,9 +117,9 @@ if (( $+commands[brew] )); then
   fi
   #  miniforge
   #  https://github.com/conda-forge/miniforge
-  if (( $+commands[conda] )); then
-    conda init "$(basename "${SHELL}")" &>/dev/null
-  fi
+  # if (( $+commands[conda] )); then
+  #   conda init "$(basename "${SHELL}")" &>/dev/null
+  # fi
   # Anaconda
   # https://www.anaconda.com/
   if [[ -d "${HOMEBREW_PREFIX}/anaconda3/bin" ]]; then
@@ -180,14 +180,14 @@ fi
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/usr/local/Caskroom/miniforge/base/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$(\"${HOMEBREW_PREFIX}/Caskroom/miniforge/base/bin/conda\" 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/usr/local/Caskroom/miniforge/base/etc/profile.d/conda.sh" ]; then
-        . "/usr/local/Caskroom/miniforge/base/etc/profile.d/conda.sh"
+    if [ -f "${HOMEBREW_PREFIX}/Caskroom/miniforge/base/etc/profile.d/conda.sh" ]; then
+        . "${HOMEBREW_PREFIX}/Caskroom/miniforge/base/etc/profile.d/conda.sh"
     else
-        export PATH="/usr/local/Caskroom/miniforge/base/bin:$PATH"
+        export PATH="${HOMEBREW_PREFIX}/Caskroom/miniforge/base/bin:$PATH"
     fi
 fi
 unset __conda_setup
