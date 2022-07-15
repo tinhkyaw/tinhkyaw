@@ -176,6 +176,7 @@ zstyle ':prezto:module:prompt' theme 'powerlevel10k'
 
 # Automatically initialize virtualenvwrapper if pre-requisites are met.
 # zstyle ':prezto:module:python:virtualenv' initialize 'yes'
+zstyle ':prezto:module:python' conda-init 'on'
 
 #
 # Ruby

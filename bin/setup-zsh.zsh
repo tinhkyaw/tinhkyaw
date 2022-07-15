@@ -4,6 +4,7 @@ DIR=$(dirname "$(greadlink -f "${0}")")
 cd "${DIR}" || exit
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 cd "${WD}" || exit
+cp "${GIT_ROOT_DIR}/conf/ssh_config" "${HOME}/.ssh/config"
 if [[ -d "${HOME}/.bash-my-aws" ]]; then
   rm -rf "${HOME}/.bash-my-aws"
 fi
@@ -59,14 +60,14 @@ mr register "${HOME}/.emacs.d"
 if [[ -f "${HOME}"/.spacemacs ]]; then
   mv "${HOME}"/.spacemacs "${HOME}"/.spacemacs.BAK
 fi
-ln -sf "${GIT_ROOT_DIR}/conf/spacemacs" "${HOME}"/.spacemacs
-mkdir -p "$HOME/.ssh"
-cp "${GIT_ROOT_DIR}/conf/ssh_config" "${HOME}/.ssh/config"
 for conf_file in \
-  settings.json; do
-  ln -sf "${GIT_ROOT_DIR}/conf/${conf_file}" \
-  "${HOME}/Library/Application Support/Code/User/settings.json"
+  condarc \
+  spacemacs; do
+  ln -sf "${GIT_ROOT_DIR}/conf/${conf_file}" "${HOME}/.${conf_file}"
 done
+mkdir -p "$HOME/.ssh"
+ln -sf "${GIT_ROOT_DIR}/conf/settings.json" \
+  "${HOME}/Library/Application Support/Code/User/settings.json"
 for script_file in \
   diff-snap.zsh \
   s3cat \
