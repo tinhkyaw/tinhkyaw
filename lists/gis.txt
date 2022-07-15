@@ -62,6 +62,7 @@ Xcode
 Zsh
 direnv
 dotenv
+fsharp
 macOS
 pydev
 react
