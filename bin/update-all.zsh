@@ -28,9 +28,10 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
   zprezto-update
 fi
+cd "${HOME}" || exit
 mr update
 update-gi.zsh
 color=green
 print -P "%F{${color}}Updating cpan packages%f"
 cpan-outdated --exclude-core | cpanm
-cd ${P}
+cd "${P}" || exit
