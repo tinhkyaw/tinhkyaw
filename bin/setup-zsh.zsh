@@ -38,7 +38,7 @@ done
 COMPLETION_DOCKER='https://raw.githubusercontent.com/docker/cli/master/contrib/completion/zsh/_docker'
 curl -sSL "${COMPLETION_DOCKER}" \
   >"${ZDOTDIR:-$HOME}/.zprezto/modules/completion/external/src/_docker"
-mkdir -p "${HOME}/.config/git/"
+mkdir -p "$HOME/.config/git/"
 ln -sf "${GIT_ROOT_DIR}/conf/git/gitattributes" "${HOME}/.config/git/attributes"
 ln -sf "${GIT_ROOT_DIR}/conf/git/gitconfig" "${ZDOTDIR:-$HOME}/.gitconfig"
 echo "function gi()
@@ -60,7 +60,7 @@ if [[ -f "${HOME}"/.spacemacs ]]; then
   mv "${HOME}"/.spacemacs "${HOME}"/.spacemacs.BAK
 fi
 ln -sf "${GIT_ROOT_DIR}/conf/spacemacs" "${HOME}"/.spacemacs
-mkdir -p "${HOME}/.ssh"
+mkdir -p "$HOME/.ssh"
 cp "${GIT_ROOT_DIR}/conf/ssh_config" "${HOME}/.ssh/config"
 for conf_file in \
   settings.json; do

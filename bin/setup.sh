@@ -42,6 +42,15 @@ pip3 install -U --use-deprecated=legacy-resolver -r "${LIST_DIR}"/pip3s.txt
 xargs gem install <"${LIST_DIR}"/npms.txt
 defaults write com.apple.versioner.perl Version -string 5.18 # for csshX
 curl -L https://cpanmin.us | perl - App::cpanminus
-"${HOMEBREW_PREFIX}"/opt/perl/bin/cpanm App::cpanoutdated File::HomeDir Log::Log4perl Term::ReadLine::Perl
-mkdir "${HOMEBREW_PREFIX}"/lib/perl5/site_perl/5.34.0
+"${HOMEBREW_PREFIX}"/opt/perl/bin/cpanm \
+  App::cpanoutdated File::HomeDir \
+  Log::Log4perl \
+  Term::ReadLine::Perl
+brew_installed_perl_version=$(brew info --json perl | jq -r ".[0].installed[0].version")
+md="${HOMEBREW_PREFIX}/lib/perl5/site_perl/${brew_installed_perl_version}"
+if [[ ! -d "${md}" ]] && perl -V | grep -q "${md}"; then
+  print -P "%F{yellow}Warning:%f Creating the missing dir: ${md}"
+  mkdir -p "$md"
+  touch "$md/.gitignore"
+fi
 "${GIT_ROOT_DIR}"/bin/setup-sudo-askpass.sh
