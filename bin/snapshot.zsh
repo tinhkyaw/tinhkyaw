@@ -91,5 +91,9 @@ grep -Fvxf \
   >"${SNAPSHOT_DIR}/chrome${SUFFIX}.txt"
 gcloud version | grep -v gcloud >"${SNAPSHOT_DIR}/gcloud${SUFFIX}.txt"
 cat "${HOME}"/.mrconfig >"${SNAPSHOT_DIR}/mr${SUFFIX}.txt"
+if [[ ! -d "${HOMEBREW_PREFIX}"/lib/perl5/site_perl/5.34.0 ]]; then
+  printf -P "%F{yellow}Warning:%f Recreating missing ${HOMEBREW_PREFIX}/lib/perl5/site_perl/5.34.0"
+  mkdir "${HOMEBREW_PREFIX}"/lib/perl5/site_perl/5.34.0
+fi
 cpan -l >"${SNAPSHOT_DIR}/cpan${SUFFIX}.txt"
 cd ${WD}
