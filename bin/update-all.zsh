@@ -19,7 +19,9 @@ pip3 freeze --local |
   cut -d ' ' -f 1 |
   xargs pip3 install --upgrade --use-deprecated=legacy-resolver
 rustup update
-conda update --all -y
+"${HOMEBREW_PREFIX}"/anaconda3/bin/conda update \
+  -p "${HOMEBREW_PREFIX}"/anaconda3 --all -y
+conda update -n base --all -y
 gcloud components update -q
 apm upgrade
 color=green

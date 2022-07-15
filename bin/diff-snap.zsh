@@ -23,6 +23,7 @@ for snapshot in \
   gem \
   intellij \
   mas \
+  miniforge \
   mr \
   npm \
   pip3 \

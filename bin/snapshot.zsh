@@ -77,7 +77,10 @@ EOF
       tr '[:upper:]' '[:lower:]' | sort -u)
   echo ${PIPS_TO_ADD}
 } | sort -u >"${LIST_DIR}/pip3s.txt"
-conda list >"${SNAPSHOT_DIR}/conda${SUFFIX}.txt"
+"${HOMEBREW_PREFIX}"/anaconda3/bin/conda list \
+  -p "${HOMEBREW_PREFIX}"/anaconda3 --explicit \
+  >"${SNAPSHOT_DIR}/conda${SUFFIX}.txt"
+conda list -n base --explicit >"${SNAPSHOT_DIR}/miniforge${SUFFIX}.txt"
 code --list-extensions --show-versions | sort -d -f \
   >"${SNAPSHOT_DIR}/code${SUFFIX}.txt"
 grep -Fvxf \
