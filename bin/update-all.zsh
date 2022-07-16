@@ -11,7 +11,7 @@ mas upgrade
 gem update --system
 gem update
 gem cleanup
-timeout 10m npm-check -g -y
+timeout --foreground 3m npm-check -g -y
 pip3 install --upgrade pip setuptools
 pip3 freeze --local |
   cut -d = -f 1 |
