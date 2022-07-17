@@ -64,7 +64,6 @@ pipdeptree
 pss
 psycopg2
 pybind11
-pycairo
 pygobject
 pylint
 pyqt3d
