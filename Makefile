@@ -3,7 +3,7 @@
 SUBDIRS = resume
 
 all:
-	(cd ${SUBDIRS} && make)
+	$(foreach subdir, ${SUBDIRS}, cd $(subdir) && make)
 
 clean:
-	(cd ${SUBDIRS} && make clean)
+	$(foreach subdir, ${SUBDIRS}, cd $(subdir) && make clean)
