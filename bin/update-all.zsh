@@ -1,5 +1,5 @@
 #!/usr/bin/env zsh
-P=$(pwd)
+WD=$(pwd)
 brew missing
 brew update
 brew upgrade
@@ -35,4 +35,4 @@ update-gi.zsh
 color=green
 print -P "%F{${color}}Updating cpan packages%f"
 cpan-outdated --exclude-core | cpanm
-cd "${P}" || exit
+cd "${WD}" || exit
