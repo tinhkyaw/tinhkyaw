@@ -45,7 +45,6 @@ zstyle ':prezto:load' pmodule \
   'docker' \
   'editor' \
   'emacs' \
-  'fasd' \
   'homebrew' \
   'node' \
   'osx' \
@@ -59,6 +58,9 @@ zstyle ':prezto:load' pmodule \
   'tmux' \
   'direnv' \
   'enhancd' \
+  'fzy' \
+  'gcloud' \
+  'kind' \
   'kubernetes' \
   'thefuck' \
   'tmux-xpanes' \
