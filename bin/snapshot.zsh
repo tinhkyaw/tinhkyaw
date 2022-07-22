@@ -31,18 +31,11 @@ EOF
 } | sort -u >"${LIST_DIR}/brews.txt"
 brew list --cask >"${SNAPSHOT_DIR}/cask${SUFFIX}.txt"
 CASKS_TO_IGNORE="\
-colloquy\
-|lastpass\
-|lulu\
-|mit-app-inventor\
-|ransomwhere\
-|viscosity\
-|webex-meetings\
+lastpass\
 |^zoom$\
 "
 read -r -d '' CASKS_TO_ADD <<EOF
 amazon-music
-asciidocfx
 dmidiplayer
 fig
 gpower
@@ -50,7 +43,6 @@ nautilus
 vidl
 virtualbox
 virtualbox-extension-pack
-windscribe
 EOF
 {
   brew list --cask | egrep -vi ${CASKS_TO_IGNORE}
