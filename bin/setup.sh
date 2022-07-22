@@ -35,6 +35,7 @@ SUDO_ASKPASS="$(
 export SUDO_ASKPASS
 # shellcheck disable=SC1091
 source "${GIT_ROOT_DIR}"/conf/zsh/zshrc
+sudo spctl --master-disable
 xargs brew install --cask <"${LIST_DIR}"/casks.txt
 conda init "$(basename "${SHELL}")"
 xargs npm install -g <"${LIST_DIR}"/npms.txt
