@@ -1,6 +1,5 @@
 2gua.rainbow-brackets
 aaron-bond.better-comments
-aaronpowell.vscode-profile-switcher
 adpyke.vscode-sql-formatter
 albert.TabOut
 amazonwebservices.aws-toolkit-vscode
@@ -19,11 +18,14 @@ BriteSnow.vscode-toggle-quotes
 brunnerh.insert-unicode
 burkeholland.simple-react-snippets
 ChakrounAnas.turbo-console-log
+christian-kohler.npm-intellisense
+christian-kohler.path-intellisense
 chrmarti.regex
 codeandstuff.package-json-upgrade
 CodeRoad.coderoad
 davidrockburn.py-pack
 dbaeumer.jshint
+dbaeumer.vscode-eslint
 DevonDCarew.bazel-code
 docsmsft.docs-authoring-pack
 docsmsft.docs-visual-areas
@@ -70,6 +72,7 @@ jack89ita.open-file-from-path
 jakob101.RelativePath
 James-Yu.latex-workshop
 jasonlhy.hungry-delete
+jasonnutter.search-node-modules
 JoeBerria.statusbarerror
 johnpapa.vscode-peacock
 josetr.cmake-language-support-vscode
@@ -177,7 +180,6 @@ vscjava.vscode-java-pack
 vscode-icons-team.vscode-icons
 vsls-contrib.codetour
 waderyan.gitblame
-waderyan.nodejs-extension-pack
 wayou.vscode-todo-highlight
 webfreak.debug
 wix.vscode-import-cost
