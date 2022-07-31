@@ -485,6 +485,7 @@ bin
 /build/
 !.paket/paket.bootstrapper.exe
 .ionide/
+.fake
 
 ### Helm ###
 # Chart dependencies
@@ -1902,6 +1903,10 @@ gradle-app.setting
 # Eclipse Gradle plugin generated files
 # Eclipse Core
 # JDT-specific (Eclipse Java Development Tools)
+
+### Gradle Patch ###
+# Java heap dump
+*.hprof
 
 # End of https://www.toptal.com/developers/gitignore/api/Ansible,ApacheHadoop,Bazel,C++,C,Clojure,CVS,Django,Dropbox,Eclipse,Emacs,Executable,Git,Go,Gradle,Helm,Homebrew,JEnv,JMeter,JabRef,Java,Jekyll,JetBrains+all,JupyterNotebooks,KDiff3,Leiningen,LyX,MATLAB,Maven,Mercurial,Metals,NetBeans,Node,Nohup,Objective-C,OpenCV,Python,R,Redis,Ruby,Rust,SBT,SSH,SVN,Sass,Scala,Scheme,Serverless,Sonar,SonarQube,Spark,Swift,Tags,TeX,Terraform,Vagrant,Valgrind,Vim,VirtualEnv,VisualStudioCode,Xcode,Zsh,direnv,dotenv,fsharp,macOS,pydev,react
 
