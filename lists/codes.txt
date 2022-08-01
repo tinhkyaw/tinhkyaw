@@ -138,6 +138,7 @@ nhoizey.gremlins
 nobuhito.printcode
 oderwat.indent-rainbow
 OpenPAIVSCodeClient.pai-vscode
+PeterSchmalfeldt.explorer-exclude
 PKief.material-icon-theme
 pnp.polacode
 pucelle.vscode-css-navigation
@@ -146,7 +147,6 @@ qcz.text-power-tools
 quantum.quantum-devkit-vscode
 quicktype.quicktype
 redhat.vscode-commons
-RedVanWorkshop.explorer-exclude-vscode-extension
 Remisa.shellman
 richie5um2.vscode-sort-json
 rogalmic.bash-debug
