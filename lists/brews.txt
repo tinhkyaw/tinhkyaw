@@ -99,7 +99,6 @@ krew
 kube-ps1
 leiningen
 lepton
-libfido2
 liblinear
 libmaxminddb
 libpq
