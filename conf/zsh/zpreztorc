@@ -198,14 +198,6 @@ zstyle ':prezto:module:python' conda-init 'on'
 # zstyle ':prezto:module:screen:auto-start' remote 'yes'
 
 #
-# SSH
-#
-
-# Set the SSH identities to load into the agent.
-# zstyle ':prezto:module:ssh:load' identities 'id_rsa' 'id_rsa2' 'id_github'
-zstyle ':prezto:module:ssh:load' identities 'id_tin'
-
-#
 # Syntax Highlighting
 #
 
@@ -271,3 +263,12 @@ zstyle ':prezto:module:terminal' auto-title 'yes'
 # zstyle ':prezto:module:utility' safe-ops 'yes'
 
 zstyle -s ':prezto:module:utility:download' helper 'wget'
+
+#
+# SSH
+#
+
+# Set the SSH identities to load into the agent.
+# zstyle ':prezto:module:ssh:load' identities 'id_rsa' 'id_rsa2' 'id_github'
+zstyle ':prezto:module:ssh:load' identities 'id_tin'
+
