@@ -31,7 +31,8 @@ EOF
 } | sort -u >"${LIST_DIR}/brews.txt"
 brew list --cask >"${SNAPSHOT_DIR}/cask${SUFFIX}.txt"
 CASKS_TO_IGNORE="\
-lastpass\
+krisp\
+|lastpass\
 |^zoom$\
 "
 read -r -d '' CASKS_TO_ADD <<EOF

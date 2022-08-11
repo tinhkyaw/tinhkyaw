@@ -46,8 +46,6 @@ foxundermoon.shell-format
 fwcd.kotlin
 GabrielBB.vscode-lombok
 Gimly81.matlab
-GitHub.copilot
-GitHub.copilot-labs
 GitHub.remotehub
 GitHub.vscode-codeql
 GitHub.vscode-pull-request-github
