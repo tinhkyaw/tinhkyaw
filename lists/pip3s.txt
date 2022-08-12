@@ -9,7 +9,6 @@ bottle
 cached-property
 celery
 cement
-clang
 click-completion
 cython
 dask
@@ -28,14 +27,12 @@ first
 flask-openid
 ftfy
 gensim
-gitdb2
 google-cloud-bigquery
 google-cloud-storage
 graphtage
 grpcio-status
 h2
 hstspreload
-html5lib
 icecream
 importlib-resources
 invoke
@@ -61,6 +58,7 @@ paramiko
 pathtools
 pip-tools
 pipdeptree
+poetry
 pss
 psycopg2
 pybind11
@@ -68,8 +66,10 @@ pycairo
 pygobject
 pylint
 pyqt3d
+pyqt6-3d
 pyqt6-charts
 pyqt6-datavisualization
+pyqt6-networkauth
 pyqt6-webengine
 pyqtchart
 pyqtdatavisualization
@@ -80,6 +80,7 @@ pyre-check
 pyspark
 python-editor
 pywatchman
+qscintilla
 requirements-parser
 retry
 retrying
@@ -90,6 +91,7 @@ safety
 seaborn
 setuptools-scm
 simplegeneric
+sip
 snooty-lextudio
 snorkel
 solana

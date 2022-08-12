@@ -62,12 +62,17 @@ tensorflow
 EOF
 {
   grep -Fvxf \
-    <(pip3 freeze | cut -d '=' -f1 | cut -d ' ' -f1 | xargs pip show |
+    <(pip3 freeze | cut -d '=' -f1 | cut -d ' ' -f1 | xargs pip3 show |
       grep -i '^requires:' | awk -F ': ' '{ print $2 }' |
       tr '[:upper:]' '[:lower:]' | sed 's/,/\n/g' | sed 's/ //g' | awk NF |
       sort -u) \
     <(pip3 freeze | cut -d '=' -f1 | cut -d ' ' -f1 |
-      tr '[:upper:]' '[:lower:]' | sort -u)
+      tr '[:upper:]' '[:lower:]' | sort -u) |
+    while IFS= read -r pkg; do
+      if ! pip3 show $pkg | grep -i '^required-by: [a-z]' &>/dev/null; then
+        echo $pkg
+      fi
+    done
   echo ${PIPS_TO_ADD}
 } | sort -u >"${LIST_DIR}/pip3s.txt"
 "${HOMEBREW_PREFIX}"/anaconda3/bin/conda list \
