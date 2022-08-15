@@ -7,10 +7,10 @@ print -P "%F{${color}}Updating gitignore%f"
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 template_list=$(awk -vORS=, '{ print $1 }' \
   ${GIT_ROOT_DIR}/lists/gis.txt |
-  sed 's/,$/\n/')
+  gsed 's/,$/\n/')
 curl -sLw "\n" \
   https://www.toptal.com/developers/gitignore/api/${template_list} |
-  sed \
+  gsed \
     's/bin\//# &/;
     s/\[Bb\]in/# &/;
     s/*\/Makefile/# &/;' \

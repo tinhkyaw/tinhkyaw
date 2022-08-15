@@ -24,7 +24,7 @@ EOF
   grep -Fvxf \
     <(brew deps --installed |
       awk -F ':' '{ print $2 }' |
-      sed "s/ /\n/g" |
+      gsed "s/ /\n/g" |
       sort -u) \
     <(brew list --formula --full-name -1 | sort)
   echo ${BREWS_TO_ADD}
@@ -70,8 +70,8 @@ p=$(
         grep -i '^requires:' |
         awk -F ': ' '{ print $2 }' |
         tr '[:upper:]' '[:lower:]' |
-        sed 's/,/\n/g' |
-        sed 's/ //g' |
+        gsed 's/,/\n/g' |
+        gsed 's/ //g' |
         awk NF |
         sort -u
     ) \
@@ -89,10 +89,10 @@ d=$(
     grep -i '^required-by:' |
     grep -in '^required-by: [a-z]' |
     cut -d ':' -f1 |
-    sed -z 's/\n/d;/g'
+    gsed -z 's/\n/d;/g'
 )
 {
-  echo $p | sed -e "$d"
+  echo $p | gsed -e "$d"
   echo ${PIPS_TO_ADD}
 } | sort -u >"${LIST_DIR}/pip3s.txt"
 "${HOMEBREW_PREFIX}"/anaconda3/bin/conda list \

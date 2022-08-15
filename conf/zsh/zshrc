@@ -81,9 +81,9 @@ if (( $+commands[brew] )); then
   fi
   # tldr
   # https://tldr.sh/
-  if (( $+commands[tldr] )); then
-    alias man='tldr'
-  fi
+  # if (( $+commands[tldr] )); then
+  #   alias man='tldr'
+  # fi
   # xh
   # https://github.com/ducaale/xh
   if (( $+commands[xh] )); then
