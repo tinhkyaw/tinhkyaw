@@ -22,7 +22,7 @@ rustup update
   -p "${HOMEBREW_PREFIX}"/anaconda3 --all -y
 conda update -n base --all -y
 gcloud components update -q
-apm upgrade
+# apm upgrade
 color=green
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   print -P "%F{${color}}Updating ${HOME}/.zprezto%f"

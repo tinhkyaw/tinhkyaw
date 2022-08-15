@@ -60,19 +60,39 @@ pip3 freeze --local >"${SNAPSHOT_DIR}/pip3${SUFFIX}.txt"
 read -r -d '' PIPS_TO_ADD <<EOF
 tensorflow
 EOF
-{
+p=$(
   grep -Fvxf \
-    <(pip3 freeze | cut -d '=' -f1 | cut -d ' ' -f1 | xargs pip3 show |
-      grep -i '^requires:' | awk -F ': ' '{ print $2 }' |
-      tr '[:upper:]' '[:lower:]' | sed 's/,/\n/g' | sed 's/ //g' | awk NF |
-      sort -u) \
-    <(pip3 freeze | cut -d '=' -f1 | cut -d ' ' -f1 |
-      tr '[:upper:]' '[:lower:]' | sort -u) |
-    while IFS= read -r pkg; do
-      if ! pip3 show $pkg | grep -i '^required-by: [a-z]' &>/dev/null; then
-        echo $pkg
-      fi
-    done
+    <(
+      pip3 freeze |
+        cut -d '=' -f1 |
+        cut -d ' ' -f1 |
+        xargs pip3 show |
+        grep -i '^requires:' |
+        awk -F ': ' '{ print $2 }' |
+        tr '[:upper:]' '[:lower:]' |
+        sed 's/,/\n/g' |
+        sed 's/ //g' |
+        awk NF |
+        sort -u
+    ) \
+    <(
+      pip3 freeze |
+        cut -d '=' -f1 |
+        cut -d ' ' -f1 |
+        tr '[:upper:]' '[:lower:]' |
+        sort -u
+    )
+)
+d=$(
+  echo $p |
+    xargs pip3 show |
+    grep -i '^required-by:' |
+    grep -in '^required-by: [a-z]' |
+    cut -d ':' -f1 |
+    sed -z 's/\n/d;/g'
+)
+{
+  echo $p | sed -e "$d"
   echo ${PIPS_TO_ADD}
 } | sort -u >"${LIST_DIR}/pip3s.txt"
 "${HOMEBREW_PREFIX}"/anaconda3/bin/conda list \
