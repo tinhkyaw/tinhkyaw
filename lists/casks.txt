@@ -322,6 +322,7 @@ home-assistant
 horos
 hp-prime
 http-toolkit
+httpie
 hugin
 hydrogen
 hydrus-network
