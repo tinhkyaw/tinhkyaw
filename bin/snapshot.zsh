@@ -31,9 +31,10 @@ EOF
 } | sort -u >"${LIST_DIR}/brews.txt"
 brew list --cask >"${SNAPSHOT_DIR}/cask${SUFFIX}.txt"
 CASKS_TO_IGNORE="\
-krisp\
+^corretto\
+|krisp\
 |lastpass\
-|^zoom$\
+|^zoom\
 "
 read -r -d '' CASKS_TO_ADD <<EOF
 amazon-music
