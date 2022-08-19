@@ -155,6 +155,7 @@ ryu1kn.edit-with-shell
 ryu1kn.partial-diff
 ryu1kn.text-marker
 sainoba.px-to-rem
+salesforce.salesforcedx-vscode-soql
 sburg.vscode-javascript-booster
 scalameta.metals
 shd101wyy.markdown-preview-enhanced
