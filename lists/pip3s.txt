@@ -6,7 +6,6 @@ bandit
 black
 borb
 bottle
-cached-property
 catboost
 celery
 cement
@@ -92,6 +91,7 @@ s3fs
 safety
 seaborn
 setuptools-scm
+simple-salesforce
 simplegeneric
 sip
 snooty-lextudio
