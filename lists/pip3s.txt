@@ -59,7 +59,6 @@ paramiko
 pathtools
 pip-tools
 pipdeptree
-poetry
 pss
 psycopg2
 pybind11

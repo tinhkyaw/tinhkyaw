@@ -99,6 +99,7 @@ krew
 kube-ps1
 leiningen
 lepton
+libgit2
 liblinear
 libmaxminddb
 libpq
@@ -139,7 +140,7 @@ pinentry-mac
 pipenv
 pipx
 poetry
-postgresql
+postgresql@14
 protobuf
 psgrep
 pssh
@@ -162,7 +163,6 @@ rocksdb
 ronn
 rsync
 rustup-init
-salt
 sbt
 scala
 scipy
