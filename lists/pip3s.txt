@@ -46,7 +46,6 @@ memory-profiler
 mercurial
 moban
 monotonic
-more-itertools
 mxnet
 natsort
 nltk
