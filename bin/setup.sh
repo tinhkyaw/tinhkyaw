@@ -49,9 +49,8 @@ curl -L https://cpanmin.us |
   App::cpanoutdated File::HomeDir \
   Log::Log4perl \
   Term::ReadLine::Perl
-brew_installed_perl_version=$(brew info --json perl | jq -r ".[0].installed[0].version")
-md="${HOMEBREW_PREFIX}/lib/perl5/site_perl/${brew_installed_perl_version}"
-if [[ ! -d "${md}" ]] && perl -V | grep -q "${md}"; then
+md=$(perl -V | grep "^[ ]*${HOMEBREW_PREFIX}/lib/perl5/site_perl/" | sed 's/ //g')
+if [[ ! -d "${md}" ]]; then
   print -P "%F{yellow}Warning:%f Creating the missing dir: ${md}"
   mkdir -p "$md"
   touch "$md/.gitignore"
