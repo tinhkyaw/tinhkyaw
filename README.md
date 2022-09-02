@@ -1,5 +1,9 @@
 # Tin H Kyaw
 
+| Page. 1 | Page. 2 |
+|:---:|:---:|
+| [![Résumé](https://raw.githubusercontent.com/tinhkyaw/tinhkyaw/main/resume/tinhkyaw-resume-1.png)](https://raw.githubusercontent.com/tinhkyaw/tinhkyaw/main/resume/tinhkyaw-resume.pdf)  | [![Résumé](https://raw.githubusercontent.com/tinhkyaw/tinhkyaw/main/resume/tinhkyaw-resume-2.png)](https://raw.githubusercontent.com/tinhkyaw/tinhkyaw/main/resume/tinhkyaw-resume.pdf) |
+
 [![Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tinhkyaw&theme=solarized_dark)](https://github.com/tinhkyaw)
 [![Profile Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tinhkyaw&theme=solarized_dark)](https://github.com/tinhkyaw) [![Most Commit Languages](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=tinhkyaw&theme=solarized_dark)](https://github.com/tinhkyaw) [![Repos Per Language](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tinhkyaw&theme=solarized_dark)](https://github.com/tinhkyaw)
 

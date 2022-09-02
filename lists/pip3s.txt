@@ -34,7 +34,6 @@ grpcio-status
 h2
 hstspreload
 icecream
-importlib-resources
 invoke
 jinja2-pluralize
 js-regex
