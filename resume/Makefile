@@ -16,7 +16,7 @@ tinhkyaw-resume.pdf:
 	$(CC) -output-directory=$(OUTPUT_DIR) ${RESUME_DIR}/tinhkyaw-resume.tex
 
 tinhkyaw-resume-1.png tinhkyaw-resume-2.png:
-	pdftoppm -png tinhkyaw-resume.pdf tinhkyaw-resume
+	pdftocairo -png -transp tinhkyaw-resume.pdf tinhkyaw-resume
 
 clean:
-	rm -rf $(OUTPUT_DIR)/*.pdf ${OUTPUT_DIR}/*.png
+	rm -rf $(OUTPUT_DIR)/*.aux $(OUTPUT_DIR)/*.pdf ${OUTPUT_DIR}/*.png
