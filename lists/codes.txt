@@ -23,6 +23,7 @@ christian-kohler.path-intellisense
 chrmarti.regex
 codeandstuff.package-json-upgrade
 CodeRoad.coderoad
+cschlosser.doxdocgen
 davidrockburn.py-pack
 dbaeumer.jshint
 dbaeumer.vscode-eslint
@@ -71,6 +72,7 @@ jakob101.RelativePath
 James-Yu.latex-workshop
 jasonlhy.hungry-delete
 jasonnutter.search-node-modules
+jeff-hykin.better-cpp-syntax
 JoeBerria.statusbarerror
 johnpapa.vscode-peacock
 josetr.cmake-language-support-vscode
