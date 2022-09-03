@@ -49,7 +49,7 @@ curl -L https://cpanmin.us |
   App::cpanoutdated File::HomeDir \
   Log::Log4perl \
   Term::ReadLine::Perl
-md=$(perl -V | grep "^[ ]*${HOMEBREW_PREFIX}/lib/perl5/site_perl/" | sed 's/ //g')
+md=$(perl -V | grep -E "^[ ]*${HOMEBREW_PREFIX}/lib/perl5/site_perl/" | sed 's/ //g')
 if [[ ! -d "${md}" ]]; then
   print -P "%F{yellow}Warning:%f Creating the missing dir: ${md}"
   mkdir -p "$md"

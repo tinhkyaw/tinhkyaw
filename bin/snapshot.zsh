@@ -47,7 +47,7 @@ virtualbox
 virtualbox-extension-pack
 EOF
 {
-  brew list --cask | egrep -vi ${CASKS_TO_IGNORE}
+  brew list --cask | grep -Evi ${CASKS_TO_IGNORE}
   echo ${CASKS_TO_ADD}
 } | sort -u >"${LIST_DIR}/casks.txt"
 brew tap >"${SNAPSHOT_DIR}/tap${SUFFIX}.txt"
@@ -103,7 +103,7 @@ conda list -n base --explicit >"${SNAPSHOT_DIR}/miniforge${SUFFIX}.txt"
 code --list-extensions --show-versions | sort -d -f \
   >"${SNAPSHOT_DIR}/code${SUFFIX}.txt"
 grep -Fvxf \
-  <(egrep -l 'extensionDependencies|extensionPack' \
+  <(grep -El 'extensionDependencies|extensionPack' \
     "${HOME}"/.vscode/extensions/*/package.json |
     xargs -I {} jq '.extensionDependencies, .extensionPack' {} |
     jq -sS 'add|sort|unique' |
