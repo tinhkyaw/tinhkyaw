@@ -1,5 +1,6 @@
 altair
 apache-airflow-providers-amazon
+async-generator
 autoflake
 autopep8
 bandit
