@@ -3,17 +3,14 @@ Avroclipse
 Buildship Gradle Integration
 Checkstyle
 Cucumber
-Dart Plugin
 EclEmma
 Eclipse Corrosion
 Eclipse Docker Tooling
 Eclipse TeXlipse
 Enhanced Class Decompiler
-Google Cloud Tools
 JDeodorant
 JGrasp  https://www.jgrasp.org/eclipse_plugin
 Json Editor
-Kotlin
 Kubernetes Manifest Editor
 macOS Eclipse Launcher
 Markdown Text Editor
