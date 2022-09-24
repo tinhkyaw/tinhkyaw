@@ -11,6 +11,7 @@ catboost
 celery
 cement
 click-completion
+columnq-cli
 cython
 dask
 ddt
