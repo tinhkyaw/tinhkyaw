@@ -10,6 +10,7 @@ betterthantomorrow.calva
 bierner.emojisense
 bierner.markdown-emoji
 bierner.react-native-ios-pack
+blackmist.LinkCheckMD
 BotBuilder.bot-framework-adaptive-tools
 bourhaouta.tailwindshades
 bradymholt.pgformatter
@@ -29,6 +30,7 @@ dbaeumer.jshint
 dbaeumer.vscode-eslint
 DevonDCarew.bazel-code
 docsmsft.docs-authoring-pack
+docsmsft.docs-images
 docsmsft.docs-visual-areas
 donjayamanne.git-extension-pack
 donjayamanne.python-extension-pack
