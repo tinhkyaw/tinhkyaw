@@ -10,7 +10,6 @@ betterthantomorrow.calva
 bierner.emojisense
 bierner.markdown-emoji
 bierner.react-native-ios-pack
-blackmist.LinkCheckMD
 BotBuilder.bot-framework-adaptive-tools
 bourhaouta.tailwindshades
 bradymholt.pgformatter
@@ -29,8 +28,8 @@ davidrockburn.py-pack
 dbaeumer.jshint
 dbaeumer.vscode-eslint
 DevonDCarew.bazel-code
+docsmsft.atlas-design-system-tools
 docsmsft.docs-authoring-pack
-docsmsft.docs-images
 docsmsft.docs-visual-areas
 donjayamanne.git-extension-pack
 donjayamanne.python-extension-pack
@@ -47,7 +46,6 @@ formulahendry.auto-rename-tag
 formulahendry.docker-explorer
 foxundermoon.shell-format
 fwcd.kotlin
-GabrielBB.vscode-lombok
 Gimly81.matlab
 GitHub.remotehub
 GitHub.vscode-codeql
@@ -116,6 +114,7 @@ ms-kubernetes-tools.kind-vscode
 ms-kubernetes-tools.kubernetes-opa-vscode
 ms-ossdata.vscode-postgresql
 ms-playwright.playwright
+ms-python.flake8
 ms-python.gather
 ms-python.isort
 ms-python.pylint
@@ -181,6 +180,7 @@ VisualStudioExptTeam.vscodeintellicode-completions
 vsciot-vscode.vscode-arduino
 vscjava.vscode-gradle
 vscjava.vscode-java-pack
+vscjava.vscode-lombok
 vscode-icons-team.vscode-icons
 vsls-contrib.codetour
 waderyan.gitblame
