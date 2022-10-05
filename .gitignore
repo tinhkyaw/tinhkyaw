@@ -481,7 +481,7 @@ Debug
 *.suo
 *.user
 obj
-bin
+# bin
 /build/
 !.paket/paket.bootstrapper.exe
 .ionide/

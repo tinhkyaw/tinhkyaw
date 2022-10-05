@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 pw_name="CLI sudo"
 pw_account="${USER}"
 if ! cli_sudo_pass=$(

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 WD=$(pwd)
 pw_name='CLI sudo'
 account="${USER}"
@@ -13,7 +13,7 @@ security add-generic-password -s 'CLI sudo' \
   -a "${account}" -w "${sudo_password}"
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 mkdir -p "$HOME/bin"
-ln -sf "${GIT_ROOT_DIR}/bin/get-cli-sudo-pass.sh" "${HOME}/bin"
-export SUDO_ASKPASS="${HOME}/bin/get-cli-sudo-pass.sh"
-"${HOME}"/bin/get-cli-sudo-pass.sh
+ln -sf "${GIT_ROOT_DIR}/bin/get-cli-sudo-pass.zsh" "${HOME}/bin"
+export SUDO_ASKPASS="${HOME}/bin/get-cli-sudo-pass.zsh"
+"${HOME}"/bin/get-cli-sudo-pass.zsh
 cd "${WD}" || exit

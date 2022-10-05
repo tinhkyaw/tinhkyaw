@@ -11,7 +11,8 @@ template_list=$(awk -vORS=, '{ print $1 }' \
 curl -sLw "\n" \
   https://www.toptal.com/developers/gitignore/api/${template_list} |
   sed \
-    's/bin\//# &/;
+    's/^bin/# &/;
+    s/^bin\//# &/;
     s/\[Bb\]in/# &/;
     s/*\/Makefile/# &/;' \
     >${GIT_ROOT_DIR}/.gitignore
