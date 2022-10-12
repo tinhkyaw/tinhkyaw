@@ -56,6 +56,7 @@ golang.go
 googlecloudtools.cloudcode
 GrapeCity.gc-excelviewer
 GraphQL.vscode-graphql
+GraphQL.vscode-graphql-execution
 Gruntfuggly.todo-tree
 hancel.markdown-image
 hashicorp.terraform
