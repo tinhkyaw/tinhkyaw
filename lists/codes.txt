@@ -128,6 +128,7 @@ ms-vscode.hexeditor
 ms-vscode.live-server
 ms-vscode.makefile-tools
 ms-vscode.mono-debug
+ms-vscode.remote-explorer
 ms-vscode-remote.vscode-remote-extensionpack
 ms-vscode.vscode-embedded-tools
 ms-vscode.vscode-github-issue-notebooks
