@@ -1,9 +1,11 @@
 altair
 apache-airflow-providers-amazon
+apischema
 async-generator
 autoflake
 autopep8
 bandit
+based58
 black
 borb
 bottle
@@ -39,6 +41,8 @@ icecream
 invoke
 jinja2-pluralize
 js-regex
+jsonrpcclient
+jsonrpcserver
 jupyter
 lightgbm
 locust
