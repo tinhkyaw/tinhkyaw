@@ -10,5 +10,6 @@
     "**/conf/**",
     "resume/**"
   ],
-  "esbonio.sphinx.confDir": ""
+  "esbonio.sphinx.confDir": "",
+  "sarif-viewer.connectToGithubCodeScanning": "off"
 }
