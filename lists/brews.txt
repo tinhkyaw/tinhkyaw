@@ -73,7 +73,6 @@ gopass
 gradle
 grc
 grep
-groff
 gron
 harelba/q/q
 hbase
