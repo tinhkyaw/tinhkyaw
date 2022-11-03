@@ -9,6 +9,7 @@ based58
 black
 borb
 bottle
+cached-property
 catboost
 celery
 cement
