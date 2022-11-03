@@ -75,11 +75,11 @@ if (( $+commands[brew] )); then
   # ncdu
   # https://g.blicky.net/ncdu.git/
   if (( $+commands[ncdu] )); then
-      if [[ "$OSTYPE" =~ ^linux ]]; then
-          alias ncdu='ncdu --color dark --exclude-kernfs'
-      else
-          alias ncdu='ncdu --color dark'
-      fi
+    if [[ "$OSTYPE" =~ ^linux ]]; then
+      alias ncdu='ncdu --color dark --exclude-kernfs'
+    else
+      alias ncdu='ncdu --color dark'
+    fi
   fi
   # tldr
   # https://tldr.sh/
@@ -89,8 +89,8 @@ if (( $+commands[brew] )); then
   # xh
   # https://github.com/ducaale/xh
   if (( $+commands[xh] )); then
-      alias http='xh'
-      alias https='xh --https'
+    alias http='xh'
+    alias https='xh --https'
   fi
   # tmux
   # https://github.com/tmux/tmux
@@ -121,13 +121,13 @@ if (( $+commands[brew] )); then
   # https://github.com/conda-forge/miniforge
   __conda_setup="$(\"${HOMEBREW_PREFIX}/Caskroom/miniforge/base/bin/conda\" 'shell.zsh' 'hook' 2> /dev/null)"
   if [ $? -eq 0 ]; then
-      eval "$__conda_setup"
+    eval "$__conda_setup"
   else
-      if [ -f "${HOMEBREW_PREFIX}/Caskroom/miniforge/base/etc/profile.d/conda.sh" ]; then
-          . "${HOMEBREW_PREFIX}/Caskroom/miniforge/base/etc/profile.d/conda.sh"
-      else
-          export PATH="${HOMEBREW_PREFIX}/Caskroom/miniforge/base/bin:$PATH"
-      fi
+    if [ -f "${HOMEBREW_PREFIX}/Caskroom/miniforge/base/etc/profile.d/conda.sh" ]; then
+      . "${HOMEBREW_PREFIX}/Caskroom/miniforge/base/etc/profile.d/conda.sh"
+    else
+      export PATH="${HOMEBREW_PREFIX}/Caskroom/miniforge/base/bin:$PATH"
+    fi
   fi
   unset __conda_setup
   # Anaconda
