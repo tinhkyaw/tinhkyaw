@@ -1,10 +1,11 @@
-AddKeysToAgent yes
-ForwardAgent yes
-KeepAlive yes
-UseKeychain yes
-
-ServerAliveCountMax 1
-ServerAliveInterval 5
+Host *
+  AddKeysToAgent yes
+  ForwardAgent yes
+  KeepAlive yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_tin
+  ServerAliveCountMax 1
+  ServerAliveInterval 5
 
 # Host <alias>
 #   HostName <fully-qualified-hostname>
