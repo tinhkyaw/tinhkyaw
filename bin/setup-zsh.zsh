@@ -77,6 +77,6 @@ for script_file in \
   update-all.zsh \
   update-gi.zsh; do
   ln -sf "${GIT_ROOT_DIR}/bin/${script_file}" \
-  "${HOME}/bin/${script_file}"
+  "${HOME}/bin/"
 done
 cd "${WD}" || exit
