@@ -27,12 +27,12 @@ source "${GIT_ROOT_DIR}"/bin/setup-sudo-askpass.zsh
 if [[ $(spctl --status) =~ "assessments enabled" ]]; then
   sudo spctl --master-disable
 fi
-xargs brew install --cask <"${LIST_DIR}"/casks.txt
+xargs -I {} brew install --cask {} <"${LIST_DIR}"/casks.txt
 conda init "$(basename "${SHELL}")"
 xargs npm install -g <"${LIST_DIR}"/npms.txt
 xargs -I {} code --install-extension {} <"${LIST_DIR}"/codes.txt
 pip3 install -U --use-deprecated=legacy-resolver -r "${LIST_DIR}"/pip3s.txt
-xargs -I {} gem install <"${LIST_DIR}"/gems.txt
+xargs gem install <"${LIST_DIR}"/gems.txt
 defaults write com.apple.versioner.perl Version -string 5.18 # for csshX
 PERL_SETUP='setup-perl.zsh'
 ln -sf "${GIT_ROOT_DIR}/bin/${PERL_SETUP}" "${HOME}/bin/${PERL_SETUP}"
