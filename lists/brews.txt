@@ -97,7 +97,6 @@ kotlin
 krew
 kube-ps1
 leiningen
-lepton
 libgit2
 liblinear
 libmaxminddb

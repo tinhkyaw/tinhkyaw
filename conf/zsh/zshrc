@@ -41,7 +41,7 @@ if (( $+commands[brew] )); then
   # asdf
   # https://asdf-vm.com/
   if [[ -f "${HOMEBREW_PREFIX}/opt/asdf/libexec/asdf.sh" ]]; then
-    . ${HOMEBREW_PREFIX}/opt/asdf/asdf.sh
+    . ${HOMEBREW_PREFIX}/opt/asdf/libexec/asdf.sh
   fi
   # thefuck
   # https://github.com/nvbn/thefuck
