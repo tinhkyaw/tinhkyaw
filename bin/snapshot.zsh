@@ -13,9 +13,11 @@ LIST_DIR="${GIT_ROOT_DIR}/lists"
 color=green
 print -P "%F{${color}}Taking snapshot...%f"
 brew list --formula >"${SNAPSHOT_DIR}/brew${SUFFIX}.txt"
+BREWS_TO_IGNORE="\
+lepton\
+"
 read -r -d '' BREWS_TO_ADD <<EOF
 fluid-synth
-lepton
 luajit
 katago
 liblinear
@@ -26,7 +28,8 @@ EOF
       awk -F ':' '{ print $2 }' |
       tr ' ' '\n' |
       sort -u) \
-    <(brew list --formula --full-name -1 | sort)
+    <(brew list --formula --full-name -1 | sort) |
+    grep -Evi ${BREWS_TO_IGNORE}
   echo ${BREWS_TO_ADD}
 } | sort -u >"${LIST_DIR}/brews.txt"
 brew list --cask >"${SNAPSHOT_DIR}/cask${SUFFIX}.txt"

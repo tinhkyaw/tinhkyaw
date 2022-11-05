@@ -15,5 +15,4 @@ GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 mkdir -p "$HOME/bin"
 SUDO_ASKPASS_SCRIPT='get-cli-sudo-pass.zsh'
 ln -sf "${GIT_ROOT_DIR}/bin/${SUDO_ASKPASS_SCRIPT}" "${HOME}/bin"
-export SUDO_ASKPASS="${HOME}/bin/${SUDO_ASKPASS_SCRIPT}"
 cd "${WD}" || exit
