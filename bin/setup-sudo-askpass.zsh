@@ -16,5 +16,5 @@ mkdir -p "$HOME/bin"
 SUDO_ASKPASS_SCRIPT='get-cli-sudo-pass.zsh'
 ln -sf "${GIT_ROOT_DIR}/bin/${SUDO_ASKPASS_SCRIPT}" "${HOME}/bin"
 export SUDO_ASKPASS="${HOME}/bin/${SUDO_ASKPASS_SCRIPT}"
-"${HOME}"/bin/${SUDO_ASKPASS_SCRIPT}
+"${HOME}"/bin/${SUDO_ASKPASS_SCRIPT} &>/dev/null
 cd "${WD}" || exit
