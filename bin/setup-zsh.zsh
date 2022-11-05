@@ -36,8 +36,8 @@ if [[ ! -d "${ZDOTDIR:-$HOME}/.zprezto" ]]; then
   for rcfile in "${GIT_ROOT_DIR}"/conf/zsh/*; do
     ln -sf "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
   done
-  (cd "${ZDOTDIR:-$HOME}/.zprezto/modules/history-substring-search/external"
-    && git checkout master)
+  (cd "${ZDOTDIR:-$HOME}/.zprezto/modules/history-substring-search/external" \
+  && git checkout master)
   COMPLETION_DOCKER="${GHUC}/docker/cli/master/contrib/completion/zsh/_docker"
   curl -sSL "${COMPLETION_DOCKER}" \
     >"${ZDOTDIR:-$HOME}/.zprezto/modules/completion/external/src/_docker"
