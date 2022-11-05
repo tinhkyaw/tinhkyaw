@@ -23,8 +23,7 @@ export SLUGIFY_USES_TEXT_UNIDECODE=yes
 xargs -I {} brew tap {} <"${LIST_DIR}"/taps.txt
 xargs brew install <"${LIST_DIR}"/brews.txt
 rustup-init -y
-"${GIT_ROOT_DIR}"/bin/setup-sudo-askpass.zsh
-export SUDO_ASKPASS="${HOME}/bin/get-cli-sudo-pass.zsh"
+source "${GIT_ROOT_DIR}"/bin/setup-sudo-askpass.zsh
 if [[ $(spctl --status) =~ "assessments enabled" ]]; then
   sudo spctl --master-disable
 fi
