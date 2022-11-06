@@ -1,5 +1,3 @@
-# Fig pre block. Keep at the top of this file.
-[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -7,7 +5,6 @@
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
-
 # Source Prezto.
 # https://github.com/sorin-ionescu/prezto
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
@@ -16,13 +13,11 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   export HISTORY_SUBSTRING_SEARCH_PREFIXED=true
   export HISTORY_SUBSTRING_SEARCH_ENSURE_UNIQUE=true
 fi
-
 # YADR
 # https://github.com/skwp/dotfiles
 if [[ -d ~/.yadr ]]; then
   for config_file ($HOME/.yadr/zsh/*.zsh) source $config_file
 fi
-
 # Homebrew
 # https://brew.sh/
 if (( $+commands[brew] )); then
@@ -151,7 +146,6 @@ if (( $+commands[brew] )); then
     source "${HOMEBREW_PREFIX}/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
   fi
 fi
-
 # Bash-my-AWS
 # https://github.com/bash-my-aws/bash-my-aws
 if [[ -d "${BMA_HOME:-$HOME}/.bash-my-aws" ]]; then
@@ -161,11 +155,9 @@ if [[ -d "${BMA_HOME:-$HOME}/.bash-my-aws" ]]; then
   autoload -U +X bashcompinit && bashcompinit
   source ${BMA_HOME:-$HOME/.bash-my-aws}/bash_completion.sh
 fi
-
 if [[ -f "${HOME}/bin/get-cli-sudo-pass.zsh" ]]; then
   export SUDO_ASKPASS=${HOME}/bin/get-cli-sudo-pass.zsh
 fi
-
 # diff-so-fancy
 # https://github.com/so-fancy/diff-so-fancy
 if (( $+commands[diff-so-fancy] )); then
@@ -175,28 +167,20 @@ if (( $+commands[diff-so-fancy] )); then
     diff -u $@ | diff-so-fancy | less --tabs=4 -RFX
   }
 fi
-
 # gitignore
 # https://docs.gitignore.io/install/command-line
 function gig() {
   curl -sLw "\n" https://www.toptal.com/developers/gitignore/api/$@ ;
 }
-
 # rustup
 # https://github.com/rust-lang/rustup
 if [[ -f "$HOME/.cargo/env" ]]; then
   . "$HOME/.cargo/env"
 fi
-
 [[ ! -f ~/.zshrc.local ]] || source ~/.zshrc.local
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 (( ! ${+functions[p10k]} )) || p10k finalize
-
-# Fig post block. Keep at the bottom of this file.
-[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
-
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
