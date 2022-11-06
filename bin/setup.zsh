@@ -1,5 +1,4 @@
 #!/usr/bin/env zsh
-set -e
 if ! command -v brew &>/dev/null; then
   /bin/bash -c \
     "$(
