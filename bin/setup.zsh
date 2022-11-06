@@ -5,10 +5,10 @@ if ! command -v brew &>/dev/null; then
       curl -fsSL \
         https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
     )"
-  eval "$(/opt/homebrew/bin/brew shellenv)"
   brew install coreutils git mr
   ln -s "$(brew --prefix)" "${HOME}"/.brew
 fi
+eval "$(/opt/homebrew/bin/brew shellenv)"
 DIR=$(dirname "$(greadlink -f "${0}")")
 cd "${DIR}"
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
