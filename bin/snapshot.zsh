@@ -37,9 +37,11 @@ amazon-music
 cellprofiler
 dmidiplayer
 funter
+jcryptool
 nautilus
 podolski
 triplecheese
+vapor
 virtualbox
 virtualbox-extension-pack
 EOF

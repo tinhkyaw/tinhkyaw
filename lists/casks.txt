@@ -362,6 +362,7 @@ jamulus
 jasp
 jbrowse
 jclasslib-bytecode-viewer
+jcryptool
 jd-gui
 jdiskreport
 jdk-mission-control
@@ -995,6 +996,7 @@ utm
 uvtools
 vagrant
 vagrant-manager
+vapor
 vassal
 vb-cable
 vcv-rack
