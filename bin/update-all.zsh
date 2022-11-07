@@ -13,6 +13,9 @@ gem update
 gem cleanup
 timeout --foreground 3m npm-check -g -y
 pip3 install --upgrade pip setuptools
+export GRPC_PYTHON_BUILD_SYSTEM_OPENSSL=1
+export GRPC_PYTHON_BUILD_SYSTEM_ZLIB=1
+export CC=clang-omp CXX=clang-omp++
 pip3 freeze --local |
   cut -d = -f 1 |
   cut -d ' ' -f 1 |

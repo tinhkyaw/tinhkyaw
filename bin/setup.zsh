@@ -32,6 +32,9 @@ xargs npm install -g <"${LIST_DIR}"/npms.txt
 xargs -I {} code --install-extension {} <"${LIST_DIR}"/codes.txt
 export GRPC_PYTHON_BUILD_SYSTEM_OPENSSL=1
 export GRPC_PYTHON_BUILD_SYSTEM_ZLIB=1
+ln -s "${HOMEBREW_PREFIX}"/opt/llvm/bin/clang "${HOMEBREW_PREFIX}"/bin/clang-omp
+ln -s "${HOMEBREW_PREFIX}"/opt/llvm/bin/clang++ "${HOMEBREW_PREFIX}"/bin/clang-omp++
+export CC=clang-omp CXX=clang-omp++
 pip3 install -U --use-deprecated=legacy-resolver -r "${LIST_DIR}"/pip3s.txt
 xargs gem install <"${LIST_DIR}"/gems.txt
 defaults write com.apple.versioner.perl Version -string 5.18 # for csshX
