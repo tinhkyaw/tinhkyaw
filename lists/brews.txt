@@ -83,7 +83,6 @@ hub
 hyperfine
 icdiff
 igv
-ipython
 jansson
 jenv
 jmeter
