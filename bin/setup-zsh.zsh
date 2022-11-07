@@ -19,8 +19,9 @@ if [[ ! -d "${HOME}/.yadr" ]]; then
       ${GHUC}/skwp/dotfiles/master/install.sh
     )"
   mr register "${HOME}/.yadr"
-fi
-if [[ ! -d "${ZDOTDIR:-$HOME}/.zprezto" ]]; then
+  if [[ -d "${ZDOTDIR:-$HOME}/.zprezto" ]]; then
+    rm -rf "${ZDOTDIR:-$HOME}/.zprezto"
+  fi
   git clone --recursive \
     https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
   setopt EXTENDED_GLOB
