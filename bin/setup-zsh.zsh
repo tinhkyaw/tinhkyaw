@@ -18,6 +18,7 @@ if [[ ! -d "${HOME}/.yadr" ]]; then
       curl -fsSL \
       ${GHUC}/skwp/dotfiles/master/install.sh
     )"
+  sed -i 's/egrep -q/grep -Eq/' "${HOME}/.yadr/zsh/0_path.zsh"
   mr register "${HOME}/.yadr"
   if [[ -d "${ZDOTDIR:-$HOME}/.zprezto" ]]; then
     rm -rf "${ZDOTDIR:-$HOME}/.zprezto"
