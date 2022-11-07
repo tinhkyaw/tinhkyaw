@@ -96,7 +96,6 @@ celestia
 cellprofiler
 cemu
 cerebro
-cevelop
 chai
 chalk
 chatterino
@@ -210,7 +209,6 @@ extraterm
 falcon-sql-client
 fawkes
 fbreader
-fig
 fiji
 firealpaca
 firefox
@@ -273,7 +271,6 @@ gimp
 gisto
 git-it
 gitahead
-giteye
 gitfiend
 github
 gitter
@@ -300,7 +297,6 @@ google-web-designer
 gopass-ui
 gplates
 gpodder
-gpower
 gpxsee
 gqrx
 grads
@@ -354,7 +350,6 @@ ipe
 ipepresenter
 iptvnator
 isabelle
-istumbler
 isyncer
 iterm2
 itk-snap
@@ -367,7 +362,6 @@ jamulus
 jasp
 jbrowse
 jclasslib-bytecode-viewer
-jcryptool
 jd-gui
 jdiskreport
 jdk-mission-control
@@ -765,7 +759,6 @@ scroll-reverser
 sdformatter
 sdrdx
 seamonkey
-seashore
 secure-pipes
 send-to-kindle
 sensiblesidebuttons
@@ -1002,7 +995,6 @@ utm
 uvtools
 vagrant
 vagrant-manager
-vapor
 vassal
 vb-cable
 vcv-rack

@@ -16,12 +16,6 @@ brew list --formula >"${SNAPSHOT_DIR}/brew${SUFFIX}.txt"
 BREWS_TO_IGNORE="\
 lepton\
 "
-read -r -d '' BREWS_TO_ADD <<EOF
-fluid-synth
-luajit
-katago
-liblinear
-EOF
 {
   grep -Fvxf \
     <(brew deps --installed |
@@ -30,7 +24,6 @@ EOF
       sort -u) \
     <(brew list --formula --full-name -1 | sort) |
     grep -Evi ${BREWS_TO_IGNORE}
-  echo ${BREWS_TO_ADD}
 } | sort -u >"${LIST_DIR}/brews.txt"
 brew list --cask >"${SNAPSHOT_DIR}/cask${SUFFIX}.txt"
 CASKS_TO_IGNORE="\
@@ -41,11 +34,12 @@ CASKS_TO_IGNORE="\
 "
 read -r -d '' CASKS_TO_ADD <<EOF
 amazon-music
+cellprofiler
 dmidiplayer
-fig
-gpower
+funter
 nautilus
-vidl
+podolski
+triplecheese
 virtualbox
 virtualbox-extension-pack
 EOF

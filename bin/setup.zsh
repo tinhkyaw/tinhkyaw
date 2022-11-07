@@ -26,6 +26,7 @@ source "${GIT_ROOT_DIR}"/bin/setup-sudo-askpass.zsh
 if [[ $(spctl --status) =~ "assessments enabled" ]]; then
   sudo spctl --master-disable
 fi
+brew install --cask temurin
 xargs -I {} brew install --cask {} <"${LIST_DIR}"/casks.txt
 conda init "$(basename "${SHELL}")"
 xargs npm install -g <"${LIST_DIR}"/npms.txt

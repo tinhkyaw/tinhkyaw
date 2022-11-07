@@ -89,7 +89,6 @@ jmeter
 jq
 jupyterlab
 kakoune
-katago
 kind
 kops
 kotlin
@@ -97,7 +96,6 @@ krew
 kube-ps1
 leiningen
 libgit2
-liblinear
 libmaxminddb
 libpq
 libproxy
@@ -105,7 +103,6 @@ libsmi
 lightgbm
 llvm
 lorem
-luajit
 luajit-openresty
 lzip
 macvim
