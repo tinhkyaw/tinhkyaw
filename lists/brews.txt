@@ -103,6 +103,7 @@ libmaxminddb
 libpq
 libproxy
 libsmi
+lightgbm
 lorem
 luajit
 luajit-openresty

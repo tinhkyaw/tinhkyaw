@@ -64,7 +64,6 @@ pip3 freeze --local >"${SNAPSHOT_DIR}/pip3${SUFFIX}.txt"
 PIPS_TO_IGNORE="\
 tensorflow\
 "
-read -r -d '' PIPS_TO_ADD ''
 p=$(
   grep -Fvxf \
     <(
@@ -99,7 +98,6 @@ d=$(
 {
   echo $p | sed -e "$d" |
     grep -Evi ${PIPS_TO_IGNORE}
-  echo ${PIPS_TO_ADD}
 } | sort -u >"${LIST_DIR}/pip3s.txt"
 "${HOMEBREW_PREFIX}"/anaconda3/bin/conda list \
   -p "${HOMEBREW_PREFIX}"/anaconda3 --explicit \
