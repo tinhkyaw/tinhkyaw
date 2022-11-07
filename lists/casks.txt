@@ -383,6 +383,7 @@ jubler
 julia
 jumpcut
 jupyter-notebook-viewer
+jupyterlab
 kactus
 kap
 katana

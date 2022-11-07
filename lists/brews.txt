@@ -103,6 +103,7 @@ libpq
 libproxy
 libsmi
 lightgbm
+llvm
 lorem
 luajit
 luajit-openresty
