@@ -106,7 +106,6 @@ sqlfluff
 stringcase
 swagger-ui-bundle
 sympy
-tensorflow
 textdistance
 tldextract
 torchaudio

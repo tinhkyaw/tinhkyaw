@@ -10,7 +10,6 @@ betterthantomorrow.calva
 bierner.emojisense
 bierner.markdown-emoji
 bierner.react-native-ios-pack
-BotBuilder.bot-framework-adaptive-tools
 bourhaouta.tailwindshades
 bradymholt.pgformatter
 BrandonBlaschke.easy-highlight

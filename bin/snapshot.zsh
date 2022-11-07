@@ -61,9 +61,10 @@ npm ls -g -p |
   grep node_modules |
   xargs basename >"${LIST_DIR}/npms.txt"
 pip3 freeze --local >"${SNAPSHOT_DIR}/pip3${SUFFIX}.txt"
-read -r -d '' PIPS_TO_ADD <<EOF
-tensorflow
-EOF
+PIPS_TO_IGNORE="\
+tensorflow\
+"
+read -r -d '' PIPS_TO_ADD ''
 p=$(
   grep -Fvxf \
     <(
@@ -96,7 +97,8 @@ d=$(
     gsed -z 's/\n/d;/g'
 )
 {
-  echo $p | sed -e "$d"
+  echo $p | sed -e "$d" |
+    grep -Evi ${PIPS_TO_IGNORE}
   echo ${PIPS_TO_ADD}
 } | sort -u >"${LIST_DIR}/pip3s.txt"
 "${HOMEBREW_PREFIX}"/anaconda3/bin/conda list \
