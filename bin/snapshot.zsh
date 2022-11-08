@@ -35,14 +35,11 @@ CASKS_TO_IGNORE="\
 "
 read -r -d '' CASKS_TO_ADD <<EOF
 amazon-music
-cellprofiler
 dmidiplayer
 funter
-jcryptool
 nautilus
 podolski
 triplecheese
-vapor
 virtualbox
 virtualbox-extension-pack
 EOF
@@ -112,6 +109,6 @@ grep -Fvxf \
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --version \
   >"${SNAPSHOT_DIR}/chrome${SUFFIX}.txt"
 gcloud version | grep -v gcloud >"${SNAPSHOT_DIR}/gcloud${SUFFIX}.txt"
-cat "${HOME}"/.mrconfig >"${SNAPSHOT_DIR}/mr${SUFFIX}.txt"
+cp "${HOME}"/.mrconfig "${SNAPSHOT_DIR}/mr${SUFFIX}.txt"
 cpan -l >"${SNAPSHOT_DIR}/cpan${SUFFIX}.txt"
 cd ${WD}

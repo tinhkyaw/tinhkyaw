@@ -88,7 +88,6 @@ jmeter
 jq
 jupyterlab
 kakoune
-katago
 kind
 kops
 kotlin
