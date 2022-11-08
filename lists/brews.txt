@@ -53,7 +53,6 @@ ffmpeg
 findutils
 fish
 flake8
-fluid-synth
 fpc
 fx
 fzf
@@ -89,6 +88,7 @@ jmeter
 jq
 jupyterlab
 kakoune
+katago
 kind
 kops
 kotlin
