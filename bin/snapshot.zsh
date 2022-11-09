@@ -37,7 +37,6 @@ CASKS_TO_IGNORE="\
 read -r -d '' CASKS_TO_ADD <<EOF
 amazon-music
 dmidiplayer
-funter
 nautilus
 podolski
 triplecheese
