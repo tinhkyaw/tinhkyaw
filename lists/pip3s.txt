@@ -49,6 +49,7 @@ lightgbm
 locust
 lorem
 memory-profiler
+mercurial
 moban
 monotonic
 mxnet
