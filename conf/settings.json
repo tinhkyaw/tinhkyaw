@@ -25,7 +25,6 @@
   "cmake.configureOnOpen": false,
   "code-runner.enableAppInsights": false,
   "codeQL.cli.executablePath": "/Users/tin/.brew/bin/codeql",
-  "codespaces.accountProvider": "GitHub",
   "csharp.suppressDotnetInstallWarning": true,
   "debug.terminal.clearBeforeReusing": true,
   "docker-explorer.enableTelemetry": false,
@@ -65,16 +64,10 @@
     "suppressFileNotUnderSourceControlWarning": false,
     "suppressGitVersionWarning": false,
     "suppressLineUncommittedWarning": false,
-    "suppressNoRepositoryWarning": false,
-    "suppressResultsExplorerNotice": false,
-    "suppressShowKeyBindingsNotice": true
+    "suppressNoRepositoryWarning": false
   },
-  "gitlens.historyExplorer.enabled": true,
-  "gitlens.views.fileHistory.enabled": true,
-  "gitlens.views.lineHistory.enabled": true,
   "go.toolsManagement.autoUpdate": true,
   "guides.sendUsagesAndStats": false,
-  "kite.showWelcomeNotificationOnStartup": false,
   "makefile.extensionOutputFolder": "./.vscode",
   "markdownlint.config": {
     "MD025": {
@@ -108,7 +101,7 @@
     "--style",
     "{based_on_style: google, column_limit: 79}"
   ],
-  "python.jediEnabled": false,
+  "python.formatting.yapfPath": "/Users/tin/.brew/bin/yapf",
   "python.languageServer": "Pylance",
   "python.linting.flake8Args": [
     "--config",
@@ -117,16 +110,11 @@
   "python.linting.flake8Enabled": true,
   "python.linting.flake8Path": "/Users/tin/.brew/bin/flake8",
   "python.linting.pylintEnabled": false,
-  "python.pythonPath": "/Users/tin/.brew/bin/python3",
   "redhat.telemetry.enabled": false,
   "rest-client.enableTelemetry": false,
-  "restructuredtext.confPath": "",
   "restructuredtext.linter.rst-lint.executablePath": "/Users/tin/.brew/bin/doc8",
   "restructuredtext.linter.rstcheck.executablePath": "/Users/tin/.brew/bin/doc8",
-  "rust-client.rustupPath": "/Users/tin/.cargo/bin/rustup",
   "shellcheck.executablePath": "/Users/tin/.brew/bin/shellcheck",
-  "telemetry.enableCrashReporter": false,
-  "telemetry.enableTelemetry": false,
   "telemetry.telemetryLevel": "off",
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.fontFamily": "'MesloLGS NF'",
@@ -140,7 +128,6 @@
     "minikube-path": "/Users/tin/.brew/bin/minikube",
     "vscode-kubernetes.minikube-path.mac": "/Users/tin/.brew/bin/minikube"
   },
-  "vscode-edge-devtools.mirrorEdits": true,
   "vscode-kubernetes.helm-path": "/Users/tin/.brew/bin/helm",
   "vscode-kubernetes.kubectl-path": "/Users/tin/.brew/bin/kubectl",
   "vscode-kubernetes.minikube-path": "/Users/tin/.brew/bin/minikube",

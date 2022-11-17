@@ -97,7 +97,6 @@ seaborn
 setuptools-scm
 simple-salesforce
 simplegeneric
-sip
 snooty-lextudio
 snorkel
 solana
