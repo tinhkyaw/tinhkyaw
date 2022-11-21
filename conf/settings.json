@@ -13,11 +13,13 @@
     "editor.defaultFormatter": "ms-python.python",
     "editor.formatOnSave": true
   },
+  "[shellscript]": {
+    "editor.defaultFormatter": "trunk.io"
+  },
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
-  "aws.profile": "profile:default",
   "aws.telemetry": false,
   "bazel.buildifierPath": "/Users/tin/.brew/bin/buildifier",
   "carbon.fontFamily": "Source Code Pro",
@@ -43,18 +45,12 @@
     "*.m": "matlab"
   },
   "files.exclude": {
-    "**/.classpath": true,
-    "**/.factorypath": true,
-    "**/.project": true,
-    "**/.settings": true
+    "**/.trunk/*out": true
   },
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "files.watcherExclude": {
-    "**/.ammonite": true,
-    "**/.bloop": true,
-    "**/.metals": true,
-    "**/target": true
+    "**/.trunk/*out": true
   },
   "git.autofetch": true,
   "git.path": "/Users/tin/.brew/bin/git",
@@ -112,6 +108,7 @@
   "python.linting.pylintEnabled": false,
   "redhat.telemetry.enabled": false,
   "rest-client.enableTelemetry": false,
+  "restructuredtext.linter.doc8.executablePath": "/Users/tin/.brew/bin/doc8",
   "restructuredtext.linter.rst-lint.executablePath": "/Users/tin/.brew/bin/doc8",
   "restructuredtext.linter.rstcheck.executablePath": "/Users/tin/.brew/bin/doc8",
   "shellcheck.executablePath": "/Users/tin/.brew/bin/shellcheck",
