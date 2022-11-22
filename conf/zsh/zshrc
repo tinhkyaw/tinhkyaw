@@ -92,24 +92,27 @@ if (( $+commands[brew] )); then
   if (( $+commands[tmux] )); then
     alias tmux='tmux a'
   fi
-  if [[ -d "${HOMEBREW_PREFIX}/opt/openblas" ]]; then
-    export OPENBLAS="${HOMEBREW_PREFIX}/opt/openblas"
+  if [[ -d "$(brew --prefix openblas)" ]]; then
+    OPENBLAS_PREFIX=$(brew --prefix openblas)
+    export OPENBLAS="${OPENBLAS_PREFIX}"
   fi
   # openssl
   # https://openssl.org/
-  if [[ -d "${HOMEBREW_PREFIX}/opt/openssl" ]]; then
-    CPPFLAGS+=" -I${HOMEBREW_PREFIX}/opt/openssl/include"
+  if [[ -d "$(brew --prefix openssl)" ]]; then
+    OPENSSL_PREFIX=$(brew --prefix openssl)
+    CPPFLAGS+=" -I${OPENSSL_PREFIX}/include"
     export CPPFLAGS
-    LDFLAGS+=" -L${HOMEBREW_PREFIX}/opt/openssl/lib"
+    LDFLAGS+=" -L${OPENSSL_PREFIX}/lib"
     export LDFLAGS
-    PKG_CONFIG_PATH+="${HOMEBREW_PREFIX}/opt/openssl/lib/pkgconfig"
+    PKG_CONFIG_PATH+="${OPENSSL_PREFIX}/lib/pkgconfig"
     export PKG_CONFIG_PATH
-    export PATH="${PATH}:${HOMEBREW_PREFIX}/opt/openssl/bin"
+    export PATH="${PATH}:${OPENSSL_PREFIX}/bin"
   fi
-  if [[ -d "${HOMEBREW_PREFIX}/opt/zlib" ]]; then
-    CFLAGS+=" -I${HOMEBREW_PREFIX}/opt/zlib/include"
+  if [[ -d "$(brew --prefix zlib)" ]]; then
+    ZLIB_PREFIX=$(brew --prefix zlib)
+    CFLAGS+=" -I${ZLIB_PREFIX}/include"
     export CFLAGS
-    LDFLAGS+=" -L${HOMEBREW_PREFIX}/opt/zlib/lib"
+    LDFLAGS+=" -L${ZLIB_PREFIX}/lib"
     export LDFLAGS
   fi
   # miniforge
@@ -130,15 +133,12 @@ if (( $+commands[brew] )); then
   if [[ -d "${HOMEBREW_PREFIX}/anaconda3/bin" ]]; then
     export PATH="${PATH}:${HOMEBREW_PREFIX}/anaconda3/bin"
   fi
-  if [[ -d "${HOMEBREW_PREFIX}/opt/curl/bin" ]]; then
-    export PATH="${HOMEBREW_PREFIX}/opt/curl/bin:${PATH}"
-  fi
-  if [[ -d "${HOMEBREW_PREFIX}/opt/perl/bin" ]]; then
-    export PATH="${HOMEBREW_PREFIX}/opt/perl/bin:${PATH}"
-  fi
-  if [[ -d "${HOMEBREW_PREFIX}/opt/ruby/bin" ]]; then
-    export PATH="${HOMEBREW_PREFIX}/opt/ruby/bin:${PATH}"
-  fi
+  for formula in curl perl ruby;do
+    if [[ -d "$(brew --prefix $formula)" ]]; then
+      FORMULA_PREFIX=$(brew --prefix $formula)
+      export PATH="${FORMULA_PREFIX}/bin:${PATH}"
+    fi
+  done
   # google-cloud-sdk
   # https://cloud.google.com/sdk/
   if [[ -d "${HOMEBREW_PREFIX}/Caskroom/google-cloud-sdk/latest/google-cloud-sdk" ]]; then
