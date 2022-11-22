@@ -14,6 +14,7 @@ catboost
 celery
 cement
 click-completion
+clikit
 columnq-cli
 cython
 dask
@@ -45,6 +46,7 @@ js-regex
 jsonrpcclient
 jsonrpcserver
 jupyter
+keras-preprocessing
 lightgbm
 locust
 lorem
@@ -97,6 +99,7 @@ seaborn
 setuptools-scm
 simple-salesforce
 simplegeneric
+sip
 snooty-lextudio
 snorkel
 solana
