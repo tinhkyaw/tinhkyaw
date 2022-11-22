@@ -126,7 +126,6 @@ nghttp2
 nginx
 nim
 ninja
-nzbget
 octave
 open-babel
 p7zip
