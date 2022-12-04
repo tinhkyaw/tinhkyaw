@@ -23,6 +23,7 @@ chrmarti.regex
 codeandstuff.package-json-upgrade
 CodeRoad.coderoad
 cschlosser.doxdocgen
+Dart-Code.dart-code
 davidrockburn.py-pack
 dbaeumer.jshint
 dbaeumer.vscode-eslint
