@@ -379,15 +379,6 @@ local.properties
 # Spring Boot Tooling
 .sts4-cache/
 
-### Executable ###
-*.bat
-*.cgi
-*.com
-*.gadget
-*.pif
-*.vb
-*.wsf
-
 ### Emacs ###
 # -*- mode: gitignore; -*-
 *~
@@ -438,6 +429,28 @@ flycheck_*.el
 /network-security.data
 
 
+### Executable ###
+*.bat
+*.cgi
+*.com
+*.gadget
+*.pif
+*.vb
+*.wsf
+
+### fsharp ###
+lib/debug
+lib/release
+Debug
+*.suo
+*.user
+obj
+# bin
+/build/
+!.paket/paket.bootstrapper.exe
+.ionide/
+.fake
+
 ### Git ###
 # Created by git for backups. To disable backups in Git:
 # $ git config --global mergetool.keepBackup false
@@ -469,19 +482,6 @@ flycheck_*.el
 
 # Go workspace file
 go.work
-
-### fsharp ###
-lib/debug
-lib/release
-Debug
-*.suo
-*.user
-obj
-# bin
-/build/
-!.paket/paket.bootstrapper.exe
-.ionide/
-.fake
 
 ### Helm ###
 # Chart dependencies

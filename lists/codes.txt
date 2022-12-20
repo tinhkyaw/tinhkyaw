@@ -23,7 +23,6 @@ chrmarti.regex
 codeandstuff.package-json-upgrade
 CodeRoad.coderoad
 cschlosser.doxdocgen
-Dart-Code.dart-code
 davidrockburn.py-pack
 dbaeumer.jshint
 dbaeumer.vscode-eslint
@@ -47,7 +46,6 @@ formulahendry.docker-explorer
 foxundermoon.shell-format
 fwcd.kotlin
 Gimly81.matlab
-GitHub.remotehub
 GitHub.vscode-codeql
 GitHub.vscode-pull-request-github
 gizak.shortcuts
