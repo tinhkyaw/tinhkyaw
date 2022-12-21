@@ -169,7 +169,6 @@ spywhere.guides
 stylelint.vscode-stylelint
 syler.sass-indented
 tcwalther.cython
-TeamHub.teamhub
 timonwong.shellcheck
 tootone.org-mode
 trunk.io
