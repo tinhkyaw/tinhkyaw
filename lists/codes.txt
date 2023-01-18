@@ -23,7 +23,6 @@ codeandstuff.package-json-upgrade
 CodeRoad.coderoad
 cschlosser.doxdocgen
 davidrockburn.py-pack
-dbaeumer.jshint
 dbaeumer.vscode-eslint
 DevonDCarew.bazel-code
 docsmsft.atlas-design-system-tools
@@ -185,7 +184,6 @@ wayou.vscode-todo-highlight
 webfreak.debug
 wix.vscode-import-cost
 wmaurer.change-case
-wwm.better-align
 xabikos.JavaScriptSnippets
 yatki.vscode-surround
 ybaumes.highlight-trailing-white-spaces

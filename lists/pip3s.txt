@@ -2,6 +2,7 @@ altair
 apache-airflow-providers-amazon
 apischema
 async-generator
+authlib
 autoflake
 autopep8
 bandit
@@ -42,6 +43,7 @@ grpcio-status
 h2
 hstspreload
 icecream
+importlib-resources
 invoke
 jinja2-pluralize
 js-regex
@@ -66,6 +68,7 @@ ordereddict
 oyaml
 paramiko
 pathtools
+pep517
 pip-tools
 pipdeptree
 pss

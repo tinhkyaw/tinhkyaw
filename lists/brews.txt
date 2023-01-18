@@ -31,7 +31,6 @@ colima
 colordiff
 cookiecutter
 cromwell
-crush-tools
 csshx
 ctags
 curl
@@ -87,6 +86,7 @@ jansson
 jenv
 jmeter
 jq
+jsonschema
 jupyterlab
 kakoune
 kind
