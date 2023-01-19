@@ -7,7 +7,7 @@ SUFFIX="${1}"
 SNAPSHOT_DIR="${HOME}/Dropbox/Shared/Snapshots"
 WD=$(pwd)
 DIR=$(dirname "$(greadlink -f "${0}")")
-cd ${DIR}
+cd "${DIR}" || exit
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 LIST_DIR="${GIT_ROOT_DIR}/lists"
 color=green
@@ -45,7 +45,7 @@ virtualbox-extension-pack
 EOF
 {
   brew list --cask | grep -Evi ${CASKS_TO_IGNORE}
-  echo ${CASKS_TO_ADD}
+  echo "${CASKS_TO_ADD}"
 } | sort -u >"${LIST_DIR}/casks.txt"
 brew tap >"${SNAPSHOT_DIR}/tap${SUFFIX}.txt"
 mas list >"${SNAPSHOT_DIR}/mas${SUFFIX}.txt"
@@ -54,17 +54,17 @@ npm ls -g >"${SNAPSHOT_DIR}/npm${SUFFIX}.txt"
 npm ls -g -p |
   grep node_modules |
   xargs basename >"${LIST_DIR}/npms.txt"
-pip3 freeze --local >"${SNAPSHOT_DIR}/pip3${SUFFIX}.txt"
+"${HOMEBREW_PREFIX}"/bin/pip3 freeze --local >"${SNAPSHOT_DIR}/pip3${SUFFIX}.txt"
 PIPS_TO_IGNORE="\
 tensorflow\
 "
 p=$(
   grep -Fvxf \
     <(
-      pip3 freeze |
+      "${HOMEBREW_PREFIX}"/bin/pip3 freeze |
         cut -d '=' -f1 |
         cut -d ' ' -f1 |
-        xargs pip3 show |
+        xargs "${HOMEBREW_PREFIX}"/bin/pip3 show |
         grep -i '^requires:' |
         awk -F ': ' '{ print $2 }' |
         tr '[:upper:]' '[:lower:]' |
@@ -74,7 +74,7 @@ p=$(
         sort -u
     ) \
     <(
-      pip3 freeze |
+      "${HOMEBREW_PREFIX}"/bin/pip3 freeze |
         cut -d '=' -f1 |
         cut -d ' ' -f1 |
         tr '[:upper:]' '[:lower:]' |
@@ -82,15 +82,15 @@ p=$(
     )
 )
 d=$(
-  echo $p |
-    xargs pip3 show |
+  echo "$p" |
+    xargs "${HOMEBREW_PREFIX}"/bin/pip3 show |
     grep -i '^required-by:' |
     grep -in '^required-by: [a-z]' |
     cut -d ':' -f1 |
     gsed -z 's/\n/d;/g'
 )
 {
-  echo $p | sed -e "$d" |
+  echo "$p" | sed -e "$d" |
     grep -Evi ${PIPS_TO_IGNORE}
 } | sort -u >"${LIST_DIR}/pip3s.txt"
 "${HOMEBREW_PREFIX}"/anaconda3/bin/conda list \
@@ -111,4 +111,4 @@ grep -Fvxf \
 gcloud version | grep -v gcloud >"${SNAPSHOT_DIR}/gcloud${SUFFIX}.txt"
 cp "${HOME}"/.mrconfig "${SNAPSHOT_DIR}/mr${SUFFIX}.txt"
 cpan -l >"${SNAPSHOT_DIR}/cpan${SUFFIX}.txt"
-cd ${WD}
+cd "${WD}" || exit

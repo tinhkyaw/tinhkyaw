@@ -9,7 +9,7 @@ SNAPSHOT_DIR="${HOME}/Dropbox/Shared/Snapshots"
 # pretty diff(need to install diff-so-fancy)
 # brew install diff-so-fancy OR npm i -g diff-so-fancy
 function dsf() {
-  diff -u $@ | diff-so-fancy | less --tabs=4 -RFX
+  diff -u "$@" | diff-so-fancy | less --tabs=4 -RFX
 }
 for snapshot in \
   brew \

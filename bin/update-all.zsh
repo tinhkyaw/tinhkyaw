@@ -12,14 +12,15 @@ gem update --system
 gem update
 gem cleanup
 timeout --foreground 3m npm-check -g -y
-pip3 install --upgrade pip setuptools
+"${HOMEBREW_PREFIX}"/bin/pip3 install --upgrade pip setuptools
 export GRPC_PYTHON_BUILD_SYSTEM_OPENSSL=1
 export GRPC_PYTHON_BUILD_SYSTEM_ZLIB=1
 export CC=clang-omp CXX=clang-omp++
-pip3 freeze --local |
+"${HOMEBREW_PREFIX}"/bin/pip3 freeze --local |
   cut -d = -f 1 |
   cut -d ' ' -f 1 |
-  xargs pip3 install --upgrade --use-deprecated=legacy-resolver
+  xargs "${HOMEBREW_PREFIX}"/bin/pip3 install \
+  --upgrade --use-deprecated=legacy-resolver
 rustup update
 "${HOMEBREW_PREFIX}"/anaconda3/bin/conda update \
   -p "${HOMEBREW_PREFIX}"/anaconda3 --all -y

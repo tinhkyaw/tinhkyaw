@@ -10,7 +10,7 @@ if ! command -v brew &>/dev/null; then
 fi
 eval "$(/opt/homebrew/bin/brew shellenv)"
 DIR=$(dirname "$(greadlink -f "${0}")")
-cd "${DIR}"
+cd "${DIR}" || exit
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 LIST_DIR="${GIT_ROOT_DIR}/lists"
 "${GIT_ROOT_DIR}"/bin/setup-zsh.zsh
