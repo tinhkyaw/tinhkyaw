@@ -86,7 +86,6 @@ jansson
 jenv
 jmeter
 jq
-jsonschema
 jupyterlab
 kakoune
 kind
@@ -182,7 +181,6 @@ syncthing
 tag
 teleport
 terraform
-textql
 the_silver_searcher
 thefuck
 thrift
