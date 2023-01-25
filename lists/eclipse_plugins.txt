@@ -3,6 +3,7 @@ Avroclipse
 Buildship Gradle Integration
 Checkstyle
 Cucumber
+eclipse-pmd
 EclEmma
 Eclipse Corrosion
 Eclipse Docker Tooling
