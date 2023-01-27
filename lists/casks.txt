@@ -233,7 +233,6 @@ fontforge
 fontgoggles
 fontplop
 forecast
-fork
 fpc-laz
 fpc-src-laz
 freac
@@ -615,7 +614,6 @@ papyrus
 paraview
 parsify
 pd
-pd-l2ork
 pdfsam-basic
 pencil2d
 persepolis-download-manager

@@ -119,7 +119,6 @@ mr
 mstch
 mypy
 ncdu
-neo4j
 netcat
 nghttp2
 nginx
