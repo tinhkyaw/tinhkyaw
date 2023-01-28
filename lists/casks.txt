@@ -499,6 +499,7 @@ metaz
 meteorologist
 microsoft-auto-update
 microsoft-edge
+microsoft-outlook
 midi-monitor
 midikeys
 miditrail
