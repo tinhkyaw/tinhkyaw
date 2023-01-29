@@ -233,7 +233,6 @@ fontforge
 fontgoggles
 fontplop
 forecast
-fork
 fpc-laz
 fpc-src-laz
 freac
@@ -500,6 +499,7 @@ metaz
 meteorologist
 microsoft-auto-update
 microsoft-edge
+microsoft-outlook
 midi-monitor
 midikeys
 miditrail
@@ -615,7 +615,6 @@ papyrus
 paraview
 parsify
 pd
-pd-l2ork
 pdfsam-basic
 pencil2d
 persepolis-download-manager
