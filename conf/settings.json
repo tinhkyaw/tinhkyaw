@@ -49,6 +49,7 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "files.watcherExclude": {
+    "**/target": true,
     "**/.trunk/*out": true
   },
   "git.autofetch": true,
@@ -80,7 +81,7 @@
     "jupyter-notebook": "left"
   },
   "partialDiff.enableTelemetry": false,
-  "python.defaultInterpreterPath": "/home/tin/.brew/bin/python3",
+  "python.defaultInterpreterPath": "/Users/tin/.brew/bin/python3",
   "python.formatting.autopep8Args": [
     "--global-config",
     "${workspaceRoot}/setup.cfg",
