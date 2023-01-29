@@ -80,6 +80,7 @@
     "jupyter-notebook": "left"
   },
   "partialDiff.enableTelemetry": false,
+  "python.defaultInterpreterPath": "/home/tin/.brew/bin/python3",
   "python.formatting.autopep8Args": [
     "--global-config",
     "${workspaceRoot}/setup.cfg",

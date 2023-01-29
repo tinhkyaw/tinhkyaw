@@ -139,6 +139,7 @@ postgresql@14
 protobuf
 psgrep
 pssh
+puzzles
 pycodestyle
 pyenv
 pylint
