@@ -49,7 +49,6 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "files.watcherExclude": {
-    "**/target": true,
     "**/.trunk/*out": true
   },
   "git.autofetch": true,
@@ -62,6 +61,7 @@
     "suppressLineUncommittedWarning": false,
     "suppressNoRepositoryWarning": false
   },
+  "gitlens.telemetry.enabled": false,
   "go.toolsManagement.autoUpdate": true,
   "guides.sendUsagesAndStats": false,
   "makefile.extensionOutputFolder": "./.vscode",
