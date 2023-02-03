@@ -1,5 +1,9 @@
 #!/usr/bin/env zsh
 WD=$(pwd)
+DIR=$(dirname "$(greadlink -f "${0}")")
+cd "${DIR}" || exit
+GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
+LIST_DIR="${GIT_ROOT_DIR}/lists"
 brew missing
 brew update
 brew upgrade
@@ -16,13 +20,15 @@ timeout --foreground 3m npm-check -g -y
 export GRPC_PYTHON_BUILD_SYSTEM_OPENSSL=1
 export GRPC_PYTHON_BUILD_SYSTEM_ZLIB=1
 export CC=clang-omp CXX=clang-omp++
-"${HOMEBREW_PREFIX}"/bin/pip3 freeze --local |
-  cut -d = -f 1 |
-  cut -d ' ' -f 1 |
-  xargs "${HOMEBREW_PREFIX}"/bin/pip3 install \
-  --upgrade --use-deprecated=legacy-resolver
+# "${HOMEBREW_PREFIX}"/bin/pip3 freeze --local |
+#   cut -d = -f 1 |
+#   cut -d ' ' -f 1 |
+#   xargs "${HOMEBREW_PREFIX}"/bin/pip3 install \
+#   --upgrade --use-deprecated=legacy-resolver
+pip3 install --upgrade --use-deprecated=legacy-resolver\
+  -r "${LIST_DIR}"/pip3s.txt
 rustup update
-"${HOMEBREW_PREFIX}"/anaconda3/bin/conda update \
+"${HOMEBREW_PREFIX}"/anaconda3/bin/conda update\
   -p "${HOMEBREW_PREFIX}"/anaconda3 --all -y
 conda update -n base --all -y
 gcloud components update -q

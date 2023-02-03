@@ -53,8 +53,12 @@ npm ls -g >"${SNAPSHOT_DIR}/npm${SUFFIX}.txt"
 npm ls -g -p |
   grep node_modules |
   xargs basename >"${LIST_DIR}/npms.txt"
-"${HOMEBREW_PREFIX}"/bin/pip3 freeze --local >"${SNAPSHOT_DIR}/pip3${SUFFIX}.txt"
+"${HOMEBREW_PREFIX}"/bin/pip3 freeze --local \
+  >"${SNAPSHOT_DIR}/pip3${SUFFIX}.txt"
 PIPS_TO_IGNORE="\
+pygobject|\
+pyqt|\
+qscintilla|\
 tensorflow\
 "
 p=$(
@@ -80,8 +84,16 @@ p=$(
         sort -u
     )
 )
+q=$(
+  grep -Fvxf \
+    <(brew list --formula |
+    xargs brew info --json |
+    jq -r 'map(select((.dependencies + .build_dependencies + .test_dependencies)[] | contains("python"))) | .[] .name' |
+    sort -u) \
+    <(echo "$p")
+)
 d=$(
-  echo "$p" |
+  echo "$q" |
     xargs "${HOMEBREW_PREFIX}"/bin/pip3 show |
     grep -i '^required-by:' |
     grep -in '^required-by: [a-z]' |
@@ -89,13 +101,20 @@ d=$(
     gsed -z 's/\n/d;/g'
 )
 {
-  echo "$p" | sed -e "$d" |
+  echo "$q" | sed -e "$d" |
     grep -Evi ${PIPS_TO_IGNORE}
 } | sort -u >"${LIST_DIR}/pip3s.txt"
 "${HOMEBREW_PREFIX}"/anaconda3/bin/conda list \
-  -p "${HOMEBREW_PREFIX}"/anaconda3 --explicit \
+  -p "${HOMEBREW_PREFIX}"/anaconda3 --explicit |
+  grep -v '^[#@]' |
+  xargs -I {} basename {} |
+  sed 's/.conda\|.tar.bz2//' \
   >"${SNAPSHOT_DIR}/conda${SUFFIX}.txt"
-conda list -n base --explicit >"${SNAPSHOT_DIR}/miniforge${SUFFIX}.txt"
+conda list -n base --explicit |
+  grep -v '^[#@]' |
+  xargs -I {} basename {} |
+  sed 's/.conda\|.tar.bz2//' \
+  >"${SNAPSHOT_DIR}/miniforge${SUFFIX}.txt"
 code --list-extensions --show-versions | sort -d -f \
   >"${SNAPSHOT_DIR}/code${SUFFIX}.txt"
 grep -Fvxf \
