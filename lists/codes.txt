@@ -104,7 +104,6 @@ ms-dotnettools.blazorwasm-companion
 ms-dotnettools.vscode-dotnet-pack
 ms-edgedevtools.vscode-edge-devtools
 ms-inkling.ms-inkling
-ms-iot.vscode-ros
 msjsdiag.cordova-tools
 msjsdiag.vscode-react-native
 ms-kubernetes-tools.kind-vscode

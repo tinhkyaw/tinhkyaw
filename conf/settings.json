@@ -19,9 +19,11 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
+  "application.shellEnvironmentResolutionTimeout": 120,
   "aws.telemetry": false,
   "bazel.buildifierPath": "/Users/tin/.brew/bin/buildifier",
   "carbon.fontFamily": "Source Code Pro",
+  "cloudcode.autoDependencies": "off",
   "cloudcode.enableTelemetry": false,
   "cmake.configureOnOpen": false,
   "code-runner.enableAppInsights": false,
