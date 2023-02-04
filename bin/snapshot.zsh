@@ -50,12 +50,13 @@ brew tap >"${SNAPSHOT_DIR}/tap${SUFFIX}.txt"
 mas list >"${SNAPSHOT_DIR}/mas${SUFFIX}.txt"
 gem list >"${SNAPSHOT_DIR}/gem${SUFFIX}.txt"
 npm ls -g >"${SNAPSHOT_DIR}/npm${SUFFIX}.txt"
-npm ls -g -p |
+(npm ls -g -p |
   grep node_modules |
-  xargs basename >"${LIST_DIR}/npms.txt"
+  xargs basename) >"${LIST_DIR}/npms.txt"
 "${HOMEBREW_PREFIX}"/bin/pip3 freeze --local \
   >"${SNAPSHOT_DIR}/pip3${SUFFIX}.txt"
 PIPS_TO_IGNORE="\
+jupyter|\
 pygobject|\
 pyqt|\
 qscintilla|\
@@ -72,7 +73,7 @@ p=$(
         awk -F ': ' '{ print $2 }' |
         tr '[:upper:]' '[:lower:]' |
         tr ',' '\n' |
-        gsed -E 's/ //g' |
+        gsed -e 's/ //g' |
         awk NF |
         sort -u
     ) \
@@ -100,25 +101,25 @@ d=$(
     grep -i '^required-by:' |
     grep -in '^required-by: [a-z]' |
     cut -d ':' -f1 |
-    gsed -Ez 's/\n/d;/g'
+    gsed -z 's/\n/d;/g'
 )
 {
-  echo "$q" | gsed -E "$d" |
+  echo "$q" | gsed -e "$d" |
     grep -Evi ${PIPS_TO_IGNORE}
 } | sort -u >"${LIST_DIR}/pip3s.txt"
-"${HOMEBREW_PREFIX}"/anaconda3/bin/conda list \
+("${HOMEBREW_PREFIX}"/anaconda3/bin/conda list \
   -p "${HOMEBREW_PREFIX}"/anaconda3 --explicit |
   grep -v '^[#@]' |
   xargs -I {} basename {} |
-  gsed -E 's/.conda\|.tar.bz2//g' |
-  sort -u \
-    >"${SNAPSHOT_DIR}/conda${SUFFIX}.txt"
-"${HOMEBREW_PREFIX}"/bin/conda list -n base --explicit |
+  gsed -e 's/.conda\|.tar.bz2//g' |
+  sort -u) \
+  >"${SNAPSHOT_DIR}/conda${SUFFIX}.txt"
+("${HOMEBREW_PREFIX}"/bin/conda list -n base --explicit |
   grep -v '^[#@]' |
   xargs -I {} basename {} |
-  gsed -E 's/.conda\|.tar.bz2//g' |
-  sort -u \
-    >"${SNAPSHOT_DIR}/miniforge${SUFFIX}.txt"
+  gsed -e 's/.conda\|.tar.bz2//g' |
+  sort -u) \
+  >"${SNAPSHOT_DIR}/miniforge${SUFFIX}.txt"
 code --list-extensions --show-versions | sort -d -f \
   >"${SNAPSHOT_DIR}/code${SUFFIX}.txt"
 grep -Fvxf \

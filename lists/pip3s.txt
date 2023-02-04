@@ -47,12 +47,10 @@ jinja2-pluralize
 js-regex
 jsonrpcclient
 jsonrpcserver
-jupyter
 keras-preprocessing
 lightgbm
 locust
 lorem
-lsprotocol
 memory-profiler
 moban
 monotonic
