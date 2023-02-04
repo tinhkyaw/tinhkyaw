@@ -25,10 +25,10 @@ export CC=clang-omp CXX=clang-omp++
 #   cut -d ' ' -f 1 |
 #   xargs "${HOMEBREW_PREFIX}"/bin/pip3 install \
 #   --upgrade --use-deprecated=legacy-resolver
-pip3 install --upgrade --use-deprecated=legacy-resolver\
+pip3 install --upgrade --use-deprecated=legacy-resolver \
   -r "${LIST_DIR}"/pip3s.txt
 rustup update
-"${HOMEBREW_PREFIX}"/anaconda3/bin/conda update\
+"${HOMEBREW_PREFIX}"/anaconda3/bin/conda update \
   -p "${HOMEBREW_PREFIX}"/anaconda3 --all -y
 conda update -n base --all -y
 gcloud components update -q

@@ -13,7 +13,7 @@
     "editor.formatOnSave": true
   },
   "[shellscript]": {
-    "editor.defaultFormatter": "trunk.io"
+    "editor.defaultFormatter": "foxundermoon.shell-format"
   },
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",

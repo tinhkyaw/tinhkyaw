@@ -72,7 +72,7 @@ p=$(
         awk -F ': ' '{ print $2 }' |
         tr '[:upper:]' '[:lower:]' |
         tr ',' '\n' |
-        sed 's/ //g' |
+        gsed -E 's/ //g' |
         awk NF |
         sort -u
     ) \
@@ -87,9 +87,11 @@ p=$(
 q=$(
   grep -Fvxf \
     <(brew list --formula |
-    xargs brew info --json |
-    jq -r 'map(select((.dependencies + .build_dependencies + .test_dependencies)[] | contains("python"))) | .[] .name' |
-    sort -u) \
+      xargs brew info --json |
+      jq -r \
+        'map(select((.dependencies + .build_dependencies +
+         .test_dependencies)[] | contains("python"))) | .[] .name' |
+      sort -u) \
     <(echo "$p")
 )
 d=$(
@@ -98,23 +100,25 @@ d=$(
     grep -i '^required-by:' |
     grep -in '^required-by: [a-z]' |
     cut -d ':' -f1 |
-    gsed -z 's/\n/d;/g'
+    gsed -Ez 's/\n/d;/g'
 )
 {
-  echo "$q" | sed -e "$d" |
+  echo "$q" | gsed -E "$d" |
     grep -Evi ${PIPS_TO_IGNORE}
 } | sort -u >"${LIST_DIR}/pip3s.txt"
 "${HOMEBREW_PREFIX}"/anaconda3/bin/conda list \
   -p "${HOMEBREW_PREFIX}"/anaconda3 --explicit |
   grep -v '^[#@]' |
   xargs -I {} basename {} |
-  sed 's/.conda\|.tar.bz2//' \
-  >"${SNAPSHOT_DIR}/conda${SUFFIX}.txt"
-conda list -n base --explicit |
+  gsed -E 's/.conda\|.tar.bz2//g' |
+  sort -u \
+    >"${SNAPSHOT_DIR}/conda${SUFFIX}.txt"
+"${HOMEBREW_PREFIX}"/bin/conda list -n base --explicit |
   grep -v '^[#@]' |
   xargs -I {} basename {} |
-  sed 's/.conda\|.tar.bz2//' \
-  >"${SNAPSHOT_DIR}/miniforge${SUFFIX}.txt"
+  gsed -E 's/.conda\|.tar.bz2//g' |
+  sort -u \
+    >"${SNAPSHOT_DIR}/miniforge${SUFFIX}.txt"
 code --list-extensions --show-versions | sort -d -f \
   >"${SNAPSHOT_DIR}/code${SUFFIX}.txt"
 grep -Fvxf \
