@@ -51,6 +51,7 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "files.watcherExclude": {
+    "**/target": true,
     "**/.trunk/*out": true
   },
   "git.autofetch": true,
