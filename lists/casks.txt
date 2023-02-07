@@ -815,7 +815,6 @@ smartreporter-free
 smcfancontrol
 smlnj
 smplayer
-snapmotion
 snipaste
 snipy
 snowflake-snowsql
