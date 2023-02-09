@@ -21,7 +21,6 @@ fi
 # Homebrew
 # https://brew.sh/
 if (( $+commands[brew] )); then
-  eval "$(brew shellenv)"
   export HOMEBREW_CASK_OPTS="--appdir=/Applications"
   export BYOBU_PREFIX="${HOMEBREW_PREFIX}"
   FPATH="${HOMEBREW_PREFIX}/share/zsh/site-functions:${FPATH}"
@@ -92,14 +91,14 @@ if (( $+commands[brew] )); then
   if (( $+commands[tmux] )); then
     alias tmux='tmux a'
   fi
-  if [[ -d "$(brew --prefix openblas)" ]]; then
-    OPENBLAS_PREFIX=$(brew --prefix openblas)
+  if [[ -d "${HOMEBREW_PREFIX}/opt/openblas" ]]; then
+    OPENBLAS_PREFIX=${HOMEBREW_PREFIX}/opt/openblas
     export OPENBLAS="${OPENBLAS_PREFIX}"
   fi
   # openssl
   # https://openssl.org/
-  if [[ -d "$(brew --prefix openssl)" ]]; then
-    OPENSSL_PREFIX=$(brew --prefix openssl)
+  if [[ -d "${HOMEBREW_PREFIX}/opt/openssl" ]]; then
+    OPENSSL_PREFIX=${HOMEBREW_PREFIX}/opt/openssl
     CPPFLAGS+=" -I${OPENSSL_PREFIX}/include"
     export CPPFLAGS
     LDFLAGS+=" -L${OPENSSL_PREFIX}/lib"
@@ -108,8 +107,8 @@ if (( $+commands[brew] )); then
     export PKG_CONFIG_PATH
     export PATH="${PATH}:${OPENSSL_PREFIX}/bin"
   fi
-  if [[ -d "$(brew --prefix zlib)" ]]; then
-    ZLIB_PREFIX=$(brew --prefix zlib)
+  if [[ -d "${HOMEBREW_PREFIX}/opt/zlib" ]]; then
+    ZLIB_PREFIX=${HOMEBREW_PREFIX}/opt/zlib
     CFLAGS+=" -I${ZLIB_PREFIX}/include"
     export CFLAGS
     LDFLAGS+=" -L${ZLIB_PREFIX}/lib"
@@ -137,8 +136,8 @@ if (( $+commands[brew] )); then
     export PATH="${PATH}:${HOMEBREW_PREFIX}/anaconda3/bin"
   fi
   for formula in curl perl ruby;do
-    if [[ -d "$(brew --prefix $formula)" ]]; then
-      FORMULA_PREFIX=$(brew --prefix $formula)
+    if [[ -d "${HOMEBREW_PREFIX}/opt/$formula" ]]; then
+      FORMULA_PREFIX=${HOMEBREW_PREFIX}/opt/$formula
       export PATH="${FORMULA_PREFIX}/bin:${PATH}"
     fi
   done
