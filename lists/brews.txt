@@ -127,6 +127,7 @@ nim
 ninja
 octave
 open-babel
+openjdk@17
 p7zip
 pdfgrep
 perl
