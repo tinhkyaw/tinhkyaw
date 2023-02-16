@@ -20,6 +20,7 @@
     "editor.formatOnSave": true
   },
   "application.shellEnvironmentResolutionTimeout": 120,
+  "arduino.useArduinoCli": true,
   "aws.telemetry": false,
   "bazel.buildifierPath": "/Users/tin/.brew/bin/buildifier",
   "carbon.fontFamily": "Source Code Pro",
@@ -51,8 +52,8 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "files.watcherExclude": {
-    "**/target": true,
-    "**/.trunk/*out": true
+    "**/.trunk/*out": true,
+    "**/target": true
   },
   "git.autofetch": true,
   "git.path": "/Users/tin/.brew/bin/git",
