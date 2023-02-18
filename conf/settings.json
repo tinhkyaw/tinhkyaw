@@ -52,8 +52,8 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "files.watcherExclude": {
-    "**/.trunk/*out": true,
-    "**/target": true
+    "**/target": true,
+    "**/.trunk/*out": true
   },
   "git.autofetch": true,
   "git.path": "/Users/tin/.brew/bin/git",

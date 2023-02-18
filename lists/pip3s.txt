@@ -10,7 +10,6 @@ borb
 bottle
 cached-property
 cachy
-catboost
 celery
 cement
 click-completion
@@ -87,7 +86,6 @@ setuptools-scm
 simple-salesforce
 simplegeneric
 snooty-lextudio
-snorkel
 solana
 sphinx-rtd-theme
 sqlfluff
@@ -96,8 +94,6 @@ swagger-ui-bundle
 sympy
 textdistance
 tldextract
-torchaudio
-torchvision
 twine
 typed-ast
 unidecode
