@@ -60,6 +60,7 @@ jupyter|\
 pygobject|\
 pyqt|\
 qscintilla|\
+gensim|\
 tensorflow\
 "
 p=$(

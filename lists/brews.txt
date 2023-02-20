@@ -48,7 +48,6 @@ erlang
 exa
 fabric
 fades
-ffmpeg
 findutils
 fish
 flake8
