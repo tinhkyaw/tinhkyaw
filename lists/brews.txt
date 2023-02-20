@@ -202,7 +202,6 @@ watchman
 weaveworks/tap/eksctl
 webkit2png
 wget
-wxmaxima
 xdot
 xh
 yank

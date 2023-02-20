@@ -60,7 +60,9 @@ jupyter|\
 pygobject|\
 pyqt|\
 qscintilla|\
+fuzzytm|\
 gensim|\
+smart-open|\
 tensorflow\
 "
 p=$(

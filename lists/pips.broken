@@ -2,3 +2,6 @@ catboost
 snorkel
 torchaudio
 torchvision
+
+gensim
+tensorflow

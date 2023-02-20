@@ -31,7 +31,6 @@ esbonio
 first
 flask-openid
 ftfy
-fuzzytm
 google-cloud-bigquery
 google-cloud-bigquery-storage
 google-cloud-storage
@@ -85,7 +84,6 @@ seaborn
 setuptools-scm
 simple-salesforce
 simplegeneric
-smart-open
 snooty-lextudio
 solana
 sphinx-rtd-theme
