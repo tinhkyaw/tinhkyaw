@@ -87,8 +87,6 @@
   "partialDiff.enableTelemetry": false,
   "python.defaultInterpreterPath": "/Users/tin/.brew/bin/python3",
   "python.formatting.autopep8Args": [
-    "--global-config",
-    "${workspaceRoot}/setup.cfg",
     "--max-line-length",
     "79",
     "--experimental"
@@ -104,10 +102,6 @@
   ],
   "python.formatting.yapfPath": "/Users/tin/.brew/bin/yapf",
   "python.languageServer": "Pylance",
-  "python.linting.flake8Args": [
-    "--config",
-    "${workspaceRoot}/setup.cfg"
-  ],
   "python.linting.flake8Enabled": true,
   "python.linting.flake8Path": "/Users/tin/.brew/bin/flake8",
   "python.linting.pylintEnabled": false,
