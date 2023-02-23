@@ -90,8 +90,7 @@ p=$(
 )
 q=$(
   grep -Fvxf \
-    <(brew list --formula |
-      xargs brew info --json |
+    <(brew info --json=v1 --installed |
       jq -r \
         'map(select((.dependencies + .build_dependencies +
          .test_dependencies)[] | contains("python"))) | .[] .name' |
