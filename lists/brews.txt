@@ -78,6 +78,7 @@ helm
 hr
 httpie
 hub
+hugo
 hyperfine
 icdiff
 igv
@@ -211,6 +212,7 @@ youtube-dl
 yq
 z
 zlib
+zola
 zookeeper
 zopfli
 zsh
