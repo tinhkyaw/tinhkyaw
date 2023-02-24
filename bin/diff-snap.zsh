@@ -6,8 +6,9 @@ fi
 SUFFIX1="${1}"
 SUFFIX2="${2}"
 SNAPSHOT_DIR="${HOME}/Dropbox/Shared/Snapshots"
-# pretty diff(need to install diff-so-fancy)
-# brew install diff-so-fancy OR npm i -g diff-so-fancy
+if (( !${+commands[diff-so-fancy]} )); then
+  brew install diff-so-fancy
+fi
 function dsf() {
   diff -u "$@" | diff-so-fancy | less --tabs=4 -RFX
 }

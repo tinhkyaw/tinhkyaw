@@ -20,11 +20,6 @@ timeout --foreground 3m npm-check -g -y
 export GRPC_PYTHON_BUILD_SYSTEM_OPENSSL=1
 export GRPC_PYTHON_BUILD_SYSTEM_ZLIB=1
 export CC=clang-omp CXX=clang-omp++
-# "${HOMEBREW_PREFIX}"/bin/pip3 freeze --local |
-#   cut -d = -f 1 |
-#   cut -d ' ' -f 1 |
-#   xargs "${HOMEBREW_PREFIX}"/bin/pip3 install \
-#   --upgrade --use-deprecated=legacy-resolver
 pip3 install --upgrade --use-deprecated=legacy-resolver \
   -r "${LIST_DIR}"/pip3s.txt
 rustup update
@@ -32,7 +27,6 @@ rustup update
   -p "${HOMEBREW_PREFIX}"/anaconda3 --all -y
 conda update -n base --all -y
 gcloud components update -q
-# apm upgrade
 color=green
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   print -P "%F{${color}}Updating ${HOME}/.zprezto%f"

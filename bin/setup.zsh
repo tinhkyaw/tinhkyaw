@@ -1,5 +1,5 @@
 #!/usr/bin/env zsh
-if ! command -v brew &>/dev/null; then
+if (( !${+commands[brew]} )); then
   /bin/bash -c \
     "$(
       curl -fsSL \
