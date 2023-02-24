@@ -49,6 +49,7 @@ exa
 fabric
 fades
 findutils
+firebase-cli
 fish
 flake8
 fpc
@@ -121,6 +122,7 @@ mypy
 ncdu
 neo4j
 netcat
+netlify-cli
 nghttp2
 nginx
 nim
@@ -198,6 +200,7 @@ uwsgi
 v2ray
 v8
 vapor
+vercel-cli
 vips
 watchman
 weaveworks/tap/eksctl

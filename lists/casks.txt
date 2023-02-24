@@ -211,6 +211,7 @@ fawkes
 fbreader
 fiji
 firealpaca
+firebase-admin
 firefox
 fireworks
 flacon
