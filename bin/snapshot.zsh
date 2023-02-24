@@ -109,7 +109,7 @@ tensorflow\
 #   echo "$q" | gsed -e "$d" |
 #     grep -Evi ${PIPS_TO_IGNORE}
 # } | sort -u >"${LIST_DIR}/pip3s.txt"
-if ((!$ + commands[pipdeptree])); then
+if (( !${+commands[pipdeptree]} )); then
   "${HOMEBREW_PREFIX}"/bin/pip3 install pipdeptree
 fi
 p=$(
