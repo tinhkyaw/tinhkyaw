@@ -10,7 +10,9 @@
 [![Stats](https://github-readme-stats.vercel.app/api?username=tinhkyaw&show_icons=true&theme=solarized-dark&hide_border=true)](https://github.com/tinhkyaw)[![Streak](https://github-readme-streak-stats.herokuapp.com/?user=tinhkyaw&theme=solarized-dark&hide_border=true)](https://github.com/tinhkyaw)
 [![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=tinhkyaw&layout=compact&theme=solarized-dark&hide_border=true)](https://github.com/tinhkyaw)
 
-[![Trophy](https://github-profile-trophy.vercel.app/?username=tinhkyaw&theme=nord&no-frame=true)](https://github.com/tinhkyaw/tinhkyaw)
+[![Stats](https://awesome-github-stats.azurewebsites.net/user-stats/tinhkyaw?cardType=github&theme=solarized-dark)](https://github.com/tinhkyaw)
+
+[![Trophy](https://github-profile-trophy.vercel.app/?username=tinhkyaw&column=4&theme=nord&no-frame=true)](https://github.com/tinhkyaw/tinhkyaw)
 
 [![Linkedin](https://img.shields.io/badge/tinhkyaw-0077B5?style=for-the-badge&logo=linkedin&link=https://www.linkedin.com/in/tinhkyaw/)](https://www.linkedin.com/in/tinhkyaw/) [![Profile View Count](https://komarev.com/ghpvc/?username=tinhkyaw&style=for-the-badge)](https://github.com/tinhkyaw)
 
