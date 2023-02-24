@@ -53,8 +53,7 @@ npm ls -g >"${SNAPSHOT_DIR}/npm${SUFFIX}.txt"
 (npm ls -g -p |
   grep node_modules |
   xargs basename) >"${LIST_DIR}/npms.txt"
-"${HOMEBREW_PREFIX}"/bin/pip3 freeze --local \
-  >"${SNAPSHOT_DIR}/pip3${SUFFIX}.txt"
+"${HOMEBREW_PREFIX}"/bin/pip3 freeze >"${SNAPSHOT_DIR}/pip3${SUFFIX}.txt"
 PIPS_TO_IGNORE="\
 jupyter|\
 pygobject|\
