@@ -29,6 +29,7 @@
   "cmake.configureOnOpen": false,
   "code-runner.enableAppInsights": false,
   "codeQL.cli.executablePath": "/Users/tin/.brew/bin/codeql",
+  "codeQL.telemetry.enableTelemetry": false,
   "csharp.suppressDotnetInstallWarning": true,
   "debug.terminal.clearBeforeReusing": true,
   "docker-explorer.enableTelemetry": false,
@@ -52,7 +53,6 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "files.watcherExclude": {
-    "**/target": true,
     "**/.trunk/*out": true
   },
   "git.autofetch": true,
