@@ -25,6 +25,7 @@ buildifier
 byobu
 carthage
 chezmoi
+cloudflare-wrangler2
 cmake
 cocoapods
 colima
