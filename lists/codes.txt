@@ -168,7 +168,6 @@ syler.sass-indented
 tcwalther.cython
 timonwong.shellcheck
 tootone.org-mode
-trunk.io
 Tyriar.sort-lines
 VisualStudioExptTeam.intellicode-api-usage-examples
 VisualStudioExptTeam.vscodeintellicode-completions
