@@ -113,6 +113,7 @@ ms-playwright.playwright
 ms-python.autopep8
 ms-python.flake8
 ms-python.gather
+ms-python.isort
 ms-python.pylint
 msrvida.vscode-sanddance
 MS-SarifVSCode.sarif-viewer
@@ -134,7 +135,6 @@ mushan.vscode-paste-image
 naumovs.color-highlight
 nhoizey.gremlins
 oderwat.indent-rainbow
-OpenPAIVSCodeClient.pai-vscode
 pdconsec.vscode-print
 PeterSchmalfeldt.explorer-exclude
 PKief.material-icon-theme

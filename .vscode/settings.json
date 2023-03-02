@@ -11,5 +11,7 @@
     "resume/**"
   ],
   "esbonio.sphinx.confDir": "",
-  "sarif-viewer.connectToGithubCodeScanning": "off"
+  "files.watcherExclude": {
+    "**/target": true
+  }
 }

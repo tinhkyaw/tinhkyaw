@@ -53,6 +53,9 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "files.watcherExclude": {
+    "**/.ammonite": true,
+    "**/.bloop": true,
+    "**/.metals": true,
     "**/.trunk/*out": true
   },
   "git.autofetch": true,
@@ -110,6 +113,7 @@
   "restructuredtext.linter.doc8.executablePath": "/Users/tin/.brew/bin/doc8",
   "restructuredtext.linter.rst-lint.executablePath": "/Users/tin/.brew/bin/doc8",
   "restructuredtext.linter.rstcheck.executablePath": "/Users/tin/.brew/bin/doc8",
+  "sarif-viewer.connectToGithubCodeScanning": "off",
   "shellcheck.executablePath": "/Users/tin/.brew/bin/shellcheck",
   "telemetry.telemetryLevel": "off",
   "terminal.external.osxExec": "iTerm.app",
