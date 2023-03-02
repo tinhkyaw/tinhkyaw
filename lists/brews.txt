@@ -69,6 +69,8 @@ glances
 gnu-sed
 go
 gopass
+gopls
+gops
 gradle
 grc
 grep

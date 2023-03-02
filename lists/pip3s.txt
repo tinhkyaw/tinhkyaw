@@ -69,6 +69,7 @@ pss
 psycopg2
 pyarrow
 pycairo
+pygithub
 pyre-check
 pyspark
 python-editor
