@@ -1,0 +1,3 @@
+[submodule "www/themes/abridge"]
+	path = www/themes/abridge
+	url = git@github.com:jieiku/abridge
