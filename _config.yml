@@ -9,3 +9,5 @@ gems:
 
 github_username: tinhkyaw
 baseurl: "/tinhkyaw"
+
+exclude: www
