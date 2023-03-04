@@ -47,6 +47,7 @@ jsonrpcclient
 jsonrpcserver
 keras-preprocessing
 lightgbm
+line-profiler
 locust
 lorem
 memory-profiler
