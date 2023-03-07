@@ -40,7 +40,6 @@ firefox-devtools.vscode-firefox-debug
 flowtype.flow-for-vscode
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
-formulahendry.docker-explorer
 foxundermoon.shell-format
 fwcd.kotlin
 Gimly81.matlab
@@ -97,7 +96,6 @@ mindaro.mindaro
 mkxml.vscode-filesize
 mrmlnc.vscode-autoprefixer
 ms-1es.pull-request-quantifier
-ms-azuretools.vscode-dapr
 ms-azuretools.vscode-docker
 ms-devlabs.extension-manifest-editor
 ms-dotnettools.blazorwasm-companion
