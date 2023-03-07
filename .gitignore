@@ -1064,6 +1064,9 @@ poetry.toml
 # ruff
 .ruff_cache/
 
+# LSP config files
+pyrightconfig.json
+
 ### R ###
 # History files
 .Rhistory
