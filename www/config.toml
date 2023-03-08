@@ -62,6 +62,18 @@ meta_post = { position="top", size="s95", author=true, readtime=false, readstrin
 footer_size = "s90" # size: s95, s90, s85, s80, s75, s70, false(full size)
 footer_credit = true
 #footer_credit_override = '<p class="s90">Powered by <a href="https://www.getzola.org/" target="_blank">Zola</a> &#38; <a href="https://github.com/Jieiku/abridge/" target="_blank">Abridge</a></p>'
+footer_credit_override = """
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YYB614G9L5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YYB614G9L5');
+</script>
+<p class="s90">Powered by <a href="https://www.getzola.org/" target="_blank">Zola</a> &#38; <a href="https://github.com/Jieiku/abridge/" target="_blank">Abridge</a></p>
+"""
 
 #uncomment one of the two lines, or neither, depending on which type of logo you want to use:
 #logo = { file="logo.svg", width="32", height="32", alt="Abridge", text="bridge" }
@@ -718,6 +730,7 @@ foothr = true # show or hide horizontal rule above footer
 
 menu = [
     {url = "/about/", name = "About", slash = true, blank = false},
+    {url = "/resume/", name = "Resume", slash = true, blank = false},
     {url = "/posts/", name = "Posts", slash = true, blank = false},
     {url = "/categories/", name = "Categories", slash = true, blank = false},
     {url = "/tags/", name = "Tags", slash = true, blank = false},
