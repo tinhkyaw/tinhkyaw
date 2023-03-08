@@ -13,6 +13,7 @@ jobs:
       - name: Install and Run Zola
         run: |
           sudo snap install --edge zola
+          npm install uglifyjs
           cd www
           zola build --base-url ${{ secrets.DEPLOY_URL }} &&
           npm run abridge &&
