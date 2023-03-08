@@ -19,8 +19,10 @@ jobs:
           npm run abridge &&
           zola build --base-url ${{ secrets.DEPLOY_URL }}
       - name: Deploy to Cloudflare Workers with Wrangler
-        uses: cloudflare/wrangler-action@2.0.0
+        uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          environment: production
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: tinhkyaw
+          directory: public
           workingDirectory: "www"
