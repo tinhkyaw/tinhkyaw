@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "zola build --base-url $DEPLOY_PRIME_URL && npm run abridge && zola build --base-url $DEPLOY_PRIME_URL"
+command = "zola build --base-url $URL && npm run abridge && zola build --base-url $URL"
 
 [build.environment]
 ZOLA_VERSION = "0.17.1"
