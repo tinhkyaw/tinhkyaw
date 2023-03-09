@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/Ansible,ApacheHadoop,Bazel,C++,C,Clojure,CVS,Django,Dropbox,Eclipse,Emacs,Executable,Git,Go,Gradle,Helm,Homebrew,JEnv,JMeter,JabRef,Java,Jekyll,JetBrains+all,JupyterNotebooks,KDiff3,Leiningen,LyX,MATLAB,Maven,Mercurial,Metals,NetBeans,Node,Nohup,Objective-C,OpenCV,Python,R,Redis,Ruby,Rust,SBT,SSH,SVN,Sass,Scala,Scheme,Serverless,Sonar,SonarQube,Spark,Swift,Tags,TeX,Terraform,Vagrant,Valgrind,Vim,VirtualEnv,VisualStudioCode,Xcode,Zsh,direnv,dotenv,fsharp,macOS,pydev,react
-# Edit at https://www.toptal.com/developers/gitignore?templates=Ansible,ApacheHadoop,Bazel,C++,C,Clojure,CVS,Django,Dropbox,Eclipse,Emacs,Executable,Git,Go,Gradle,Helm,Homebrew,JEnv,JMeter,JabRef,Java,Jekyll,JetBrains+all,JupyterNotebooks,KDiff3,Leiningen,LyX,MATLAB,Maven,Mercurial,Metals,NetBeans,Node,Nohup,Objective-C,OpenCV,Python,R,Redis,Ruby,Rust,SBT,SSH,SVN,Sass,Scala,Scheme,Serverless,Sonar,SonarQube,Spark,Swift,Tags,TeX,Terraform,Vagrant,Valgrind,Vim,VirtualEnv,VisualStudioCode,Xcode,Zsh,direnv,dotenv,fsharp,macOS,pydev,react
+# Created by https://www.toptal.com/developers/gitignore/api/Ansible,ApacheHadoop,Bazel,C++,C,Clojure,CVS,Django,Dropbox,Eclipse,Emacs,Executable,Git,Go,Gradle,Helm,Homebrew,Hugo,JEnv,JMeter,JabRef,Java,Jekyll,JetBrains+all,JupyterNotebooks,KDiff3,Leiningen,LyX,MATLAB,Maven,Mercurial,Metals,NetBeans,Node,Nohup,Objective-C,OpenCV,Python,R,Redis,Ruby,Rust,SBT,SSH,SVN,Sass,Scala,Scheme,Serverless,Sonar,SonarQube,Spark,Swift,Tags,TeX,Terraform,Vagrant,Valgrind,Vim,VirtualEnv,VisualStudioCode,Xcode,Zsh,direnv,dotenv,fsharp,macOS,pydev,react
+# Edit at https://www.toptal.com/developers/gitignore?templates=Ansible,ApacheHadoop,Bazel,C++,C,Clojure,CVS,Django,Dropbox,Eclipse,Emacs,Executable,Git,Go,Gradle,Helm,Homebrew,Hugo,JEnv,JMeter,JabRef,Java,Jekyll,JetBrains+all,JupyterNotebooks,KDiff3,Leiningen,LyX,MATLAB,Maven,Mercurial,Metals,NetBeans,Node,Nohup,Objective-C,OpenCV,Python,R,Redis,Ruby,Rust,SBT,SSH,SVN,Sass,Scala,Scheme,Serverless,Sonar,SonarQube,Spark,Swift,Tags,TeX,Terraform,Vagrant,Valgrind,Vim,VirtualEnv,VisualStudioCode,Xcode,Zsh,direnv,dotenv,fsharp,macOS,pydev,react
 
 ### Ansible ###
 *.retry
@@ -489,6 +489,21 @@ go.work
 
 ### Homebrew ###
 Brewfile.lock.json
+
+### Hugo ###
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# Temporary lock file while building
+/.hugo_build.lock
 
 ### JabRef ###
 # JabRef - https://www.jabref.org/
@@ -1906,5 +1921,5 @@ gradle-app.setting
 # Java heap dump
 *.hprof
 
-# End of https://www.toptal.com/developers/gitignore/api/Ansible,ApacheHadoop,Bazel,C++,C,Clojure,CVS,Django,Dropbox,Eclipse,Emacs,Executable,Git,Go,Gradle,Helm,Homebrew,JEnv,JMeter,JabRef,Java,Jekyll,JetBrains+all,JupyterNotebooks,KDiff3,Leiningen,LyX,MATLAB,Maven,Mercurial,Metals,NetBeans,Node,Nohup,Objective-C,OpenCV,Python,R,Redis,Ruby,Rust,SBT,SSH,SVN,Sass,Scala,Scheme,Serverless,Sonar,SonarQube,Spark,Swift,Tags,TeX,Terraform,Vagrant,Valgrind,Vim,VirtualEnv,VisualStudioCode,Xcode,Zsh,direnv,dotenv,fsharp,macOS,pydev,react
+# End of https://www.toptal.com/developers/gitignore/api/Ansible,ApacheHadoop,Bazel,C++,C,Clojure,CVS,Django,Dropbox,Eclipse,Emacs,Executable,Git,Go,Gradle,Helm,Homebrew,Hugo,JEnv,JMeter,JabRef,Java,Jekyll,JetBrains+all,JupyterNotebooks,KDiff3,Leiningen,LyX,MATLAB,Maven,Mercurial,Metals,NetBeans,Node,Nohup,Objective-C,OpenCV,Python,R,Redis,Ruby,Rust,SBT,SSH,SVN,Sass,Scala,Scheme,Serverless,Sonar,SonarQube,Spark,Swift,Tags,TeX,Terraform,Vagrant,Valgrind,Vim,VirtualEnv,VisualStudioCode,Xcode,Zsh,direnv,dotenv,fsharp,macOS,pydev,react
 

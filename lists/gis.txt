@@ -15,6 +15,7 @@ Go
 Gradle
 Helm
 Homebrew
+Hugo
 JEnv
 JMeter
 JabRef
