@@ -36,6 +36,6 @@
     "all": "npm run searchonly && npm run noswitcher && npm run nofacade && npm run theme && npm run katex-bundle && npm run abridge-demo && npm run abridge-stork && npm run abridge-tinysearch"
   },
   "dependencies": {
-    "uglify-js": "^3.15.4"
+    "uglify-js": "^3.17.4"
   }
 }
