@@ -1,5 +1,5 @@
 +++
-title = "Resume"
+title = "Résumé"
 path = "resume"
 template = "pages.html"
 draft = false
