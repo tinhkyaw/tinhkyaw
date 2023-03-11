@@ -864,6 +864,8 @@ twitter = "tinhkyaw" # used for twitter related
 #bing = "Your Bing Site verification code."
 seo = true  # enable or disable seo-related meta tags: opengraph, facebook, twitter
 
+avatar = "avatar.png"
+
 # Footer social links; full options listed in macros/social.html
 [extra.social]
 feed = true
