@@ -98,7 +98,6 @@ kotlin
 krew
 kube-ps1
 leiningen
-libgit2
 libmaxminddb
 libpq
 libproxy
