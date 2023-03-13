@@ -131,7 +131,6 @@ nginx
 nim
 ninja
 octave
-open-babel
 p7zip
 pdfgrep
 perl
