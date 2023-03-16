@@ -93,9 +93,10 @@ sphinx-rtd-theme
 sqlfluff
 stringcase
 swagger-ui-bundle
-sympy
 textdistance
 tldextract
+torchaudio
+torchvision
 twine
 typed-ast
 unidecode
