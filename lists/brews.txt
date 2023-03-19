@@ -49,6 +49,7 @@ erlang
 exa
 fabric
 fades
+ffmpeg
 findutils
 firebase-cli
 fish
@@ -115,6 +116,7 @@ maven
 media-info
 memcached
 mercurial
+miller
 minikube
 mkvtoolnix
 moreutils

@@ -9,8 +9,9 @@ Eclipse Corrosion
 Eclipse Docker Tooling
 Eclipse TeXlipse
 Enhanced Class Decompiler
+FindBugs
 JDeodorant
-JGrasp  https://www.jgrasp.org/eclipse_plugin
+jGRASP  https://www.jgrasp.org/eclipse_plugin
 Json Editor
 Kubernetes Manifest Editor
 macOS Eclipse Launcher
@@ -18,7 +19,6 @@ Markdown Text Editor
 pmd-eclipse-plugin
 protobuf-dt
 PyDev
-ReST Editor
 ShellWax
 SpotBugs
 SQl Editor
