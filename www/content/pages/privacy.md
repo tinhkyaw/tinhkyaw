@@ -11,4 +11,4 @@ draft = false
 - This site does not store data in the browser to be shared, sent, or sold to third-parties.
 - No personal information is shared, sent, or sold to third-parties.
 
-**Effective Date:** _20th Mar 2023_
+**Effective Date:** _March 20th 2023_
