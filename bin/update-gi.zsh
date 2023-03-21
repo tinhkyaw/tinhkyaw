@@ -14,6 +14,7 @@ curl -sLw "\n" \
     's/^bin/# &/;
     s/^bin\//# &/;
     s/\[Bb\]in/# &/;
-    s/*\/Makefile/# &/;' \
+    s/*\/Makefile/# &/;
+    s/\/public/**&/;' \
     >"${GIT_ROOT_DIR}"/.gitignore
 cd "${WD}" || exit
