@@ -27,6 +27,7 @@ carthage
 chezmoi
 cloudflare-wrangler2
 cmake
+cmocka
 cocoapods
 colima
 colordiff
