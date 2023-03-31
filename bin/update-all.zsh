@@ -11,7 +11,7 @@ brew cu -ay
 brew cleanup -s
 brew doctor
 mas outdated
-mas upgrade
+# mas upgrade
 gem update --system
 gem update
 gem cleanup
