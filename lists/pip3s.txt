@@ -6,8 +6,10 @@ authlib
 autoflake
 bandit
 based58
+boltons
 borb
 bottle
+brotlipy
 cached-property
 cachy
 celery
@@ -16,6 +18,8 @@ click-completion
 clikit
 columnq-cli
 commonmark
+conda
+conda-package-handling
 cython
 dask
 ddt
@@ -43,6 +47,7 @@ importlib-resources
 invoke
 jinja2-pluralize
 js-regex
+jsonpatch
 jsonrpcclient
 jsonrpcserver
 keras-preprocessing
@@ -72,7 +77,9 @@ pyarrow
 pycairo
 pygit
 pygithub
+pyopenssl
 pyre-check
+pysocks
 pyspark
 python-editor
 pywatchman
