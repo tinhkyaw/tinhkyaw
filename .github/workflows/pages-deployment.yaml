@@ -19,7 +19,7 @@ jobs:
           npm run abridge &&
           zola build --base-url ${{ secrets.DEPLOY_URL }}
       - name: Deploy to Cloudflare Pages
-        uses: cloudflare/pages-action@v1.3.0
+        uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
