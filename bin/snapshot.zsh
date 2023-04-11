@@ -69,7 +69,7 @@ if (( !${+commands[pipdeptree]} )); then
   "${HOMEBREW_PREFIX}"/bin/pip3 install pipdeptree
 fi
 p=$(
-  pipdeptree --json-tree |
+  "${HOMEBREW_PREFIX}"/bin/pipdeptree --json-tree |
     jq -r 'map(.package_name) | .[]' |
     tr '[:upper:]' '[:lower:]' |
     sort -u
