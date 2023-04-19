@@ -164,6 +164,7 @@ ripgrep
 rocksdb
 ronn
 rsync
+ruff
 rustup-init
 sbt
 scala
