@@ -10,7 +10,7 @@ DIR=$(dirname "$(greadlink -f "${0}")")
 cd "${DIR}" || exit
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 LIST_DIR="${GIT_ROOT_DIR}/lists"
-color=green
+color=blue
 print -P "%F{${color}}Taking snapshot...%f"
 brew list --formula >"${SNAPSHOT_DIR}/brew${SUFFIX}.txt"
 BREWS_TO_IGNORE="\
@@ -114,4 +114,5 @@ grep -Fvxf \
 gcloud version | grep -v gcloud >"${SNAPSHOT_DIR}/gcloud${SUFFIX}.txt"
 cp "${HOME}"/.mrconfig "${SNAPSHOT_DIR}/mr${SUFFIX}.txt"
 cpan -l >"${SNAPSHOT_DIR}/cpan${SUFFIX}.txt"
+print -P "%F{${color}}$(date)%f"
 cd "${WD}" || exit

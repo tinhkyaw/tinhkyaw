@@ -27,7 +27,7 @@ rustup update
   -p "${HOMEBREW_PREFIX}"/anaconda3 --all -y
 conda update -n base --all -y
 gcloud components update -q
-color=green
+color=blue
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   print -P "%F{${color}}Updating ${HOME}/.zprezto%f"
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
@@ -39,4 +39,5 @@ update-gi.zsh
 color=green
 print -P "%F{${color}}Updating cpan packages%f"
 cpan-outdated --exclude-core | cpanm
+print -P "%F{${color}}$(date)%f"
 cd "${WD}" || exit
