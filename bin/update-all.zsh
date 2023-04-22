@@ -36,7 +36,7 @@ fi
 cd "${HOME}" || exit
 mr update
 update-gi.zsh
-color=green
+color=blue
 print -P "%F{${color}}Updating cpan packages%f"
 cpan-outdated --exclude-core | cpanm
 print -P "%F{${color}}$(date)%f"
