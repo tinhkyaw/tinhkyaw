@@ -54,8 +54,8 @@ if (( $+commands[brew] )); then
   # exa
   # https://github.com/ogham/exa
   if (( $+commands[exa] )); then
-    alias ll='exa -l'
-    alias ls='exa --all --header --git --group --long'
+    alias ll='exa --all --header --git --group --long'
+    alias ls='exa'
   fi
   # fzf
   # https://github.com/junegunn/fzf
