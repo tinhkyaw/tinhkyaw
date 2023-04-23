@@ -55,7 +55,7 @@ if (( $+commands[brew] )); then
   # https://github.com/ogham/exa
   if (( $+commands[exa] )); then
     alias ll='exa -l'
-    alias ls='exa'
+    alias ls='exa --all --header --git --group --long'
   fi
   # fzf
   # https://github.com/junegunn/fzf
@@ -68,6 +68,14 @@ if (( $+commands[brew] )); then
   if (( $+commands[glances] )); then
     alias top='glances'
   fi
+  # lsd
+  # https://github.com/lsd-rs/lsd
+  if (( $+commands[lsd] )); then
+    alias l='lsd -l'
+    alias la='lsd -a'
+    alias lla='lsd -la'
+    alias lt='lsd --tree'
+  fi
   # ncdu
   # https://g.blicky.net/ncdu.git/
   if (( $+commands[ncdu] )); then
@@ -76,6 +84,11 @@ if (( $+commands[brew] )); then
     else
       alias ncdu='ncdu --color dark'
     fi
+  fi
+  # vivid
+  # https://github.com/sharkdp/vivid
+  if (( $+commands[vivid] )); then
+    export LS_COLORS="$(vivid generate solarized-dark)"
   fi
   # tldr
   # https://tldr.sh/

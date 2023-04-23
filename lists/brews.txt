@@ -107,6 +107,7 @@ libsmi
 lightgbm
 llvm
 lorem
+lsd
 luajit-openresty
 lzip
 macvim
@@ -207,6 +208,7 @@ v8
 vapor
 vercel-cli
 vips
+vivid
 watchman
 weaveworks/tap/eksctl
 webkit2png
