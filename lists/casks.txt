@@ -191,7 +191,6 @@ electerm
 electron
 electron-api-demos
 electron-fiddle
-emacs
 eme
 emojipedia
 energia

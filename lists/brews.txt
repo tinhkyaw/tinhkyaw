@@ -92,7 +92,6 @@ hugo
 hyperfine
 icdiff
 igv
-jansson
 jenv
 jmeter
 jq
@@ -158,6 +157,7 @@ pyoxidizer
 pyqt
 qcachegrind
 r
+railwaycat/emacsmacport/emacs-mac
 rclone
 rcm
 rds-command-line-tools

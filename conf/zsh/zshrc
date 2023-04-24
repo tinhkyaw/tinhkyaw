@@ -106,6 +106,9 @@ if (( $+commands[brew] )); then
   if (( $+commands[tmux] )); then
     alias tmux='tmux a'
   fi
+  if [[ -d "${HOMEBREW_PREFIX}/opt/grep/libexec/gnubin" ]]; then
+    export PATH="${HOMEBREW_PREFIX}/opt/grep/libexec/gnubin:$PATH"
+  fi
   if [[ -d "${HOMEBREW_PREFIX}/opt/openblas" ]]; then
     OPENBLAS_PREFIX=${HOMEBREW_PREFIX}/opt/openblas
     export OPENBLAS="${OPENBLAS_PREFIX}"
@@ -162,6 +165,11 @@ if (( $+commands[brew] )); then
     source "${HOMEBREW_PREFIX}/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
     source "${HOMEBREW_PREFIX}/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
   fi
+fi
+# doomemacs
+# https://github.com/doomemacs/doomemacs
+if [[ -d "${HOME}/.config/emacs/bin" ]]; then
+  export PATH="${PATH}:${HOME}/.config/emacs/bin"
 fi
 # Bash-my-AWS
 # https://github.com/bash-my-aws/bash-my-aws

@@ -52,17 +52,6 @@ ln -sf "${GIT_ROOT_DIR}/.gitignore" "${ZDOTDIR:-$HOME}/.gitignore"
 if [[ -f "${HOME}"/.inputrc ]]; then
   unlink "${HOME}"/.inputrc
 fi
-if [[ ! -f "${HOME}"/.spacemacs ]]; then
-  if [[ -d "${HOME}"/.emacs.d ]]; then
-    mv "${HOME}"/.emacs.d "${HOME}"/.emacs.d.BAK
-  fi
-  if [[ -f "${HOME}"/.emacs ]]; then
-    mv "${HOME}"/.emacs "${HOME}"/.emacs.BAK
-  fi
-  git clone https://github.com/syl20bnr/spacemacs "${HOME}"/.emacs.d
-  mr register "${HOME}/.emacs.d"
-  ln -sf "${GIT_ROOT_DIR}/conf/spacemacs" "${HOME}/.spacemacs"
-fi
 for conf_file in \
   condarc; do
   ln -sf "${GIT_ROOT_DIR}/conf/${conf_file}" "${HOME}/.${conf_file}"

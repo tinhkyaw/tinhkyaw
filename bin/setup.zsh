@@ -5,7 +5,9 @@ if (( !${+commands[brew]} )); then
       curl -fsSL \
         https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
     )"
-  brew install coreutils git mr
+  brew install coreutils fd git grep mr ripgrep
+  xargs -I {} brew tap {} <"${LIST_DIR}"/taps.txt
+  brew install emacs-mac --with-native-compilation --with-starter
   ln -s "$(brew --prefix)" "${HOME}"/.brew
 fi
 eval "$(/opt/homebrew/bin/brew shellenv)"
@@ -19,9 +21,16 @@ export CPATH
 CLI_PATH='/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/system'
 export LDFLAGS="-L${CLI_PATH}"
 export SLUGIFY_USES_TEXT_UNIDECODE=yes
-xargs -I {} brew tap {} <"${LIST_DIR}"/taps.txt
 xargs brew install <"${LIST_DIR}"/brews.txt
 rustup-init -y
+if [[ ! -d "${HOME}/.config/emacs" ]]; then
+  git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
+  ~/.config/emacs/bin/doom install
+  if [[ -d "${HOME}/.config/doom/config.el" ]]; then
+    mv "${HOME}/.config/doom/config.el" "${HOME}/.config/doom/config.el.BAK"
+  fi
+  ln -sf "${GIT_ROOT_DIR}/conf/doom/config.el" "${HOME}/.config/doom/config.el"
+fi
 source "${GIT_ROOT_DIR}"/bin/setup-sudo-askpass.zsh
 if [[ $(spctl --status) =~ "assessments enabled" ]]; then
   sudo spctl --master-disable
