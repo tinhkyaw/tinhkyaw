@@ -131,12 +131,13 @@
   useHttpPath = true
   wsErrorHighlight = all
 [delta]
+  line-numbers = true
+  navigate = true
   side-by-side = true
-  line-numbers-left-format = ""
-  line-numbers-right-format = "│ "
   syntax-theme = Solarized (dark)
 [diff]
   algorithm = patience
+  colorMoved = default
   # Git diff will use (i)ndex, (w)ork tree, (c)ommit and (o)bject
   # instead of a/b/c/d as prefixes for patches
   mnemonicprefix = true
@@ -170,9 +171,10 @@ defaultBranch = main
 [interactive]
   diffFilter = delta --color-only
 [merge]
+  conflictstyle = diff3
   summary = true
-  verbosity = 1
   tool = sourcetree
+  verbosity = 1
 [mergetool]
   prompt = false
 [mergetool "sourcetree"]
