@@ -44,11 +44,12 @@ if [[ ! -d "${HOME}/.yadr" ]]; then
   curl -sSL "${COMPLETION_DOCKER}" \
     >"${ZDOTDIR:-$HOME}/.zprezto/modules/completion/external/src/_docker"
 fi
-mkdir -p "$HOME/.config/git/"
+mkdir -p "${HOME}/.config/git/"
 ln -sf "${GIT_ROOT_DIR}/conf/git/gitattributes" \
   "${HOME}/.config/git/attributes"
-ln -sf "${GIT_ROOT_DIR}/conf/git/gitconfig" "${ZDOTDIR:-$HOME}/.gitconfig"
-ln -sf "${GIT_ROOT_DIR}/.gitignore" "${ZDOTDIR:-$HOME}/.gitignore"
+ln -sf "${GIT_ROOT_DIR}/conf/git/gitconfig" "${HOME}/.gitconfig"
+cp "${GIT_ROOT_DIR}/conf/git/gitconfig.user" "${HOME}/.gitconfig.user"
+ln -sf "${GIT_ROOT_DIR}/.gitignore" "${HOME}/.gitignore"
 if [[ -f "${HOME}"/.inputrc ]]; then
   unlink "${HOME}"/.inputrc
 fi
