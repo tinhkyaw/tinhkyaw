@@ -131,9 +131,7 @@
   useHttpPath = true
   wsErrorHighlight = all
 [delta]
-  line-numbers = true
-  navigate = true
-  side-by-side = true
+  features = decorations side-by-side line-numbers navigate
   syntax-theme = Solarized (dark)
 [diff]
   algorithm = patience
