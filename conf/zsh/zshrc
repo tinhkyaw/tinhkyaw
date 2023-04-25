@@ -39,12 +39,6 @@ if (( $+commands[brew] )); then
   if [[ -f "${HOMEBREW_PREFIX}/opt/asdf/libexec/asdf.sh" ]]; then
     source ${HOMEBREW_PREFIX}/opt/asdf/libexec/asdf.sh
   fi
-  # thefuck
-  # https://github.com/nvbn/thefuck
-  if (( $+commands[thefuck] )); then
-    eval $(thefuck --alias)
-    alias fu='fuck'
-  fi
   # bat
   # https://github.com/sharkdp/bat
   if (( $+commands[bat] )); then
@@ -56,6 +50,12 @@ if (( $+commands[brew] )); then
   if (( $+commands[exa] )); then
     alias ll='exa --all --header --git --group --long --icons -a -s type'
     alias ls='exa -G  --color auto --icons -a -s type'
+  fi
+  # thefuck
+  # https://github.com/nvbn/thefuck
+  if (( $+commands[thefuck] )); then
+    eval $(thefuck --alias)
+    alias fu='fuck'
   fi
   # fzf
   # https://github.com/junegunn/fzf

@@ -82,9 +82,7 @@
   svnl = svn log --oneline --show-commit
 
   br = branch
-  ci = commit
   ciam = commit --amend
-  co = checkout
   cpa = cherry-pick --abort
   cpc = cherry-pick --continue
   cpk = cherry-pick
@@ -100,17 +98,24 @@
   rbim = rebase -i origin/main
   rbm = rebase origin/main
   rbs = rebase --skip
-  st = status
   to = push
   up = fetch origin
   upa = fetch --all
+
+  branches = branch -a
+  pick = cherry-pick
+  merged = branch -a --merged
+  graph = log --graph --full-history --all --color --pretty=tformat:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s%x20%x1b[33m(%an)%x1b[0m"
+
 [apply]
   whitespace = nowarn
 [branch]
   autosetupmerge = true
   autosetuprebase = always
 [color]
+  branch = auto
   diff = auto
+  status = auto
   ui = auto
 [color "branch"]
   current = yellow reverse
@@ -122,6 +127,10 @@
   old = red
   new = green
   whitespace = red reverse
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
 [core]
   autocrlf = false
   excludesfile = ~/.gitignore
