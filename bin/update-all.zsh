@@ -10,6 +10,7 @@ brew upgrade
 brew cu -ay
 brew cleanup -s
 brew doctor
+/usr/sbin/softwareupdate -ia
 mas outdated
 mas upgrade
 gem update --system

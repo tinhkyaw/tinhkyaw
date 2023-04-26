@@ -55,7 +55,7 @@ fd
 ffmpeg
 findutils
 firebase-cli
-fish
+fisher
 flake8
 fpc
 fx
@@ -64,10 +64,12 @@ fzy
 gawk
 geeqie
 geoip
+gh
 ghi
 git
 git-delta
 git-flow
+git-friendly/git-friendly/git-friendly
 git-lfs
 git-subrepo
 gitui
@@ -82,6 +84,7 @@ grc
 grep
 groff
 gron
+gum
 harelba/q/q
 hbase
 helm
@@ -94,6 +97,7 @@ icdiff
 igv
 jenv
 jmeter
+jpeg
 jq
 jupyterlab
 kakoune
@@ -102,6 +106,7 @@ kops
 kotlin
 krew
 kube-ps1
+kubectx
 leiningen
 libmaxminddb
 libpq
@@ -183,6 +188,7 @@ skaffold
 smartmontools
 sops
 spaceman-diff
+spark
 sphinx-doc
 spidermonkey
 stow

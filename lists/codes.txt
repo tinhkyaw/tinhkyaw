@@ -10,6 +10,7 @@ bierner.emojisense
 bierner.markdown-emoji
 bierner.react-native-ios-pack
 blackmist.LinkCheckMD
+bmalehorn.vscode-fish
 bourhaouta.tailwindshades
 bradymholt.pgformatter
 BrandonBlaschke.easy-highlight
