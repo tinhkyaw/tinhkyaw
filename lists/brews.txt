@@ -109,7 +109,6 @@ kube-ps1
 kubectx
 leiningen
 libmaxminddb
-libpq
 libproxy
 libsmi
 lightgbm
@@ -145,6 +144,7 @@ octave
 p7zip
 pdfgrep
 perl
+pgsync
 pidof
 pinentry-mac
 pipenv
