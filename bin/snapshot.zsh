@@ -15,7 +15,9 @@ print -P "%F{${color}}Taking snapshot...%f"
 brew list --formula >"${SNAPSHOT_DIR}/brew${SUFFIX}.txt"
 BREWS_TO_IGNORE="\
 fluid-synth\
-|katago\
+|ipython\
+|jpeg\
+|svt-av1\
 "
 {
   grep -Fvxf \
