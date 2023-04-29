@@ -84,6 +84,7 @@ grc
 grep
 groff
 gron
+guile
 gum
 harelba/q/q
 hbase
@@ -97,7 +98,6 @@ icdiff
 igv
 jenv
 jmeter
-jpeg
 jq
 jupyterlab
 kakoune
