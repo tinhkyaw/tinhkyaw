@@ -10,5 +10,4 @@ npm-check
 npm
 playwright
 pm2
-serverless
 typescript
