@@ -180,6 +180,7 @@ sbt
 scala
 scipy
 screen
+serverless
 shellcheck
 silicon
 simdjson
