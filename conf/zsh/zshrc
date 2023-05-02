@@ -171,6 +171,11 @@ fi
 if [[ -d "${HOME}/.config/emacs/bin" ]]; then
   export PATH="${PATH}:${HOME}/.config/emacs/bin"
 fi
+# docker
+# https://www.docker.com/products/docker-desktop
+if [[ -d "${HOME}/.docker/bin" ]]; then
+  export PATH="${PATH}:${HOME}/.docker/bin"
+fi
 # Bash-my-AWS
 # https://github.com/bash-my-aws/bash-my-aws
 if [[ -d "${BMA_HOME:-$HOME}/.bash-my-aws" ]]; then
