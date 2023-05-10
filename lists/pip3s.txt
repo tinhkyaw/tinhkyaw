@@ -27,6 +27,7 @@ docsend
 dotbot
 editdistance
 elasticsearch
+entrypoints
 esbonio
 first
 flask-openid
