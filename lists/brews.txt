@@ -196,7 +196,6 @@ stow
 subversion
 swiftformat
 swig
-swimat
 syncthing
 tag
 teleport
