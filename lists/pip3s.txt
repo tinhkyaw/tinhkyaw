@@ -63,13 +63,13 @@ opensearch-py
 ordereddict
 oyaml
 paramiko
+parquet-tools
 pathtools
 pep517
 pip-tools
 pipdeptree
 pss
 psycopg2
-pyarrow
 pycairo
 pygit
 pygithub

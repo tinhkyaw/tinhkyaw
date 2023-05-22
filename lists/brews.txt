@@ -1,6 +1,5 @@
 ack
 adns
-altinity/clickhouse/clickhouse@22.6
 amazon-ecs-cli
 ansible
 ant
@@ -142,6 +141,7 @@ nim
 ninja
 octave
 p7zip
+parquet-cli
 pdfgrep
 perl
 pgsync
