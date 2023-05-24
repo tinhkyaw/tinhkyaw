@@ -45,6 +45,7 @@ direnv
 dprint
 duti
 ec2-ami-tools
+emscripten
 entr
 erlang
 exa
@@ -114,6 +115,7 @@ lightgbm
 llvm
 lorem
 lsd
+lua@5.3
 luajit-openresty
 lzip
 macvim
