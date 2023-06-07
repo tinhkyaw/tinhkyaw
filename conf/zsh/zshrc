@@ -60,9 +60,11 @@ if (( $+commands[brew] )); then
   fi
   # git-friendly
   # https://github.com/git-friendly/git-friendly
-  fpath=(${HOMEBREW_PREFIX}/share/zsh/functions $fpath)
-  autoload -Uz _git && _git
-  compdef __git_branch_names branch
+  if (( $+commands[branch] )); then
+    fpath=(${HOMEBREW_PREFIX}/share/zsh/functions $fpath)
+    autoload -Uz _git && _git
+    compdef __git_branch_names branch
+  fi
   # glances
   # https://nicolargo.github.io/glances/
   if (( $+commands[glances] )); then
@@ -168,8 +170,7 @@ if (( $+commands[brew] )); then
   export HOMEBREW_CASK_OPTS="--appdir=/Applications"
   export BYOBU_PREFIX="${HOMEBREW_PREFIX}"
   FPATH="${HOMEBREW_PREFIX}/share/zsh/site-functions:${FPATH}"
-  autoload -Uz compinit
-  compinit
+  autoload -Uz compinit && compinit
 fi
 # doomemacs
 # https://github.com/doomemacs/doomemacs
