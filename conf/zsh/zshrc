@@ -23,11 +23,6 @@ fi
 # Homebrew
 # https://brew.sh/
 if (( $+commands[brew] )); then
-  export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-  export BYOBU_PREFIX="${HOMEBREW_PREFIX}"
-  FPATH="${HOMEBREW_PREFIX}/share/zsh/site-functions:${FPATH}"
-  autoload -Uz compinit
-  compinit
   # CNF
   # https://github.com/Homebrew/homebrew-command-not-found
   HB_CNF_HANDLER="${HOMEBREW_REPOSITORY}/Library/Taps/homebrew/homebrew-command-not-found/handler.sh"
@@ -63,6 +58,11 @@ if (( $+commands[brew] )); then
     alias f='fzf --preview "bat --color \"always\" {}"'
     export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
   fi
+  # git-friendly
+  # https://github.com/git-friendly/git-friendly
+  fpath=(${HOMEBREW_PREFIX}/share/zsh/functions $fpath)
+  autoload -Uz _git && _git
+  compdef __git_branch_names branch
   # glances
   # https://nicolargo.github.io/glances/
   if (( $+commands[glances] )); then
@@ -165,6 +165,11 @@ if (( $+commands[brew] )); then
     source "${HOMEBREW_PREFIX}/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
     source "${HOMEBREW_PREFIX}/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
   fi
+  export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+  export BYOBU_PREFIX="${HOMEBREW_PREFIX}"
+  FPATH="${HOMEBREW_PREFIX}/share/zsh/site-functions:${FPATH}"
+  autoload -Uz compinit
+  compinit
 fi
 # doomemacs
 # https://github.com/doomemacs/doomemacs
