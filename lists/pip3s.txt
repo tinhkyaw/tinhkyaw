@@ -32,6 +32,7 @@ esbonio
 first
 flask-openid
 ftfy
+getdaft
 google-cloud-bigquery
 google-cloud-bigquery-storage
 google-cloud-storage
