@@ -4,6 +4,7 @@ apischema
 async-generator
 authlib
 autoflake
+aws-psycopg2
 bandit
 based58
 borb
@@ -58,6 +59,7 @@ monotonic
 mxnet
 natsort
 nltk
+openai
 openapi-spec-validator
 openpyxl
 opensearch-py
@@ -74,6 +76,7 @@ psycopg2
 pycairo
 pygit
 pygithub
+pypdf2
 pyre-check
 pyspark
 python-editor
@@ -89,6 +92,7 @@ seaborn
 setuptools-scm
 simple-salesforce
 simplegeneric
+slack-bolt
 snooty-lextudio
 solana
 sphinx-rtd-theme
