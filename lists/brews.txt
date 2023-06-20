@@ -25,6 +25,7 @@ buildifier
 byobu
 carthage
 chezmoi
+clipboard
 cloudflare-wrangler2
 cmake
 cmocka
@@ -52,7 +53,6 @@ exa
 fabric
 fades
 fd
-ffmpeg
 findutils
 firebase-cli
 fisher

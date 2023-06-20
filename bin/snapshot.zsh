@@ -16,6 +16,7 @@ brew list --formula >"${SNAPSHOT_DIR}/brew${SUFFIX}.txt"
 BREWS_TO_IGNORE="\
 fluid-synth\
 |katago\
+|python@3.9\
 "
 {
   grep -Fvxf \
