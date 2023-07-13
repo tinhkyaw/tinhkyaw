@@ -126,8 +126,8 @@ if (( $+commands[brew] )); then
     OPENSSL_PREFIX=${HOMEBREW_PREFIX}/opt/openssl
     CPPFLAGS+=" -I${OPENSSL_PREFIX}/include"
     LDFLAGS+=" -L${OPENSSL_PREFIX}/lib"
-    pkg_config_path+=${OPENSSL_PREFIX}/lib/pkgconfig
     path+=${OPENSSL_PREFIX}/bin
+    pkg_config_path+=${OPENSSL_PREFIX}/lib/pkgconfig
   fi
   if [[ -d "${HOMEBREW_PREFIX}/opt/zlib" ]]; then
     ZLIB_PREFIX=${HOMEBREW_PREFIX}/opt/zlib
