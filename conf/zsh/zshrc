@@ -20,6 +20,7 @@ fi
 if [[ -d ~/.yadr ]]; then
   for config_file ($HOME/.yadr/zsh/*.zsh) source $config_file
 fi
+typeset -TUx PKG_CONFIG_PATH pkg_config_path
 # Homebrew
 # https://brew.sh/
 if (( $+commands[brew] )); then
@@ -109,12 +110,11 @@ if (( $+commands[brew] )); then
     alias tmux='tmux a'
   fi
   if [[ -d "${HOMEBREW_PREFIX}/opt/grep/libexec/gnubin" ]]; then
-    export PATH="${HOMEBREW_PREFIX}/opt/grep/libexec/gnubin:$PATH"
+    path=("${HOMEBREW_PREFIX}/opt/grep/libexec/gnubin" $path)
   fi
   if [[ -d "${HOMEBREW_PREFIX}/opt/libarchive" ]]; then
     LIBARCHIVE_PREFIX=${HOMEBREW_PREFIX}/opt/libarchive
-    PKG_CONFIG_PATH+="${PKG_CONFIG_PATH:+:}${LIBARCHIVE_PREFIX}/lib/pkgconfig"
-    export PKG_CONFIG_PATH
+    pkg_config_path+=${LIBARCHIVE_PREFIX}/lib/pkgconfig
   fi
   if [[ -d "${HOMEBREW_PREFIX}/opt/openblas" ]]; then
     OPENBLAS_PREFIX=${HOMEBREW_PREFIX}/opt/openblas
@@ -125,19 +125,14 @@ if (( $+commands[brew] )); then
   if [[ -d "${HOMEBREW_PREFIX}/opt/openssl" ]]; then
     OPENSSL_PREFIX=${HOMEBREW_PREFIX}/opt/openssl
     CPPFLAGS+=" -I${OPENSSL_PREFIX}/include"
-    export CPPFLAGS
     LDFLAGS+=" -L${OPENSSL_PREFIX}/lib"
-    export LDFLAGS
-    PKG_CONFIG_PATH+="${PKG_CONFIG_PATH:+:}${OPENSSL_PREFIX}/lib/pkgconfig"
-    export PKG_CONFIG_PATH
-    export PATH="${PATH}:${OPENSSL_PREFIX}/bin"
+    pkg_config_path+=${OPENSSL_PREFIX}/lib/pkgconfig
+    path+=${OPENSSL_PREFIX}/bin
   fi
   if [[ -d "${HOMEBREW_PREFIX}/opt/zlib" ]]; then
     ZLIB_PREFIX=${HOMEBREW_PREFIX}/opt/zlib
     CFLAGS+=" -I${ZLIB_PREFIX}/include"
-    export CFLAGS
     LDFLAGS+=" -L${ZLIB_PREFIX}/lib"
-    export LDFLAGS
   fi
   # miniforge
   # https://github.com/conda-forge/miniforge
@@ -150,7 +145,7 @@ if (( $+commands[brew] )); then
     if [ -f "${HOMEBREW_PREFIX}/Caskroom/miniforge/base/etc/profile.d/conda.sh" ]; then
       source "${HOMEBREW_PREFIX}/Caskroom/miniforge/base/etc/profile.d/conda.sh"
     else
-      export PATH="${HOMEBREW_PREFIX}/Caskroom/miniforge/base/bin:$PATH"
+      path+=${HOMEBREW_PREFIX}/Caskroom/miniforge/base/bin
     fi
   fi
   unset __conda_setup
@@ -158,12 +153,12 @@ if (( $+commands[brew] )); then
   # Anaconda
   # https://www.anaconda.com/
   if [[ -d "${HOMEBREW_PREFIX}/anaconda3/bin" ]]; then
-    export PATH="${PATH}:${HOMEBREW_PREFIX}/anaconda3/bin"
+    path+=${HOMEBREW_PREFIX}/anaconda3/bin
   fi
   for formula in curl perl ruby;do
     if [[ -d "${HOMEBREW_PREFIX}/opt/$formula" ]]; then
       FORMULA_PREFIX=${HOMEBREW_PREFIX}/opt/$formula
-      export PATH="${FORMULA_PREFIX}/bin:${PATH}"
+      path=(${FORMULA_PREFIX}/bin $path)
     fi
   done
   # google-cloud-sdk
@@ -172,25 +167,28 @@ if (( $+commands[brew] )); then
     source "${HOMEBREW_PREFIX}/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
     source "${HOMEBREW_PREFIX}/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
   fi
+  export CFLAGS
+  export CPPFLAGS
+  export LDFLAGS
   export HOMEBREW_CASK_OPTS="--appdir=/Applications"
   export BYOBU_PREFIX="${HOMEBREW_PREFIX}"
-  FPATH="${HOMEBREW_PREFIX}/share/zsh/site-functions:${FPATH}"
+  fpath=(${HOMEBREW_PREFIX}/share/zsh/site-functions $fpath)
   autoload -Uz compinit && compinit
 fi
 # doomemacs
 # https://github.com/doomemacs/doomemacs
 if [[ -d "${HOME}/.config/emacs/bin" ]]; then
-  export PATH="${PATH}:${HOME}/.config/emacs/bin"
+  path+=${HOME}/.config/emacs/bin
 fi
 # docker
 # https://www.docker.com/products/docker-desktop
 if [[ -d "${HOME}/.docker/bin" ]]; then
-  export PATH="${PATH}:${HOME}/.docker/bin"
+  path+=${HOME}/.docker/bin
 fi
 # Bash-my-AWS
 # https://github.com/bash-my-aws/bash-my-aws
 if [[ -d "${BMA_HOME:-$HOME}/.bash-my-aws" ]]; then
-  export PATH="${PATH}:${BMA_HOME:-$HOME/.bash-my-aws}/bin"
+  path+=${BMA_HOME:-$HOME/.bash-my-aws}/bin
   source ${BMA_HOME:-$HOME/.bash-my-aws}/aliases
   autoload -U +X compinit && compinit
   autoload -U +X bashcompinit && bashcompinit

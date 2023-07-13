@@ -101,6 +101,7 @@ stringcase
 swagger-ui-bundle
 textdistance
 tldextract
+tokenize-rt
 torchaudio
 torchvision
 twine
