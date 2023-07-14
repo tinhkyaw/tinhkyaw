@@ -88,6 +88,7 @@ rope
 rstcheck
 s3fs
 safety
+scikit-learn
 seaborn
 setuptools-scm
 simple-salesforce

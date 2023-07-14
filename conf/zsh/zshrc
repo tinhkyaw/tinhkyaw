@@ -112,10 +112,6 @@ if (( $+commands[brew] )); then
   if [[ -d "${HOMEBREW_PREFIX}/opt/grep/libexec/gnubin" ]]; then
     path=("${HOMEBREW_PREFIX}/opt/grep/libexec/gnubin" $path)
   fi
-  if [[ -d "${HOMEBREW_PREFIX}/opt/libarchive" ]]; then
-    LIBARCHIVE_PREFIX=${HOMEBREW_PREFIX}/opt/libarchive
-    pkg_config_path+=${LIBARCHIVE_PREFIX}/lib/pkgconfig
-  fi
   if [[ -d "${HOMEBREW_PREFIX}/opt/openblas" ]]; then
     OPENBLAS_PREFIX=${HOMEBREW_PREFIX}/opt/openblas
     export OPENBLAS="${OPENBLAS_PREFIX}"
