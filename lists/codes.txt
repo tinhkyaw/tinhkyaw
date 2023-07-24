@@ -171,6 +171,7 @@ spmeesseman.vscode-taskexplorer
 spywhere.guides
 stylelint.vscode-stylelint
 syler.sass-indented
+tamasfe.even-better-toml
 tcwalther.cython
 timonwong.shellcheck
 tootone.org-mode
