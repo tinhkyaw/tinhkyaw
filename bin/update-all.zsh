@@ -17,6 +17,7 @@ gem update --system
 gem update
 gem cleanup
 timeout --foreground 3m npm-check -g -y
+python3 -m pip install --upgrade pip
 "${HOMEBREW_PREFIX}"/bin/pip3 install --upgrade setuptools
 export GRPC_PYTHON_BUILD_SYSTEM_OPENSSL=1
 export GRPC_PYTHON_BUILD_SYSTEM_ZLIB=1
