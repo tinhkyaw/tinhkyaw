@@ -42,6 +42,7 @@ appflowy
 appium
 appium-inspector
 aquamacs
+arc
 archipelago
 arduino
 ariang
