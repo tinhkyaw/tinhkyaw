@@ -54,6 +54,7 @@ line-profiler
 locust
 lorem
 memory-profiler
+memray
 moban
 monotonic
 mxnet
