@@ -96,6 +96,7 @@ hyperfine
 icdiff
 igv
 jenv
+jj
 jmeter
 jq
 jupyterlab
