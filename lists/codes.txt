@@ -27,7 +27,6 @@ CodeRoad.coderoad
 cschlosser.doxdocgen
 davidrockburn.py-pack
 dbaeumer.vscode-eslint
-DevonDCarew.bazel-code
 docsmsft.atlas-design-system-tools
 docsmsft.docs-authoring-pack
 docsmsft.docs-linting

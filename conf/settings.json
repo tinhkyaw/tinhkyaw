@@ -167,6 +167,6 @@
   ],
   "yaml.schemaStore.enable": false,
   "yaml.schemas": {
-    "file:///Users/tin/.vscode/extensions/docsmsft.docs-yaml-1.0.0/dist/toc.schema.json": "/toc\\.yml/i"
+    "file:///Users/tin/.vscode/extensions/docsmsft.docs-yaml-1.0.1/dist/toc.schema.json": "/toc\\.yml/i"
   }
 }
