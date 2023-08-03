@@ -592,6 +592,7 @@ opensesame
 openshot-video-editor
 opentoonz
 openvisualtraceroute
+openvpn-connect
 openzfs
 orange
 orca
