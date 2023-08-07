@@ -27,6 +27,7 @@
   "cloudcode.autoDependencies": "off",
   "cloudcode.enableTelemetry": false,
   "cmake.configureOnOpen": false,
+  "cmake.ignoreCMakeListsMissing": true,
   "code-runner.enableAppInsights": false,
   "codeQL.cli.executablePath": "/Users/tin/.brew/bin/codeql",
   "codeQL.telemetry.enableTelemetry": false,
