@@ -30,8 +30,8 @@ rustup update
 conda update -n base --all -y
 gcloud components update -q
 doom env
-doom sync
-doom upgrade -!
+doom -! sync
+doom -! upgrade
 color=blue
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   print -P "%F{${color}}Updating ${HOME}/.zprezto%f"
