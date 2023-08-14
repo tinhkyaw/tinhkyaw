@@ -57,6 +57,7 @@ memory-profiler
 memray
 moban
 monotonic
+mpire
 mxnet
 natsort
 nltk

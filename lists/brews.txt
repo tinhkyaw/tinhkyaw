@@ -17,7 +17,6 @@ awscli
 bat
 bazel
 binutils
-black
 bottom
 brimdata/tap/zed
 brimdata/tap/zq
@@ -132,7 +131,6 @@ mkvtoolnix
 moreutils
 mr
 mstch
-mypy
 navi
 ncdu
 neo4j
@@ -158,7 +156,6 @@ protobuf
 psgrep
 pssh
 puzzles
-pycodestyle
 pyenv
 pylint
 pyoxidizer
