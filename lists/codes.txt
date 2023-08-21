@@ -21,7 +21,6 @@ ChakrounAnas.turbo-console-log
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
 chrmarti.regex
-CircleCI.circleci
 codeandstuff.package-json-upgrade
 CodeRoad.coderoad
 cschlosser.doxdocgen
