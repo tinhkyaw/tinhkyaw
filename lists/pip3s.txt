@@ -102,6 +102,7 @@ sphinx-rtd-theme
 sqlfluff
 stringcase
 swagger-ui-bundle
+tensorflow
 textdistance
 tldextract
 tokenize-rt

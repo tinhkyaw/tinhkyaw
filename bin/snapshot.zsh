@@ -63,8 +63,7 @@ pyqt|\
 qscintilla|\
 fuzzytm|\
 gensim|\
-smart-open|\
-tensorflow\
+smart-open\
 "
 if (( !${+commands[pipdeptree]} )); then
   "${HOMEBREW_PREFIX}"/bin/pip3 install pipdeptree
