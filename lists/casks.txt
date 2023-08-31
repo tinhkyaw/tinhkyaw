@@ -519,7 +519,7 @@ modelio
 moebius
 mojibar
 monitorcontrol
-mono-mdk-for-visual-studio
+mono-mdk
 moonlight
 morpheus
 mounty
@@ -1016,7 +1016,6 @@ virtualbox-extension-pack
 visit
 visual
 visual-paradigm-ce
-visual-studio
 visual-studio-code
 visualvm
 vitals
