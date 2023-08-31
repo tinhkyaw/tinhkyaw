@@ -44,6 +44,7 @@ hstspreload
 icecream
 importlib-resources
 invoke
+jax
 jinja2-pluralize
 js-regex
 jsonrpcclient
@@ -102,6 +103,7 @@ sphinx-rtd-theme
 sqlfluff
 stringcase
 swagger-ui-bundle
+tensorboard-plugin-wit
 tensorflow
 textdistance
 tldextract
