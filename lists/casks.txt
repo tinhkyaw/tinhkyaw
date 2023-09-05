@@ -460,6 +460,7 @@ luyten
 lynkeos
 lyricsx
 lyx
+mac-mouse-fix
 maccpuid
 maccy
 macdependency
