@@ -41,11 +41,11 @@ if (( $+commands[brew] )); then
     export BAT_THEME="Solarized (dark)"
     alias cat='bat'
   fi
-  # exa
-  # https://github.com/ogham/exa
-  if (( $+commands[exa] )); then
-    alias ll='exa --all --header --git --group --long --icons -a -s type'
-    alias ls='exa -G  --color auto --icons -a -s type'
+  # eza
+  # https://github.com/eza-community/eza
+  if (( $+commands[eza] )); then
+    alias ll='eza --all --header --git --group --long --icons -a -s type'
+    alias ls='eza -G  --color auto --icons -a -s type'
   fi
   # thefuck
   # https://github.com/nvbn/thefuck
