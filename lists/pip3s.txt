@@ -60,6 +60,10 @@ moban
 monotonic
 mpire
 mxnet
+mypy-boto3-appflow
+mypy-boto3-rds
+mypy-boto3-redshift-data
+mypy-boto3-s3
 natsort
 nltk
 openai

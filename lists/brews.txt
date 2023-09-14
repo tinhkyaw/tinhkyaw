@@ -156,6 +156,7 @@ protobuf
 psgrep
 pssh
 puzzles
+pycodestyle
 pyenv
 pylint
 pyoxidizer
