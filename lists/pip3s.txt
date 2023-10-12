@@ -17,6 +17,7 @@ click-completion
 clikit
 columnq-cli
 commonmark
+convertdate
 cython
 dask
 ddt
@@ -37,6 +38,7 @@ getdaft
 google-cloud-bigquery
 google-cloud-bigquery-storage
 google-cloud-storage
+gpg
 graphtage
 grpcio-status
 h2
@@ -53,6 +55,7 @@ lightgbm
 line-profiler
 locust
 lorem
+lunarcalendar
 memory-profiler
 memray
 moban
