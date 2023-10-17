@@ -140,6 +140,7 @@ nghttp2
 nginx
 nim
 ninja
+nmap
 octave
 p7zip
 parquet-cli
@@ -161,6 +162,7 @@ pyenv
 pylint
 pyoxidizer
 pyqt
+python-build
 qcachegrind
 r
 railwaycat/emacsmacport/emacs-mac

@@ -50,6 +50,7 @@ jinja2-pluralize
 js-regex
 jsonrpcclient
 jsonrpcserver
+jsonschema-spec
 keras-preprocessing
 lightgbm
 line-profiler
