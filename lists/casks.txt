@@ -604,7 +604,6 @@ osp-tracker
 osquery
 outguess
 oversight
-owasp-zap
 packages
 packet-peeper
 packetproxy
