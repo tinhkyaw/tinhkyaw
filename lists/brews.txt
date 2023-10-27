@@ -51,6 +51,7 @@ erlang
 eza
 fabric
 fades
+fbthrift
 fd
 findutils
 firebase-cli
@@ -202,6 +203,7 @@ syncthing
 tag
 teleport
 terraform
+tflint
 the_platinum_searcher
 the_silver_searcher
 thefuck

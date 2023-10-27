@@ -55,6 +55,7 @@ keras-preprocessing
 lightgbm
 line-profiler
 locust
+loguru
 lorem
 lunarcalendar
 memory-profiler
