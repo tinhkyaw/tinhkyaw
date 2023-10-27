@@ -33,6 +33,7 @@ CASKS_TO_IGNORE="\
 ^corretto\
 |krisp\
 |lastpass\
+|tunnelblick\
 |^zoom\
 "
 read -r -d '' CASKS_TO_ADD <<EOF

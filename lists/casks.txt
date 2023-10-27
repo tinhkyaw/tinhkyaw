@@ -965,7 +965,6 @@ trilium-notes
 triplecheese
 trolcommander
 tropy
-tunnelblick
 turbovnc-viewer
 tuxguitar
 tv-browser
