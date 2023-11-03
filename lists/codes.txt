@@ -68,6 +68,8 @@ humao.rest-client
 IBM.output-colorizer
 idleberg.icon-fonts
 ionutvmi.path-autocomplete
+iterative.dvc
+iterative.vscode-dvc-pack
 jack89ita.open-file-from-path
 jakob101.RelativePath
 James-Yu.latex-workshop

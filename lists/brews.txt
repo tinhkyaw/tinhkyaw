@@ -108,6 +108,7 @@ krew
 kube-ps1
 kubectx
 leiningen
+libgsf
 libmaxminddb
 libproxy
 libsmi
@@ -163,7 +164,9 @@ pyenv
 pylint
 pyoxidizer
 pyqt
+python-argcomplete
 python-build
+python@3.11
 qcachegrind
 r
 railwaycat/emacsmacport/emacs-mac
