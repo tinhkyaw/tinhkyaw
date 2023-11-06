@@ -10,7 +10,6 @@ adobe-acrobat-reader
 adobe-digital-editions
 adobe-dng-converter
 advancedrestclient
-agenda
 airpass
 airtable
 alacritty
@@ -39,16 +38,13 @@ apk-icon-editor
 apparency
 appcleaner
 appflowy
-appium
 appium-inspector
 aquamacs
 arc
 archipelago
-arduino
 ariang
 asciidocfx
 asset-catalog-tinkerer
-atom
 au-lab
 audacity
 aural
@@ -87,7 +83,6 @@ bunch
 burn
 buttercup
 caffeine
-cakebrew
 calcservice
 calibre
 canva
@@ -108,7 +103,6 @@ cinderella
 cinebench
 circuitjs1
 cirrus
-clean-me
 clipgrab
 clix
 cljstyle
@@ -125,7 +119,6 @@ copyq
 coqide
 coteditor
 couchbase-server-community
-couchpotato
 cr
 cron
 crunch
@@ -185,7 +178,6 @@ dust3d
 dvdstyler
 easyfind
 eclipse-platform
-edex-ui
 edfbrowser
 elan
 electerm
@@ -456,7 +448,6 @@ luminance-hdr
 lunasea
 lunastudio
 luxmark
-luyten
 lynkeos
 lyricsx
 lyx
@@ -492,7 +483,6 @@ mdimagesizemdimporter
 media-converter
 mediaelch
 mediahuman-audio-converter
-meld
 memo
 menu-bar-splitter
 menumeters
@@ -518,13 +508,11 @@ mmhmm
 mnemosyne
 modelio
 moebius
-mojibar
 monitorcontrol
 mono-mdk
 moonlight
 morpheus
 mounty
-mouse-fix
 mp3gain-express
 mps
 mpv
@@ -543,7 +531,6 @@ nally
 nasas-eyes
 nautilus
 ncar-ncl
-ndm
 neo4j
 netbeans
 netiquette
@@ -551,7 +538,6 @@ netlogo
 netnewswire
 netron
 netxms-console
-next
 nfov
 night-owl
 nimble-commander
@@ -663,7 +649,6 @@ prudent
 psychopy
 publii
 publish-or-perish
-pulse
 puppetry
 pusher
 puzzles
@@ -686,7 +671,6 @@ qlimagesize
 qlmarkdown
 qlmobi
 qlnetcdf
-qlrest
 qlstephen
 qlswift
 qlvideo
@@ -704,7 +688,6 @@ quickjson
 quicklook-csv
 quicklook-json
 quicklook-pfm
-quicklookapk
 quicknfo
 quicksilver
 quickwords
@@ -766,13 +749,11 @@ secure-pipes
 send-to-kindle
 sensiblesidebuttons
 sequel-ace
-sequel-pro
 sequential
 servo
 servpane
 session-manager-plugin
 sf-symbols
-sfdx
 shield
 shifty
 shiori
@@ -784,7 +765,6 @@ showyedge
 shrinkit
 shutter-encoder
 sia-ui
-sidekick
 sigdigger
 sigil
 signal
@@ -970,7 +950,6 @@ tuxguitar
 tv-browser
 tvrenamer
 tweeten
-twilioquest
 twine
 twobird
 tyke
@@ -981,7 +960,6 @@ unclack
 uncolored
 unetbootin
 unicodechecker
-unicopedia-plus
 uniflash
 uninstallpkg
 unipro-ugene
@@ -1034,7 +1012,6 @@ warp
 waterfox
 waterfox-classic
 wavesurfer
-webcamoid
 webots
 webplotdigitizer
 webpquicklook
@@ -1051,7 +1028,6 @@ wine-stable
 wing-personal
 wings3d
 wireshark
-wkhtmltopdf
 wolfram-engine
 wombat
 wordpresscom
@@ -1080,7 +1056,6 @@ youtube-downloader
 youtube-to-mp3
 yt-music
 ytmdesktop-youtube-music
-yu-writer
 yuna
 zap
 zenmap
