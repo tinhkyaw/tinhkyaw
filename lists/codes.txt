@@ -36,6 +36,7 @@ donjayamanne.python-extension-pack
 DotJoshJohnson.xml
 ecmel.vscode-html-css
 EditorConfig.EditorConfig
+eeyore.yapf
 egomobile.vscode-powertools
 ericadamski.carbon-now-sh
 esbenp.prettier-vscode

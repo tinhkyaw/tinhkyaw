@@ -44,6 +44,7 @@ diff-so-fancy
 direnv
 dprint
 duti
+dvc
 ec2-ami-tools
 emscripten
 entr
@@ -108,12 +109,10 @@ krew
 kube-ps1
 kubectx
 leiningen
-libgsf
 libmaxminddb
 libproxy
 libsmi
 lightgbm
-llvm
 lorem
 lsd
 lua@5.3
@@ -155,7 +154,6 @@ pipenv
 pipx
 poetry
 postgresql@14
-protobuf
 psgrep
 pssh
 puzzles
@@ -164,9 +162,7 @@ pyenv
 pylint
 pyoxidizer
 pyqt
-python-argcomplete
 python-build
-python@3.11
 qcachegrind
 r
 railwaycat/emacsmacport/emacs-mac
@@ -210,7 +206,6 @@ tflint
 the_platinum_searcher
 the_silver_searcher
 thefuck
-thrift
 tidy-html5
 tig
 tldr
