@@ -9,8 +9,9 @@
     "editor.formatOnSave": true
   },
   "[python]": {
-    "editor.defaultFormatter": "ms-python.python",
-    "editor.formatOnSave": true
+    "editor.defaultFormatter": "eeyore.yapf",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
   },
   "[shellscript]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
@@ -90,25 +91,6 @@
   },
   "partialDiff.enableTelemetry": false,
   "python.defaultInterpreterPath": "/Users/tin/.brew/bin/python3",
-  "python.formatting.autopep8Args": [
-    "--max-line-length",
-    "79",
-    "--experimental"
-  ],
-  "python.formatting.blackArgs": [
-    "--line-length",
-    "79"
-  ],
-  "python.formatting.provider": "yapf",
-  "python.formatting.yapfArgs": [
-    "--style",
-    "{based_on_style: google, column_limit: 79}"
-  ],
-  "python.formatting.yapfPath": "/Users/tin/.brew/bin/yapf",
-  "python.languageServer": "Pylance",
-  "python.linting.flake8Enabled": true,
-  "python.linting.flake8Path": "/Users/tin/.brew/bin/flake8",
-  "python.linting.pylintEnabled": false,
   "redhat.telemetry.enabled": false,
   "rest-client.enableTelemetry": false,
   "restructuredtext.linter.doc8.executablePath": "/Users/tin/.brew/bin/doc8",
@@ -169,5 +151,9 @@
   "yaml.schemaStore.enable": false,
   "yaml.schemas": {
     "file:///Users/tin/.vscode/extensions/docsmsft.docs-yaml-1.0.1/dist/toc.schema.json": "/toc\\.yml/i"
-  }
+  },
+  "yapf.args": [
+    "--style",
+    "{based_on_style: google, column_limit: 79}"
+  ]
 }
