@@ -163,7 +163,6 @@ pylint
 pyoxidizer
 pyqt
 python-build
-q
 qcachegrind
 r
 railwaycat/emacsmacport/emacs-mac
