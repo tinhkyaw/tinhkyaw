@@ -46,6 +46,7 @@ dprint
 duti
 dvc
 ec2-ami-tools
+eksctl
 emscripten
 entr
 erlang
@@ -86,7 +87,6 @@ groff
 gron
 guile
 gum
-harelba/q/q
 hbase
 helm
 hr
@@ -163,6 +163,7 @@ pylint
 pyoxidizer
 pyqt
 python-build
+q
 qcachegrind
 r
 railwaycat/emacsmacport/emacs-mac
@@ -223,7 +224,6 @@ vercel-cli
 vips
 vivid
 watchman
-weaveworks/tap/eksctl
 webkit2png
 wget
 wxmaxima
