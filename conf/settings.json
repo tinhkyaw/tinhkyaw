@@ -30,6 +30,7 @@
   "cloudcode.enableTelemetry": false,
   "cmake.configureOnOpen": false,
   "cmake.ignoreCMakeListsMissing": true,
+  "cmake.showOptionsMovedNotification": false,
   "code-runner.enableAppInsights": false,
   "codeQL.cli.executablePath": "${env:HOMEBREW_PREFIX}/bin/codeql",
   "codeQL.telemetry.enableTelemetry": false,
