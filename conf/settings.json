@@ -22,7 +22,6 @@
   },
   "application.shellEnvironmentResolutionTimeout": 120,
   "arduino.useArduinoCli": true,
-  "aws.samcli.lambdaTimeout": 1234,
   "aws.telemetry": false,
   "bazel.buildifierPath": "/Users/tin/.brew/bin/buildifier",
   "carbon.fontFamily": "Source Code Pro",
