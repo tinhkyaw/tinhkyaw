@@ -109,6 +109,7 @@ krew
 kube-ps1
 kubectx
 leiningen
+libgsf
 libmaxminddb
 libproxy
 libsmi
