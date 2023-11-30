@@ -12,6 +12,7 @@ augeas
 autoenv
 autojump
 autopep8
+aws-iam-authenticator
 aws-shell
 awscli
 bat
@@ -164,6 +165,7 @@ pylint
 pyoxidizer
 pyqt
 python-build
+python-cryptography
 qcachegrind
 r
 railwaycat/emacsmacport/emacs-mac
@@ -196,6 +198,7 @@ spark
 sphinx-doc
 spidermonkey
 stow
+streamlink
 subversion
 swiftformat
 swig
@@ -229,6 +232,7 @@ wget
 wxmaxima
 xdot
 xh
+xsimd
 yank
 yapf
 youtube-dl

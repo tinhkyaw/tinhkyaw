@@ -35,6 +35,7 @@ first
 flask-openid
 ftfy
 getdaft
+google-api-python-client
 google-cloud-bigquery
 google-cloud-bigquery-storage
 google-cloud-storage
