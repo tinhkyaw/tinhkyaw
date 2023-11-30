@@ -165,7 +165,6 @@ pylint
 pyoxidizer
 pyqt
 python-build
-python-cryptography
 qcachegrind
 r
 railwaycat/emacsmacport/emacs-mac
