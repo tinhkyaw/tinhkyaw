@@ -231,7 +231,6 @@ xdot
 xh
 yank
 yapf
-youtube-dl
 yq
 z
 zlib
