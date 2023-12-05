@@ -12,7 +12,6 @@ augeas
 autoenv
 autojump
 autopep8
-aws-iam-authenticator
 aws-shell
 awscli
 bat
@@ -197,7 +196,6 @@ spark
 sphinx-doc
 spidermonkey
 stow
-streamlink
 subversion
 swiftformat
 swig
@@ -231,7 +229,6 @@ wget
 wxmaxima
 xdot
 xh
-xsimd
 yank
 yapf
 youtube-dl
