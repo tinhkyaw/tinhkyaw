@@ -124,6 +124,7 @@ typed-ast
 unidecode
 virtualenvwrapper
 vizro
+websocket-client
 whichcraft
 xgboost
 xmltodict
