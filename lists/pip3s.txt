@@ -11,6 +11,7 @@ borb
 bottle
 cached-property
 cachy
+cchardet
 celery
 cement
 click-completion
