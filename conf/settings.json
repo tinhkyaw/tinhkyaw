@@ -31,7 +31,7 @@
   "cmake.ignoreCMakeListsMissing": true,
   "cmake.showOptionsMovedNotification": false,
   "code-runner.enableAppInsights": false,
-  "codeQL.cli.executablePath": "${env:HOMEBREW_PREFIX}/bin/codeql",
+  "codeQL.cli.executablePath": "/Users/tin/.brew/bin/codeql",
   "codeQL.telemetry.enableTelemetry": false,
   "csharp.suppressDotnetInstallWarning": true,
   "debug.terminal.clearBeforeReusing": true,
