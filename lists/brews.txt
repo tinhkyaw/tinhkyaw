@@ -64,7 +64,6 @@ fx
 fzy
 gawk
 geeqie
-geoip
 gh
 ghi
 git
