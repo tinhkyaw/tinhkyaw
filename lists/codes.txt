@@ -47,7 +47,6 @@ formulahendry.auto-rename-tag
 foxundermoon.shell-format
 fwcd.kotlin
 Gimly81.matlab
-GitHub.copilot-labs
 GitHub.vscode-codeql
 github.vscode-github-actions
 GitHub.vscode-pull-request-github
