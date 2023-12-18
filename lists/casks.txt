@@ -68,7 +68,6 @@ bitwarden
 blender
 blender-benchmark
 blockbench
-bloomrpc
 bluefish
 bluetility
 bonjeff
@@ -182,7 +181,6 @@ edfbrowser
 elan
 electerm
 electron
-electron-api-demos
 electron-fiddle
 eme
 emojipedia
@@ -390,7 +388,6 @@ keystore-explorer
 kicad
 kid3
 kieler
-kindle
 kindle-comic-converter
 kindle-comic-creator
 kindle-previewer
