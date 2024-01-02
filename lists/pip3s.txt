@@ -19,6 +19,7 @@ clikit
 columnq-cli
 commonmark
 convertdate
+cursor
 cython
 dask
 ddt

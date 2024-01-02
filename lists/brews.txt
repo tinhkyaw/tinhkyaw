@@ -16,6 +16,7 @@ aws-shell
 awscli
 bat
 bazel
+berkeley-db
 binutils
 bottom
 brimdata/tap/zed

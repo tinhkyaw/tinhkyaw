@@ -411,7 +411,6 @@ lapce
 latest
 latexdraw
 latexit
-laverna
 lazarus
 lazpaint
 lazy
@@ -672,7 +671,6 @@ qlstephen
 qlswift
 qlvideo
 qmoji
-qnapi
 qownnotes
 qr-journal
 qth

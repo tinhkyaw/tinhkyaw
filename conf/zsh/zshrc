@@ -15,6 +15,7 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   export HISTORY_SUBSTRING_SEARCH_ENSURE_UNIQUE=true
 fi
 fi
+ulimit -n unlimited
 # YADR
 # https://github.com/skwp/dotfiles
 if [[ -d ~/.yadr ]]; then
