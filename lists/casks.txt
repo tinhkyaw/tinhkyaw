@@ -350,6 +350,7 @@ jalview
 jamovi
 jamulus
 jasp
+jaspersoft-studio
 jbrowse
 jclasslib-bytecode-viewer
 jcryptool
