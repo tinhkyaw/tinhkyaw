@@ -67,7 +67,7 @@ gensim|\
 smart-open\
 "
 if (( !${+commands[pipdeptree]} )); then
-  "${HOMEBREW_PREFIX}"/bin/pip3 install pipdeptree
+  pip3 install pipdeptree
 fi
 p=$(
   "${HOMEBREW_PREFIX}"/bin/pipdeptree --json-tree |
@@ -95,7 +95,7 @@ q=$(
   gsed -e 's/.conda\|.tar.bz2//g' |
   sort -u) \
   >"${SNAPSHOT_DIR}/conda${SUFFIX}.txt"
-("${HOMEBREW_PREFIX}"/bin/conda list -n base --explicit |
+(conda list -n base --explicit |
   grep -v '^[#@]' |
   xargs -I {} basename {} |
   gsed -e 's/.conda\|.tar.bz2//g' |
