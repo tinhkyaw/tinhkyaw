@@ -145,7 +145,6 @@ deeper
 deepstream
 defold
 deluge
-dendroscope
 denemo
 depthmapx
 detectx-swift
@@ -426,7 +425,6 @@ librepcb
 librewolf
 licecap
 lidarr
-lighttable
 linearmouse
 liteide
 little-navmap
