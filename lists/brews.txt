@@ -43,6 +43,7 @@ dateutils
 deno
 diff-so-fancy
 direnv
+dive
 dprint
 duti
 dvc
