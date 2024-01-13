@@ -167,7 +167,6 @@ scalameta.metals
 shd101wyy.markdown-preview-enhanced
 SimonSiefke.svg-preview
 sleistner.vscode-fileutils
-snooty.snooty
 spmeesseman.vscode-taskexplorer
 spywhere.guides
 stylelint.vscode-stylelint
