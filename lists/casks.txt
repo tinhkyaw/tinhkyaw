@@ -539,7 +539,6 @@ nimble-commander
 nimblenote
 nisus-thesaurus
 nitroshare
-nocturn
 nodebox
 nosql-workbench
 notable
