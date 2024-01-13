@@ -23,7 +23,6 @@
   "application.shellEnvironmentResolutionTimeout": 120,
   "arduino.useArduinoCli": true,
   "aws.telemetry": false,
-  "bazel.buildifierPath": "/Users/tin/.brew/bin/buildifier",
   "carbon.fontFamily": "Source Code Pro",
   "cloudcode.autoDependencies": "off",
   "cloudcode.enableTelemetry": false,
@@ -35,8 +34,6 @@
   "codeQL.telemetry.enableTelemetry": false,
   "csharp.suppressDotnetInstallWarning": true,
   "debug.terminal.clearBeforeReusing": true,
-  "docker-explorer.enableTelemetry": false,
-  "docsYaml.telemetry.enableTelemetry": false,
   "dotnetAcquisitionExtension.enableTelemetry": false,
   "editor.acceptSuggestionOnEnter": "on",
   "editor.formatOnSave": true,
@@ -75,15 +72,6 @@
   "go.toolsManagement.autoUpdate": true,
   "guides.sendUsagesAndStats": false,
   "makefile.extensionOutputFolder": "./.vscode",
-  "markdownlint.config": {
-    "MD025": {
-      "front_matter_title": ""
-    },
-    "MD028": false
-  },
-  "markdownlint.customRules": [
-    "{docsmsft.docs-linting}/markdownlint-custom-rules/rules.js"
-  ],
   "matlab.lintOnSave": false,
   "metals.javaHome": "/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home",
   "notebook.cellToolbarLocation": {
@@ -105,7 +93,6 @@
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "textmarker.enableTelemetry": false,
-  "trunk.trunkGrayOutNonBlockingIssues": false,
   "vs-kubernetes": {
     "helm-path": "${env:HOMEBREW_PREFIX}/bin/helm",
     "kubectl-path": "${env:HOMEBREW_PREFIX}/bin/kubectl",
