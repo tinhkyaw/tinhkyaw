@@ -544,6 +544,7 @@ nosql-workbench
 notable
 notational-velocity
 notion
+notion-calendar
 notion-enhanced
 noto
 notunes
