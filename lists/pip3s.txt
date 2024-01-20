@@ -53,6 +53,7 @@ js-regex
 jsonrpcclient
 jsonrpcserver
 jsonschema-spec
+jwt
 keras-preprocessing
 lightgbm
 line-profiler
