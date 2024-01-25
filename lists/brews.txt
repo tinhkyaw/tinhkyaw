@@ -159,7 +159,6 @@ psgrep
 pssh
 puzzles
 pycodestyle
-pydocstyle
 pyenv
 pylint
 pyoxidizer

@@ -20,6 +20,7 @@ commonmark
 convertdate
 cursor
 cython
+dash-daq
 dask
 ddt
 django-environ
@@ -122,6 +123,7 @@ tldextract
 tokenize-rt
 torchaudio
 torchvision
+tornado
 twine
 typed-ast
 unidecode
