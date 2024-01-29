@@ -706,7 +706,6 @@ recaf
 receiptquicklook
 recents
 rectangle
-red-eye
 redisinsight
 reikey
 rember
