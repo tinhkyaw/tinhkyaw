@@ -10,6 +10,7 @@ borb
 bottle
 cached-property
 cachy
+catboost
 cchardet
 celery
 cement
@@ -105,13 +106,13 @@ rope
 rstcheck
 s3fs
 safety
-scikit-learn
 seaborn
 setuptools-scm
 simple-salesforce
 simplegeneric
 slack-bolt
 snooty-lextudio
+snorkel
 solana
 sphinx-rtd-theme
 sqlfluff
