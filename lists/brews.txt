@@ -91,6 +91,7 @@ gum
 hbase
 helm
 hr
+http-prompt
 httpie
 hub
 hugo
