@@ -112,6 +112,7 @@ cocoaspell
 codelite
 codeql
 cog
+compositor
 connectmenow
 convert3dgui
 copyq

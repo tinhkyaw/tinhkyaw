@@ -6,11 +6,6 @@ GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 cd "${WD}" || exit
 mkdir -p "${HOME}/.ssh"
 cp "${GIT_ROOT_DIR}/conf/ssh_config" "${HOME}/.ssh/config"
-if [[ ! -d "${HOME}/.bash-my-aws" ]]; then
-  git clone https://github.com/bash-my-aws/bash-my-aws.git \
-    "${BMA_HOME:-$HOME/.bash-my-aws}"
-  mr register "${HOME}/.bash-my-aws"
-fi
 GHUC='https://raw.githubusercontent.com'
 if [[ ! -d "${HOME}/.yadr" ]]; then
   sh -c \
@@ -40,9 +35,6 @@ if [[ ! -d "${HOME}/.yadr" ]]; then
   done
   (cd "${ZDOTDIR:-$HOME}/.zprezto/modules/history-substring-search/external" \
   && git checkout master)
-  COMPLETION_DOCKER="${GHUC}/docker/cli/master/contrib/completion/zsh/_docker"
-  curl -sSL "${COMPLETION_DOCKER}" \
-    >"${ZDOTDIR:-$HOME}/.zprezto/modules/completion/external/src/_docker"
 fi
 mkdir -p "${HOME}/.config/git/"
 ln -sf "${GIT_ROOT_DIR}/conf/git/gitattributes" \

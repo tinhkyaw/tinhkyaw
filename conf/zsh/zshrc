@@ -169,7 +169,7 @@ if (( $+commands[brew] )); then
   export LDFLAGS
   export HOMEBREW_CASK_OPTS="--appdir=/Applications"
   export BYOBU_PREFIX="${HOMEBREW_PREFIX}"
-  fpath=(${HOMEBREW_PREFIX}/share/zsh/site-functions $fpath)
+  fpath=(${HOMEBREW_PREFIX}/share/zsh/site-functions ${HOMEBREW_PREFIX}/share/zsh-completions/src $fpath)
   autoload -Uz compinit && compinit
 fi
 # doomemacs
@@ -181,15 +181,6 @@ fi
 # https://www.docker.com/products/docker-desktop
 if [[ -d "${HOME}/.docker/bin" ]]; then
   path+=${HOME}/.docker/bin
-fi
-# Bash-my-AWS
-# https://github.com/bash-my-aws/bash-my-aws
-if [[ -d "${BMA_HOME:-$HOME}/.bash-my-aws" ]]; then
-  path+=${BMA_HOME:-$HOME/.bash-my-aws}/bin
-  source ${BMA_HOME:-$HOME/.bash-my-aws}/aliases
-  autoload -U +X compinit && compinit
-  autoload -U +X bashcompinit && bashcompinit
-  source ${BMA_HOME:-$HOME/.bash-my-aws}/bash_completion.sh
 fi
 if [[ -f "${HOME}/bin/get-cli-sudo-pass.zsh" ]]; then
   export SUDO_ASKPASS=${HOME}/bin/get-cli-sudo-pass.zsh

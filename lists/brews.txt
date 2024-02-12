@@ -32,6 +32,7 @@ cmocka
 cocoapods
 colima
 colordiff
+conda-zsh-completion
 cookiecutter
 cromwell
 csshx
@@ -44,6 +45,7 @@ deno
 diff-so-fancy
 direnv
 dive
+docker-completion
 dprint
 duti
 dvc
@@ -82,6 +84,7 @@ gopass
 gopls
 gops
 gradle
+gradle-completion
 grc
 grep
 groff
@@ -211,6 +214,7 @@ thefuck
 tidy-html5
 tig
 tldr
+tmuxinator
 tokyo-cabinet
 tox
 transmission-cli
@@ -241,4 +245,5 @@ zopfli
 zoxide
 zsh
 zsh-autosuggestions
+zsh-completions
 zsh-syntax-highlighting
