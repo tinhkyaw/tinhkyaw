@@ -102,6 +102,7 @@ cinderella
 cinebench
 circuitjs1
 cirrus
+clickhouse
 clipgrab
 clix
 cljstyle

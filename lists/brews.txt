@@ -213,6 +213,7 @@ the_silver_searcher
 thefuck
 tidy-html5
 tig
+timeplus-io/timeplus/proton
 tldr
 tmuxinator
 tokyo-cabinet
