@@ -912,7 +912,6 @@ time-lapse-assembler
 time-to-leave
 timelane
 timemachineeditor
-timestamp
 tiny-player
 tla-plus-toolbox
 tnefs-enough
