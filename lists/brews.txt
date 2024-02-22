@@ -167,7 +167,6 @@ pyenv
 pylint
 pyoxidizer
 pyqt
-python-attrs
 python-build
 python-filelock
 python-pathspec
