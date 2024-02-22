@@ -121,7 +121,6 @@ coqide
 coteditor
 couchbase-server-community
 cr
-cron
 crunch
 cubicsdr
 customshortcuts
