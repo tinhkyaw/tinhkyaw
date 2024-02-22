@@ -167,7 +167,10 @@ pyenv
 pylint
 pyoxidizer
 pyqt
+python-attrs
 python-build
+python-filelock
+python-pathspec
 qcachegrind
 r
 railwaycat/emacsmacport/emacs-mac
