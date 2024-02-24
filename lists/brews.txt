@@ -108,6 +108,7 @@ jq
 jupyterlab
 kakoune
 kind
+kiota
 kops
 kotlin
 krew
