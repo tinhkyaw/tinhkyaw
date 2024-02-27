@@ -101,12 +101,14 @@ hugo
 hyperfine
 icdiff
 igv
+isort
 jenv
 jj
 jmeter
 jq
 jupyterlab
 kakoune
+keyring
 kind
 kiota
 kops
