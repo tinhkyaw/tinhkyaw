@@ -33,6 +33,7 @@ CASKS_TO_IGNORE="\
 ^corretto\
 |krisp\
 |lastpass\
+|microsoft-teams\
 |tunnelblick\
 |^zoom\
 "

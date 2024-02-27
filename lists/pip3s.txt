@@ -129,7 +129,6 @@ tornado
 twine
 typed-ast
 unidecode
-virtualenvwrapper
 vizro
 websocket-client
 whichcraft
