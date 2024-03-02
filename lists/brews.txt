@@ -167,12 +167,16 @@ pssh
 puzzles
 pycodestyle
 pyenv
+pygit2
 pylint
 pyoxidizer
 pyqt
 python-build
 python-filelock
+python-lxml
 python-pathspec
+python-pyparsing
+python-pytz
 qcachegrind
 r
 railwaycat/emacsmacport/emacs-mac
