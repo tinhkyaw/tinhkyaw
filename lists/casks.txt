@@ -261,6 +261,7 @@ gimp
 gisto
 git-it
 gitahead
+gitbutler
 gitfiend
 github
 gitter
