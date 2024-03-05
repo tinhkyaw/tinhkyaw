@@ -172,7 +172,6 @@ pylint
 pyoxidizer
 pyqt
 python-build
-python-filelock
 python-lxml
 python-pathspec
 python-pyparsing
