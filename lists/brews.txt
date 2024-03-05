@@ -101,6 +101,7 @@ hugo
 hyperfine
 icdiff
 igv
+ipython
 isort
 jenv
 jj
@@ -172,10 +173,14 @@ pylint
 pyoxidizer
 pyqt
 python-build
+python-dateutil
+python-jinja
+python-lsp-server
 python-lxml
 python-pathspec
 python-pyparsing
 python-pytz
+python-requests
 qcachegrind
 r
 railwaycat/emacsmacport/emacs-mac
