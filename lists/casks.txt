@@ -1047,7 +1047,6 @@ yippy
 youtube-downloader
 youtube-to-mp3
 yt-music
-ytmdesktop-youtube-music
 yuna
 zap
 zenmap
