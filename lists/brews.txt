@@ -24,7 +24,6 @@ brimdata/tap/zq
 buildifier
 byobu
 carthage
-certifi
 chezmoi
 clipboard
 cloudflare-wrangler2
