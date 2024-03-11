@@ -35,6 +35,7 @@ colordiff
 conda-zsh-completion
 cookiecutter
 cromwell
+cryptography
 csshx
 ctags
 curl
@@ -174,13 +175,14 @@ pyoxidizer
 pyqt
 python-build
 python-dateutil
-python-jinja
 python-lsp-server
 python-lxml
 python-pathspec
 python-pyparsing
 python-pytz
 python-requests
+python-typing-extensions
+pyyaml
 qcachegrind
 r
 railwaycat/emacsmacport/emacs-mac
@@ -235,6 +237,7 @@ transmission-cli
 trash
 tree
 unison
+uvicorn
 uwsgi
 v2ray
 v8
