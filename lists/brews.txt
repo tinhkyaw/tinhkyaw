@@ -35,7 +35,6 @@ colordiff
 conda-zsh-completion
 cookiecutter
 cromwell
-cryptography
 csshx
 ctags
 curl
@@ -68,6 +67,7 @@ fpc
 fx
 fzy
 gawk
+geckodriver
 geeqie
 gh
 ghi
@@ -201,6 +201,7 @@ rustup-init
 sbt
 scala
 scipy
+scrapy
 screen
 serverless
 shellcheck
