@@ -181,6 +181,7 @@ python-pathspec
 python-pyparsing
 python-pytz
 python-requests
+python-tabulate
 python-typing-extensions
 pyyaml
 qcachegrind

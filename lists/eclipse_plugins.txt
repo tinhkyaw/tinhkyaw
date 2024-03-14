@@ -1,5 +1,6 @@
 Asciidoc Editor
 Avroclipse
+Bazel
 Buildship Gradle Integration
 Checkstyle
 Cucumber
