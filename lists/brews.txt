@@ -172,12 +172,11 @@ pyenv
 pygit2
 pylint
 pyoxidizer
-pyqt
+pyqt@5
 python-build
 python-dateutil
 python-lsp-server
 python-lxml
-python-pathspec
 python-pyparsing
 python-pytz
 python-tabulate
