@@ -79,6 +79,7 @@ jakob101.relativepath
 james-yu.latex-workshop
 jasonlhy.hungry-delete
 jasonnutter.search-node-modules
+jebbs.plantuml
 jeff-hykin.better-cpp-syntax
 joeberria.statusbarerror
 johnpapa.vscode-peacock
