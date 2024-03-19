@@ -48,7 +48,6 @@ asset-catalog-tinkerer
 au-lab
 audacity
 aural
-authy
 avidemux
 aws-vault
 balance-lock
