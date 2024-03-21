@@ -99,7 +99,6 @@ pypdf2
 pyre-check
 pyspark
 python-editor
-pywatchman
 requirements-parser
 retry
 rope

@@ -43,6 +43,7 @@ datasette
 dateutils
 deno
 diff-so-fancy
+difftastic
 direnv
 dive
 docker-completion
@@ -57,7 +58,6 @@ erlang
 eza
 fabric
 fades
-fbthrift
 fd
 findutils
 firebase-cli
@@ -153,6 +153,7 @@ nim
 ninja
 nmap
 octave
+oxipng
 p7zip
 parquet-cli
 pdfgrep
@@ -162,6 +163,7 @@ pidof
 pinentry-mac
 pipenv
 pipx
+pngquant
 poetry
 postgresql@14
 psgrep

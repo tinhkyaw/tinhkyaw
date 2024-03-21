@@ -114,6 +114,7 @@ ms-azuretools.vscode-docker
 ms-devlabs.extension-manifest-editor
 ms-dotnettools.blazorwasm-companion
 ms-dotnettools.vscode-dotnet-pack
+ms-dotnettools.vscodeintellicode-csharp
 ms-edgedevtools.vscode-edge-devtools
 ms-graph.kiota
 ms-inkling.ms-inkling
