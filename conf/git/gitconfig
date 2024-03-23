@@ -155,7 +155,7 @@
   cmd = opendiff \"$LOCAL\" \"$REMOTE\"
   trustExitCode = true
 [diff "spaceman-diff"]
-  command = /path/to/spaceman-diff
+  command = spacemandiff
 [filter "hawser"]
   clean = git hawser clean %f
   smudge = git hawser smudge %f
