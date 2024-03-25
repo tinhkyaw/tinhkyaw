@@ -139,6 +139,7 @@ mercurial
 miller
 minikube
 mkvtoolnix
+monolith
 moreutils
 mr
 mstch
@@ -179,6 +180,7 @@ python-build
 python-dateutil
 python-lsp-server
 python-lxml
+python-psutil
 python-pyparsing
 python-pytz
 python-tabulate
