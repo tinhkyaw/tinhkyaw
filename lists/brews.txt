@@ -18,6 +18,7 @@ bat
 bazel
 berkeley-db
 binutils
+black
 bottom
 brimdata/tap/zed
 brimdata/tap/zq
@@ -143,6 +144,7 @@ monolith
 moreutils
 mr
 mstch
+mypy
 navi
 ncdu
 neo4j
@@ -170,21 +172,18 @@ postgresql@14
 psgrep
 pssh
 puzzles
+pybind11
 pycodestyle
 pyenv
 pygit2
 pylint
 pyoxidizer
 pyqt@5
+python-argcomplete
 python-build
-python-dateutil
 python-lsp-server
 python-lxml
-python-psutil
-python-pyparsing
-python-pytz
 python-tabulate
-python-typing-extensions
 pyyaml
 qcachegrind
 r
@@ -200,6 +199,7 @@ ripgrep
 rocksdb
 ronn
 rsync
+ruff
 rustup-init
 sbt
 scala
@@ -225,7 +225,6 @@ swig
 syncthing
 tag
 teleport
-terraform
 tflint
 the_platinum_searcher
 the_silver_searcher

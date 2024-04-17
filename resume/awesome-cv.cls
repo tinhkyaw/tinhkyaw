@@ -57,7 +57,7 @@
 \RequirePackage{ragged2e}
 % Needed to configure page layout
 \RequirePackage{geometry}
-% Needed to make header & footer effeciently
+% Needed to make header & footer efficiently
 \RequirePackage{lastpage}
 \RequirePackage{fancyhdr}
 % Needed to manage colors
@@ -66,6 +66,8 @@
 \RequirePackage{ifxetex}
 % Needed to use \if-\then-\else statement
 \RequirePackage{xifthen}
+% Needed to strip chars from telephone number
+\RequirePackage{xstring}
 % Needed to use a toolbox of programming tools
 \RequirePackage{etoolbox}
 % Needed to change line spacing in specific environment
@@ -268,7 +270,16 @@
 
 % Defines writer's mobile (optional)
 % Usage: \mobile{<mobile number>}
-\newcommand*{\mobile}[1]{\def\@mobile{#1}}
+\newcommand*{\mobile}[1]
+{
+  \def\@mobile{#1}
+  \def\@teluri{tel:\@mobile}
+  % Strip unwanted characters
+  \StrDel{\@teluri}{ }[\@teluri]%
+  \StrDel{\@teluri}{-}[\@teluri]%
+  \StrDel{\@teluri}{(}[\@teluri]%
+  \StrDel{\@teluri}{)}[\@teluri]%
+}
 
 % Defines writer's email (optional)
 % Usage: \email{<email address>}
@@ -339,6 +350,10 @@
 % Defines writer's kaggle (optional)
 % Usage: \kaggle{<kaggle handle>}
 \newcommand*{\kaggle}[1]{\def\@kaggle{#1}}
+
+% Defines writer's Hackerrank (optional)
+% Usage: \hackerrank{<Hackerrank profile name>}
+\newcommand*{\hackerrank}[1]{\def\@hackerrank{#1}}
 
 % Defines writer's google scholar profile (optional)
 % Usage: \googlescholar{<googlescholar userid>}{<googlescholar username>}
@@ -475,7 +490,7 @@
       \ifthenelse{\isundefined{\@mobile}}%
         {}%
         {%
-          \href{tel:\@mobile}{\faMobile\acvHeaderIconSep\@mobile}%
+          \href{\@teluri}{\faMobile\acvHeaderIconSep\@mobile}%
           \setbool{isstart}{false}%
         }%
       \ifthenelse{\isundefined{\@email}}%
@@ -580,6 +595,12 @@
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
           \href{https://kaggle.com/\@kaggle}{\faKaggle\acvHeaderIconSep\@kaggle}%
+        }%
+      \ifthenelse{\isundefined{\@hackerrank}}%
+        {}%
+        {%
+          \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
+          \href{https://www.hackerrank.com/\@hackerrank}{\faHackerrank\acvHeaderIconSep\@hackerrank}%
         }%
       \ifthenelse{\isundefined{\@googlescholarid}}%
         {}%

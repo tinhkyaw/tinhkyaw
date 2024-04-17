@@ -31,6 +31,7 @@ android-platform-tools
 android-studio
 angry-ip-scanner
 anki
+ankiapp
 ankiapp-anki
 another-redis-desktop-manager
 antconc
@@ -72,7 +73,6 @@ bluefish
 bluetility
 bonjeff
 boop
-brackets
 brave-browser
 breaktimer
 brewlet
@@ -541,6 +541,7 @@ nimblenote
 nisus-thesaurus
 nitroshare
 nodebox
+nordvpn
 nosql-workbench
 notable
 notational-velocity
@@ -831,6 +832,7 @@ startninja
 stats
 steam
 stellarium
+stolendata-mpv
 storyboarder
 strawberry
 streamlink-twitch-gui
