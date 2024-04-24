@@ -182,6 +182,11 @@ fi
 if [[ -d "${HOME}/.docker/bin" ]]; then
   path+=${HOME}/.docker/bin
 fi
+# pipx
+# https://github.com/pypa/pipx
+if [[ -d "${HOME}/.local/bin" ]]; then
+  path+=${HOME}/.local/bin
+fi
 if [[ -f "${HOME}/bin/get-cli-sudo-pass.zsh" ]]; then
   export SUDO_ASKPASS=${HOME}/bin/get-cli-sudo-pass.zsh
 fi

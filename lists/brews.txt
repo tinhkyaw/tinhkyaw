@@ -156,6 +156,7 @@ nim
 ninja
 nmap
 octave
+orc
 oxipng
 p7zip
 parquet-cli
