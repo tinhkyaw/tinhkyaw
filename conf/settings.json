@@ -71,6 +71,23 @@
   "gitlens.telemetry.enabled": false,
   "go.toolsManagement.autoUpdate": true,
   "guides.sendUsagesAndStats": false,
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "xelatex",
+      "tools": [
+        "xelatex"
+      ]
+    }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "args": [
+        "--output-directory=."
+      ],
+      "command": "xelatex",
+      "name": "xelatex"
+    }
+  ],
   "makefile.extensionOutputFolder": "./.vscode",
   "matlab.lintOnSave": false,
   "metals.javaHome": "/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home",
