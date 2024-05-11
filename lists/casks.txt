@@ -32,7 +32,6 @@ android-studio
 angry-ip-scanner
 anki
 ankiapp
-ankiapp-anki
 another-redis-desktop-manager
 antconc
 apache-couchdb
@@ -169,8 +168,8 @@ doughnut
 doxygen
 drawbot
 drawio
-dropbox-beta
 dropbox-capture
+dropbox@beta
 duckietv
 dupeguru
 dust3d
@@ -298,6 +297,7 @@ greenfoot
 gretl
 gridtracker
 grisbi
+gstreamer-runtime
 gtkwave
 hakuneko
 hammerspoon
@@ -510,7 +510,6 @@ moonlight
 mounty
 mp3gain-express
 mps
-mpv
 mqtt-explorer
 mu-editor
 mucommander
@@ -769,7 +768,6 @@ silicon-info
 silnite
 sim-daltonism
 simple-comic
-simplefloatingclock
 simplenote
 simplistic
 simsim
@@ -880,8 +878,8 @@ teensy
 telegram
 telegram-desktop
 temurin
-temurin11
-temurin8
+temurin@11
+temurin@8
 tenor
 terminology
 tev
@@ -931,7 +929,6 @@ tradingview
 transmission
 transmission-remote-gui
 transnomino
-trash-it
 treesheets
 tribler
 trilium-notes
@@ -993,7 +990,6 @@ vitalsigns
 vivaldi
 vlc
 vnote
-voicemac
 vorta
 voxql
 vv

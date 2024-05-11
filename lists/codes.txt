@@ -183,6 +183,7 @@ sleistner.vscode-fileutils
 spmeesseman.vscode-taskexplorer
 spywhere.guides
 stylelint.vscode-stylelint
+swyddfa.esbonio
 syler.sass-indented
 tamasfe.even-better-toml
 tcwalther.cython
