@@ -149,6 +149,7 @@ ms-vscode.vscode-github-issue-notebooks
 ms-vscode.vscode-js-profile-flame
 ms-vscode.vscode-markdown-notebook
 ms-vscode.vscode-marketplace-extension-browser
+ms-vscode.wasm-dwarf-debugging
 mtxr.sqltools
 mushan.vscode-paste-image
 naumovs.color-highlight

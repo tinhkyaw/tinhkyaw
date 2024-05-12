@@ -160,6 +160,7 @@ perl
 pgsync
 pidof
 pinentry-mac
+pipdeptree
 pipenv
 pipx
 pngquant
