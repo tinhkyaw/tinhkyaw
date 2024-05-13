@@ -20,6 +20,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
+  "amazonQ.telemetry": false,
   "application.shellEnvironmentResolutionTimeout": 120,
   "arduino.useArduinoCli": true,
   "aws.telemetry": false,

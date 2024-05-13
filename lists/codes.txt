@@ -2,6 +2,7 @@ aaron-bond.better-comments
 adpyke.vscode-sql-formatter
 albert.tabout
 alefragnani.bookmarks
+amazonwebservices.amazon-q-vscode
 amazonwebservices.aws-toolkit-vscode
 anjali.clipboard-history
 bazelbuild.vscode-bazel
