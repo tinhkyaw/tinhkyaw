@@ -1,4 +1,5 @@
 buo/cask-upgrade
+hashicorp/tap
 homebrew/aliases
 homebrew/autoupdate
 homebrew/bundle
