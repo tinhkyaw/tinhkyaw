@@ -108,7 +108,6 @@ cljstyle
 clocker
 cloudcompare
 cocoarestclient
-cocoaspell
 codelite
 codeql
 cog
@@ -263,7 +262,6 @@ gitahead
 gitbutler
 gitfiend
 github
-gitter
 gitup
 gltfquicklook
 gluemotion
