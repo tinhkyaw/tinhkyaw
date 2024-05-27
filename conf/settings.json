@@ -61,6 +61,7 @@
   },
   "git.autofetch": true,
   "git.path": "/Users/tin/.brew/bin/git",
+  "github.copilot.editor.enableAutoCompletions": true,
   "gitlens.advanced.messages": {
     "suppressCommitHasNoPreviousCommitWarning": false,
     "suppressCommitNotFoundWarning": false,

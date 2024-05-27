@@ -789,7 +789,6 @@ smcfancontrol
 smlnj
 smplayer
 snipaste
-snipy
 snowflake-snowsql
 soda-player
 solar2d
