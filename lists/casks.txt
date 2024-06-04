@@ -403,7 +403,6 @@ krita
 ksnip
 kstars
 kube-forwarder
-kubenav
 kui
 kvirc
 lapce
@@ -683,7 +682,6 @@ quicklook-pfm
 quicknfo
 quicksilver
 quickwords
-quiterss
 quodlibet
 qview
 qxmledit
