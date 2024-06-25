@@ -1,3 +1,5 @@
+node
+react
 acorn
 babel-eslint
 carbon-now-cli
@@ -6,8 +8,11 @@ dockly
 eslint
 jscs
 jshint
+next
 npm-check
 npm
 playwright
 pm2
+react-dom
+react
 typescript

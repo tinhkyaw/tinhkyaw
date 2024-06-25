@@ -55,7 +55,6 @@ balance-lock
 balenaetcher
 banksiagui
 barrier
-bbc-iplayer-downloads
 bdash
 bean
 beekeeper-studio
@@ -194,7 +193,6 @@ exifrenamer
 exist-db
 explorer
 extraterm
-falcon-sql-client
 fawkes
 fbreader
 fiji
@@ -997,7 +995,6 @@ waterfox
 waterfox-classic
 wavesurfer
 webots
-webplotdigitizer
 webpquicklook
 webtorrent
 webull

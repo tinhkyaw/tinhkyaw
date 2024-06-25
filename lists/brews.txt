@@ -49,7 +49,6 @@ dprint
 duti
 dvc
 ec2-ami-tools
-edencommon
 eksctl
 entr
 erlang
@@ -164,6 +163,7 @@ pipdeptree
 pipenv
 pipx
 pngquant
+pnpm
 poetry
 postgresql@14
 psgrep
@@ -239,6 +239,7 @@ vercel-cli
 vips
 virtualenvwrapper
 vivid
+watchman
 webkit2png
 wget
 wxmaxima
@@ -246,6 +247,7 @@ xdot
 xh
 yank
 yapf
+yarn
 yq
 z
 zlib
