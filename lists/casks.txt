@@ -316,7 +316,6 @@ icc
 icestudio
 iconizer
 iconset
-icq
 iglance
 iina
 ilspy
@@ -360,7 +359,6 @@ jgrasp
 joplin
 josm
 jt-bridge
-jtool2
 jubler
 julia
 jumpcut
@@ -751,7 +749,6 @@ showhiddenfiles
 showyedge
 shrinkit
 shutter-encoder
-sia-ui
 sigdigger
 sigil
 signal
@@ -767,9 +764,7 @@ simplistic
 simsim
 sioyek
 sitala
-skala-preview
 skim
-skitch
 skychart
 skype
 slack
@@ -929,7 +924,6 @@ triplecheese
 trolcommander
 tropy
 turbovnc-viewer
-tuxguitar
 tv-browser
 tvrenamer
 tweeten
@@ -974,7 +968,6 @@ vine-server
 virtualbox
 virtualbox-extension-pack
 visit
-visual
 visual-paradigm-ce
 visual-studio-code
 visualvm
@@ -1036,7 +1029,6 @@ yippy
 youtube-downloader
 youtube-to-mp3
 yt-music
-yuna
 zap
 zenmap
 zerobranestudio
