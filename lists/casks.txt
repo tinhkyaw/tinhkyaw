@@ -75,7 +75,6 @@ brave-browser
 breaktimer
 brewlet
 brewservicesmenubar
-brl-cad-mged
 bunch
 burn
 buttercup
@@ -83,7 +82,6 @@ caffeine
 calcservice
 calibre
 canva
-caption
 catch
 celestia
 cellprofiler
@@ -159,7 +157,6 @@ djv
 djview
 dmidiplayer
 docker
-dockstation
 dotnet-sdk
 double-commander
 doughnut
@@ -745,7 +742,6 @@ shiori
 shortcutdetective
 shotcut
 shottr
-showhiddenfiles
 showyedge
 shrinkit
 shutter-encoder
@@ -884,7 +880,6 @@ the-tagger
 the-unarchiver
 thetimemachinemechanic
 thinkorswim
-thonny-xxl
 thorium
 thumbsup
 thunderbird

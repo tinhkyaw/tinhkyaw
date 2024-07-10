@@ -151,6 +151,7 @@ nginx
 nim
 ninja
 octave
+openvino
 oxipng
 p7zip
 parquet-cli
@@ -193,6 +194,7 @@ ruff
 rustup-init
 sbt
 scala
+scalacenter/bloop/bloop
 scipy
 scrapy
 screen
