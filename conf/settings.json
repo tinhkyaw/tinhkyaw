@@ -106,6 +106,7 @@
   "restructuredtext.linter.rstcheck.executablePath": "${env:HOMEBREW_PREFIX}/bin/doc8",
   "sarif-viewer.connectToGithubCodeScanning": "off",
   "shellcheck.executablePath": "/Users/tin/.brew/bin/shellcheck",
+  "snowflake.connectionsConfigFile": "/Users/tin/.snowflake/connections.toml",
   "telemetry.telemetryLevel": "off",
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.fontFamily": "'MesloLGS NF'",

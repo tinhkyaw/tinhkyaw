@@ -46,6 +46,7 @@ formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 foxundermoon.shell-format
 fwcd.kotlin
+genaiscript.genaiscript-vscode
 gimly81.matlab
 github.copilot
 github.copilot-chat
@@ -112,7 +113,6 @@ mkxml.vscode-filesize
 mrmlnc.vscode-autoprefixer
 ms-1es.pull-request-quantifier
 ms-azuretools.vscode-docker
-ms-devlabs.extension-manifest-editor
 ms-dotnettools.blazorwasm-companion
 ms-dotnettools.vscode-dotnet-pack
 ms-dotnettools.vscodeintellicode-csharp
@@ -126,6 +126,7 @@ ms-kubernetes-tools.kind-vscode
 ms-kubernetes-tools.kubernetes-opa-vscode
 ms-ossdata.vscode-postgresql
 ms-playwright.playwright
+ms-pyright.pyright
 ms-python.autopep8
 ms-python.flake8
 ms-python.gather
@@ -145,6 +146,7 @@ ms-vscode.live-server
 ms-vscode.makefile-tools
 ms-vscode.mono-debug
 ms-vscode-remote.vscode-remote-extensionpack
+ms-vscode.vscode-diagnostic-tools
 ms-vscode.vscode-embedded-tools
 ms-vscode.vscode-github-issue-notebooks
 ms-vscode.vscode-js-profile-flame
@@ -196,7 +198,6 @@ tyriar.sort-lines
 visualstudioexptteam.vscodeintellicode
 visualstudioexptteam.vscodeintellicode-completions
 vsciot-vscode.vscode-arduino
-vscjava.vscode-gradle
 vscjava.vscode-java-pack
 vscjava.vscode-lombok
 vscode-icons-team.vscode-icons

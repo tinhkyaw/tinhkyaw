@@ -13,5 +13,6 @@
   "esbonio.sphinx.confDir": "",
   "files.watcherExclude": {
     "**/target": true
-  }
+  },
+  "makefile.configureOnOpen": false
 }

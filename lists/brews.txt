@@ -48,7 +48,6 @@ dive
 dprint
 duti
 dvc
-ec2-ami-tools
 eksctl
 entr
 erlang
@@ -181,7 +180,6 @@ r
 railwaycat/emacsmacport/emacs-mac
 rclone
 rcm
-rds-command-line-tools
 reattach-to-user-namespace
 redis
 rename
@@ -191,7 +189,7 @@ rocksdb
 ronn
 rsync
 ruff
-rustup-init
+rustup
 sbt
 scala
 scalacenter/bloop/bloop

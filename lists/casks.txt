@@ -100,7 +100,6 @@ circuitjs1
 cirrus
 clickhouse
 clipgrab
-clix
 cljstyle
 clocker
 cloudcompare
@@ -171,7 +170,6 @@ dust3d
 dvdstyler
 easyfind
 eclipse-platform
-edfbrowser
 elan
 electerm
 electron
@@ -215,7 +213,6 @@ font-source-code-pro
 font-source-code-pro-for-powerline
 fontforge
 fontgoggles
-fontplop
 forecast
 fpc-laz
 fpc-src-laz
@@ -229,7 +226,6 @@ freeplane
 freesurfer
 freetube
 frescobaldi
-fromscratch
 fsnotes
 fspy
 fstream
@@ -249,9 +245,7 @@ gephi
 get-iplayer-automator
 gfxcardstatus
 ghdl
-gifcapture
 gimp
-gisto
 git-it
 gitahead
 gitbutler
@@ -277,7 +271,6 @@ google-drive
 google-earth-pro
 google-trends
 google-web-designer
-gopass-ui
 gplates
 gpodder
 gpxsee
@@ -285,7 +278,6 @@ gqrx
 grads
 gramps
 grandperspective
-graphiql
 greenfoot
 gretl
 gridtracker
@@ -295,7 +287,6 @@ gtkwave
 hakuneko
 hammerspoon
 handbrake
-hdrmerge
 hex-fiend
 hiddenbar
 home-assistant
@@ -313,7 +304,6 @@ icc
 icestudio
 iconizer
 iconset
-iglance
 iina
 ilspy
 image2icon
@@ -328,7 +318,6 @@ inky
 intellij-idea-ce
 invesalius
 invisor-lite
-ipa-manager
 ipe
 ipepresenter
 iptvnator
@@ -389,13 +378,11 @@ klayout
 klogg
 knockknock
 knuff
-koa11y
 kodi
 koodo-reader
 krita
 ksnip
 kstars
-kube-forwarder
 kui
 kvirc
 lapce
@@ -404,7 +391,6 @@ latexdraw
 latexit
 lazarus
 lazpaint
-lazy
 leapp
 leela
 lens
@@ -440,7 +426,6 @@ lyx
 mac-mouse-fix
 maccpuid
 maccy
-macdependency
 macdown
 macgdbp
 macgesture
@@ -451,10 +436,8 @@ macsvg
 mactex
 mactracker
 magicavoxel
-magiccap
 maintenance
 makehuman
-manta
 manuskript
 marble
 mark-text
@@ -469,7 +452,6 @@ mdimagesizemdimporter
 media-converter
 mediaelch
 mediahuman-audio-converter
-memo
 menu-bar-splitter
 menumeters
 meshlab
@@ -508,7 +490,6 @@ museeks
 musescore
 musicbrainz-picard
 muzzle
-my-budget
 mysql-shell
 mysqlworkbench
 nally
@@ -527,11 +508,9 @@ night-owl
 nimble-commander
 nimblenote
 nisus-thesaurus
-nitroshare
 nodebox
 nordvpn
 nosql-workbench
-notable
 notational-velocity
 notion
 notion-calendar
@@ -543,7 +522,6 @@ nteract
 nuclear
 nulloy
 numi
-nvalt
 nvidia-geforce-now
 nwjs
 objectivesharpie
@@ -647,6 +625,7 @@ qgis
 qgroundcontrol
 ql-ansilove
 qladdict
+qlc+
 qlc-plus
 qlcolorcode
 qlcommonmark
@@ -679,7 +658,6 @@ quodlibet
 qview
 qxmledit
 r
-r-name
 racket
 radarr
 rar
@@ -697,7 +675,6 @@ recents
 rectangle
 redisinsight
 reikey
-rember
 remoteviewer
 renpy
 responsively
@@ -707,7 +684,6 @@ roaringapps
 routeconverter
 rq
 rstudio
-rsyncosx
 sabaki
 sabnzbd
 sage
@@ -739,7 +715,6 @@ sf-symbols
 shield
 shifty
 shiori
-shortcutdetective
 shotcut
 shottr
 showyedge
@@ -768,7 +743,6 @@ sleek
 slic3r
 slicer
 slidepilot
-slimbatterymonitor
 slimhud
 sloth
 smartreporter-free
@@ -864,7 +838,6 @@ telegram-desktop
 temurin
 temurin@11
 temurin@8
-tenor
 terminology
 tev
 tex-live-utility
@@ -890,11 +863,11 @@ tigervnc-viewer
 tikz-editor
 tikzit
 tiled
-time-lapse-assembler
 time-to-leave
 timelane
 timemachineeditor
 tiny-player
+tla+-toolbox
 tla-plus-toolbox
 tnefs-enough
 todometer
@@ -1013,6 +986,7 @@ xca
 xcodeclangformat
 xit
 xld
+xournal++
 xournal-plus-plus
 xpra
 xquartz
