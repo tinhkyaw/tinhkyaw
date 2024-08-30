@@ -626,7 +626,6 @@ qgroundcontrol
 ql-ansilove
 qladdict
 qlc+
-qlc-plus
 qlcolorcode
 qlcommonmark
 qldds
@@ -868,7 +867,6 @@ timelane
 timemachineeditor
 tiny-player
 tla+-toolbox
-tla-plus-toolbox
 tnefs-enough
 todometer
 todotxt
@@ -987,7 +985,6 @@ xcodeclangformat
 xit
 xld
 xournal++
-xournal-plus-plus
 xpra
 xquartz
 xrg
