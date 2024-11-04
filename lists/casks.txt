@@ -35,7 +35,6 @@ ankiapp
 another-redis-desktop-manager
 antconc
 apache-couchdb
-apk-icon-editor
 apparency
 appcleaner
 appflowy
@@ -109,12 +108,10 @@ codeql
 cog
 compositor
 connectmenow
-convert3dgui
 copyq
 coqide
 coteditor
 couchbase-server-community
-cr
 crunch
 cubicsdr
 customshortcuts
@@ -174,7 +171,6 @@ elan
 electerm
 electron
 electron-fiddle
-eme
 emojipedia
 energia
 enzymex
@@ -215,20 +211,17 @@ fontforge
 fontgoggles
 forecast
 fpc-laz
-fpc-src-laz
 freac
 free-ruler
 free42-binary
 free42-decimal
 freecad
-freemind
 freeplane
 freesurfer
 freetube
 frescobaldi
 fsnotes
 fspy
-fstream
 funter
 fuwari
 fvim
@@ -283,7 +276,6 @@ gretl
 gridtracker
 grisbi
 gstreamer-runtime
-gtkwave
 hakuneko
 hammerspoon
 handbrake
@@ -300,7 +292,6 @@ hydrus-network
 hyper
 ibabel
 ibored
-icc
 icestudio
 iconizer
 iconset
@@ -336,7 +327,6 @@ jbrowse
 jclasslib-bytecode-viewer
 jcryptool
 jd-gui
-jdiskreport
 jdk-mission-control
 jedit
 jellyfin
@@ -389,7 +379,6 @@ lapce
 latest
 latexdraw
 latexit
-lazarus
 lazpaint
 leapp
 leela
@@ -419,7 +408,6 @@ ltspice
 luminance-hdr
 lunasea
 lunastudio
-luxmark
 lynkeos
 lyricsx
 lyx
@@ -439,10 +427,8 @@ magicavoxel
 maintenance
 makehuman
 manuskript
-marble
 mark-text
 markdown-service-tools
-mars
 marta
 masscode
 massreplaceit
@@ -493,7 +479,6 @@ muzzle
 mysql-shell
 mysqlworkbench
 nally
-nasas-eyes
 nautilus
 ncar-ncl
 neo4j
@@ -503,7 +488,6 @@ netlogo
 netnewswire
 netron
 netxms-console
-nfov
 night-owl
 nimble-commander
 nimblenote
@@ -570,7 +554,6 @@ pd-l2ork
 pdfsam-basic
 pencil2d
 persepolis-download-manager
-pext
 pgadmin4
 phd2
 phew
@@ -582,7 +565,6 @@ pikopixel
 pine
 pingnoo
 pinta
-pixel-check
 pixelorama
 playonmac
 plotdigitizer
@@ -677,7 +659,6 @@ reikey
 remoteviewer
 renpy
 responsively
-rightzoom
 ripme
 roaringapps
 routeconverter
@@ -706,18 +687,15 @@ secure-pipes
 send-to-kindle
 sensiblesidebuttons
 sequel-ace
-sequential
 servo
 servpane
 session-manager-plugin
 sf-symbols
 shield
 shifty
-shiori
 shotcut
 shottr
 showyedge
-shrinkit
 shutter-encoder
 sigdigger
 sigil
@@ -739,7 +717,6 @@ skychart
 skype
 slack
 sleek
-slic3r
 slicer
 slidepilot
 slimhud
@@ -765,18 +742,14 @@ spacelauncher
 spaceman
 spaceradar
 sparkle
-sparkleshare
-speedcrunch
 spires
 splitshow
 spotter
 springtoolsuite
-spyder
 sql-tabs
 sqlectron
 sqlight
 sqlitestudio
-sqlworkbenchj
 squeak
 squidman
 squirrelsql
@@ -798,7 +771,6 @@ subethaedit
 subler
 sublercli
 subsurface
-subsync
 supercollider
 supermjograph
 superproductivity
@@ -846,7 +818,6 @@ texshop
 texstudio
 textadept
 textmate
-texts
 texworks
 the-tagger
 the-unarchiver
@@ -869,10 +840,8 @@ tiny-player
 tla+-toolbox
 tnefs-enough
 todometer
-todotxt
 todour
 toinane-colorpicker
-tomighty
 topcat
 topnotch
 tor-browser
@@ -887,7 +856,6 @@ treesheets
 tribler
 trilium-notes
 triplecheese
-trolcommander
 tropy
 turbovnc-viewer
 tv-browser
@@ -895,12 +863,9 @@ tvrenamer
 tweeten
 twine
 twobird
-tyke
-udig
 ukelele
 ultrastardeluxe
 unclack
-uncolored
 unetbootin
 unicodechecker
 uniflash
@@ -909,7 +874,6 @@ unipro-ugene
 universal-gcode-platform
 universal-media-server
 unpkg
-upm
 usage
 usbimager
 utm
@@ -973,7 +937,6 @@ wombat
 wordpresscom
 wordservice
 write
-writer
 wsjtx
 x-swiftformat
 x2goclient
@@ -990,7 +953,6 @@ xquartz
 xrg
 xscreensaver
 yacreader
-yemuzip
 yippy
 youtube-downloader
 youtube-to-mp3

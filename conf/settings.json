@@ -112,6 +112,7 @@
   "terminal.integrated.fontFamily": "'MesloLGS NF'",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.persistentSessionReviveProcess": "never",
+  "testExplorer.useNativeTesting": true,
   "textmarker.enableTelemetry": false,
   "vs-kubernetes": {
     "helm-path": "${env:HOMEBREW_PREFIX}/bin/helm",

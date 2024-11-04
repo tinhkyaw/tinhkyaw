@@ -4,6 +4,7 @@ acorn
 babel-eslint
 carbon-now-cli
 cordova
+corepack
 dockly
 eslint
 jscs
