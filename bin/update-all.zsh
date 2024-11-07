@@ -34,7 +34,7 @@ conda update -n base --all -y
 gcloud components update -q
 doom env
 doom -! sync
-# doom -! upgrade
+doom -! upgrade
 color=blue
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   print -P "%F{${color}}Updating ${HOME}/.zprezto%f"
@@ -42,7 +42,7 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   zprezto-update
 fi
 cd "${HOME}" || exit
-mr update
+mr -j5 update
 update-gi.zsh
 color=blue
 print -P "%F{${color}}Updating cpan packages%f"
