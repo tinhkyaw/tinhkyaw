@@ -16,6 +16,7 @@ Gradle
 Helm
 Homebrew
 Hugo
+Intellij+all
 JEnv
 JMeter
 JabRef
@@ -31,15 +32,18 @@ Maven
 Mercurial
 Metals
 NetBeans
+NextJS
 Node
 Nohup
 Objective-C
 OpenCV
+PyCharm+all
 Python
 R
 Redis
 Ruby
 Rust
+rust-analyzer
 SBT
 SSH
 SVN
@@ -56,6 +60,7 @@ TeX
 Terraform
 Vagrant
 Valgrind
+Vercel
 Vim
 VirtualEnv
 VisualStudioCode

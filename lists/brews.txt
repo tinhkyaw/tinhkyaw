@@ -216,7 +216,6 @@ syncthing
 tag
 teleport
 tflint
-the_platinum_searcher
 the_silver_searcher
 thefuck
 tidy-html5

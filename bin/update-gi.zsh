@@ -17,4 +17,5 @@ curl -sLw "\n" \
     s/*\/Makefile/# &/;
     s/\/public/**&/;' \
     >"${GIT_ROOT_DIR}"/.gitignore
+echo '**/.genaiscript/**' >>"${GIT_ROOT_DIR}"/.gitignore
 cd "${WD}" || exit

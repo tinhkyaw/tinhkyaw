@@ -89,7 +89,6 @@ cerebro
 chai
 chalk
 chatterino
-cheatsheet
 chessx
 chromedriver
 cinco
@@ -114,6 +113,7 @@ coteditor
 couchbase-server-community
 crunch
 cubicsdr
+cursor
 customshortcuts
 cutter
 cyberduck
@@ -273,7 +273,7 @@ gramps
 grandperspective
 greenfoot
 gretl
-gridtracker
+gridtracker2
 grisbi
 gstreamer-runtime
 hakuneko
@@ -286,7 +286,6 @@ horos
 hp-prime
 http-toolkit
 httpie
-hugin
 hydrogen
 hydrus-network
 hyper
@@ -434,7 +433,6 @@ masscode
 massreplaceit
 mathcha-notebook
 mbed-studio
-mdimagesizemdimporter
 media-converter
 mediaelch
 mediahuman-audio-converter
@@ -612,7 +610,6 @@ qlcolorcode
 qlcommonmark
 qldds
 qlfits
-qlimagesize
 qlmarkdown
 qlmobi
 qlnetcdf
@@ -675,7 +672,6 @@ scidavis
 scidvsmac
 scihubeva
 scilab
-scout
 scratch
 scribus
 scriptql
@@ -771,6 +767,7 @@ subethaedit
 subler
 sublercli
 subsurface
+super-productivity
 supercollider
 supermjograph
 superproductivity
@@ -915,7 +912,6 @@ waltr-heic-converter
 wannianli
 warp
 waterfox
-waterfox-classic
 wavesurfer
 webots
 webpquicklook
