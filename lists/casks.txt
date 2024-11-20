@@ -137,7 +137,6 @@ deeper
 deepstream
 defold
 deluge
-denemo
 depthmapx
 detectx-swift
 devkinsta
@@ -149,7 +148,6 @@ diffmerge
 digikam
 digital
 discord
-djv
 djview
 dmidiplayer
 docker
@@ -608,7 +606,6 @@ qladdict
 qlc+
 qlcolorcode
 qlcommonmark
-qldds
 qlfits
 qlmarkdown
 qlmobi
@@ -674,7 +671,6 @@ scihubeva
 scilab
 scratch
 scribus
-scriptql
 scroll-reverser
 sdformatter
 sdrdx
@@ -704,7 +700,6 @@ silnite
 sim-daltonism
 simple-comic
 simplenote
-simplistic
 simsim
 sioyek
 sitala
@@ -739,7 +734,6 @@ spaceman
 spaceradar
 sparkle
 spires
-splitshow
 spotter
 springtoolsuite
 sql-tabs
@@ -761,16 +755,13 @@ strawberry
 streamlink-twitch-gui
 stremio
 stretchly
-stringsfile
 stringz
 subethaedit
 subler
 sublercli
 subsurface
-super-productivity
 supercollider
 supermjograph
-superproductivity
 superslicer
 surge-synthesizer
 surge-xt
