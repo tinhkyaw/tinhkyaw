@@ -229,6 +229,7 @@ transmission-cli
 trash
 tree
 unison
+uv
 uvicorn
 uwsgi
 v2ray

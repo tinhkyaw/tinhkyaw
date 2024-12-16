@@ -20,6 +20,7 @@ britesnow.vscode-toggle-quotes
 brunnerh.insert-unicode
 burkeholland.simple-react-snippets
 chakrounanas.turbo-console-log
+charliermarsh.ruff
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
 chrmarti.regex

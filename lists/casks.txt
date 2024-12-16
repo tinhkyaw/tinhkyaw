@@ -96,6 +96,7 @@ cinderella
 cinebench
 circuitjs1
 cirrus
+claude
 clickhouse
 clipgrab
 cljstyle
@@ -108,6 +109,7 @@ cog
 compositor
 connectmenow
 copyq
+coq-platform
 coqide
 coteditor
 couchbase-server-community
@@ -185,7 +187,6 @@ extraterm
 fawkes
 fbreader
 fiji
-firealpaca
 firebase-admin
 firefox
 fireworks
@@ -193,7 +194,6 @@ flacon
 flameshot
 fldigi
 flightgear
-flipper
 flrig
 fluent-reader
 flutter
@@ -359,7 +359,6 @@ kieler
 kindle-comic-converter
 kindle-comic-creator
 kindle-previewer
-kiwix
 klatexformula
 klayout
 klogg
@@ -592,7 +591,6 @@ publii
 publish-or-perish
 puppetry
 pusher
-puzzles
 pycharm-ce
 pyzo
 qbittorrent
