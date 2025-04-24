@@ -130,6 +130,7 @@
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
   },
+  "workbench.iconTheme": "vscode-icons",
   "yaml.customTags": [
     "!And",
     "!And sequence",
