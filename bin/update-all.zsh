@@ -24,7 +24,7 @@ export CC=clang-omp CXX=clang-omp++
 rustup update
 "${HOMEBREW_PREFIX}"/anaconda3/bin/conda update \
   -p "${HOMEBREW_PREFIX}"/anaconda3 --all -y
-# conda update -n base --all -y
+conda update -n base --all -y
 gcloud components update -q
 doom env
 doom -! sync
