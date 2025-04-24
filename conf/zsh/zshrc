@@ -94,11 +94,6 @@ if (( $+commands[brew] )); then
   if (( $+commands[vivid] )); then
     export LS_COLORS="$(vivid generate solarized-dark)"
   fi
-  # tldr
-  # https://tldr.sh/
-  # if (( $+commands[tldr] )); then
-  #   alias man='tldr'
-  # fi
   # xh
   # https://github.com/ducaale/xh
   if (( $+commands[xh] )); then

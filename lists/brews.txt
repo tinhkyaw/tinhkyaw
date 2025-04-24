@@ -19,14 +19,14 @@ bazel
 binutils
 black
 bottom
-brimdata/tap/zed
-brimdata/tap/zq
+brimdata/tap/super
 buildifier
 byobu
 carthage
 chezmoi
 clipboard
-cloudflare-wrangler2
+cloudflare-cli4
+cloudflare-wrangler
 cmake
 cocoapods
 colima
@@ -132,6 +132,7 @@ maven
 media-info
 memcached
 mercurial
+micromamba
 miller
 minikube
 mkvtoolnix
@@ -157,7 +158,6 @@ parquet-cli
 pdfgrep
 perl
 pgsync
-pidof
 pinentry-mac
 pipdeptree
 pipenv
@@ -175,6 +175,7 @@ pylint
 pyoxidizer
 python-build
 python-lsp-server
+python@3.12
 qcachegrind
 r
 railwaycat/emacsmacport/emacs-mac
@@ -196,10 +197,8 @@ scalacenter/bloop/bloop
 scipy
 scrapy
 screen
-serverless
 shellcheck
 silicon
-simdjson
 sip
 skaffold
 smartmontools
@@ -221,7 +220,6 @@ thefuck
 tidy-html5
 tig
 timeplus-io/timeplus/proton
-tldr
 tmuxinator
 tokyo-cabinet
 tox
@@ -240,7 +238,6 @@ vips
 virtualenvwrapper
 vivid
 watchman
-webkit2png
 wget
 wxmaxima
 xdot

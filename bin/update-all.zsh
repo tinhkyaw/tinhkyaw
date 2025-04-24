@@ -17,20 +17,14 @@ gem update --system
 gem update
 gem cleanup
 timeout --foreground 3m npm-check -g -y
-python3 -m pip install --upgrade pip
 # "${HOMEBREW_PREFIX}"/bin/pip3 install --upgrade --break-system-packages setuptools
 export GRPC_PYTHON_BUILD_SYSTEM_OPENSSL=1
 export GRPC_PYTHON_BUILD_SYSTEM_ZLIB=1
 export CC=clang-omp CXX=clang-omp++
-pip3 install \
-  --upgrade \
-  --use-deprecated=legacy-resolver \
-  --break-system-packages \
-  -r "${LIST_DIR}"/pip3s.txt
 rustup update
 "${HOMEBREW_PREFIX}"/anaconda3/bin/conda update \
   -p "${HOMEBREW_PREFIX}"/anaconda3 --all -y
-conda update -n base --all -y
+# conda update -n base --all -y
 gcloud components update -q
 doom env
 doom -! sync

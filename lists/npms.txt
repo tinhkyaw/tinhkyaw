@@ -1,5 +1,3 @@
-node
-react
 acorn
 babel-eslint
 carbon-now-cli

@@ -87,14 +87,12 @@ jeff-hykin.better-cpp-syntax
 joeberria.statusbarerror
 johnpapa.vscode-peacock
 josetr.cmake-language-support-vscode
-kasik96.swift
 kevinrose.vsc-python-indent
 kingwl.ts-react-hooks-tools
 kisstkondoros.vscode-gutter-preview
 korekontrol.saltstack
 leodriesch.paste-html-as-jsx
 lextudio.restructuredtext-pack
-lightbend.vscode-sbt-scala
 littlefoxteam.vscode-python-test-adapter
 llvm-vs-code-extensions.vscode-clangd
 localizely.flutter-intl
@@ -190,6 +188,7 @@ snowflake.snowflake-vsc
 spmeesseman.vscode-taskexplorer
 spywhere.guides
 stylelint.vscode-stylelint
+swiftlang.swift-vscode
 swyddfa.esbonio
 syler.sass-indented
 tamasfe.even-better-toml
