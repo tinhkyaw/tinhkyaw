@@ -43,6 +43,7 @@ eeyore.yapf
 egomobile.vscode-powertools
 ericadamski.carbon-now-sh
 esbenp.prettier-vscode
+executablebookproject.myst-highlight
 firefox-devtools.vscode-firefox-debug
 flowtype.flow-for-vscode
 formulahendry.auto-close-tag
