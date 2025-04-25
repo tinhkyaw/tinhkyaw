@@ -89,19 +89,19 @@ npm ls -g >"${SNAPSHOT_DIR}/npm${SUFFIX}.txt"
 #   echo "$q" |
 #     grep -Evi ${PIPS_TO_IGNORE}
 # } | sort -u >"${LIST_DIR}/pip3s.txt"
-# ("${HOMEBREW_PREFIX}"/anaconda3/bin/conda list \
-#   -p "${HOMEBREW_PREFIX}"/anaconda3 --explicit |
-#   grep -v '^[#@]' |
-#   xargs -I {} basename {} |
-#   gsed -e 's/.conda\|.tar.bz2//g' |
-#   sort -u) \
-#   >"${SNAPSHOT_DIR}/conda${SUFFIX}.txt"
-# (conda list -n base --explicit |
-#   grep -v '^[#@]' |
-#   xargs -I {} basename {} |
-#   gsed -e 's/.conda\|.tar.bz2//g' |
-#   sort -u) \
-#   >"${SNAPSHOT_DIR}/miniforge${SUFFIX}.txt"
+("${HOMEBREW_PREFIX}"/anaconda3/bin/conda list \
+  -p "${HOMEBREW_PREFIX}"/anaconda3 --explicit |
+  grep -v '^[#@]' |
+  xargs -I {} basename {} |
+  gsed -e 's/.conda\|.tar.bz2//g' |
+  sort -u) \
+  >"${SNAPSHOT_DIR}/conda${SUFFIX}.txt"
+(conda list -n base --explicit |
+  grep -v '^[#@]' |
+  xargs -I {} basename {} |
+  gsed -e 's/.conda\|.tar.bz2//g' |
+  sort -u) \
+  >"${SNAPSHOT_DIR}/miniforge${SUFFIX}.txt"
 code --list-extensions --show-versions | sort -d -f \
   >"${SNAPSHOT_DIR}/code${SUFFIX}.txt"
 grep -Fvxf \
