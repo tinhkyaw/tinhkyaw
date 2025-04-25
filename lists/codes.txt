@@ -142,7 +142,6 @@ ms-toolsai.vscode-jupyter-powertoys
 ms-vscode.brackets-pack
 ms-vscode.copilot-mermaid-diagram
 ms-vscode.cpptools-extension-pack
-ms-vscode.debug-value-editor
 ms-vscode.hexeditor
 ms-vscode.live-server
 ms-vscode.makefile-tools
@@ -157,7 +156,6 @@ ms-vscode.vscode-embedded-tools
 ms-vscode.vscode-github-issue-notebooks
 ms-vscode.vscode-js-profile-flame
 ms-vscode.vscode-markdown-notebook
-ms-vscode.vscode-marketplace-extension-browser
 ms-vscode.vscode-serial-monitor
 ms-vscode.vscode-speech
 ms-vscode.vscode-websearchforcopilot

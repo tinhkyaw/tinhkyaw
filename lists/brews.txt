@@ -37,7 +37,6 @@ cromwell
 csshx
 ctags
 curl
-dapr/tap/dapr-cli
 datasette
 dateutils
 deno
@@ -132,7 +131,6 @@ maven
 media-info
 memcached
 mercurial
-micromamba
 miller
 minikube
 mkvtoolnix
@@ -155,6 +153,7 @@ openvino
 oxipng
 p7zip
 parquet-cli
+pdf-diff
 pdfgrep
 perl
 pgsync
@@ -175,7 +174,6 @@ pylint
 pyoxidizer
 python-build
 python-lsp-server
-python@3.12
 qcachegrind
 r
 railwaycat/emacsmacport/emacs-mac
@@ -199,6 +197,7 @@ scrapy
 screen
 shellcheck
 silicon
+simdjson
 sip
 skaffold
 smartmontools
