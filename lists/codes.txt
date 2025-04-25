@@ -27,6 +27,7 @@ christian-kohler.path-intellisense
 chrmarti.regex
 codeandstuff.package-json-upgrade
 codeium.codeium
+codeium.windsurfpyright
 coderoad.coderoad
 cschlosser.doxdocgen
 dart-code.dart-code
