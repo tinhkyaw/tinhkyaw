@@ -1,14 +1,4 @@
-brimdata/tap
 buo/cask-upgrade
-dapr/tap
-git-friendly/git-friendly
-harelba/q
-hashicorp/tap
-homebrew/aliases
 homebrew/autoupdate
-homebrew/bundle
 homebrew/command-not-found
-homebrew/services
-railwaycat/emacsmacport
-timeplus-io/timeplus
 weaveworks/tap

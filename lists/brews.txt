@@ -1,5 +1,6 @@
 ack
 adns
+aider
 amazon-ecs-cli
 ansible
 ant
@@ -86,6 +87,7 @@ grep
 gron
 guile
 gum
+harelba/q/q
 hashicorp/tap/terraform
 hbase
 helm
@@ -192,7 +194,6 @@ rustup
 sbt
 scala
 scalacenter/bloop/bloop
-scipy
 scrapy
 screen
 shellcheck
@@ -211,6 +212,7 @@ subversion
 swiftformat
 swig
 syncthing
+tabbyml/tabby/tabby
 tag
 teleport
 tflint

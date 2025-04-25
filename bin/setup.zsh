@@ -5,6 +5,7 @@ if (( !${+commands[brew]} )); then
       curl -fsSL \
         https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
     )"
+  sudo spctl --global-disable
   brew install coreutils fd git grep mr ripgrep
   xargs -I {} brew tap {} <"${LIST_DIR}"/taps.txt
   brew install emacs-mac --with-native-compilation --with-starter
@@ -32,9 +33,6 @@ if [[ ! -d "${HOME}/.config/emacs" ]]; then
   ln -sf "${GIT_ROOT_DIR}/conf/doom/config.el" "${HOME}/.config/doom/config.el"
 fi
 source "${GIT_ROOT_DIR}"/bin/setup-sudo-askpass.zsh
-if [[ $(spctl --status) =~ "assessments enabled" ]]; then
-  sudo spctl --master-disable
-fi
 brew install --cask temurin
 xargs -I {} brew install --cask {} <"${LIST_DIR}"/casks.txt
 conda init "$(basename "${SHELL}")"

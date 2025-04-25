@@ -29,6 +29,7 @@ codeandstuff.package-json-upgrade
 codeium.codeium
 codeium.windsurfpyright
 coderoad.coderoad
+continue.continue
 cschlosser.doxdocgen
 dart-code.dart-code
 dart-code.flutter
@@ -176,6 +177,7 @@ pnp.polacode
 prompt-flow.prompt-flow
 pucelle.vscode-css-navigation
 pustelto.bracketeer
+pythagoratechnologies.pythagora-vs-code
 qcz.text-power-tools
 quicktype.quicktype
 redhat.vscode-commons
@@ -183,6 +185,7 @@ remisa.shellman
 richie5um2.vscode-sort-json
 ritwickdey.liveserver
 rogalmic.bash-debug
+rooveterinaryinc.roo-cline
 rubbersheep.gi
 rust-lang.rust-analyzer
 ryu1kn.edit-with-shell
@@ -190,12 +193,14 @@ ryu1kn.partial-diff
 ryu1kn.text-marker
 sainoba.px-to-rem
 salesforce.salesforcedx-vscode-soql
+saoudrizwan.claude-dev
 sburg.vscode-javascript-booster
 scalameta.metals
 shd101wyy.markdown-preview-enhanced
 simonsiefke.svg-preview
 sleistner.vscode-fileutils
 snowflake.snowflake-vsc
+sourcegraph.cody-ai
 spmeesseman.vscode-taskexplorer
 spywhere.guides
 stylelint.vscode-stylelint
