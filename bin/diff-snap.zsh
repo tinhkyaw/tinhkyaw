@@ -13,16 +13,14 @@ for snapshot in \
   code \
   conda \
   cpan \
-  eclipse \
+  \
   gcloud \
   gem \
-  intellij \
+  \
   mas \
   miniforge \
   mr \
   npm \
-  pip3 \
-  pycharm \
   tap; do
   FILE1="${snapshot}${SUFFIX1}.txt"
   FILE2="${snapshot}${SUFFIX2}.txt"
