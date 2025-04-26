@@ -108,8 +108,6 @@
   "sarif-viewer.connectToGithubCodeScanning": "off",
   "shellcheck.executablePath": "/Users/tin/.brew/bin/shellcheck",
   "snowflake.connectionsConfigFile": "/Users/tin/.snowflake/connections.toml",
-  "telemetry.feedback.enabled": false,
-  "telemetry.telemetryLevel": "off",
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.fontFamily": "'MesloLGS NF'",
   "terminal.integrated.fontSize": 14,
@@ -160,10 +158,6 @@
     "!Split",
     "!Split sequence"
   ],
-  "yaml.schemaStore.enable": false,
-  "yaml.schemas": {
-    "file:///Users/tin/.vscode/extensions/docsmsft.docs-yaml-1.0.1/dist/toc.schema.json": "/toc\\.yml/i"
-  },
   "yapf.args": [
     "--style",
     "{based_on_style: google, column_limit: 79}"

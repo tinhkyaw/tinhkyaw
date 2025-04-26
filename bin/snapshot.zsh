@@ -104,6 +104,10 @@ npm ls -g >"${SNAPSHOT_DIR}/npm${SUFFIX}.txt"
   >"${SNAPSHOT_DIR}/miniforge${SUFFIX}.txt"
 code --list-extensions --show-versions | sort -d -f \
   >"${SNAPSHOT_DIR}/code${SUFFIX}.txt"
+cursor --list-extensions --show-versions | sort -d -f \
+  >"${SNAPSHOT_DIR}/cursor${SUFFIX}.txt"
+windsurf --list-extensions --show-versions | sort -d -f \
+  >"${SNAPSHOT_DIR}/windsurf${SUFFIX}.txt"
 grep -Fvxf \
   <(grep -El 'extensionDependencies|extensionPack' \
     "${HOME}"/.vscode/extensions/*/package.json |

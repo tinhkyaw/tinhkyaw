@@ -13,15 +13,15 @@ for snapshot in \
   code \
   conda \
   cpan \
-  \
+  cursor \
   gcloud \
   gem \
-  \
   mas \
   miniforge \
   mr \
   npm \
-  tap; do
+  tap \
+  windsurf; do
   FILE1="${snapshot}${SUFFIX1}.txt"
   FILE2="${snapshot}${SUFFIX2}.txt"
   LHS="${SNAPSHOT_DIR}/${FILE1}"
