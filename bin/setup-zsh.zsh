@@ -50,7 +50,7 @@ for conf_file in \
   ln -sf "${GIT_ROOT_DIR}/conf/${conf_file}" "${HOME}/.${conf_file}"
 done
 mkdir -p "${HOME}/Library/Application Support/Code/User/"
-ln -sf "${GIT_ROOT_DIR}/conf/settings.json" \
+ln -sf "${GIT_ROOT_DIR}/conf/code/settings.json" \
   "${HOME}/Library/Application Support/Code/User/settings.json"
 mkdir -p "${HOME}/bin"
 for script_file in \
