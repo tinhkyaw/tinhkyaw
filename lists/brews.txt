@@ -38,7 +38,6 @@ cromwell
 csshx
 ctags
 curl
-datasette
 dateutils
 deno
 diff-so-fancy
@@ -143,7 +142,6 @@ mstch
 mypy
 navi
 ncdu
-neo4j
 netcat
 netlify-cli
 nghttp2
