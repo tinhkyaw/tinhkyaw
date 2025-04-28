@@ -142,12 +142,7 @@ flrig
 flutter
 flux
 flycut
-font-awesome-terminal-fonts
-font-fontawesome
-font-hack-nerd-font
 font-meslo-for-powerlevel10k
-font-source-code-pro
-font-source-code-pro-for-powerline
 fontbase
 fontgoggles
 forecast
