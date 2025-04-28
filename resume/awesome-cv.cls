@@ -355,6 +355,10 @@
 % Usage: \hackerrank{<Hackerrank profile name>}
 \newcommand*{\hackerrank}[1]{\def\@hackerrank{#1}}
 
+% Defines writer's Telegram (optional)
+% Usage: \telegram{<Telegram username>}
+\newcommand*{\telegram}[1]{\def\@telegram{#1}}
+
 % Defines writer's google scholar profile (optional)
 % Usage: \googlescholar{<googlescholar userid>}{<googlescholar username>}
 % e.g.https://scholar.google.co.uk/citations?user=wpZDx1cAAAAJ
@@ -427,8 +431,8 @@
 \newcommand{\acvHeaderAfterQuoteSkip}{5mm}
 
 % Others
-\newcommand{\acvSectionTopSkip}{0.5mm}
-\newcommand{\acvSectionContentTopSkip}{1mm}
+\newcommand{\acvSectionTopSkip}{3mm}
+\newcommand{\acvSectionContentTopSkip}{2mm}
 
 
 %-------------------------------------------------------------------------------
@@ -602,6 +606,12 @@
         \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
         \href{https://www.hackerrank.com/\@hackerrank}{\faHackerrank\acvHeaderIconSep\@hackerrank}%
       }%
+      \ifthenelse{\isundefined{\@telegram}}%
+      {}%
+      {%
+        \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
+        \href{https://t.me/\@telegram}{\faTelegram\acvHeaderIconSep\@telegram}%
+      }%
       \ifthenelse{\isundefined{\@googlescholarid}}%
       {}%
       {%
@@ -664,14 +674,16 @@
 % Define an environment for cventry
 \newenvironment{cventries}{%
   \vspace{\acvSectionContentTopSkip}
+  \vspace{-4.0mm}
   \begin{center}
     }{%
   \end{center}
+  \vspace{4.0mm}
 }
 % Define an entry of cv information
 % Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<description>}
 \newcommand*{\cventry}[5]{%
-  \vspace{-2.0mm}
+  \vspace{2.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
@@ -754,7 +766,7 @@
   \begin{center}
     \setlength\tabcolsep{1ex}
     \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} r L{\textwidth * \real{0.9}}}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} r L{\textwidth * \real{0.8}}}
       }{%
     \end{tabular*}
   \end{center}

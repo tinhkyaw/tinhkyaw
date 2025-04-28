@@ -73,6 +73,7 @@
   "gitlens.telemetry.enabled": false,
   "go.toolsManagement.autoUpdate": true,
   "guides.sendUsagesAndStats": false,
+  "latex-workshop.formatting.latex": "latexindent",
   "latex-workshop.latex.recipes": [
     {
       "name": "xelatex",
