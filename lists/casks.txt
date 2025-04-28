@@ -8,7 +8,6 @@ alloy
 alt-tab
 altair-graphql-client
 altserver
-amazon-music
 anaconda
 android-commandlinetools
 android-platform-tools
@@ -112,7 +111,6 @@ digikam
 digital
 discord
 djview
-dmidiplayer
 docker
 dotnet-sdk
 double-commander
@@ -342,7 +340,6 @@ musescore
 muzzle
 mysql-shell
 mysqlworkbench
-nautilus
 ncar-ncl
 netbeans
 netiquette
@@ -610,7 +607,6 @@ vimediamanager
 vimr
 vine-server
 virtualbox
-virtualbox-extension-pack
 visit
 visual-paradigm-ce
 visual-studio-code

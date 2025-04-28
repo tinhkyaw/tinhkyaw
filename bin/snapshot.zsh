@@ -37,18 +37,11 @@ CASKS_TO_IGNORE="\
 |tunnelblick\
 |^zoom\
 "
-read -r -d '' CASKS_TO_ADD <<EOF
-amazon-music
-dmidiplayer
-nautilus
-podolski
-triplecheese
-virtualbox
-virtualbox-extension-pack
-EOF
+# read -r -d '' CASKS_TO_ADD <<EOF
+# EOF
 {
   brew list --cask | grep -Evi ${CASKS_TO_IGNORE}
-  echo "${CASKS_TO_ADD}"
+  # echo "${CASKS_TO_ADD}"
 } | sort -u >"${LIST_DIR}/casks.txt"
 brew tap >"${SNAPSHOT_DIR}/tap${SUFFIX}.txt"
 mas list | sort >"${SNAPSHOT_DIR}/mas${SUFFIX}.txt"

@@ -1,0 +1,15 @@
+adobe-digital-editions
+adobe-dng-converter
+amazon-music
+chessx
+google-earth-pro
+jgrasp
+kindle-previewer
+mbed-studio
+mono-mdk
+objectivesharpie
+opentoonz
+smlnj
+snowflake-snowsql
+thinkorswim
+uniflash
