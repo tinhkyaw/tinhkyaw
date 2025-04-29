@@ -193,6 +193,7 @@ gramps
 grandperspective
 greenfoot
 gretl
+gridtracker2
 gstreamer-runtime
 hammerspoon
 handbrake
@@ -410,6 +411,7 @@ preference-manager
 prefs-editor
 presentation
 processing
+procexp
 protege
 provisionql
 publii
@@ -546,6 +548,7 @@ tabby
 tableplus
 tabtopus
 tad
+tagspaces
 talon
 tau
 telegram

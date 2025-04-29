@@ -162,6 +162,7 @@ pipdeptree
 pipenv
 pipx
 pngquant
+pnpm
 poetry
 postgresql@14
 psgrep
