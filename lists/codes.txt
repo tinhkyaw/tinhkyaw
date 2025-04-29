@@ -36,6 +36,7 @@ dart-code.flutter
 davidanson.vscode-markdownlint
 davidrockburn.py-pack
 dbaeumer.vscode-eslint
+docker.docker
 donjayamanne.git-extension-pack
 donjayamanne.python-extension-pack
 dotjoshjohnson.xml
