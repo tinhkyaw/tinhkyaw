@@ -306,11 +306,11 @@ mactracker
 magicavoxel
 maintenance
 mark-text
-markdown-service-tools
 marta
 masscode
 media-converter
 mediahuman-audio-converter
+meetingbar
 menu-bar-splitter
 menumeters
 metaz
@@ -413,7 +413,6 @@ presentation
 processing
 procexp
 protege
-provisionql
 publii
 publish-or-perish
 pycharm-ce
@@ -424,7 +423,6 @@ qlc+
 qlmarkdown
 qr-journal
 quarto
-quickgeojson
 quicksilver
 quodlibet
 qview
@@ -608,7 +606,6 @@ vivaldi
 vlc
 vnote
 vorta
-voxql
 vv
 wail
 warp
