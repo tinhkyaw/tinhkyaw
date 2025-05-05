@@ -180,6 +180,7 @@ pucelle.vscode-css-navigation
 pustelto.bracketeer
 pythagoratechnologies.pythagora-vs-code
 qcz.text-power-tools
+quary.sqruff
 quicktype.quicktype
 redhat.vscode-commons
 remisa.shellman
