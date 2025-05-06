@@ -175,6 +175,7 @@ pyoxidizer
 python-build
 python-lsp-server
 qcachegrind
+quarylabs/quary/sqruff
 r
 railwaycat/emacsmacport/emacs-mac
 rclone
