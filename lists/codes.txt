@@ -127,7 +127,6 @@ msjsdiag.cordova-tools
 msjsdiag.vscode-react-native
 ms-kubernetes-tools.kind-vscode
 ms-kubernetes-tools.kubernetes-opa-vscode
-ms-ossdata.vscode-postgresql
 ms-playwright.playwright
 ms-pyright.pyright
 ms-python.autopep8
