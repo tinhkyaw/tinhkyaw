@@ -44,7 +44,7 @@ CASKS_TO_IGNORE="\
   # echo "${CASKS_TO_ADD}"
 } | sort -u >"${LIST_DIR}/casks.txt"
 brew tap >"${SNAPSHOT_DIR}/tap${SUFFIX}.txt"
-mas list | sort >"${SNAPSHOT_DIR}/mas${SUFFIX}.txt"
+mas list >"${SNAPSHOT_DIR}/mas${SUFFIX}.txt"
 gem list >"${SNAPSHOT_DIR}/gem${SUFFIX}.txt"
 npm ls -g >"${SNAPSHOT_DIR}/npm${SUFFIX}.txt"
 (npm ls -g -p |
