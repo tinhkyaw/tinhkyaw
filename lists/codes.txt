@@ -230,4 +230,5 @@ yatki.vscode-surround
 ybaumes.highlight-trailing-white-spaces
 ysemeniuk.jump-tag
 zignd.html-css-class-completion
+zokugun.vsix-manager
 zxh404.vscode-proto3
