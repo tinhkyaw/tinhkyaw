@@ -1,3 +1,5 @@
 buo/cask-upgrade
 homebrew/autoupdate
 homebrew/command-not-found
+railwaycat/emacsmacport
+
