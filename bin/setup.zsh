@@ -38,7 +38,9 @@ brew install --cask temurin
 xargs -I {} brew install --cask {} <"${LIST_DIR}"/casks.txt
 conda init "$(basename "${SHELL}")"
 xargs npm install -g <"${LIST_DIR}"/npms.txt
-xargs -I {} code --install-extension {} <"${LIST_DIR}"/codes.txt
+for code_cmd in code cursor windsurf; do
+  xargs -I {} "${code_cmd}" --install-extension {} <"${LIST_DIR}"/codes.txt
+done
 export GRPC_PYTHON_BUILD_SYSTEM_OPENSSL=1
 export GRPC_PYTHON_BUILD_SYSTEM_ZLIB=1
 ln -s "${HOMEBREW_PREFIX}"/opt/llvm/bin/clang "${HOMEBREW_PREFIX}"/bin/clang-omp

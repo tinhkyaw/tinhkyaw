@@ -124,6 +124,8 @@
   "vscode-kubernetes.helm-path": "${env:HOMEBREW_PREFIX}/bin/helm",
   "vscode-kubernetes.kubectl-path": "${env:HOMEBREW_PREFIX}/bin/kubectl",
   "vscode-kubernetes.minikube-path": "${env:HOMEBREW_PREFIX}/bin/minikube",
+  "windsurf.marketplaceExtensionGalleryServiceURL": "https://marketplace.visualstudio.com/_apis/public/gallery",
+  "windsurf.marketplaceGalleryItemURL": "https://marketplace.visualstudio.com/items",
   "workbench.colorTheme": "Solarized Dark",
   "workbench.editor.enablePreview": false,
   "workbench.editorAssociations": {
