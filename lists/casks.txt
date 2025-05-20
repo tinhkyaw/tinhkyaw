@@ -502,7 +502,7 @@ spacelauncher
 spaceman
 sparkle
 spires
-springtoolsuite
+springtoolsforeclipse
 squeak
 squidman
 squirrelsql
@@ -552,6 +552,7 @@ texstudio
 textmate
 texworks
 the-unarchiver
+theiaide
 thetimemachinemechanic
 thorium
 thunderbird
