@@ -8,7 +8,7 @@ if (( !${+commands[brew]} )); then
   sudo spctl --global-disable
   brew install coreutils fd git grep mr ripgrep
   xargs -I {} brew tap {} <taps.txt
-  brew install emacs-mac --with-modules
+  brew install railwaycat/emacsmacport/emacs-mac --with-modules --with-native-compilation
   ln -s "$(brew --prefix)" "${HOME}"/.brew
 fi
 eval "$(/opt/homebrew/bin/brew shellenv)"
