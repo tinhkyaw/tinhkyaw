@@ -201,6 +201,7 @@ simdjson
 sip
 skaffold
 smartmontools
+snowflake-cli
 sops
 spaceman-diff
 spark

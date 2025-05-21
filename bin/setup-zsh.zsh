@@ -49,9 +49,11 @@ for conf_file in \
   condarc; do
   ln -sf "${GIT_ROOT_DIR}/conf/${conf_file}" "${HOME}/.${conf_file}"
 done
-mkdir -p "${HOME}/Library/Application Support/Code/User/"
-ln -sf "${GIT_ROOT_DIR}/conf/code/settings.json" \
-  "${HOME}/Library/Application Support/Code/User/settings.json"
+for vscode_ide in Code Cursor; do
+  mkdir -p "${HOME}/Library/Application Support/${vscode_ide}/User/"
+  ln -sf "${GIT_ROOT_DIR}/conf/code/settings.json" \
+    "${HOME}/Library/Application Support/${vscode_ide}/User/settings.json"
+done
 mkdir -p "${HOME}/bin"
 for script_file in \
   diff-snap.zsh \
