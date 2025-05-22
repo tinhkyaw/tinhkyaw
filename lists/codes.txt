@@ -65,7 +65,7 @@ google.aidl-language
 google.arb-editor
 googlecloudtools.cloudcode
 googlecloudtools.firebase-dataconnect-vscode
-google.cros-ide
+google-home.google-home-extension
 google.pdl-language
 google.reflowlist
 google.selinux-policy-languages

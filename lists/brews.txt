@@ -100,6 +100,7 @@ icdiff
 igv
 ipython
 isort
+jbang
 jenv
 jj
 jmeter
