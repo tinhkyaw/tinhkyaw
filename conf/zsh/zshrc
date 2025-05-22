@@ -22,6 +22,11 @@ if [[ -d ~/.yadr ]]; then
   for config_file ($HOME/.yadr/zsh/*.zsh) source $config_file
 fi
 typeset -TUx PKG_CONFIG_PATH pkg_config_path
+# uv tool
+# https://docs.astral.sh/uv/guides/tools/#installing-tools
+if [[ -d "${HOME}/.local/bin" ]]; then
+  path+=${HOME}/.local/bin
+fi
 # Homebrew
 # https://brew.sh/
 if (( $+commands[brew] )); then
@@ -176,11 +181,6 @@ fi
 # https://www.docker.com/products/docker-desktop
 if [[ -d "${HOME}/.docker/bin" ]]; then
   path+=${HOME}/.docker/bin
-fi
-# pipx
-# https://github.com/pypa/pipx
-if [[ -d "${HOME}/.local/bin" ]]; then
-  path+=${HOME}/.local/bin
 fi
 if [[ -f "${HOME}/bin/get-cli-sudo-pass.zsh" ]]; then
   export SUDO_ASKPASS=${HOME}/bin/get-cli-sudo-pass.zsh

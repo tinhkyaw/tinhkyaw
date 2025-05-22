@@ -30,10 +30,7 @@ fluid-synth\
 } | sort -u >"${LIST_DIR}/brews.txt"
 brew list --cask >"${SNAPSHOT_DIR}/cask${SUFFIX}.txt"
 CASKS_TO_IGNORE="\
-^corretto\
-|krisp\
-|lastpass\
-|microsoft-teams\
+microsoft-teams\
 |tunnelblick\
 |^zoom\
 "
@@ -82,6 +79,7 @@ npm ls -g >"${SNAPSHOT_DIR}/npm${SUFFIX}.txt"
 #   echo "$q" |
 #     grep -Evi ${PIPS_TO_IGNORE}
 # } | sort -u >"${LIST_DIR}/pip3s.txt"
+uv tool list >"${SNAPSHOT_DIR}/uv${SUFFIX}.txt"
 ("${HOMEBREW_PREFIX}"/anaconda3/bin/conda list \
   -p "${HOMEBREW_PREFIX}"/anaconda3 --explicit |
   grep -v '^[#@]' |
