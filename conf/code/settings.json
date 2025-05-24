@@ -9,7 +9,8 @@
     "editor.formatOnSave": true
   },
   "[python]": {
-    "editor.defaultFormatter": "eeyore.yapf",
+    "defaultInterpreterPath": "${env:HOMEBREW_PREFIX}/bin/python3",
+    "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "file"
   },
@@ -17,6 +18,35 @@
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
   "[yaml]": {
+    "customTags": [
+      "!And",
+      "!And sequence",
+      "!If",
+      "!If sequence",
+      "!Not",
+      "!Not sequence",
+      "!Equals",
+      "!Equals sequence",
+      "!Or",
+      "!Or sequence",
+      "!FindInMap",
+      "!FindInMap sequence",
+      "!Base64",
+      "!Join",
+      "!Join sequence",
+      "!Cidr",
+      "!Ref",
+      "!Sub",
+      "!Sub sequence",
+      "!GetAtt",
+      "!GetAZs",
+      "!ImportValue",
+      "!ImportValue sequence",
+      "!Select",
+      "!Select sequence",
+      "!Split",
+      "!Split sequence"
+    ],
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
@@ -99,7 +129,6 @@
     "jupyter-notebook": "left"
   },
   "partialDiff.enableTelemetry": false,
-  "python.defaultInterpreterPath": "${env:HOMEBREW_PREFIX}/bin/python3",
   "redhat.telemetry.enabled": false,
   "rest-client.enableTelemetry": false,
   "restructuredtext.linter.doc8.executablePath": "${env:HOMEBREW_PREFIX}/bin/doc8",
@@ -121,9 +150,6 @@
     "minikube-path": "${env:HOMEBREW_PREFIX}/bin/minikube",
     "vscode-kubernetes.minikube-path.mac": "${env:HOMEBREW_PREFIX}/bin/minikube"
   },
-  "vscode-kubernetes.helm-path": "${env:HOMEBREW_PREFIX}/bin/helm",
-  "vscode-kubernetes.kubectl-path": "${env:HOMEBREW_PREFIX}/bin/kubectl",
-  "vscode-kubernetes.minikube-path": "${env:HOMEBREW_PREFIX}/bin/minikube",
   "windsurf.marketplaceExtensionGalleryServiceURL": "https://marketplace.visualstudio.com/_apis/public/gallery",
   "windsurf.marketplaceGalleryItemURL": "https://marketplace.visualstudio.com/items",
   "workbench.colorTheme": "Solarized Dark",
@@ -132,35 +158,6 @@
     "*.ipynb": "jupyter-notebook"
   },
   "workbench.iconTheme": "vscode-icons",
-  "yaml.customTags": [
-    "!And",
-    "!And sequence",
-    "!If",
-    "!If sequence",
-    "!Not",
-    "!Not sequence",
-    "!Equals",
-    "!Equals sequence",
-    "!Or",
-    "!Or sequence",
-    "!FindInMap",
-    "!FindInMap sequence",
-    "!Base64",
-    "!Join",
-    "!Join sequence",
-    "!Cidr",
-    "!Ref",
-    "!Sub",
-    "!Sub sequence",
-    "!GetAtt",
-    "!GetAZs",
-    "!ImportValue",
-    "!ImportValue sequence",
-    "!Select",
-    "!Select sequence",
-    "!Split",
-    "!Split sequence"
-  ],
   "yapf.args": [
     "--style",
     "{based_on_style: google, column_limit: 79}"
