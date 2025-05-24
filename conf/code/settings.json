@@ -2,20 +2,30 @@
 {
   "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
   "[dockerfile]": {
-    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    "editor": {
+      "defaultFormatter": "ms-azuretools.vscode-docker",
+      "formatOnSave": true
+    }
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features",
-    "editor.formatOnSave": true
+    "editor": {
+      "defaultFormatter": "vscode.json-language-features",
+      "formatOnSave": true
+    }
   },
   "[python]": {
     "defaultInterpreterPath": "${env:HOMEBREW_PREFIX}/bin/python3",
-    "editor.defaultFormatter": "charliermarsh.ruff",
-    "editor.formatOnSave": true,
-    "editor.formatOnSaveMode": "file"
+    "editor": {
+      "defaultFormatter": "charliermarsh.ruff",
+      "formatOnSave": true,
+      "formatOnSaveMode": "file"
+    }
   },
   "[shellscript]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
+    "editor": {
+      "defaultFormatter": "foxundermoon.shell-format",
+      "formatOnSave": true
+    }
   },
   "[yaml]": {
     "customTags": [
@@ -47,80 +57,98 @@
       "!Split",
       "!Split sequence"
     ],
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
+    "editor": {
+      "defaultFormatter": "esbenp.prettier-vscode",
+      "formatOnSave": true
+    }
   },
   "amazonQ.telemetry": false,
   "application.shellEnvironmentResolutionTimeout": 120,
   "arduino.useArduinoCli": true,
   "aws.telemetry": false,
   "carbon.fontFamily": "Source Code Pro",
-  "cloudcode.autoDependencies": "off",
-  "cloudcode.enableTelemetry": false,
-  "cmake.configureOnOpen": false,
-  "cmake.ignoreCMakeListsMissing": true,
-  "cmake.showOptionsMovedNotification": false,
+  "cloudcode": {
+    "autoDependencies": "off",
+    "enableTelemetry": false
+  },
+  "cmake": {
+    "configureOnOpen": false,
+    "ignoreCMakeListsMissing": true,
+    "showOptionsMovedNotification": false
+  },
   "code-runner.enableAppInsights": false,
   "codeQL.cli.executablePath": "/opt/homebrew/bin/codeql",
   "csharp.suppressDotnetInstallWarning": true,
   "debug.terminal.clearBeforeReusing": true,
   "dotnetAcquisitionExtension.enableTelemetry": false,
-  "editor.acceptSuggestionOnEnter": "on",
-  "editor.formatOnSave": true,
-  "editor.inlineSuggest.enabled": true,
-  "editor.snippetSuggestions": "top",
-  "editor.suggest.preview": true,
-  "editor.suggest.showMethods": true,
-  "editor.suggestSelection": "first",
+  "editor": {
+    "acceptSuggestionOnEnter": "on",
+    "formatOnSave": true,
+    "inlineSuggest.enabled": true,
+    "snippetSuggestions": "top",
+    "suggest.preview": true,
+    "suggest.showMethods": true,
+    "suggestSelection": "first"
+  },
   "esbonio.server.enabled": false,
   "extensions.autoUpdate": true,
-  "files.associations": {
-    "*.m": "matlab"
-  },
-  "files.exclude": {
-    "**/.trunk/*out": true
-  },
-  "files.insertFinalNewline": true,
-  "files.trimTrailingWhitespace": true,
-  "files.watcherExclude": {
-    "**/.ammonite": true,
-    "**/.bloop": true,
-    "**/.metals": true,
-    "**/.trunk/*out": true
+  "files": {
+    "associations": {
+      "*.m": "matlab"
+    },
+    "exclude": {
+      "**/.trunk/*out": true
+    },
+    "insertFinalNewline": true,
+    "trimTrailingWhitespace": true,
+    "watcherExclude": {
+      "**/.ammonite": true,
+      "**/.bloop": true,
+      "**/.metals": true,
+      "**/.trunk/*out": true
+    }
   },
   "geminicodeassist.enableTelemetry": false,
-  "git.autofetch": true,
-  "git.path": "/opt/homebrew/bin/git",
-  "github.copilot.editor.enableAutoCompletions": true,
-  "gitlens.advanced.messages": {
-    "suppressCommitHasNoPreviousCommitWarning": false,
-    "suppressCommitNotFoundWarning": false,
-    "suppressFileNotUnderSourceControlWarning": false,
-    "suppressGitVersionWarning": false,
-    "suppressLineUncommittedWarning": false,
-    "suppressNoRepositoryWarning": false
+  "git": {
+    "autofetch": true,
+    "path": "/opt/homebrew/bin/git"
   },
-  "gitlens.telemetry.enabled": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "gitlens": {
+    "advanced.messages": {
+      "suppressCommitHasNoPreviousCommitWarning": false,
+      "suppressCommitNotFoundWarning": false,
+      "suppressFileNotUnderSourceControlWarning": false,
+      "suppressGitVersionWarning": false,
+      "suppressLineUncommittedWarning": false,
+      "suppressNoRepositoryWarning": false
+    },
+    "telemetry.enabled": false
+  },
   "go.toolsManagement.autoUpdate": true,
   "guides.sendUsagesAndStats": false,
-  "latex-workshop.formatting.latex": "latexindent",
-  "latex-workshop.latex.recipes": [
-    {
-      "name": "xelatex",
+  "latex-workshop": {
+    "formatting.latex": "latexindent",
+    "latex": {
+      "recipes": [
+        {
+          "name": "xelatex",
+          "tools": [
+            "xelatex"
+          ]
+        }
+      ],
       "tools": [
-        "xelatex"
+        {
+          "args": [
+            "--output-directory=."
+          ],
+          "command": "xelatex",
+          "name": "xelatex"
+        }
       ]
     }
-  ],
-  "latex-workshop.latex.tools": [
-    {
-      "args": [
-        "--output-directory=."
-      ],
-      "command": "xelatex",
-      "name": "xelatex"
-    }
-  ],
+  },
   "makefile.extensionOutputFolder": "./.vscode",
   "matlab.lintOnSave": false,
   "metals.javaHome": "/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home",
@@ -131,9 +159,11 @@
   "partialDiff.enableTelemetry": false,
   "redhat.telemetry.enabled": false,
   "rest-client.enableTelemetry": false,
-  "restructuredtext.linter.doc8.executablePath": "${env:HOMEBREW_PREFIX}/bin/doc8",
-  "restructuredtext.linter.rst-lint.executablePath": "${env:HOMEBREW_PREFIX}/bin/doc8",
-  "restructuredtext.linter.rstcheck.executablePath": "${env:HOMEBREW_PREFIX}/bin/doc8",
+  "restructuredtext.linter": {
+    "doc8.executablePath": "${env:HOMEBREW_PREFIX}/bin/doc8",
+    "rst-lint.executablePath": "${env:HOMEBREW_PREFIX}/bin/doc8",
+    "rstcheck.executablePath": "${env:HOMEBREW_PREFIX}/bin/doc8"
+  },
   "salesforcedx-vscode-core.telemetry.enabled": false,
   "sarif-viewer.connectToGithubCodeScanning": "off",
   "shellcheck.executablePath": "/opt/homebrew/bin/shellcheck",
@@ -150,14 +180,18 @@
     "minikube-path": "${env:HOMEBREW_PREFIX}/bin/minikube",
     "vscode-kubernetes.minikube-path.mac": "${env:HOMEBREW_PREFIX}/bin/minikube"
   },
-  "windsurf.marketplaceExtensionGalleryServiceURL": "https://marketplace.visualstudio.com/_apis/public/gallery",
-  "windsurf.marketplaceGalleryItemURL": "https://marketplace.visualstudio.com/items",
-  "workbench.colorTheme": "Solarized Dark",
-  "workbench.editor.enablePreview": false,
-  "workbench.editorAssociations": {
-    "*.ipynb": "jupyter-notebook"
+  "windsurf": {
+    "marketplaceExtensionGalleryServiceURL": "https://marketplace.visualstudio.com/_apis/public/gallery",
+    "marketplaceGalleryItemURL": "https://marketplace.visualstudio.com/items"
   },
-  "workbench.iconTheme": "vscode-icons",
+  "workbench": {
+    "colorTheme": "Solarized Dark",
+    "editor.enablePreview": false,
+    "editorAssociations": {
+      "*.ipynb": "jupyter-notebook"
+    },
+    "iconTheme": "vscode-icons"
+  },
   "yapf.args": [
     "--style",
     "{based_on_style: google, column_limit: 79}"
