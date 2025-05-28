@@ -47,38 +47,6 @@ npm ls -g >"${SNAPSHOT_DIR}/npm${SUFFIX}.txt"
 (npm ls -g -p |
   grep node_modules |
   xargs basename) >"${LIST_DIR}/npms.txt"
-# "${HOMEBREW_PREFIX}"/bin/pip3 freeze >"${SNAPSHOT_DIR}/pip3${SUFFIX}.txt"
-# PIPS_TO_IGNORE="\
-# jupyter|\
-# pygobject|\
-# pyqt|\
-# qscintilla|\
-# fuzzytm|\
-# gensim|\
-# smart-open\
-# "
-# if (( !${+commands[pipdeptree]} )); then
-#   pip3 install pipdeptree
-# fi
-# p=$(
-#   "${HOMEBREW_PREFIX}"/bin/pipdeptree --json-tree |
-#     jq -r 'map(.package_name) | .[]' |
-#     tr '[:upper:]' '[:lower:]' |
-#     sort -u
-# )
-# q=$(
-#   grep -Fvxf \
-#     <(brew info --json=v1 --installed |
-#       jq -r \
-#         'map(select((.dependencies + .build_dependencies +
-#          .test_dependencies)[] | contains("python"))) | .[] .name' |
-#       sort -u) \
-#     <(echo "$p")
-# )
-# {
-#   echo "$q" |
-#     grep -Evi ${PIPS_TO_IGNORE}
-# } | sort -u >"${LIST_DIR}/pip3s.txt"
 uv tool list >"${SNAPSHOT_DIR}/uv${SUFFIX}.txt"
 ("${HOMEBREW_PREFIX}"/anaconda3/bin/conda list \
   -p "${HOMEBREW_PREFIX}"/anaconda3 --explicit |

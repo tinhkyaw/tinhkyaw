@@ -197,11 +197,11 @@ if (( $+commands[brew] )); then
   fi
   # git-friendly
   # https://github.com/git-friendly/git-friendly
-  if (( $+commands[branch] )); then
-    fpath=(${HOMEBREW_PREFIX}/share/zsh/functions $fpath)
-    autoload -Uz _git && _git
-    compdef __git_branch_names branch
-  fi
+  # if (( $+commands[branch] )); then
+  #   fpath=(${HOMEBREW_PREFIX}/share/zsh/functions $fpath)
+  #   autoload -Uz _git && _git
+  #   compdef __git_branch_names branch
+  # fi
   # glances
   # https://nicolargo.github.io/glances/
   if (( $+commands[glances] )); then

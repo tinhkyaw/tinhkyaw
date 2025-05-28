@@ -30,11 +30,6 @@ doom env
 doom -! sync
 doom -! upgrade
 color=blue
-# if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
-#   print -P "%F{${color}}Updating ${HOME}/.zprezto%f"
-#   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
-#   zprezto-update
-# fi
 ZIM_HOME=${ZDOTDIR:-${HOME}}/.zim
 if [[ -s "${ZIM_HOME}/init.zsh" ]]; then
   source "${ZIM_HOME}/init.zsh"
