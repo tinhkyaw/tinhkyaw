@@ -11,31 +11,32 @@ if [[ ! -d "${HOME}/.yadr" ]]; then
   sh -c \
     "$(
       curl -fsSL \
-      ${GHUC}/skwp/dotfiles/master/install.sh
+        ${GHUC}/skwp/dotfiles/master/install.sh
     )"
   gsed -i 's/egrep -q/grep -Eq/' "${HOME}/.yadr/zsh/0_path.zsh"
   mr register "${HOME}/.yadr"
-  if [[ -d "${ZDOTDIR:-$HOME}/.zprezto" ]]; then
-    rm -rf "${ZDOTDIR:-$HOME}/.zprezto"
-  fi
-  git clone --recursive \
-    https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
-  setopt EXTENDED_GLOB
-  for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
-    ln -sf "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
-  done
-  cd "${ZDOTDIR:-$HOME}/.zprezto"
-  if [[ -d contrib ]]; then
-    rm -rf contrib
-  fi
-  git clone --recurse-submodules https://github.com/belak/prezto-contrib \
-    contrib
-  for rcfile in "${GIT_ROOT_DIR}"/conf/zsh/*; do
-    ln -sf "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
-  done
-  (cd "${ZDOTDIR:-$HOME}/.zprezto/modules/history-substring-search/external" \
-  && git checkout master)
+#   if [[ -d "${ZDOTDIR:-$HOME}/.zprezto" ]]; then
+#     rm -rf "${ZDOTDIR:-$HOME}/.zprezto"
+#   fi
+#   git clone --recursive \
+#     https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+#   setopt EXTENDED_GLOB
+#   for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
+#     ln -sf "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
+#   done
+#   cd "${ZDOTDIR:-$HOME}/.zprezto"
+#   if [[ -d contrib ]]; then
+#     rm -rf contrib
+#   fi
+#   git clone --recurse-submodules https://github.com/belak/prezto-contrib \
+#     contrib
+#   for rcfile in "${GIT_ROOT_DIR}"/conf/zsh/*; do
+#     ln -sf "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
+#   done
+#   (cd "${ZDOTDIR:-$HOME}/.zprezto/modules/history-substring-search/external" \
+#   && git checkout master)
 fi
+curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
 mkdir -p "${HOME}/.config/git/"
 ln -sf "${GIT_ROOT_DIR}/conf/git/gitattributes" \
   "${HOME}/.config/git/attributes"
@@ -63,6 +64,6 @@ for script_file in \
   update-all.zsh \
   update-gi.zsh; do
   ln -sf "${GIT_ROOT_DIR}/bin/${script_file}" \
-  "${HOME}/bin/"
+    "${HOME}/bin/"
 done
 cd "${WD}" || exit

@@ -100,15 +100,18 @@ icdiff
 igv
 ipython
 isort
+istioctl
 jbang
 jenv
 jj
 jmeter
 jq
 jupyterlab
+k9s
 kakoune
 kind
 kiota
+kn
 kops
 kotlin
 krew
@@ -136,6 +139,7 @@ memcached
 mercurial
 miller
 minikube
+mise
 mkvtoolnix
 monolith
 moreutils
@@ -209,6 +213,7 @@ spaceman-diff
 spark
 sphinx-doc
 spidermonkey
+steampipe
 stow
 subversion
 swiftformat
@@ -223,7 +228,9 @@ thefuck
 tidy-html5
 tig
 timeplus-io/timeplus/proton
+tmux-xpanes
 tmuxinator
+todo-txt
 tokyo-cabinet
 tox
 transmission-cli
