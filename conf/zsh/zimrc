@@ -82,14 +82,14 @@ zmodule joke/zim-yq
 zmodule kiesman99/zim-zoxide
 
 zmodule romkatv/powerlevel10k
-zmodule sorin-ionescu/prezto --root modules/command-not-found
-zmodule sorin-ionescu/prezto --root modules/gnu-utility
-zmodule sorin-ionescu/prezto --root modules/node
-zmodule sorin-ionescu/prezto --root modules/screen
-zmodule sorin-ionescu/prezto --root modules/tmux
+zmodule sorin-ionescu/prezto --root modules/command-not-found --no-submodules
+zmodule sorin-ionescu/prezto --root modules/gnu-utility --no-submodules
+zmodule sorin-ionescu/prezto --root modules/node --no-submodules
+zmodule sorin-ionescu/prezto --root modules/screen --no-submodules
+zmodule sorin-ionescu/prezto --root modules/tmux --no-submodules
 
-zmodule belak/prezto-contrib --root thefuck
-zmodule belak/prezto-contrib --root todo-txt
+zmodule belak/prezto-contrib --root thefuck --no-submodules
+zmodule belak/prezto-contrib --root todo-txt --no-submodules
 
 zmodule djui/alias-tips
 zmodule greymd/tmux-xpanes --no-submodules

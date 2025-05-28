@@ -35,8 +35,12 @@ color=blue
 #   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 #   zprezto-update
 # fi
-zimfw upgrade
-zimfw update
+ZIM_HOME=${ZDOTDIR:-${HOME}}/.zim
+if [[ -s "${ZIM_HOME}/init.zsh" ]]; then
+  source "${ZIM_HOME}/init.zsh"
+  zimfw upgrade -v
+  zimfw update -v
+fi
 cd "${HOME}" || exit
 mr -j5 update
 update-gi.zsh
