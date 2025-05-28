@@ -135,16 +135,7 @@ unset key
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
-# if [[ -z "$INTELLIJ_ENVIRONMENT_READER" ]]; then
-# Source Prezto.
-# https://github.com/sorin-ionescu/prezto
-# if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
-#   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
-#   # for history-substring-search module, this configuration may no longer be needed in the future
-#   export HISTORY_SUBSTRING_SEARCH_PREFIXED=true
-#   export HISTORY_SUBSTRING_SEARCH_ENSURE_UNIQUE=true
-# fi
-# fi
+
 ulimit -n unlimited
 # YADR
 # https://github.com/skwp/dotfiles
@@ -195,13 +186,6 @@ if (( $+commands[brew] )); then
     alias f='fzf --preview "bat --color \"always\" {}"'
     export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
   fi
-  # git-friendly
-  # https://github.com/git-friendly/git-friendly
-  # if (( $+commands[branch] )); then
-  #   fpath=(${HOMEBREW_PREFIX}/share/zsh/functions $fpath)
-  #   autoload -Uz _git && _git
-  #   compdef __git_branch_names branch
-  # fi
   # glances
   # https://nicolargo.github.io/glances/
   if (( $+commands[glances] )); then
