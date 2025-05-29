@@ -328,7 +328,6 @@ miniforge
 minizincide
 mixxx
 mmex
-mmhmm
 monitorcontrol
 moonlight
 mounty
