@@ -56,6 +56,13 @@ zstyle ':zim:zmodule' use 'degit'
 #zstyle ':zim:input' double-dot-expand yes
 
 #
+# ssh
+#
+
+# Defines the identities (from ~/.ssh) to be loaded and cached on login.
+zstyle ':zim:ssh' ids 'id_tin'
+
+#
 # termtitle
 #
 
