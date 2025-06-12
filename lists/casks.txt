@@ -440,7 +440,6 @@ recaf
 recents
 rectangle
 redis-insight
-reikey
 remoteviewer
 renpy
 replit

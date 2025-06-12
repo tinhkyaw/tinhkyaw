@@ -21,6 +21,7 @@ brex.bazel-kotlin
 britesnow.vscode-toggle-quotes
 brunnerh.insert-unicode
 burkeholland.simple-react-snippets
+camel-karavan.karavan
 chakrounanas.turbo-console-log
 charliermarsh.ruff
 christian-kohler.npm-intellisense
@@ -95,6 +96,7 @@ jakob101.relativepath
 james-yu.latex-workshop
 jasonlhy.hungry-delete
 jasonnutter.search-node-modules
+jbangdev.jbang-vscode
 jebbs.plantuml
 jeff-hykin.better-cpp-syntax
 joeberria.statusbarerror

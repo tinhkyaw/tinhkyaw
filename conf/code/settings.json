@@ -108,6 +108,7 @@
       "**/.trunk/*out": true
     }
   },
+  "firebase.firebasePath": "/opt/homebrew/bin/firebase",
   "geminicodeassist.enableTelemetry": false,
   "git": {
     "autofetch": true,
