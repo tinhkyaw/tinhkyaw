@@ -125,7 +125,6 @@ mkxml.vscode-filesize
 mrmlnc.vscode-autoprefixer
 ms-1es.pull-request-quantifier
 ms-azuretools.vscode-docker
-ms-codeoptimizations.code-optimizations-preview
 ms-cst-e.vscode-devskim
 ms-dotnettools.blazorwasm-companion
 ms-dotnettools.vscode-dotnet-pack
