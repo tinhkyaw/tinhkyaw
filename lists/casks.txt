@@ -29,6 +29,7 @@ asciidocfx
 asset-catalog-tinkerer
 audacity
 aural
+aws-vault-binary
 balance-lock
 balenaetcher
 banksiagui
@@ -110,7 +111,6 @@ digikam
 digital
 discord
 djview
-docker
 docker-desktop
 dotnet-sdk
 double-commander
