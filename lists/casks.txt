@@ -479,6 +479,7 @@ simsim
 sitala
 sketch
 skim
+skitch
 slack
 sleek-app
 slidepilot
