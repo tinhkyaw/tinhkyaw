@@ -75,7 +75,6 @@ google.wireit
 grapecity.gc-excelviewer
 graphql.vscode-graphql
 graphql.vscode-graphql-execution
-graphql.vscode-graphql-syntax
 gruntfuggly.todo-tree
 hancel.markdown-image
 hashicorp.hcl
@@ -88,7 +87,6 @@ humao.rest-client
 ibm.output-colorizer
 idleberg.icon-fonts
 ionide.ionide-fsharp
-ionutvmi.path-autocomplete
 iterative.dvc
 iterative.vscode-dvc-pack
 jack89ita.open-file-from-path
@@ -133,7 +131,6 @@ ms-edgedevtools.vscode-edge-devtools
 ms-edu.pxt-vscode-web
 ms-graph.kiota
 ms-inkling.ms-inkling
-ms-iot.vscode-ros
 msjsdiag.cordova-tools
 msjsdiag.vscode-react-native
 ms-kubernetes-tools.kind-vscode
@@ -147,6 +144,7 @@ ms-python.gather
 ms-python.isort
 ms-python.mypy-type-checker
 ms-python.pylint
+ms-python.vscode-python-envs
 msrvida.vscode-sanddance
 ms-sarifvscode.sarif-viewer
 ms-semantic-kernel.semantic-kernel
@@ -177,10 +175,10 @@ ms-vscode.vscode-websearchforcopilot
 ms-vscode.wasm-dwarf-debugging
 ms-windows-ai-studio.windows-ai-studio
 mtxr.sqltools
+mulesoftinc.aml-vscode
 mushan.vscode-paste-image
 naumovs.color-highlight
 nhoizey.gremlins
-oderwat.indent-rainbow
 pdconsec.vscode-print
 pdets-prod.ai-powered-authoring
 peterschmalfeldt.explorer-exclude
@@ -197,7 +195,10 @@ redhat.ansible
 redhat.apache-camel-extension-pack
 redhat.fabric8-analytics
 redhat.vscode-commons
+redhat.vscode-knative
 redis.redis-for-vscode
+reditorsupport.r
+reditorsupport.r-syntax
 remisa.shellman
 richie5um2.vscode-sort-json
 ritwickdey.liveserver
@@ -209,11 +210,15 @@ ryu1kn.edit-with-shell
 ryu1kn.partial-diff
 ryu1kn.text-marker
 sainoba.px-to-rem
+salesforce.analyticsdx-vscode
 salesforce.salesforcedx-vscode
 salesforce.salesforcedx-vscode-expanded
+salesforce.salesforcedx-vscode-mobile
+salesforce.sfdocs-vscode-extension-pack
 saoudrizwan.claude-dev
 sburg.vscode-javascript-booster
 scalameta.metals
+sfdc.bazel-vscode-java
 shd101wyy.markdown-preview-enhanced
 simonsiefke.svg-preview
 sleistner.vscode-fileutils
@@ -229,6 +234,7 @@ tamasfe.even-better-toml
 tcwalther.cython
 timonwong.shellcheck
 tootone.org-mode
+tyriar.lorem-ipsum
 tyriar.sort-lines
 visualstudioexptteam.vscodeintellicode
 visualstudioexptteam.vscodeintellicode-completions
@@ -236,7 +242,6 @@ visualstudiotoolsforunity.vstuc
 vscjava.vscode-java-upgrade
 vscjava.vscode-lombok
 vscode-icons-team.vscode-icons
-vsls-contrib.codetour
 waderyan.gitblame
 wayou.vscode-todo-highlight
 webfreak.debug
