@@ -28,7 +28,6 @@ ariang
 asciidocfx
 asset-catalog-tinkerer
 audacity
-aural
 aws-vault-binary
 balance-lock
 balenaetcher
