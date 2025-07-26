@@ -41,6 +41,7 @@ bitcoin-core
 bitwarden
 blender
 blender-benchmark
+block-goose
 blockbench
 bluetility
 bonjeff
@@ -67,7 +68,6 @@ cinebench
 circuitjs1
 cirrus
 claude
-clickhouse
 cljstyle
 clocker
 cloudcompare
@@ -122,7 +122,6 @@ easyfind
 eclipse-platform
 elan
 electerm
-electron
 electron-fiddle
 emojipedia
 etrecheckpro
@@ -143,7 +142,6 @@ font-meslo-for-powerlevel10k
 fontbase
 fontgoggles
 forecast
-fpc-laz
 freac
 free-ruler
 free42-binary
@@ -158,6 +156,7 @@ fuwari
 ganttproject
 gaphor
 gargoyle
+gcloud-cli
 gdisk
 geany
 geogebra
@@ -183,7 +182,6 @@ golly
 goneovim
 google-ads-editor
 google-chrome
-google-cloud-sdk
 google-drive
 google-trends
 gplates
@@ -478,7 +476,6 @@ simsim
 sitala
 sketch
 skim
-skitch
 slack
 sleek-app
 slidepilot
@@ -540,7 +537,6 @@ telegram-desktop
 temurin
 temurin@11
 terminology
-tev
 tex-live-utility
 texmacs
 texmaker

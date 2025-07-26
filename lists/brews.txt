@@ -19,6 +19,7 @@ bat
 bazel
 binutils
 black
+block-goose-cli
 bottom
 brimdata/tap/super
 buildifier
@@ -202,7 +203,6 @@ scrapy
 screen
 shellcheck
 silicon
-simdjson
 sip
 skaffold
 smartmontools

@@ -6,6 +6,8 @@ amazonwebservices.amazon-q-vscode
 amazonwebservices.aws-toolkit-vscode
 analysis-services.tmdl
 anjali.clipboard-history
+anthropic.claude-code
+anthropic.url-content-opener
 bazelbuild.vscode-bazel
 bbugh.change-color-format
 betterthantomorrow.calva
@@ -47,6 +49,7 @@ editorconfig.editorconfig
 eeyore.yapf
 egomobile.vscode-powertools
 ericadamski.carbon-now-sh
+esbenp.prettier-vscode
 executablebookproject.myst-highlight
 firefox-devtools.vscode-firefox-debug
 flowtype.flow-for-vscode
@@ -55,6 +58,7 @@ formulahendry.auto-rename-tag
 foxundermoon.shell-format
 fwcd.kotlin
 genaiscript.genaiscript-vscode
+github.copilot-chat
 github.remotehub
 github.vscode-codeql
 github.vscode-github-actions
@@ -87,6 +91,7 @@ humao.rest-client
 ibm.output-colorizer
 idleberg.icon-fonts
 ionide.ionide-fsharp
+ionutvmi.path-autocomplete
 iterative.dvc
 iterative.vscode-dvc-pack
 jack89ita.open-file-from-path
@@ -143,7 +148,6 @@ ms-python.gather
 ms-python.isort
 ms-python.mypy-type-checker
 ms-python.pylint
-ms-python.vscode-python-envs
 msrvida.vscode-sanddance
 ms-sarifvscode.sarif-viewer
 ms-semantic-kernel.semantic-kernel
@@ -176,8 +180,10 @@ mtxr.sqltools
 mushan.vscode-paste-image
 naumovs.color-highlight
 nhoizey.gremlins
+oderwat.indent-rainbow
 pdconsec.vscode-print
 peterschmalfeldt.explorer-exclude
+philosowaffle.openapi-designer
 pkief.material-icon-theme
 pnp.polacode
 prompt-flow.prompt-flow
@@ -234,6 +240,7 @@ visualstudioexptteam.vscodeintellicode-completions
 visualstudiotoolsforunity.vstuc
 vscjava.vscode-lombok
 vscode-icons-team.vscode-icons
+vsls-contrib.codetour
 waderyan.gitblame
 wayou.vscode-todo-highlight
 webfreak.debug
