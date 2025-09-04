@@ -76,6 +76,7 @@ gitui
 glances
 gnu-sed
 go
+go@1.24
 gopass
 gopls
 gops
@@ -234,7 +235,6 @@ tokyo-cabinet
 tox
 transmission-cli
 trash
-tree
 unison
 uv
 uvicorn
