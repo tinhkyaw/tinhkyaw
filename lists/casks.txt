@@ -313,7 +313,6 @@ oclint
 odbc-manager
 omnidisksweeper
 onyx
-open-video-downloader
 opencpn
 openoffice
 openvisualtraceroute
