@@ -473,7 +473,6 @@ tex-live-utility
 texmacs
 texmaker
 texshop
-texstudio
 textmate
 texworks
 the-unarchiver
@@ -501,7 +500,6 @@ ukelele
 unclack
 unicodechecker
 uninstallpkg
-universal-gcode-platform
 universal-media-server
 unpkg
 usage-app
