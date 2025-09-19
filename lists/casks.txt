@@ -297,7 +297,6 @@ netiquette
 netlogo
 netnewswire
 netron
-netxms-console
 nimble-commander
 nimblenote
 nisus-thesaurus
