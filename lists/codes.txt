@@ -58,7 +58,6 @@ formulahendry.auto-rename-tag
 foxundermoon.shell-format
 fwcd.kotlin
 genaiscript.genaiscript-vscode
-github.copilot-chat
 github.remotehub
 github.vscode-codeql
 github.vscode-github-actions
