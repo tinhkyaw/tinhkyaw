@@ -171,7 +171,6 @@ pipx
 pngquant
 pnpm
 poetry
-postgresql@14
 psgrep
 pssh
 puzzles
