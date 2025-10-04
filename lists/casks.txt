@@ -19,6 +19,7 @@ antconc
 apache-couchdb
 apparency
 appcleaner
+appflowy
 arc
 archipelago
 asciidocfx
@@ -53,6 +54,7 @@ catch
 celestia
 cemu
 chalk
+chatterino
 cinderella
 cinebench
 cirrus
@@ -191,6 +193,8 @@ ipepresenter
 iptvnator
 isabelle
 iterm2
+itermai
+itermbrowserplugin
 itk-snap
 itsycal
 jabref
@@ -317,6 +321,7 @@ openvisualtraceroute
 openvpn-connect
 openzfs
 orange
+origami-studio
 osquery
 oversight
 packages
