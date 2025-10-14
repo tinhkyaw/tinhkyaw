@@ -54,6 +54,7 @@ catch
 celestia
 cemu
 chalk
+chatgpt
 chatterino
 cinderella
 cinebench
@@ -455,7 +456,6 @@ swiftplantumlapp
 swiftpm-catalog
 swimat
 syncplay
-syncterm
 syncthing-app
 syntax-highlight
 sysex-librarian

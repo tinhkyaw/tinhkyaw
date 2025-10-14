@@ -197,6 +197,7 @@ rustup
 sbt
 scala
 scalacenter/bloop/bloop
+scipy
 scrapy
 screen
 shellcheck
