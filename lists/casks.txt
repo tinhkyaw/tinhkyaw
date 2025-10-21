@@ -1,6 +1,5 @@
 adobe-acrobat-reader
 airtable
-alacritty
 aladin
 alfred
 algoapp
