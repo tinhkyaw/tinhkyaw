@@ -54,11 +54,13 @@ celestia
 cemu
 chalk
 chatgpt
+chatgpt-atlas
 chatterino
 cinderella
 cinebench
 cirrus
 claude
+claude-code
 cljstyle
 clocker
 cloudcompare
@@ -212,7 +214,6 @@ jellyfin-media-player
 joplin
 josm
 jt-bridge
-jubler
 julia-app
 jumpcut
 jupyter-notebook-viewer
@@ -277,7 +278,6 @@ midikeys
 miditrail
 milkman
 milkytracker
-min
 miniforge
 minizincide
 mixxx
