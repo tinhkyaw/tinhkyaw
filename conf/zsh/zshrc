@@ -240,8 +240,8 @@ if (( $+commands[brew] )); then
   fi
   # openssl
   # https://openssl.org/
-  if [[ -d "${HOMEBREW_PREFIX}/opt/openssl" ]]; then
-    OPENSSL_PREFIX=${HOMEBREW_PREFIX}/opt/openssl
+  if [[ -d "${HOMEBREW_PREFIX}/opt/openssl@3" ]]; then
+    OPENSSL_PREFIX=${HOMEBREW_PREFIX}/opt/openssl@3
     CPPFLAGS+=" -I${OPENSSL_PREFIX}/include"
     LDFLAGS+=" -L${OPENSSL_PREFIX}/lib"
     path+=${OPENSSL_PREFIX}/bin

@@ -197,6 +197,7 @@ visualstudioexptteam.vscodeintellicode-completions
 visualstudiotoolsforunity.vstuc
 vmware.vscode-boot-dev-pack
 vscjava.vscode-java-pack
+vscjava.vscode-java-upgrade
 vscjava.vscode-lombok
 vscode-icons-team.vscode-icons
 vsls-contrib.codetour
