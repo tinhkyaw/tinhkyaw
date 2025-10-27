@@ -253,6 +253,7 @@ yapf
 yarn
 yq
 z
+zimfw
 zlib
 zola
 zookeeper
