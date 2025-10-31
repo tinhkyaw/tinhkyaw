@@ -63,7 +63,7 @@ zmodule homebrew
 zmodule k
 zmodule magic-enter
 zmodule prompt-pwd
-# zmodule ruby
+zmodule ruby
 zmodule run-help
 zmodule ssh
 

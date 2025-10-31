@@ -1,6 +1,7 @@
 acorn
 babel-eslint
 carbon-now-cli
+cline
 cordova
 dockly
 eslint
