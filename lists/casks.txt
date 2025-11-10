@@ -514,7 +514,6 @@ vienna
 vimr
 virtualbox
 visit
-visual-paradigm-ce
 visual-studio-code
 visualvm
 vivaldi
