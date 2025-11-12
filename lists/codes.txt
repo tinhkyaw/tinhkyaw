@@ -76,7 +76,6 @@ jeff-hykin.better-cpp-syntax
 johnpapa.vscode-peacock
 kevinrose.vsc-python-indent
 kisstkondoros.vscode-gutter-preview
-lextudio.restructuredtext
 littlefoxteam.vscode-python-test-adapter
 llvm-vs-code-extensions.vscode-clangd
 localizely.flutter-intl
