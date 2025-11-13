@@ -316,7 +316,6 @@ odbc-manager
 omnidisksweeper
 onyx
 opencpn
-openoffice
 openvisualtraceroute
 openvpn-connect
 openzfs
