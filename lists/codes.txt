@@ -191,8 +191,6 @@ tootone.org-mode
 trond-snekvik.simple-rst
 tyriar.lorem-ipsum
 tyriar.sort-lines
-visualstudioexptteam.vscodeintellicode
-visualstudioexptteam.vscodeintellicode-completions
 visualstudiotoolsforunity.vstuc
 vmware.vscode-boot-dev-pack
 vscjava.vscode-java-pack
