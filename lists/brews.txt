@@ -257,7 +257,6 @@ zimfw
 zlib
 zola
 zookeeper
-zopfli
 zoxide
 zsh
 zsh-autosuggestions
