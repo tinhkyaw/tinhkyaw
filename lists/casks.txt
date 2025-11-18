@@ -439,7 +439,6 @@ ssdreporter-free
 standard-notes
 stats
 stellarium
-stolendata-mpv
 storyboarder
 stringz
 subethaedit
