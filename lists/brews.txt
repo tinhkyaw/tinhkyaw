@@ -81,7 +81,6 @@ gopass
 gopls
 gops
 gradle
-gradle-completion
 grc
 grep
 gron
