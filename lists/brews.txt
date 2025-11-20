@@ -118,6 +118,7 @@ krew
 kube-ps1
 kubectx
 leiningen
+libdvdcss
 liblinear
 libmaxminddb
 libproxy

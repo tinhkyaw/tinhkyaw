@@ -15,6 +15,7 @@ android-studio
 anki
 another-redis-desktop-manager
 antconc
+antigravity
 apache-couchdb
 apparency
 appcleaner
