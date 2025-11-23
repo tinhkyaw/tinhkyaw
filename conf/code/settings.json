@@ -65,6 +65,7 @@
   "amazonQ.telemetry": false,
   "application.shellEnvironmentResolutionTimeout": 120,
   "arduino.useArduinoCli": true,
+  "aws.cloudformation.telemetry.enabled": false,
   "aws.telemetry": false,
   "carbon.fontFamily": "Source Code Pro",
   "cloudcode": {
