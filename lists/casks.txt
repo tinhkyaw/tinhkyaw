@@ -392,7 +392,6 @@ scribus
 scroll-reverser
 sdformatter
 sequel-ace
-session-manager-plugin
 sf-symbols
 shield
 shifty

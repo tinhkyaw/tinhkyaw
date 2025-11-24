@@ -95,7 +95,6 @@ mrmlnc.vscode-autoprefixer
 ms-azuretools.vscode-docker
 ms-dotnettools.blazorwasm-companion
 ms-dotnettools.vscode-dotnet-pack
-ms-dotnettools.vscodeintellicode-csharp
 ms-edgedevtools.vscode-edge-devtools
 ms-inkling.ms-inkling
 msjsdiag.cordova-tools
