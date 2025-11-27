@@ -51,6 +51,8 @@ github.vscode-pull-request-github
 glenn2223.live-sass
 golang.go
 googlecloudtools.cloudcode
+google.colab
+google.gemini-cli-vscode-ide-companion
 grapecity.gc-excelviewer
 graphql.vscode-graphql
 graphql.vscode-graphql-execution
