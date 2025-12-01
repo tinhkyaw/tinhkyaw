@@ -454,7 +454,6 @@ swiftpm-catalog
 swimat
 syncplay
 syncthing-app
-syntax-highlight
 sysex-librarian
 tabby
 tableplus
