@@ -12,7 +12,7 @@ brew cleanup -s
 brew doctor
 /usr/sbin/softwareupdate -ia
 mas outdated
-mas upgrade
+# mas upgrade
 gem update --system
 gem update
 gem cleanup
