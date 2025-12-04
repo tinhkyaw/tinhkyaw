@@ -110,7 +110,9 @@
     }
   },
   "firebase.firebasePath": "/opt/homebrew/bin/firebase",
-  "geminicodeassist.enableTelemetry": false,
+  "geminicodeassist": {
+    "enableTelemetry": false
+  },
   "git": {
     "autofetch": true,
     "path": "/opt/homebrew/bin/git"
