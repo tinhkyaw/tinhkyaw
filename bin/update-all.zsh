@@ -6,8 +6,8 @@ GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 LIST_DIR="${GIT_ROOT_DIR}/lists"
 brew missing
 brew update
-brew upgrade
-brew cu -ay
+brew upgrade --greedy
+# brew cu -ay
 brew cleanup -s
 brew doctor
 /usr/sbin/softwareupdate -ia
