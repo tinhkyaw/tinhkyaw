@@ -6,6 +6,7 @@ if (( !${+commands[brew]} )); then
         https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
     )"
   sudo spctl --global-disable
+  brew developer on
   brew install coreutils fd git grep mr ripgrep
   xargs -I {} brew tap {} <taps.txt
   brew install railwaycat/emacsmacport/emacs-mac \
