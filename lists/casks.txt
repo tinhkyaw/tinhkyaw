@@ -78,6 +78,7 @@ cursor
 customshortcuts
 cutter
 cyberduck
+daisydisk
 dangerzone
 datweatherdoe
 db-browser-for-sqlite
