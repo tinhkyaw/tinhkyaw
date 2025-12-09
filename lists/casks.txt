@@ -190,7 +190,6 @@ inform
 inkscape
 inkstitch
 inky
-intellij-idea-ce
 invisor-lite
 ipe
 ipepresenter
@@ -354,7 +353,6 @@ processing
 procexp
 publii
 publish-or-perish
-pycharm-ce
 pyzo
 qcad
 qlc+
