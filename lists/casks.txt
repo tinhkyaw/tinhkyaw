@@ -193,7 +193,6 @@ inky
 invisor-lite
 ipe
 ipepresenter
-iptvnator
 isabelle
 iterm2
 itermai
@@ -442,6 +441,7 @@ storyboarder
 stringz
 subethaedit
 subler
+super
 supercollider
 surge-xt
 suspicious-package

@@ -21,7 +21,6 @@ binutils
 black
 block-goose-cli
 bottom
-brimdata/tap/super
 buildifier
 byobu
 carthage

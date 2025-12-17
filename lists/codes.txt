@@ -32,6 +32,7 @@ docker.docker
 donjayamanne.git-extension-pack
 donjayamanne.python-extension-pack
 dotjoshjohnson.xml
+drblury.protobuf-vsc
 ecmel.vscode-html-css
 editorconfig.editorconfig
 ericadamski.carbon-now-sh
@@ -211,4 +212,3 @@ yatki.vscode-surround
 ybaumes.highlight-trailing-white-spaces
 yzhang.markdown-all-in-one
 zignd.html-css-class-completion
-zxh404.vscode-proto3
