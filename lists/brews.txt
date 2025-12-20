@@ -68,7 +68,6 @@ gemini-cli
 gh
 ghi
 git-delta
-git-flow
 git-friendly/git-friendly/git-friendly
 git-lfs
 git-subrepo

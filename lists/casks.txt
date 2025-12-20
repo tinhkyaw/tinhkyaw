@@ -276,7 +276,6 @@ microsoft-outlook
 midi-monitor
 midikeys
 miditrail
-milkman
 milkytracker
 miniforge
 minizincide
@@ -541,7 +540,6 @@ xscreensaver
 yacreader
 youtube-to-mp3
 yt-music
-zap
 zed
 zettlr
 zprint
