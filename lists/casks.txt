@@ -322,7 +322,6 @@ orange
 origami-studio
 osquery
 oversight
-packages
 packetsender
 paintbrush
 panoply
@@ -464,7 +463,6 @@ telegram
 telegram-desktop
 temurin
 temurin@11
-terminology
 tev
 tex-live-utility
 texmacs
