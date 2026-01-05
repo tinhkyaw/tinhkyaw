@@ -129,6 +129,7 @@
     },
     "telemetry.enabled": false
   },
+  "go.diagnostic.vulncheck": "Imports",
   "go.toolsManagement.autoUpdate": true,
   "guides.sendUsagesAndStats": false,
   "latex-workshop": {
@@ -172,10 +173,14 @@
   "sarif-viewer.connectToGithubCodeScanning": "off",
   "shellcheck.executablePath": "/opt/homebrew/bin/shellcheck",
   "snowflake.connectionsConfigFile": "${env:HOME}/.snowflake/connections.toml",
-  "terminal.external.osxExec": "iTerm.app",
-  "terminal.integrated.fontFamily": "'MesloLGS NF'",
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "terminal": {
+    "external.osxExec": "iTerm.app",
+    "integrated": {
+      "fontFamily": "'MesloLGS NF'",
+      "fontSize": 14,
+      "persistentSessionReviveProcess": "never"
+    }
+  },
   "testExplorer.useNativeTesting": true,
   "textmarker.enableTelemetry": false,
   "vs-kubernetes": {
