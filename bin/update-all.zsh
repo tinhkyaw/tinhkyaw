@@ -27,7 +27,7 @@ rustup update
 conda update -n base --all -y
 gcloud components update -q
 doom env
-doom -! sync
+doom sync
 doom -! upgrade
 color=blue
 ZIM_HOME=${ZDOTDIR:-${HOME}}/.zim

@@ -43,6 +43,7 @@ diff-so-fancy
 difftastic
 direnv
 dive
+dotnet
 dprint
 duti
 dvc
@@ -92,6 +93,7 @@ http-prompt
 httpie
 hub
 hugo
+hunspell
 hyperfine
 icdiff
 igv
@@ -118,6 +120,7 @@ leiningen
 libdvdcss
 liblinear
 libmaxminddb
+libmng
 libproxy
 libsmi
 lightgbm
@@ -173,6 +176,7 @@ pycodestyle
 pyenv
 pylint
 pyoxidizer
+pyqt
 python-build
 python-lsp-server
 qcachegrind
@@ -205,6 +209,7 @@ snowflake-cli
 sops
 spaceman-diff
 spark
+speedtest-cli
 sphinx-doc
 spidermonkey
 sqruff

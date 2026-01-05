@@ -449,7 +449,6 @@ swiftformat-for-xcode
 swiftplantumlapp
 swiftpm-catalog
 swimat
-syncplay
 syncthing-app
 sysex-librarian
 tabby
