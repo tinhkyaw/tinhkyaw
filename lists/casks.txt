@@ -146,6 +146,7 @@ gephi
 get-iplayer-automator
 gfxcardstatus
 ghdl
+ghostty
 gimp
 gitahead
 gitbutler
