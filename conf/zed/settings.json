@@ -1,0 +1,42 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "auto_install_extensions": {
+    "solarized": true,
+    "git_firefly": true,
+    "html": true,
+    "java": true,
+    "log": true,
+    "lua": true,
+    "matlab": true,
+    "perplexity": true,
+    "postgres-context-server": true,
+    "proto": true,
+    "ruby": true,
+    "sqruff": true,
+    "svelte": true,
+    "toml": true,
+    "vue": true
+  },
+  "buffer_font_size": 16,
+  "context_servers": {
+    "postgres-context-server": {
+      "enabled": false,
+      "settings": {
+        "database_url": "postgresql://myuser:mypassword@localhost:5432/mydatabase"
+      }
+    }
+  },
+  "theme": {
+    "dark": "Solarized Dark",
+    "light": "Solarized Light",
+    "mode": "system"
+  },
+  "ui_font_size": 16
+}

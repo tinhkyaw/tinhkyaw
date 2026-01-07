@@ -21,7 +21,6 @@ charliermarsh.ruff
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
 chrmarti.regex
-codeium.codeium
 continue.continue
 cschlosser.doxdocgen
 dart-code.dart-code

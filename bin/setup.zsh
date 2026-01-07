@@ -39,15 +39,13 @@ brew install --cask temurin
 xargs -I {} brew install --cask {} <"${LIST_DIR}"/casks.txt
 conda init "$(basename "${SHELL}")"
 xargs npm install -g <"${LIST_DIR}"/npms.txt
-for code_cmd in code cursor windsurf; do
-  if [[ ${code_cmd} == 'windsurf' ]]; then
-    grep -v 'codeium.codeium' ${LIST_DIR}/codes.txt | xargs -I {} "${code_cmd}" --install-extension {}
-  else
-    xargs -I {} "${code_cmd}" --install-extension {} <"${LIST_DIR}"/codes.txt
-  fi
+for code_cmd in code cursor; do
+  xargs -I {} "${code_cmd}" --install-extension {} <"${LIST_DIR}"/codes.txt
 done
 ln -sf "${GIT_ROOT_DIR}/conf/code/settings.json" \
   "${HOME}/Library/Application Support/Windsurf/User/settings.json"
+ln -sf "${GIT_ROOT_DIR}/conf/zed/settings.json" \
+  "${HOME}/.config/zed/settings.json"
 export GRPC_PYTHON_BUILD_SYSTEM_OPENSSL=1
 export GRPC_PYTHON_BUILD_SYSTEM_ZLIB=1
 ln -s "${HOMEBREW_PREFIX}"/opt/llvm/bin/clang "${HOMEBREW_PREFIX}"/bin/clang-omp
