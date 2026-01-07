@@ -45,6 +45,7 @@ direnv
 dive
 dotnet
 dprint
+dust
 duti
 dvc
 eksctl
@@ -143,6 +144,7 @@ mise
 mkvtoolnix
 monolith
 moreutils
+mosh
 mr
 mstch
 mypy
@@ -155,6 +157,7 @@ nginx
 nim
 ninja
 octave
+opencode
 openvino
 oxipng
 p7zip
@@ -188,7 +191,6 @@ reattach-to-user-namespace
 redis
 rename
 renameutils
-ripgrep
 rocksdb
 ronn
 rsync
@@ -203,6 +205,7 @@ screen
 shellcheck
 silicon
 sip
+sk
 skaffold
 smartmontools
 snowflake-cli
@@ -235,6 +238,7 @@ tokyo-cabinet
 tox
 transmission-cli
 trash
+typst
 unison
 uv
 uvicorn

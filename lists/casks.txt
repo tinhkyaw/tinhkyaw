@@ -376,6 +376,7 @@ remoteviewer
 renpy
 replit
 responsively
+rio
 ripme
 roaringapps
 rstudio
@@ -516,6 +517,7 @@ vorta
 vv
 warp
 waterfox
+wave
 webull
 weka
 wezterm
