@@ -6,6 +6,7 @@ amazonwebservices.amazon-q-vscode
 amazonwebservices.aws-toolkit-vscode
 analysis-services.tmdl
 anthropic.claude-code
+astro-build.astro-vscode
 bazelbuild.vscode-bazel
 betterthantomorrow.calva
 bierner.emojisense
@@ -27,6 +28,7 @@ dart-code.dart-code
 dart-code.flutter
 davidanson.vscode-markdownlint
 dbaeumer.vscode-eslint
+denoland.vscode-deno
 docker.docker
 donjayamanne.git-extension-pack
 donjayamanne.python-extension-pack
@@ -89,6 +91,9 @@ mathworks.language-matlab
 mattn.lisp
 mechatroner.rainbow-csv
 meganrogge.template-string-converter
+meta.pyrefly
+meta.relay
+meta.sapling-scm
 mhutchie.git-graph
 mike-co.import-sorter
 mitaki28.vscode-clang
@@ -183,6 +188,7 @@ spmeesseman.vscode-taskexplorer
 spywhere.guides
 streetsidesoftware.code-spell-checker
 stylelint.vscode-stylelint
+svelte.svelte-vscode
 swiftlang.swift-vscode
 syler.sass-indented
 tamasfe.even-better-toml
@@ -199,6 +205,7 @@ vscjava.vscode-java-upgrade
 vscjava.vscode-lombok
 vscode-icons-team.vscode-icons
 vsls-contrib.codetour
+vue.volar
 waderyan.gitblame
 wayou.vscode-todo-highlight
 webfreak.debug

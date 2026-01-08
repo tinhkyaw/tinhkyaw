@@ -24,7 +24,9 @@ buildifier
 byobu
 carthage
 chezmoi
+chezscheme
 clipboard
+clojure
 cloudflare-cli4
 cloudflare-wrangler
 cmake
@@ -37,6 +39,7 @@ cromwell
 csshx
 ctags
 curl
+dart-lang/dart/dart
 dateutils
 deno
 diff-so-fancy
@@ -49,8 +52,8 @@ dust
 duti
 dvc
 eksctl
+elixir
 entr
-erlang
 eza
 fabric
 fades
@@ -66,7 +69,6 @@ gawk
 geckodriver
 geeqie
 gemini-cli
-gh
 ghi
 git-delta
 git-friendly/git-friendly/git-friendly
@@ -86,6 +88,7 @@ gron
 guile
 gum
 harelba/q/q
+harper
 hashicorp/tap/terraform
 hbase
 helm
@@ -141,6 +144,7 @@ mercurial
 miller
 minikube
 mise
+mit-scheme
 mkvtoolnix
 monolith
 moreutils
@@ -156,7 +160,10 @@ nghttp2
 nginx
 nim
 ninja
+nushell
+ocaml
 octave
+odin
 opencode
 openvino
 oxipng
@@ -180,6 +187,7 @@ pyenv
 pylint
 pyoxidizer
 pyqt
+pyrefly
 python-build
 python-lsp-server
 qcachegrind
@@ -196,6 +204,7 @@ ronn
 rsync
 ruff
 rustup
+sapling
 sbt
 scala
 scalacenter/bloop/bloop
@@ -238,6 +247,7 @@ tokyo-cabinet
 tox
 transmission-cli
 trash
+ty
 typst
 unison
 uv
