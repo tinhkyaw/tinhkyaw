@@ -9,7 +9,6 @@
 {
   "auto_install_extensions": {
     "astro": true,
-    "bash": true,
     "biome": true,
     "clojure": true,
     "codebook": true,
@@ -48,7 +47,6 @@
     "swift": true,
     "terraform": true,
     "toml": true,
-    "ty": true,
     "vue": true,
     "xml": true
   },
