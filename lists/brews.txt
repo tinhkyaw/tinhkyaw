@@ -2,6 +2,7 @@ ack
 adns
 aider
 ansible
+ansible-lint
 ant
 apache-flink
 apache-spark

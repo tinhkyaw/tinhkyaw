@@ -8,10 +8,12 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "auto_install_extensions": {
+    "ansible": true,
     "astro": true,
     "biome": true,
     "clojure": true,
     "codebook": true,
+    "csharp": true,
     "dart": true,
     "deno": true,
     "docker-compose": true,
@@ -29,6 +31,7 @@
     "make": true,
     "markdown-oxide": true,
     "matlab": true,
+    "mcp-server-brave-search": true,
     "nix": true,
     "nu": true,
     "ocaml": true,
@@ -38,6 +41,7 @@
     "proto": true,
     "pyrefly": true,
     "ruby": true,
+    "scala": true,
     "scheme": true,
     "solarized": true,
     "sql": true,
