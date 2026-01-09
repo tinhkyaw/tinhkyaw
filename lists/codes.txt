@@ -37,6 +37,7 @@ dotjoshjohnson.xml
 drblury.protobuf-vsc
 ecmel.vscode-html-css
 editorconfig.editorconfig
+elmtooling.elm-ls-vscode
 ericadamski.carbon-now-sh
 esbenp.prettier-vscode
 firefox-devtools.vscode-firefox-debug
@@ -177,6 +178,7 @@ rust-lang.rust-analyzer
 ryu1kn.partial-diff
 ryu1kn.text-marker
 sainoba.px-to-rem
+salesforce.salesforcedx-vscode-soql
 saoudrizwan.claude-dev
 sburg.vscode-javascript-booster
 scalameta.metals
