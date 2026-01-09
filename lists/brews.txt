@@ -17,6 +17,7 @@ awscli
 bat
 bazel
 binutils
+biome
 black
 block-goose-cli
 bottom
@@ -92,6 +93,7 @@ harelba/q/q
 harper
 hashicorp/tap/terraform
 hbase
+helix
 helm
 hr
 http-prompt
@@ -136,6 +138,7 @@ lzip
 macvim
 make
 mariadb
+markdown-oxide
 mas
 maven
 md5sha1sum
@@ -204,6 +207,7 @@ renameutils
 rocksdb
 ronn
 ruff
+rust
 rustup
 sapling
 sbt
