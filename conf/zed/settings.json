@@ -19,6 +19,7 @@
     "docker-compose": true,
     "dockerfile": true,
     "elixir": true,
+    "elm": true,
     "git-firefly": true,
     "harper": true,
     "html": true,
