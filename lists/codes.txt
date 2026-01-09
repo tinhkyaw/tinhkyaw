@@ -149,6 +149,7 @@ nvidia.nsight-copilot
 nvidia.nsight-vscode-edition
 ocamllabs.ocaml-platform
 oderwat.indent-rainbow
+openai.chatgpt
 pdconsec.vscode-print
 peterschmalfeldt.explorer-exclude
 pkief.material-icon-theme
@@ -175,7 +176,6 @@ rust-lang.rust-analyzer
 ryu1kn.partial-diff
 ryu1kn.text-marker
 sainoba.px-to-rem
-salesforce.salesforcedx-vscode
 saoudrizwan.claude-dev
 sburg.vscode-javascript-booster
 scalameta.metals

@@ -68,6 +68,7 @@ cloudcompare
 cocoarestclient
 codeedit
 codelite
+codex
 cog-app
 compositor
 connectmenow
