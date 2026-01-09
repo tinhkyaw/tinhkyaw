@@ -12,6 +12,7 @@ betterthantomorrow.calva
 bierner.emojisense
 bierner.markdown-emoji
 bierner.markdown-mermaid
+biomejs.biome
 blackmist.linkcheckmd
 bourhaouta.tailwindshades
 bradymholt.pgformatter
