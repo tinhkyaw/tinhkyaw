@@ -23,7 +23,7 @@
   },
   "[shellscript]": {
     "editor": {
-      "defaultFormatter": "foxundermoon.shell-format",
+      "defaultFormatter": "mads-hartmann.bash-ide-vscode",
       "formatOnSave": true
     }
   },

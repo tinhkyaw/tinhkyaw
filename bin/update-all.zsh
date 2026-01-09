@@ -29,6 +29,8 @@ gcloud components update -q
 doom env
 doom sync
 doom -! upgrade
+opam update
+opam upgrade
 color=blue
 ZIM_HOME=${ZDOTDIR:-${HOME}}/.zim
 if [[ -s "${ZIM_HOME}/init.zsh" ]]; then

@@ -147,6 +147,7 @@ nhoizey.gremlins
 nvidia.bluebazel
 nvidia.nsight-copilot
 nvidia.nsight-vscode-edition
+ocamllabs.ocaml-platform
 oderwat.indent-rainbow
 pdconsec.vscode-print
 peterschmalfeldt.explorer-exclude

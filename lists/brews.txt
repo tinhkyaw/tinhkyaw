@@ -164,6 +164,7 @@ nushell
 ocaml
 octave
 odin
+opam
 opencode
 openvino
 oxipng
@@ -201,7 +202,6 @@ rename
 renameutils
 rocksdb
 ronn
-rsync
 ruff
 rustup
 sapling
