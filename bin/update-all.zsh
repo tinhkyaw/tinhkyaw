@@ -4,7 +4,6 @@ DIR=$(dirname "$(greadlink -f "${0}")")
 cd "${DIR}" || exit
 GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
 LIST_DIR="${GIT_ROOT_DIR}/lists"
-brew missing
 brew update
 brew upgrade --greedy
 # brew cu -ay
@@ -29,8 +28,6 @@ gcloud components update -q
 doom env
 doom sync
 doom -! upgrade
-opam update
-opam upgrade
 color=blue
 ZIM_HOME=${ZDOTDIR:-${HOME}}/.zim
 if [[ -s "${ZIM_HOME}/init.zsh" ]]; then

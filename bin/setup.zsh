@@ -53,6 +53,7 @@ ln -s "${HOMEBREW_PREFIX}"/opt/llvm/bin/clang++ "${HOMEBREW_PREFIX}"/bin/clang-o
 export CC=clang-omp CXX=clang-omp++
 xargs -I {} uv tool install {} <"${LIST_DIR}"/uvtools.txt
 xargs gem install <"${LIST_DIR}"/gems.txt
+opam init -a
 defaults write com.apple.versioner.perl Version -string 5.18 # for csshX
 PERL_SETUP='setup-perl.zsh'
 ln -sf "${GIT_ROOT_DIR}/bin/${PERL_SETUP}" "${HOME}/bin/${PERL_SETUP}"

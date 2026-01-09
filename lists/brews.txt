@@ -48,6 +48,7 @@ direnv
 dive
 dotnet
 dprint
+dune
 dust
 duti
 dvc
