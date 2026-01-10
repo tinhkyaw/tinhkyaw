@@ -27,12 +27,13 @@ if [[ -f "${HOME}"/.inputrc ]]; then
 fi
 for conf_file in \
   condarc \
+  prettierrc \
   git/gitconfig \
   zsh/zimrc \
   zsh/zshrc; do
   ln -sf "${GIT_ROOT_DIR}/conf/${conf_file}" "${HOME}/.$(basename ${conf_file})"
 done
-for vscode_ide in Code Cursor; do
+for vscode_ide in Code Antigravity Cursor; do
   mkdir -p "${HOME}/Library/Application Support/${vscode_ide}/User/"
   ln -sf "${GIT_ROOT_DIR}/conf/code/settings.json" \
     "${HOME}/Library/Application Support/${vscode_ide}/User/settings.json"

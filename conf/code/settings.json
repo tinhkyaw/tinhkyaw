@@ -7,9 +7,9 @@
       "formatOnSave": true
     }
   },
-  "[jsonc]": {
+  "[json,jsonc,toml,yaml,yml]": {
     "editor": {
-      "defaultFormatter": "vscode.json-language-features",
+      "defaultFormatter": "esbenp.prettier-vscode",
       "formatOnSave": true
     }
   },
@@ -56,13 +56,13 @@
       "!Select sequence",
       "!Split",
       "!Split sequence"
-    ],
-    "editor": {
-      "defaultFormatter": "esbenp.prettier-vscode",
-      "formatOnSave": true
-    }
+    ]
   },
   "amazonQ.telemetry": false,
+  "antigravity": {
+    "marketplaceExtensionGalleryServiceURL": "https://marketplace.visualstudio.com/_apis/public/gallery",
+    "marketplaceGalleryItemURL": "https://marketplace.visualstudio.com/items"
+  },
   "application.shellEnvironmentResolutionTimeout": 120,
   "arduino.useArduinoCli": true,
   "aws.cloudformation.telemetry.enabled": false,
@@ -189,10 +189,7 @@
     "minikube-path": "${env:HOMEBREW_PREFIX}/bin/minikube",
     "vscode-kubernetes.minikube-path.mac": "${env:HOMEBREW_PREFIX}/bin/minikube"
   },
-  "windsurf": {
-    "marketplaceExtensionGalleryServiceURL": "https://marketplace.visualstudio.com/_apis/public/gallery",
-    "marketplaceGalleryItemURL": "https://marketplace.visualstudio.com/items"
-  },
+  "vsicons.dontShowNewVersionMessage": true,
   "workbench": {
     "colorTheme": "Solarized Dark",
     "editor.enablePreview": false,

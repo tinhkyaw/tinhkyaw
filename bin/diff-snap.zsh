@@ -7,6 +7,7 @@ SUFFIX1="${1}"
 SUFFIX2="${2}"
 SNAPSHOT_DIR="${HOME}/Dropbox/Shared/Snapshots"
 for snapshot in \
+  agy \
   brew \
   cask \
   chrome \
@@ -20,8 +21,7 @@ for snapshot in \
   miniforge \
   mr \
   npm \
-  tap \
-  windsurf; do
+  tap; do
   FILE1="${snapshot}${SUFFIX1}.txt"
   FILE2="${snapshot}${SUFFIX2}.txt"
   LHS="${SNAPSHOT_DIR}/${FILE1}"

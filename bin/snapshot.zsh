@@ -61,12 +61,10 @@ uv tool list >"${SNAPSHOT_DIR}/uv${SUFFIX}.txt"
   gsed -e 's/.conda\|.tar.bz2//g' |
   sort -u) \
   >"${SNAPSHOT_DIR}/miniforge${SUFFIX}.txt"
-code --list-extensions --show-versions | sort -d -f \
-  >"${SNAPSHOT_DIR}/code${SUFFIX}.txt"
-cursor --list-extensions --show-versions | sort -d -f \
-  >"${SNAPSHOT_DIR}/cursor${SUFFIX}.txt"
-windsurf --list-extensions --show-versions | sort -d -f \
-  >"${SNAPSHOT_DIR}/windsurf${SUFFIX}.txt"
+for code_cmd in code agy cursor; do
+  "${code_cmd}" --list-extensions --show-versions | sort -d -f \
+    >"${SNAPSHOT_DIR}/${code_cmd}${SUFFIX}.txt"
+done
 grep -Fvxf \
   <(grep -El 'extensionDependencies|extensionPack' \
     "${HOME}"/.vscode/extensions/*/package.json |

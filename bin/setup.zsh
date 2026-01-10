@@ -39,11 +39,9 @@ brew install --cask temurin
 xargs -I {} brew install --cask {} <"${LIST_DIR}"/casks.txt
 conda init "$(basename "${SHELL}")"
 xargs npm install -g <"${LIST_DIR}"/npms.txt
-for code_cmd in code cursor; do
+for code_cmd in code agy cursor; do
   xargs -I {} "${code_cmd}" --install-extension {} <"${LIST_DIR}"/codes.txt
 done
-ln -sf "${GIT_ROOT_DIR}/conf/code/settings.json" \
-  "${HOME}/Library/Application Support/Windsurf/User/settings.json"
 ln -sf "${GIT_ROOT_DIR}/conf/zed/settings.json" \
   "${HOME}/.config/zed/settings.json"
 export GRPC_PYTHON_BUILD_SYSTEM_OPENSSL=1
