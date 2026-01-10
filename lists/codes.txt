@@ -91,6 +91,7 @@ meta.pyrefly
 meta.relay
 meta.sapling-scm
 mhutchie.git-graph
+microsoft-kanagawa.kanagawalang
 mike-co.import-sorter
 mitaki28.vscode-clang
 mkxml.vscode-filesize
@@ -102,7 +103,8 @@ ms-edgedevtools.vscode-edge-devtools
 ms-inkling.ms-inkling
 msjsdiag.cordova-tools
 msjsdiag.vscode-react-native
-ms-kubernetes-tools.vscode-kubernetes-tools
+ms-kubernetes-tools.dalec-vscode-tools
+ms-kubernetes-tools.kind-vscode
 ms-ossdata.vscode-pgsql
 ms-playwright.playwright
 ms-pyright.pyright
@@ -134,6 +136,7 @@ ms-vscode.vscode-copilot-data-analysis
 ms-vscode.vscode-embedded-tools
 ms-vscode.vscode-github-issue-notebooks
 ms-vscode.vscode-js-profile-flame
+ms-vscode.vscode-markdown-notebook
 ms-vscode.vscode-serial-monitor
 ms-vscode.vscode-speech
 mtxr.sqltools
@@ -146,6 +149,7 @@ nvidia.nsight-vscode-edition
 ocamllabs.ocaml-platform
 oderwat.indent-rainbow
 openai.chatgpt
+ozzafar.debugmcpextension
 pdconsec.vscode-print
 peterschmalfeldt.explorer-exclude
 pkief.material-icon-theme
@@ -181,7 +185,6 @@ shopify.ruby-extensions-pack
 simonsiefke.svg-preview
 sleistner.vscode-fileutils
 snowflake.snowflake-vsc
-sourcegraph.cody-ai
 spmeesseman.vscode-taskexplorer
 spywhere.guides
 streetsidesoftware.code-spell-checker
@@ -199,7 +202,6 @@ tyriar.sort-lines
 visualstudiotoolsforunity.vstuc
 vmware.vscode-boot-dev-pack
 vscjava.vscode-java-pack
-vscjava.vscode-java-upgrade
 vscjava.vscode-lombok
 vscode-icons-team.vscode-icons
 vsls-contrib.codetour
