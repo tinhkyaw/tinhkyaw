@@ -7,7 +7,13 @@
       "formatOnSave": true
     }
   },
-  "[jsonc,json,toml,yaml,yml]": {
+  "[json,toml,yaml,yml]": {
+    "editor": {
+      "defaultFormatter": "esbenp.prettier-vscode",
+      "formatOnSave": true
+    }
+  },
+  "[jsonc]": {
     "editor": {
       "defaultFormatter": "esbenp.prettier-vscode",
       "formatOnSave": true
@@ -101,13 +107,13 @@
       "**/.trunk/*out": true
     },
     "insertFinalNewline": true,
-    "trimTrailingWhitespace": true,
-    "watcherExclude": {
-      "**/.ammonite": true,
-      "**/.bloop": true,
-      "**/.metals": true,
-      "**/.trunk/*out": true
-    }
+    "trimTrailingWhitespace": true
+  },
+  "files.watcherExclude": {
+    "**/.ammonite": true,
+    "**/.bloop": true,
+    "**/.metals": true,
+    "**/.trunk/*out": true
   },
   "firebase.firebasePath": "/opt/homebrew/bin/firebase",
   "geminicodeassist": {
