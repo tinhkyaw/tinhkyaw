@@ -70,7 +70,7 @@ grep -Fvxf \
     "${HOME}"/.vscode/extensions/*/package.json |
     xargs -I {} jq '.extensionDependencies, .extensionPack' {} |
     jq -sS 'add|sort|unique' |
-    jq -r '.[]') \
+    jq -r '.[]|ascii_downcase') \
   <(code --list-extensions | sort -d -f) >"${LIST_DIR}/codes.txt"
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --version \
   >"${SNAPSHOT_DIR}/chrome${SUFFIX}.txt"

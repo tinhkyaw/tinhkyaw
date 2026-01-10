@@ -25,8 +25,6 @@ christian-kohler.path-intellisense
 chrmarti.regex
 continue.continue
 cschlosser.doxdocgen
-dart-code.dart-code
-dart-code.flutter
 davidanson.vscode-markdownlint
 dbaeumer.vscode-eslint
 denoland.vscode-deno
@@ -48,7 +46,6 @@ formulahendry.code-runner
 foxundermoon.shell-format
 fwcd.kotlin
 genaiscript.genaiscript-vscode
-github.remotehub
 github.vscode-codeql
 github.vscode-github-actions
 github.vscode-pull-request-github
@@ -60,7 +57,6 @@ google.gemini-cli-vscode-ide-companion
 grapecity.gc-excelviewer
 graphql.vscode-graphql
 graphql.vscode-graphql-execution
-graphql.vscode-graphql-syntax
 gruntfuggly.todo-tree
 hancel.markdown-image
 hashicorp.hcl
@@ -71,7 +67,6 @@ heybourn.headwind
 humao.rest-client
 ibm.output-colorizer
 idleberg.icon-fonts
-ionide.ionide-fsharp
 ionutvmi.path-autocomplete
 jakob101.relativepath
 james-yu.latex-workshop
@@ -80,7 +75,6 @@ jasonnutter.search-node-modules
 jebbs.plantuml
 jeff-hykin.better-cpp-syntax
 johnpapa.vscode-peacock
-kevinrose.vsc-python-indent
 kisstkondoros.vscode-gutter-preview
 littlefoxteam.vscode-python-test-adapter
 llvm-vs-code-extensions.vscode-clangd
@@ -168,7 +162,6 @@ redhat.vscode-commons
 redhat.vscode-xml
 redis.redis-for-vscode
 reditorsupport.r
-reditorsupport.r-syntax
 remisa.shellman
 richie5um2.vscode-sort-json
 rogalmic.bash-debug
@@ -184,6 +177,8 @@ sburg.vscode-javascript-booster
 scalameta.metals
 shardulm94.trailing-spaces
 shd101wyy.markdown-preview-enhanced
+shopify.ruby-extensions-pack
+shopify.theme-check-vscode
 simonsiefke.svg-preview
 sleistner.vscode-fileutils
 snowflake.snowflake-vsc
