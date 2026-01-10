@@ -178,7 +178,6 @@ scalameta.metals
 shardulm94.trailing-spaces
 shd101wyy.markdown-preview-enhanced
 shopify.ruby-extensions-pack
-shopify.theme-check-vscode
 simonsiefke.svg-preview
 sleistner.vscode-fileutils
 snowflake.snowflake-vsc

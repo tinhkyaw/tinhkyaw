@@ -68,6 +68,7 @@ cloudcompare
 cocoarestclient
 codeedit
 codelite
+codeql
 codex
 cog-app
 compositor
