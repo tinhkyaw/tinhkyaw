@@ -7,7 +7,7 @@
       "formatOnSave": true
     }
   },
-  "[json,jsonc,toml,yaml,yml]": {
+  "[jsonc,json,toml,yaml,yml]": {
     "editor": {
       "defaultFormatter": "esbenp.prettier-vscode",
       "formatOnSave": true
