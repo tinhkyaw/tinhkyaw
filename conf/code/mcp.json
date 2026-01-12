@@ -1,0 +1,73 @@
+{
+	"inputs": [
+		{
+			"description": "API key for authentication",
+			"id": "CONTEXT7_API_KEY",
+			"password": true,
+			"type": "promptString"
+		},
+		{
+			"description": "Authentication token (PAT or App token)",
+			"id": "Authorization",
+			"password": true,
+			"type": "promptString"
+		}
+	],
+	"servers": {
+		"io.github.ChromeDevTools/chrome-devtools-mcp": {
+			"args": [
+				"chrome-devtools-mcp@0.12.1"
+			],
+			"command": "npx",
+			"gallery": "https://api.mcp.github.com",
+			"type": "stdio",
+			"version": "0.12.1"
+		},
+		"io.github.github/github-mcp-server": {
+			"gallery": "https://api.mcp.github.com",
+			"headers": {
+				"Authorization": "${input:Authorization}"
+			},
+			"type": "http",
+			"url": "https://api.githubcopilot.com/mcp/",
+			"version": "0.27.0"
+		},
+		"io.github.upstash/context7": {
+			"args": [
+				"@upstash/context7-mcp@1.0.31"
+			],
+			"command": "npx",
+			"env": {
+				"CONTEXT7_API_KEY": "${input:CONTEXT7_API_KEY}"
+			},
+			"gallery": "https://api.mcp.github.com",
+			"type": "stdio",
+			"version": "1.0.31"
+		},
+		"sequential-thinking": {
+			"args": [
+				"-y",
+				"@modelcontextprotocol/server-sequential-thinking@2025.12.18"
+			],
+			"command": "npx",
+			"type": "stdio"
+		},
+		"shadcn": {
+			"args": [
+				"shadcn@latest",
+				"mcp"
+			],
+			"command": "npx",
+			"type": "stdio"
+		},
+		"taskmanager": {
+			"args": [
+				"-y",
+				"@kazuph/mcp-taskmanager@1.0.2"
+			],
+			"command": "npx",
+			"env": {},
+			"type": "stdio"
+		}
+	}
+}

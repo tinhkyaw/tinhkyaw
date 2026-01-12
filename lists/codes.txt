@@ -75,6 +75,7 @@ jasonnutter.search-node-modules
 jebbs.plantuml
 jeff-hykin.better-cpp-syntax
 johnpapa.vscode-peacock
+kilocode.kilo-code
 kisstkondoros.vscode-gutter-preview
 littlefoxteam.vscode-python-test-adapter
 llvm-vs-code-extensions.vscode-clangd

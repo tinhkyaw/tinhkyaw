@@ -28,6 +28,7 @@ gcloud components update -q
 doom env
 doom sync
 doom -! upgrade
+Rscript "${GIT_ROOT_DIR}/bin/update.R"
 color=blue
 ZIM_HOME=${ZDOTDIR:-${HOME}}/.zim
 if [[ -s "${ZIM_HOME}/init.zsh" ]]; then

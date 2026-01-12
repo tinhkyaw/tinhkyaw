@@ -41,6 +41,7 @@
     "postgres-context-server": true,
     "proto": true,
     "pyrefly": true,
+    "r": true,
     "ruby": true,
     "scala": true,
     "scheme": true,
