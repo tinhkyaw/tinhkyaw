@@ -74,6 +74,7 @@
   "aws.cloudformation.telemetry.enabled": false,
   "aws.telemetry": false,
   "carbon.fontFamily": "Source Code Pro",
+  "chat.mcp.gallery.enabled": true,
   "cloudcode": {
     "autoDependencies": "off",
     "enableTelemetry": false
