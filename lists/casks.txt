@@ -218,7 +218,6 @@ jellyfin-media-player
 joplin
 josm
 jt-bridge
-julia-app
 jumpcut
 jupyter-notebook-viewer
 jupyterlab-app

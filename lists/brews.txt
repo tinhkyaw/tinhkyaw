@@ -214,7 +214,6 @@ repomix
 rocksdb
 ronn
 ruff
-rust
 rustup
 sapling
 sbt

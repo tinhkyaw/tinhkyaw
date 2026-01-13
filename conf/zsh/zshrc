@@ -273,7 +273,7 @@ if (( $+commands[brew] )); then
   if [[ -d "${HOMEBREW_PREFIX}/anaconda3/bin" ]]; then
     path+=${HOMEBREW_PREFIX}/anaconda3/bin
   fi
-  for formula in curl perl ruby;do
+  for formula in curl perl ruby rustup;do
     if [[ -d "${HOMEBREW_PREFIX}/opt/$formula" ]]; then
       FORMULA_PREFIX=${HOMEBREW_PREFIX}/opt/$formula
       path=(${FORMULA_PREFIX}/bin $path)

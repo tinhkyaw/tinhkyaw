@@ -145,7 +145,6 @@
     "executablePath": "/opt/homebrew/bin/julia",
     "symbolCacheDownload": true
   },
-  "julia.juliaup.install.hint": false,
   "latex-workshop": {
     "formatting.latex": "latexindent",
     "latex": {

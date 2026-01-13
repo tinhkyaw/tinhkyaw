@@ -13,7 +13,6 @@ brew doctor
 mas outdated
 # mas upgrade
 gem update --system
-gem update
 gem cleanup
 timeout --foreground 3m npm-check -g -y
 uv tool upgrade --all
