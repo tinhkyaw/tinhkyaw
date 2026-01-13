@@ -15,7 +15,7 @@
   },
   "[jsonc]": {
     "editor": {
-      "defaultFormatter": "esbenp.prettier-vscode",
+      "defaultFormatter": "denoland.vscode-deno",
       "formatOnSave": true
     }
   },
@@ -139,6 +139,13 @@
   "go.diagnostic.vulncheck": "Imports",
   "go.toolsManagement.autoUpdate": true,
   "guides.sendUsagesAndStats": false,
+  "julia": {
+    "enableCrashReporter": false,
+    "enableTelemetry": false,
+    "executablePath": "/opt/homebrew/bin/julia",
+    "symbolCacheDownload": true
+  },
+  "julia.juliaup.install.hint": false,
   "latex-workshop": {
     "formatting.latex": "latexindent",
     "latex": {
@@ -183,6 +190,9 @@
   "terminal": {
     "external.osxExec": "iTerm.app",
     "integrated": {
+      "commandsToSkipShell": [
+        "language-julia.interrupt"
+      ],
       "fontFamily": "'MesloLGS NF'",
       "fontSize": 14,
       "persistentSessionReviveProcess": "never"

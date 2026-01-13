@@ -115,6 +115,7 @@ jenv
 jj
 jmeter
 jq
+juliaup
 jupyterlab
 just
 k9s
