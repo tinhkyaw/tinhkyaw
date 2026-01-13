@@ -49,6 +49,7 @@ genaiscript.genaiscript-vscode
 github.vscode-codeql
 github.vscode-github-actions
 github.vscode-pull-request-github
+gleam.gleam
 glenn2223.live-sass
 golang.go
 googlecloudtools.cloudcode
@@ -75,6 +76,7 @@ jasonnutter.search-node-modules
 jebbs.plantuml
 jeff-hykin.better-cpp-syntax
 johnpapa.vscode-peacock
+julialang.language-julia
 kilocode.kilo-code
 kisstkondoros.vscode-gutter-preview
 littlefoxteam.vscode-python-test-adapter
@@ -157,6 +159,7 @@ pkief.material-icon-theme
 pnp.polacode
 poml-team.poml
 pranaygp.vscode-css-peek
+probe-rs.probe-rs-debugger
 prompt-flow.prompt-flow
 pucelle.vscode-css-navigation
 qcz.text-power-tools

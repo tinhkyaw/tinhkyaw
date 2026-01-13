@@ -41,6 +41,7 @@ cromwell
 csshx
 ctags
 curl
+dagger/tap/dagger
 dart-lang/dart/dart
 dateutils
 deno
@@ -79,6 +80,7 @@ git-lfs
 git-subrepo
 gitui
 glances
+gleam
 gnu-sed
 go
 gopass
@@ -114,6 +116,7 @@ jj
 jmeter
 jq
 jupyterlab
+just
 k9s
 kakoune
 kind
@@ -185,6 +188,7 @@ pipenv
 pipx
 pngquant
 poetry
+probe-rs/probe-rs/probe-rs
 psgrep
 pssh
 puzzles
@@ -205,6 +209,7 @@ reattach-to-user-namespace
 redis
 rename
 renameutils
+repomix
 rocksdb
 ronn
 ruff
