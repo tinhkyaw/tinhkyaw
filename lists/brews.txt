@@ -139,6 +139,7 @@ lightgbm
 lorem
 lsd
 luajit-openresty
+luau
 lzip
 macvim
 make

@@ -146,6 +146,7 @@ mtxr.sqltools
 mushan.vscode-paste-image
 naumovs.color-highlight
 nhoizey.gremlins
+nimlang.nimlang
 nvidia.bluebazel
 nvidia.nsight-copilot
 nvidia.nsight-vscode-edition
