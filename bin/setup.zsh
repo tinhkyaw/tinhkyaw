@@ -51,9 +51,9 @@ ln -s "${HOMEBREW_PREFIX}"/opt/llvm/bin/clang++ "${HOMEBREW_PREFIX}"/bin/clang-o
 export CC=clang-omp CXX=clang-omp++
 xargs -I {} uv tool install {} <"${LIST_DIR}"/uvtools.txt
 xargs gem install <"${LIST_DIR}"/gems.txt
-for toolchain in juliaup rustup; do
-  $toolchain default stable
-done
+juliaup add release
+juliaup default release
+rustup default stable
 opam init -a
 defaults write com.apple.versioner.perl Version -string 5.18 # for csshX
 PERL_SETUP='setup-perl.zsh'
