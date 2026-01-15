@@ -1,7 +1,8 @@
 +++
 title = "Résumé"
+date = 2025-04-28
 path = "resume"
-template = "pages.html"
+template = "page.html"
 draft = false
 +++
 

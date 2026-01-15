@@ -1,0 +1,3 @@
+[submodule "www/themes/tanuki"]
+	path = www/themes/tanuki
+	url = https://github.com/raskell-io/tanuki
