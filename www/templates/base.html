@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html
   lang="{{ lang | default(value='en') }}"
   data-theme="dark"
@@ -270,9 +270,9 @@
     {% endif %} {# ===== RSS Feed ===== #} {% if config.generate_feeds %}
     <link
       rel="alternate"
-      type="application/rss+xml"
+      type="application/atom+xml"
       title="{{ config.title }}"
-      href="{{ get_url(path='rss.xml') | safe }}"
+      href="{{ get_url(path='atom.xml') | safe }}"
     />
     {% endif %} {# ===== Theme script (inline to prevent flash) ===== #} {% set
     mode = config.extra.mode | default(value="site") %} {% if mode == "site" or
