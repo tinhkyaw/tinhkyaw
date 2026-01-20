@@ -1,9 +1,9 @@
 +++
 title = "Welcome to my Blog"
 date = 2025-01-01
-description = "This is a placeholder post."
+description = "Welcome to my new blog!"
 [taxonomies]
 tags = ["general"]
 +++
 
-Welcome to the new blog! More content coming soon.
+Welcome to my new blog!
