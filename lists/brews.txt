@@ -233,7 +233,6 @@ snowflake-cli
 sops
 spaceman-diff
 spark
-speedtest-cli
 sphinx-doc
 spidermonkey
 sqruff
