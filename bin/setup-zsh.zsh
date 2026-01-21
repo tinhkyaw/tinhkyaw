@@ -41,6 +41,7 @@ done
 mkdir -p "${HOME}/bin"
 for script_file in \
   diff-snap.zsh \
+  filter-casks.zsh \
   s3cat \
   snapshot.zsh \
   tunnel \
