@@ -2077,3 +2077,4 @@ gradle-app.setting
 # End of https://www.toptal.com/developers/gitignore/api/Ansible,ApacheHadoop,Bazel,C++,C,Clojure,CVS,Django,Dropbox,Eclipse,Emacs,Executable,Git,Go,Gradle,Helm,Homebrew,Hugo,Intellij+all,JEnv,JMeter,JabRef,Java,Jekyll,JetBrains+all,JupyterNotebooks,KDiff3,Leiningen,LyX,MATLAB,Maven,Mercurial,Metals,NetBeans,NextJS,Node,Nohup,Objective-C,OpenCV,PyCharm+all,Python,R,Redis,Ruby,Rust,rust-analyzer,SBT,SSH,SVN,Sass,Scala,Scheme,Serverless,Sonar,SonarQube,Spark,Swift,Tags,TeX,Terraform,Vagrant,Valgrind,Vercel,Vim,VirtualEnv,VisualStudioCode,Xcode,Zsh,direnv,dotenv,fsharp,macOS,pydev,react
 
 **/.genaiscript/**
+**/.casks

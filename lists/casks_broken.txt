@@ -1,0 +1,3 @@
+adobe-digital-editions
+adobe-dng-converter
+amazon-music
