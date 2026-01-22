@@ -1,10 +1,6 @@
 010-editor
 1password
 1password-cli
-1password-cli@beta
-1password@7
-1password@beta
-1password@nightly
 4k-image-compressor
 4k-stogram
 4k-tokkit
@@ -14,13 +10,9 @@ a-better-finder-attributes
 a-better-finder-rename
 ableset
 ableton-live-intro
-ableton-live-intro@11
 ableton-live-lite
-ableton-live-lite@11
 ableton-live-standard
-ableton-live-standard@11
 ableton-live-suite
-ableton-live-suite@11
 abstract
 abyssoft-teleport
 ace-studio
@@ -32,8 +24,6 @@ activedock
 actual-odbc-pack
 adguard
 adguard-vpn
-adguard-vpn@nightly
-adguard@nightly
 adlock
 adobe-acrobat-pro
 adobe-air
@@ -56,8 +46,6 @@ akuity
 alcove
 aldente
 alfaview
-alfred@4
-alfred@prerelease
 almighty
 aloha-browser
 amadine

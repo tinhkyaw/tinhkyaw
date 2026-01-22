@@ -4,7 +4,6 @@
 8x8-work
 accord
 accordance
-accordance@13
 ace-link
 airdash
 alcom
@@ -13,5 +12,3 @@ amd-power-gadget
 amethyst
 amiberry
 amitv87-pip
-android-studio-preview@beta
-android-studio-preview@canary

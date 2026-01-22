@@ -14,6 +14,33 @@ if ! command -v jq &> /dev/null; then
     exit 1
 fi
 
+# Function to run a filter step
+# Arguments:
+# 1. Message label (e.g., "Disabled casks")
+# 2. Input JSON file
+# 3. Output JSON file
+# 4. Log text file
+# 5. jq filter expression (identifies items to REMOVE)
+run_filter_step() {
+    local message="$1"
+    local input_file="$2"
+    local output_file="$3"
+    local log_file="$4"
+    local filter_expr="$5"
+
+    # Count items to remove
+    local count
+    count=$(jq "[.[] | select($filter_expr)] | length" "$input_file")
+    echo "${message} found: ${count}"
+
+    # Log filtered out casks
+    jq -r "[.[] | select($filter_expr)] | .[].token" "$input_file" > "$log_file"
+
+    # Filter: keep items where filter_expr is false
+    # We use ( ... | not ) logic
+    jq "[.[] | select(($filter_expr) | not)]" "$input_file" > "$output_file"
+}
+
 # Step 1: Download the Cask JSON
 echo "Downloading casks from $URL..."
 curl -s "$URL" -o "$INPUT_FILE"
@@ -23,69 +50,52 @@ total_count=$(jq length "$INPUT_FILE")
 echo "Total casks available: $total_count"
 
 # Step 2: Find and filter out disabled casks
-# logic: select(.disabled) finds disabled casks
-disabled_count=$(jq '[.[] | select(.disabled)] | length' "$INPUT_FILE")
-echo "Disabled casks found: $disabled_count"
-# Log filtered out casks
-# Log filtered out casks
-jq -r '[.[] | select(.disabled)] | .[].token' "$INPUT_FILE" \
-    > "$OUTPUT_DIR/casks_filtered_disabled.txt"
-# Filter: keep only casks where .disabled is false or null
-jq '[.[] | select(.disabled | not)]' "$INPUT_FILE" \
-    > "$OUTPUT_DIR/casks_step1.json"
+run_filter_step "Disabled casks" \
+    "$INPUT_FILE" \
+    "$OUTPUT_DIR/casks_step1.json" \
+    "$OUTPUT_DIR/casks_filtered_disabled.txt" \
+    ".disabled"
 
 # Step 3: Find and filter out deprecated casks
-# logic: select(.deprecated) finds deprecated casks
-deprecated_count=$(jq '[.[] | select(.deprecated)] | length' "$OUTPUT_DIR/casks_step1.json")
-echo "Deprecated casks found: $deprecated_count"
-# Log filtered out casks
-# Log filtered out casks
-jq -r '[.[] | select(.deprecated)] | .[].token' "$OUTPUT_DIR/casks_step1.json" \
-    > "$OUTPUT_DIR/casks_filtered_deprecated.txt"
-# Filter: keep only casks where .deprecated is false or null
-jq '[.[] | select(.deprecated | not)]' "$OUTPUT_DIR/casks_step1.json" \
-    > "$OUTPUT_DIR/casks_step2.json"
+run_filter_step "Deprecated casks" \
+    "$OUTPUT_DIR/casks_step1.json" \
+    "$OUTPUT_DIR/casks_step2.json" \
+    "$OUTPUT_DIR/casks_filtered_deprecated.txt" \
+    ".deprecated"
 
-# Step 4: Find and filter out casks that require Rosetta
-# logic: check if "caveats" string contains "requires rosetta" (case insensitive)
-rosetta_count=$(jq '[.[] | select(.caveats // "" | test("requires rosetta"; "i"))] | length' \
-    "$OUTPUT_DIR/casks_step2.json")
-echo "Casks requiring Rosetta found: $rosetta_count"
-# Log filtered out casks
-jq -r '[.[] | select(.caveats // "" | test("requires rosetta"; "i"))] | .[].token' \
-    "$OUTPUT_DIR/casks_step2.json" > "$OUTPUT_DIR/casks_filtered_rosetta.txt"
-# Filter: keep casks where caveats does NOT contain "requires rosetta"
-jq '[.[] | select(.caveats // "" | test("requires rosetta"; "i") | not)]' \
-    "$OUTPUT_DIR/casks_step2.json" > "$OUTPUT_DIR/casks_step3.json"
+# Step 4: Find and filter out variant casks (containing '@')
+run_filter_step "Variant casks" \
+    "$OUTPUT_DIR/casks_step2.json" \
+    "$OUTPUT_DIR/casks_step3.json" \
+    "$OUTPUT_DIR/casks_filtered_variant.txt" \
+    ".token | contains(\"@\")"
 
-# Step 5: Find and filter out casks with "stage_only" artifacts
-# logic: check if artifacts string contains "stage_only"
-stage_only_count=$(jq '[.[] | select(.artifacts | tostring | contains("stage_only"))] | length' \
-    "$OUTPUT_DIR/casks_step3.json")
-echo "Stage-only casks found: $stage_only_count"
-# Log filtered out casks
-jq -r '[.[] | select(.artifacts | tostring | contains("stage_only"))] | .[].token' \
-    "$OUTPUT_DIR/casks_step3.json" > "$OUTPUT_DIR/casks_filtered_stage_only.txt"
-# Filter: keep casks where artifacts does NOT contain "stage_only"
-jq '[.[] | select(.artifacts | tostring | contains("stage_only") | not)]' \
-    "$OUTPUT_DIR/casks_step3.json" > "$OUTPUT_DIR/casks_step4.json"
+# Step 5: Find and filter out casks that require Rosetta
+run_filter_step "Casks requiring Rosetta" \
+    "$OUTPUT_DIR/casks_step3.json" \
+    "$OUTPUT_DIR/casks_step4.json" \
+    "$OUTPUT_DIR/casks_filtered_rosetta.txt" \
+    ".caveats // \"\" | test(\"requires rosetta\"; \"i\")"
 
-# Step 6: Find and filter out casks without interesting artifacts
+# Step 6: Find and filter out casks with "stage_only" artifacts
+run_filter_step "Stage-only casks" \
+    "$OUTPUT_DIR/casks_step4.json" \
+    "$OUTPUT_DIR/casks_step5.json" \
+    "$OUTPUT_DIR/casks_filtered_stage_only.txt" \
+    ".artifacts | tostring | contains(\"stage_only\")"
+
+# Step 7: Find and filter out casks without interesting artifacts
 # Interesting artifacts: app, binary, installer, pkg, suite
-# logic: Convert artifacts array to string and check if it does NOT match any of the interesting keys
-no_artifact_count=$(jq \
-    '[.[] | select(.artifacts | tostring | test("\"(app|binary|installer|pkg|suite)\"") | not)] | length' \
-    "$OUTPUT_DIR/casks_step4.json")
-echo "Casks without interesting artifacts found: $no_artifact_count"
-# Log filtered out casks
-jq -r \
-    '[.[] | select(.artifacts | tostring | test("\"(app|binary|installer|pkg|suite)\"") | not)] | .[].token' \
-    "$OUTPUT_DIR/casks_step4.json" > "$OUTPUT_DIR/casks_filtered_no_artifacts.txt"
-# Filter: keep casks that DO contain interesting artifacts
-jq '[.[] | select(.artifacts | tostring | test("\"(app|binary|installer|pkg|suite)\""))]' \
-    "$OUTPUT_DIR/casks_step4.json" > "$OUTPUT_DIR/casks_final.json"
+# Logic: We remove items that do NOT match the interesting artifacts.
+# The filter expression should be TRUE for items to REMOVE.
+# So we want items where test(...) is FALSE.
+run_filter_step "Casks without interesting artifacts" \
+    "$OUTPUT_DIR/casks_step5.json" \
+    "$OUTPUT_DIR/casks_final.json" \
+    "$OUTPUT_DIR/casks_filtered_no_artifacts.txt" \
+    '.artifacts | tostring | test("\"(app|binary|installer|pkg|suite)\"") | not'
 
-# Step 7: Filter out casks from custom ignore list (if provided)
+# Step 8: Filter out casks from custom ignore list (if provided)
 ignore_file="$OUTPUT_DIR/casks_to_ignore.txt"
 : > "$ignore_file" # Create empty file
 
@@ -156,7 +166,10 @@ echo "Results saved to: $OUTPUT_DIR/casks_final.json," \
      "$OUTPUT_DIR/casks_final.csv, and $OUTPUT_DIR/casks_final.txt"
 
 # Clean up temporary files
-rm "$INPUT_FILE" "$OUTPUT_DIR"/casks_step1.json "$OUTPUT_DIR"/casks_step2.json \
-    "$OUTPUT_DIR"/casks_step3.json "$OUTPUT_DIR"/casks_step4.json "$ignore_file"
-# The result is in $OUTPUT_DIR/casks_final.json if you wish to inspect it, otherwise remove it too:
+rm "$INPUT_FILE" "$OUTPUT_DIR"/casks_step1.json \
+    "$OUTPUT_DIR"/casks_step2.json "$OUTPUT_DIR"/casks_step3.json \
+    "$OUTPUT_DIR"/casks_step4.json "$OUTPUT_DIR"/casks_step5.json \
+    "$ignore_file"
+# The result is in $OUTPUT_DIR/casks_final.json if you wish to inspect it,
+# otherwise remove it too:
 # rm "$OUTPUT_DIR/casks_final.json"
