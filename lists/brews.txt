@@ -9,6 +9,7 @@ apache-spark
 argyll-cms
 aria2
 asdf
+atuin
 augeas
 autoenv
 autojump
