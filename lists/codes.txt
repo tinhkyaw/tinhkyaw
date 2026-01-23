@@ -136,7 +136,6 @@ ms-vscode-remote.vscode-remote-extensionpack
 ms-vscode.ts-file-path-support
 ms-vscode.vscode-commander
 ms-vscode.vscode-copilot-data-analysis
-ms-vscode.vscode-embedded-tools
 ms-vscode.vscode-github-issue-notebooks
 ms-vscode.vscode-js-profile-flame
 ms-vscode.vscode-markdown-notebook
