@@ -65,8 +65,8 @@ ape
 app-cleaner
 app-tamer
 appgate-sdp-client
-aptakube
 appvolume
+aptakube
 aqua-voice
 aquaskk
 araxis-merge
@@ -208,8 +208,8 @@ clicker-for-netflix
 clicker-for-youtube
 clickup
 clion
-clipbook
 clip-studio-paint
+clipbook
 clockify
 clop
 cloudash
@@ -238,9 +238,9 @@ core-tunnel
 coscreen
 coterm
 couchbase-server-enterprise
-creality-print
 craft
 crashplan
+creality-print
 creative
 crossover
 crushftp
