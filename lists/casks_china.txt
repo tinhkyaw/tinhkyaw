@@ -38,3 +38,11 @@ cloudnet
 codebuddy
 codebuddy-cn
 crosspaste
+deepchat
+dehelper
+dingtalk
+doll
+doubao
+douyin
+douyin-chat
+easydict
