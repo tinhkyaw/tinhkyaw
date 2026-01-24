@@ -191,6 +191,7 @@ pipenv
 pipx
 pngquant
 poetry
+powerlevel10k
 probe-rs/probe-rs/probe-rs
 psgrep
 pssh
