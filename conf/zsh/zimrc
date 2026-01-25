@@ -69,6 +69,7 @@ zmodule ssh
 
 zmodule joke/zim-chezmoi
 zmodule joke/zim-github-cli
+zmodule joke/zim-gopass
 zmodule joke/zim-helm
 zmodule joke/zim-istioctl
 zmodule joke/zim-k9s
@@ -80,6 +81,8 @@ zmodule joke/zim-skaffold
 zmodule joke/zim-steampipe
 zmodule joke/zim-yq
 zmodule kiesman99/zim-zoxide
+zmodule pXius/zim-gcloud
+zmodule shanwker1223/zim-alias-finder
 
 zmodule romkatv/powerlevel10k
 zmodule sorin-ionescu/prezto --root modules/command-not-found --no-submodules
@@ -91,5 +94,4 @@ zmodule sorin-ionescu/prezto --root modules/tmux --no-submodules
 zmodule belak/prezto-contrib --root thefuck --no-submodules
 zmodule belak/prezto-contrib --root todo-txt --no-submodules
 
-zmodule djui/alias-tips
 zmodule greymd/tmux-xpanes --no-submodules
