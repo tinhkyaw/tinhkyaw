@@ -50,3 +50,13 @@ eudic
 excalidrawz
 feishu
 finalshell
+flowdown
+flykey
+focusany
+folo
+foxit-pdf-editor
+foxitreader
+freepdf
+freetex
+frhelper
+futubull

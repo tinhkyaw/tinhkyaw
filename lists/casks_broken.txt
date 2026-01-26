@@ -1,3 +1,6 @@
 adobe-digital-editions
 adobe-dng-converter
 amazon-music
+fpc-src-laz
+fuse
+fx-cast-bridge
