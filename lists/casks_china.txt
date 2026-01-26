@@ -46,3 +46,7 @@ doubao
 douyin
 douyin-chat
 easydict
+eudic
+excalidrawz
+feishu
+finalshell
