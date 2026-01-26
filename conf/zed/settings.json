@@ -7,10 +7,13 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "icon_theme": "Catppuccin Mocha",
   "auto_install_extensions": {
     "ansible": true,
     "astro": true,
     "biome": true,
+    "catppuccin": true,
+    "catppuccin-icons": true,
     "clojure": true,
     "codebook": true,
     "csharp": true,
@@ -77,8 +80,8 @@
     }
   },
   "theme": {
-    "dark": "Solarized Dark",
-    "light": "Solarized Light",
+    "dark": "Catppuccin Mocha",
+    "light": "Catppuccin Latte",
     "mode": "system"
   },
   "ui_font_size": 16
