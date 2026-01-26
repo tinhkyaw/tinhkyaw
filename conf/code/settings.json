@@ -207,13 +207,13 @@
   },
   "vsicons.dontShowNewVersionMessage": true,
   "workbench": {
-    "colorTheme": "Solarized Dark",
+    "colorTheme": "Catppuccin Mocha",
     "editor.enablePreview": false,
     "editorAssociations": {
       "*.ipynb": "jupyter-notebook"
-    },
-    "iconTheme": "vscode-icons"
+    }
   },
+  "workbench.iconTheme": "catppuccin-mocha",
   "yapf.args": [
     "--style",
     "{based_on_style: google, column_limit: 79}"

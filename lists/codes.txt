@@ -18,6 +18,7 @@ bourhaouta.tailwindshades
 bradymholt.pgformatter
 britesnow.vscode-toggle-quotes
 burkeholland.simple-react-snippets
+catppuccin.catppuccin-vsc-pack
 chakrounanas.turbo-console-log
 charliermarsh.ruff
 christian-kohler.npm-intellisense
