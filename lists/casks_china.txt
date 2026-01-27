@@ -61,3 +61,14 @@ freetex
 frhelper
 futubull
 goldenpassport
+hapigo
+hbuilderx
+hostsx
+hyperconnect
+iconchanger
+imgotv
+isimulator
+itraffic
+izip
+jyutping
+karing

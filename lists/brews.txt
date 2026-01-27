@@ -206,6 +206,7 @@ python-build
 python-lsp-server
 qcachegrind
 r
+radare2
 railwaycat/emacsmacport/emacs-mac@29
 rclone
 rcm
