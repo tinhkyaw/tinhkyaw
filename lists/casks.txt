@@ -246,7 +246,6 @@ frescobaldi
 fsnotes
 funter
 furtherance
-fuse-t
 fuwari
 ganttproject
 gaphor
