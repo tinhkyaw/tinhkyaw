@@ -204,6 +204,8 @@ fs-uae-launcher
 fujifilm-tether-app
 fujifilm-x-raw-studio
 galaxybudsclient
+gama-jdk
+gama-platform
 gb-studio
 gcc-aarch64-embedded
 gcc-arm-embedded
@@ -232,3 +234,6 @@ grs-bluewallet
 gureumkim
 gzdoom
 ha-menu
+hancom-docs
+hancom-word
+handy

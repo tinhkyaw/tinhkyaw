@@ -431,6 +431,7 @@ fresh
 front
 ftdi-vcp-driver
 fxfactory
+gamemaker
 gamma-control
 gams
 garagesale
@@ -471,3 +472,4 @@ guitar-pro
 gyazo
 hackolade
 halion-sonic
+hamrs-pro
