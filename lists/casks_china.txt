@@ -60,3 +60,4 @@ freepdf
 freetex
 frhelper
 futubull
+goldenpassport
