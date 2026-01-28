@@ -78,25 +78,32 @@ run_filter_step "Casks requiring Rosetta" \
     "$OUTPUT_DIR/casks_filtered_rosetta.txt" \
     ".caveats // \"\" | test(\"requires rosetta\"; \"i\")"
 
-# Step 6: Find and filter out casks with "stage_only" artifacts
-run_filter_step "Stage-only casks" \
+# Step 6: Find and filter out casks that include manual installers
+run_filter_step "Manual installer casks" \
     "$OUTPUT_DIR/casks_step4.json" \
     "$OUTPUT_DIR/casks_step5.json" \
+    "$OUTPUT_DIR/casks_filtered_manual.txt" \
+    '[.artifacts[].installer?[]? | select(has("manual"))] | length > 0'
+
+# Step 7: Find and filter out casks with "stage_only" artifacts
+run_filter_step "Stage-only casks" \
+    "$OUTPUT_DIR/casks_step5.json" \
+    "$OUTPUT_DIR/casks_step6.json" \
     "$OUTPUT_DIR/casks_filtered_stage_only.txt" \
     ".artifacts | tostring | contains(\"stage_only\")"
 
-# Step 7: Find and filter out casks without interesting artifacts
+# Step 8: Find and filter out casks without interesting artifacts
 # Interesting artifacts: app, binary, installer, pkg, suite
 # Logic: We remove items that do NOT match the interesting artifacts.
 # The filter expression should be TRUE for items to REMOVE.
 # So we want items where test(...) is FALSE.
 run_filter_step "Casks without interesting artifacts" \
-    "$OUTPUT_DIR/casks_step5.json" \
+    "$OUTPUT_DIR/casks_step6.json" \
     "$OUTPUT_DIR/casks_final.json" \
     "$OUTPUT_DIR/casks_filtered_no_artifacts.txt" \
     '.artifacts | tostring | test("\"(app|binary|installer|pkg|suite)\"") | not'
 
-# Step 8: Filter out casks from custom ignore list (if provided)
+# Step 9: Filter out casks from custom ignore list (if provided)
 ignore_file="$OUTPUT_DIR/casks_to_ignore.txt"
 : > "$ignore_file" # Create empty file
 
@@ -162,6 +169,7 @@ echo "Results saved to: $OUTPUT_DIR/casks_final.json," \
 rm "$INPUT_FILE" "$OUTPUT_DIR"/casks_step1.json \
     "$OUTPUT_DIR"/casks_step2.json "$OUTPUT_DIR"/casks_step3.json \
     "$OUTPUT_DIR"/casks_step4.json "$OUTPUT_DIR"/casks_step5.json \
+    "$OUTPUT_DIR"/casks_step6.json \
     "$ignore_file"
 # The result is in $OUTPUT_DIR/casks_final.json if you wish to inspect it,
 # otherwise remove it too:
