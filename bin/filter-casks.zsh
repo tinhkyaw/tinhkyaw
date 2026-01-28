@@ -1,7 +1,6 @@
 #!/usr/bin/env zsh
 
 # Define the API URL
-# Define the API URL
 URL="https://formulae.brew.sh/api/cask.json"
 OUTPUT_DIR="${OUTPUT_DIR:-.casks}"
 mkdir -p "$OUTPUT_DIR"
@@ -21,24 +20,26 @@ fi
 # 3. Output JSON file
 # 4. Log text file
 # 5. jq filter expression (identifies items to REMOVE)
+# 6+. Optional: extra jq arguments (e.g., --argjson ...)
 run_filter_step() {
     local message="$1"
     local input_file="$2"
     local output_file="$3"
     local log_file="$4"
     local filter_expr="$5"
+    shift 5
 
     # Count items to remove
     local count
-    count=$(jq "[.[] | select($filter_expr)] | length" "$input_file")
+    count=$(jq "$@" "[.[] | select($filter_expr)] | length" "$input_file")
     echo "${message} found: ${count}"
 
     # Log filtered out casks
-    jq -r "[.[] | select($filter_expr)] | .[].token" "$input_file" > "$log_file"
+    jq -r "$@" "[.[] | select($filter_expr)] | .[].token" "$input_file" > "$log_file"
 
     # Filter: keep items where filter_expr is false
     # We use ( ... | not ) logic
-    jq "[.[] | select(($filter_expr) | not)]" "$input_file" > "$output_file"
+    jq "$@" "[.[] | select(($filter_expr) | not)]" "$input_file" > "$output_file"
 }
 
 # Step 1: Download the Cask JSON
@@ -129,20 +130,12 @@ if [[ -s "$ignore_file" ]]; then
         "$ignore_file")
 
     # Filter out casks present in blacklist
-    ignored_count=$(jq --argjson blacklist "$blacklist_json" \
-        '[.[] | select(.token as $t | $blacklist | index($t))] | length' \
-        "$OUTPUT_DIR/casks_final.json")
-    echo "Custom ignored casks found: $ignored_count"
-
-    # Log filtered out casks
-    jq -r --argjson blacklist "$blacklist_json" \
-        '[.[] | select(.token as $t | $blacklist | index($t))] | .[].token' \
-        "$OUTPUT_DIR/casks_final.json" > "$OUTPUT_DIR/casks_filtered_custom.txt"
-
-    # Perform the filter
-    jq --argjson blacklist "$blacklist_json" \
-        '[.[] | select(.token as $t | $blacklist | index($t) | not)]' \
-        "$OUTPUT_DIR/casks_final.json" > "$OUTPUT_DIR/casks_final_custom.json"
+    run_filter_step "Custom ignored casks" \
+        "$OUTPUT_DIR/casks_final.json" \
+        "$OUTPUT_DIR/casks_final_custom.json" \
+        "$OUTPUT_DIR/casks_filtered_custom.txt" \
+        '.token as $t | $blacklist | index($t)' \
+        --argjson blacklist "$blacklist_json"
     mv "$OUTPUT_DIR/casks_final_custom.json" "$OUTPUT_DIR/casks_final.json"
 else
     echo "No custom ignore list provided or empty."
