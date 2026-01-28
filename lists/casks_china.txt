@@ -83,3 +83,9 @@ lobehub
 loginputmac
 lookin
 lunarbar
+macstroke
+maczip
+mailmaster
+malus
+marginnote
+markedit

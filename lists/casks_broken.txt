@@ -7,3 +7,4 @@ fx-cast-bridge
 google-earth-pro
 jgrasp
 keybase
+maestro
