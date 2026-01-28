@@ -124,6 +124,7 @@ kakoune
 kind
 kiota
 kn
+kopia
 kops
 kotlin
 krew
