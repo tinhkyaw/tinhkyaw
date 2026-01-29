@@ -60,7 +60,7 @@ zstyle ':zim:zmodule' use 'degit'
 #
 
 # Defines the identities (from ~/.ssh) to be loaded and cached on login.
-zstyle ':zim:ssh' ids 'id_tin'
+zstyle ':zim:ssh' ssh-add-args '--apple-load-keychain' ids 'id_tin'
 
 #
 # termtitle
