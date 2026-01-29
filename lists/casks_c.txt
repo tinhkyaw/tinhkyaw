@@ -92,3 +92,4 @@ markedit
 meituxiuxiu
 mfiles
 mini-program-studio
+mochi-diffusion
