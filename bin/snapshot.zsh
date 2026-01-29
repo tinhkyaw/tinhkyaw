@@ -29,17 +29,8 @@ fluid-synth\
     grep -Evi ${BREWS_TO_IGNORE}
 } | sort -u >"${LIST_DIR}/brews.txt"
 brew list --cask >"${SNAPSHOT_DIR}/cask${SUFFIX}.txt"
-CASKS_TO_IGNORE="\
-microsoft-teams\
-|tunnelblick\
-|^zoom\
-"
-# read -r -d '' CASKS_TO_ADD <<EOF
-# EOF
-{
-  brew list --cask | grep -Evi ${CASKS_TO_IGNORE}
-  # echo "${CASKS_TO_ADD}"
-} | sort -u >"${LIST_DIR}/casks.txt"
+brew list --cask |
+sort -u >"${LIST_DIR}/casks.txt"
 brew tap >"${SNAPSHOT_DIR}/tap${SUFFIX}.txt"
 mas list >"${SNAPSHOT_DIR}/mas${SUFFIX}.txt"
 gem list >"${SNAPSHOT_DIR}/gem${SUFFIX}.txt"

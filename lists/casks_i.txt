@@ -338,3 +338,16 @@ marathon-infinity
 openzfs
 maru-jan
 material-maker
+mcreator
+mdb-accdb-viewer
+mediathekview
+megazeux
+meta-quest-developer-hub
+mgba-app
+michaelvillar-timer
+micro-sniff
+middleclick
+mighty-mike
+millie
+miniconda
+miniwol

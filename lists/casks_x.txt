@@ -8,3 +8,5 @@ google-earth-pro
 jgrasp
 keybase
 maestro
+mbed-studio
+mega
