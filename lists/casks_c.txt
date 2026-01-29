@@ -93,3 +93,7 @@ meituxiuxiu
 mfiles
 mini-program-studio
 mochi-diffusion
+motrix
+mubu
+mumuplayer
+musiver

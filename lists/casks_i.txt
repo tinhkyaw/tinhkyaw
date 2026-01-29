@@ -354,6 +354,27 @@ mixin
 modmove
 modrinth
 molotov
+monero-wallet
+mono-mdk
+monokle
+moves
+mozregression-gui
+multi
+multipass
+munki
+munkiadmin
+music-decoy
+music-miniplayer
+music-presence
+music-remote
+music-widget
+my-image-garden
+n1ghtshade
+nagstamon
+nano-node
+nanosaur
+nanosaur2
+naver-whale
 
 
 openzfs
