@@ -155,6 +155,7 @@ mercurial
 miller
 minikube
 mise
+mist-cli
 mit-scheme
 mkvtoolnix
 monolith

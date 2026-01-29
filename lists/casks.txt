@@ -473,6 +473,8 @@ miniforge
 minisim
 minizincide
 mints
+mist
+mitmproxy
 mixxx
 mmex
 monitorcontrol
