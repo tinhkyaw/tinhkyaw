@@ -97,3 +97,9 @@ motrix
 mubu
 mumuplayer
 musiver
+neteasemusic
+ntfstool
+nutstore
+one-switch
+only-switch
+opencat

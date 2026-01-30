@@ -166,6 +166,7 @@ mstch
 mypy
 navi
 ncdu
+neovide
 netcat
 netlify-cli
 nghttp2
@@ -176,6 +177,7 @@ nushell
 ocaml
 octave
 odin
+ollama
 opam
 opencode
 openvino

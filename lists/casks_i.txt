@@ -258,6 +258,7 @@ ipfs-desktop
 irpf2023
 irpf2024
 irpf2025
+istherenet
 itau
 j
 jandi-statusbar
@@ -375,6 +376,20 @@ nano-node
 nanosaur
 nanosaur2
 naver-whale
+neovide-app
+nestopia
+nexonplug
+nightfall
+notesollama
+nrlquaker-winbox
+ntfstool
+nudge
+nvs
+nx-studio
+objectivesharpie
+ollamac
+open-eid
+opencloud
 
 
 openzfs
