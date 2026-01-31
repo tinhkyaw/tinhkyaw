@@ -8,10 +8,5 @@ google-earth-pro
 jgrasp
 mbed-studio
 mega
-opensong
-opentoonz
-
-
-keybase
-maestro
 openframeworks
+opensong

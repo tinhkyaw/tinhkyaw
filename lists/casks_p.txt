@@ -881,3 +881,13 @@ pastenow
 path-finder
 paulxstretch
 pcoipclient
+pdf-converter-master
+pdf-expert
+pdf-pals
+pdf-reader-pro
+pdfelement
+pdfify
+perforce
+perimeter81
+permute
+philips-hue-sync

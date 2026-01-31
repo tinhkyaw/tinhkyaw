@@ -565,6 +565,8 @@ paraview
 parsify
 pd
 pdfsam-basic
+pearcleaner
+petrichor
 pgadmin4
 phoenix-slides
 photosrevive

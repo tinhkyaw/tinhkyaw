@@ -418,3 +418,8 @@ outset
 packages
 padloc
 pallotron-yubiswitch
+pdf-over
+pdl
+pecunia
+penc
+peninsula
