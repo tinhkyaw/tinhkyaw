@@ -172,7 +172,7 @@ if (( $+commands[brew] )); then
   # bat
   # https://github.com/sharkdp/bat
   if (( $+commands[bat] )); then
-    export BAT_THEME="Solarized (dark)"
+    export BAT_THEME="Catppuccin Macchiato"
     alias cat='bat'
   fi
   # eza

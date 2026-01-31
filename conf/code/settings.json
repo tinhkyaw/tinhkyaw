@@ -213,9 +213,10 @@
       "*.ipynb": "jupyter-notebook"
     }
   },
-  "workbench.iconTheme": "catppuccin-mocha",
+  "workbench.iconTheme": "catppuccin-macchiato",
   "yapf.args": [
     "--style",
     "{based_on_style: google, column_limit: 79}"
-  ]
+  ],
+  "workbench.colorTheme": "Catppuccin Macchiato"
 }

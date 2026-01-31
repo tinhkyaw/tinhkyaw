@@ -141,7 +141,7 @@
   wsErrorHighlight = all
 [delta]
   features = decorations side-by-side line-numbers navigate
-  syntax-theme = Solarized (dark)
+  syntax-theme = Catppuccin Macchiato
 [diff]
   algorithm = patience
   colorMoved = default
