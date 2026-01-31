@@ -192,6 +192,7 @@ pinentry-mac
 pipdeptree
 pipenv
 pipx
+pkgx
 pngquant
 poetry
 powerlevel10k

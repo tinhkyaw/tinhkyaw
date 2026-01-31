@@ -18,6 +18,7 @@ aws-vpn-client
 aya
 baiduinput
 baidunetdisk
+bambu-studio
 bbackupp
 bcut
 betterandbetter
@@ -103,3 +104,5 @@ nutstore
 one-switch
 only-switch
 opencat
+openlist-app
+orcaslicer
