@@ -191,7 +191,6 @@ electron-fiddle
 emdash
 emojipedia
 epic-games
-equinox
 espanso
 etrecheckpro
 eul

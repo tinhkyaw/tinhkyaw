@@ -15,7 +15,7 @@
   },
   "[jsonc]": {
     "editor": {
-      "defaultFormatter": "denoland.vscode-deno",
+      "defaultFormatter": "vscode.json-language-features",
       "formatOnSave": true
     }
   },
@@ -25,7 +25,8 @@
       "defaultFormatter": "charliermarsh.ruff",
       "formatOnSave": true,
       "formatOnSaveMode": "file"
-    }
+    },
+    "languageServer": "Default"
   },
   "[shellscript]": {
     "editor": {
@@ -207,16 +208,15 @@
   },
   "vsicons.dontShowNewVersionMessage": true,
   "workbench": {
-    "colorTheme": "Catppuccin Mocha",
+    "colorTheme": "Catppuccin Macchiato",
     "editor.enablePreview": false,
     "editorAssociations": {
       "*.ipynb": "jupyter-notebook"
-    }
+    },
+    "iconTheme": "catppuccin-macchiato"
   },
-  "workbench.iconTheme": "catppuccin-macchiato",
   "yapf.args": [
     "--style",
     "{based_on_style: google, column_limit: 79}"
-  ],
-  "workbench.colorTheme": "Catppuccin Macchiato"
+  ]
 }
