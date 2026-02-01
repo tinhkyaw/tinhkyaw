@@ -212,9 +212,9 @@
     "editor.enablePreview": false,
     "editorAssociations": {
       "*.ipynb": "jupyter-notebook"
-    },
-    "iconTheme": "catppuccin-macchiato"
+    }
   },
+  "workbench.iconTheme": "catppuccin-macchiato",
   "yapf.args": [
     "--style",
     "{based_on_style: google, column_limit: 79}"
