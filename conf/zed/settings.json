@@ -7,7 +7,11 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "icon_theme": "Catppuccin Mocha",
+  "agent_servers": {
+    "opencode": {
+      "type": "registry"
+    }
+  },
   "auto_install_extensions": {
     "ansible": true,
     "astro": true,
@@ -50,7 +54,6 @@
     "nu": true,
     "ocaml": true,
     "odin": true,
-    "opencode": true,
     "perplexity": true,
     "postgres-context-server": true,
     "probe-rs": true,
@@ -79,8 +82,9 @@
       }
     }
   },
+  "icon_theme": "Catppuccin Macchiato",
   "theme": {
-    "dark": "Catppuccin Mocha",
+    "dark": "Catppuccin Macchiato",
     "light": "Catppuccin Latte",
     "mode": "system"
   },

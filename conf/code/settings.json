@@ -92,6 +92,7 @@
   "dotnetAcquisitionExtension.enableTelemetry": false,
   "editor": {
     "acceptSuggestionOnEnter": "on",
+    "fontSize": 16,
     "formatOnSave": true,
     "inlineSuggest.enabled": true,
     "snippetSuggestions": "top",
