@@ -45,7 +45,6 @@ curl
 dagger/tap/dagger
 dart-lang/dart/dart
 dateutils
-deno
 diff-so-fancy
 difftastic
 direnv
@@ -161,6 +160,7 @@ mkvtoolnix
 monolith
 moreutils
 mosh
+mpv
 mr
 mstch
 mypy
@@ -188,6 +188,7 @@ pdf-diff
 pdfgrep
 perl
 pgsync
+pieces-cli
 pinentry-mac
 pipdeptree
 pipenv
