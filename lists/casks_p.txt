@@ -566,6 +566,7 @@ juxtacode
 k8studio
 kaleidoscope
 kameleo
+karafun
 katalon-studio
 keep-it
 keeper-password-manager
@@ -1214,3 +1215,5 @@ tailscale-app
 tal-drum
 tandem
 taskade
+taskbar
+taskpaper

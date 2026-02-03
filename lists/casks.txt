@@ -771,6 +771,8 @@ tachidesk-sorayomi
 tad
 tagspaces
 talon
+taskexplorer
+tastytrade
 tau
 telegram
 telegram-desktop
