@@ -626,7 +626,6 @@ r-app
 racket
 radar
 rapidapi
-rar
 raspberry-pi-imager
 rawtherapee
 raycast
