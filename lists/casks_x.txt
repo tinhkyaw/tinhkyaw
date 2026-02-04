@@ -10,3 +10,4 @@ mbed-studio
 mega
 opensong
 opentoonz
+thinkorswim
