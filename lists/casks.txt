@@ -385,6 +385,7 @@ keka
 kekaexternalhelper
 kextviewr
 key-codes
+keybase
 keycastr
 keyclu
 keyman
@@ -598,6 +599,7 @@ portfolioperformance
 portx
 positron
 post-haste
+posturr
 praat
 precize
 preference-manager
