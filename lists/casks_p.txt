@@ -1214,6 +1214,7 @@ tabtab
 tageditor
 tailscale-app
 tal-drum
+tana
 tandem
 taskade
 taskbar
