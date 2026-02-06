@@ -90,6 +90,7 @@ clipaste
 clock-signal
 clone-hero
 cloud-pbx
+cloudflare-warp
 cmake-app
 cockatrice
 code-composer-studio
@@ -407,6 +408,7 @@ openra
 opensc-app
 opensuperwhisper
 openttd
+openvpn-connect
 openzfs
 opera
 opera-air
