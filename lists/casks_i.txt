@@ -269,6 +269,7 @@ jellybeansoup-netflix
 jitouch
 jitsi-meet
 jollysfastvnc
+jordanbaird-ice
 jslegendre-themeengine
 jukebox
 julia-app

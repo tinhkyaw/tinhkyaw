@@ -30,6 +30,7 @@ chatbox
 chatglm
 cherry-studio
 choice-financial-terminal
+clash-mi
 clash-party
 clash-verge-rev
 claudebar

@@ -365,7 +365,6 @@ jellyfin-media-player
 jet-pilot
 jiggler
 joplin
-jordanbaird-ice
 josm
 jt-bridge
 jumpcut
@@ -423,6 +422,7 @@ loom
 losslesscut
 low-profile
 ltspice
+luxury-yacht
 lyric-fever
 lyrics-master
 lyricsx
@@ -787,6 +787,7 @@ texshop
 textgrabber2
 textmate
 texworks
+thaw
 the-unarchiver
 thebrowsercompany-dia
 thedesk
