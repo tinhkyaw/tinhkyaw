@@ -84,7 +84,6 @@ burn
 cables
 cad-assistant
 caffeine
-cakebrewjs
 calcservice
 calhash
 calibre
