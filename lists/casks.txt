@@ -383,7 +383,6 @@ keka
 kekaexternalhelper
 kextviewr
 key-codes
-keybase
 keycastr
 keyclu
 keyman

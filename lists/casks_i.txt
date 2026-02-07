@@ -276,6 +276,7 @@ jukebox
 julia-app
 k6-studio
 kdrive
+keybase
 keyboard-cleaner
 keyboard-cowboy
 keyboard-maestro
