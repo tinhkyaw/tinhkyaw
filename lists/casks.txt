@@ -556,6 +556,7 @@ oversight
 overt
 overview
 ovito
+owocr
 packetsender
 paintbrush
 pairpods
@@ -805,7 +806,6 @@ timemachinestatus
 timescribe
 tiny-player
 tofu
-tomatobar
 topcat
 topnotch
 tor-browser

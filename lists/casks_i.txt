@@ -594,6 +594,7 @@ virtualc64
 virtualgl
 visualboyadvance-m
 vk-calls
+vk-messenger
 void
 volta-app
 volume-control
@@ -620,6 +621,7 @@ xampp
 xcodes-app
 xemu
 xiv-on-mac
+xkey
 xmenu
 xonotic
 yandex
