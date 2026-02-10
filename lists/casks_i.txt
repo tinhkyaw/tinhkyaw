@@ -188,6 +188,7 @@ find-empty-folders
 find-my-ports
 finetune
 finicky
+firestorm
 flashspace
 fluor
 flying-carpet
