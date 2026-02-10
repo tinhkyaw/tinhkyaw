@@ -281,6 +281,7 @@ descript
 deskpad
 deskreen
 desktime
+desktop-composer
 desktoppr
 desktoputility
 devknife
@@ -391,6 +392,7 @@ fetch-app
 ff-works
 fido2-manage
 file-juicer
+filebot
 filefaker
 filefillet
 filemaker-pro
@@ -640,6 +642,7 @@ macdive
 macdroid
 macloggerdx
 macpilot
+macpulse
 macrorecorder
 macs-fan-control
 macsyzones
@@ -1317,6 +1320,7 @@ unity-ios-support-for-editor
 unity-webgl-support-for-editor
 unity-windows-support-for-editor
 unraid-usb-creator-next
+updatest
 updf
 upscayl
 usenapp

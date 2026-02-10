@@ -746,6 +746,7 @@ stravu-crystal
 stringz
 subethaedit
 subler
+supacode
 super
 super-productivity
 supercollider
