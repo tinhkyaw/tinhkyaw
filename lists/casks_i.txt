@@ -552,6 +552,7 @@ telegram-a
 telegram-desktop
 tempbox
 the-battle-for-wesnoth
+thecommander
 thor
 tigerjython
 tiles

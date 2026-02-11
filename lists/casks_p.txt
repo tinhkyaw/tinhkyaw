@@ -789,6 +789,7 @@ nessus
 netdownloadhelpercoapp
 nethlink
 netspot
+netviews
 network-radar
 nextcloud
 nextcloud-talk
