@@ -26,6 +26,7 @@ bottom
 buildifier
 byobu
 carthage
+cfitsio
 chezmoi
 chezscheme
 clipboard
@@ -134,6 +135,7 @@ liblinear
 libmaxminddb
 libmng
 libproxy
+librsvg
 libsmi
 lightgbm
 lorem

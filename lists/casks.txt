@@ -25,6 +25,7 @@ another-redis-desktop-manager
 antconc
 antigravity
 anythingllm
+anytype
 apache-couchdb
 apparency
 appcleaner
@@ -126,6 +127,7 @@ codeql
 codex
 codex-app
 codexbar
+codexmonitor
 cog-app
 comet
 comfyui
@@ -339,6 +341,7 @@ ipsecuritas
 iqmol
 isabelle
 ishare
+itch
 iterm2
 itermai
 itermbrowserplugin
@@ -525,6 +528,7 @@ numi
 nvidia-geforce-now
 nvidia-nsight-systems
 obs
+obsidian
 ocenaudio
 oclint
 odbc-manager
@@ -653,6 +657,7 @@ ripme
 rivet
 rnote
 roaringapps
+routine
 rsyncui
 sabaki
 sabnzbd
