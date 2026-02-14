@@ -147,6 +147,7 @@ cork
 coteditor
 couchbase-server-community
 cpu-info
+craft
 cursor
 cursor-cli
 customshortcuts
@@ -474,6 +475,7 @@ midikeys
 miditrail
 midiview
 milkytracker
+mindwtr
 miniforge
 minisim
 minizincide
@@ -524,6 +526,7 @@ notion-calendar
 notion-mail
 notunes
 nperf
+nugget
 numi
 nvidia-geforce-now
 nvidia-nsight-systems
