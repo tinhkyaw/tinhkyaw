@@ -111,7 +111,6 @@ orcaslicer
 picgo
 piclist
 pictureview
-picview
 pixpin
 popo
 pot

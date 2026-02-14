@@ -456,6 +456,7 @@ mediainfo
 mediainfoex
 meetingbar
 meld
+mem
 memory-cleaner
 memoryanalyzer
 menu-bar-splitter

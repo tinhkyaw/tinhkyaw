@@ -60,7 +60,6 @@ anydesk
 anydo
 anylist
 anypointstudio
-anytype
 ape
 app-cleaner
 app-tamer
@@ -239,7 +238,6 @@ core-tunnel
 coscreen
 coterm
 couchbase-server-enterprise
-craft
 crashplan
 creality-print
 creative
@@ -676,7 +674,6 @@ megasync
 meld-studio
 mellel
 melodics
-mem
 memory
 memory-clean-3
 mendeley-reference-manager
@@ -823,7 +820,6 @@ nrfutil
 nucleo
 nuclino
 obscura-vpn
-obsidian
 octarine
 october
 odrive
@@ -1062,7 +1058,6 @@ rodecaster
 roon
 rotato
 rotki
-routine
 rowmote-helper
 royal-tsx
 rstudio
