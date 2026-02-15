@@ -1345,7 +1345,6 @@ vitalsource-bookshelf
 vitamin-r
 vivid-app
 vnc-server
-vnc-viewer
 vocaster-hub
 voiceink
 voicenotes

@@ -546,6 +546,7 @@ openboard
 openchrom
 openclaw
 opencode-desktop
+opencomic
 opencpn
 openrgb
 openrocket
@@ -865,6 +866,7 @@ visualvm
 vivaldi
 viz
 vlc
+vnc-viewer
 vnote
 voiden
 vorta
