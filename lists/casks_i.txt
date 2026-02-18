@@ -251,6 +251,7 @@ hot
 huggingchat
 iem-plugin-suite
 ijhttp
+iloader
 impactor
 install-disk-creator
 intellidock

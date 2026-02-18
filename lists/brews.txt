@@ -142,6 +142,7 @@ lsd
 luajit-openresty
 luau
 lzip
+macchina
 macvim
 make
 mariadb
