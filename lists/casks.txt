@@ -78,6 +78,7 @@ bonjeff
 boop
 brave-browser
 breaktimer
+brewy
 brilliant
 browseros
 bunch
