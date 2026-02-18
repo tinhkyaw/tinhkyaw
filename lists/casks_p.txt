@@ -414,6 +414,7 @@ focusrite-control
 focusrite-control-2
 folder-colorizer
 folder-preview-pro
+folx
 fontcreator
 fontfinagler
 fontlab

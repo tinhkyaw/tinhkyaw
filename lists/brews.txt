@@ -60,6 +60,7 @@ entr
 eza
 fabric
 fades
+fastfetch
 fd
 findutils
 firebase-cli
