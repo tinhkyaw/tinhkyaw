@@ -76,6 +76,7 @@
   "aws.telemetry": false,
   "carbon.fontFamily": "Source Code Pro",
   "chat.mcp.gallery.enabled": true,
+  "claudeCode.preferredLocation": "sidebar",
   "cloudcode": {
     "autoDependencies": "off",
     "enableTelemetry": false

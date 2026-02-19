@@ -76,6 +76,11 @@ curl -s "$URL" -o "$INPUT_FILE"
 total_count=$(jq length "$INPUT_FILE")
 echo "Total casks available: $total_count"
 
+INPUT_CSV="$OUTPUT_DIR/casks.csv"
+echo "Name,Homepage" > "$INPUT_CSV"
+jq -r ".[] | [.token, .homepage] | @csv" "$INPUT_FILE" >> "$INPUT_CSV"
+
+
 # Step 2: Find and filter out disabled casks
 run_filter_step "Disabled casks" \
     "$INPUT_FILE" \
@@ -192,9 +197,11 @@ echo "Results saved to: $CASKS_FINAL," \
      "$OUTPUT_CSV, and $OUTPUT_TXT"
 
 # Clean up temporary files
-rm "$INPUT_FILE" "$CASKS_STEP1" \
-    "$CASKS_STEP2" "$CASKS_STEP3" \
-    "$CASKS_STEP4" "$CASKS_STEP5" \
+rm "$CASKS_STEP1" \
+    "$CASKS_STEP2" \
+    "$CASKS_STEP3" \
+    "$CASKS_STEP4" \
+    "$CASKS_STEP5" \
     "$CASKS_STEP6" \
     "$IGNORE_FILE"
 # The result is in $CASKS_FINAL if you wish to inspect it,
