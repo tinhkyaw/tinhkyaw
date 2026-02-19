@@ -177,6 +177,7 @@ discord
 djv
 dnsmonitor
 docker-desktop
+donut
 dorso
 dotnet-sdk
 doughnut

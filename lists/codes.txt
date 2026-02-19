@@ -198,6 +198,7 @@ svelte.svelte-vscode
 swiftlang.swift-vscode
 syler.sass-indented
 tamasfe.even-better-toml
+tauri-apps.tauri-vscode
 tcwalther.cython
 timonwong.shellcheck
 tootone.org-mode
