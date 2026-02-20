@@ -112,6 +112,7 @@ cirrus
 clariti
 claude
 claude-code
+claude-island
 clibor
 clips-ide
 cljstyle
@@ -545,6 +546,7 @@ onyx
 open-video-downloader
 openboard
 openchrom
+openclaw
 opencode-desktop
 opencomic
 opencpn
