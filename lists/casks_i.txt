@@ -387,6 +387,7 @@ neovide-app
 nestopia
 nexonplug
 nightfall
+nostalgiapp
 notesollama
 nrlquaker-winbox
 ntfstool

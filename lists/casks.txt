@@ -264,9 +264,7 @@ geoda
 geomap
 geotag
 geph
-gephi
 get-iplayer-automator
-gfxcardstatus
 gg
 ghdl
 ghostty
@@ -343,7 +341,6 @@ ipe
 ipepresenter
 ipsecuritas
 iqmol
-isabelle
 ishare
 itch
 iterm2
@@ -397,7 +394,6 @@ kicad
 kid3
 kitlangton-hex
 kiwix
-klayout
 knockknock
 kodi
 kopiaui
@@ -642,7 +638,6 @@ rawtherapee
 raycast
 rclone-ui
 react-native-debugger
-react-proto
 reactotron
 readest
 reamp
@@ -721,7 +716,6 @@ snipaste
 soapui
 socialstream
 sol
-solar2d
 solvespace
 sonic-pi
 sonic-visualiser
@@ -753,7 +747,6 @@ stability-matrix
 standard-notes
 stats
 stellarium
-storyboarder
 stratoshark
 stravu-crystal
 stringz

@@ -4,10 +4,17 @@ amazon-music
 fpc-src-laz
 fuse
 fx-cast-bridge
+gephi
+gfxcardstatus
 google-earth-pro
+isabelle
 jgrasp
+klayout
 mbed-studio
 mega
 opensong
 opentoonz
+react-proto
+solar2d
+storyboarder
 thinkorswim
