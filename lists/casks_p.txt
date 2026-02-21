@@ -302,6 +302,7 @@ dnclient
 dockx
 doppler-app
 dorico
+dot
 downie
 doxie
 drata-agent

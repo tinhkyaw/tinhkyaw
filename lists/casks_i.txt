@@ -426,6 +426,7 @@ outset
 packages
 padloc
 pallotron-yubiswitch
+pangolin
 pdf-over
 pdl
 pecunia
@@ -453,6 +454,7 @@ progressive-downloader
 projectlibre
 prolific-pl2303
 proxy-audio-device
+psiphon-conduit
 psst
 ptpwebcam
 purei-play

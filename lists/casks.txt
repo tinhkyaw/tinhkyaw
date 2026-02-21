@@ -112,6 +112,7 @@ cirrus
 clariti
 claude
 claude-code
+claude-devtools
 claude-island
 clibor
 clips-ide
