@@ -362,6 +362,7 @@ expandrive
 expo-orbit
 expressions
 expressvpn
+extradock
 f-bar
 fabfilter-micro
 fabfilter-one
