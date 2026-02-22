@@ -86,6 +86,7 @@ cables
 cad-assistant
 caffeine
 calcservice
+calendr
 calhash
 calibre
 canva
@@ -721,7 +722,6 @@ spacedrive
 spaceid
 spacelauncher
 spaceman
-sparkle
 sparsity
 spatial
 spectrolite
