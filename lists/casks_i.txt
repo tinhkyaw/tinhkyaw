@@ -622,6 +622,7 @@ wiso-steuer-2026
 wordpresscom-studio
 wowup
 wwdc
+wxmacmolplt
 x-moto
 xampp
 xcodes-app

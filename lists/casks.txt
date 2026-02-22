@@ -53,7 +53,6 @@ bananas
 banksiagui
 bdash
 bean
-beast2
 beaver-notes
 beekeeper-studio
 beeper
@@ -263,7 +262,6 @@ geany
 geoda
 geomap
 geotag
-geph
 get-iplayer-automator
 gg
 ghdl
@@ -298,7 +296,6 @@ grandperspective
 greenfoot
 gretl
 gridtracker2
-guijs
 gyroflow
 halloy
 hammerspoon
@@ -358,7 +355,6 @@ jasp
 jasper-app
 jbrowse
 jclasslib-bytecode-viewer
-jd-gui
 jdk-mission-control
 jdownloader
 jedit
@@ -443,7 +439,6 @@ mactex
 mactracker
 maestral
 maestro
-magicavoxel
 magicquit
 maintenance
 markright
@@ -588,11 +583,9 @@ pieces
 pieces-os
 pika
 pile
-pingnoo
 pinta
 pixieditor
 planet
-playonmac
 plover
 plugdata
 plus42-binary
@@ -646,7 +639,6 @@ recents
 rectangle
 redis-insight
 reikey
-remoteviewer
 renpy
 repetier-host
 replit
@@ -779,7 +771,6 @@ tagspaces
 talon
 taskexplorer
 tastytrade
-tau
 telegram
 temurin
 temurin@11
@@ -892,7 +883,6 @@ wljs-notebook
 wolfram-engine
 wordpresscom
 wordservice
-wxmacmolplt
 x-swiftformat
 xattred
 xbar
