@@ -96,6 +96,7 @@ meituxiuxiu
 mfiles
 mini-program-studio
 mochi-diffusion
+mos
 motrix
 mubu
 mumuplayer

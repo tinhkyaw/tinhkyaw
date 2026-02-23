@@ -301,6 +301,7 @@ gyroflow
 halloy
 hammerspoon
 handbrake-app
+hdfview
 helio
 helium-browser
 heroic
