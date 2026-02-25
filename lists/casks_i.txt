@@ -334,6 +334,7 @@ maciasl
 macintoshjs
 macmediakeyforwarder
 mactex-no-gui
+macusb
 macvim-app
 mail-assistant
 mailtrackerblocker

@@ -912,6 +912,7 @@ pinegrow
 pinwheel
 pitch
 pixelsnap
+pktriot
 plasticity
 plaud
 playdate-mirror

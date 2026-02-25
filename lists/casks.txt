@@ -163,6 +163,7 @@ db-browser-for-sqlite
 dbeaver-community
 dbgate
 dbngin
+deadbolt
 deeper
 defold
 detectx-swift
@@ -467,7 +468,6 @@ microsoft-auto-update
 microsoft-edge
 microsoft-teams
 midi-monitor
-midi-router-client
 midikeys
 miditrail
 midiview

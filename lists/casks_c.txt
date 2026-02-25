@@ -101,6 +101,7 @@ motrix
 mubu
 mumuplayer
 musiver
+navicat-data-modeler
 neteasemusic
 ntfstool
 nutstore
