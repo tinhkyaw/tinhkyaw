@@ -121,6 +121,7 @@ clocker
 cloudcompare
 cmd
 cmpxat
+cmux
 cocoapacketanalyzer
 cocoarestclient
 codeedit
@@ -348,6 +349,7 @@ itermai
 itermbrowserplugin
 itk-snap
 itsycal
+itsytv
 jabref
 jalview
 jami
@@ -396,6 +398,7 @@ kiwix
 knockknock
 kodi
 kopiaui
+kotlin-lsp
 kotlin-native
 krita
 kunkun
