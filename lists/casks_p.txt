@@ -231,6 +231,7 @@ commandq
 confluent-cli
 connect-fonts
 connectiq
+connectiq-sdk-manager
 contexts
 cookie
 copyclip
@@ -791,6 +792,7 @@ nethlink
 netspot
 netviews
 network-radar
+netxms-console
 nextcloud
 nextcloud-talk
 nextcloud-vfs
