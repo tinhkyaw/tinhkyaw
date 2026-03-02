@@ -680,6 +680,7 @@ mellel
 melodics
 memory
 memory-clean-3
+memory-meter-3
 mendeley-reference-manager
 menubar-stats
 menubarx

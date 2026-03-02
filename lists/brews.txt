@@ -120,6 +120,7 @@ jupyterlab
 just
 k9s
 kakoune
+katago
 kind
 kiota
 kn

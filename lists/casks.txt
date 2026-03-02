@@ -56,6 +56,7 @@ bean
 beaver-notes
 beekeeper-studio
 beeper
+bettercapture
 beutl
 bibdesk
 biglybt
@@ -208,6 +209,7 @@ eul
 evernote
 exelearning
 exifrenamer
+fabric-app
 fastdmg
 fbreader
 fedistar

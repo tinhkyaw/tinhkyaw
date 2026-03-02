@@ -13,11 +13,6 @@ LIST_DIR="${GIT_ROOT_DIR}/lists"
 color=blue
 print -P "%F{${color}}Taking snapshot...%f"
 brew list --formula >"${SNAPSHOT_DIR}/brew${SUFFIX}.txt"
-BREWS_TO_IGNORE="\
-fluid-synth\
-|katago\
-|python@3.9\
-"
 {
   grep -Fvxf \
     <(brew deps --installed |
@@ -25,8 +20,7 @@ fluid-synth\
       tr ' ' '\n' |
       sort -u) \
     <(brew list --formula --full-name -1 |
-      sort) |
-    grep -Evi ${BREWS_TO_IGNORE}
+      sort -u)
 } | sort -u >"${LIST_DIR}/brews.txt"
 brew list --cask >"${SNAPSHOT_DIR}/cask${SUFFIX}.txt"
 brew list --cask |
@@ -68,5 +62,10 @@ grep -Fvxf \
 gcloud version | grep -v gcloud >"${SNAPSHOT_DIR}/gcloud${SUFFIX}.txt"
 cp "${HOME}"/.mrconfig "${SNAPSHOT_DIR}/mr${SUFFIX}.txt"
 cpan -l >"${SNAPSHOT_DIR}/cpan${SUFFIX}.txt"
+cd "${LIST_DIR}"
+"${GIT_ROOT_DIR}/bin/filter-casks.zsh" \
+  "casks.txt" \
+  "casks_*.txt"
+for f in $(ls casks_*.txt); do sort -o $f $f; done
 print -P "%F{${color}}$(date)%f"
 cd "${WD}" || exit
