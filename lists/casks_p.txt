@@ -1065,6 +1065,7 @@ rodecaster
 roon
 rotato
 rotki
+rouvy
 rowmote-helper
 royal-tsx
 rstudio

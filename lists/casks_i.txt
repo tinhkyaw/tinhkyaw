@@ -589,6 +589,7 @@ unshaky
 usb-overdrive
 usr-sse2-rdm
 vamiga
+vcmi
 veracrypt
 veracrypt-fuse-t
 vero
