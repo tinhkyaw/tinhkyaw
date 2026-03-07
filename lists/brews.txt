@@ -74,6 +74,7 @@ geckodriver
 geeqie
 gemini-cli
 ghi
+git
 git-delta
 git-friendly/git-friendly/git-friendly
 git-lfs

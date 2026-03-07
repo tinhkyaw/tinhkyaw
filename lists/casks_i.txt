@@ -206,6 +206,7 @@ fs-uae-emulator
 fs-uae-launcher
 fujifilm-tether-app
 fujifilm-x-raw-studio
+fujitsu-scansnap-home
 fuse-t
 galaxybudsclient
 gama-jdk
@@ -490,6 +491,7 @@ safe-exam-browser
 salt
 sameboy
 sanesidebuttons
+santa
 satellite-eyes
 sc-menu
 scoot

@@ -665,7 +665,6 @@ sabaki
 sabnzbd
 sage
 sanctum
-santa
 satdump
 satyrn
 scihubeva
@@ -732,6 +731,7 @@ sparsity
 spatial
 spectrolite
 spires
+spokenly
 springtoolsforeclipse
 spundle
 spybuster
@@ -747,6 +747,7 @@ stats
 stellarium
 stratoshark
 stravu-crystal
+stremio
 stringz
 subethaedit
 subler
