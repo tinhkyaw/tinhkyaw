@@ -269,7 +269,6 @@ geomap
 geotag
 get-iplayer-automator
 gg
-ghdl
 ghostty
 gimp
 gitahead
@@ -575,9 +574,11 @@ pally
 panoply
 paraview
 parsify
+paseo
 pd
 pdfsam-basic
 pearcleaner
+pencil2d
 petrichor
 pgadmin4
 phoenix-slides
@@ -667,7 +668,6 @@ sage
 sanctum
 satdump
 satyrn
-scihubeva
 scilab
 scratch
 scribus
@@ -677,6 +677,7 @@ scroll-reverser
 scrub-utility
 sculptor
 sdformatter
+seamly2d
 sequel-ace
 session
 sf-symbols
@@ -767,9 +768,11 @@ swimat
 syncthing-app
 sysex-librarian
 systhist
+t3-code
 tabby
 tablecruncher
 tableplus
+tablepro
 tabtopus
 taccy
 tachidesk-sorayomi

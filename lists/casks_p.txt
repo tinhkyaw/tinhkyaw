@@ -629,6 +629,7 @@ lookingglassstudio
 loopback
 loupedeck
 lrtimelapse
+ltx-desktop
 ludwig
 lunacy
 lunar
@@ -1372,6 +1373,7 @@ vysor
 wacom-tablet
 wakatime
 wavebox
+waveforms
 waves-central
 webcatalog
 webex
