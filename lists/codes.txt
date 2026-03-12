@@ -126,7 +126,6 @@ ms-toolsai.prompty
 ms-toolsai.python-ds-extension-pack
 ms-toolsai.tensorboard
 ms-toolsai.vscode-jupyter-powertoys
-ms-vscode.copilot-mermaid-diagram
 ms-vscode.cpptools-extension-pack
 ms-vscode.debug-value-editor
 ms-vscode.hexeditor

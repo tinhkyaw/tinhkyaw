@@ -457,6 +457,7 @@ gitfox
 gitkraken
 gitkraken-cli
 gitkraken-on-premise-serverless
+glkvm
 glyphs
 godspeed
 goland
