@@ -605,6 +605,7 @@ portfolioperformance
 portx
 positron
 post-haste
+postgres-app
 posturr
 praat
 precize
@@ -893,6 +894,7 @@ wljs-notebook
 wolfram-engine
 wordpresscom
 wordservice
+wowup-cf
 x-swiftformat
 xattred
 xbar
