@@ -247,6 +247,7 @@ spaceman-diff
 spark
 sphinx-doc
 spidermonkey
+sqlite
 sqruff
 steampipe
 stow

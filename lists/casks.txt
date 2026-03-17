@@ -126,7 +126,6 @@ cmux
 cocoapacketanalyzer
 cocoarestclient
 codeedit
-codelite
 codeql
 codex
 codex-app

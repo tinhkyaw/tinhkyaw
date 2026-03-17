@@ -607,6 +607,7 @@ virtualgl
 visualboyadvance-m
 vk-calls
 vk-messenger
+voicemod
 void
 volta-app
 volume-control
