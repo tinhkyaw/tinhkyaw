@@ -214,6 +214,7 @@ fastdmg
 fbreader
 fedistar
 feedflow
+fidelity-trader+
 figma
 fiji
 filemonitor
@@ -295,6 +296,7 @@ goxel
 gpgfrontend
 gplates
 gqrx
+gram
 gramps
 grandperspective
 greenfoot
@@ -731,6 +733,7 @@ spacelauncher
 spaceman
 sparsity
 spatial
+spectra-app
 spectrolite
 spires
 spokenly

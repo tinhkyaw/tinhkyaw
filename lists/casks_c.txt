@@ -146,6 +146,7 @@ taobao
 taphouse
 tencent-lemon
 tencent-meeting
+tencent-ugit
 termora
 ths
 thunder

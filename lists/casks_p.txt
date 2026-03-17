@@ -1194,6 +1194,7 @@ sublime-merge
 sublime-text
 submariner
 sunsama
+supasidebar
 superduper
 superhuman
 superkey

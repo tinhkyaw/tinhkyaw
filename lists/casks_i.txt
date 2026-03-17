@@ -472,6 +472,7 @@ rancher
 raw-photo-processor
 raze
 redquits
+reflex-app
 reminders-menubar
 replaywebpage
 replicator
@@ -586,6 +587,7 @@ typinator
 typora
 uefitool
 uhk-agent
+ulaa
 unnaturalscrollwheels
 unshaky
 usb-overdrive
