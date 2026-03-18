@@ -643,7 +643,6 @@ rclone-ui
 react-native-debugger
 reactotron
 readest
-reamp
 recaf
 recents
 rectangle

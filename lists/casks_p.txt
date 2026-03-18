@@ -895,6 +895,7 @@ pdf-converter-master
 pdf-expert
 pdf-pals
 pdf-reader-pro
+pdf-squeezer
 pdfelement
 pdfify
 perforce

@@ -119,6 +119,7 @@ ms-python.gather
 ms-python.isort
 ms-python.mypy-type-checker
 ms-python.pylint
+msrvida.chartifact
 msrvida.vscode-sanddance
 ms-sarifvscode.sarif-viewer
 ms-semantic-kernel.semantic-kernel

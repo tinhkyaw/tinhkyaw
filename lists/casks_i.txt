@@ -471,6 +471,7 @@ quitter
 rancher
 raw-photo-processor
 raze
+reamp
 redquits
 reflex-app
 reminders-menubar
