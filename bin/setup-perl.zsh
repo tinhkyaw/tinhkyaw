@@ -7,11 +7,13 @@ curl -L https://cpanmin.us |
   Term::ReadLine::Perl \
   YAML::Tiny
 for sp in "site" "vendor"; do
-  md=$(perl -V |
-    grep -E "^[ ]*${HOMEBREW_PREFIX}/lib/perl5/${sp}_perl/" | gsed -e 's/ //g')
-  if [[ ! -d "${md}" ]]; then
-    print -P "%F{yellow}Warning:%f Creating the missing dir: ${md}"
-    mkdir -p "$md"
-    touch "$md/.gitignore"
-  fi
+  for md in $(perl -V |
+    grep -E "^[ ]*${HOMEBREW_PREFIX}/lib/perl5/${sp}_perl/" |
+    gsed -e 's/ //g'); do
+    if [[ ! -d "${md}" ]]; then
+      print -P "%F{yellow}Warning:%f Creating the missing dir: ${md}"
+      mkdir -p "$md"
+      touch "$md/.gitignore"
+    fi
+  done
 done
