@@ -266,9 +266,11 @@ datagrip
 dataspell
 dbeaver-enterprise
 dbeaverlite
+dbeaverteam
 dbeaverultimate
 dbschema
 dbvisualizer
+dbvr
 dcommander
 dda
 ddpm
