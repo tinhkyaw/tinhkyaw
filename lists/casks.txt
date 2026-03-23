@@ -646,7 +646,6 @@ rnote
 roaringapps
 routine
 rsyncui
-sabaki
 sabnzbd
 sage
 sanctum
