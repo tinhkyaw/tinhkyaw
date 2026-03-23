@@ -11,7 +11,6 @@ algodoo
 alienator88-sentinel
 alifix
 alisma
-alloy
 alt-tab
 altair-graphql-client
 altserver
@@ -117,7 +116,6 @@ claude-devtools
 claude-island
 clibor
 clips-ide
-cljstyle
 clocker
 cloudcompare
 cmd
@@ -142,7 +140,6 @@ confectionery
 connectmenow
 container-use
 context
-contour
 copilot-cli
 copilot-money
 coq-platform
@@ -221,7 +218,6 @@ finch
 firealpaca
 firefox
 flacon
-flame
 fldigi
 flightgear
 floorp
@@ -248,7 +244,6 @@ free-ruler
 free42-binary
 free42-decimal
 freecad
-freecol
 freefilesync
 freelens
 freeplane
@@ -262,7 +257,6 @@ ganttproject
 gaphor
 gargoyle
 gcloud-cli
-gdisk
 geany
 geoda
 geomap
@@ -326,12 +320,10 @@ iaito
 ibabel
 icon-composer
 icon-shelf
-iconizer
 iconset
 igv-desktop
 iina
 image2icon
-imagej
 imageoptim
 inform
 inkscape
@@ -340,8 +332,6 @@ inky
 input-source-pro
 invisor-lite
 ipaverse
-ipe
-ipepresenter
 ipsecuritas
 iqmol
 ishare
@@ -364,7 +354,6 @@ jbrowse
 jclasslib-bytecode-viewer
 jdk-mission-control
 jdownloader
-jedit
 jellyfin
 jellyfin-media-player
 jet-pilot
@@ -373,7 +362,6 @@ joplin
 josm
 jt-bridge
 jumpcut
-jupyter-notebook-viewer
 jupyterlab-app
 kando
 kap
@@ -437,7 +425,6 @@ macdown-3000
 macgamestore
 macgdbp
 macgesture
-macjournal
 macpacker
 macpass
 macskk
@@ -455,7 +442,6 @@ mcpbundler
 media-converter
 mediahuman-audio-converter
 mediainfo
-mediainfoex
 meetingbar
 meld
 mem
@@ -466,7 +452,6 @@ menumeters
 meridiem
 meshlab
 metamer
-metaz
 meteorologist
 mi
 microsoft-auto-update
@@ -476,7 +461,6 @@ midi-monitor
 midikeys
 miditrail
 midiview
-milkytracker
 mindwtr
 miniforge
 minisim
@@ -536,7 +520,6 @@ nvidia-nsight-systems
 obs
 obsidian
 ocenaudio
-oclint
 odbc-manager
 omnidisksweeper
 onionshare
@@ -551,11 +534,9 @@ opencode-desktop
 opencomic
 opencpn
 openframeworks
-openrgb
 openrocket
 openshot-video-editor
 opensoundmeter
-openvisualtraceroute
 orange
 origami-studio
 orion
@@ -617,7 +598,6 @@ prefs-editor
 presentation
 processing
 processmonitor
-procexp
 protokol
 prusaslicer
 publii
