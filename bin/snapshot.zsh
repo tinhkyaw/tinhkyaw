@@ -66,6 +66,5 @@ cd "${LIST_DIR}"
 "${GIT_ROOT_DIR}/bin/filter-casks.zsh" \
   "casks.txt" \
   "casks_*.txt"
-for f in $(ls casks_*.txt); do sort -o $f $f; done
 print -P "%F{${color}}$(date)%f"
 cd "${WD}" || exit

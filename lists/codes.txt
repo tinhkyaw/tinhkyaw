@@ -180,6 +180,7 @@ rust-lang.rust-analyzer
 ryu1kn.partial-diff
 ryu1kn.text-marker
 sainoba.px-to-rem
+salesforce.salesforcedx-vscode-core
 salesforce.salesforcedx-vscode-soql
 saoudrizwan.claude-dev
 sburg.vscode-javascript-booster

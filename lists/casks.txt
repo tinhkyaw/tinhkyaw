@@ -517,6 +517,7 @@ nugget
 numi
 nvidia-geforce-now
 nvidia-nsight-systems
+nvidia-sync
 obs
 obsidian
 ocenaudio

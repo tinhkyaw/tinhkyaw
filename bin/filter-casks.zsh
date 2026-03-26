@@ -94,37 +94,6 @@ run_filter_step() {
     jq "$@" "[.[] | select(($filter) | not)]" "$input" > "$output"
 }
 
-# write_ignore_csv — write a <basename>.csv report for a given
-#                    ignore .txt file.
-#
-# For every cask name listed in the ignore file (one per line), looks up the
-# cask's homepage in the provided casks JSON and writes a two-column CSV:
-#   Name, Homepage
-#
-# The output CSV is placed alongside the source file;
-# e.g. casks_x.txt → casks_x.csv.
-#
-# Arguments:
-#   1  Path to the .txt file listing cask names (one per line)
-#   2  Path to the full casks JSON catalogue (used for homepage lookups)
-write_ignore_csv() {
-    local ignore_file="$1" casks_json="$2"
-    local csv_file="${ignore_file:r}.csv"
-
-    local names_json
-    names_json=$(
-        jq -R -s 'split("\n") | map(select(length > 0))' "$ignore_file"
-    )
-
-    printf 'Name,Homepage\n' > "$csv_file"
-    jq -r --argjson names "$names_json" \
-        '[.[] | select(.token as $t | ($names | index($t)) != null)]
-         | .[] | [.token, .homepage] | @csv' \
-        "$casks_json" >> "$csv_file"
-
-    echo "  → CSV report: $csv_file"
-}
-
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
@@ -155,7 +124,7 @@ run_filter_step "Variant casks (@)" \
     '.token | contains("@")'
 run_filter_step "Rosetta-required casks" \
     "$JSON_STEP3" "$JSON_STEP4" "$LOG_ROSETTA" \
-    '.caveats // "" | test("requires rosetta"; "i")'
+    '.caveats_rosetta == true'
 run_filter_step "Manual-installer casks" \
     "$JSON_STEP4" "$JSON_STEP5" "$LOG_MANUAL" \
     '[.artifacts[].installer?[]? | select(has("manual"))] | length > 0'
@@ -168,6 +137,10 @@ run_filter_step "No-interesting-artifact casks" \
      | test("\"(app|binary|installer|pkg|suite)\"") | not'
 
 # Step 9: Apply custom ignore lists (if any)
+if (( $# > 0 )); then
+    "${0:h}/fetch-homepage.zsh" "$@"
+fi
+
 : > "$COMBINED_IGNORE_TXT"
 
 for pattern in "$@"; do
@@ -185,7 +158,6 @@ for pattern in "$@"; do
         fi
         echo "Processing ignore file: ${file}"
         cat "$file" >> "$COMBINED_IGNORE_TXT"
-        write_ignore_csv "$file" "$JSON_INPUT"
     done
 done
 

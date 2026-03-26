@@ -48,6 +48,7 @@ aldente
 alfaview
 almighty
 aloha-browser
+altar-ai
 amadine
 amazon-chime
 amie

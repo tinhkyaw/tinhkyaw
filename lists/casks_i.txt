@@ -201,6 +201,7 @@ font-sf-armenian
 font-sf-georgian
 font-sf-hebrew
 frappe-books
+fredm-fuse
 freeze
 fs-uae-emulator
 fs-uae-launcher
@@ -390,6 +391,7 @@ nestopia
 nexonplug
 nightfall
 nostalgiapp
+notchi
 notesollama
 nrlquaker-winbox
 ntfstool
