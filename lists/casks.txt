@@ -678,7 +678,6 @@ signal
 signet
 silentknight
 silicon-app
-silicon-info
 silnite
 simple-comic
 simple-web-server
@@ -707,9 +706,7 @@ soqlxplorer
 soulver-cli
 soundanchor
 sourcetree
-space-saver
 spacedrive
-spaceid
 spacelauncher
 spaceman
 sparsity
