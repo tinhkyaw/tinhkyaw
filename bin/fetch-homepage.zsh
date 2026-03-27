@@ -63,7 +63,7 @@ write_csv() {
         jq -R -s 'split("\n") | map(select(length > 0))' "$input_file"
     )
 
-    printf 'Name,Homepage\n' > "$csv_file"
+    printf "Name,Homepage\n" > "$csv_file"
     jq -r --argjson names "$names_json" \
         '[.[] | select(.token as $t | ($names | index($t)) != null)]
          | sort_by(.token)
