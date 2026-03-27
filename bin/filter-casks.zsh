@@ -35,7 +35,7 @@ readonly JSON_STEP4="$OUTPUT_DIR/step4.json"
 readonly JSON_STEP5="$OUTPUT_DIR/step5.json"
 readonly JSON_STEP6="$OUTPUT_DIR/step6.json"
 readonly JSON_STEP7="$OUTPUT_DIR/step7.json"
-readonly JSON_FINAL="$OUTPUT_DIR/final.json"
+readonly JSON_FINAL="$OUTPUT_DIR/result.json"
 
 # Filter log file names
 readonly LOG_DISABLED="$OUTPUT_DIR/disabled"
