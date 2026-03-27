@@ -48,8 +48,6 @@ readonly LOG_NO_ARTIFACTS="$OUTPUT_DIR/no_artifacts"
 readonly LOG_CUSTOM="$OUTPUT_DIR/custom"
 
 # Final output files
-readonly OUTPUT_CSV="$OUTPUT_DIR/final.csv"
-readonly OUTPUT_TXT="$OUTPUT_DIR/final.txt"
 readonly COMBINED_IGNORE_TXT="$OUTPUT_DIR/ignore.txt"
 
 # ---------------------------------------------------------------------------
@@ -67,6 +65,18 @@ check_deps() {
         echo "Install with: brew install ${missing[*]}" >&2
         exit 1
     fi
+}
+
+# write_cask_outputs — write CSV (Name,Homepage) and TXT (token per line)
+#                      from a casks JSON array file, given a shared stem.
+#
+# Arguments:
+#   1  File stem — reads <stem>.json, writes <stem>.csv and <stem>.txt
+write_cask_outputs() {
+    local stem="$1"
+    printf "Name,Homepage\n" > "${stem}.csv"
+    jq -r ".[] | [.token, .homepage] | @csv" "${stem}.json" >> "${stem}.csv"
+    jq -r ".[].token" "${stem}.json" > "${stem}.txt"
 }
 
 # run_filter_step — apply a jq filter, log removed casks to CSV,
@@ -87,12 +97,9 @@ run_filter_step() {
     count=$(jq "$@" "[.[] | select($filter)] | length" "$input")
     echo "${label}: ${count} removed"
 
-    printf "Name,Homepage\n" > "$log.csv"
     jq -r "$@" "[.[] | select($filter)]" "$input" > "$log.json"
 
-    jq -r "$@" ".[] | [.token, .homepage] | @csv" "$log.json" >> "$log.csv"
-
-    jq -r "$@" ".[].token" "$log.json" > "$log.txt"
+    write_cask_outputs "$log"
 
 
     jq "$@" "[.[] | select(($filter) | not)]" "$input" > "$output"
@@ -182,13 +189,11 @@ fi
 # Final output
 final_count=$(jq length "$JSON_FINAL")
 
-printf "Name,Homepage\n" > "$OUTPUT_CSV"
-jq -r ".[] | [.token, .homepage] | @csv" "$JSON_FINAL" >> "$OUTPUT_CSV"
-jq -r ".[].token" "$JSON_FINAL" > "$OUTPUT_TXT"
+write_cask_outputs "${JSON_FINAL:r}"
 
 echo "---------------------------------------------------"
 echo "Final interesting casks: ${final_count}"
-echo "Outputs: ${JSON_FINAL}, ${OUTPUT_CSV}, ${OUTPUT_TXT}"
+echo "Outputs: ${JSON_FINAL}, ${JSON_FINAL:r}.csv, ${JSON_FINAL:r}.txt"
 
 # Clean up intermediate files
 rm -f \
