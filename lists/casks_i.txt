@@ -19,6 +19,7 @@ app-fair
 appbox
 apple-hewlett-packard-printer-drivers
 apple-juice
+arc
 ares-emulator
 arm-performance-libraries
 artisan

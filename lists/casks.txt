@@ -32,7 +32,6 @@ appexindexer
 appflowy
 applite
 approf
-arc
 archaeology
 archipelago
 arduino-ide
