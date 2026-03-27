@@ -334,7 +334,6 @@ input-source-pro
 invisor-lite
 ipaverse
 ipsecuritas
-iqmol
 ishare
 itch
 iterm2
@@ -686,7 +685,6 @@ simple-web-server
 simpledemviewer
 simplenote
 simplex
-simsim
 sitala
 sketch
 skim

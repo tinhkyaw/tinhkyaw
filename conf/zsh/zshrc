@@ -322,6 +322,7 @@ if [[ -o interactive ]]; then
 fi
 [[ ! -f ~/.zshrc.local ]] || source ~/.zshrc.local
 set +o vi # HACK for zimfw update
+SHARP_IGNORE_GLOBAL_LIBVIPS=1 # HACK for sharp install on Apple Silicon for cline
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 (( ! ${+functions[p10k]} )) || p10k finalize
