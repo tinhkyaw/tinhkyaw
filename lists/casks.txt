@@ -199,6 +199,7 @@ electron-fiddle
 emdash
 emojipedia
 epic-games
+equinox
 espanso
 etrecheckpro
 eul
@@ -518,6 +519,7 @@ numi
 nvidia-geforce-now
 nvidia-nsight-systems
 nvidia-sync
+ob-xf
 obs
 obsidian
 ocenaudio

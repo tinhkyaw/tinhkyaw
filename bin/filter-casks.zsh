@@ -37,15 +37,15 @@ readonly JSON_STEP6="$OUTPUT_DIR/casks_step6.json"
 readonly JSON_FINAL="$OUTPUT_DIR/casks_final.json"
 readonly JSON_FINAL_CUSTOM="$OUTPUT_DIR/casks_final_custom.json"
 
-# Filter log CSV files
-readonly LOG_DISABLED="$OUTPUT_DIR/casks_filtered_disabled.csv"
-readonly LOG_DEPRECATED="$OUTPUT_DIR/casks_filtered_deprecated.csv"
-readonly LOG_VARIANT="$OUTPUT_DIR/casks_filtered_variant.csv"
-readonly LOG_ROSETTA="$OUTPUT_DIR/casks_filtered_rosetta.csv"
-readonly LOG_MANUAL="$OUTPUT_DIR/casks_filtered_manual.csv"
-readonly LOG_STAGE_ONLY="$OUTPUT_DIR/casks_filtered_stage_only.csv"
-readonly LOG_NO_ARTIFACTS="$OUTPUT_DIR/casks_filtered_no_artifacts.csv"
-readonly LOG_CUSTOM="$OUTPUT_DIR/casks_filtered_custom.csv"
+# Filter log file names
+readonly LOG_DISABLED="$OUTPUT_DIR/casks_disabled"
+readonly LOG_DEPRECATED="$OUTPUT_DIR/casks_deprecated"
+readonly LOG_VARIANT="$OUTPUT_DIR/casks_variant"
+readonly LOG_ROSETTA="$OUTPUT_DIR/casks_rosetta"
+readonly LOG_MANUAL="$OUTPUT_DIR/casks_manual"
+readonly LOG_STAGE_ONLY="$OUTPUT_DIR/casks_stage_only"
+readonly LOG_NO_ARTIFACTS="$OUTPUT_DIR/casks_no_artifacts"
+readonly LOG_CUSTOM="$OUTPUT_DIR/casks_custom"
 
 # Final output files
 readonly OUTPUT_CSV="$OUTPUT_DIR/casks_final.csv"
@@ -76,7 +76,7 @@ check_deps() {
 #   1  Human-readable label (e.g. "Disabled casks")
 #   2  Input JSON file
 #   3  Output JSON file
-#   4  Log CSV file
+#   4  Log file
 #   5  jq filter expression — evaluates to TRUE for items to REMOVE
 #   6+ Optional extra jq arguments (e.g. --argjson ...)
 run_filter_step() {
@@ -87,9 +87,13 @@ run_filter_step() {
     count=$(jq "$@" "[.[] | select($filter)] | length" "$input")
     echo "${label}: ${count} removed"
 
-    printf 'Name,Homepage\n' > "$log"
+    printf 'Name,Homepage\n' > "$log.csv"
     jq -r "$@" "[.[] | select($filter)] | .[] | [.token, .homepage] | @csv" \
-        "$input" >> "$log"
+        "$input" >> "$log.csv"
+
+    jq -r "$@" "[.[] | select($filter)] | .[].token" "$input" > "$log.txt"
+
+    jq -r "$@" "[.[] | select($filter)]" "$input" > "$log.json"
 
     jq "$@" "[.[] | select(($filter) | not)]" "$input" > "$output"
 }
@@ -115,10 +119,10 @@ jq -r '.[] | [.token, .homepage] | @csv' "$JSON_INPUT" \
 # Steps 2–8: Progressive filtering
 run_filter_step "Disabled casks" \
     "$JSON_INPUT" "$JSON_STEP1" "$LOG_DISABLED" \
-    ".disabled"
+    ".disabled == true"
 run_filter_step "Deprecated casks" \
     "$JSON_STEP1" "$JSON_STEP2" "$LOG_DEPRECATED" \
-    ".deprecated"
+    ".deprecated == true"
 run_filter_step "Variant casks (@)" \
     "$JSON_STEP2" "$JSON_STEP3" "$LOG_VARIANT" \
     '.token | contains("@")'
