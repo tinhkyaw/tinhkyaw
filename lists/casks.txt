@@ -500,6 +500,7 @@ netnewswire
 netron
 nheko
 nightshade
+nimbalyst
 nimble-commander
 nimblenote
 nisus-thesaurus
@@ -542,6 +543,7 @@ orange
 origami-studio
 orion
 osaurus
+oscar
 osquery
 ossapp
 ossia-score
@@ -745,7 +747,6 @@ swiftbar
 swiftformat-for-xcode
 swiftplantumlapp
 swiftpm-catalog
-swimat
 syncthing-app
 sysex-librarian
 systhist
@@ -754,9 +755,7 @@ tabby
 tablecruncher
 tableplus
 tablepro
-tabtopus
 taccy
-tachidesk-sorayomi
 tad
 tagspaces
 talon
@@ -768,7 +767,6 @@ temurin@11
 tev
 tex-live-utility
 texmacs
-texmaker
 texshop
 textgrabber2
 textmate
@@ -778,7 +776,6 @@ thebrowsercompany-dia
 thedesk
 theiaide
 there
-therm
 thetimemachinemechanic
 thonny
 thorium
@@ -788,17 +785,14 @@ tiger-trade
 tigervnc
 tigervnc-viewer
 tiled
-timelapze
 timemachineeditor
 timemachinestatus
 timescribe
 tiny-player
 tofu
-topcat
 topnotch
 tor-browser
 tqsl
-trackerzapper
 tradingview
 trailer
 transmission
@@ -810,7 +804,6 @@ tropy
 truetree
 tunnelblick
 turbovnc-viewer
-tv-browser
 twine-app
 ubersicht
 ukelele
@@ -822,7 +815,6 @@ ungoogled-chromium
 unicodechecker
 uninstallpkg
 universal-media-server
-unpkg
 usage-app
 utm
 vagrant
