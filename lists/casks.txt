@@ -657,6 +657,7 @@ satyrn
 scilab
 scratch
 scribus
+scribus@devel
 script-debugger
 script-kit
 scroll-reverser
@@ -809,12 +810,12 @@ ubersicht
 ukelele
 ulbow
 ultimaker-cura
-ultimate-vocal-remover
 unclack
 ungoogled-chromium
 unicodechecker
 uninstallpkg
 universal-media-server
+unpkg
 usage-app
 utm
 vagrant
@@ -887,5 +888,4 @@ zen-privacy
 zettlr
 zoom
 zotero
-zprint
 zui
