@@ -1381,6 +1381,7 @@ vyprvpn
 vysor
 wacom-tablet
 wakatime
+wallspace
 wavebox
 waveforms
 waves-central

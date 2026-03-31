@@ -38,6 +38,7 @@ colima
 colordiff
 conda-zsh-completion
 cookiecutter
+cpanminus
 cromwell
 csshx
 ctags
