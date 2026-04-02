@@ -244,6 +244,8 @@ fi
 if [[ -d "${HOME}/.docker/bin" ]]; then
   path+=${HOME}/.docker/bin
 fi
+# sudo-askpass
+# Provides a password helper for non-TTY sudo contexts (e.g. sudo -A).
 if [[ -f "${HOME}/bin/get-cli-sudo-pass.zsh" ]]; then
   export SUDO_ASKPASS="${HOME}/bin/get-cli-sudo-pass.zsh"
 fi
