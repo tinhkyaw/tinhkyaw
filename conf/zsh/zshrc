@@ -148,7 +148,7 @@ ulimit -n unlimited
 # YADR
 # https://github.com/skwp/dotfiles
 if [[ -d ~/.yadr ]]; then
-  for config_file ($HOME/.yadr/zsh/*.zsh) source $config_file
+  for config_file ($HOME/.yadr/zsh/*.zsh) source "$config_file"
 fi
 typeset -TUx PKG_CONFIG_PATH pkg_config_path
 # uv tool
@@ -162,25 +162,23 @@ if (( $+commands[brew] )); then
   # CNF
   # https://github.com/Homebrew/homebrew-command-not-found
   HOMEBREW_COMMAND_NOT_FOUND_HANDLER="${HOMEBREW_PREFIX}/Library/Homebrew/command-not-found/handler.sh"
-  if [ -f "$HOMEBREW_COMMAND_NOT_FOUND_HANDLER" ]; then
-    source "$HOMEBREW_COMMAND_NOT_FOUND_HANDLER";
+  if [[ -f "$HOMEBREW_COMMAND_NOT_FOUND_HANDLER" ]]; then
+    source "$HOMEBREW_COMMAND_NOT_FOUND_HANDLER"
   fi
   # asdf
   # https://asdf-vm.com/
   if [[ -f "${HOMEBREW_PREFIX}/opt/asdf/libexec/asdf.sh" ]]; then
-    source ${HOMEBREW_PREFIX}/opt/asdf/libexec/asdf.sh
+    source "${HOMEBREW_PREFIX}/opt/asdf/libexec/asdf.sh"
   fi
-  # tmux
-  # https://github.com/tmux/tmux
-  if (( $+commands[tmux] )); then
-    alias tmux='tmux a'
-  fi
+  # grep
+  # https://www.gnu.org/software/grep/
   if [[ -d "${HOMEBREW_PREFIX}/opt/grep/libexec/gnubin" ]]; then
     path=("${HOMEBREW_PREFIX}/opt/grep/libexec/gnubin" $path)
   fi
+  # openblas
+  # https://www.openblas.net/
   if [[ -d "${HOMEBREW_PREFIX}/opt/openblas" ]]; then
-    OPENBLAS_PREFIX=${HOMEBREW_PREFIX}/opt/openblas
-    export OPENBLAS="${OPENBLAS_PREFIX}"
+    export OPENBLAS="${HOMEBREW_PREFIX}/opt/openblas"
   fi
   # openssl
   # https://openssl.org/
@@ -191,6 +189,8 @@ if (( $+commands[brew] )); then
     path+=${OPENSSL_PREFIX}/bin
     pkg_config_path+=${OPENSSL_PREFIX}/lib/pkgconfig
   fi
+  # zlib
+  # https://zlib.net/
   if [[ -d "${HOMEBREW_PREFIX}/opt/zlib" ]]; then
     ZLIB_PREFIX=${HOMEBREW_PREFIX}/opt/zlib
     CFLAGS+=" -I${ZLIB_PREFIX}/include"
@@ -218,7 +218,7 @@ if (( $+commands[brew] )); then
     path+=${HOMEBREW_PREFIX}/anaconda3/bin
   fi
 
-  for formula in curl perl ruby rustup;do
+  for formula in curl perl ruby rustup; do
     if [[ -d "${HOMEBREW_PREFIX}/opt/$formula" ]]; then
       FORMULA_PREFIX=${HOMEBREW_PREFIX}/opt/$formula
       path=(${FORMULA_PREFIX}/bin $path)
@@ -241,21 +241,19 @@ if [[ -d "${HOME}/.docker/bin" ]]; then
   path+=${HOME}/.docker/bin
 fi
 if [[ -f "${HOME}/bin/get-cli-sudo-pass.zsh" ]]; then
-  export SUDO_ASKPASS=${HOME}/bin/get-cli-sudo-pass.zsh
+  export SUDO_ASKPASS="${HOME}/bin/get-cli-sudo-pass.zsh"
 fi
 # diff-so-fancy
 # https://github.com/so-fancy/diff-so-fancy
 if (( $+commands[diff-so-fancy] )); then
-  # pretty diff(need to install diff-so-fancy)
-  # brew install diff-so-fancy OR npm i -g diff-so-fancy
-  function dsf(){
-    diff -u $@ | diff-so-fancy | less --tabs=4 -RFX
+  dsf() {
+    diff -u "$@" | diff-so-fancy | less --tabs=4 -RFX
   }
 fi
 # gitignore
 # https://docs.gitignore.io/install/command-line
-function gig() {
-  curl -sLw "\n" https://www.toptal.com/developers/gitignore/api/$@ ;
+gig() {
+  curl -sLw "\n" "https://www.toptal.com/developers/gitignore/api/${(j:,:)@}"
 }
 # rustup
 # https://github.com/rust-lang/rustup
@@ -278,7 +276,7 @@ fi
 # https://github.com/eza-community/eza
 if (( $+commands[eza] )); then
   alias ll='eza --all --header --git --group --long --icons -a -s type'
-  alias ls='eza -G  --color auto --icons -a -s type'
+  alias ls='eza -G --color auto --icons -a -s type'
 fi
 # thefuck
 # https://github.com/nvbn/thefuck
@@ -293,7 +291,7 @@ fi
 # fzf
 # https://github.com/junegunn/fzf
 if (( $+commands[fzf] )); then
-  alias f='fzf --preview "bat --color \"always\" {}"'
+  alias f='fzf --preview "bat --color=always {}"'
   export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
 fi
 # glances
@@ -317,6 +315,11 @@ if (( $+commands[ncdu] )); then
   else
     alias ncdu='ncdu --color dark'
   fi
+fi
+# tmux
+# https://github.com/tmux/tmux
+if (( $+commands[tmux] )); then
+  alias tmux='tmux a'
 fi
 # vivid
 # https://github.com/sharkdp/vivid
