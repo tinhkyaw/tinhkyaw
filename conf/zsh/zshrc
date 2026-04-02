@@ -219,7 +219,7 @@ if (( $+commands[brew] )); then
   # vivid
   # https://github.com/sharkdp/vivid
   if (( $+commands[vivid] )); then
-    export LS_COLORS="$(vivid generate solarized-dark)"
+    export LS_COLORS="$(vivid generate catppuccin-macchiato)"
   fi
   # xh
   # https://github.com/ducaale/xh
@@ -239,6 +239,12 @@ if (( $+commands[brew] )); then
     OPENBLAS_PREFIX=${HOMEBREW_PREFIX}/opt/openblas
     export OPENBLAS="${OPENBLAS_PREFIX}"
   fi
+  # zoxide
+  # https://github.com/ajeetdsouza/zoxide
+  if (( $+commands[zoxide] )); then
+    eval "$(zoxide init zsh)"
+  fi
+
   # openssl
   # https://openssl.org/
   if [[ -d "${HOMEBREW_PREFIX}/opt/openssl" ]]; then
@@ -274,6 +280,7 @@ if (( $+commands[brew] )); then
   if [[ -d "${HOMEBREW_PREFIX}/anaconda3/bin" ]]; then
     path+=${HOMEBREW_PREFIX}/anaconda3/bin
   fi
+
   for formula in curl perl ruby rustup;do
     if [[ -d "${HOMEBREW_PREFIX}/opt/$formula" ]]; then
       FORMULA_PREFIX=${HOMEBREW_PREFIX}/opt/$formula
