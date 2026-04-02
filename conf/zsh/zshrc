@@ -170,63 +170,6 @@ if (( $+commands[brew] )); then
   if [[ -f "${HOMEBREW_PREFIX}/opt/asdf/libexec/asdf.sh" ]]; then
     source ${HOMEBREW_PREFIX}/opt/asdf/libexec/asdf.sh
   fi
-  # bat
-  # https://github.com/sharkdp/bat
-  if (( $+commands[bat] )); then
-    export BAT_THEME="Catppuccin Macchiato"
-    alias cat='bat'
-  fi
-  # eza
-  # https://github.com/eza-community/eza
-  if (( $+commands[eza] )); then
-    alias ll='eza --all --header --git --group --long --icons -a -s type'
-    alias ls='eza -G  --color auto --icons -a -s type'
-  fi
-  # thefuck
-  # https://github.com/nvbn/thefuck
-  if (( $+commands[thefuck] )); then
-    eval $(thefuck --alias)
-    alias fu='fuck'
-  fi
-  # fzf
-  # https://github.com/junegunn/fzf
-  if (( $+commands[fzf] )); then
-    alias f='fzf --preview "bat --color \"always\" {}"'
-    export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
-  fi
-  # glances
-  # https://nicolargo.github.io/glances/
-  if (( $+commands[glances] )); then
-    alias top='glances'
-  fi
-  # lsd
-  # https://github.com/lsd-rs/lsd
-  if (( $+commands[lsd] )); then
-    alias l='lsd -l'
-    alias la='lsd -a'
-    alias lla='lsd -la'
-    alias lt='lsd --tree'
-  fi
-  # ncdu
-  # https://g.blicky.net/ncdu.git/
-  if (( $+commands[ncdu] )); then
-    if [[ "$OSTYPE" =~ ^linux ]]; then
-      alias ncdu='ncdu --color dark --exclude-kernfs'
-    else
-      alias ncdu='ncdu --color dark'
-    fi
-  fi
-  # vivid
-  # https://github.com/sharkdp/vivid
-  if (( $+commands[vivid] )); then
-    export LS_COLORS="$(vivid generate catppuccin-macchiato)"
-  fi
-  # xh
-  # https://github.com/ducaale/xh
-  if (( $+commands[xh] )); then
-    alias http='xh'
-    alias https='xh --https'
-  fi
   # tmux
   # https://github.com/tmux/tmux
   if (( $+commands[tmux] )); then
@@ -239,12 +182,6 @@ if (( $+commands[brew] )); then
     OPENBLAS_PREFIX=${HOMEBREW_PREFIX}/opt/openblas
     export OPENBLAS="${OPENBLAS_PREFIX}"
   fi
-  # zoxide
-  # https://github.com/ajeetdsouza/zoxide
-  if (( $+commands[zoxide] )); then
-    eval "$(zoxide init zsh)"
-  fi
-
   # openssl
   # https://openssl.org/
   if [[ -d "${HOMEBREW_PREFIX}/opt/openssl" ]]; then
@@ -331,6 +268,72 @@ if [[ -o interactive ]]; then
   fi
 fi
 [[ ! -f ~/.zshrc.local ]] || source ~/.zshrc.local
+# bat
+# https://github.com/sharkdp/bat
+if (( $+commands[bat] )); then
+  export BAT_THEME="Catppuccin Macchiato"
+  alias cat='bat'
+fi
+# eza
+# https://github.com/eza-community/eza
+if (( $+commands[eza] )); then
+  alias ll='eza --all --header --git --group --long --icons -a -s type'
+  alias ls='eza -G  --color auto --icons -a -s type'
+fi
+# thefuck
+# https://github.com/nvbn/thefuck
+if (( $+commands[thefuck] )); then
+  thefuck() {
+    unfunction thefuck
+    eval "$(command thefuck --alias)"
+    thefuck "$@"
+  }
+  alias fu='thefuck'
+fi
+# fzf
+# https://github.com/junegunn/fzf
+if (( $+commands[fzf] )); then
+  alias f='fzf --preview "bat --color \"always\" {}"'
+  export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
+fi
+# glances
+# https://nicolargo.github.io/glances/
+if (( $+commands[glances] )); then
+  alias top='glances'
+fi
+# lsd
+# https://github.com/lsd-rs/lsd
+if (( $+commands[lsd] )); then
+  alias l='lsd -l'
+  alias la='lsd -a'
+  alias lla='lsd -la'
+  alias lt='lsd --tree'
+fi
+# ncdu
+# https://g.blicky.net/ncdu.git/
+if (( $+commands[ncdu] )); then
+  if [[ "$OSTYPE" =~ ^linux ]]; then
+    alias ncdu='ncdu --color dark --exclude-kernfs'
+  else
+    alias ncdu='ncdu --color dark'
+  fi
+fi
+# vivid
+# https://github.com/sharkdp/vivid
+if (( $+commands[vivid] )); then
+  export LS_COLORS="$(vivid generate catppuccin-macchiato)"
+fi
+# xh
+# https://github.com/ducaale/xh
+if (( $+commands[xh] )); then
+  alias http='xh'
+  alias https='xh --https'
+fi
+# zoxide
+# https://github.com/ajeetdsouza/zoxide
+if (( $+commands[zoxide] )); then
+  eval "$(zoxide init zsh)"
+fi
 set +o vi # HACK for zimfw update
 export SHARP_IGNORE_GLOBAL_LIBVIPS=1 # HACK for sharp install on Apple Silicon for cline
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
