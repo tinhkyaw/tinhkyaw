@@ -1,3 +1,11 @@
+# Enable Powerlevel10k instant prompt. Must be sourced before any init code
+# that writes to stdout/stderr (including Zim's init.zsh). Console-input code
+# (password prompts, y/n confirmations) must go above this block.
+# https://github.com/romkatv/powerlevel10k
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 # Start configuration added by Zim install {{{
 #
 # User configuration sourced by interactive shells
@@ -135,14 +143,6 @@ for key ('j') bindkey -M vicmd ${key} history-substring-search-down
 unset key
 # }}} End configuration added by Zim install
 
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
-# https://github.com/romkatv/powerlevel10k
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-
 typeset -U PATH
 ulimit -n unlimited
 # YADR
@@ -277,7 +277,7 @@ fi
 # eza
 # https://github.com/eza-community/eza
 if (( $+commands[eza] )); then
-  alias ll='eza --all --header --git --group --long --icons -a -s type'
+  alias ll='eza --all --header --git --group --long --icons -s type'
   alias ls='eza -G --color auto --icons -a -s type'
 fi
 # fastfetch
@@ -326,7 +326,8 @@ fi
 # tmux
 # https://github.com/tmux/tmux
 if (( $+commands[tmux] )); then
-  alias tmux='tmux a'
+  # Attach to the most recent session if one exists; create a new one otherwise.
+  alias tmux='tmux new-session -A -s main'
 fi
 # vivid
 # https://github.com/sharkdp/vivid
@@ -340,8 +341,7 @@ if (( $+commands[xh] )); then
   alias https='xh --https'
 fi
 
-set +o vi # HACK for zimfw update
-export SHARP_IGNORE_GLOBAL_LIBVIPS=1 # HACK for sharp install on Apple Silicon for cline
+set +o vi # HACK: zimfw update sets vi mode; reset it here
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -354,7 +354,10 @@ if (( $+commands[zoxide] )); then
 fi
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/opt/homebrew/share/google-cloud-sdk/path.zsh.inc' ]; then . '/opt/homebrew/share/google-cloud-sdk/path.zsh.inc'; fi
-
+if [ -f "${HOMEBREW_PREFIX}/share/google-cloud-sdk/path.zsh.inc" ]; then
+  source "${HOMEBREW_PREFIX}/share/google-cloud-sdk/path.zsh.inc"
+fi
 # The next line enables shell command completion for gcloud.
-if [ -f '/opt/homebrew/share/google-cloud-sdk/completion.zsh.inc' ]; then . '/opt/homebrew/share/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f "${HOMEBREW_PREFIX}/share/google-cloud-sdk/completion.zsh.inc" ]; then
+  source "${HOMEBREW_PREFIX}/share/google-cloud-sdk/completion.zsh.inc"
+fi
