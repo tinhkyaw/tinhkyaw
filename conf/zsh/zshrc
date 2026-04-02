@@ -165,6 +165,7 @@ if (( $+commands[brew] )); then
   if [[ -f "$HOMEBREW_COMMAND_NOT_FOUND_HANDLER" ]]; then
     source "$HOMEBREW_COMMAND_NOT_FOUND_HANDLER"
   fi
+  unset HOMEBREW_COMMAND_NOT_FOUND_HANDLER
   # asdf
   # https://asdf-vm.com/
   if [[ -f "${HOMEBREW_PREFIX}/opt/asdf/libexec/asdf.sh" ]]; then
@@ -188,6 +189,7 @@ if (( $+commands[brew] )); then
     LDFLAGS+=" -L${OPENSSL_PREFIX}/lib"
     path+=${OPENSSL_PREFIX}/bin
     pkg_config_path+=${OPENSSL_PREFIX}/lib/pkgconfig
+    unset OPENSSL_PREFIX
   fi
   # zlib
   # https://zlib.net/
@@ -195,6 +197,7 @@ if (( $+commands[brew] )); then
     ZLIB_PREFIX=${HOMEBREW_PREFIX}/opt/zlib
     CFLAGS+=" -I${ZLIB_PREFIX}/include"
     LDFLAGS+=" -L${ZLIB_PREFIX}/lib"
+    unset ZLIB_PREFIX
   fi
   # miniforge
   # https://github.com/conda-forge/miniforge
@@ -221,9 +224,10 @@ if (( $+commands[brew] )); then
   for formula in curl perl ruby rustup; do
     if [[ -d "${HOMEBREW_PREFIX}/opt/$formula" ]]; then
       FORMULA_PREFIX=${HOMEBREW_PREFIX}/opt/$formula
-      path=(${FORMULA_PREFIX}/bin $path)
+      path=("${FORMULA_PREFIX}/bin" $path)
     fi
   done
+  unset FORMULA_PREFIX
   export CFLAGS
   export CPPFLAGS
   export LDFLAGS
@@ -260,11 +264,6 @@ gig() {
 if [[ -f "$HOME/.cargo/env" ]]; then
   source "$HOME/.cargo/env"
 fi
-if [[ -o interactive ]]; then
-  if (( $+commands[fastfetch] )); then
-    fastfetch
-  fi
-fi
 [[ ! -f ~/.zshrc.local ]] || source ~/.zshrc.local
 # bat
 # https://github.com/sharkdp/bat
@@ -277,6 +276,11 @@ fi
 if (( $+commands[eza] )); then
   alias ll='eza --all --header --git --group --long --icons -a -s type'
   alias ls='eza -G --color auto --icons -a -s type'
+fi
+# fastfetch
+# https://github.com/fastfetch-cli/fastfetch
+if (( $+commands[fastfetch] )); then
+  fastfetch
 fi
 # thefuck
 # https://github.com/nvbn/thefuck
