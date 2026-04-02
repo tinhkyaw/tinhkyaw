@@ -148,6 +148,7 @@ coteditor
 couchbase-server-community
 cpu-info
 craft
+craft-agents
 cursor
 cursor-cli
 customshortcuts

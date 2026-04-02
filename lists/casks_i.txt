@@ -477,6 +477,7 @@ raze
 reamp
 redquits
 reflex-app
+remanager
 reminders-menubar
 replaywebpage
 replicator
