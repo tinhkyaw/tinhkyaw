@@ -201,7 +201,9 @@
     "external.osxExec": "iTerm.app",
     "integrated": {
       "commandsToSkipShell": [
-        "language-julia.interrupt"
+        "language-julia.interrupt",
+        "kilo-code.new.agentManagerOpen",
+        "kilo-code.new.agentManager.showTerminal"
       ],
       "fontFamily": "'MesloLGS NF'",
       "fontSize": 14,

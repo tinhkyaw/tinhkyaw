@@ -229,7 +229,6 @@ colorwell
 combine-pdfs
 command-tab-plus
 commander-one
-commandq
 confluent-cli
 connect-fonts
 connectiq
@@ -976,6 +975,7 @@ protoio-overflow
 proton-drive
 proton-mail
 proton-mail-bridge
+proton-meet
 proton-pass
 protonvpn
 protopie

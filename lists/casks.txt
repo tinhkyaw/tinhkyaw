@@ -133,6 +133,7 @@ comet
 comfyui
 commander
 commandpost
+commandq
 compositor
 conductor
 confectionery
