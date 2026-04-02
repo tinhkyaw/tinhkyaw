@@ -159,7 +159,7 @@ fi
 # Homebrew
 # https://brew.sh/
 if (( $+commands[brew] )); then
-  # CNF
+  # command-not-found
   # https://github.com/Homebrew/homebrew-command-not-found
   HOMEBREW_COMMAND_NOT_FOUND_HANDLER="${HOMEBREW_PREFIX}/Library/Homebrew/command-not-found/handler.sh"
   if [[ -f "$HOMEBREW_COMMAND_NOT_FOUND_HANDLER" ]]; then
@@ -266,6 +266,7 @@ gig() {
 if [[ -f "$HOME/.cargo/env" ]]; then
   source "$HOME/.cargo/env"
 fi
+# zshrc.local — machine-specific overrides, not tracked in version control.
 [[ ! -f ~/.zshrc.local ]] || source ~/.zshrc.local
 # bat
 # https://github.com/sharkdp/bat
