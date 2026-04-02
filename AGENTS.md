@@ -14,7 +14,8 @@ well-documented experiments, and efficient vector operations.
 ## Coding Standards
 
 - Limit line width to 80 characters, including comments.
-- All code should be written up to the standard of high quality open source projects, e.g. Apache Spark.
+- All code should be written with the goal of being open sourced one day to be an awesome open source project.
+- When asked to audit and optimize existing code, please find and optimize everything until there is nothing left to improve.  Please attempt multiple runs of the optimization steps until you find no more changes necessary to the code in the subsequent runs.
 
 ## Coding Standards (ML Specific)
 
