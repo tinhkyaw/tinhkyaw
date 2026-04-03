@@ -146,7 +146,7 @@ check_deps curl jq
 trap 'rm -f "$_PIPE_A" "$_PIPE_B" "$COMBINED_IGNORE_TXT"' EXIT INT TERM
 
 # Step 1: Download cask catalogue
-echo "Downloading casks from ${BREW_CASK_API_URL}..."
+echo "Downloading cask catalogue from ${BREW_CASK_API_URL}..."
 curl -fsSL "$BREW_CASK_API_URL" -o "$JSON_CATALOGUE"
 
 # Seed the rolling pipeline from the persisted catalogue.

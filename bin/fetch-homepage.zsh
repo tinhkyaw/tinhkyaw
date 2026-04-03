@@ -129,7 +129,7 @@ else
     check_deps curl jq
     CASKS_JSON=$(mktemp "${TMPDIR:-/tmp}/fetch-homepage.XXXXXX")
     trap 'rm -f "$CASKS_JSON"' EXIT INT TERM
-    echo "Downloading casks from ${BREW_CASK_API_URL}..."
+    echo "Downloading cask catalogue from ${BREW_CASK_API_URL}..."
     curl -fsSL "$BREW_CASK_API_URL" -o "$CASKS_JSON"
 fi
 readonly CASKS_JSON
