@@ -143,6 +143,7 @@ context
 copilot-cli
 copilot-money
 coq-platform
+corelocationcli
 cork
 coteditor
 couchbase-server-community

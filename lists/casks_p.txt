@@ -1001,6 +1001,7 @@ quickwhisper
 quip
 quit-all
 quo
+radial
 radio-silence
 radiola
 raiderio
