@@ -211,13 +211,19 @@ done
 # Curated VS Code list: filter out transitive extension dependencies and
 # extension-pack members, keeping only directly-installed extensions.
 # Guarded separately: `code` may not be installed (silently skipped above).
+#
+# A single jq -n + inputs pass replaces the original xargs-per-file jq
+# calls and two subsequent jq pipes. `inputs` iterates every file given
+# as arguments; `//[]` coerces absent fields to an empty array so null
+# values are skipped cleanly. The result is equivalent to the three-step
+# pipeline: xargs jq | jq -sS 'add|sort|unique' | jq -r '.[]|ascii_downcase'.
 if command -v code &>/dev/null; then
   grep -Fvxf \
-    <(grep -El 'extensionDependencies|extensionPack' \
-        "${HOME}"/.vscode/extensions/*/package.json |
-      xargs -I {} jq '.extensionDependencies, .extensionPack' {} |
-      jq -sS 'add|sort|unique' |
-      jq -r '.[]|ascii_downcase') \
+    <(jq -rn \
+        '[inputs | (.extensionDependencies//[], .extensionPack//[]) | .[]] |
+         map(ascii_downcase) | sort | unique | .[]' \
+        $(grep -El 'extensionDependencies|extensionPack' \
+            "${HOME}"/.vscode/extensions/*/package.json)) \
     <(code --list-extensions | sort -d -f) \
     >"${LIST_DIR}/codes.txt"
 fi
