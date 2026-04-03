@@ -145,7 +145,13 @@ Rscript "${GIT_ROOT_DIR}/bin/update.R"
 # ---------------------------------------------------------------------------
 
 if [[ -s "${ZIM_HOME}/init.zsh" ]]; then
+  # Zim module init scripts reference optional env vars (NO_COLOR, TMUX,
+  # STY, and others) that are legitimately unset in a non-interactive
+  # shell. Suspend NO_UNSET for the source call only, then restore it
+  # so the rest of the script remains guarded.
+  unsetopt NO_UNSET
   source "${ZIM_HOME}/init.zsh"
+  setopt NO_UNSET
   zimfw upgrade -v
   zimfw update -v
 fi
