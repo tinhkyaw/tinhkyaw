@@ -17,6 +17,15 @@ well-documented experiments, and efficient vector operations.
 - All code should be written with the goal of being open sourced one day to be an awesome open source project.
 - When asked to audit and optimize existing code, please find and optimize everything until there is nothing left to improve.  Please attempt multiple runs of the optimization steps until you find no more changes necessary to the code in the subsequent runs.
 
+## Coding Standards (Shell Scripts)
+
+- While adding new or auditing/optimizing/refactoring existing shell scripts
+  - please add a check_deps function that validates the presence of dependent commands
+  - use readonly and local appropriately for variables
+  - guard against accidentally leaking variables into the environment
+- When auditing/optimizing/refactoring shell scripts, please add appropriate comments if missing and fix the structure and style of the code to be awesome and open source ready.
+
+
 ## Coding Standards (ML Specific)
 
 - Always use type hints for Python functions.
