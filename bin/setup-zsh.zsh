@@ -43,11 +43,9 @@ check_deps() {
 
 check_deps greadlink git
 
-readonly WD=$(pwd)
 readonly DIR=$(dirname "$(greadlink -f "${0}")")
-cd "${DIR}" || exit
-readonly GIT_ROOT_DIR=$(git rev-parse --show-toplevel)
-cd "${WD}" || exit
+GIT_ROOT_DIR=$(git -C "${DIR}" rev-parse --show-toplevel)
+readonly GIT_ROOT_DIR
 
 check_deps curl gsed mr
 

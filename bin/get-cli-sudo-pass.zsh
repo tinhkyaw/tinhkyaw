@@ -25,8 +25,8 @@ if ! cli_sudo_pass=$(
   security find-generic-password -w -s "${pw_name}" -a "${pw_account}" \
     2>/dev/null
 ); then
-  echo "Error: '${pw_name}' password not found in Keychain \
-    for '${pw_account}'" >&2
+  echo "Error: '${pw_name}' password not found in Keychain" \
+       "for '${pw_account}'" >&2
   echo "Run setup-sudo-askpass.zsh to store it." >&2
   exit 1
 fi

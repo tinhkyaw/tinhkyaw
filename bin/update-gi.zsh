@@ -78,7 +78,7 @@ readonly template_list
 #   [Bb]in        — same, case-insensitive variant
 #   \*/Makefile   — Makefiles are tracked
 #   /public/      — converted to **/public/ for recursive matching
-curl -sLw "\n" \
+curl -fsSLw "\n" \
   "https://www.toptal.com/developers/gitignore/api/${template_list}" |
   gsed -e \
     's/^bin/# &/;

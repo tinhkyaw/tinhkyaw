@@ -90,7 +90,7 @@ for sp in site vendor; do
       touch "${md}/.gitignore"
     fi
   done < <(
-    perl -V \
+    "${PERL}" -V \
       | grep -E "^[[:space:]]+${HOMEBREW_PREFIX}/lib/perl5/${sp}_perl/" \
       | gsed -e 's/[[:space:]]//g'
   )

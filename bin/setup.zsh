@@ -152,7 +152,17 @@ source "${GIT_ROOT_DIR}/bin/setup-sudo-askpass.zsh"
 
 # Install temurin separately first — some casks depend on a JVM.
 brew install --cask temurin
-xargs -I {} brew install --cask {} <"${LIST_DIR}/casks.txt"
+
+# Install each cask individually so a single failure does not abort the
+# rest. Failures are collected and reported together at the end.
+typeset -a failed_casks=()
+while IFS= read -r cask; do
+  [[ -z "${cask}" ]] && continue
+  brew install --cask "${cask}" || failed_casks+=("${cask}")
+done <"${LIST_DIR}/casks.txt"
+if (( ${#failed_casks[@]} > 0 )); then
+  print -P "%F{yellow}Warning: ${#failed_casks[@]} cask(s) failed to install: ${failed_casks[*]}%f"
+fi
 
 # ---------------------------------------------------------------------------
 # Conda
