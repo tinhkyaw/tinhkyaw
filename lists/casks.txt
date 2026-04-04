@@ -78,7 +78,6 @@ brave-browser
 breaktimer
 brewy
 brilliant
-brimdata/tap/super
 browseros
 bunch
 burn
@@ -742,6 +741,7 @@ stringz
 subethaedit
 subler
 supacode
+super
 super-productivity
 supercollider
 superset
