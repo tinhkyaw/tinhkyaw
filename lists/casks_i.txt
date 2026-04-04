@@ -577,7 +577,6 @@ trex
 trezor-bridge-app
 trezor-suite
 trimmy
-truist
 twake
 twingate
 twist

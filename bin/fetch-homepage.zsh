@@ -20,7 +20,12 @@
 #               The source .txt file is sorted in-place; the CSV rows
 #               follow the same order.
 #
-# Dependencies: curl, jq
+# Fallback:
+#   Casks not found in the public catalogue (e.g. installed from external
+#   taps) are resolved individually via `brew info --cask`. Casks that
+#   cannot be resolved by either method are warned and omitted.
+#
+# Dependencies: brew, curl, gsed, jq
 
 setopt ERR_EXIT PIPE_FAIL NO_UNSET
 
@@ -49,11 +54,14 @@ check_deps() {
 # write_csv — write a <basename>.csv output for a given cask list file.
 #
 # For every cask name listed in the input file (one per line), looks up
-# the cask's homepage in the provided cask catalogue JSON and writes a
-# two-column CSV: Name, Homepage. Rows are sorted by name.
+# the cask's homepage first in the provided cask catalogue JSON (O(1) set
+# lookup), then falls back to `brew info --cask` for any token not found
+# there (covers casks installed from external taps). Casks that cannot be
+# resolved by either method are warned and omitted from the output.
 #
 # The source file is sorted in-place. The output CSV is placed alongside
-# it; e.g. lists/my-casks.txt → lists/my-casks.csv.
+# it; e.g. lists/my-casks.txt → lists/my-casks.csv. Rows are sorted by
+# cask token.
 #
 # Arguments:
 #   1  Path to the .txt file listing cask names (one per line)
@@ -69,17 +77,55 @@ write_csv() {
     names_json=$(tr -d '\r' < "$input_file" \
         | jq -R -s 'split("\n") | map(select(length > 0))')
 
-    # Single jq pass: filter matching casks, sort, emit header + rows.
-    # Build a lookup object from $names so each .token check is O(1);
-    # IN($names[]) would be O(n) per entry (linear scan, no early exit
-    # on the full catalogue).
-    jq -r --argjson names "$names_json" \
+    # Phase 1: catalogue lookup.
+    # Build a lookup set from $names so each .token check is O(1);
+    # IN($names[]) would be O(n) per entry (linear scan, no early exit).
+    local catalogue_rows
+    catalogue_rows=$(jq -r --argjson names "$names_json" \
         '($names | map({key: ., value: true}) | from_entries) as $set |
-         (["Name","Homepage"] | join(",")),
-         ([.[] | select($set[.token])]
-          | sort_by(.token)
-          | .[] | [.token, .homepage] | @csv)' \
-        "$casks_json" > "$csv_file"
+         [.[] | select($set[.token])]
+         | sort_by(.token)
+         | .[] | [.token, .homepage] | @csv' \
+        "$casks_json")
+
+    # Phase 2: identify tokens absent from the catalogue.
+    local -a misses
+    misses=($(jq -r --argjson names "$names_json" \
+        '($names | map({key: ., value: true}) | from_entries) as $set |
+         ($set | keys) - [.[] | select($set[.token]) | .token] | .[]' \
+        "$casks_json"))
+
+    # Phase 3: resolve misses via `brew info --cask` (external-tap casks).
+    #
+    # Two subtleties handled here:
+    #   • Use .full_token (e.g. "owner/tap/name") not .token ("name"), so the
+    #     CSV key matches the tap-qualified form stored in the input file.
+    #   • Some cask descriptions contain a literal newline before the closing
+    #     quote — a brew bug that produces invalid JSON. Sanitize with
+    #     gsed -z before handing to jq: the pattern \n"[,}] matches a bare
+    #     newline immediately before a closing string quote at a field or
+    #     object boundary, which is the exact malformed sequence brew emits
+    #     and can never appear as structural whitespace in valid JSON.
+    local -a fallback_rows=()
+    local cask result
+    for cask in "${misses[@]}"; do
+        result=$(brew info --cask "$cask" --json=v2 2>/dev/null) || {
+            echo "  Warning: '$cask' not found in catalogue or via brew info"\
+                 "— skipping" >&2
+            continue
+        }
+        fallback_rows+=("$(printf '%s' "$result" \
+            | gsed -z 's/\n"\([,}]\)/\\n"\1/g' \
+            | jq -r '.casks[] | [.full_token, .homepage] | @csv')")
+    done
+
+    # Write header then all rows (catalogue + fallback) sorted by token.
+    {
+        echo 'Name,Homepage'
+        { printf '%s\n' "$catalogue_rows" "${fallback_rows[@]}"; } \
+            | grep -v '^$' \
+            | sort -t, -k1
+    } > "$csv_file"
 
     echo "  → CSV output: $csv_file"
 }
@@ -116,9 +162,9 @@ if (( $# == 0 )); then
     exit 1
 fi
 
-# When --casks-json is provided, curl is not used; skip that check.
+# brew and gsed are always needed (fallback path); curl only when downloading.
 if [[ -n "$casks_json_path" ]]; then
-    check_deps jq
+    check_deps brew gsed jq
     if [[ ! -f "$casks_json_path" ]]; then
         echo "Error: --casks-json path not found: ${casks_json_path}" >&2
         exit 1
@@ -126,7 +172,7 @@ if [[ -n "$casks_json_path" ]]; then
     CASKS_JSON="$casks_json_path"
     # Caller owns this file; no cleanup trap needed.
 else
-    check_deps curl jq
+    check_deps brew curl gsed jq
     CASKS_JSON=$(mktemp "${TMPDIR:-/tmp}/fetch-homepage.XXXXXX")
     trap 'rm -f "$CASKS_JSON"' EXIT INT TERM
     echo "Downloading cask catalogue from ${BREW_CASK_API_URL}..."

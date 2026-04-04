@@ -130,7 +130,7 @@ brew list --formula >"${SNAPSHOT_DIR}/brew${SUFFIX}.txt"
 
 # Write the full cask list to both the snapshot archive and the curated list
 # in a single invocation to avoid running the slow brew command twice.
-brew list --cask \
+brew list --cask --full-name -1 \
   | tee "${SNAPSHOT_DIR}/cask${SUFFIX}.txt" \
   | sort -u >"${LIST_DIR}/casks.txt"
 

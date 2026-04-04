@@ -78,6 +78,7 @@ brave-browser
 breaktimer
 brewy
 brilliant
+brimdata/tap/super
 browseros
 bunch
 burn
@@ -138,7 +139,6 @@ compositor
 conductor
 confectionery
 connectmenow
-container-use
 context
 copilot-cli
 copilot-money
@@ -155,6 +155,7 @@ cursor-cli
 customshortcuts
 cutter
 cyberduck
+dagger/tap/container-use
 daisydisk
 dangerzone
 daruma
@@ -400,6 +401,7 @@ langflow
 lapce
 latest
 latexit
+lcharvol/tap/claude-god
 leapp
 lens
 libcblite-community
@@ -597,7 +599,6 @@ portx
 positron
 post-haste
 postgres-app
-posturr
 praat
 precize
 preference-manager
@@ -617,7 +618,6 @@ qdirstat
 qgis
 qgroundcontrol
 qlc+
-qlvideo
 qr-journal
 quarto
 quicklook-video
@@ -675,6 +675,7 @@ sf-symbols
 sfm
 shield
 shifty
+shipshitdev/tap/meterbar
 shotcut
 shottr
 showyedge
@@ -741,7 +742,6 @@ stringz
 subethaedit
 subler
 supacode
-super
 super-productivity
 supercollider
 superset
@@ -788,7 +788,6 @@ thumbhost3mf
 thunderbird
 tiger-trade
 tigervnc
-tigervnc-viewer
 tiled
 timemachineeditor
 timemachinestatus
