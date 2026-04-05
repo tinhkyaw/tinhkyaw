@@ -828,6 +828,7 @@ valhalla-supermassive
 vapor-app
 vcv-rack
 versatility
+vibeproxy
 viber
 vienna
 vimr
