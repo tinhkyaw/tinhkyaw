@@ -54,6 +54,7 @@ excalidrawz
 feishu
 finalshell
 flowdown
+fluent-reader
 flykey
 focusany
 folo
