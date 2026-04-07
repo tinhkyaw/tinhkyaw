@@ -174,10 +174,10 @@ run_filter_step "Rosetta-required casks"        "$LOG_ROSETTA"      \
 run_filter_step "Manual-installer casks"        "$LOG_MANUAL"       \
     '[.artifacts[].installer?[]? | select(has("manual"))] | length > 0'
 
-# Use a structural check rather than string-matching the serialized JSON;
-# "stage_only" appears as a bare string element in the artifacts array.
+# "stage_only" appears as an object key in the artifacts array, e.g.
+# {"stage_only": [true]}, so check for an object with that key.
 run_filter_step "Stage-only casks"              "$LOG_STAGE_ONLY"   \
-    '.artifacts | any(. == "stage_only")'
+    '.artifacts | any(type == "object" and has("stage_only"))'
 
 # Likewise, inspect artifact object keys directly instead of via json-cast.
 run_filter_step "No-interesting-artifact casks" "$LOG_NO_ARTIFACTS" \
