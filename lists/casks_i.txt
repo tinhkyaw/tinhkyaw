@@ -245,6 +245,7 @@ ha-menu
 hancom-docs
 hancom-word
 handy
+happ
 haptickey
 heimdall-suite
 hfsleuth

@@ -926,6 +926,7 @@ pinwheel
 pitch
 pixelsnap
 pktriot
+plamo-translate
 plasticity
 plaud
 playdate-mirror
@@ -1012,6 +1013,7 @@ rambox
 random-mouse-clicker
 rapidweaver
 ray
+rayon
 razorsql
 rcloneview
 readdle-spark
