@@ -65,6 +65,7 @@ ape
 app-cleaner
 app-tamer
 appgate-sdp-client
+appgridmac
 appvolume
 aptakube
 aqua-voice

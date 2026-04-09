@@ -259,6 +259,7 @@ iloader
 impactor
 install-disk-creator
 intellidock
+intiface-central
 ioquake3
 ios-app-signer
 ip-in-menu-bar
