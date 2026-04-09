@@ -491,6 +491,7 @@ ridibooks
 roblox
 robloxstudio
 rocketman-choices-packager
+roku-remote-tool
 runelite
 rwts-pdfwriter
 safari-technology-preview

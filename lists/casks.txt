@@ -311,6 +311,7 @@ hex-fiend
 heynote
 hiddenbar
 hidock
+hive-app
 home-assistant
 horos
 hotovo-aider-desk
@@ -618,6 +619,7 @@ qdirstat
 qgis
 qgroundcontrol
 qlc+
+qlmarkdown
 qr-journal
 quarto
 quicklook-video
