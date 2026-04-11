@@ -326,6 +326,7 @@ ibabel
 icon-composer
 icon-shelf
 iconset
+idevice-pair
 igv-desktop
 iina
 image2icon
@@ -523,6 +524,7 @@ nteract
 nugget
 numi
 nvidia-geforce-now
+nvidia-nsight-compute
 nvidia-nsight-systems
 nvidia-sync
 ob-xf
@@ -652,6 +654,7 @@ ripme
 rivet
 rnote
 roaringapps
+rockxy-community
 routine
 rsyncui
 sabnzbd

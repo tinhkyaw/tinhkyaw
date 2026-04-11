@@ -884,6 +884,7 @@ pagico
 paintcode
 paletro
 paper
+paper-design
 papers
 paperspace
 paragon-camptune
@@ -1081,6 +1082,7 @@ roon
 rotato
 rotki
 rouvy
+rowboat
 rowmote-helper
 royal-tsx
 rstudio
@@ -1234,6 +1236,7 @@ tableau-prep
 tableau-public
 tableau-reader
 tableflip
+tablen
 tabtab
 tageditor
 tailscale-app
@@ -1416,6 +1419,7 @@ wondershare-uniconverter
 wooshy
 wootility
 workflowy
+worksheet-crafter
 workspace-one-intelligent-hub
 workspaces
 wrike

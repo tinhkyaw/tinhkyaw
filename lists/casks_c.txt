@@ -19,6 +19,7 @@ aya
 baiduinput
 baidunetdisk
 bambu-studio
+baoliandeng
 bbackupp
 bcut
 betterandbetter
