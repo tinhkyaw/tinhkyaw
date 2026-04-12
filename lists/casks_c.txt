@@ -26,6 +26,7 @@ betterandbetter
 bilibili
 binance
 bobhelper
+cc-switch
 chatall
 chatbox
 chatglm
