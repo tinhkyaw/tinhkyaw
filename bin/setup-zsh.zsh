@@ -110,16 +110,6 @@ if [[ -f "${HOME}/.inputrc" ]]; then
   unlink "${HOME}/.inputrc"
 fi
 
-for conf_file in \
-  condarc \
-  prettierrc \
-  git/gitconfig \
-  zsh/zimrc \
-  zsh/zshrc; do
-  ln -sf "${GIT_ROOT_DIR}/conf/${conf_file}" \
-    "${HOME}/.$(basename "${conf_file}")"
-done
-
 # ---------------------------------------------------------------------------
 # VS Code variant settings
 # ---------------------------------------------------------------------------
