@@ -85,14 +85,19 @@ mkdir -p "${HOME}/.config"
 ln -sf "${GIT_ROOT_DIR}/conf/lsd" "${HOME}/.config"
 
 # ---------------------------------------------------------------------------
+# chezmoi config
+# ---------------------------------------------------------------------------
+mkdir -p "${HOME}/.config/chezmoi"
+ln -sf "${GIT_ROOT_DIR}/conf/chezmoi/chezmoi.toml" \
+  "${HOME}/.config/chezmoi/chezmoi.toml"
+
+# ---------------------------------------------------------------------------
 # Git config
 # ---------------------------------------------------------------------------
 
 mkdir -p "${HOME}/.config/git"
 ln -sf "${GIT_ROOT_DIR}/conf/git/gitattributes" \
   "${HOME}/.config/git/attributes"
-# Copy (not symlink) so the user can set name/email without touching the repo.
-cp "${GIT_ROOT_DIR}/conf/git/gitconfig.user" "${HOME}/.gitconfig.user"
 ln -sf "${GIT_ROOT_DIR}/.gitignore" "${HOME}/.gitignore"
 
 # ---------------------------------------------------------------------------

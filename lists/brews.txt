@@ -1,5 +1,6 @@
 ack
 adns
+age
 aider
 ansible
 ansible-lint
@@ -248,7 +249,6 @@ spaceman-diff
 spark
 sphinx-doc
 spidermonkey
-sqlite
 sqruff
 steampipe
 stow

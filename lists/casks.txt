@@ -141,6 +141,7 @@ confectionery
 connectmenow
 context
 copilot-cli
+copilot-language-server
 copilot-money
 coq-platform
 corelocationcli

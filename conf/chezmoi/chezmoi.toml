@@ -1,0 +1,8 @@
+encryption = "age"
+[age]
+identity = "~/.config/chezmoi/key.txt"
+recipient = "age1pw8fcxhcgxqlzfqr9af247u2q0wtdlswat48ka0lv27270xx85vqse2acs"
+
+# Always copy, never symlink
+[source]
+defaultLinkType = "copy"
