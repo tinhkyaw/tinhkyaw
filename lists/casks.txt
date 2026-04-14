@@ -228,6 +228,7 @@ flightgear
 floorp
 flowvision
 flrig
+fluidvoice
 flutter
 flux-app
 flycut
@@ -883,6 +884,7 @@ x-swiftformat
 xattred
 xbar
 xca
+xdeck
 xnviewmp
 xprocheck
 xquartz
