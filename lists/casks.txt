@@ -395,6 +395,7 @@ kitlangton-hex
 kiwix
 knockknock
 kodi
+koharu
 kopiaui
 kotlin-lsp
 kotlin-native
@@ -436,6 +437,7 @@ macgdbp
 macgesture
 macpacker
 macpass
+macshot
 macskk
 macsvg
 macsymbolicator
@@ -447,6 +449,7 @@ magicquit
 maintenance
 markright
 marta
+mater
 mcpbundler
 media-converter
 mediahuman-audio-converter
@@ -616,6 +619,7 @@ prusaslicer
 publii
 publish-or-perish
 pulsar
+puremac
 pyzo
 qcad
 qctools
@@ -761,6 +765,7 @@ swiftformat-for-xcode
 swiftplantumlapp
 swiftpm-catalog
 syncthing-app
+syntax-highlight
 sysex-librarian
 systhist
 t3-code
