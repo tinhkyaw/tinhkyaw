@@ -318,6 +318,7 @@ limitless
 linphone
 liquibase-community
 liviable
+llamabarn
 llamachat
 loading
 local

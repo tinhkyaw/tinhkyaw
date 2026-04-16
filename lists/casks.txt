@@ -662,7 +662,7 @@ ripme
 rivet
 rnote
 roaringapps
-rockxy-community
+rockxy
 routine
 rsyncui
 sabnzbd

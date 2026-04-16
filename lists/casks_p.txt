@@ -1330,6 +1330,7 @@ tuta-mail
 tuxera-ntfs
 ua-midi-control
 ubar
+unblocked
 unclutter
 understand
 unifi-identity-endpoint
