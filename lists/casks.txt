@@ -290,6 +290,7 @@ golly
 google-ads-editor
 google-chrome
 google-drive
+google-gemini
 google-trends
 goxel
 gpgfrontend
@@ -416,7 +417,6 @@ licecap
 licensed-app
 linearmouse
 livebook
-llamabarn
 locationsimulator
 lockrattler
 logseq
@@ -648,6 +648,7 @@ recents
 rectangle
 redis-insight
 reikey
+renameclick
 renpy
 repetier-host
 replit
