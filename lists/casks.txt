@@ -339,6 +339,7 @@ inkscape
 inkstitch
 inky
 input-source-pro
+intellij-idea-oss
 invisor-lite
 ipaverse
 ipsecuritas
