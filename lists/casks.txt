@@ -95,6 +95,7 @@ captain
 cardinal
 cardinal-search
 catch
+cavalry
 ccmenu
 celestia
 cemu
@@ -491,6 +492,7 @@ mounty
 mp3gain-express
 mps
 mucommander
+mujoco
 mullvad-browser
 multipatch
 museeks
