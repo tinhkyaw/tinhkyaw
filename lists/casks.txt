@@ -113,7 +113,6 @@ clariti
 claude
 claude-code
 claude-devtools
-claude-island
 clearance
 clibor
 clips-ide
@@ -166,6 +165,15 @@ db-browser-for-sqlite
 dbeaver-community
 dbgate
 dbngin
+dcp-o-matic
+dcp-o-matic-batch-converter
+dcp-o-matic-combiner
+dcp-o-matic-disk-writer
+dcp-o-matic-editor
+dcp-o-matic-encode-server
+dcp-o-matic-kdm-creator
+dcp-o-matic-player
+dcp-o-matic-playlist-editor
 deadbolt
 deeper
 defold
@@ -845,6 +853,7 @@ valhalla-supermassive
 vapor-app
 vcv-rack
 versatility
+vibe-notch
 vibeproxy
 viber
 vienna
