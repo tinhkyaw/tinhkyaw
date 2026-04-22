@@ -252,6 +252,7 @@ heimdall-suite
 hfsleuth
 hightop
 holavpn
+hop
 hot
 huggingchat
 iem-plugin-suite
