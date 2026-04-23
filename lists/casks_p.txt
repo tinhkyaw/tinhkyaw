@@ -892,6 +892,7 @@ paragon-camptune
 parallels
 parallels-client
 parallels-virtualization-sdk
+paranoia-file-text-encryption
 pareto-security
 parsec
 passepartout
