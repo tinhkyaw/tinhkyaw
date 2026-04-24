@@ -233,6 +233,7 @@ godot
 godot-mono
 gonhanh
 google-japanese-ime
+gopher64
 gotiengviet
 gray
 grayjay

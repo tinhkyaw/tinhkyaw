@@ -781,7 +781,6 @@ syntax-highlight
 sysex-librarian
 systhist
 t3-code
-tabby
 tablecruncher
 tableplus
 tablepro
@@ -819,6 +818,7 @@ timemachinestatus
 timescribe
 tiny-player
 tofu
+tolaria
 topnotch
 tor-browser
 tqsl
