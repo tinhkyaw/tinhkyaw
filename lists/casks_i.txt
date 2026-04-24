@@ -519,6 +519,7 @@ securesafe
 selfcontrol
 semeru-jdk-open
 semulov
+server-box
 shadowsocksx-ng
 sherlock-app
 shop-different
