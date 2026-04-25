@@ -1129,6 +1129,7 @@ setapp
 shadow
 shapes
 shapr3d
+sharefile
 sharemouse
 shearwater-cloud
 shift
