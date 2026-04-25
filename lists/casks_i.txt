@@ -152,6 +152,7 @@ dyalog
 dynamodb-local
 earnapp
 ears
+easy-move+resize
 easydevo
 ecamm-live
 eclipse-cpp

@@ -7,6 +7,11 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
   "agent_servers": {
     "opencode": {
       "type": "registry"
@@ -74,6 +79,9 @@
     "xml": true
   },
   "buffer_font_size": 16,
+  "collaboration_panel": {
+    "dock": "left"
+  },
   "context_servers": {
     "postgres-context-server": {
       "enabled": false,
@@ -82,7 +90,16 @@
       }
     }
   },
+  "git_panel": {
+    "dock": "left"
+  },
   "icon_theme": "Catppuccin Macchiato",
+  "outline_panel": {
+    "dock": "left"
+  },
+  "project_panel": {
+    "dock": "left"
+  },
   "theme": {
     "dark": "Catppuccin Macchiato",
     "light": "Catppuccin Latte",

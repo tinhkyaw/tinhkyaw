@@ -73,6 +73,7 @@ hostsx
 hyperconnect
 iconchanger
 imgotv
+iplay
 isimulator
 itraffic
 izip
