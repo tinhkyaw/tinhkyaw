@@ -618,7 +618,6 @@ portx
 positron
 post-haste
 postgres-app
-praat
 precize
 preference-manager
 prefs-editor
@@ -676,6 +675,7 @@ roaringapps
 rockxy
 routine
 rsyncui
+rustcast
 sabnzbd
 sage
 sanctum

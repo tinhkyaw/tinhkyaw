@@ -1331,6 +1331,7 @@ tuple
 turbo-boost-switcher
 tuta-mail
 tuxera-ntfs
+ua-connect
 ua-midi-control
 ubar
 unblocked
