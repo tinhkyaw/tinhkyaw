@@ -352,6 +352,7 @@ intellij-idea-oss
 invisor-lite
 ipaverse
 ipsecuritas
+iptvnator
 ishare
 itch
 iterm2
