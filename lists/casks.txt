@@ -899,6 +899,7 @@ wolfram-engine
 wordpresscom
 wordservice
 wowup-cf
+wox
 x-swiftformat
 xattred
 xbar
