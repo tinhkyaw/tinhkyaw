@@ -1114,6 +1114,7 @@ seadrive
 seafile-client
 seam-app
 securityspy
+segger-embedded-studio
 segger-embedded-studio-for-arm
 segger-jlink
 segger-ozone

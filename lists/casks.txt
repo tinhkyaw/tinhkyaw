@@ -426,6 +426,7 @@ libreoffice
 librepcb
 licecap
 licensed-app
+linear
 linearmouse
 livebook
 locationsimulator
