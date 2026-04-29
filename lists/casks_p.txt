@@ -363,6 +363,7 @@ epson-print-layout
 eqmac
 eset-cyber-security
 espresso
+exactscan
 excire-foto
 excire-search
 expandrive
