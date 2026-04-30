@@ -278,6 +278,7 @@ geomap
 geotag
 get-iplayer-automator
 gg
+ghostpepper
 ghostty
 gimp
 gitahead
@@ -565,6 +566,7 @@ openframeworks
 openrocket
 openshot-video-editor
 opensoundmeter
+openusage
 orange
 orchard
 origami-studio
