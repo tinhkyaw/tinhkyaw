@@ -195,6 +195,7 @@ donut
 dorso
 dotnet-sdk
 doughnut
+doxygen-app
 drawbot
 drawio
 drawpen
