@@ -178,6 +178,7 @@ xiaomi-cloud
 ximalaya
 xlplayer
 xtool-studio
+yakit
 yealink-meeting
 yingfu-online
 yinxiangbiji

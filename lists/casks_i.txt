@@ -661,5 +661,5 @@ yellowdot
 yes24-ebook
 zalo
 zeitgeist
-zen
+zen-privacy
 zettelkasten

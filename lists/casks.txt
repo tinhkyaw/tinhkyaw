@@ -921,7 +921,7 @@ youtube-to-mp3
 yt-music
 zappy
 zed
-zen-privacy
+zen
 zettlr
 zoom
 zotero
