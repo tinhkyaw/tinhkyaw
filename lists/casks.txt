@@ -688,6 +688,7 @@ satdump
 satyrn
 scilab
 scratch
+screenkite
 scribus
 scribus@devel
 script-debugger
