@@ -825,6 +825,7 @@ timemachineeditor
 timemachinestatus
 timescribe
 tiny-player
+todometer
 tofu
 tolaria
 topnotch
