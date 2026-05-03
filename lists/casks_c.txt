@@ -79,6 +79,7 @@ itraffic
 izip
 jyutping
 karing
+keymanager
 kimis
 kuaitie
 kubeterm
@@ -94,6 +95,7 @@ macstroke
 maczip
 mailmaster
 malus
+manus
 marginnote
 markedit
 meituxiuxiu

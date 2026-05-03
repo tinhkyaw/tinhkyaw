@@ -481,6 +481,7 @@ graphicconverter
 green-go-control
 grid
 guitar-pro
+gyazmail
 gyazo
 hackolade
 halion-sonic

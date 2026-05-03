@@ -378,6 +378,7 @@ jdownloader
 jellyfin
 jellyfin-media-player
 jet-pilot
+jetbrains-air
 jiba
 jiggler
 joplin
@@ -464,6 +465,7 @@ maintenance
 markright
 marta
 mater
+mathcha-notebook
 mcpbundler
 media-converter
 mediahuman-audio-converter
@@ -688,7 +690,6 @@ satdump
 satyrn
 scilab
 scratch
-screenkite
 scribus
 scribus@devel
 script-debugger
