@@ -386,6 +386,7 @@ fabfilter-simplon
 fabfilter-timeless
 fabfilter-twin
 fabfilter-volcano
+factory
 fantastical
 farrago
 fastmail

@@ -98,7 +98,6 @@ gum
 harelba/q/q
 harper
 hashicorp/tap/terraform
-hbase
 helix
 helm
 hr

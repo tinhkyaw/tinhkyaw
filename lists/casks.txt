@@ -205,6 +205,7 @@ ea
 easyfind
 ebmac
 eclipse-platform
+eez-studio
 effect-house
 elan
 elasticvue
@@ -702,6 +703,7 @@ sdformatter
 seamly2d
 sequel-ace
 session
+session-manager-plugin
 sf-symbols
 sfm
 shield
