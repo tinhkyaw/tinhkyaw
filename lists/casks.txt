@@ -338,6 +338,7 @@ hyper
 hyperkey
 iaito
 ibabel
+icanhazshortcut
 icon-composer
 icon-shelf
 iconset
@@ -561,6 +562,7 @@ onlook
 ontime
 onyx
 open-video-downloader
+open-webui
 openboard
 openchrom
 openclaw
