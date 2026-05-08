@@ -80,6 +80,7 @@ izip
 jyutping
 karing
 keymanager
+kimi
 kimis
 kuaitie
 kubeterm

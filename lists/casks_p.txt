@@ -39,6 +39,7 @@ airflow
 airfoil
 airparrot
 airscroll
+airserver
 airtool
 akiflow
 aks-desktop
