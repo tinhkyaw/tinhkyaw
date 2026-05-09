@@ -40,6 +40,7 @@ airfoil
 airparrot
 airscroll
 airserver
+airserver
 airtool
 akiflow
 aks-desktop
@@ -229,6 +230,7 @@ codekit
 coderabbit
 coderunner
 coherence-x
+colorsnapper
 colorwell
 combine-pdfs
 command-tab-plus

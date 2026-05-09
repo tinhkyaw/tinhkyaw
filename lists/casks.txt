@@ -106,6 +106,7 @@ chatgpt-atlas
 chatterino
 chime
 chipmunk
+chiri
 cinderella
 cinebench
 cirrus
@@ -564,6 +565,7 @@ onyx
 open-video-downloader
 open-webui
 openboard
+openchamber
 openchrom
 openclaw
 opencode-desktop
@@ -793,6 +795,7 @@ syntax-highlight
 sysex-librarian
 systhist
 t3-code
+tabby
 tablecruncher
 tableplus
 tablepro
