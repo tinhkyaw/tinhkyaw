@@ -172,6 +172,7 @@ visual-paradigm-ce
 wechat
 wechatwebdevtools
 wechatwork
+wetype
 wiznote
 wolai
 wpsoffice
