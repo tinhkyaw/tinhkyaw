@@ -176,6 +176,7 @@ cahier
 caido
 caldigit-docking-utility
 calendar-366
+calibrite-profiler
 calmly-writer
 camerabag-photo
 camo-studio
