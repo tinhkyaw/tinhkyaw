@@ -258,7 +258,6 @@ syncthing
 tabbyml/tabby/tabby
 tag
 teleport
-tflint
 the_silver_searcher
 thefuck
 tidy-html5
