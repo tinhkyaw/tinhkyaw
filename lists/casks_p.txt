@@ -55,6 +55,7 @@ amadine
 amazon-chime
 amie
 ammonite
+amore
 anka-build-cloud-controller
 anka-build-cloud-registry
 anka-virtualization
@@ -88,6 +89,7 @@ atok
 audio-hijack
 audio-modeling-software-center
 audiobook-builder
+audiocupcake
 audiogridder-plugin
 audiogridder-server
 audiorelay
@@ -227,6 +229,7 @@ cloudup
 clover-chord-systems
 coconutbattery
 codebolt
+codeexpander
 codekit
 coderabbit
 coderunner

@@ -289,6 +289,7 @@ gitbutler
 gitfiend
 gitfit
 github
+github-copilot-app
 github-copilot-for-xcode
 gitlight
 gitup-app
@@ -542,6 +543,7 @@ nordvpn
 nosql-workbench
 notion
 notion-calendar
+notion-cli
 notion-mail
 notunes
 nperf
@@ -575,6 +577,7 @@ openrocket
 openshot-video-editor
 opensoundmeter
 openusage
+openwork
 orange
 orchard
 origami-studio
@@ -711,6 +714,7 @@ session
 session-manager-plugin
 sf-symbols
 sfm
+shichizip
 shield
 shifty
 shipshitdev/tap/meterbar

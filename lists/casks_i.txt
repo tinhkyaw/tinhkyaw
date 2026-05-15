@@ -547,6 +547,7 @@ specter
 spike
 spotmenu
 sqlworkbenchj
+sshfs-mac
 stack
 stand
 starnet2
