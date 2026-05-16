@@ -3,6 +3,7 @@ actual
 adobe-acrobat-reader
 advantagescope
 affinity
+agentsview
 airtable
 aladin
 alfred

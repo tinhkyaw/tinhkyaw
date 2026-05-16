@@ -970,6 +970,7 @@ power-manager
 powerphotos
 ppsspp-emulator
 prepros
+presentify
 presonus-universal-control
 pretzel
 prezi-video
