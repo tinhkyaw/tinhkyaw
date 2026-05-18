@@ -277,6 +277,7 @@ gaphor
 gargoyle
 gcloud-cli
 geany
+general-software-fresh
 geoda
 geomap
 geotag
