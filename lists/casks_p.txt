@@ -746,6 +746,7 @@ mochi
 mockoon
 mockuuups-studio
 modern-csv
+mole-app
 moment
 monarch
 moneydance

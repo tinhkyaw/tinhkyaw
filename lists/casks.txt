@@ -203,6 +203,7 @@ drawio
 drawpen
 dropbox@beta
 duckduckgo
+duo-desktop
 ea
 easyfind
 ebmac
@@ -221,6 +222,7 @@ espanso
 etrecheckpro
 eul
 evernote
+executor
 exelearning
 exifrenamer
 fabric-app
@@ -503,6 +505,7 @@ mints
 mist
 mitmproxy
 mixxx
+mkvtoolnix-app
 mmex
 monal
 monitorcontrol
@@ -610,6 +613,7 @@ pearcleaner
 pencil2d
 petrichor
 pgadmin4
+pgen
 phoenix-slides
 photosrevive
 photostickies
@@ -635,6 +639,7 @@ portx
 positron
 post-haste
 postgres-app
+praat
 precize
 preference-manager
 prefs-editor
@@ -683,6 +688,7 @@ responsively
 restic-browser
 retrace
 revisionist
+revpdf-editor
 ricochet-refresh
 rio
 ripme
@@ -847,6 +853,7 @@ tor-browser
 tqsl
 tradingview
 trailer
+transcribex
 transmission
 transnomino
 treeviewer
