@@ -24,6 +24,7 @@ anki
 another-redis-desktop-manager
 antconc
 antigravity
+antigravity-cli
 anythingllm
 anytype
 apache-couchdb

@@ -257,6 +257,7 @@ hightop
 holavpn
 hop
 hot
+hstracker
 huggingchat
 iem-plugin-suite
 ijhttp

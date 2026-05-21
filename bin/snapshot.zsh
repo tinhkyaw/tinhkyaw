@@ -201,7 +201,7 @@ conda list -n base --explicit \
 
 # Guard each editor command so missing editors are silently skipped rather
 # than aborting the entire snapshot.
-for code_cmd in code agy cursor; do
+for code_cmd in code; do
   if command -v "${code_cmd}" &>/dev/null; then
     "${code_cmd}" --list-extensions --show-versions | sort -d -f \
       >"${SNAPSHOT_DIR}/${code_cmd}${SUFFIX}.txt"
