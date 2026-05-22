@@ -7,14 +7,12 @@ SUFFIX1="${1}"
 SUFFIX2="${2}"
 SNAPSHOT_DIR="${HOME}/Dropbox/Shared/Snapshots"
 for snapshot in \
-  agy \
   brew \
   cask \
   chrome \
   code \
   conda \
   cpan \
-  cursor \
   gcloud \
   gem \
   mas \

@@ -181,7 +181,7 @@ xargs npm install -g <"${LIST_DIR}/npms.txt"
 # ---------------------------------------------------------------------------
 
 # Guard each editor so missing editors are silently skipped.
-for code_cmd in code agy cursor; do
+for code_cmd in code; do
   if command -v "${code_cmd}" &>/dev/null; then
     xargs -I {} "${code_cmd}" --install-extension {} <"${LIST_DIR}/codes.txt"
   fi

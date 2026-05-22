@@ -885,6 +885,7 @@ orka3
 outline
 output-factory
 overflow
+overtone-analyzer
 ovice
 ovito-pro
 owncloud
@@ -1393,6 +1394,8 @@ vitamin-r
 vivid-app
 vnc-server
 vocaster-hub
+vocevista-video
+vocevista-video-pro
 voiceink
 voicenotes
 voicepeak

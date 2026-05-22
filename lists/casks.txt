@@ -25,6 +25,7 @@ another-redis-desktop-manager
 antconc
 antigravity
 antigravity-cli
+antigravity-ide
 anythingllm
 anytype
 apache-couchdb

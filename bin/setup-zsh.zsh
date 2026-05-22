@@ -114,7 +114,7 @@ fi
 # VS Code variant settings
 # ---------------------------------------------------------------------------
 
-for vscode_ide in Code Antigravity Cursor; do
+for vscode_ide in Code; do
   mkdir -p "${HOME}/Library/Application Support/${vscode_ide}/User"
   ln -sf "${GIT_ROOT_DIR}/conf/code/settings.json" \
     "${HOME}/Library/Application Support/${vscode_ide}/User/settings.json"

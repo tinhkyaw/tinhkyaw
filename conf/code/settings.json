@@ -219,6 +219,7 @@
     "vscode-kubernetes.minikube-path.mac": "${env:HOMEBREW_PREFIX}/bin/minikube"
   },
   "vsicons.dontShowNewVersionMessage": true,
+  "window.autoDetectColorScheme": false,
   "workbench": {
     "colorTheme": "Catppuccin Macchiato",
     "editor.enablePreview": false,

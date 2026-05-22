@@ -26,8 +26,6 @@
 #   $SNAPSHOT_DIR/conda<suffix>.txt     — Conda (anaconda3)
 #   $SNAPSHOT_DIR/miniforge<suffix>.txt — Conda (base)
 #   $SNAPSHOT_DIR/code<suffix>.txt      — VS Code extensions
-#   $SNAPSHOT_DIR/cursor<suffix>.txt    — Cursor extensions
-#   $SNAPSHOT_DIR/agy<suffix>.txt       — agy extensions
 #   $SNAPSHOT_DIR/chrome<suffix>.txt    — Chrome version
 #   $SNAPSHOT_DIR/gcloud<suffix>.txt    — gcloud components
 #   $SNAPSHOT_DIR/mr<suffix>.txt        — mr repository config
