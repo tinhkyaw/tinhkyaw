@@ -469,6 +469,7 @@ macsymbolicator
 mactex
 mactracker
 maestral
+maestri
 maestro
 magicquit
 maintenance

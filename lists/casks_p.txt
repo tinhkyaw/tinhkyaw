@@ -518,6 +518,7 @@ hoppscotch-selfhost
 houdahspot
 hp-easy-admin
 hp-easy-start
+hubstaff
 huly
 hummingbird
 hy-rpe2
@@ -595,6 +596,7 @@ keeper-password-manager
 keycombiner
 keycue
 keysafe
+keyscreen
 keysmith
 kigb
 kilohearts-installer
@@ -1339,6 +1341,7 @@ trivial
 truhu
 trunk-io
 tuist
+tuna
 tunein
 tunetag
 tunnelbear
