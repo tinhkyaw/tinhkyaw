@@ -1189,6 +1189,7 @@ soothe2
 soulver
 sound-control
 sound-siphon
+soundanchor
 soundsource
 soundtoys
 sourcenote

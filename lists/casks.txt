@@ -764,7 +764,6 @@ sonic-visualiser
 sonobus
 soqlxplorer
 soulver-cli
-soundanchor
 sourcetree
 spacedrive
 spacelauncher
