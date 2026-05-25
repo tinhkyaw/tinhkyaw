@@ -203,6 +203,7 @@ chitubox
 choosy
 chordpotion
 chronoagent
+chronoid
 chronosync
 cisco-jabber
 cisdem-data-recovery
@@ -1313,6 +1314,7 @@ tinderbox
 tinkerwell
 tiny-shield
 tinymediamanager
+tldraw
 tm-error-logger
 to-audio-converter
 todoist-app
@@ -1336,6 +1338,7 @@ transcribe
 transfer
 transmit
 tresorit
+trickster
 tripmode
 tritium
 trivial

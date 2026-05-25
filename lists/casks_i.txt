@@ -148,6 +148,7 @@ droid
 droidcam-obs
 dropbox
 duet
+dusklight
 dyalog
 dynamodb-local
 earnapp
