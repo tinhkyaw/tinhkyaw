@@ -666,6 +666,7 @@ maccleaner-pro
 macdive
 macdroid
 macloggerdx
+macmd-viewer
 macpilot
 macpulse
 macrorecorder
