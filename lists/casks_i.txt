@@ -6,6 +6,7 @@ accord
 accordance
 ace-link
 airdash
+airi
 alcom
 aleph-one
 amd-power-gadget

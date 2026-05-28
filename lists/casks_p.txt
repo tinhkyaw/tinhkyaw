@@ -489,6 +489,7 @@ granola
 graphicconverter
 green-go-control
 grid
+grok-build
 guitar-pro
 gyazmail
 gyazo
@@ -1179,6 +1180,7 @@ smartgit
 smartsheet
 smartsvn
 smartsynchronize
+smoothcapture
 smooze-pro
 smultron
 snagit

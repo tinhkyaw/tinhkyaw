@@ -2,6 +2,7 @@
 actual
 adobe-acrobat-reader
 advantagescope
+aerial
 affinity
 agentsview
 airtable
@@ -766,7 +767,6 @@ soqlxplorer
 soulver-cli
 sourcetree
 spacedrive
-spacelauncher
 spaceman
 sparsity
 spatial
