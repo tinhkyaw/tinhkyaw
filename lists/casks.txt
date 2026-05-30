@@ -46,6 +46,7 @@ athas
 atuin-desktop
 audacity
 auto-claude
+auto-subs
 avast-secure-browser
 aws-vault-binary
 azookey
@@ -482,6 +483,7 @@ mcpbundler
 media-converter
 mediahuman-audio-converter
 mediainfo
+meetily
 meetingbar
 meld
 mem
@@ -582,6 +584,7 @@ openclaw
 opencode-desktop
 opencomic
 openframeworks
+openpencil
 openrocket
 openshot-video-editor
 opensoundmeter
@@ -944,6 +947,7 @@ xscreensaver
 yacreader
 yattee
 yed
+yojam
 youtube-to-mp3
 yt-music
 zappy
