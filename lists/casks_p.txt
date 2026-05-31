@@ -297,6 +297,7 @@ desktime
 desktop-composer
 desktoppr
 desktoputility
+devin-cli
 devknife
 devutils
 dialpad
@@ -394,6 +395,7 @@ fabfilter-simplon
 fabfilter-timeless
 fabfilter-twin
 fabfilter-volcano
+facescreen
 factory
 fantastical
 farrago
@@ -496,6 +498,7 @@ gyazo
 hackolade
 halion-sonic
 hamrs-pro
+harvest
 hazel
 hazeover
 hdhomerun
@@ -1200,6 +1203,7 @@ sourcenote
 space-capsule
 spacewalker
 spamsieve
+speechify-ai-assistant
 speedify
 spitfire-audio
 splashtop-business

@@ -291,6 +291,7 @@ get-iplayer-automator
 gg
 ghostpepper
 ghostty
+ghostvm
 gimp
 gitahead
 gitbutler
