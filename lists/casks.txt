@@ -101,6 +101,7 @@ cardinal
 cardinal-search
 catch
 cavalry
+cc-pocket
 ccmenu
 celestia
 cemu
@@ -229,6 +230,7 @@ evernote
 executor
 exelearning
 exifrenamer
+exo
 fabric-app
 fastdmg
 fbreader
@@ -511,6 +513,7 @@ minizincide
 mints
 mirai
 mist
+mister-plimsoll
 mitmproxy
 mixxx
 mkvtoolnix-app
@@ -577,6 +580,7 @@ onionshare
 onlook
 ontime
 onyx
+open-island
 open-video-downloader
 open-webui
 openboard
