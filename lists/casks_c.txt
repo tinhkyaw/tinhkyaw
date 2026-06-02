@@ -97,6 +97,7 @@ loginputmac
 lookin
 lunarbar
 macstroke
+mactools
 maczip
 mailmaster
 malus
@@ -125,6 +126,7 @@ orcaslicer
 picgo
 piclist
 pictureview
+ping-island
 pixpin
 popo
 pot

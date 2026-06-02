@@ -33,6 +33,7 @@ advanced-renamer
 affine
 after-dark-classic
 agentkube
+agentsmesh
 airbuddy
 aircall
 airflow
@@ -201,6 +202,7 @@ chef-workstation
 chemdoodle
 chitubox
 choosy
+choragus
 chordpotion
 chronoagent
 chronoid
@@ -576,6 +578,7 @@ ivacy
 ivolume
 ivpn
 izotope-product-portal
+jabra-direct
 jaikoz
 jamie
 jandi

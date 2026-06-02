@@ -139,7 +139,6 @@ libmaxminddb
 libmng
 libproxy
 libsmi
-libvterm
 lightgbm
 lorem
 lsd

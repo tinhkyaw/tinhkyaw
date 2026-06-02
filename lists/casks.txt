@@ -509,6 +509,7 @@ miniforge
 minisim
 minizincide
 mints
+mirai
 mist
 mitmproxy
 mixxx
@@ -902,6 +903,7 @@ visualvm
 vivaldi
 viz
 vlc
+vmlx
 vnc-viewer
 vnote
 voiden
@@ -918,6 +920,7 @@ webull
 weka
 wezterm
 whalebird
+whatcable
 whatroute
 whatsapp
 whatsyoursign
