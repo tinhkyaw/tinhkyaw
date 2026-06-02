@@ -827,6 +827,7 @@ taccy
 tad
 tagspaces
 talon
+tangleguard-cli
 taskexplorer
 tastytrade
 telegram
