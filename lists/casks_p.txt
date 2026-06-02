@@ -1045,6 +1045,7 @@ ray
 rayon
 razorsql
 rcloneview
+rcmd
 readdle-spark
 reader
 readwise-ibooks
