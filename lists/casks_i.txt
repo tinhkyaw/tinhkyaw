@@ -149,6 +149,7 @@ droid
 droidcam-obs
 dropbox
 duet
+duo-desktop
 dusklight
 dyalog
 dynamodb-local

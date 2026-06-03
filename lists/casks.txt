@@ -208,7 +208,6 @@ drawio
 drawpen
 dropbox@beta
 duckduckgo
-duo-desktop
 ea
 easyfind
 ebmac
