@@ -453,6 +453,7 @@ freedom
 freeyourmusic
 fresh
 front
+fsmonitor
 ftdi-vcp-driver
 fxfactory
 gamemaker
