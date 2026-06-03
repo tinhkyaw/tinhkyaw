@@ -424,6 +424,7 @@ openinterminal
 openinterminal-lite
 openkey
 openlens
+openlogi
 openmtp
 openra
 opensc-app
