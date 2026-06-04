@@ -1206,6 +1206,7 @@ soundsource
 soundtoys
 sourcenote
 space-capsule
+spacelauncher
 spacewalker
 spamsieve
 speechify-ai-assistant
