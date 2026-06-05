@@ -186,6 +186,7 @@
     "jupyter-notebook": "left"
   },
   "partialDiff.enableTelemetry": false,
+  "python.languageServer": "Default",
   "redhat.telemetry.enabled": false,
   "rest-client.enableTelemetry": false,
   "restructuredtext.linter": {
@@ -212,6 +213,7 @@
   },
   "testExplorer.useNativeTesting": true,
   "textmarker.enableTelemetry": false,
+  "todo-tree.ripgrep.ripgrep": "/opt/homebrew/bin/rg",
   "vs-kubernetes": {
     "helm-path": "${env:HOMEBREW_PREFIX}/bin/helm",
     "kubectl-path": "${env:HOMEBREW_PREFIX}/bin/kubectl",

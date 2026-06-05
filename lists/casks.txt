@@ -735,6 +735,7 @@ session-manager-plugin
 sf-symbols
 sfm
 shichizip
+shichizip-zs
 shield
 shifty
 shipshitdev/tap/meterbar

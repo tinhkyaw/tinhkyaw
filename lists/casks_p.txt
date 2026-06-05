@@ -952,6 +952,7 @@ piezo
 pikpak
 pimosa
 pinegrow
+pingplotter
 pinwheel
 pitch
 pixelsnap
