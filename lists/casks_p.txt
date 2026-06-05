@@ -682,6 +682,7 @@ macs-fan-control
 macsyzones
 macwhisper
 macwinzipper
+macx-dvd-ripper-pro
 mailbird
 mailbutler
 mailspring
