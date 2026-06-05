@@ -745,6 +745,7 @@ miln-movie-splitter
 mimestream
 mindjet-mindmanager
 mindmac
+mindmanager
 minecraft-server
 minstaller
 miro
