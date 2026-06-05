@@ -1212,7 +1212,7 @@ space-capsule
 spacelauncher
 spacewalker
 spamsieve
-speechify-ai-assistant
+speechify-voice-ai
 speedify
 spitfire-audio
 splashtop-business
