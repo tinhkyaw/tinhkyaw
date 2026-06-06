@@ -300,6 +300,7 @@ desktop-composer
 desktoppr
 desktoputility
 devin-cli
+devin-desktop
 devknife
 devutils
 dialpad
@@ -495,6 +496,7 @@ graphicconverter
 green-go-control
 grid
 grok-build
+groove-omnidialer
 guitar-pro
 gyazmail
 gyazo
@@ -730,6 +732,7 @@ metavideo
 mia-for-gmail
 micro-snitch
 microblog
+microsoft-365-copilot
 microsoft-azure-storage-explorer
 microsoft-excel
 microsoft-office
