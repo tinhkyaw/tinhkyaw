@@ -86,6 +86,7 @@ brilliant
 browseros
 bunch
 burn
+buzz
 cables
 cad-assistant
 caffeine
@@ -466,6 +467,7 @@ macgamestore
 macgdbp
 macgesture
 macpacker
+macparakeet
 macpass
 macshot
 macskk
@@ -589,6 +591,7 @@ openchrom
 openclaw
 opencode-desktop
 opencomic
+opencpn
 openframeworks
 openpencil
 openrocket
@@ -601,7 +604,6 @@ orchard
 origami-studio
 orion
 osaurus
-oscar
 osquery
 ossapp
 ossia-score

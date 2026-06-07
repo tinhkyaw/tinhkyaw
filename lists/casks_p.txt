@@ -303,6 +303,7 @@ devin-cli
 devin-desktop
 devknife
 devutils
+dfu-blaster-pro
 dialpad
 dictionaries
 digiexam
@@ -322,6 +323,7 @@ dockx
 doppler-app
 dorico
 dot
+dotnet-reactor
 downie
 doxie
 drata-agent
@@ -541,6 +543,7 @@ ibackup-viewer
 ibkr
 ibm-aspera-connect
 ibm-cloud-cli
+ibm-notifier
 icab
 icollections
 iconchamp
@@ -741,6 +744,7 @@ microsoft-onenote
 microsoft-openjdk
 microsoft-outlook
 microsoft-powerpoint
+microsoft-remote-help
 microsoft-word
 middle
 milanote
