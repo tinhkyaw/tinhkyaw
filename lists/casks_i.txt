@@ -352,6 +352,7 @@ macmediakeyforwarder
 mactex-no-gui
 macusb
 macvim-app
+macx-youtube-downloader
 mail-assistant
 mailtrackerblocker
 malwarebytes
@@ -633,6 +634,7 @@ voicemod
 void
 volta-app
 volume-control
+vuze
 warcraft-logs-uploader
 warsaw
 wasabi-wallet

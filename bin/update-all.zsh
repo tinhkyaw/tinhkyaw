@@ -68,7 +68,7 @@ check_deps \
 # ---------------------------------------------------------------------------
 
 brew update
-brew upgrade --greedy
+yes | head -n 1 | brew upgrade --greedy
 # brew cu -ay     # uncomment to upgrade casks via brew-cask-upgrade
 brew cleanup -s
 brew doctor      # informational; non-zero exit does not abort (no ERR_EXIT)

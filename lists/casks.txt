@@ -437,7 +437,6 @@ langflow
 lapce
 latest
 latexit
-lcharvol/tap/claude-god
 leapp
 lens
 libcblite-community
@@ -742,7 +741,6 @@ shichizip
 shichizip-zs
 shield
 shifty
-shipshitdev/tap/meterbar
 shotcut
 shottr
 showyedge
