@@ -130,7 +130,7 @@ rustup-init -y
 # ---------------------------------------------------------------------------
 
 if [[ ! -d "${HOME}/.config/emacs" ]]; then
-  git clone --depth 1 https://github.com/doomemacs/doomemacs \
+  git clone --depth 1 git@github.com:doomemacs/doomemacs \
     "${HOME}/.config/emacs"
   "${HOME}/.config/emacs/bin/doom" install
   # Back up any generated config.el before symlinking the managed version.
