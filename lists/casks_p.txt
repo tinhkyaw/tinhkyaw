@@ -1156,6 +1156,7 @@ segger-jlink
 segger-ozone
 sejda-pdf
 sencha
+send-anywhere
 sensei
 sentinel
 serial
@@ -1164,6 +1165,7 @@ serverbuddy
 serviio
 sessionrestore
 setapp
+shade
 shadow
 shapes
 shapr3d

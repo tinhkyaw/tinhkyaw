@@ -835,6 +835,7 @@ tastytrade
 telegram
 temurin
 temurin@11
+terax
 tev
 tex-live-utility
 texmacs
