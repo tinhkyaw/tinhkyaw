@@ -139,7 +139,7 @@ codexbar
 codexmonitor
 cog-app
 comet
-comfyui
+comfy
 commander
 commandpost
 commandq
@@ -683,6 +683,7 @@ quarto
 quicklook-video
 quicksilver
 r-app
+r-rig-app
 racket
 radar
 rapidapi
