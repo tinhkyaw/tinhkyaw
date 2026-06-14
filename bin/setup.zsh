@@ -138,6 +138,7 @@ if [[ ! -d "${HOME}/.config/emacs" ]]; then
     mv "${HOME}/.config/doom/config.el" "${HOME}/.config/doom/config.el.BAK"
   fi
   ln -sf "${GIT_ROOT_DIR}/conf/doom/config.el" "${HOME}/.config/doom/config.el"
+  touch "${HOME}/.config/emacs/lisp/packages.el"  # avoid "packages.el is missing" error on first run
 fi
 
 # ---------------------------------------------------------------------------

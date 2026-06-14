@@ -78,6 +78,7 @@ jebbs.plantuml
 jeff-hykin.better-cpp-syntax
 johnpapa.vscode-peacock
 julialang.language-julia
+justusadam.language-haskell
 kilocode.kilo-code
 kisstkondoros.vscode-gutter-preview
 littlefoxteam.vscode-python-test-adapter

@@ -109,6 +109,7 @@ coverload
 cro-mag-rally
 crypto-native-app-ng
 crystalfetch
+ctivo
 curiosity
 curseforge
 darkmodebuddy
@@ -385,6 +386,7 @@ mono-mdk
 monokle
 moves
 mozregression-gui
+mudlet
 multi
 multipass
 munki
