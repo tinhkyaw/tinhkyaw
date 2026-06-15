@@ -382,6 +382,7 @@ modmove
 modrinth
 molotov
 monero-wallet
+moneymanager
 mono-mdk
 monokle
 moves
