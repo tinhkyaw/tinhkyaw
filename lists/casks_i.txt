@@ -537,6 +537,7 @@ sherlock-app
 shop-different
 shortcat
 sidequest
+silkypix-developer-studio-se
 sirimote
 sky
 slack-cli
