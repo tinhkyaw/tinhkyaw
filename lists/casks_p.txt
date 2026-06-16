@@ -1150,6 +1150,7 @@ seadrive
 seafile-client
 seam-app
 securityspy
+seekfast
 segger-embedded-studio
 segger-embedded-studio-for-arm
 segger-jlink
