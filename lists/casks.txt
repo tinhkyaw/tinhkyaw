@@ -328,6 +328,7 @@ gram
 gramps
 grandperspective
 greenfoot
+greensignal
 gretl
 gridtracker2
 gyroflow
@@ -409,6 +410,7 @@ kando
 kap
 karabiner-elements
 kate
+kde-connect
 kdenlive
 kdiff3
 keepassxc
@@ -690,6 +692,7 @@ r-app
 r-rig-app
 racket
 radar
+radix
 rapidapi
 raspberry-pi-imager
 rawtherapee

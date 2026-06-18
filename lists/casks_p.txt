@@ -1042,7 +1042,7 @@ quickbooks
 quicken
 quickwhisper
 quip
-quit-all
+quitall
 quo
 radial
 radio-silence

@@ -102,7 +102,7 @@
     "suggestSelection": "first"
   },
   "esbonio.server.enabled": false,
-  "extensions.autoUpdate": true,
+  "extensions.autoUpdate": "on",
   "files": {
     "associations": {
       "*.m": "matlab"
