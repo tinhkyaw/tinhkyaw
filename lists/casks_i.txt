@@ -9,6 +9,7 @@ airdash
 airi
 alcom
 aleph-one
+altersend
 amd-power-gadget
 amethyst
 amiberry

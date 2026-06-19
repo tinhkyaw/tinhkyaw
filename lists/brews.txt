@@ -235,6 +235,7 @@ scalacenter/bloop/bloop
 scipy
 scrapy
 screen
+sdl2-compat
 shellcheck
 silicon
 sip
