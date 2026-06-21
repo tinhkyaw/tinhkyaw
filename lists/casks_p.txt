@@ -160,6 +160,7 @@ box-drive
 box-tools
 boxy-suite
 brainfm
+brave-origin
 bria
 browser-actions
 browser-deputy
@@ -252,6 +253,7 @@ copyclip
 core-tunnel
 coscreen
 coterm
+cotypist
 couchbase-server-enterprise
 crashplan
 creality-print
@@ -1271,6 +1273,7 @@ surge
 suuntodm5
 swift-publisher
 swinsian
+sxitch
 synalyze-it-pro
 sync
 syncovery

@@ -43,6 +43,7 @@ banktivity
 bartender
 base
 basecamp
+baseline
 basictex
 bathyscaphe
 battery
@@ -601,6 +602,7 @@ trex
 trezor-bridge-app
 trezor-suite
 trimmy
+tunarr
 twake
 twingate
 twist

@@ -816,6 +816,7 @@ stringz
 subethaedit
 subler
 supacode
+supaterm
 super
 super-productivity
 supercollider
@@ -890,6 +891,7 @@ truetree
 tunnelblick
 turbovnc-viewer
 twine-app
+typewhisper
 ubersicht
 ukelele
 ulbow
