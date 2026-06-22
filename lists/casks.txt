@@ -60,6 +60,7 @@ beaver-notes
 beekeeper-studio
 beeper
 bettercapture
+bettercmdtab
 beutl
 bibdesk
 biglybt
@@ -124,6 +125,7 @@ claude-devtools
 clearance
 clibor
 clips-ide
+clipy
 clocker
 cloudcompare
 cmd

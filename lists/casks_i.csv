@@ -1,5 +1,6 @@
 Name,Homepage
 "86box","https://86box.net/"
+"8bitdo-firmware-updater","https://support.8bitdo.com/firmware-updater.html"
 "8bitdo-ultimate-software-v2","https://app.8bitdo.com/Ultimate-Software-V2/"
 "8bitdo-ultimate-software","https://support.8bitdo.com/ultimate-software.html"
 "8x8-work","https://docs.8x8.com/8x8WebHelp/8x8-work-for-desktop/Content/workd/about-the-app.htm"
@@ -243,7 +244,6 @@ Name,Homepage
 "gonhanh","https://github.com/khaphanspace/gonhanh.org"
 "google-japanese-ime","https://www.google.co.jp/ime/"
 "gopher64","https://github.com/gopher64/gopher64"
-"gosign","https://www.firma.infocert.it/prodotti/gosign/"
 "gotiengviet","https://www.trankynam.com/gotv/"
 "gray","https://github.com/zenangst/Gray"
 "grayjay","https://grayjay.app/desktop/"
@@ -271,6 +271,7 @@ Name,Homepage
 "ijhttp","https://www.jetbrains.com/ijhttp/download"
 "iloader","https://iloader.app/"
 "impactor","https://github.com/khcrysalis/Impactor/"
+"infocert-sign","https://infocert.digital/consumer/infocert-sign-suite/"
 "install-disk-creator","https://macdaddy.io/install-disk-creator/"
 "intellidock","https://mightymac.app/intellidock/"
 "intiface-central","https://github.com/intiface/intiface-central"

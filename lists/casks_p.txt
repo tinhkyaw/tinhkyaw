@@ -446,6 +446,7 @@ folx
 fontcreator
 fontfinagler
 fontlab
+fontstand
 fork
 forklift
 fossa
@@ -562,6 +563,7 @@ imazing-profile-editor
 incident-io
 infinidesk
 infinity
+infocert-sign
 infra
 inkdrop
 inmusic-software-center
@@ -690,6 +692,7 @@ macsyzones
 macwhisper
 macwinzipper
 macx-dvd-ripper-pro
+magicplot
 mailbird
 mailbutler
 mailspring
@@ -921,6 +924,7 @@ pacifist
 pagico
 paintcode
 paletro
+palmier-pro
 paper
 paper-design
 papers

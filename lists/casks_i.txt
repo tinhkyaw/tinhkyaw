@@ -1,4 +1,5 @@
 86box
+8bitdo-firmware-updater
 8bitdo-ultimate-software
 8bitdo-ultimate-software-v2
 8x8-work

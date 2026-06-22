@@ -66,6 +66,7 @@ focusany
 folo
 foxit-pdf-editor
 foxitreader
+foxmail
 freepdf
 freetex
 frhelper
