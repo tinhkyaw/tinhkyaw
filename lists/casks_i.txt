@@ -371,6 +371,7 @@ mdb-accdb-viewer
 mediathekview
 megazeux
 meta-quest-developer-hub
+meta-quest-remote-desktop
 mgba-app
 michaelvillar-timer
 micro-sniff

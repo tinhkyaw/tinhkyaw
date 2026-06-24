@@ -690,6 +690,7 @@ qr-journal
 quarto
 quicklook-video
 quicksilver
+quiet
 r-app
 r-rig-app
 racket
