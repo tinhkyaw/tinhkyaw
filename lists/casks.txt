@@ -22,6 +22,7 @@ android-commandlinetools
 android-platform-tools
 android-studio
 anki
+annotate
 another-redis-desktop-manager
 antconc
 antigravity
@@ -159,6 +160,7 @@ cork
 coteditor
 couchbase-server-community
 cpu-info
+cpuinfo
 craft
 craft-agents
 cursor
@@ -446,6 +448,7 @@ latest
 latexit
 leapp
 lens
+letos
 libcblite-community
 libreoffice
 librepcb
@@ -678,6 +681,7 @@ publii
 publish-or-perish
 pulsar
 puremac
+pycharm-oss
 pyzo
 qcad
 qctools
