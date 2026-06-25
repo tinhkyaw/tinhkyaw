@@ -119,6 +119,7 @@ chiri
 cinderella
 cinebench
 cirrus
+clarify
 clariti
 claude
 claude-code
