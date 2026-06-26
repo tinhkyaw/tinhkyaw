@@ -44,6 +44,7 @@ asciidocfx
 asset-catalog-tinkerer
 astro-editor
 athas
+atoll
 atuin-desktop
 audacity
 auto-claude

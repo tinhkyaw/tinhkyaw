@@ -1214,6 +1214,7 @@ smooze-pro
 smultron
 snagit
 snapmotion
+snippety
 softraid
 softube-central
 songkong
