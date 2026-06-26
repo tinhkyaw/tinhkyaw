@@ -1049,7 +1049,6 @@ quakespasm
 querious
 quickbooks
 quicken
-quickwhisper
 quip
 quitall
 quo
