@@ -975,6 +975,7 @@ pixelsnap
 pktriot
 plamo-translate
 plasticity
+platinum-notes
 plaud
 playdate-mirror
 playdate-simulator

@@ -502,6 +502,7 @@ mediahuman-audio-converter
 mediainfo
 meetily
 meetingbar
+meetmic
 meld
 mem
 memory-cleaner
@@ -875,6 +876,7 @@ thumbhost3mf
 thunderbird
 tiger-trade
 tigervnc
+tikz-editor
 tiled
 timemachineeditor
 timemachinestatus
