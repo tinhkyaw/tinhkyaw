@@ -295,6 +295,7 @@ gcloud-cli
 geany
 general-software-fresh
 geoda
+geolibre
 geomap
 geotag
 get-iplayer-automator
@@ -949,7 +950,6 @@ wave
 wealthfolio
 weasis
 webull
-weka
 wezterm
 whalebird
 whatcable

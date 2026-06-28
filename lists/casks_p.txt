@@ -321,6 +321,7 @@ djstudio
 djuced
 dmg-canvas
 dnclient
+dockspace
 dockx
 doppler-app
 dorico
@@ -899,6 +900,7 @@ onlyoffice
 opal-app
 opal-composer
 openaudible
+openhuman
 openin
 openwebstart
 optimus-player
@@ -1279,7 +1281,6 @@ surge
 suuntodm5
 swift-publisher
 swinsian
-sxitch
 synalyze-it-pro
 sync
 syncovery
