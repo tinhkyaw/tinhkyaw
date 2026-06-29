@@ -179,6 +179,7 @@ cadran
 cahier
 caido
 caldigit-docking-utility
+caldigit-usb-hub-support-driver
 calendar-366
 calibrite-profiler
 calmly-writer
