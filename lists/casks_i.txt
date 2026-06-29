@@ -323,6 +323,7 @@ lectrote
 ledger-wallet
 legcord
 lets
+libifd-cyberjack
 libreoffice-language-pack
 libreoffice-still
 libreoffice-still-language-pack
