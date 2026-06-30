@@ -307,6 +307,7 @@ ghostvm
 gimp
 gitahead
 gitbutler
+gitcomet
 gitfiend
 gitfit
 github

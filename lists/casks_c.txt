@@ -168,6 +168,7 @@ thunder
 trae
 trae-cn
 ui-tars
+uniclipboard
 usmart-trade
 utools
 uu-booster
