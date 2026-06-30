@@ -594,6 +594,7 @@ obsidian
 ocenaudio
 odbc-manager
 omnidisksweeper
+onexrayse
 onionshare
 onlook
 ontime
@@ -920,6 +921,7 @@ vagrant
 valhalla-freq-echo
 valhalla-space-modulator
 valhalla-supermassive
+valkey-admin
 vapor-app
 vcv-rack
 versatility
@@ -938,7 +940,6 @@ viz
 vlc
 vmlx
 vnc-viewer
-vnote
 voiden
 vorta
 vscodium
