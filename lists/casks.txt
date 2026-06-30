@@ -41,6 +41,7 @@ archaeology
 archipelago
 arduino-ide
 asciidocfx
+aside
 asset-catalog-tinkerer
 astro-editor
 athas
@@ -789,6 +790,7 @@ slidepilot
 sloth
 smartreporter-free
 smoothcsv
+snapzy
 snipaste
 soapui
 socialstream
