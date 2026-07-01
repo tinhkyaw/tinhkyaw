@@ -38,6 +38,7 @@ cocoapods
 colima
 colordiff
 conda-zsh-completion
+container
 cookiecutter
 cpanminus
 cromwell
