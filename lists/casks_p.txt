@@ -488,6 +488,7 @@ gitkraken-cli
 gitkraken-on-premise-serverless
 glkvm
 glyphs
+gnome
 godspeed
 goland
 gologin
@@ -988,6 +989,7 @@ plex-media-server
 plexamp
 plistedit-pro
 pluginval
+pocket-bard
 poedit
 pokemon-tcg-live
 polymail

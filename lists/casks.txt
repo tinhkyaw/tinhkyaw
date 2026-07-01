@@ -660,6 +660,7 @@ pieces-os
 pika
 pile
 pinta
+pique
 pixieditor
 planet
 plover
