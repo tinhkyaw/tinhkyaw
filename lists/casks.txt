@@ -1,6 +1,7 @@
 0-ad
 actual
 adobe-acrobat-reader
+adrafinil
 advantagescope
 aerial
 affinity
@@ -344,6 +345,7 @@ gyroflow
 halloy
 hammerspoon
 handbrake-app
+harper-desktop
 hdfview
 headlamp
 helio
@@ -413,6 +415,7 @@ jiggler
 joplin
 josm
 jt-bridge
+jubler
 jumpcut
 jupyterlab-app
 kando
@@ -469,6 +472,7 @@ loom
 losslesscut
 low-profile
 ltspice
+lumide
 luxury-yacht
 lyric-fever
 lyrics-master
@@ -545,6 +549,7 @@ mounty
 mp3gain-express
 mps
 mucommander
+muesli
 mujoco
 mullvad-browser
 multipatch
@@ -798,6 +803,7 @@ soapui
 socialstream
 sol
 solvespace
+sonarqube-cli
 sonic-pi
 sonic-visualiser
 sonobus
@@ -961,6 +967,7 @@ whatcable
 whatroute
 whatsapp
 whatsyoursign
+whichspace
 whispering
 white-rabbit
 whodb

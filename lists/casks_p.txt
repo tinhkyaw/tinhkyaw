@@ -1531,4 +1531,5 @@ zoom-m3-edit-and-play
 zulip
 zulu
 zulufx
+zush
 zwift
