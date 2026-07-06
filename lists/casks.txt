@@ -746,6 +746,7 @@ routine
 rsyncui
 runtimeviewer
 rustcast
+sabaki
 sabnzbd
 sage
 sanctum
