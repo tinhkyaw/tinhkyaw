@@ -393,6 +393,7 @@ itermai
 itermbrowserplugin
 itk-snap
 itsycal
+itsypad
 itsytv
 jabref
 jalview
@@ -480,6 +481,7 @@ lyricsfinder
 lyricsx
 mac-monitor
 mac-mouse-fix
+mac-sai
 maccy
 macdown-3000
 macgamestore

@@ -614,6 +614,7 @@ karafun
 katalon-studio
 keep-it
 keeper-password-manager
+keeperdb
 keycombiner
 keycue
 keysafe
