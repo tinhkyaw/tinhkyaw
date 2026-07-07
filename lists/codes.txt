@@ -208,6 +208,7 @@ tootone.org-mode
 trond-snekvik.simple-rst
 tyriar.lorem-ipsum
 tyriar.sort-lines
+usernamehw.errorlens
 visualstudiotoolsforunity.vstuc
 vmware.vscode-boot-dev-pack
 vscjava.vscode-java-pack

@@ -1067,6 +1067,7 @@ rambox
 random-mouse-clicker
 rapidweaver
 ray
+raycast-glaze
 rayon
 razorsql
 rcloneview
