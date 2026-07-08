@@ -191,6 +191,7 @@ cap
 captainplugins
 captains-deck
 capto
+carbide-create
 carbon-copy-cloner
 cardhop
 castr

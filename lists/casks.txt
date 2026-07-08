@@ -391,6 +391,7 @@ itch
 iterm2
 itermai
 itermbrowserplugin
+itermcompanion
 itk-snap
 itsycal
 itsypad
@@ -634,6 +635,7 @@ osaurus
 osquery
 ossapp
 ossia-score
+otty
 overlayed
 oversight
 overt
