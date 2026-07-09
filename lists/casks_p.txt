@@ -72,6 +72,7 @@ app-tamer
 appgate-sdp-client
 appgridmac
 appvolume
+appzapper
 aptakube
 aqua-voice
 aquaskk
