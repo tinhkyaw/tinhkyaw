@@ -54,6 +54,7 @@ aloha-browser
 altar-ai
 amadine
 amazon-chime
+amazon-workspaces
 amie
 ammonite
 amore

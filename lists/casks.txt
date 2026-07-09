@@ -944,6 +944,7 @@ versatility
 vibe-notch
 vibeproxy
 viber
+vicinae
 vienna
 vimr
 virtualbox
