@@ -133,11 +133,16 @@ if [[ ! -d "${HOME}/.config/emacs" ]]; then
   git clone --depth 1 git@github.com:doomemacs/doomemacs \
     "${HOME}/.config/emacs"
   "${HOME}/.config/emacs/bin/doom" install
-  # Back up any generated config.el before symlinking the managed version.
-  if [[ -f "${HOME}/.config/doom/config.el" ]]; then
-    mv "${HOME}/.config/doom/config.el" "${HOME}/.config/doom/config.el.BAK"
-  fi
-  ln -sf "${GIT_ROOT_DIR}/conf/doom/config.el" "${HOME}/.config/doom/config.el"
+  # Back up any generated Doom config files before symlinking the managed
+  # versions.
+  for doom_file in config.el packages.el; do
+    if [[ -f "${HOME}/.config/doom/${doom_file}" ]]; then
+      mv "${HOME}/.config/doom/${doom_file}" \
+        "${HOME}/.config/doom/${doom_file}.BAK"
+    fi
+    ln -sf "${GIT_ROOT_DIR}/conf/doom/${doom_file}" \
+      "${HOME}/.config/doom/${doom_file}"
+  done
   touch "${HOME}/.config/emacs/lisp/packages.el"  # avoid "packages.el is missing" error on first run
 fi
 
