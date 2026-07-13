@@ -141,7 +141,6 @@ cocoarestclient
 codeedit
 codeql
 codex
-codex-app
 codexbar
 codexmonitor
 cog-app

@@ -84,6 +84,7 @@ canon-mg2500-driver
 canon-ufrii-driver
 cd-to
 cernbox
+chatgpt-classic
 chatty
 chia
 chrome-remote-desktop-host
