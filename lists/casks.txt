@@ -785,6 +785,7 @@ signal
 signet
 silentknight
 silicon-app
+siliconscope
 silnite
 simple-comic
 simple-web-server
@@ -957,6 +958,7 @@ vlc
 vmlx
 vnc-viewer
 voiden
+vorssaint
 vorta
 vscodium
 vv
@@ -977,6 +979,7 @@ whichspace
 whispering
 white-rabbit
 whodb
+willow-voice
 windscribe
 wing-personal
 wireshark-app
