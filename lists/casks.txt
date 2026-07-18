@@ -51,6 +51,7 @@ atuin-desktop
 audacity
 auto-claude
 auto-subs
+autopkgr
 avast-secure-browser
 aws-vault-binary
 azookey
@@ -469,6 +470,7 @@ livebook
 locationsimulator
 lockrattler
 logseq
+logseq-og
 loom
 losslesscut
 low-profile
@@ -632,6 +634,7 @@ orchard
 origami-studio
 orion
 osaurus
+oscar
 osquery
 ossapp
 ossia-score

@@ -67,6 +67,7 @@ anydo
 anylist
 anypointstudio
 ape
+aphera
 app-cleaner
 app-tamer
 appgate-sdp-client
@@ -429,6 +430,7 @@ filefillet
 filemaker-pro
 finbar
 find-any-file
+fing
 firezone
 fission
 fixkey
@@ -605,6 +607,7 @@ jetdrive-toolbox
 jettison
 jottacloud
 jprofiler
+juicy
 jump-desktop
 jump-desktop-connect
 jumpcloud-password-manager
@@ -1215,6 +1218,7 @@ sleep-aid
 slidepad
 slideshower
 slite
+smallstepagent
 smart-converter-pro
 smartgit
 smartsheet
