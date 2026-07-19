@@ -38,6 +38,7 @@ appexindexer
 appflowy
 applite
 approf
+arcbox
 archaeology
 archipelago
 arduino-ide
@@ -658,6 +659,7 @@ pd
 pdfsam-basic
 pearcleaner
 pencil2d
+perplexity
 petrichor
 pgadmin4
 pgen
