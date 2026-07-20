@@ -460,6 +460,7 @@ latexit
 leapp
 lens
 letos
+libation
 libcblite-community
 libreoffice
 librepcb
