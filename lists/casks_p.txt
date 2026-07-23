@@ -656,6 +656,7 @@ liclipse
 lightkey
 linear-linear
 lingon-x
+linguax
 linqpad
 liquibase-secure
 little-snitch
@@ -1186,6 +1187,7 @@ serial-studio
 serverbuddy
 serviio
 sessionrestore
+sessionwatcher
 setapp
 shade
 shadow

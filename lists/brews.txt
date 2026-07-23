@@ -279,7 +279,7 @@ uwsgi
 v2ray
 v8
 vapor
-vercel-cli
+vercel
 virtualenvwrapper
 vivid
 watchman

@@ -108,6 +108,7 @@ captain
 cardinal
 cardinal-search
 catch
+cate
 cavalry
 cc-pocket
 ccmenu
@@ -129,6 +130,8 @@ clariti
 claude
 claude-code
 claude-devtools
+claude-status-bar
+cleanmymac-cli
 clearance
 clibor
 clips-ide
@@ -296,6 +299,7 @@ gaphor
 gargoyle
 gcloud-cli
 geany
+geburtstagschecker
 general-software-fresh
 geoda
 geolibre
@@ -573,6 +577,7 @@ neat
 neo-network-utility
 neo4j-desktop
 neohtop
+neon-vision-editor
 nessie-app
 netbeans
 netiquette
@@ -610,6 +615,7 @@ odbc-manager
 omnidisksweeper
 onexrayse
 onionshare
+onit-sidekick
 onlook
 ontime
 onyx
@@ -624,12 +630,14 @@ openclaw
 opencode-desktop
 opencomic
 opencpn
+opendisplay
 openframeworks
 openpencil
 openrocket
 openshot-video-editor
 opensoundmeter
 openusage
+openwhispr
 openwork
 orange
 orchard
@@ -696,6 +704,7 @@ precize
 preference-manager
 prefs-editor
 presentation
+prisma-access-browser
 processing
 processmonitor
 protokol
@@ -752,6 +761,7 @@ rivet
 rnote
 roaringapps
 rockxy
+roslynpad
 routine
 rsyncui
 runtimeviewer
