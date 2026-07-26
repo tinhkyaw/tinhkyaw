@@ -79,6 +79,7 @@ bitwarden
 blankie
 blender
 blender-benchmark
+block-buzz
 block-goose
 blockbench
 blockblock
@@ -93,7 +94,6 @@ brilliant
 browseros
 bunch
 burn
-buzz
 cables
 cad-assistant
 caffeine
@@ -115,6 +115,7 @@ ccmenu
 celestia
 cemu
 chalk
+changes
 charmstone
 chatgpt
 chatgpt-atlas
@@ -148,6 +149,7 @@ codeedit
 codeql
 codex
 codexbar
+codexia
 codexmonitor
 cog-app
 comet
@@ -210,6 +212,7 @@ digital
 dintch
 discord
 djv
+dnclient-server
 dnsmonitor
 docker-desktop
 donut
@@ -356,6 +359,7 @@ hdfview
 headlamp
 helio
 helium-browser
+hermes-desktop
 heroic
 hex-fiend
 heynote
@@ -451,6 +455,7 @@ kitlangton-hex
 kiwix
 knockknock
 kodi
+koe
 koharu
 kopiaui
 kotlin-lsp
@@ -555,6 +560,7 @@ mkvtoolnix-app
 mmex
 monal
 monitorcontrol
+moonfin
 moonlight
 mountmate
 mounty
@@ -577,6 +583,7 @@ naps2
 neat
 neo-network-utility
 neo4j-desktop
+neodisk
 neohtop
 neon-vision-editor
 nessie-app

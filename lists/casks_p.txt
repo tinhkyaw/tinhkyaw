@@ -135,6 +135,7 @@ bias-fx
 big-mean-folder-machine
 bike
 billings-pro
+billy
 binary-ninja-free
 bitfocus-buttons
 bitrix24

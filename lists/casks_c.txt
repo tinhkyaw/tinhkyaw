@@ -71,6 +71,7 @@ freepdf
 freetex
 frhelper
 futubull
+gamehub
 goldenpassport
 hapigo
 hbuilderx

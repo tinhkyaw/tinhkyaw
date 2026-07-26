@@ -76,6 +76,7 @@ brightvpn
 buildsettingextractor
 butt
 butterkit
+buzz
 bzflag
 cameracontroller
 candy-crisis
