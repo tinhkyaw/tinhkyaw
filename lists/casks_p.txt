@@ -681,6 +681,8 @@ loupedeck
 lrtimelapse
 ltx-desktop
 ludwig
+luna-display
+luna-secondary
 lunacy
 lunar
 lunar-client
