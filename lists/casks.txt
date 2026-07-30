@@ -142,6 +142,7 @@ clocker
 cloudcompare
 cmd
 cmpxat
+cmtrace-open
 cmux
 cocoapacketanalyzer
 cocoarestclient
@@ -752,6 +753,7 @@ recaf
 recents
 rectangle
 redis-insight
+redot
 reikey
 renameclick
 renpy
