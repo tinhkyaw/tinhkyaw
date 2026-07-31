@@ -921,6 +921,7 @@ thumbhost3mf
 thunderbird
 tiger-trade
 tigervnc
+tight-studio
 tikz-editor
 tiled
 timemachineeditor

@@ -1248,6 +1248,7 @@ soundsource
 soundtoys
 sourcenote
 space-capsule
+spacejump
 spacelauncher
 spacewalker
 spamsieve
