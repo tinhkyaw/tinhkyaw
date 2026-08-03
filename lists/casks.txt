@@ -285,6 +285,7 @@ fontra-pak
 foobar2000
 forecast
 freac
+free-download-manager
 free-podcast-transcription
 free-ruler
 free42-binary
@@ -480,6 +481,7 @@ licensed-app
 linear
 linearmouse
 livebook
+lm-studio-bionic
 locationsimulator
 lockrattler
 logseq
@@ -958,6 +960,7 @@ unclack
 ungoogled-chromium
 unicodechecker
 uninstallpkg
+unity-cli
 universal-media-server
 unpkg
 usage-app

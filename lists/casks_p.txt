@@ -738,6 +738,7 @@ melodics
 memory
 memory-clean-3
 memory-meter-3
+mend
 mendeley-reference-manager
 menubar-stats
 menubarx
@@ -919,6 +920,7 @@ openwebstart
 optimus-player
 oracle-data-modeler
 oracle-jdk
+orbit
 orbstack
 orcasheets
 orka

@@ -1,2 +1,3 @@
 gog-galaxy
+lemonade-server
 proxybridge
