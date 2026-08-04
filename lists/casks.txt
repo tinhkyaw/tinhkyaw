@@ -19,6 +19,7 @@ altair-graphql-client
 altserver
 amical
 anaconda
+android-cli
 android-commandlinetools
 android-platform-tools
 android-studio
@@ -212,6 +213,7 @@ diffusionbee
 digital
 dintch
 discord
+diversion
 djv
 dnclient-server
 dnsmonitor

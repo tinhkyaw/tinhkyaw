@@ -1303,6 +1303,7 @@ surge
 suuntodm5
 swift-publisher
 swinsian
+switchy
 synalyze-it-pro
 sync
 syncovery
@@ -1507,6 +1508,7 @@ wondershare-filmora
 wondershare-uniconverter
 wooshy
 wootility
+work-louder-input
 workflowy
 worksheet-crafter
 workspace-one-intelligent-hub
