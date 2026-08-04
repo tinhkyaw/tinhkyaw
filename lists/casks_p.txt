@@ -1361,6 +1361,7 @@ thingsmacsandboxhelper
 threema
 threema-work
 ti-smartview-ce-for-the-ti-84-plus-family
+tickernotch
 ticktick
 tidal
 time-out
