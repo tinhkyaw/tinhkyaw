@@ -160,6 +160,7 @@ switchhosts
 switchkey
 taobao
 taphouse
+tauritavern
 tencent-lemon
 tencent-meeting
 tencent-ugit

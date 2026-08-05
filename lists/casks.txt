@@ -532,6 +532,7 @@ mediahuman-audio-converter
 mediainfo
 meetily
 meetingbar
+meetingrecorder
 meetmic
 meld
 mem
@@ -834,6 +835,7 @@ slidepilot
 sloth
 smartreporter-free
 smoothcsv
+snapndrag
 snapzy
 snipaste
 soapui

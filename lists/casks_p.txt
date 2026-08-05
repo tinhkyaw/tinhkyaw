@@ -385,6 +385,7 @@ epoccam
 epson-print-layout
 eqmac
 eset-cyber-security
+esphome-device-builder
 espresso
 exactscan
 excire-foto
