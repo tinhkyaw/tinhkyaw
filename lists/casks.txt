@@ -553,6 +553,7 @@ midikeys
 miditrail
 midiview
 mindwtr
+minecraft-education
 miniforge
 minisim
 minizincide
