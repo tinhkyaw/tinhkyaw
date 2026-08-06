@@ -214,6 +214,7 @@ digital
 dintch
 discord
 diversion
+diversion-app
 djv
 dnclient-server
 dnsmonitor
