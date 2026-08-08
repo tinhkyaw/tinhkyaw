@@ -82,6 +82,7 @@ kisstkondoros.vscode-gutter-preview
 littlefoxteam.vscode-python-test-adapter
 llvm-vs-code-extensions.vscode-clangd
 localizely.flutter-intl
+madcatpx.explorer-exclude-manager
 mads-hartmann.bash-ide-vscode
 magicstack.magicpython
 mariusalchimavicius.json-to-ts
@@ -154,7 +155,6 @@ oderwat.indent-rainbow
 openai.chatgpt
 ozzafar.debugmcpextension
 pdconsec.vscode-print
-peterschmalfeldt.explorer-exclude
 pkief.material-icon-theme
 pnp.polacode
 poml-team.poml
