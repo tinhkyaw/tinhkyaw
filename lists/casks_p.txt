@@ -1431,6 +1431,7 @@ unity-hub
 unity-ios-support-for-editor
 unity-webgl-support-for-editor
 unity-windows-support-for-editor
+unraid-usb-creator
 unraid-usb-creator-next
 updatest
 updf

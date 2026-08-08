@@ -84,6 +84,7 @@ candy-crisis
 canon-eos-utility
 canon-mg2500-driver
 canon-ufrii-driver
+captin
 cd-to
 cernbox
 chatgpt-classic
