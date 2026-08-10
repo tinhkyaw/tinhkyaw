@@ -74,6 +74,7 @@ bricklink-studio
 brickstore
 brightness-sync
 brightvpn
+btcpayserver-vault
 buildsettingextractor
 butt
 butterkit
@@ -119,6 +120,7 @@ crystalfetch
 ctivo
 curiosity
 curseforge
+daedalus-mainnet
 darkmodebuddy
 dash-dash
 datovka

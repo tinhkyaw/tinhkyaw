@@ -102,12 +102,14 @@ calcservice
 calendr
 calhash
 calibre
+canario
 canva
 capacities
 capcut
 captain
 cardinal
 cardinal-search
+caskhub
 catch
 cate
 cavalry
@@ -526,6 +528,7 @@ markdown-preview
 markright
 marta
 masscode
+massreplaceit
 mater
 mathcha-notebook
 mcpbundler
@@ -727,6 +730,7 @@ processing
 processmonitor
 protokol
 prusaslicer
+psychopy
 publii
 publish-or-perish
 pulsar
@@ -852,6 +856,7 @@ sonobus
 soqlxplorer
 soulver-cli
 sourcetree
+space-rabbit
 spacedrive
 spaceman
 sparsity
@@ -918,6 +923,7 @@ texmacs
 texshop
 textgrabber2
 textmate
+textream
 thaw
 the-unarchiver
 thebrowsercompany-dia

@@ -216,6 +216,7 @@ chronoid
 chronosync
 cisco-jabber
 cisdem-data-recovery
+cisdem-document-reader
 cisdem-duplicate-finder
 citrix-workspace
 clamxav
@@ -279,6 +280,7 @@ dana-dex
 dante-controller
 dante-via
 dash
+dashcam-viewer
 datadog-agent
 datadog-security-cli
 dataflare
@@ -370,6 +372,7 @@ elgato-video-capture
 elgato-wave-link
 elmedia-player
 elpass
+emailchemy
 emby
 embyserver
 emclient
@@ -522,6 +525,7 @@ harvest
 hazel
 hazeover
 hdhomerun
+headroom
 headset
 hedy
 helo
@@ -946,9 +950,11 @@ paletro
 palmier-pro
 paper
 paper-design
+paperpile
 papers
 paperspace
 paragon-camptune
+paragon-extfs
 parallels
 parallels-client
 parallels-virtualization-sdk
