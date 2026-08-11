@@ -1315,6 +1315,7 @@ synalyze-it-pro
 sync
 syncovery
 syncroom
+synology-chat
 synology-drive
 synology-image-assistant
 synology-surveillance-station-client
