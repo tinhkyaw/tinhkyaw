@@ -583,6 +583,7 @@ muesli
 mujoco
 mullvad-browser
 multipatch
+muse-code
 museeks
 musescore
 muzzle
@@ -725,7 +726,6 @@ precize
 preference-manager
 prefs-editor
 presentation
-prisma-access-browser
 processing
 processmonitor
 protokol
@@ -807,6 +807,7 @@ scrub-utility
 sculptor
 sdformatter
 seamly2d
+sentry-cli
 sequel-ace
 session
 session-manager-plugin
@@ -1009,6 +1010,7 @@ vscodium
 vv
 wailbrew
 warp
+warp-agent-cli
 waterfox
 wave
 wealthfolio

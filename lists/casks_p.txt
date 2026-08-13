@@ -250,6 +250,7 @@ colorwell
 combine-pdfs
 command-tab-plus
 commander-one
+concept2-utility
 confluent-cli
 connect-fonts
 connectiq
@@ -1036,6 +1037,7 @@ prince
 principle
 printopia
 prism
+prisma-access-browser
 privadovpn
 private-internet-access
 privileges
@@ -1520,6 +1522,7 @@ wootility
 work-louder-input
 workflowy
 worksheet-crafter
+worksheetcrafter
 workspace-one-intelligent-hub
 workspaces
 wrike

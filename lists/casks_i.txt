@@ -570,6 +570,7 @@ spatterlight
 specter
 spike
 spotmenu
+sqlcl
 sqlworkbenchj
 sshfs-mac
 stack
