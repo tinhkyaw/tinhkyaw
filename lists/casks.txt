@@ -885,6 +885,7 @@ stremio
 stringz
 subethaedit
 subler
+subtitle-edit
 supacode
 supaterm
 super
