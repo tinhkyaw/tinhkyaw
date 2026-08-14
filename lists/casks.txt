@@ -187,6 +187,7 @@ dagger/tap/container-use
 daisydisk
 dangerzone
 daruma
+data-science-studio
 datweatherdoe
 db-browser-for-sqlite
 dbeaver-community

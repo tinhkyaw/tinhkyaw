@@ -147,6 +147,7 @@ sakura
 shell360
 shimonote
 simpletex
+sina-finance
 snapmaker-luban
 snapmaker-orca
 sodamusic
