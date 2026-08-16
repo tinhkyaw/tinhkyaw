@@ -677,6 +677,7 @@ oversight
 overt
 overview
 ovito
+owlocr
 owocr
 packetsender
 paintbrush
@@ -692,6 +693,7 @@ pdfsam-basic
 pearcleaner
 pencil2d
 perplexity
+petdex
 petrichor
 pgadmin4
 pgen

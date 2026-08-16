@@ -53,6 +53,7 @@ doll
 doubao
 douyin
 douyin-chat
+ds4-control
 easydict
 elegoo-slicer
 eudic

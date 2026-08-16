@@ -181,6 +181,7 @@ eclipse-rcp
 ecodms-client
 egovframedev
 elecom-mouse-util
+electron-cash
 elemental
 elephicon
 emacs-app
@@ -194,6 +195,7 @@ es-de
 ethui
 eu
 eusamanager
+eve-online
 far2l
 feather
 ferdium
