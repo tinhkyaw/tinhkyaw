@@ -802,6 +802,7 @@ moneymoney
 mongodb-compass
 mongodb-compass-isolated-edition
 mongodb-compass-readonly
+mongrel
 monocle-app
 monodraw
 monofocus
