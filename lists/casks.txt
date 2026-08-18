@@ -166,6 +166,7 @@ conductor
 confectionery
 connectmenow
 context
+contour
 copilot-cli
 copilot-language-server
 copilot-money
