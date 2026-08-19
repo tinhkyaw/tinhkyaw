@@ -500,6 +500,7 @@ purei-play
 pxplay
 pym-player
 qfinder-pro
+qmk-toolbox
 quba
 qudedup-extract-tool
 quicktune
