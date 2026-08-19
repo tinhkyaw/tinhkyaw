@@ -136,10 +136,12 @@ clariti
 claude
 claude-code
 claude-devtools
+claude-island
 claude-status-bar
 cleanmymac-cli
 clearance
 clibor
+clickhouse
 clips-ide
 clipy
 clocker
@@ -166,6 +168,7 @@ compositor
 conductor
 confectionery
 connectmenow
+container-use
 context
 contour
 copilot-cli
@@ -185,7 +188,6 @@ cursor-cli
 customshortcuts
 cutter
 cyberduck
-dagger/tap/container-use
 daisydisk
 dangerzone
 daruma
@@ -727,6 +729,7 @@ portx
 positron
 post-haste
 postgres-app
+posturr
 power-monitor
 praat
 precize
@@ -751,6 +754,7 @@ qgis
 qgroundcontrol
 qlc+
 qlmarkdown
+qlvideo
 qr-journal
 quarto
 quicklook-video
@@ -791,6 +795,7 @@ rivet
 rnote
 roaringapps
 rockxy
+rockxy-community
 roslynpad
 routine
 rsyncui
@@ -946,6 +951,7 @@ thumbhost3mf
 thunderbird
 tiger-trade
 tigervnc
+tigervnc-viewer
 tight-studio
 tikz-editor
 tiled

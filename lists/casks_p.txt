@@ -1217,6 +1217,7 @@ shortwave
 showmeyourhotkeys
 sidenotes
 sigmaos
+silhouette-studio
 silo
 sim-genie
 simpholders

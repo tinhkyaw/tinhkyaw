@@ -69,6 +69,25 @@ check_deps() {
     fi
 }
 
+# Rename tmp_file over target only if tmp_file is non-empty, or target
+# does not exist yet. Guards against a source command that exits 0 but
+# silently produces no output (e.g. an unsupported brew flag combination)
+# from clobbering a populated curated list with an empty one.
+#
+# Arguments:
+#   1  tmp_file — freshly-generated content, removed if rejected
+#   2  target   — curated list file to update in place
+commit_if_nonempty() {
+    local tmp_file="$1" target="$2"
+    if [[ ! -s "$tmp_file" && -s "$target" ]]; then
+        echo "Error: new ${target:t} would be empty; keeping existing" \
+             "file (${target})" >&2
+        rm -f "$tmp_file"
+        exit 1
+    fi
+    mv "$tmp_file" "$target"
+}
+
 # ---------------------------------------------------------------------------
 # Argument validation
 # ---------------------------------------------------------------------------
@@ -112,6 +131,9 @@ brew list --formula >"${SNAPSHOT_DIR}/brew${SUFFIX}.txt"
 
 # Top-level formulas only: remove any formula that appears as a dependency
 # of another installed formula, leaving just the intentionally-installed set.
+# Written to a temp file first and committed only if non-empty, so a
+# kill/crash — or an upstream brew command silently returning nothing —
+# leaves the curated list intact instead of truncated.
 {
   grep -Fvxf \
     <(brew deps --installed |
@@ -120,7 +142,8 @@ brew list --formula >"${SNAPSHOT_DIR}/brew${SUFFIX}.txt"
       sort -u) \
     <(brew list --formula --full-name -1 |
       sort -u)
-} | sort -u >"${LIST_DIR}/brews.txt"
+} | sort -u >"${LIST_DIR}/brews.txt.tmp"
+commit_if_nonempty "${LIST_DIR}/brews.txt.tmp" "${LIST_DIR}/brews.txt"
 
 # ---------------------------------------------------------------------------
 # Homebrew casks & taps
@@ -128,9 +151,21 @@ brew list --formula >"${SNAPSHOT_DIR}/brew${SUFFIX}.txt"
 
 # Write the full cask list to both the snapshot archive and the curated list
 # in a single invocation to avoid running the slow brew command twice.
-brew list --cask --full-name -1 \
+#
+# NOTE: --full-name is a formula-only option (see `brew list --help`); on
+# recent brew versions, combining it with --cask silently prints nothing
+# (exit 0) instead of erroring. Casks are listed by short token only —
+# fetch-homepage.zsh already falls back to `brew info --cask` for any
+# token it can't resolve via the official catalogue, which covers
+# tap-qualified casks without needing the full name here.
+#
+# The curated list is written to a temp file and committed only if
+# non-empty, so a kill/crash — or brew silently returning nothing —
+# leaves the previous casks.txt intact instead of truncated.
+brew list --cask -1 \
   | tee "${SNAPSHOT_DIR}/cask${SUFFIX}.txt" \
-  | sort -u >"${LIST_DIR}/casks.txt"
+  | sort -u >"${LIST_DIR}/casks.txt.tmp"
+commit_if_nonempty "${LIST_DIR}/casks.txt.tmp" "${LIST_DIR}/casks.txt"
 
 brew tap >"${SNAPSHOT_DIR}/tap${SUFFIX}.txt"
 
@@ -157,11 +192,14 @@ npm ls -g >"${SNAPSHOT_DIR}/npm${SUFFIX}.txt" || true
 
 # Top-level packages only (parseable output, extract package dir names).
 # Suppress npm's non-zero exit and guard grep so an empty list is handled
-# cleanly rather than aborting via PIPE_FAIL.
+# cleanly rather than aborting via PIPE_FAIL. Written to a temp file and
+# committed only if non-empty, so a kill/crash — or npm silently
+# returning nothing — leaves the previous list intact.
 npm ls -g -p 2>/dev/null \
   | { grep node_modules || true; } \
   | xargs basename \
-  >"${LIST_DIR}/npms.txt" || true
+  >"${LIST_DIR}/npms.txt.tmp" || true
+commit_if_nonempty "${LIST_DIR}/npms.txt.tmp" "${LIST_DIR}/npms.txt"
 
 # ---------------------------------------------------------------------------
 # Python (uv tools)
@@ -223,7 +261,8 @@ if command -v code &>/dev/null; then
         $(grep -El 'extensionDependencies|extensionPack' \
             "${HOME}"/.vscode/extensions/*/package.json)) \
     <(code --list-extensions | sort -d -f) \
-    >"${LIST_DIR}/codes.txt"
+    >"${LIST_DIR}/codes.txt.tmp"
+  commit_if_nonempty "${LIST_DIR}/codes.txt.tmp" "${LIST_DIR}/codes.txt"
 fi
 
 # ---------------------------------------------------------------------------

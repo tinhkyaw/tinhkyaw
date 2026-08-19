@@ -80,11 +80,20 @@ check_deps() {
 #   1  File stem — reads <stem>.json, writes <stem>.csv and <stem>.txt
 write_cask_outputs() {
     local stem="$1"
+    # Write to sibling temp files, then rename into place. A kill/crash
+    # mid-write leaves the previous .csv/.txt intact instead of truncated.
+    local csv_tmp txt_tmp
+    csv_tmp=$(mktemp "${stem}.csv.XXXXXX")
+    txt_tmp=$(mktemp "${stem}.txt.XXXXXX")
+
     # Combine header and data rows in a single jq pass.
     jq -r '(["Name","Homepage"] | join(",")),
            (.[] | [.token, .homepage] | @csv)' \
-        "${stem}.json" > "${stem}.csv"
-    jq -r '.[].token' "${stem}.json" > "${stem}.txt"
+        "${stem}.json" > "$csv_tmp"
+    jq -r '.[].token' "${stem}.json" > "$txt_tmp"
+
+    mv "$csv_tmp" "${stem}.csv"
+    mv "$txt_tmp" "${stem}.txt"
 }
 
 # run_filter_step — apply a jq filter, log removed casks to CSV+TXT,

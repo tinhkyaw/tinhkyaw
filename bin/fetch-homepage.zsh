@@ -25,11 +25,16 @@
 #   taps) are resolved individually via `brew info --cask`. Casks that
 #   cannot be resolved by either method are warned and omitted.
 #
-# Dependencies: brew, curl, gsed, jq
+# Dependencies: brew, curl, gsed, gtimeout, jq
 
 setopt ERR_EXIT PIPE_FAIL NO_UNSET
 
 readonly BREW_CASK_API_URL="https://formulae.brew.sh/api/cask.json"
+
+# Max seconds to wait for a single `brew info` fallback lookup (covers
+# casks from taps that aren't cloned locally yet, which can hang on
+# network/auth). A stuck lookup is treated as a miss, not a hang.
+readonly BREW_INFO_TIMEOUT=30
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -70,9 +75,24 @@ write_csv() {
     local input_file="$1" casks_json="$2"
     local csv_file="${input_file:r}.csv"
 
-    # Sort the input file in-place, then build a JSON array of names.
+    # Sort into a sibling temp file, then rename over the original.
+    # Renaming only happens once the sort has fully succeeded, so a
+    # kill/crash mid-sort leaves the original file untouched instead of
+    # truncated. Also refuse to commit an empty result over a populated
+    # file — sort itself can't drop lines, but this guards against a
+    # caller having already handed us an emptied input_file.
+    local sorted_tmp
+    sorted_tmp=$(mktemp "${input_file}.XXXXXX")
+    sort -o "$sorted_tmp" "$input_file"
+    if [[ ! -s "$sorted_tmp" && -s "$input_file" ]]; then
+        echo "Error: sorting ${input_file} produced no output;" \
+             "leaving it untouched" >&2
+        rm -f "$sorted_tmp"
+        return 1
+    fi
+    mv "$sorted_tmp" "$input_file"
+
     # Strip \r before parsing to tolerate CRLF-encoded input files.
-    sort -o "$input_file" "$input_file"
     local names_json
     names_json=$(tr -d '\r' < "$input_file" \
         | jq -R -s 'split("\n") | map(select(length > 0))')
@@ -109,9 +129,12 @@ write_csv() {
     local -a fallback_rows=()
     local cask result
     for cask in "${misses[@]}"; do
-        result=$(brew info --cask "$cask" --json=v2 2>/dev/null) || {
-            echo "  Warning: '$cask' not found in catalogue or via brew info"\
-                 "— skipping" >&2
+        # gtimeout guards against a tap that isn't cloned locally yet
+        # hanging on network/auth and blocking the whole run.
+        result=$(gtimeout "$BREW_INFO_TIMEOUT" \
+            brew info --cask "$cask" --json=v2 2>/dev/null) || {
+            echo "  Warning: '$cask' not found in catalogue, or brew info"\
+                 "timed out/failed — skipping" >&2
             continue
         }
         fallback_rows+=("$(printf '%s' "$result" \
@@ -119,13 +142,31 @@ write_csv() {
             | jq -r '.casks[] | [.full_token, .homepage] | @csv')")
     done
 
-    # Write header then all rows (catalogue + fallback) sorted by token.
+    # Write header then all rows (catalogue + fallback) sorted by token,
+    # into a sibling temp file first so a kill/crash mid-write can't
+    # leave a truncated csv_file — the rename only happens on success.
+    local csv_tmp
+    csv_tmp=$(mktemp "${csv_file}.XXXXXX")
     {
         echo 'Name,Homepage'
         { printf '%s\n' "$catalogue_rows" "${fallback_rows[@]}"; } \
             | grep -v '^$' \
             | sort -t, -k1
-    } > "$csv_file"
+    } > "$csv_tmp"
+
+    # csv_tmp always has at least the header line, so "empty" here means
+    # zero data rows — refuse to replace a populated csv_file with a
+    # header-only one (e.g. every lookup failed for some reason) rather
+    # than silently discarding known-good homepage data.
+    local row_count
+    row_count=$(( $(wc -l <"$csv_tmp") - 1 ))
+    if (( row_count == 0 && $(wc -l <"$input_file") > 0 )); then
+        echo "Error: no homepage rows resolved for ${input_file:t};" \
+             "leaving ${csv_file} untouched" >&2
+        rm -f "$csv_tmp"
+        return 1
+    fi
+    mv "$csv_tmp" "$csv_file"
 
     echo "  → CSV output: $csv_file"
 }
@@ -162,9 +203,10 @@ if (( $# == 0 )); then
     exit 1
 fi
 
-# brew and gsed are always needed (fallback path); curl only when downloading.
+# brew, gsed, gtimeout are always needed (fallback path); curl only when
+# downloading.
 if [[ -n "$casks_json_path" ]]; then
-    check_deps brew gsed jq
+    check_deps brew gsed gtimeout jq
     if [[ ! -f "$casks_json_path" ]]; then
         echo "Error: --casks-json path not found: ${casks_json_path}" >&2
         exit 1
@@ -172,7 +214,7 @@ if [[ -n "$casks_json_path" ]]; then
     CASKS_JSON="$casks_json_path"
     # Caller owns this file; no cleanup trap needed.
 else
-    check_deps brew curl gsed jq
+    check_deps brew curl gsed gtimeout jq
     CASKS_JSON=$(mktemp "${TMPDIR:-/tmp}/fetch-homepage.XXXXXX")
     trap 'rm -f "$CASKS_JSON"' EXIT INT TERM
     echo "Downloading cask catalogue from ${BREW_CASK_API_URL}..."
