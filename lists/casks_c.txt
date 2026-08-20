@@ -73,6 +73,7 @@ freetex
 frhelper
 futubull
 gamehub
+ghost-downloader
 goldenpassport
 hapigo
 hbuilderx
@@ -113,6 +114,7 @@ mfiles
 miaoyan
 mini-program-studio
 mochi-diffusion
+monet
 mos
 motrix
 mubu
