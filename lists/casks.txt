@@ -963,6 +963,7 @@ todometer
 tofu
 tolaria
 toolhive-studio
+topcat
 topnotch
 tor-browser
 tqsl
