@@ -463,6 +463,7 @@ keycastr
 keyclu
 keyman
 keystore-explorer
+keyty
 kicad
 kid3
 kirocrew
