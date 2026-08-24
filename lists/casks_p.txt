@@ -1141,6 +1141,7 @@ ringcentral
 rippling
 ripx
 rive
+riverscript
 riverside-studio
 rize
 roam

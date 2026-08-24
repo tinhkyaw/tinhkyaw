@@ -19,8 +19,10 @@ altair-graphql-client
 altserver
 amical
 anaconda
+anarlog
 android-cli
 android-commandlinetools
+android-performance-analyzer
 android-platform-tools
 android-studio
 anki
@@ -849,6 +851,7 @@ simplenote
 simplex
 sitala
 sketch
+skills-manager
 skim
 skint
 slack

@@ -14,6 +14,7 @@ aleph-one
 altersend
 amd-power-gadget
 amethyst
+amethyst-nostr
 amiberry
 amitv87-pip
 android-ndk
