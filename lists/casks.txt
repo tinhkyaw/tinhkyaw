@@ -320,6 +320,7 @@ gargoyle
 gcloud-cli
 geany
 geburtstagschecker
+geektool
 general-software-fresh
 geoda
 geolibre
