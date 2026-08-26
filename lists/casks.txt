@@ -495,6 +495,7 @@ libation
 libcblite-community
 libreoffice
 librepcb
+librewolf
 licecap
 licensed-app
 linear
