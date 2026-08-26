@@ -95,6 +95,7 @@ kuaitie
 kubeterm
 lark
 lazycat
+leigod
 linkandroid
 lm-studio
 lobehub

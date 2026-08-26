@@ -55,6 +55,7 @@ beardie
 beid-token
 beid-viewer
 bettershot
+bifrost
 billy-frontier
 bitbox
 blackhole-16ch
@@ -89,6 +90,7 @@ canon-ufrii-driver
 captin
 cd-to
 cernbox
+channel-works
 chatgpt-classic
 chatty
 chia

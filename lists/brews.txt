@@ -273,6 +273,7 @@ trash
 ty
 typst
 unison
+usage
 uv
 uvicorn
 uwsgi

@@ -50,6 +50,7 @@ aside
 asset-catalog-tinkerer
 astro-editor
 athas
+atlas-app
 atoll
 atuin-desktop
 audacity
@@ -605,6 +606,7 @@ mysqlworkbench
 mythic
 namechanger
 naps2
+nativ
 neat
 neo-network-utility
 neo4j-desktop
@@ -953,6 +955,7 @@ there
 thetimemachinemechanic
 thonny
 thorium
+thoughtdag
 thumbhost3mf
 thunderbird
 tiger-trade

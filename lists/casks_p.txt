@@ -629,6 +629,7 @@ katalon-studio
 keep-it
 keeper-password-manager
 keeperdb
+keychron-assistant
 keycombiner
 keycue
 keysafe
@@ -1414,6 +1415,7 @@ transfer
 transmit
 tresorit
 trickster
+triggerflo
 tripmode
 tritium
 trivial
