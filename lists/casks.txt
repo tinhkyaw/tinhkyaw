@@ -126,7 +126,6 @@ chalk
 changes
 charmstone
 chatgpt
-chatgpt-atlas
 chatterino
 chime
 chipmunk
@@ -187,6 +186,7 @@ cpu-info
 cpuinfo
 craft
 craft-agents
+crisp
 cursor
 cursor-cli
 customshortcuts
@@ -197,6 +197,7 @@ dangerzone
 daruma
 data-science-studio
 datweatherdoe
+davit
 db-browser-for-sqlite
 dbeaver-community
 dbgate
@@ -1002,6 +1003,7 @@ uninstallpkg
 unity-cli
 universal-media-server
 unpkg
+unsloth
 usage-app
 utm
 vagrant

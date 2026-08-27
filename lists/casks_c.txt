@@ -134,6 +134,7 @@ picgo
 piclist
 pictureview
 ping-island
+pixcake
 pixpin
 popo
 pot

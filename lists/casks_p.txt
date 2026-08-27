@@ -1320,6 +1320,7 @@ swinsian
 switchy
 synalyze-it-pro
 sync
+syncmate
 syncovery
 syncroom
 synology-chat
