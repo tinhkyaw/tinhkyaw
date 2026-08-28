@@ -45,6 +45,7 @@ arcbox
 archaeology
 archipelago
 arduino-ide
+arm-performix
 asciidocfx
 aside
 asset-catalog-tinkerer

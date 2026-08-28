@@ -198,6 +198,7 @@ capto
 carbide-create
 carbon-copy-cloner
 cardhop
+cashnotify
 castr
 ccleaner
 celestialteapot-runway
