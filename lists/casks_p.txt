@@ -52,6 +52,7 @@ alfaview
 almighty
 aloha-browser
 altar-ai
+amadeus-pro
 amadine
 amazon-chime
 amazon-workspaces
@@ -345,6 +346,7 @@ drivedx
 dropbox-dash
 dropdmg
 droplr
+droppy
 dropshare
 dropshelf
 dropzone
@@ -1345,6 +1347,7 @@ tandem
 taskade
 taskbar
 taskpaper
+tcp-viewer
 tdr-kotelnikov
 tdr-molotok
 tdr-nova
@@ -1440,6 +1443,7 @@ unclutter
 understand
 unifi-identity-endpoint
 unifi-identity-enterprise
+unified-remote
 uniflash
 unite
 unity

@@ -50,6 +50,7 @@ asciidocfx
 aside
 asset-catalog-tinkerer
 astro-editor
+astrofox
 athas
 atlas-app
 atoll
