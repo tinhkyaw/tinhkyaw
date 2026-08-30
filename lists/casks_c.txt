@@ -153,6 +153,7 @@ shell360
 shimonote
 simpletex
 sina-finance
+sjmcl
 snapmaker-luban
 snapmaker-orca
 sodamusic
