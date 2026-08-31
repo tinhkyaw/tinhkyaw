@@ -543,6 +543,7 @@ magicquit
 maintenance
 markdown-preview
 markright
+markviewer
 marta
 masscode
 massreplaceit
@@ -932,6 +933,7 @@ tabby
 tablecruncher
 tableplus
 tablepro
+tabularis
 taccy
 tad
 tagspaces
@@ -974,6 +976,7 @@ timescribe
 tiny-player
 todometer
 tofu
+token-monitor
 tolaria
 toolhive-studio
 topcat

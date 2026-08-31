@@ -146,6 +146,7 @@ qqlive
 qqmusic
 qqnews
 qspace-pro
+quarkclouddrive
 readmoreading
 redis-pro
 sakura
