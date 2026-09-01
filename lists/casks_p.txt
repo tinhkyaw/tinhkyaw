@@ -76,6 +76,7 @@ appgridmac
 appvolume
 appzapper
 aptakube
+aptible
 aqua-voice
 aquaskk
 araxis-merge

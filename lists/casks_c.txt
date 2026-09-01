@@ -188,6 +188,7 @@ videofusion
 viso
 visual-paradigm
 visual-paradigm-ce
+waku
 wechat
 wechatwebdevtools
 wechatwork
