@@ -201,6 +201,7 @@ data-science-studio
 datweatherdoe
 davit
 db-browser-for-sqlite
+db-pro
 dbeaver-community
 dbgate
 dbngin

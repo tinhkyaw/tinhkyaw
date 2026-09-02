@@ -333,6 +333,7 @@ djstudio
 djuced
 dmg-canvas
 dnclient
+dockdoor-pro
 dockspace
 dockx
 doppler-app
