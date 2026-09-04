@@ -39,6 +39,7 @@ clash-mi
 clash-party
 clash-verge-rev
 claudebar
+clawd-on-desk
 cleanmymac
 cleanmymac-zh
 cloudnet

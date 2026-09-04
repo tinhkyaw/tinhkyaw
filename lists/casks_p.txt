@@ -1402,6 +1402,7 @@ tldraw
 tm-error-logger
 to-audio-converter
 todoist-app
+tone3000
 toneprint
 topaz-gigapixel
 topaz-photo
@@ -1469,6 +1470,7 @@ vcam
 vcamapp
 veepn
 vellum
+vernier-graphical-analysis
 vernier-spectral-analysis
 versions
 vezer

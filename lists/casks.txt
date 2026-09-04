@@ -6,6 +6,7 @@ advantagescope
 aerial
 affinity
 agentsview
+airstats
 airtable
 aladin
 alfred
@@ -64,7 +65,6 @@ aws-vault-binary
 azookey
 balance-lock
 balenaetcher
-bananas
 banksiagui
 bb
 bdash
@@ -228,6 +228,7 @@ diffusionbee
 digital
 dintch
 discord
+diskboard
 diversion
 diversion-app
 djv
@@ -522,6 +523,7 @@ lyricsfinder
 lyricsx
 mac-monitor
 mac-mouse-fix
+mac-performance-monitor
 mac-sai
 maccy
 macdown-3000
@@ -532,6 +534,7 @@ macpacker
 macparakeet
 macpass
 macshot
+macshot-offline
 macskk
 macsvg
 macsymbolicator
@@ -697,6 +700,7 @@ overview
 ovito
 owlocr
 owocr
+p2p-kiwi
 packetsender
 paintbrush
 pairpods
@@ -946,6 +950,7 @@ telegram
 temurin
 temurin@11
 terax
+terminal-browser
 tev
 tex-live-utility
 texmacs
