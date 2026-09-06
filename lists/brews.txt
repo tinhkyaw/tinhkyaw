@@ -39,13 +39,13 @@ colima
 colordiff
 conda-zsh-completion
 container
+container-use
 cookiecutter
 cpanminus
 cromwell
 csshx
 ctags
 curl
-dagger/tap/dagger
 dart-lang/dart/dart
 dateutils
 diff-so-fancy

@@ -1260,6 +1260,7 @@ snippety
 softraid
 softube-central
 songkong
+sonos
 sony-ps-remote-play
 soothe2
 soulver
