@@ -665,6 +665,7 @@ ontime
 onyx
 open-design
 open-island
+open-science
 open-video-downloader
 open-webui
 openboard
@@ -1066,6 +1067,7 @@ whispering
 white-rabbit
 whodb
 willow-voice
+windscribe
 wing-personal
 wireshark-app
 witsy

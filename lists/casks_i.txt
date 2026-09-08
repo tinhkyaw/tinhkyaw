@@ -435,6 +435,7 @@ nvs
 nx-studio
 objectivesharpie
 ollamac
+omniwm
 opcode
 open-eid
 opencloud
@@ -592,6 +593,7 @@ steamcmd
 steelseries-gg
 stella-app
 stillcolor
+stockbit
 stolendata-mpv
 stremioservice
 structuredlogviewer

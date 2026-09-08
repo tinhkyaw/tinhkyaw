@@ -46,6 +46,7 @@ cromwell
 csshx
 ctags
 curl
+dagger
 dart-lang/dart/dart
 dateutils
 diff-so-fancy
