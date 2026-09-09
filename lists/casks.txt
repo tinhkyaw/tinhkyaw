@@ -1096,6 +1096,7 @@ yt-music
 zappy
 zed
 zen
+zentty
 zettlr
 zoom
 zotero
