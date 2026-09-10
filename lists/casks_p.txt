@@ -364,6 +364,7 @@ dyad
 dymo-connect
 dynobase
 eagle
+easymac-cleaner
 egnyte
 eigent
 elektron-overbridge
@@ -448,6 +449,7 @@ fission
 fixkey
 flexoptix
 flic
+flick
 flickr-uploadr
 flixtools
 flox
@@ -1547,6 +1549,7 @@ workspaces
 wrike
 writemapper
 wrkspace
+wsl-manager
 x-air-edit
 x32-edit
 xliff-editor

@@ -390,6 +390,7 @@ hiddenbar
 hidock
 hive-app
 home-assistant
+homebrew-app
 horos
 hotovo-aider-desk
 hovrly
@@ -759,6 +760,7 @@ processmonitor
 protokol
 prusaslicer
 psychopy
+psysonic
 publii
 publish-or-perish
 pulsar
@@ -791,6 +793,7 @@ rclone-ui
 react-native-debugger
 reactotron
 readest
+realvnc-connect-viewer
 recaf
 recents
 rectangle
