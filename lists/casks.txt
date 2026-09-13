@@ -113,6 +113,7 @@ canario
 canva
 capacities
 capcut
+capsomnia
 captain
 cardinal
 cardinal-search
@@ -657,6 +658,7 @@ obs
 obsidian
 ocenaudio
 odbc-manager
+ollama-binary
 omnidisksweeper
 onexrayse
 onionshare
@@ -1045,7 +1047,6 @@ vivaldi
 viz
 vlc
 vmlx
-vnc-viewer
 voiden
 vorssaint
 vorta

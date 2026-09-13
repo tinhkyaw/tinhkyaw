@@ -196,6 +196,8 @@ wechatwork
 wetype
 wiznote
 wolai
+workbuddy-ai
+workbuddy-cn
 wpsoffice
 wpsoffice-cn
 xcodepilot
