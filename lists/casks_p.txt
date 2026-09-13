@@ -1024,6 +1024,7 @@ pluginval
 pocket-bard
 poedit
 pokemon-tcg-live
+poker-copilot
 polymail
 polypane
 pop-app
