@@ -842,6 +842,7 @@ scrub-utility
 sculptor
 sdformatter
 seamly2d
+sensiblesidebuttons
 sentry-cli
 sequel-ace
 session

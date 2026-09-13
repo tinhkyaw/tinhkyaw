@@ -656,6 +656,7 @@ kogiqa
 kreya
 krisp
 label-live
+langdock
 languagetool-desktop
 laserpecker-design-space
 lasso-app

@@ -125,6 +125,7 @@ musiver
 navicat-data-modeler
 neteasemusic
 ntfstool
+nuphyio
 nutstore
 one-switch
 only-switch
