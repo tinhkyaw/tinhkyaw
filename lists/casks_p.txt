@@ -1227,6 +1227,7 @@ sharefile
 sharemouse
 shearwater-cloud
 shift
+shimo
 shortwave
 showmeyourhotkeys
 sidenotes

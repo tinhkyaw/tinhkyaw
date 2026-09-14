@@ -453,6 +453,7 @@ jiba
 jiggler
 joplin
 josm
+json-viewer
 jt-bridge
 jubler
 jumpcut
@@ -1078,7 +1079,6 @@ white-rabbit
 whodb
 willow-voice
 windscribe
-wing-personal
 wireshark-app
 witsy
 wljs-notebook
