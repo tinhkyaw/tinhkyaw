@@ -109,6 +109,7 @@ calcservice
 calendr
 calhash
 calibre
+calyx
 canario
 canva
 capacities
@@ -334,6 +335,7 @@ geomap
 geotag
 get-iplayer-automator
 gg
+ghostex
 ghostpepper
 ghostty
 ghostvm
@@ -630,6 +632,7 @@ netiquette
 netlogo
 netnewswire
 netron
+network-weather
 nheko
 nightshade
 nimbalyst
@@ -802,6 +805,7 @@ rectangle
 redis-insight
 redot
 reikey
+relay
 renameclick
 renpy
 repetier-host
@@ -1007,6 +1011,7 @@ trilium-notes
 triplecheese
 tropy
 truetree
+tungsten-edge
 tunnelblick
 turbovnc-viewer
 twine-app

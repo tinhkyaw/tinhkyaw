@@ -1001,6 +1001,7 @@ photozoom-pro
 phpstorm
 picfindr
 pichon
+picmal
 piezo
 pikpak
 pimosa
