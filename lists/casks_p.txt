@@ -140,6 +140,7 @@ billings-pro
 billy
 binary-ninja-free
 bitfocus-buttons
+bitmuse
 bitrix24
 bitwig-studio
 black-ink
@@ -500,6 +501,7 @@ get-backup-pro
 getoutline
 ghost-browser
 gifox
+gitdifferent
 gitfinder
 gitfox
 gitkraken
@@ -847,6 +849,7 @@ multiviewer
 mumu-x
 mural
 murus
+mutedeck
 muteme
 mweb-pro
 mylio

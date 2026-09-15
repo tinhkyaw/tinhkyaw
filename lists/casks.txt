@@ -5,6 +5,7 @@ adrafinil
 advantagescope
 aerial
 affinity
+agentide
 agentsview
 airstats
 airtable
@@ -303,6 +304,7 @@ font-sf-pro
 fontbase
 fontgoggles
 fontra-pak
+fontsmoothingadjuster
 foobar2000
 forecast
 freac
@@ -589,6 +591,7 @@ minecraft-education
 miniforge
 minisim
 minizincide
+minmaxcal
 mints
 mirai
 mist
@@ -656,6 +659,7 @@ numi
 nvidia-geforce-now
 nvidia-nsight-compute
 nvidia-nsight-systems
+nvidia-pair
 nvidia-sync
 ob-xf
 obs
