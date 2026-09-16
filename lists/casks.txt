@@ -486,6 +486,7 @@ kid3
 kirocrew
 kitlangton-hex
 kiwix
+kkterm
 knockknock
 kodi
 koe
@@ -837,7 +838,6 @@ rustcast
 sabaki
 sabnzbd
 sage
-sanctum
 satdump
 satyrn
 scilab
