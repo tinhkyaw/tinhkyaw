@@ -462,6 +462,7 @@ jt-bridge
 jubler
 jumpcut
 jupyterlab-app
+kaku
 kando
 kap
 karabiner-elements

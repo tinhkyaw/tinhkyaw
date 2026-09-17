@@ -1185,6 +1185,7 @@ rubymine
 runjs
 rustdesk
 rustrover
+saega
 safeincloud-password-manager
 saleae-logic
 sauce-connect
