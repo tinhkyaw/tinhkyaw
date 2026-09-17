@@ -171,6 +171,7 @@ switchkey
 taobao
 taphouse
 tauritavern
+telari
 tencent-lemon
 tencent-meeting
 tencent-ugit

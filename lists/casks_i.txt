@@ -276,6 +276,7 @@ hfsleuth
 hightop
 holavpn
 hop
+hoptodesk
 hot
 hstracker
 huggingchat

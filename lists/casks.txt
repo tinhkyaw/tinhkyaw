@@ -6,6 +6,7 @@ advantagescope
 aerial
 affinity
 agentide
+agentiloop-agent
 agentsview
 airstats
 airtable
@@ -688,6 +689,7 @@ openclaw
 opencode-desktop
 opencomic
 opencpn
+opendisk
 opendisplay
 openframeworks
 openpencil
@@ -867,6 +869,7 @@ shotcut
 shottr
 showyedge
 shutter-encoder
+sidex
 sigil
 signal
 signet
