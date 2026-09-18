@@ -966,6 +966,7 @@ tad
 tagspaces
 talon
 tangleguard-cli
+tapmap
 taskexplorer
 tastytrade
 telegram

@@ -41,6 +41,7 @@ conda-zsh-completion
 container
 container-use
 cookiecutter
+coursier/formulas/coursier
 cpanminus
 cromwell
 csshx
@@ -233,7 +234,6 @@ rustup
 sapling
 sbt
 scala
-scalacenter/bloop/bloop
 scipy
 scrapy
 screen
