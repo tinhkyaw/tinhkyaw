@@ -45,6 +45,7 @@ cleanmymac-zh
 cloudnet
 codebuddy
 codebuddy-cn
+colamd
 crosspaste
 dbx
 deepchat

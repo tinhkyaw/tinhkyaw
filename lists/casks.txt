@@ -696,6 +696,7 @@ opendisk
 opendisplay
 openframeworks
 openpencil
+openplc-editor
 openrocket
 openshot-video-editor
 opensoundmeter

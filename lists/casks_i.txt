@@ -284,6 +284,7 @@ iem-plugin-suite
 ijhttp
 iloader
 impactor
+incy
 install-disk-creator
 intellidock
 intiface-central
@@ -611,6 +612,7 @@ tartelet
 telegram-a
 telegram-desktop
 tempbox
+tencent-yingyongbao
 the-battle-for-wesnoth
 thecommander
 thor
