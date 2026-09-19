@@ -123,6 +123,7 @@ batfi
 batteries
 bazecor
 bbedit
+beamer
 beersmith
 bentobox
 berrycast
