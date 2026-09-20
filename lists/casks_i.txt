@@ -534,6 +534,7 @@ robloxstudio
 rocketman-choices-packager
 roku-remote-tool
 runelite
+ruswitcher
 rwts-pdfwriter
 safari-technology-preview
 safe-exam-browser

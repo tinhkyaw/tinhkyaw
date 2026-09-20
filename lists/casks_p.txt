@@ -625,6 +625,7 @@ jetbrains-space
 jetbrains-toolbox
 jetdrive-toolbox
 jettison
+jlcone
 jottacloud
 jprofiler
 juicy
@@ -1136,6 +1137,7 @@ remote-desktop-manager
 remote-wake-up
 remotehamradio
 renamer
+reolink
 replacicon
 repo-prompt
 reqable
