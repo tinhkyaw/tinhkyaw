@@ -357,6 +357,7 @@ gitlight
 gitup-app
 gitx
 glaze-app
+gloomberb
 gluemotion
 gns3
 gnucash
@@ -814,6 +815,7 @@ readest
 realvnc-connect-viewer
 recaf
 recents
+recordly
 rectangle
 redis-insight
 redot
@@ -1111,6 +1113,7 @@ xquartz
 xrg
 xscreensaver
 yacreader
+yap-app
 yattee
 yed
 yojam
