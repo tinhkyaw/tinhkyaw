@@ -690,6 +690,7 @@ openboard
 openchamber
 openchrom
 openclaw
+openclip
 opencode-desktop
 opencomic
 opencpn
