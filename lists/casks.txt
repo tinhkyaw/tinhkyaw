@@ -152,6 +152,7 @@ cleanmymac-cli
 clearance
 clibor
 clickhouse
+cline-app
 clips-ide
 clipy
 clocker
@@ -398,6 +399,7 @@ heynote
 hiddenbar
 hidock
 hive-app
+hol-guard
 home-assistant
 homebrew-app
 horos
@@ -523,6 +525,7 @@ locationsimulator
 lockrattler
 logseq
 logseq-og
+look
 loom
 losslesscut
 low-profile

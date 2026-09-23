@@ -83,6 +83,7 @@ butt
 butterkit
 buzz
 bzflag
+caldera-amp
 cameracontroller
 candy-crisis
 canon-eos-utility
@@ -273,6 +274,7 @@ happ
 haptickey
 heimdall-suite
 hfsleuth
+highball
 hightop
 holavpn
 hop

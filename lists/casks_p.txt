@@ -316,6 +316,7 @@ desktime
 desktop-composer
 desktoppr
 desktoputility
+deviceshelf
 devin-cli
 devin-desktop
 devknife
@@ -1311,6 +1312,7 @@ sqlpro-for-sqlite
 sqlpro-studio
 squash
 ssh-config-editor
+ssl-360
 stash
 stashpad
 steermouse
