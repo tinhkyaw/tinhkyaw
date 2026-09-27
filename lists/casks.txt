@@ -406,6 +406,7 @@ heynote
 hiddenbar
 hidock
 hive-app
+hol-guard
 home-assistant
 homebrew-app
 horos
@@ -582,6 +583,7 @@ massreplaceit
 mater
 mathcha-notebook
 mcpbundler
+mdhero
 media-converter
 mediahuman-audio-converter
 mediainfo
@@ -775,6 +777,7 @@ pingnoo
 pinta
 pique
 pixieditor
+plane
 planet
 plover
 plugdata

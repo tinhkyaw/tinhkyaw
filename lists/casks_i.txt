@@ -339,6 +339,7 @@ league-of-legends
 lectrote
 ledger-wallet
 legcord
+lemonade-server
 lets
 libifd-cyberjack
 libreoffice-language-pack
