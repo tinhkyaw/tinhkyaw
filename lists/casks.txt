@@ -1,6 +1,7 @@
 0-ad
 actual
 adobe-acrobat-reader
+adobe-dng-converter
 adrafinil
 advantagescope
 aerial
@@ -21,6 +22,7 @@ alt-tab
 altair-graphql-client
 altserver
 amical
+amp-app
 anaconda
 anarlog
 android-cli
@@ -71,6 +73,7 @@ banksiagui
 bb
 bdash
 bean
+beast2
 beaver-notes
 beekeeper-studio
 beeper
@@ -326,6 +329,7 @@ frescobaldi
 fsnotes
 funter
 furtherance
+fuse
 fuwari
 ganttproject
 gaphor
@@ -339,6 +343,7 @@ geoda
 geolibre
 geomap
 geotag
+gephi
 get-iplayer-automator
 gg
 ghostex
@@ -364,11 +369,13 @@ gns3
 gnucash
 go2tv
 go64
+gog-galaxy
 gogs
 golly
 google-ads-editor
 google-chrome
 google-drive
+google-earth-pro
 google-gemini
 google-trends
 goxel
@@ -399,7 +406,6 @@ heynote
 hiddenbar
 hidock
 hive-app
-hol-guard
 home-assistant
 homebrew-app
 horos
@@ -431,6 +437,7 @@ invisor-lite
 ipaverse
 ipsecuritas
 iptvnator
+isabelle
 ishare
 itch
 iterm2
@@ -457,6 +464,7 @@ jellyfin
 jellyfin-media-player
 jet-pilot
 jetbrains-air
+jgrasp
 jiba
 jiggler
 joplin
@@ -489,10 +497,12 @@ keystore-explorer
 keyty
 kicad
 kid3
+kindle-comic-converter
 kirocrew
 kitlangton-hex
 kiwix
 kkterm
+klayout
 knockknock
 kodi
 koe
@@ -521,6 +531,7 @@ linear
 linearmouse
 livebook
 lm-studio-bionic
+local-studio
 locationsimulator
 lockrattler
 logseq
@@ -558,6 +569,7 @@ mactracker
 maestral
 maestri
 maestro
+magicavoxel
 magicquit
 maintenance
 mangodisk
@@ -577,6 +589,7 @@ meetily
 meetingbar
 meetingrecorder
 meetmic
+mega
 meld
 mem
 memory-cleaner
@@ -595,6 +608,7 @@ midi-monitor
 midikeys
 miditrail
 midiview
+mindroom
 mindwtr
 minecraft-education
 miniforge
@@ -704,6 +718,7 @@ openpencil
 openplc-editor
 openrocket
 openshot-video-editor
+opensong
 opensoundmeter
 openusage
 openwhispr
@@ -731,6 +746,7 @@ paintbrush
 pairpods
 pale-moon
 pally
+pandora
 panoply
 paraview
 parsify
@@ -755,6 +771,7 @@ pieces
 pieces-os
 pika
 pile
+pingnoo
 pinta
 pique
 pixieditor
@@ -781,6 +798,7 @@ presentation
 processing
 processmonitor
 protokol
+proxybridge
 prusaslicer
 psychopy
 psysonic
@@ -825,6 +843,7 @@ redis-insight
 redot
 reikey
 relay
+remoteviewer
 renameclick
 renpy
 repetier-host
@@ -909,6 +928,7 @@ snipaste
 soapui
 socialstream
 sol
+solar2d
 solvespace
 sonarqube-cli
 sonic-pi
@@ -939,6 +959,7 @@ stability-matrix
 standard-notes
 stats
 stellarium
+storyboarder
 stratoshark
 stravu-crystal
 stremio
@@ -978,6 +999,7 @@ tangleguard-cli
 tapmap
 taskexplorer
 tastytrade
+tau
 telegram
 temurin
 temurin@11
@@ -997,6 +1019,7 @@ thedesk
 theiaide
 there
 thetimemachinemechanic
+thinkorswim
 thonny
 thorium
 thoughtdag

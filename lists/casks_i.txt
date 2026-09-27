@@ -245,6 +245,7 @@ gearboy
 gearsystem
 genesis-plus
 geotag-photos-pro
+gfxcardstatus
 git-credential-manager
 gitify
 glide
@@ -383,6 +384,7 @@ marathon-2
 marathon-infinity
 maru-jan
 material-maker
+mbed-studio
 mcreator
 mdb-accdb-viewer
 mediathekview
@@ -485,6 +487,7 @@ piphero
 pixel-shift-combiner
 playcover-community
 playmemories-home
+playonmac
 pluralplay-flclashx
 pock
 pocket-casts
@@ -531,6 +534,7 @@ restfox
 retro-virtual-machine
 retroarch-metal
 ridibooks
+robbietilton-compositor
 roblox
 robloxstudio
 rocketman-choices-packager
@@ -645,6 +649,7 @@ typora
 uefitool
 uhk-agent
 ulaa
+unity-version-control
 unnaturalscrollwheels
 unshaky
 usb-overdrive

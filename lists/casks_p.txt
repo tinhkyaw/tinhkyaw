@@ -1020,7 +1020,6 @@ pixelsnap
 pktriot
 plamo-translate
 plasticity
-plasticscm-cloud-edition
 platinum-notes
 plaud
 playdate-mirror
@@ -1313,6 +1312,7 @@ sqlpro-studio
 squash
 ssh-config-editor
 ssl-360
+ssl-download-manager
 stash
 stashpad
 steermouse
