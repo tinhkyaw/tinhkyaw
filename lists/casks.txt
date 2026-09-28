@@ -149,7 +149,6 @@ clariti
 claude
 claude-code
 claude-devtools
-claude-island
 claude-status-bar
 cleanmymac-cli
 clearance
@@ -700,6 +699,7 @@ onit-sidekick
 onlook
 ontime
 onyx
+open-data-editor
 open-design
 open-island
 open-science
@@ -747,7 +747,7 @@ packetsender
 paintbrush
 pairpods
 pale-moon
-pally
+pallycompanion
 pandora
 panoply
 paraview
@@ -791,7 +791,6 @@ portx
 positron
 post-haste
 postgres-app
-posturr
 power-monitor
 praat
 precize
@@ -818,7 +817,6 @@ qgis
 qgroundcontrol
 qlc+
 qlmarkdown
-qlvideo
 qr-journal
 quarto
 quicklook-video
@@ -863,7 +861,6 @@ rivet
 rnote
 roaringapps
 rockxy
-rockxy-community
 roslynpad
 routine
 rsyncui
@@ -1030,7 +1027,6 @@ thumbhost3mf
 thunderbird
 tiger-trade
 tigervnc
-tigervnc-viewer
 tight-studio
 tikz-editor
 tiled
