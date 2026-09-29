@@ -150,6 +150,7 @@ diskspace
 displaperture
 display-pilot
 displaylink
+dmenu-mac
 dockdoor
 dockey
 dockfix
@@ -231,7 +232,6 @@ fs-uae-emulator
 fs-uae-launcher
 fujifilm-tether-app
 fujifilm-x-raw-studio
-fujitsu-scansnap-home
 fuse-t
 galaxybudsclient
 gama-jdk
@@ -257,7 +257,6 @@ godot-mono
 gonhanh
 google-japanese-ime
 gopher64
-gosign
 gotiengviet
 gray
 grayjay
@@ -387,7 +386,6 @@ maru-jan
 material-maker
 mbed-studio
 mcreator
-mdb-accdb-viewer
 mediathekview
 megazeux
 meta-quest-developer-hub
@@ -436,7 +434,6 @@ nostalgiapp
 notchi
 notesollama
 nrlquaker-winbox
-ntfstool
 nudge
 nvs
 nx-studio
@@ -551,6 +548,7 @@ sanesidebuttons
 santa
 satellite-eyes
 sc-menu
+scansnap-home
 scoot
 screens-assist
 screens-connect

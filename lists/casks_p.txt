@@ -41,7 +41,6 @@ airfoil
 airparrot
 airscroll
 airserver
-airserver
 airtool
 akiflow
 aks-desktop
@@ -179,7 +178,6 @@ buckets
 bugdom
 bugdom2
 burp-suite
-burp-suite-professional
 busycal
 busycontacts
 butler
@@ -226,7 +224,6 @@ cisdem-document-reader
 cisdem-duplicate-finder
 citrix-workspace
 clamxav
-clay
 cleanclip
 cleaneronepro
 cleanshot
@@ -759,7 +756,6 @@ meld-studio
 mellel
 melodics
 memory
-memory-clean-3
 memory-meter-3
 mend
 mendeley-reference-manager
@@ -1051,7 +1047,6 @@ powerphotos
 ppsspp-emulator
 prepros
 presentify
-presonus-universal-control
 pretzel
 prezi-video
 prince
@@ -1213,7 +1208,6 @@ seam-app
 securityspy
 seekfast
 segger-embedded-studio
-segger-embedded-studio-for-arm
 segger-jlink
 segger-ozone
 sejda-pdf
@@ -1477,7 +1471,6 @@ unity-ios-support-for-editor
 unity-webgl-support-for-editor
 unity-windows-support-for-editor
 unraid-usb-creator
-unraid-usb-creator-next
 updatest
 updf
 upscayl
@@ -1558,7 +1551,6 @@ wooshy
 wootility
 work-louder-input
 workflowy
-worksheet-crafter
 worksheetcrafter
 workspace-one-intelligent-hub
 workspaces
