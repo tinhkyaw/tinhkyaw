@@ -223,6 +223,7 @@ dcp-o-matic-player
 dcp-o-matic-playlist-editor
 deadbolt
 deeper
+deepseek-harness
 defold
 detectx-swift
 devkinsta

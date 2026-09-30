@@ -111,6 +111,7 @@ maczip
 mailmaster
 malus
 manus
+manus-cue
 marginnote
 markedit
 meituxiuxiu
