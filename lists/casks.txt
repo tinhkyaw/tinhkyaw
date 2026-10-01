@@ -639,7 +639,6 @@ muesli
 mujoco
 mullvad-browser
 multipatch
-muse
 muse-code
 museeks
 musescore
