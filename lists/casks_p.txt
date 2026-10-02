@@ -275,6 +275,7 @@ cryptomator
 crystaldiffract
 crystalmaker
 crystalviewer
+cuadriver
 curio
 cursorsense
 cursr

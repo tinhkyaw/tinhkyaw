@@ -672,12 +672,14 @@ voicemod
 void
 volta-app
 volume-control
+volumehud
 vuze
 warcraft-logs-uploader
 warsaw
 wasabi-wallet
 website-audit
 website-watchman
+wheelwizard
 widgettoggler
 windowkeys
 windows95

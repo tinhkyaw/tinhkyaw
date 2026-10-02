@@ -628,6 +628,7 @@ mkvtoolnix-app
 mmex
 monal
 monitorcontrol
+monolingual
 moonfin
 moonlight
 mountmate
@@ -648,6 +649,7 @@ mysql-shell
 mysqlworkbench
 mythic
 namechanger
+napari
 naps2
 nativ
 neat
@@ -865,6 +867,7 @@ rockxy
 roslynpad
 routine
 rsyncui
+ruffle
 runtimeviewer
 rustcast
 sabaki

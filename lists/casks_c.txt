@@ -78,11 +78,14 @@ futubull
 gamehub
 ghost-downloader
 goldenpassport
+hagimimonitordirect
 hapigo
 hbuilderx
 hostsx
 hyperconnect
 iconchanger
+ideashell
+ideashell-cn
 imgotv
 input0
 iplay
