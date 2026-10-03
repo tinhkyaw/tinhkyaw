@@ -1188,6 +1188,7 @@ rustrover
 saega
 safeincloud-password-manager
 saleae-logic
+sandisk
 sauce-connect
 scapple
 scene-maestro

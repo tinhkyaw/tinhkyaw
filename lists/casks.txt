@@ -50,6 +50,7 @@ arcbox
 archaeology
 archipelago
 arduino-ide
+argo-books
 arm-performix
 asciidocfx
 aside
