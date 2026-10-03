@@ -867,6 +867,7 @@ roaringapps
 rockxy
 roslynpad
 routine
+rowel
 rsyncui
 ruffle
 runtimeviewer
@@ -887,6 +888,7 @@ scroll-reverser
 scrub-utility
 sculptor
 sdformatter
+sdrmm-app
 seamly2d
 sensiblesidebuttons
 sentry-cli
