@@ -536,6 +536,7 @@ lm-studio-bionic
 local-studio
 locationsimulator
 lockrattler
+lody
 logseq
 logseq-og
 look
