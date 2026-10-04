@@ -612,6 +612,7 @@ support
 supportcompanion
 swift-quit
 swift-shift
+swiftcord
 swiftdialog
 swish
 tartelet

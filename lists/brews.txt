@@ -41,7 +41,6 @@ conda-zsh-completion
 container
 container-use
 cookiecutter
-coursier/formulas/coursier
 cpanminus
 cromwell
 csshx
