@@ -277,6 +277,7 @@ hfsleuth
 highball
 hightop
 holavpn
+holst
 hop
 hoptodesk
 hot
