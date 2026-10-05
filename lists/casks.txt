@@ -531,6 +531,7 @@ licecap
 licensed-app
 linear
 linearmouse
+littlebird
 livebook
 lm-studio-bionic
 local-studio
@@ -645,6 +646,7 @@ multipatch
 muse-code
 museeks
 musescore
+musicbrainz-picard
 muzzle
 mx-power-gadget
 mysql-shell

@@ -1527,6 +1527,7 @@ vysor
 wacom-tablet
 wakatime
 wallspace
+waltr-pro
 wavebox
 waveforms
 waves-central
