@@ -32,6 +32,7 @@ artisan
 as-timer
 atomic-wallet
 atv-remote
+ausweisapp
 autofirma
 autogram
 automattic-texts
@@ -596,6 +597,7 @@ stand
 starnet2
 startupfolder
 staruml
+stashcat
 status
 stay
 steamcmd

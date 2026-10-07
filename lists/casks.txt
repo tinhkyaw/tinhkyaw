@@ -107,6 +107,7 @@ breaktimer
 brewy
 brilliant
 browseros
+buildin
 bunch
 burn
 cables
@@ -301,6 +302,7 @@ flrig
 fluidvoice
 flutter
 flux-app
+fluxer
 flycut
 focu
 foks
@@ -587,6 +589,7 @@ massreplaceit
 mater
 mathcha-notebook
 mcpbundler
+mcplinker
 mdhero
 media-converter
 mediahuman-audio-converter
@@ -676,6 +679,7 @@ nimble-commander
 nimblenote
 nisus-thesaurus
 nodebox
+nodeterm
 nook
 nordvpn
 nosql-workbench
@@ -771,6 +775,7 @@ pgadmin4
 pgen
 phoenix-slides
 phosphene
+photocraft
 photosrevive
 photostickies
 physics-101
@@ -939,6 +944,7 @@ soapui
 socialstream
 sol
 solar2d
+solidtime
 solvespace
 sonarqube-cli
 sonic-pi
@@ -976,6 +982,7 @@ stremio
 stringz
 subethaedit
 subler
+subsurface
 subtitle-edit
 supacode
 supaterm

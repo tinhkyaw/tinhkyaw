@@ -100,6 +100,7 @@ audiogridder-server
 audiorelay
 audirvana
 audius
+auto-tune-central
 autodesk-fusion
 automounterhelper
 avast-security
@@ -449,11 +450,13 @@ fing
 firezone
 fission
 fixkey
+fl-studio
 flexoptix
 flic
 flick
 flickr-uploadr
 flixtools
+flock-app
 flox
 flutterflow
 flyenv
