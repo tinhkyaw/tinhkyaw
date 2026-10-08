@@ -1,4 +1,5 @@
 0-ad
+activitywatch
 actual
 adobe-acrobat-reader
 adobe-dng-converter
@@ -1040,6 +1041,7 @@ thinkorswim
 thonny
 thorium
 thoughtdag
+threat-dragon
 thumbhost3mf
 thunderbird
 tiger-trade
@@ -1164,6 +1166,7 @@ youtube-to-mp3
 yt-music
 zappy
 zed
+zed-delta
 zen
 zentty
 zettlr

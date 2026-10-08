@@ -108,6 +108,7 @@ avbeam
 avg-antivirus
 aviatrix-vpn-client
 avtouchbar
+azure-cli
 babeledit
 backblaze
 backblaze-downloader
