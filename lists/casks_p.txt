@@ -271,6 +271,7 @@ couchbase-server-enterprise
 crashplan
 creality-print
 creative
+crest
 crossover
 crushftp
 cryptomator
@@ -1213,6 +1214,7 @@ sdm
 seadrive
 seafile-client
 seam-app
+secure-pipes
 securityspy
 seekfast
 segger-embedded-studio
@@ -1279,6 +1281,7 @@ snippety
 softraid
 softube-central
 songkong
+sononym
 sonos
 sony-ps-remote-play
 soothe2

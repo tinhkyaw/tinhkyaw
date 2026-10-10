@@ -53,6 +53,7 @@ archipelago
 arduino-ide
 argo-books
 arm-performix
+artcraft
 asciidocfx
 aside
 asset-catalog-tinkerer
@@ -113,6 +114,7 @@ bunch
 burn
 cables
 cad-assistant
+cadcraft
 caffeine
 calcservice
 calendr
@@ -225,9 +227,11 @@ dcp-o-matic-kdm-creator
 dcp-o-matic-player
 dcp-o-matic-playlist-editor
 deadbolt
+deckcraft
 deeper
 deepseek-harness
 defold
+designcraft
 detectx-swift
 devkinsta
 devpod
@@ -265,6 +269,7 @@ ebmac
 eclipse-platform
 eez-studio
 effect-house
+effectcraft
 elan
 elasticvue
 electerm
@@ -290,6 +295,7 @@ fidelity-trader+
 figma
 fiji
 filemonitor
+filmcraft
 finch
 firealpaca
 firefox
@@ -343,6 +349,7 @@ geany
 geburtstagschecker
 geektool
 general-software-fresh
+genoffice
 geoda
 geolibre
 geomap
@@ -392,6 +399,7 @@ grandperspective
 greenfoot
 greensignal
 gretl
+gridcraft
 gridtracker2
 grok-bot
 gyroflow
@@ -532,6 +540,7 @@ librepcb
 librewolf
 licecap
 licensed-app
+lightcraft
 linear
 linearmouse
 littlebird
@@ -766,6 +775,7 @@ paraview
 parsify
 paseo
 pd
+pdfcraft
 pdfsam-basic
 pearcleaner
 pencil2d
@@ -953,6 +963,7 @@ sonic-visualiser
 sonobus
 soqlxplorer
 soulver-cli
+soundcraft
 sourcetree
 space-rabbit
 spacedrive
@@ -1098,6 +1109,7 @@ valhalla-supermassive
 valkey-admin
 vapor-app
 vcv-rack
+vectorcraft
 versatility
 vibe-notch
 vibeproxy
@@ -1143,6 +1155,7 @@ wireshark-app
 witsy
 wljs-notebook
 wolfram-engine
+wordcraft
 wordpresscom
 wordservice
 wowup-cf
