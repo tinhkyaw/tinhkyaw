@@ -59,6 +59,7 @@ beid-viewer
 bettershot
 bifrost
 billy-frontier
+bing-wallpaper
 bitbox
 blackhole-16ch
 blackhole-2ch

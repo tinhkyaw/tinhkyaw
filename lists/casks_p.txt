@@ -129,6 +129,7 @@ beersmith
 bentobox
 berrycast
 bespoke
+betteraudio
 betterdisplay
 bettermacwidgets
 bettermouse
@@ -1425,6 +1426,7 @@ tiny-shield
 tinymediamanager
 tldraw
 tm-error-logger
+tnas-pc
 to-audio-converter
 todoist-app
 tone3000

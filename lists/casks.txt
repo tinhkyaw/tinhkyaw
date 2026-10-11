@@ -86,7 +86,6 @@ beutl
 bibdesk
 biglybt
 bindiff
-bing-wallpaper
 birdfont
 biscuit
 bit-slicer
@@ -155,6 +154,7 @@ claude
 claude-code
 claude-devtools
 claude-status-bar
+claudoscope
 cleanmymac-cli
 clearance
 clibor
@@ -514,7 +514,6 @@ kirocrew
 kitlangton-hex
 kiwix
 kkterm
-klayout
 knockknock
 kodi
 koe
@@ -585,7 +584,6 @@ mactracker
 maestral
 maestri
 maestro
-magicavoxel
 magicquit
 maintenance
 mangodisk
@@ -1028,7 +1026,6 @@ tangleguard-cli
 tapmap
 taskexplorer
 tastytrade
-tau
 telegram
 temurin
 temurin@11
