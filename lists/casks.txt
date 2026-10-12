@@ -12,7 +12,6 @@ agentiloop-agent
 agentsview
 airstats
 airtable
-aladin
 alfred
 algoapp
 algodoo
@@ -200,6 +199,7 @@ cpu-info
 cpuinfo
 craft
 craft-agents
+crest-browser
 crisp
 cursor
 cursor-cli
@@ -324,6 +324,7 @@ fontra-pak
 fontsmoothingadjuster
 foobar2000
 forecast
+forel
 freac
 free-download-manager
 free-podcast-transcription
@@ -388,7 +389,6 @@ google-chrome
 google-drive
 google-earth-pro
 google-gemini
-google-trends
 goxel
 gpgfrontend
 gplates
@@ -450,7 +450,6 @@ invisor-lite
 ipaverse
 ipsecuritas
 iptvnator
-isabelle
 ishare
 itch
 iterm2
@@ -680,6 +679,7 @@ netlogo
 netnewswire
 netron
 network-weather
+nextdns-app
 nheko
 nightshade
 nimbalyst
@@ -829,6 +829,7 @@ publii
 publish-or-perish
 pulsar
 puremac
+purge
 pycharm-oss
 pyzo
 qcad
@@ -867,7 +868,6 @@ reikey
 relay
 remoteviewer
 renameclick
-renpy
 repetier-host
 replit
 responsively
@@ -891,6 +891,7 @@ runtimeviewer
 rustcast
 sabaki
 sabnzbd
+sacnview
 sage
 satdump
 satyrn

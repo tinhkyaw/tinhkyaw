@@ -797,7 +797,6 @@ middle
 milanote
 miln-movie-splitter
 mimestream
-mindjet-mindmanager
 mindmac
 mindmanager
 minecraft-server
