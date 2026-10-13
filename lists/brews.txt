@@ -60,6 +60,7 @@ duti
 dvc
 eksctl
 elixir
+emacs
 entr
 eza
 fabric
