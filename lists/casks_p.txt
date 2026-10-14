@@ -285,6 +285,7 @@ cursorsense
 cursr
 cyberghost-vpn
 cycling74-max
+cyd
 dana-dex
 dante-controller
 dante-via

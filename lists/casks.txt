@@ -680,6 +680,7 @@ netnewswire
 netron
 network-weather
 nextdns-app
+nextpad++
 nheko
 nightshade
 nimbalyst
