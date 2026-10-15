@@ -86,6 +86,7 @@ bibdesk
 biglybt
 bindiff
 birdfont
+biscotti
 biscuit
 bit-slicer
 bitcoin-core
@@ -123,6 +124,7 @@ canario
 canva
 capacities
 capcut
+capso
 capsomnia
 captain
 cardinal
@@ -292,6 +294,7 @@ fbreader
 fedistar
 feedflow
 fidelity-trader+
+figcraft
 figma
 fiji
 filemonitor
@@ -829,6 +832,7 @@ psysonic
 publii
 publish-or-perish
 pulsar
+pulse
 puremac
 purge
 pycharm-oss
@@ -1062,6 +1066,7 @@ tiled
 timemachineeditor
 timemachinestatus
 timescribe
+tine
 tiny-player
 todometer
 tofu
@@ -1109,6 +1114,7 @@ valkey-admin
 vapor-app
 vcv-rack
 vectorcraft
+vercel
 versatility
 vibe-notch
 vibeproxy

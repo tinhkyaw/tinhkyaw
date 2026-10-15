@@ -664,6 +664,7 @@ vamiga
 vcmi
 veracrypt
 veracrypt-fuse-t
+vercel
 vero
 vesktop
 viable
