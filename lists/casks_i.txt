@@ -621,6 +621,7 @@ swift-shift
 swiftcord
 swiftdialog
 swish
+switchbar
 tartelet
 telegram-a
 telegram-desktop
@@ -665,6 +666,7 @@ vcmi
 veracrypt
 veracrypt-fuse-t
 vercel
+vernier-instrumental-analysis
 vero
 vesktop
 viable

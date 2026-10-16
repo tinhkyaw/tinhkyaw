@@ -29,6 +29,7 @@ adobe-acrobat-pro
 adobe-air
 adobe-connect
 adobe-creative-cloud
+adobe-creative-cloud-cleaner-tool
 advanced-renamer
 affine
 after-dark-classic
@@ -909,6 +910,7 @@ notebooks
 notepadexe
 notes-better
 notesnook
+notomo
 noun-project
 nova
 novabench
@@ -1340,6 +1342,7 @@ sunsama
 supasidebar
 superduper
 superhuman
+superhuman-docs
 superkey
 superlist
 supernotes

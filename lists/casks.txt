@@ -782,6 +782,7 @@ pdfsam-basic
 pearcleaner
 pencil2d
 perplexity
+petal
 petdex
 petrichor
 pgadmin4
