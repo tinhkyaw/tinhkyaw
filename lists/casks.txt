@@ -813,6 +813,7 @@ podman-desktop
 podolski
 pomatez
 portfolioperformance
+portkiller
 portx
 positron
 post-haste
@@ -1030,6 +1031,7 @@ tad
 tagspaces
 talon
 tangleguard-cli
+taperlabs-shadow
 tapmap
 taskexplorer
 tastytrade

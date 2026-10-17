@@ -226,6 +226,7 @@ cisco-jabber
 cisdem-data-recovery
 cisdem-document-reader
 cisdem-duplicate-finder
+cisdem-pdf-converter-ocr
 citrix-workspace
 clamxav
 cleanclip
@@ -905,7 +906,6 @@ nordpass
 northern-softworks-cache-cleaner
 nosqlbooster-for-mongodb
 nota
-notchnook
 notebooks
 notepadexe
 notes-better
@@ -1372,6 +1372,7 @@ tableau-reader
 tableflip
 tablen
 tabtab
+tag-app
 tageditor
 tailscale-app
 tal-drum

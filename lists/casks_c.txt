@@ -43,6 +43,7 @@ claudebar
 clawd-on-desk
 cleanmymac
 cleanmymac-zh
+cleeen
 cloudnet
 codebuddy
 codebuddy-cn
