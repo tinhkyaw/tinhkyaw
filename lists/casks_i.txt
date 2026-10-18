@@ -326,6 +326,7 @@ keyguard
 keymapp
 keypad-layout
 kindle-previewer
+kitlangton-hex
 kitty
 kkbox
 komet

@@ -53,6 +53,7 @@ arduino-ide
 argo-books
 arm-performix
 artcraft
+artcraft-launcher
 asciidocfx
 aside
 asset-catalog-tinkerer
@@ -513,7 +514,6 @@ kicad
 kid3
 kindle-comic-converter
 kirocrew
-kitlangton-hex
 kiwix
 kkterm
 knockknock
@@ -738,6 +738,7 @@ opencomic
 opencpn
 opendisk
 opendisplay
+opendisplay-receiver
 openframeworks
 openpencil
 openplc-editor
@@ -1093,6 +1094,7 @@ truetree
 tungsten-edge
 tunnelblick
 turbovnc-viewer
+tutti
 twine-app
 typewhisper
 ubersicht
