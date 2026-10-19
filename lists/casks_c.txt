@@ -162,6 +162,7 @@ sodamusic
 sourcegit
 squirrel-app
 start
+status-trio
 sunlogincontrol
 swama
 switchhosts
