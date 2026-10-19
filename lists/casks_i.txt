@@ -115,7 +115,6 @@ code-composer-studio
 colour-contrast-analyser
 companion
 companion-satellite
-conar
 console
 consul
 copilot-for-xcode

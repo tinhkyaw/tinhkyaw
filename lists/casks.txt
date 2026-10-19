@@ -883,6 +883,7 @@ restic-browser
 retrace
 revisionist
 revpdf-editor
+rew
 ricochet-refresh
 rio
 ripme
@@ -1031,6 +1032,7 @@ taccy
 tad
 tagspaces
 talon
+tamery
 tangleguard-cli
 taperlabs-shadow
 tapmap
@@ -1048,6 +1050,7 @@ texshop
 textgrabber2
 textmate
 textream
+textus
 thaw
 the-unarchiver
 thebrowsercompany-dia
