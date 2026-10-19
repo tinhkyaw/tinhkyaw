@@ -38,22 +38,23 @@
 #   <repo>/lists/codes.txt   — VS Code extensions (minus transitive deps)
 #
 # Cask de-duplication:
-#   After filter-casks.zsh produces lists/casks.csv, casks that share a
-#   homepage are examined. When Homebrew renames a cask, the old and new
-#   tokens can both end up installed locally. Any group whose members
-#   resolve (via `brew info`) to the same current token is a duplicate:
-#   every member is uninstalled and the current token is reinstalled once.
-#   The cask lists are then regenerated. Casks that merely share a
-#   homepage but are distinct products (e.g. free42-binary/-decimal)
-#   resolve to different tokens and are left untouched.
+#   When Homebrew renames a cask, the old and new tokens can both end up
+#   installed locally. Each installed token (from lists/casks.txt) is
+#   resolved to its current token; tokens that resolve to the same one are
+#   duplicates: every member is uninstalled and the current token is
+#   reinstalled once. The cask lists are then regenerated. Distinct
+#   products (e.g. free42-binary/-decimal) resolve to different tokens and
+#   are left untouched. Tokens are resolved from the list files themselves
+#   (not the generated CSVs, which only carry current tokens and so lose
+#   the obsolete name).
 #
 # Cask list de-duplication:
 #   The hand-maintained lists/casks_*.txt files can hold the same cask twice
 #   — under an old and a new token, or repeated — within one list or across
-#   lists. Duplicates are detected in the generated casks_*.csv reports the
-#   same way as above; one entry per cask is kept (preferring the current
-#   token), the rest are removed from the .txt files, and the CSVs are
-#   regenerated. Nothing is installed or uninstalled at this stage.
+#   lists. Duplicates are detected the same way as above; one entry per
+#   cask is kept (preferring the current token), the rest are removed from
+#   the .txt files, and the cask lists are regenerated. Nothing is
+#   installed or uninstalled at this stage.
 #
 # Bad-cask sweep:
 #   Last of all, every cask the catalogue marks disabled, deprecated or
@@ -184,70 +185,51 @@ canonical_cask() {
     print -r -- "${resolved}"
 }
 
-# Print cask entries (one space-separated group per line) that share a
-# non-empty homepage across the given CSVs. Each entry is <csv basename>:
-# <token>. These are only *candidates*: distinct products from one vendor
-# share homepages too.
+# Print each set of list entries that resolve to the same current token,
+# one per line, as: <current token> <list>:<token> <list>:<token> ...
+# Entries keep the token exactly as written in the list (so an obsolete
+# token is reported as such, not as its replacement); <list> is the file's
+# basename. Distinct products resolve to different tokens and are never
+# reported. Blank and comment lines are ignored.
 #
 # Arguments:
-#   1+  csv — files with a header row and quoted "Name","Homepage" rows
-homepage_groups() {
-    awk -F'","' '
-        FNR > 1 {
-            name = $1; sub(/^"/, "", name)
-            home = $2; sub(/"$/, "", home)
-            if (home == "") next
-            file = FILENAME; sub(/.*\//, "", file)
-            members[home] = members[home] " " file ":" name
-            count[home]++
-        }
-        END {
-            for (h in count)
-                if (count[h] > 1) print substr(members[h], 2)
-        }
-    ' "$@"
-}
-
-# Print each set of entries that resolve to the same current token, one
-# per line, as: <current token> <csv>:<token> <csv>:<token> ...
-# Distinct products sharing a homepage resolve to different tokens and are
-# not reported.
-#
-# Arguments:
-#   1+  csv — files with a header row and quoted "Name","Homepage" rows
+#   1+  list — files with one cask token per line
 find_duplicate_casks() {
-    local group entry canon
-    local -a entries
+    local file line canon
     local -A seen
 
     # Load once here: canonical_cask runs in a subshell, so a lazy load
     # there would be repeated (and lost) on every call.
     load_cask_catalogue
-    while IFS= read -r group; do
-        seen=()
-        for entry in ${=group}; do
-            canon=$(canonical_cask "${entry#*:}")
+    for file in "$@"; do
+        while IFS= read -r line || [[ -n "${line}" ]]; do
+            [[ -z "${line}" || "${line}" == \#* ]] && continue
+            if (( ${+CASK_CANONICAL[${line}]} )); then
+                canon="${CASK_CANONICAL[${line}]}"
+            else
+                canon=$(canonical_cask "${line}")
+            fi
             if [[ -z "${canon}" ]]; then
-                echo "Warning: cannot resolve cask '${entry#*:}';" \
-                     "skipping" >&2
+                echo "Warning: cannot resolve cask '${line}'; skipping" >&2
                 continue
             fi
-            seen[${canon}]+="${entry} "
-        done
-        for canon in "${(@k)seen}"; do
-            entries=( ${=seen[${canon}]} )
-            if (( ${#entries} > 1 )); then
-                print -r -- "${canon} ${entries[*]}"
-            fi
-        done
-    done < <(homepage_groups "$@")
+            seen[${canon}]+="${file:t}:${line} "
+        done <"${file}"
+    done
+    for canon in "${(@k)seen}"; do
+        # More than one entry (word) means a duplicate.
+        if (( ${#${=seen[${canon}]}} > 1 )); then
+            print -r -- "${canon} ${seen[${canon}]}"
+        fi
+    done
+    return 0
 }
 
 # Detect renamed casks installed under more than one token and reinstall
 # each of them once.
 #
 # Arguments:
-#   1  csv — casks.csv produced by filter-casks.zsh
+#   1  list — casks.txt (the installed casks, one token per line)
 # Returns:
 #   0 if any duplicate was found (lists should be regenerated), 1 if not.
 dedupe_casks() {
@@ -309,22 +291,22 @@ rewrite_cask_list() {
 }
 
 # Remove duplicate casks within and across the manually maintained
-# casks_*.txt lists, as detected in their generated casks_*.csv reports.
+# casks_*.txt lists, as detected by resolving each listed token.
 # Of each duplicate set, one entry survives: preferably one already using
 # the current token (else the first, renamed to the current token); the
 # rest are removed. Nothing is installed or uninstalled.
 #
 # Arguments:
-#   1  list_dir — directory holding casks_*.csv and casks_*.txt
+#   1  list_dir — directory holding the casks_*.txt lists
 # Returns:
 #   0 if any duplicate was found (CSVs should be regenerated), 1 if not.
 dedupe_cask_lists() {
     local -r list_dir="$1"
     local line canon entry file token keeper found=1
-    local -a csvs entries
+    local -a txts entries
     local -A drops renames touched
-    csvs=( "${list_dir}"/casks_*.csv(N) )
-    (( ${#csvs} > 0 )) || return 1
+    txts=( "${list_dir}"/casks_*.txt(N) )
+    (( ${#txts} > 0 )) || return 1
 
     while IFS= read -r line; do
         found=0
@@ -353,11 +335,11 @@ dedupe_cask_lists() {
         if [[ "${token}" != "${canon}" ]]; then
             renames[${file}]+="${token}=${canon} "
         fi
-    done < <(find_duplicate_casks "${csvs[@]}")
+    done < <(find_duplicate_casks "${txts[@]}")
 
     if [[ -z "${DRY_RUN:-}" ]]; then
         for file in "${(@k)touched}"; do
-            rewrite_cask_list "${list_dir}/${file:r}.txt" \
+            rewrite_cask_list "${list_dir}/${file}" \
                 "${drops[${file}]:-}" "${renames[${file}]:-}"
         done
     fi
@@ -649,7 +631,7 @@ refresh_cask_lists
 #    installed) and dropped from the lists. This runs last so that it also
 #    cleans up after a de-duplication that reinstalled such a cask.
 cask_changes=0
-dedupe_casks "${LIST_DIR}/casks.csv" && cask_changes=1
+dedupe_casks "${LIST_DIR}/casks.txt" && cask_changes=1
 dedupe_cask_lists "${LIST_DIR}" && cask_changes=1
 sweep_bad_casks && cask_changes=1
 if (( cask_changes )) && [[ -z "${DRY_RUN:-}" ]]; then
