@@ -781,7 +781,6 @@ pd
 pdfcraft
 pdfsam-basic
 pearcleaner
-pencil2d
 perplexity
 petal
 petdex

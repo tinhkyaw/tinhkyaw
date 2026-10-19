@@ -13,13 +13,11 @@ ableton-live-intro
 ableton-live-lite
 ableton-live-standard
 ableton-live-suite
-abstract
 abyssoft-teleport
 ace-studio
 acorn
 acreom
 acronis-true-image
-acronis-true-image-cleanup-tool
 activedock
 actual-odbc-pack
 adguard
@@ -32,7 +30,6 @@ adobe-creative-cloud
 adobe-creative-cloud-cleaner-tool
 advanced-renamer
 affine
-after-dark-classic
 agentkube
 agentsmesh
 airbuddy
@@ -96,8 +93,6 @@ audio-hijack
 audio-modeling-software-center
 audiobook-builder
 audiocupcake
-audiogridder-plugin
-audiogridder-server
 audiorelay
 audirvana
 audius
@@ -169,7 +164,6 @@ boosteroid
 bootstrap-studio
 boss
 box-drive
-box-tools
 boxy-suite
 brainfm
 brave-origin
@@ -187,7 +181,6 @@ busycontacts
 butler
 cacher
 cadran
-cahier
 caido
 caldigit-docking-utility
 caldigit-usb-hub-support-driver
@@ -208,7 +201,6 @@ cardhop
 cashnotify
 castr
 ccleaner
-celestialteapot-runway
 charles
 chatwise
 chatwork
@@ -298,7 +290,6 @@ datadog-security-cli
 dataflare
 datagraph
 datagrip
-dataspell
 dbeaver-enterprise
 dbeaverlite
 dbeaverteam
@@ -345,7 +336,6 @@ dnclient
 dockdoor-pro
 dockspace
 dockx
-doppler-app
 dorico
 dot
 dotnet-reactor
@@ -492,7 +482,6 @@ freeyourmusic
 fresh
 front
 fsmonitor
-ftdi-vcp-driver
 fxfactory
 gamemaker
 gamma-control
@@ -537,7 +526,6 @@ green-go-control
 grid
 grok-build
 groove-omnidialer
-guitar-pro
 gyazmail
 gyazo
 hackolade
@@ -546,7 +534,6 @@ hamrs-pro
 harvest
 hazel
 hazeover
-hdhomerun
 headroom
 headset
 hedy
@@ -570,7 +557,6 @@ houdahspot
 hp-easy-admin
 hp-easy-start
 hubstaff
-huly
 hummingbird
 hy-rpe2
 hype
@@ -629,7 +615,6 @@ jaikoz
 jamie
 jandi
 jetbrains-gateway
-jetbrains-space
 jetbrains-toolbox
 jetdrive-toolbox
 jettison
@@ -693,7 +678,6 @@ linqpad
 liquibase-secure
 little-snitch
 live-home-3d
-lo-rain
 localcan
 localxpose
 locu
@@ -883,15 +867,12 @@ navigraph-simlink
 ndi-tools
 neofinder
 nessus
-netdownloadhelpercoapp
 nethlink
 netspot
 netviews
 network-radar
-netxms-console
 nextcloud
 nextcloud-talk
-nextcloud-vfs
 ngrok
 nifty
 nifty-file-lists
@@ -915,7 +896,6 @@ noun-project
 nova
 novabench
 novation-components
-novation-play
 nozbe
 nrf-connect
 nrfutil
@@ -983,7 +963,6 @@ paragon-camptune
 paragon-extfs
 parallels
 parallels-client
-parallels-virtualization-sdk
 paranoia-file-text-encryption
 pareto-security
 parsec
@@ -994,7 +973,6 @@ pastenow
 path-finder
 paulxstretch
 pcoipclient
-pdf-converter-master
 pdf-expert
 pdf-pals
 pdf-reader-pro
@@ -1024,7 +1002,6 @@ pingplotter
 pinwheel
 pitch
 pixelsnap
-pktriot
 plamo-translate
 plasticity
 platinum-notes
@@ -1100,7 +1077,6 @@ qobuz-downloader
 qt-creator
 qt-design-studio
 quakenotch
-quakespasm
 querious
 quickbooks
 quicken
@@ -1125,10 +1101,8 @@ readdle-spark
 reader
 readwise-ibooks
 readyapi
-realforce
 realvnc-connect
 reaper
-receipts
 receipts-space
 rectangle-pro
 recut
@@ -1197,7 +1171,6 @@ runjs
 rustdesk
 rustrover
 saega
-safeincloud-password-manager
 saleae-logic
 sandisk
 sauce-connect
@@ -1272,7 +1245,6 @@ slite
 smallstepagent
 smart-converter-pro
 smartgit
-smartsheet
 smartsvn
 smartsynchronize
 smoothcapture
@@ -1310,7 +1282,6 @@ splashtop-streamer
 splice
 spline
 spotify
-spotify4bigsur
 sqleditor
 sqlitemanager
 sqlpro-for-mssql
@@ -1370,7 +1341,6 @@ tableau-prep
 tableau-public
 tableau-reader
 tableflip
-tablen
 tabtab
 tag-app
 tageditor
@@ -1393,7 +1363,6 @@ teamviewer-host
 teamviewer-quickjoin
 teamviewer-quicksupport
 teamviewermeeting
-techsmith-capture
 teleport-connect
 teleport-suite
 tella
@@ -1484,7 +1453,6 @@ unified-remote
 uniflash
 unite
 unity
-unity-android-support-for-editor
 unity-hub
 unity-ios-support-for-editor
 unity-webgl-support-for-editor

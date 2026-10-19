@@ -3,7 +3,6 @@
 5kplayer
 adrive
 agent-tars
-aifun
 aigcpanel
 aionui
 aliworkbench
@@ -63,7 +62,6 @@ elegoo-slicer
 eudic
 excalidrawz
 feishu
-finalshell
 flowdown
 fluent-reader
 flykey
@@ -78,11 +76,9 @@ frhelper
 futubull
 gamehub
 ghost-downloader
-goldenpassport
 hagimimonitordirect
 hapigo
 hbuilderx
-hostsx
 hyperconnect
 iconchanger
 ideashell
@@ -90,7 +86,6 @@ ideashell-cn
 imgotv
 input0
 iplay
-isimulator
 itraffic
 izip
 jyutping
@@ -109,7 +104,6 @@ lobehub
 loginputmac
 lookin
 lunarbar
-macstroke
 mactools
 maczip
 mailmaster
@@ -119,7 +113,6 @@ manus-cue
 marginnote
 markedit
 meituxiuxiu
-mfiles
 miaoyan
 mini-program-studio
 mochi-diffusion
@@ -157,7 +150,6 @@ qqnews
 qspace-pro
 quarkclouddrive
 readmoreading
-redis-pro
 sakura
 shell360
 shimonote
@@ -170,11 +162,9 @@ sodamusic
 sourcegit
 squirrel-app
 start
-steam-plus-plus
 sunlogincontrol
 swama
 switchhosts
-switchkey
 taobao
 taphouse
 tauritavern

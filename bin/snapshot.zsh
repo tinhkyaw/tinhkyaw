@@ -55,6 +55,13 @@
 #   token), the rest are removed from the .txt files, and the CSVs are
 #   regenerated. Nothing is installed or uninstalled at this stage.
 #
+# Bad-cask sweep:
+#   Last of all, every cask the catalogue marks disabled, deprecated or
+#   Rosetta-required (obsolete tokens included) is purged. Those that are
+#   installed are uninstalled first; only then are they dropped from the
+#   casks_*.txt lists, and the cask lists are regenerated. A cask whose
+#   uninstall fails stays listed so the next run retries it.
+#
 # Dependencies:
 #   brew, mas, gem, npm, uv, conda, gcloud, cpan, jq, gsed, git, greadlink,
 #   filter-casks.zsh (bundled)
@@ -63,7 +70,7 @@
 #   HOMEBREW_PREFIX   Set by Homebrew (required for Conda path resolution)
 #   SNAPSHOT_DIR      Override snapshot output directory
 #                     (default: ~/Dropbox/Shared/Snapshots)
-#   DRY_RUN           If non-empty, report duplicate casks without
+#   DRY_RUN           If non-empty, report duplicate and bad casks without
 #                     changing anything (no uninstall, reinstall or list
 #                     edits).
 # =============================================================================
@@ -357,6 +364,91 @@ dedupe_cask_lists() {
     return ${found}
 }
 
+# Print every token (current and obsolete) of casks that Homebrew has
+# disabled or deprecated, or that need Rosetta, as: <token><TAB><reason>.
+# Reads the catalogue that filter-casks.zsh keeps in lists/.casks/casks.json.
+# Obsolete tokens are included because the lists may still hold them.
+#
+# Output:
+#   Nothing if the catalogue is missing.
+bad_cask_tokens() {
+    local -r catalogue="${LIST_DIR}/.casks/casks.json"
+    [[ -r "${catalogue}" ]] || return 0
+    jq -r '.[]
+           | (if .disabled == true then "disabled"
+              elif .deprecated == true then "deprecated"
+              elif .caveats_rosetta == true then "rosetta-required"
+              else empty end) as $reason
+           | (.token, .old_tokens[]?) | "\(.)\t\($reason)"' "${catalogue}"
+}
+
+# Remove disabled, deprecated and Rosetta-required casks from every cask
+# list. Any of them that is installed is uninstalled first; the lists are
+# edited only afterwards, and tokens whose uninstall failed stay listed so
+# a later run retries them. Honors DRY_RUN (report only).
+#
+# Returns:
+#   0 if anything was found (lists should be regenerated), 1 if not.
+sweep_bad_casks() {
+    local token reason file drops found=1
+    local -a lists installed
+    local -A bad installed_set stale failed
+
+    while IFS=$'\t' read -r token reason; do
+        bad[${token}]="${reason}"
+    done < <(bad_cask_tokens)
+    (( ${#bad} > 0 )) || return 1
+
+    # casks.txt mirrors the installed casks and is regenerated afterwards.
+    lists=( "${LIST_DIR}"/casks.txt "${LIST_DIR}"/casks_*.txt(N) )
+    installed=( ${(f)"$(brew list --cask -1)"} )
+    for token in "${installed[@]}"; do installed_set[${token}]=1; done
+
+    # Tokens to purge, keyed by the list that holds them.
+    for file in "${lists[@]}"; do
+        while IFS= read -r token || [[ -n "${token}" ]]; do
+            [[ -z "${token}" || "${token}" == \#* ]] && continue
+            (( ${+bad[${token}]} )) && stale[${file}]+="${token} "
+        done <"${file}"
+    done
+
+    # Uninstall first: installed casks that are bad, listed or not.
+    for token in "${installed[@]}"; do
+        (( ${+bad[${token}]} )) || continue
+        found=0
+        print -P "%F{yellow}Bad cask (${bad[${token}]}):%f ${token}" \
+            "(installed)"
+        [[ -n "${DRY_RUN:-}" ]] && continue
+        brew uninstall --cask --force "${token}" || {
+            echo "Warning: failed to uninstall '${token}'" >&2
+            failed[${token}]=1
+        }
+    done
+
+    for file in "${(@k)stale}"; do
+        for token in ${=stale[${file}]}; do
+            found=0
+            (( ${+installed_set[${token}]} )) && continue
+            print -P "%F{yellow}Bad cask (${bad[${token}]}):%f ${token}" \
+                "(listed in ${file:t})"
+        done
+    done
+
+    if [[ -z "${DRY_RUN:-}" ]]; then
+        for file in "${(@k)stale}"; do
+            # Keep tokens that could not be uninstalled.
+            drops=""
+            for token in ${=stale[${file}]}; do
+                (( ${+failed[${token}]} )) || drops+="${token} "
+            done
+            # casks.txt is regenerated from the installed casks instead.
+            [[ "${file:t}" == casks.txt ]] && continue
+            rewrite_cask_list "${file}" "${drops}" ""
+        done
+    fi
+    return ${found}
+}
+
 # ---------------------------------------------------------------------------
 # Argument validation
 # ---------------------------------------------------------------------------
@@ -546,15 +638,20 @@ cpan -l >"${SNAPSHOT_DIR}/cpan${SUFFIX}.txt"
 
 refresh_cask_lists
 
-# Both checks read the reports just generated and are independent of each
-# other, so run both and regenerate once if either changed anything.
+# The three checks below all work from the reports just generated (and the
+# live brew state), so run them all and regenerate once if any changed
+# anything.
 #
 #  - Renamed casks can leave the old and new tokens both installed.
 #  - The casks_*.txt lists are maintained by hand, so the same cask may be
 #    listed twice (under an old and a new token), within or across lists.
+#  - Disabled, deprecated and Rosetta-required casks are uninstalled (if
+#    installed) and dropped from the lists. This runs last so that it also
+#    cleans up after a de-duplication that reinstalled such a cask.
 cask_changes=0
 dedupe_casks "${LIST_DIR}/casks.csv" && cask_changes=1
 dedupe_cask_lists "${LIST_DIR}" && cask_changes=1
+sweep_bad_casks && cask_changes=1
 if (( cask_changes )) && [[ -z "${DRY_RUN:-}" ]]; then
   refresh_cask_lists
 fi
