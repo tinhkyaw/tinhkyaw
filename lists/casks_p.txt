@@ -670,6 +670,7 @@ lexicon-dj
 lg-onscreen-control
 libndi
 liclipse
+lightburn
 lightkey
 linear-linear
 lingon-x
