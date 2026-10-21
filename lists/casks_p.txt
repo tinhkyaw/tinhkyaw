@@ -1265,6 +1265,7 @@ soothe2
 soulver
 sound-control
 sound-siphon
+sound-studio
 soundanchor
 soundsource
 soundtoys
@@ -1584,4 +1585,3 @@ zulu
 zulufx
 zush
 zwift
-sound-studio
