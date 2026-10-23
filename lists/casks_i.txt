@@ -20,7 +20,6 @@ anybar
 app-buddy
 appbox
 apple-hewlett-packard-printer-drivers
-arc
 ares-emulator
 arm-performance-libraries
 artisan
