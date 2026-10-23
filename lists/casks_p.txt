@@ -121,6 +121,7 @@ batteries
 bazecor
 bbedit
 beamer
+beatunes
 beersmith
 bentobox
 berrycast
