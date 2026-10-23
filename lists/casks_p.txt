@@ -220,6 +220,7 @@ cisdem-document-reader
 cisdem-duplicate-finder
 cisdem-pdf-converter-ocr
 citrix-workspace
+clamshell
 clamxav
 cleanclip
 cleaneronepro
@@ -1284,6 +1285,7 @@ splashtop-streamer
 splice
 spline
 spotify
+sprites
 sqleditor
 sqlitemanager
 sqlpro-for-mssql
