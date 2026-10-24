@@ -737,7 +737,6 @@ marsedit
 marvel
 marvin
 master-pdf-editor
-mate-translate
 mathpix-snipping-tool
 mattermost
 maxon

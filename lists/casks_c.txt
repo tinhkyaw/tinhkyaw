@@ -90,6 +90,7 @@ itraffic
 izip
 jyutping
 karing
+kero
 keymanager
 kimi
 kimis

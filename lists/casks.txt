@@ -10,6 +10,7 @@ affinity
 agentide
 agentiloop-agent
 agentsview
+airbuild
 airstats
 airtable
 alfred
@@ -782,6 +783,7 @@ pd
 pdfcraft
 pdfsam-basic
 pearcleaner
+pen
 perplexity
 petal
 petdex
