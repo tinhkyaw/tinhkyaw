@@ -997,6 +997,7 @@ ssdreporter-free
 stability-matrix
 standard-notes
 stats
+steam
 stellarium
 storyboarder
 stratoshark
