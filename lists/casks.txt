@@ -589,6 +589,7 @@ maestral
 maestri
 maestro
 magicquit
+magpie
 maintenance
 mangodisk
 markdown-preview
@@ -1151,6 +1152,7 @@ warp
 warp-agent-cli
 waterfox
 wave
+wblock
 wealthfolio
 weasis
 webull
