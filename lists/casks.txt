@@ -246,6 +246,7 @@ diagnostics
 diffusionbee
 digital
 dintch
+diri
 discord
 diskboard
 distill-web-monitor
@@ -784,6 +785,7 @@ pd
 pdfcraft
 pdfsam-basic
 pearcleaner
+peel
 pen
 perplexity
 petal

@@ -294,6 +294,7 @@ keyboard-cleaner
 keyboard-cowboy
 keyboard-maestro
 keyboardcleantool
+keyboop
 keyguard
 keymapp
 keypad-layout
