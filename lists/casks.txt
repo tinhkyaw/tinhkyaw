@@ -160,6 +160,7 @@ claude-status-bar
 claudoscope
 cleanmymac-cli
 clearance
+clementine
 clibor
 clickhouse
 cline-app
@@ -177,7 +178,6 @@ codeedit
 codeql
 codex
 codexbar
-codexia
 codexmonitor
 cog-app
 comet
@@ -708,6 +708,7 @@ nperf
 nteract
 nugget
 numi
+nvalt
 nvidia-geforce-now
 nvidia-nsight-compute
 nvidia-nsight-systems

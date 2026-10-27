@@ -65,7 +65,6 @@ bluestacks
 boinc
 boltai
 bome-network
-breitbandmessung
 bricklink-partdesigner
 bricklink-studio
 brickstore
@@ -196,6 +195,7 @@ eve-online
 factor
 feather
 ferdium
+festnetz-check
 filen
 filo
 find-empty-folders
