@@ -128,6 +128,7 @@ decrediton
 deepgit
 default-handler
 deltachat
+deutschlandgpt
 devcleaner
 devilutionx
 devolo-cockpit
@@ -396,6 +397,7 @@ my-image-garden
 nanosaur
 nanosaur2
 naver-whale
+nebius
 neovide-app
 nestopia
 nexonplug

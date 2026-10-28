@@ -1043,6 +1043,7 @@ tamery
 tangleguard-cli
 taperlabs-shadow
 tapmap
+task-manager-tmog
 taskexplorer
 tastytrade
 telegram
