@@ -969,6 +969,7 @@ soapui
 socialstream
 sol
 solar2d
+solidcraft
 solidtime
 solvespace
 sonarqube-cli

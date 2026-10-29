@@ -41,11 +41,11 @@ conda-zsh-completion
 container
 container-use
 cookiecutter
+coursier
 cpanminus
 cromwell
 csshx
 ctags
-curl
 dagger
 dart-lang/dart/dart
 dateutils
