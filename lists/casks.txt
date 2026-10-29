@@ -572,6 +572,7 @@ mac-mouse-fix
 mac-performance-monitor
 mac-sai
 maccy
+macdirstat
 macdown-3000
 macgamestore
 macgdbp

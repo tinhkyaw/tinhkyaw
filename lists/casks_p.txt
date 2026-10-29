@@ -1279,6 +1279,7 @@ spacewalker
 spamsieve
 speechify-voice-ai
 speedify
+spencer
 spitfire-audio
 splashtop-business
 splashtop-personal
