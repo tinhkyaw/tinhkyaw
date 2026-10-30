@@ -1,7 +1,6 @@
 ack
 adns
 age
-aider
 ansible
 ansible-lint
 ant
