@@ -586,6 +586,7 @@ macskk
 macsvg
 macsymbolicator
 mactex
+mactoy
 mactracker
 maestral
 maestri
@@ -740,6 +741,7 @@ openchrom
 openclaw
 openclip
 opencode-desktop
+opencodex
 opencomic
 opencpn
 opendisk
@@ -1069,6 +1071,7 @@ theiaide
 there
 thetimemachinemechanic
 thinkorswim
+thinkrail
 thonny
 thorium
 thoughtdag

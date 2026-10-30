@@ -628,6 +628,7 @@ jump-desktop
 jump-desktop-connect
 jumpcloud-password-manager
 jumpshare
+junie
 juxtacode
 k8studio
 kaleidoscope
@@ -675,7 +676,7 @@ liclipse
 lightburn
 lightkey
 linear-linear
-lingon-x
+lingon-pro
 linguax
 linqpad
 liquibase-secure
@@ -928,6 +929,7 @@ onlyoffice
 opal-app
 opal-composer
 openaudible
+openframe-console
 openhuman
 openin
 openwebstart
@@ -1405,6 +1407,7 @@ tinkerwell
 tiny-shield
 tinymediamanager
 tldraw
+tldv
 tm-error-logger
 tnas-pc
 to-audio-converter
@@ -1496,8 +1499,8 @@ vitamin-r
 vivid-app
 vnc-server
 vocaster-hub
+vocevista-pro
 vocevista-video
-vocevista-video-pro
 voiceink
 voicenotes
 voicepeak
