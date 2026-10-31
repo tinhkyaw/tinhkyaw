@@ -417,6 +417,7 @@ hdfview
 headlamp
 helio
 helium-browser
+herdr-app
 hermes-desktop
 heroic
 hex-fiend
@@ -701,6 +702,7 @@ nodeterm
 nook
 nordvpn
 nosql-workbench
+notational-velocity
 notion
 notion-calendar
 notion-cli
@@ -885,6 +887,7 @@ reikey
 relay
 remoteviewer
 renameclick
+rencal
 repetier-host
 replit
 responsively
