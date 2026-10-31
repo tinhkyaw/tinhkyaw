@@ -1164,6 +1164,7 @@ rode-unify
 rode-virtual-channels
 rodecaster
 roon
+roonbridge
 rotato
 rotki
 rouvy
