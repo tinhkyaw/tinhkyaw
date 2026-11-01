@@ -40,7 +40,6 @@ conda-zsh-completion
 container
 container-use
 cookiecutter
-coursier
 cpanminus
 cromwell
 csshx

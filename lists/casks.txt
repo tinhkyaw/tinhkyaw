@@ -606,7 +606,6 @@ massreplaceit
 mater
 mathcha-notebook
 mcpbundler
-mcplinker
 mdhero
 media-converter
 mediahuman-audio-converter

@@ -363,6 +363,7 @@ marathon-infinity
 maru-jan
 material-maker
 mbed-studio
+mcplinker
 mcreator
 mediathekview
 meta-quest-developer-hub
