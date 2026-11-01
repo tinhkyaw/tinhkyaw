@@ -155,7 +155,6 @@ domzilla-caffeine
 dosbox-staging-app
 dotnet-runtime
 droid
-droidcam-obs
 dropbox
 duet
 duo-desktop
@@ -251,7 +250,6 @@ grids
 grs-bluewallet
 gureumkim
 gzdoom
-ha-menu
 hancom-docs
 hancom-word
 handy
@@ -276,6 +274,7 @@ ioquake3
 ios-app-signer
 ip-in-menu-bar
 ipfs-desktop
+irbis-zen
 istherenet
 itau
 jandi-statusbar
@@ -667,4 +666,3 @@ yellowdot
 yes24-ebook
 zalo
 zeitgeist
-zen-privacy
