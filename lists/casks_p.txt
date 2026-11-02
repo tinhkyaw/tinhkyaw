@@ -31,7 +31,6 @@ adobe-creative-cloud-cleaner-tool
 advanced-renamer
 affine
 agentkube
-agentsmesh
 airbuddy
 aircall
 airflow
@@ -946,7 +945,6 @@ orka3
 outline
 output-factory
 overflow
-overtone-analyzer
 ovice
 ovito-pro
 owncloud
@@ -1500,6 +1498,7 @@ vitamin-r
 vivid-app
 vnc-server
 vocaster-hub
+vocevista-basic
 vocevista-pro
 vocevista-video
 voiceink

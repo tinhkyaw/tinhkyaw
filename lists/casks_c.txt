@@ -31,7 +31,6 @@ bobhelper
 buholaunchpad
 cadreader
 cc-switch
-chatall
 chatbox
 chatglm
 cherry-studio
