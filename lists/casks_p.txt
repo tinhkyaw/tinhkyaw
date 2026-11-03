@@ -93,6 +93,7 @@ audio-modeling-software-center
 audiobook-builder
 audiocupcake
 audiorelay
+audioroute
 audirvana
 audius
 auto-tune-central
