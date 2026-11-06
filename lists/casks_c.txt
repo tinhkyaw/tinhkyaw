@@ -59,6 +59,8 @@ douyin-chat
 ds4-control
 easydict
 elegoo-slicer
+emeet-studio
+emeetlink
 eudic
 excalidrawz
 feishu

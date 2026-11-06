@@ -63,6 +63,7 @@ athas
 atlas-app
 atoll
 atuin-desktop
+au-lab
 audacity
 auto-claude
 auto-subs
@@ -382,7 +383,7 @@ gitlight
 gitup-app
 gitx
 glaze-app
-gloomberb
+gloom
 gluemotion
 gns3
 gnucash
