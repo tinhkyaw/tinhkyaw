@@ -15,6 +15,7 @@ altersend
 amethyst
 amethyst-nostr
 amiberry
+anchor-wallet
 android-ndk
 anybar
 app-buddy
@@ -365,7 +366,6 @@ mbed-studio
 mcplinker
 mcreator
 mediathekview
-meta-quest-developer-hub
 meta-quest-remote-desktop
 mgba-app
 middleclick
@@ -408,6 +408,7 @@ notesollama
 nudge
 nvs
 nx-studio
+obelisk
 objectivesharpie
 ollamac
 omniwm
@@ -476,6 +477,7 @@ provisionql
 proxy-audio-device
 psiphon-conduit
 ptpwebcam
+pulse-sms
 purei-play
 pxplay
 pym-player

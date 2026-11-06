@@ -7,7 +7,6 @@ adrafinil
 advantagescope
 aerial
 affinity
-agentide
 agentiloop-agent
 agentsview
 airbuild
@@ -292,6 +291,7 @@ executor
 exelearning
 exifrenamer
 exo
+expose
 fabric-app
 fastdmg
 fbreader
@@ -723,6 +723,7 @@ obs
 obsidian
 ocenaudio
 odbc-manager
+oleafly
 ollama-binary
 omnidisksweeper
 onexrayse
@@ -753,6 +754,7 @@ openframeworks
 openpencil
 openplc-editor
 openrocket
+openscreen
 openshot-video-editor
 opensong
 opensoundmeter
@@ -914,10 +916,12 @@ sabaki
 sabnzbd
 sacnview
 sage
+sanductor
 satdump
 satyrn
 scilab
 scratch
+screendrop
 screenkite
 scribus
 scribus@devel
@@ -1091,6 +1095,7 @@ timemachinestatus
 timescribe
 tine
 tiny-player
+tinycast
 todometer
 tofu
 token-monitor

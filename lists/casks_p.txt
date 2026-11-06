@@ -121,6 +121,7 @@ batteries
 bazecor
 bbedit
 beamer
+beat-link-trigger
 beatunes
 beersmith
 bentobox
@@ -384,6 +385,7 @@ emailchemy
 emby
 embyserver
 emclient
+emeetlink
 emmetapp
 endnote
 energiza
@@ -471,6 +473,7 @@ fontcreator
 fontfinagler
 fontlab
 fontstand
+fore-studio-vitals
 fork
 forklift
 fossa
@@ -480,6 +483,7 @@ frame0
 framer
 franz
 freedom
+freellmapi
 freeyourmusic
 fresh
 front
@@ -765,6 +769,7 @@ merlin-project
 meru
 mesh
 meta
+meta-vr-developer-hub
 metaimage
 metarename
 metashape
@@ -1289,6 +1294,7 @@ splashtop-streamer
 splice
 spline
 spotify
+spotify-soloist
 sprites
 sqleditor
 sqlitemanager
