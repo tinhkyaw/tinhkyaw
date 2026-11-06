@@ -447,6 +447,7 @@ iconset
 idevice-pair
 igv-desktop
 iina
+image-optimizer
 image2icon
 imageoptim
 inform
@@ -1060,6 +1061,7 @@ tastytrade
 telegram
 temurin
 temurin@11
+tendedero
 terax
 terminal-browser
 tev
