@@ -879,6 +879,7 @@ raycast
 rclone-ui
 react-native-debugger
 reactotron
+read-ai
 readest
 realvnc-connect-viewer
 recaf

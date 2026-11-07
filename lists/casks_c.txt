@@ -194,6 +194,7 @@ viso
 visual-paradigm
 visual-paradigm-ce
 waku
+wallpapermachine
 wechat
 wechatwebdevtools
 wechatwork
