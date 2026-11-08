@@ -62,14 +62,12 @@ astrofox
 athas
 atlas-app
 atoll
-atuin-desktop
 au-lab
 audacity
 auto-claude
 auto-subs
 autopkgr
 avast-secure-browser
-aws-vault-binary
 azookey
 balance-lock
 balenaetcher
@@ -437,7 +435,6 @@ hovrly
 http-toolkit
 httpie-desktop
 hush
-hyper
 hyperkey
 iaito
 ibabel
@@ -592,7 +589,6 @@ macsymbolicator
 mactex
 mactoy
 mactracker
-maestral
 maestri
 maestro
 magicquit
@@ -914,7 +910,6 @@ rowel
 rsyncui
 ruffle
 runtimeviewer
-rustcast
 sabaki
 sabnzbd
 sacnview
@@ -1069,6 +1064,7 @@ terminal-browser
 tev
 tex-live-utility
 texmacs
+texpile
 texshop
 textgrabber2
 textmate

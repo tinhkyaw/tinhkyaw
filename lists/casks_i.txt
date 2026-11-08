@@ -213,7 +213,6 @@ font-sf-arabic
 font-sf-armenian
 font-sf-georgian
 font-sf-hebrew
-frappe-books
 fredm-fuse
 freeze
 fs-uae-emulator
@@ -363,7 +362,6 @@ marathon-infinity
 maru-jan
 material-maker
 mbed-studio
-mcplinker
 mcreator
 mediathekview
 meta-quest-remote-desktop

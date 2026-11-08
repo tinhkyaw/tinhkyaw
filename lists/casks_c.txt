@@ -142,7 +142,6 @@ ping-island
 pixcake
 pixpin
 popo
-pot
 qianwen
 qidistudio
 qingg
