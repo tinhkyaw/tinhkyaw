@@ -7,6 +7,7 @@ adrafinil
 advantagescope
 aerial
 affinity
+agent-orchestrator
 agentiloop-agent
 agentsview
 airbuild
@@ -32,6 +33,7 @@ android-platform-tools
 android-studio
 anki
 annotate
+anomaly-hex
 another-redis-desktop-manager
 antconc
 antigravity
@@ -1013,7 +1015,6 @@ steam
 stellarium
 storyboarder
 stratoshark
-stravu-crystal
 stremio
 stringz
 subethaedit
