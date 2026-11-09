@@ -1201,6 +1201,7 @@ x-swiftformat
 xattred
 xbar
 xca
+xcasca
 xdeck
 xnviewmp
 xprocheck

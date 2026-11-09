@@ -115,6 +115,7 @@ manus
 manus-cue
 marginnote
 markedit
+mcloud
 meituxiuxiu
 miaoyan
 mini-program-studio
