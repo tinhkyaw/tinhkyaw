@@ -346,6 +346,7 @@ freeplane
 freeshow
 frescobaldi
 fsnotes
+ftop
 funter
 furtherance
 fuse
@@ -531,6 +532,7 @@ kotlin-lsp
 kotlin-native
 krita
 kstars
+kugelblitz
 kunkun
 labplot
 langflow

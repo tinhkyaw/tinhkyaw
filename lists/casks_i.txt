@@ -314,7 +314,6 @@ leader-key
 league-of-legends
 lectrote
 ledger-wallet
-legcord
 lemonade-server
 lets
 libifd-cyberjack
@@ -580,6 +579,7 @@ the-battle-for-wesnoth
 thecommander
 thor
 tiles
+time-messenger
 tmpdisk
 tng-digital-mini-program-studio
 toolreleases
