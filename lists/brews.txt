@@ -51,6 +51,7 @@ diff-so-fancy
 difftastic
 direnv
 dive
+dotnet
 dprint
 dune
 dust

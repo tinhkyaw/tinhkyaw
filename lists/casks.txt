@@ -830,7 +830,6 @@ podolski
 pomatez
 portfolioperformance
 portkiller
-portx
 positron
 post-haste
 postgres-app
@@ -914,6 +913,7 @@ rowel
 rsyncui
 ruffle
 runtimeviewer
+rustgis
 sabaki
 sabnzbd
 sacnview

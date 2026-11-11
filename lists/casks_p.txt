@@ -147,6 +147,7 @@ bitrix24
 bitwig-studio
 black-ink
 black-light
+blick
 blink1control
 blip
 blisk
@@ -1002,6 +1003,7 @@ phpstorm
 picfindr
 pichon
 picmal
+picoscope
 picsart-ai-playground
 piezo
 pikpak
