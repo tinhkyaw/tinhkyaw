@@ -20,7 +20,6 @@ android-ndk
 anybar
 app-buddy
 appbox
-apple-hewlett-packard-printer-drivers
 ares-emulator
 arm-performance-libraries
 artisan
@@ -351,7 +350,6 @@ macusb
 macvim-app
 macx-youtube-downloader
 mail-assistant
-mailtrackerblocker
 malwarebytes
 manila
 marathon
@@ -572,6 +570,7 @@ swiftdialog
 swish
 switchbar
 tartelet
+teamwork-graph-cli
 telegram-a
 telegram-desktop
 tencent-yingyongbao
