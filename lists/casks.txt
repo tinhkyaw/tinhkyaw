@@ -521,6 +521,7 @@ kicad
 kid3
 kindle-comic-converter
 kirocrew
+kiwidesk
 kiwix
 kkterm
 knockknock
