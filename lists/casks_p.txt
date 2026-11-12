@@ -1340,6 +1340,7 @@ surge
 suuntodm5
 swift-publisher
 swinsian
+switchresx
 switchy
 synalyze-it-pro
 sync
