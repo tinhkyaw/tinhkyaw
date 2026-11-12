@@ -240,6 +240,7 @@ designcraft
 detectx-swift
 devkinsta
 devpod
+devtools
 devtoys
 dexed
 dhs
@@ -823,6 +824,7 @@ pique
 pixieditor
 plane
 planet
+plezy
 plover
 plugdata
 plus42-binary
