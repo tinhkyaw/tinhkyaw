@@ -5,6 +5,7 @@ adobe-acrobat-reader
 adobe-dng-converter
 adrafinil
 advantagescope
+aegisub
 aerial
 affinity
 agent-orchestrator
@@ -541,6 +542,7 @@ langflow
 lapce
 latest
 latexit
+lattice
 leapp
 lens
 letos
@@ -955,6 +957,7 @@ shotcut
 shottr
 showyedge
 shutter-encoder
+sidebarfavorites-manager
 sidex
 sigil
 signal
