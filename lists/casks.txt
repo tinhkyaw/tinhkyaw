@@ -919,6 +919,7 @@ ruffle
 runtimeviewer
 rustgis
 sabaki
+sable
 sabnzbd
 sacnview
 sage
