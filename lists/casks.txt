@@ -52,6 +52,7 @@ approf
 arcbox
 archaeology
 archipelago
+ardia
 arduino-ide
 argo-books
 arm-performix
@@ -312,6 +313,7 @@ firefox
 flacon
 fldigi
 flightgear
+fliqlo
 floorp
 flow5
 flowvision

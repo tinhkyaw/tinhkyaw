@@ -453,6 +453,7 @@ firezone
 fission
 fixkey
 fl-studio
+fleet-desktop
 flexoptix
 flic
 flick
