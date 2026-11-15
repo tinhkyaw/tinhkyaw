@@ -2,7 +2,6 @@
 5ire
 5kplayer
 adrive
-agent-tars
 aigcpanel
 aionui
 aliworkbench
@@ -182,7 +181,6 @@ ths
 thunder
 trae
 trae-cn
-ui-tars
 uniclipboard
 usmart-trade
 utools
