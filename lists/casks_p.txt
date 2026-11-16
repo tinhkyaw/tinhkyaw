@@ -344,7 +344,6 @@ dockspace
 dockx
 dorico
 dot
-dotnet-reactor
 downie
 doxie
 drata-agent
@@ -964,6 +963,7 @@ p4v
 pacifist
 pagico
 paintcode
+pake-app
 paletro
 palmier-pro
 paper
@@ -1114,6 +1114,7 @@ readdle-spark
 reader
 readwise-ibooks
 readyapi
+realtek-rtl815x-ethernet
 realvnc-connect
 reaper
 receipts-space
@@ -1355,6 +1356,7 @@ synology-image-assistant
 synology-surveillance-station-client
 synthesia
 sys-pc-tool
+tab-finder
 tableau
 tableau-prep
 tableau-public

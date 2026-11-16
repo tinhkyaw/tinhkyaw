@@ -435,6 +435,7 @@ hive-app
 hol-guard
 home-assistant
 homebrew-app
+hora-calendar
 horos
 hotkeyclash
 hotovo-aider-desk
@@ -746,6 +747,7 @@ open-data-editor
 open-design
 open-island
 open-science
+open-screen-sharing
 open-video-downloader
 open-webui
 openboard
