@@ -442,6 +442,7 @@ hovrly
 http-toolkit
 httpie-desktop
 hush
+hyperframes
 hyperkey
 iaito
 ibabel
