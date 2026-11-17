@@ -95,6 +95,7 @@ chrysalis
 cityofzion-neon
 cleanupbuddy
 clipaste
+clipboard-remote
 clock-signal
 clone-hero
 cloud-pbx
