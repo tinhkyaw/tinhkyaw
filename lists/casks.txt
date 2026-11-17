@@ -558,6 +558,7 @@ librewolf
 licecap
 licensed-app
 lightcraft
+lightworks
 linear
 linearmouse
 littlebird

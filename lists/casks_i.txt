@@ -515,6 +515,7 @@ scansnap-home
 scoot
 screens-assist
 screens-connect
+screenshot-remote
 scrolla
 scummvm-app
 second-life-viewer
@@ -608,6 +609,7 @@ ulaa
 unity-version-control
 unnaturalscrollwheels
 unshaky
+upload-remote
 usb-overdrive
 vamiga
 vcmi

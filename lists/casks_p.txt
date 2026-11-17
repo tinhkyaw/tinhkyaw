@@ -850,6 +850,7 @@ mqttx
 msgfiler
 mstystudio
 mullvad-vpn
+multidock
 multitouch
 multiviewer
 mumu-x
