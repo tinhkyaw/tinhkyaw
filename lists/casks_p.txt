@@ -748,6 +748,7 @@ master-pdf-editor
 mate-translate
 mathpix-snipping-tool
 mattermost
+max-messages
 maxon
 mdb-accdb-viewer
 mdrp

@@ -16,7 +16,6 @@ airstats
 airtable
 alfred
 algoapp
-algodoo
 alienator88-sentinel
 alifix
 alisma
@@ -96,6 +95,7 @@ bit-slicer
 bitcoin-core
 bitwarden
 blankie
+blave
 blender
 blender-benchmark
 block-buzz
@@ -948,6 +948,7 @@ sculptor
 sdformatter
 sdrmm-app
 seamly2d
+search-browser
 sensiblesidebuttons
 sentry-cli
 sequel-ace
@@ -1191,6 +1192,7 @@ wblock
 wealthfolio
 weasis
 webull
+weftcut
 wezterm
 whalebird
 whatcable
@@ -1236,6 +1238,7 @@ zed
 zed-delta
 zen
 zentty
+zephium
 zettlr
 zoom
 zotero

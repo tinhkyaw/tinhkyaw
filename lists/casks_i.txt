@@ -220,6 +220,7 @@ fs-uae-launcher
 fujifilm-tether-app
 fujifilm-x-raw-studio
 fuse-t
+gallery-remote
 gama-jdk
 gama-platform
 gb-studio
