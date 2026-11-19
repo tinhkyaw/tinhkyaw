@@ -567,6 +567,7 @@ studiolinkstandalone
 supertuxkart
 support
 supportcompanion
+swi-prolog-app
 swift-quit
 swift-shift
 swiftcord

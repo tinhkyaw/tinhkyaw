@@ -543,6 +543,7 @@ kugelblitz
 kunkun
 labplot
 langflow
+lap
 lapce
 latest
 latexit

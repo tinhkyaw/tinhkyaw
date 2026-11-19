@@ -707,6 +707,7 @@ loupedeck
 lrtimelapse
 ltx-desktop
 ludwig
+lumo
 luna-display
 luna-secondary
 lunacy
