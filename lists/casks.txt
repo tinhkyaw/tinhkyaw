@@ -656,6 +656,7 @@ mints
 mirai
 mist
 mister-plimsoll
+mistral-vibe-app
 mitmproxy
 mixxx
 mkvtoolnix-app
@@ -954,6 +955,7 @@ sentry-cli
 sequel-ace
 session
 session-manager-plugin
+setshot
 sf-symbols
 sfm
 shichizip
@@ -1014,6 +1016,7 @@ sparsity
 spatial
 spectra-app
 spectrolite
+speedcrunch
 spires
 spokenly
 springtoolsforeclipse
