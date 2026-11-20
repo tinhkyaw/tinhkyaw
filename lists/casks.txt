@@ -846,6 +846,7 @@ portfolioperformance
 portkiller
 positron
 post-haste
+postbird
 postgres-app
 power-monitor
 praat
