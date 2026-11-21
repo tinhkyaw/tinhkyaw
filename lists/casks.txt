@@ -445,6 +445,7 @@ httpie-desktop
 hush
 hyperframes
 hyperkey
+hyprmac
 iaito
 ibabel
 icanhazshortcut
@@ -489,6 +490,7 @@ jbrowse
 jclasslib-bytecode-viewer
 jdk-mission-control
 jdownloader
+jellybox
 jellyfin
 jellyfin-media-player
 jetbrains-air

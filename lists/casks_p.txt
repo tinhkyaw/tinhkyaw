@@ -1340,6 +1340,7 @@ superhuman-docs
 superkey
 superlist
 supernotes
+supertab
 superwhisper
 supremo
 surfshark
