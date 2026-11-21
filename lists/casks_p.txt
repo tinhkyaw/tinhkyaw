@@ -446,6 +446,7 @@ filebot
 filefaker
 filefillet
 filemaker-pro
+filepane
 finbar
 find-any-file
 fing

@@ -23,6 +23,7 @@ alt-tab
 altair-graphql-client
 altserver
 amical
+amneziavpn
 amp-app
 anaconda
 anarlog
@@ -888,6 +889,7 @@ r-rig-app
 racket
 radar
 radix
+ransomwhere
 rapidapi
 raspberry-pi-imager
 rawtherapee
@@ -962,6 +964,7 @@ session-manager-plugin
 setshot
 sf-symbols
 sfm
+shellrs
 shichizip
 shichizip-zs
 shield
