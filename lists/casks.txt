@@ -397,6 +397,7 @@ go2tv
 go64
 gog-galaxy
 gogs
+goldenpassport
 golly
 google-ads-editor
 google-chrome

@@ -919,6 +919,7 @@ nucleo
 nuclino
 obscura-vpn
 octarine
+octo-browser
 october
 odrive
 offset-explorer
