@@ -250,6 +250,7 @@ dhs
 diagnostics
 diffusionbee
 digital
+dimble
 dintch
 diri
 discord
@@ -369,6 +370,7 @@ geoda
 geolibre
 geomap
 geotag
+geph
 gephi
 get-iplayer-automator
 gg
