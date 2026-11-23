@@ -179,7 +179,7 @@ cocoapacketanalyzer
 cocoarestclient
 codeburn-app
 codeedit
-codeql
+codeql-bundle
 codex
 codexbar
 codexmonitor
@@ -1172,6 +1172,7 @@ valkey-admin
 vapor-app
 vcv-rack
 vectorcraft
+velaterm
 vercel
 versatility
 vibe-notch

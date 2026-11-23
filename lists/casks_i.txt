@@ -103,6 +103,7 @@ cloudflare-warp
 cmake-app
 cockatrice
 code-composer-studio
+codeql
 colour-contrast-analyser
 companion
 companion-satellite
