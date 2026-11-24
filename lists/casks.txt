@@ -811,6 +811,7 @@ panoply
 paraview
 parsify
 paseo
+passenger-ide
 pd
 pdfcraft
 pdfsam-basic
@@ -1077,6 +1078,7 @@ tableplus
 tablepro
 tabularis
 taccy
+tactile
 tad
 tagspaces
 talon

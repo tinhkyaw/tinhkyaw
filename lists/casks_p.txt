@@ -675,6 +675,7 @@ launchbar
 launchcontrol
 launchos
 launchpad-manager
+layout-department
 leech
 letter-opener
 lexicon-dj
