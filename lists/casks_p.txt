@@ -784,8 +784,8 @@ metavideo
 mia-for-gmail
 micro-snitch
 microblog
-microsoft-365-copilot
 microsoft-azure-storage-explorer
+microsoft-copilot
 microsoft-excel
 microsoft-office
 microsoft-office-businesspro
