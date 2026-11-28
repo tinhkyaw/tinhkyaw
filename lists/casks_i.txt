@@ -541,6 +541,7 @@ snowflake-snowsql
 sokim
 sonic3air
 soulseek
+spaceman
 spark-app
 sparkplate
 sparrow

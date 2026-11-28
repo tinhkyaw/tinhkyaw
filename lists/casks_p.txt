@@ -359,6 +359,7 @@ dropshelf
 dropzone
 drovio
 duefocus
+duo-connect
 duplicacy-cli
 duplicacy-web-edition
 duplicate-annihilator-for-photos
@@ -602,6 +603,7 @@ inmusic-software-center
 insomnia
 insta360-link-controller
 insta360-studio
+insta360-wave-controller
 instantview
 insync
 integrity

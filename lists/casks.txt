@@ -35,6 +35,7 @@ android-studio
 anki
 annotate
 anomaly-hex
+anomaly-spaceman
 another-redis-desktop-manager
 antconc
 antigravity
@@ -144,6 +145,7 @@ celestia
 cemu
 chalk
 changes
+chapar
 charmstone
 chatgpt
 chatterino
@@ -299,6 +301,7 @@ exifrenamer
 exo
 expose
 fabric-app
+fanny
 fastdmg
 fbreader
 fedistar
@@ -808,6 +811,7 @@ pale-moon
 pallycompanion
 pandora
 panoply
+paradev
 paraview
 parsify
 paseo
@@ -1023,7 +1027,6 @@ soundcraft
 sourcetree
 space-rabbit
 spacedrive
-spaceman
 sparsity
 spatial
 spectra-app
@@ -1041,6 +1044,7 @@ squidman
 squirrelsql
 ssdreporter-free
 stability-matrix
+stablebar
 standard-notes
 stats
 steam
@@ -1058,7 +1062,6 @@ supaterm
 super
 super-productivity
 supercollider
-superset
 surge-xt
 suspicious-package
 sweet-home3d

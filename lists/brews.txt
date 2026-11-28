@@ -57,7 +57,6 @@ dune
 dust
 duti
 dvc
-edencommon
 eksctl
 elixir
 emacs
@@ -66,8 +65,6 @@ eza
 fabric
 fades
 fastfetch
-fb303
-fbthrift
 fd
 findutils
 firebase-cli
